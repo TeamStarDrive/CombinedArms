@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>1</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>5</TechLevel>
+
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>2</XSIZE>
+  <YSIZE>4</YSIZE>
+  <ModuleType>Turret</ModuleType>
+  <Name>Remnant Magnetic Accelerator cannon</Name>
+  <Restrictions>IO</Restrictions>
+  <UID>REMacReverse</UID>
+  <IconTexturePath>Modules/REMacReverse</IconTexturePath>3
+
+
+  <NameIndex>5475</NameIndex>
+  <DescriptionIndex>5473</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>1</Mass>
+  <Health>35300</Health>
+  <HealthMax>35300</HealthMax>
+
+  <!-- Power Drawn -->
+  <PowerDraw>0</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>REMACWeapon2</WeaponType>
+  <FieldOfFire>50</FieldOfFire>
+
+  
+  
+  <!-- Description -->
+  <Description>Magnetic Accelerator Cannon</Description>
+  
+
+</ShipModule>

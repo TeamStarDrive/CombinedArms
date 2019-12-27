@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Cost>10</Cost>
+	  <DroneModule>true</DroneModule>
+	  <FighterModule>true</FighterModule>
+	  <CorvetteModule>true</CorvetteModule>
+	  <FrigateModule>true</FrigateModule>
+	  <DestroyerModule>true</DestroyerModule>
+	  <CruiserModule>true</CruiserModule>
+	  <CarrierModule>true</CarrierModule>
+	  <CapitalModule>true</CapitalModule>
+	  
+	  <FreighterModule>true</FreighterModule>
+	  <PlatformModule>true</PlatformModule>
+	  <StationModule>true</StationModule>	
+	<!-- Tech Level -->
+	<TechLevel>6</TechLevel>
+	<TechBranch>Armor</TechBranch>
+	<!-- common traits shared by all ship modules -->
+	<XSIZE>1</XSIZE>
+	<YSIZE>1</YSIZE>
+	<ModuleType>Armor</ModuleType>
+	<Name>HSA-Mirage Small</Name>
+	<Restrictions>O</Restrictions>
+	<UID>HSA-Mirage Small</UID>
+	<TexturePath>Textures/transparent</TexturePath>
+	<IconTexturePath>Modules/Mirage_Armor_Small</IconTexturePath>
+	<NameIndex>8213</NameIndex>
+	<DescriptionIndex>8214</DescriptionIndex>
+	<!-- Mass and Health -->
+	<Mass>15</Mass>
+	<Health>1600</Health>
+	<HealthMax>1600</HealthMax>
+    <RepairDifficulty>3</RepairDifficulty>
+    <DamageThreshold>120</DamageThreshold>			      						
+	<!-- Power Drawn -->
+	<PowerDraw>8</PowerDraw>
+	<PowerDrawAtWarp>-4</PowerDrawAtWarp>
+	<shield_power>1500</shield_power>
+	<shield_power_max>1500</shield_power_max>
+	<shield_recharge_delay>6.0</shield_recharge_delay>
+	<shield_recharge_rate>30.0</shield_recharge_rate>
+	<shield_radius>50</shield_radius>
+	<!-- Armor Resistance -->
+	<EnergyResist>-0.05</EnergyResist>
+	<!-- Crew Reqs -->
+	<CrewRequired>0</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<!-- for Weapons -->
+	<!-- for Engines -->
+	<thrust>0</thrust>
+	<!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
+	<TurnThrust>0</TurnThrust>
+	<WarpThrust>10000</WarpThrust>
+	<!-- Description -->
+	<Description>The best shield armor that we can manufactured. The medium and large saiz heavy shield armor system- Frontier include a self-sufficient power-generator makes it only need few power to run on our ship.</Description>
+	<APResist>2</APResist> 
+</ShipModule>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EmpireData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PortraitName>Dauntless</PortraitName>
+  <MusicCue>sd_races_Terran</MusicCue>
+  <DiplomacyDialogPath>Dauntless</DiplomacyDialogPath>
+  <StartingShip>Hammer Mk1</StartingShip>
+  <StartingScout>Hammerhead Scout</StartingScout>
+  <PrototypeShip>Dauntless-Prototype</PrototypeShip>
+  <DefaultSmallTransport>HH-C1 Courier</DefaultSmallTransport>
+  <DefaultColonyShip>HH-C1 Colony Ship</DefaultColonyShip>
+  <DefaultTroopShip>Dauntless Troop</DefaultTroopShip>
+  <DefaultConstructor>HH-C1 Constructor</DefaultConstructor>  
+  <DefaultAssaultShuttle>Dauntless Assault Shuttle</DefaultAssaultShuttle>
+  <DefaultSupplyShuttle>Dauntless-Supply</DefaultSupplyShuttle>
+  <ExcludedDTraits>
+    <string>Pacifist</string>
+    <string>Honorable</string>
+  </ExcludedDTraits>
+ 
+  
+    <!-- Rebel Faction data.-->
+  <RebelName>Warden Rebels</RebelName>
+  <RebelSing>Warden</RebelSing>
+  <RebelPlur>Wardens</RebelPlur>
+  <TroopNameIndex>2083</TroopNameIndex>
+  <TroopDescriptionIndex>2092</TroopDescriptionIndex>
+  <ThrustColor0R>255</ThrustColor0R> <!-- Red -->
+  <ThrustColor0G>0</ThrustColor0G>
+  <ThrustColor0B>0</ThrustColor0B>
+  <ThrustColor1R>0</ThrustColor1R> <!-- Cyan -->
+  <ThrustColor1G>255</ThrustColor1G>
+  <ThrustColor1B>255</ThrustColor1B>	  
+
+  <EnvTerran>2</EnvTerran>
+  <EnvOceanic>0.5</EnvOceanic>
+  <EnvSteppe>1.5</EnvSteppe>
+  <EnvTundra>1</EnvTundra>
+  <EnvSwamp>0.5</EnvSwamp>
+  <EnvDesert>0.25</EnvDesert>
+  <EnvIce>0.25</EnvIce>
+  <EnvBarren>0.1</EnvBarren>  
+  <PreferredEnv>Terran</PreferredEnv>  
+  
+  <Traits>
+    <Name>Dauntless Corporation</Name>
+    <Singular>Human</Singular>
+    <Plural>Humans</Plural>
+    <VideoPath>Dauntless</VideoPath>
+    <ShipType>Dauntless</ShipType>
+    <Adj1>smooth-skinned</Adj1>
+    <Adj2>simian</Adj2>
+    <HomeSystemName>Tau Ceti</HomeSystemName>
+    <HomeworldName>Mire</HomeworldName>
+    <FlagIndex>42</FlagIndex>
+    <R>172</R>
+    <G>201</G>
+    <B>238</B>
+    <RaceDescription>The Dauntless corporation was once goverened by the United Empire. The events that resulted in them becoming an independant nation with their own homeworld have never been fully explained.</RaceDescription>
+    <Cost>0</Cost>
+    <ConsumptionModifier>0</ConsumptionModifier>
+    <ReproductionMod>0</ReproductionMod>
+    <DiplomacyMod>0</DiplomacyMod>
+    <GenericMaxPopMod>0</GenericMaxPopMod>
+    <Aquatic>0</Aquatic>
+    <Burrowers>0</Burrowers>
+    <Blind>0</Blind>
+    <BonusExplored>0</BonusExplored>
+    <Pioneers>0</Pioneers>
+    <Militaristic>0</Militaristic>
+    <HomeworldSizeMod>0</HomeworldSizeMod>
+    <Prewarp>0</Prewarp>
+    <Spiritual>0</Spiritual>
+    <HomeworldFertMod>0</HomeworldFertMod>
+    <DodgeMod>0</DodgeMod>
+    <EnergyDamageMod>0</EnergyDamageMod>
+    <ResearchMod>0</ResearchMod>
+    <Mercantile>1</Mercantile>
+    <Miners>0</Miners>
+    <ProductionMod>.35</ProductionMod>
+    <MaintMod>.25</MaintMod>
+    <TaxMod>0</TaxMod>
+    <ShipCostMod>-.35</ShipCostMod>
+    <ModHpModifier>.2</ModHpModifier>
+    <SmallSize>0</SmallSize>
+    <HugeSize>0</HugeSize>
+    <GroundCombatModifier>0</GroundCombatModifier>
+    <RepairRateMod>0</RepairRateMod>
+    <Cybernetic>0</Cybernetic>
+    <Prototype>0</Prototype>
+    <HistoryTraitNavalTraditions>true</HistoryTraitNavalTraditions> 
+	<PreferredEnvDescription>17900</PreferredEnvDescription>	
+  </Traits>
+  <Faction>0</Faction>
+</EmpireData>

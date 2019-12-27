@@ -1,0 +1,98 @@
+﻿# StarDrive - MainMenu UI layout
+# Created 2018.02.06 by RedFox
+#
+# You can add or remove elements here while the game is running
+# to view changes in real time.
+# Some ID-s have hardcoded default behaviours like the buttons
+#
+Screen: main_menu
+  # virtual size sets up the entire screen coordinate system
+  # these coordinates will be translated into actual screen coordinates automatically
+  # even if the game is running at 2560x1440 or 1280x720, all coordinates in this file
+  # are defined by this. Different aspect ratios get automatically repositioned.
+  VirtualSize: [1920,1080]
+  
+Panel: background
+  Texture: MainMenu/HR_nebula_stars_bg.png
+  Size: [1, 0] # fill to width, auto-pick height
+  AxisAlign: TopLeft # Align our Pos and Axis to BottomLeft
+  DrawDepth: Background
+
+Panel: Ca_logo
+  Texture: MainMenu/ca_logo.png
+  Size: [0.7, 0] # fill to width, auto-pick height
+  Pos: [50, -200]
+  AxisAlign: TopRight # Align our Pos and Axis to BottomLeft
+  DrawDepth: Background
+
+Panel: hex
+  Texture: MainMenu/planet_grid.png
+  Size: [0.27, 0] # fill to width, auto-pick height
+  Pos: [-700, 0]
+  AxisAlign: TopRight # Align our Pos and Axis to BottomLeft
+  DrawDepth: Background
+
+Panel: planet_flare
+  Texture: MainMenu/moon_1.png
+  Pos: [0, 0]
+  AxisAlign: Center
+  DrawDepth: Background
+  Animation: [0, 3, 3, 1.25, 1.25] # delay, duration, end-time, fadein, fadeout
+    MinColor: [0.85,0.85,0.85,1.0] # vary the color from min
+    MaxColor: [1.0,1.0,1.0,1.0]    # to max
+
+Panel: planet_flare
+  Texture: MainMenu/moon_3.png
+  Pos: [0, 0]
+  AxisAlign: Center
+  DrawDepth: Background
+  Animation: [0, 3, 3, 1.25, 1.25] # delay, duration, end-time, fadein, fadeout
+    MinColor: [0.85,0.85,0.85,1.0] # vary the color from min
+    MaxColor: [1.0,1.0,1.0,1.0]    # to max
+    
+List: buttons
+  Rect: [-20, 0.22, 200, 600]
+  AxisAlign: CenterRight
+  Padding: [5,15]
+  # Fill -- fill to width of the list
+  # Clip -- clip elements to width of the list
+  # Resize -- auto resize list itself
+  ListLayout: Resize
+  Children:
+    Button: new_game
+      ButtonStyle: Default
+      Size: [1.0, 0] # aspect fill width
+      Title: "{1}" # "New Game"
+      ClickSfx: sd_ui_tactical_pause
+    Button: tutorials
+      Title: "{3}" # "Tutorials"
+      Size: [1.0, 0]
+      ClickSfx: sd_ui_tactical_pause
+    Button: load_game
+      Title: "{2}" # "Load Game"
+      Size: [1.0, 0]
+      ClickSfx: sd_ui_tactical_pause
+    Button: options
+      Title: "{4}" # "Options"
+      Size: [1.0, 0]
+      ClickSfx: sd_ui_tactical_pause
+    Button: mods
+      Title: "Mods"
+      Size: [1.0, 0]
+      ClickSfx: sd_ui_tactical_pause
+    Button: sandbox
+      Title: "Dev Sandbox"
+      Size: [1.0, 0]
+      ClickSfx: sd_ui_tactical_pause
+    Button: info
+      Title: "BlackBox Info"
+      Size: [1.0, 0]
+      ClickSfx: sd_ui_tactical_pause
+    Button: version
+      Title: "Version Check"
+      Size: [1.0, 0]
+      ClickSfx: sd_ui_tactical_pause
+    Button: exit
+      Title: "{5}" # "Exit"
+      Size: [1.0, 0]
+      ClickSfx: sd_ui_tactical_pause

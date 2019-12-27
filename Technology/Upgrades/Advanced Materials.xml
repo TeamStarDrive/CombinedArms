@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Advanced Materials</UID>
+  <TechnologyType>ShipGeneral</TechnologyType>
+  <Cost>300</Cost>
+  <RootNode>0</RootNode>
+  <Name>Advanced Materials</Name>
+  <NameIndex>500</NameIndex>
+  <DescriptionIndex>501</DescriptionIndex>
+  <LongDescription>Although steel armor is inexpensive, it is extremely heavy and reduces the maneuverability of our ships significantly. By focusing our research efforts on developing new construction materials, we can reduce the mass of all of our ship components across the board.</LongDescription>
+  <LeadsTo>
+    <LeadsToTech>
+      <UID>Advanced Materials v2</UID>
+    </LeadsToTech>
+  </LeadsTo>
+  <BuildingsUnlocked />
+  <BonusUnlocked>
+    <UnlockedBonus>
+      <Name>Mass Reduction</Name>
+      <Bonus>-0.04</Bonus>
+      <Description>New materials reduce effective ship mass by 4% across the board. </Description>
+      <BonusIndex>502</BonusIndex>
+    </UnlockedBonus>
+  </BonusUnlocked>
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

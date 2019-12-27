@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>64</Cost>
+  <FighterModule>false</FighterModule>
+  <!-- Tech Level -->
+  <TechLevel>6</TechLevel>
+  <TechBranch>Armor</TechBranch>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>3</XSIZE>
+  <YSIZE>3</YSIZE>
+  <ModuleType>Armor</ModuleType>
+  <Name>Shapememory_Alloys_Large3</Name>
+  <Restrictions>I</Restrictions>
+  <UID>Shapememory_Alloys_Large3</UID>
+  <TexturePath>Textures/transparent</TexturePath>
+  <IconTexturePath>Modules/Shapememory_Alloys_Large3</IconTexturePath>
+
+
+  <NameIndex>17819</NameIndex>
+  <DescriptionIndex>5999</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>72</Mass>
+  <Health>18750</Health>
+  <HealthMax>18750</HealthMax>
+  <RepairDifficulty>3</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>105</PowerDraw>
+  <PowerDrawAtWarp>-10</PowerDrawAtWarp>
+  <BonusRepairRate>135</BonusRepairRate>
+  <modRadius>1</modRadius>
+  <!-- Armor Resistance -->
+  <ExplosiveResist>0.6</ExplosiveResist>
+
+  <!-- Crew Reqs -->
+  <CrewRequired>0</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+
+  <!-- for Weapons -->
+
+
+  <!-- Description -->
+  <Description>Shapememory Alloys can slowly repair itself when damaged.</Description>
+  
+
+</ShipModule>

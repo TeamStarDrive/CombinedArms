@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Active Armor</UID>
+  <TechnologyType>ShipDefense</TechnologyType>
+  <Cost>16200</Cost>
+  <RootNode>0</RootNode>
+  <Name>Active Armor</Name>
+  <NameIndex>8211</NameIndex>
+  <DescriptionIndex>8212</DescriptionIndex>
+  <LongDescription>Active Armor</LongDescription>
+  <LeadsTo>
+	<LeadsToTech>
+		<UID>Tritanium Armor</UID>
+	</LeadsToTech>
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>Active Armor Small</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>Active Armor Med</ModuleUID>
+    </UnlockedMod>    
+    <UnlockedMod>
+      <ModuleUID>Active Armor Large</ModuleUID>
+    </UnlockedMod>
+	<UnlockedMod>
+	  <ModuleUID>Repeater2x2_Hyper</ModuleUID>
+	</UnlockedMod>							
+  </ModulesUnlocked>
+
+  <BuildingsUnlocked />
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

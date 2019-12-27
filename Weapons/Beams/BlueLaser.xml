@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Beam>true</Tag_Beam>
+  <Tag_PD>true</Tag_PD>   <!-- this is so the pulse beam wont be affected by acc nerf -->
+
+  <UID>BlueLaser</UID>
+  <isBeam>true</isBeam>
+  <fireDelay>0.6</fireDelay>
+  <Range>2300</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
+  
+  <!-- name of XACT audio cue to play on firing this weapon -->
+
+  <fireCueName>sd_weapon_flame_start_01</fireCueName>
+  <ToggleSoundName>sd_weapon_beam_electric_med</ToggleSoundName>
+
+  <BeamTexture>beam_blue</BeamTexture>
+  <BeamDuration>0.3</BeamDuration>
+
+  <!-- Projectile Information -->
+  <DamageAmount>7</DamageAmount>
+  <BeamThickness>22</BeamThickness>
+  <BeamPowerCostPerSecond>240</BeamPowerCostPerSecond>
+<WeaponType>Energy Beam</WeaponType>
+</Weapon>

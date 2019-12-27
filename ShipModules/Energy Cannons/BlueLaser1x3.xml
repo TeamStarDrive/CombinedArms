@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+<!-- The Doctor, StarDrive Turbo: these are boolean values that configure precisely which ship hull classes are able to mount your module. Like the old 'FightersOnly' tag, except comprehensive in the control provided -->
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>true</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <FrigateModule>false</FrigateModule>
+  <DestroyerModule>false</DestroyerModule>
+  <CruiserModule>false</CruiserModule>
+  <CarrierModule>false</CarrierModule>
+  <CapitalModule>false</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>false</PlatformModule>
+  <StationModule>false</StationModule>
+  
+  
+  <Cost>5</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>3</TechLevel>
+  
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>1</XSIZE>
+  <YSIZE>3</YSIZE>
+  <ModuleType>MainGun</ModuleType>
+  <Name>BlueLaser1x3</Name>
+  <Restrictions>O</Restrictions>
+  <UID>BlueLaser1x3</UID>
+  <IconTexturePath>Modules/BlueLaser1x3</IconTexturePath>
+
+
+  <NameIndex>5482</NameIndex>
+  <DescriptionIndex>5483</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>10</Mass>
+  <Health>256</Health>
+  <HealthMax>256</HealthMax>
+  <RepairDifficulty>2.5</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>7</PowerDraw>
+
+
+  <!-- Crew Reqs -->
+  <CrewRequired>12</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+
+ 
+  <!-- for Weapons -->
+  <WeaponType>BlueLaser1x3</WeaponType>
+  <FieldOfFire>30</FieldOfFire>
+  <Left>1</Left>
+  <Right>1</Right>
+  <Rear>1</Rear>
+  
+  
+  <!-- Description -->
+  <Description>This is a heavier variant of the standard laser cannon.  Its increased size allows for the creation and delivery of a higher-energy laser pulse.</Description>
+  
+
+</ShipModule>

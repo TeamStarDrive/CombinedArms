@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<UID>Bionic Armor</UID>
+	<TechnologyType>ShipDefense</TechnologyType>
+	<Cost>705</Cost>
+	<RootNode>0</RootNode>
+	<Name>Bionic Armor</Name>
+	<NameIndex>6583</NameIndex>
+	<DescriptionIndex>17483</DescriptionIndex>
+	<LongDescription>Bionic Armor slowly regens when damaged.</LongDescription>
+	<LeadsTo>
+		<LeadsToTech>
+			<UID>Organic Armor</UID>
+		</LeadsToTech>
+	</LeadsTo>
+Organic Armor
+  <ModulesUnlocked>
+		<UnlockedMod>
+			<ModuleUID>Bionic Armor Small</ModuleUID>
+		</UnlockedMod>
+		<UnlockedMod>
+			<ModuleUID>Bionic Armor Med</ModuleUID>
+		</UnlockedMod>
+		<UnlockedMod>
+			<ModuleUID>Bionic Armor Large</ModuleUID>
+		</UnlockedMod>
+	</ModulesUnlocked>
+	<BuildingsUnlocked/>
+	<BonusUnlocked/>
+	<TroopsUnlocked/>
+	<HullsUnlocked/>
+</Technology>

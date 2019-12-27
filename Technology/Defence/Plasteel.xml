@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Plasteel</UID>
+  <TechnologyType>ShipDefense</TechnologyType>
+  <Cost>50</Cost>
+  <RootNode>0</RootNode>
+  <Name>Plasteel</Name>
+  <NameIndex>5301</NameIndex>
+  <DescriptionIndex>5302</DescriptionIndex>
+  <LongDescription>Although steel armor is inexpensive, it is extremely heavy and reduces the maneuverability of our ships significantly. By focusing our research efforts on developing new construction materials, we can reduce the mass of all of our ship components across the board.</LongDescription>
+  <LeadsTo>
+    <LeadsToTech>
+      <UID>Shapememory Alloys</UID>
+    </LeadsToTech>
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>PlaSteelArmorSmall</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>PlaSteelArmorMed</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>PlaSteelArmorLarge</ModuleUID>
+    </UnlockedMod>
+  </ModulesUnlocked>
+  <BuildingsUnlocked />
+  <UnlockedAtGameStart>
+    <RaceRequirements>
+      <RacialTrait>Militaristic</RacialTrait>
+    </RaceRequirements>
+  </UnlockedAtGameStart>  
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

@@ -1,0 +1,33 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Explosive>true</Tag_Explosive>
+  <Tag_Cannon>true</Tag_Cannon>
+  <Tag_PD>true</Tag_PD>  
+  
+  <UID>FlakAA Cannon</UID>
+  <fireDelay>0.4</fireDelay>
+  <SalvoCount>3</SalvoCount> 
+  <SalvoTimer>0.3</SalvoTimer>  
+  <Range>2200</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0.4</OrdinanceRequiredToFire>
+  <TruePD>false</TruePD>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_flakcannon_01</fireCueName>
+  <PlaySoundOncePerSalvo>false</PlaySoundOncePerSalvo>
+  <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
+  <!-- Projectile Information -->
+  <DamageAmount>20</DamageAmount>
+  <Scale>1</Scale>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>1100</ProjectileSpeed>
+  <ProjectileRadius>20</ProjectileRadius>  
+  <DamageRadius>20</DamageRadius>
+  <explodes>true</explodes>
+  <ProjectileTexturePath>projTear_02_purple_dual</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <!--the projectile count is spread over the fire arc-->
+  <FireCone>8</FireCone>
+  <WeaponType>AA Weapons</WeaponType>
+</Weapon>

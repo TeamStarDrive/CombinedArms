@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Shotgun Emp Rounds</UID>
+  <TechnologyType>ShipWeapons</TechnologyType>
+  <Cost>600</Cost>
+  
+  <Name>Shotgun Emp Rounds</Name>
+  <NameIndex>5428</NameIndex>
+  <DescriptionIndex>5426</DescriptionIndex>
+  <LeadsTo> 
+   <LeadsToTech>
+      <UID>Shotgun Repeater</UID>
+    </LeadsToTech>
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>ShotgunHVEmp</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>ShotgunHVEmp1x3</ModuleUID>
+    </UnlockedMod>	
+  </ModulesUnlocked>
+  <BuildingsUnlocked />
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

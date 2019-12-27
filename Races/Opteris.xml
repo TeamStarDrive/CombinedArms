@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EmpireData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PortraitName>Opteris</PortraitName>
+  <MusicCue>Bug_02_loop</MusicCue>
+  <DiplomacyDialogPath>Opteris</DiplomacyDialogPath>
+  <StartingShip>Drone Interceptor</StartingShip>
+  <StartingScout>Drone Scout</StartingScout>
+  <PrototypeShip>Opteris-Prototype</PrototypeShip>
+  <DefaultSmallTransport>Creeper Transport</DefaultSmallTransport>
+  <DefaultTroopShip>Opteris Troop</DefaultTroopShip>
+  <DefaultColonyShip>Opteris Hivepod Mk1</DefaultColonyShip>
+  <DefaultConstructor>Creeper Transport</DefaultConstructor>
+  <DefaultAssaultShuttle>Opteris Assault Shuttle</DefaultAssaultShuttle>
+  <DefaultSupplyShuttle>Opteris-Supply</DefaultSupplyShuttle>
+  
+  <RebelName>Liberated Opteris AI</RebelName>
+  <RebelSing>Liberated AI</RebelSing>
+  <RebelPlur>Liberated AIs</RebelPlur>
+  <TroopNameIndex>2086</TroopNameIndex>
+  <TroopDescriptionIndex>2096</TroopDescriptionIndex>
+  <WarpStart>sd_warp_start_opteris_01</WarpStart>
+  <WarpEnd>sd_warp_stop_opteris_01</WarpEnd>
+  <ThrustColor0R>173</ThrustColor0R> <!-- LightBlue -->
+  <ThrustColor0G>216</ThrustColor0G>
+  <ThrustColor0B>230</ThrustColor0B>
+  <ThrustColor1R>0</ThrustColor1R> <!-- Blue -->
+  <ThrustColor1G>0</ThrustColor1G>
+  <ThrustColor1B>255</ThrustColor1B>	
+
+  <EnvTerran>0.25</EnvTerran>
+  <EnvOceanic>0.5</EnvOceanic>
+  <EnvSteppe>0.5</EnvSteppe>
+  <EnvTundra>0.25</EnvTundra>
+  <EnvSwamp>0.25</EnvSwamp>
+  <EnvDesert>0.5</EnvDesert>
+  <EnvIce>0.75</EnvIce>
+  <EnvBarren>2</EnvBarren>  
+  <PreferredEnv>Barren</PreferredEnv>  
+  
+  <ExcludedDTraits>
+    <string>Pacifist</string>
+    <string>Honorable</string>
+    <string>Cunning</string>
+    <string>Xenophobic</string>
+    <string>Aggressive</string>
+  </ExcludedDTraits>
+  <ExcludedETraits>
+    <string>Industrialists</string>
+    <string>Generalists</string>
+    <string>Militarists</string>
+    <string>Expansionists</string>
+  </ExcludedETraits>
+  <Traits>
+    <Name>Opteris</Name>
+    <Singular>Opteris</Singular>
+    <Plural>Opteris</Plural>
+    <VideoPath>Opteris</VideoPath>
+    <ShipType>Opteris</ShipType>
+    <Adj1>strange</Adj1>
+    <Adj2>eerie</Adj2>
+    <HomeSystemName>Opteris</HomeSystemName>
+    <HomeworldName>Zero</HomeworldName>
+    <FlagIndex>37</FlagIndex>
+    <R>90</R>
+    <G>87</G>
+    <B>51</B>
+    <RaceDescription>Bzzzz!</RaceDescription>
+    <Cost>0</Cost>
+    <ConsumptionModifier>-.25</ConsumptionModifier>
+    <ReproductionMod>0</ReproductionMod>
+    <DiplomacyMod>-.25</DiplomacyMod>
+    <GenericMaxPopMod>0</GenericMaxPopMod>
+    <Aquatic>0</Aquatic>
+    <Burrowers>0</Burrowers>
+    <Blind>0</Blind>
+    <BonusExplored>0</BonusExplored>
+    <Pioneers>0</Pioneers>
+    <Militaristic>0</Militaristic>
+    <HomeworldSizeMod>-.25</HomeworldSizeMod>
+    <Prewarp>0</Prewarp>
+    <Spiritual>0</Spiritual>
+    <HomeworldFertMod>-.5</HomeworldFertMod>
+    <DodgeMod>0</DodgeMod>
+    <EnergyDamageMod>.2</EnergyDamageMod>
+    <ResearchMod>0</ResearchMod>
+    <Mercantile>0</Mercantile>
+    <Miners>0</Miners>
+    <ProductionMod>.35</ProductionMod>
+    <MaintMod>0</MaintMod>
+    <TaxMod>0</TaxMod>
+    <ShipCostMod>0</ShipCostMod>
+    <ModHpModifier>0</ModHpModifier>
+    <SmallSize>0</SmallSize>
+    <HugeSize>0</HugeSize>
+    <HomeworldRichMod>1.0</HomeworldRichMod>
+    <GroundCombatModifier>0</GroundCombatModifier>
+    <RepairRateMod>0</RepairRateMod>
+    <Cybernetic>1</Cybernetic>
+	<PreferredEnvDescription>17893</PreferredEnvDescription>		
+  </Traits>
+  <Faction>0</Faction>
+</EmpireData>

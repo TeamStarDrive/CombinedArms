@@ -1,0 +1,51 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>4</Cost>
+  <TechLevel>0</TechLevel>  
+  <!-- common traits shared by all ship modules -->
+  <ModuleType>Turret</ModuleType>
+  <XSIZE>2</XSIZE>
+  <YSIZE>2</YSIZE>
+  <Name>Flak Turret MKII</Name>
+  <Restrictions>O</Restrictions>
+  <UID>270FlakTurret</UID>
+  <IconTexturePath>Modules/FlakTurretmk2_v2</IconTexturePath>
+  <Mass>10</Mass>
+  <Health>400</Health>
+  <HealthMax>400</HealthMax>
+  <energyreq>0</energyreq>
+  <Description>The MKII version of the Flak Turret boasts an improved firing arc and better protection at the expense of increased weight and a lower magazine capacity.
+  </Description>
+  <CrewRequired>12</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+  <PowerDraw>4</PowerDraw>
+
+  <NameIndex>12003</NameIndex>
+  <DescriptionIndex>12004</DescriptionIndex>
+
+
+  <!-- for shield items -->
+  <shield_power>0</shield_power>
+  <shield_power_max>0</shield_power_max>
+  <shield_recharge_delay>0</shield_recharge_delay>
+  <shield_recharge_rate>0</shield_recharge_rate>
+  <shield_radius>0</shield_radius>
+  <radius>0</radius>
+
+  <!-- for PowerPlant Items -->
+  <explodes>false</explodes>
+  <PowerFlowMax>0</PowerFlowMax>
+  <PowerStoreMax>0</PowerStoreMax>
+  
+  <!-- for Weapons -->
+  <WeaponType>KineticTurret</WeaponType>
+  <FieldOfFire>120</FieldOfFire>
+  <OrdinanceCapacity>12</OrdinanceCapacity>
+  
+  <!-- for Engines -->
+  <thrust>0</thrust>
+  
+  
+
+</ShipModule>

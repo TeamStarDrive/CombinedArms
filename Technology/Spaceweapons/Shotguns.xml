@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Shotguns</UID>
+  <TechnologyType>ShipWeapons</TechnologyType>
+  <Cost>250</Cost>
+  
+  <Name>Shotguns</Name>
+  <NameIndex>5427</NameIndex>
+  <DescriptionIndex>5426</DescriptionIndex>
+  <LeadsTo> 
+   <LeadsToTech>
+      <UID>Shotgun Emp Rounds</UID>
+    </LeadsToTech>
+    <LeadsToTech>
+      <UID>Suppressive Fire</UID>
+    </LeadsToTech>	
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>Flechette AF Turret</ModuleUID>
+    </UnlockedMod>
+  </ModulesUnlocked>
+  <BuildingsUnlocked />
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

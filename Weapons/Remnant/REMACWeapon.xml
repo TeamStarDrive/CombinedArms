@@ -1,0 +1,43 @@
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Energy>false</Tag_Energy>
+  <Tag_Guided>false</Tag_Guided>
+  <Tag_Missile>false</Tag_Missile>
+  <Tag_Hybrid>false</Tag_Hybrid>
+  <Tag_Beam>false</Tag_Beam>
+  <Tag_Intercept>false</Tag_Intercept>
+  <Tag_Explosive>true</Tag_Explosive>
+  <Tag_Bomb>false</Tag_Bomb>
+  <Tag_Railgun>false</Tag_Railgun>
+  <Tag_BioWeapon>false</Tag_BioWeapon>
+  <Tag_Warp>false</Tag_Warp>
+  <Tag_Subspace>false</Tag_Subspace>
+  <Tag_Drone>false</Tag_Drone>
+  <Tag_Torpedo>false</Tag_Torpedo>
+  <Tag_Cannon>true</Tag_Cannon>
+  <UID>REMACWeapon</UID>
+  <fireDelay>20</fireDelay>
+  <Range>16000</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
+  <SalvoCount>12</SalvoCount>
+  <SalvoTimer>0.1</SalvoTimer>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_bigcannon_01</fireCueName>
+
+
+  <!-- Projectile Information -->
+  <DamageAmount>15050</DamageAmount>
+  <explodes>true</explodes>
+  <DamageRadius>80</DamageRadius>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>5000</ProjectileSpeed>
+  <Scale>2.5</Scale>
+
+  <ProjectileTexturePath>projLong_02_cyan</ProjectileTexturePath>
+  <ModelPath>projLong</ModelPath>
+  <WeaponType>RemnantTech</WeaponType>
+  <FireCone>1</FireCone>
+
+
+</Weapon>

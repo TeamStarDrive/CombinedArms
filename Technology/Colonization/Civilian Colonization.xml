@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Civilian Colonization</UID>
+  <TechnologyType>Colonization</TechnologyType>
+  <Cost>160</Cost>
+  <Name>Civilian Colonization</Name>
+  <NameIndex>5413</NameIndex>
+  <DescriptionIndex>5414</DescriptionIndex>
+  <LeadsTo>
+    <LeadsToTech>
+      <UID>Cryogenics</UID>
+    </LeadsToTech>	
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>ColonyModuleFood</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>ColonyModuleProduction</ModuleUID>
+    </UnlockedMod>
+  </ModulesUnlocked>
+  <BuildingsUnlocked>
+    <UnlockedBuilding>
+      <Name>Food Replicator</Name>
+    </UnlockedBuilding>  	  
+    <UnlockedBuilding>
+      <Name>Manufacturing Plant</Name>
+    </UnlockedBuilding>  
+  </BuildingsUnlocked>
+</Technology>

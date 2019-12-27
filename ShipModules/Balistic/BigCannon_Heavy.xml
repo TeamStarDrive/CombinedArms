@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <DestroyerModule>false</DestroyerModule>
+  <FrigateModule>false</FrigateModule>
+  <CruiserModule>false</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+
+  <Cost>50</Cost>
+  <TechLevel>3</TechLevel>  
+  <!-- common traits shared by all ship modules -->
+  <ModuleType>MainGun</ModuleType>
+  <XSIZE>4</XSIZE>
+  <YSIZE>9</YSIZE>
+  <Name>Massive Cannon</Name>
+  <Restrictions>O</Restrictions>
+  <UID>BigCannon_Heavy</UID>
+  <IconTexturePath>Modules/BigCannon_Heavy</IconTexturePath>
+  <Mass>300</Mass>
+  <Health>6000</Health>
+  <HealthMax>6000</HealthMax>
+  <RepairDifficulty>1.5</RepairDifficulty>
+  <energyreq>0</energyreq>
+  <Description>This monstrous cannon fires fast-moving, high explosive shells.  It consumes considerable ordnance to fire this weapon but its power is unquestionable.  That said, only a few few ships are large enough to mount this weapon.
+  </Description>
+  <CrewRequired>12</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+  <PowerDraw>72</PowerDraw>
+
+  <NameIndex>17571</NameIndex>
+  <DescriptionIndex>17572</DescriptionIndex>
+
+  <!-- for shield items -->
+  <shield_power>0</shield_power>
+  <shield_power_max>0</shield_power_max>
+  <shield_recharge_delay>0</shield_recharge_delay>
+  <shield_recharge_rate>0</shield_recharge_rate>
+  <shield_radius>0</shield_radius>
+  <radius>0</radius>
+
+  <!-- for PowerPlant Items -->
+  <explodes>false</explodes>
+  <PowerFlowMax>0</PowerFlowMax>
+  <PowerStoreMax>0</PowerStoreMax>
+  
+  <!-- for Weapons -->
+  <WeaponType>BigCannon_heavy</WeaponType>
+  <FieldOfFire>20</FieldOfFire>
+  <OrdinanceCapacity>144</OrdinanceCapacity>  
+  
+  
+  <!-- for Engines -->
+  <thrust>0</thrust>
+  
+  
+
+</ShipModule>

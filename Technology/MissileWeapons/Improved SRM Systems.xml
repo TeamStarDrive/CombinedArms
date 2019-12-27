@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Improved SRM Systems</UID>
+  <TechnologyType>ShipWeapons</TechnologyType>
+  <Cost>800</Cost>
+  <RootNode>0</RootNode>
+  <Name>Advanced SRM Systems</Name>
+  <NameIndex>5349</NameIndex>
+  <DescriptionIndex>5350</DescriptionIndex>
+  <LongDescription>Shadow Storm</LongDescription>
+  <LeadsTo>
+	<LeadsToTech>
+		<UID>Advanced SRM Systems</UID>
+	</LeadsToTech>	
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>ShadowStorm</ModuleUID>
+    </UnlockedMod>
+	<UnlockedMod>
+		<ModuleUID>Hydra_Rocket_Pod</ModuleUID>
+	</UnlockedMod>
+	<UnlockedMod>
+		<ModuleUID>Talon_Rocket_Pod</ModuleUID>
+	</UnlockedMod>
+  </ModulesUnlocked>
+  <BuildingsUnlocked />
+
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

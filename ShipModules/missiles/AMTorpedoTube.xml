@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <DestroyerModule>true</DestroyerModule>
+  <FrigateModule>true</FrigateModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>
+
+  <Cost>35</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>3</TechLevel>
+
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>2</XSIZE>
+  <YSIZE>4</YSIZE>
+  <ModuleType>MainGun</ModuleType>
+  <Name>Anti-Matter Torpedo</Name>
+  <Restrictions>O</Restrictions>
+  <UID>AMTorpedoTube</UID>
+  <IconTexturePath>Modules/AMTorpedoTube</IconTexturePath>3
+
+
+  <NameIndex>5307</NameIndex>
+  <DescriptionIndex>5308</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>110</Mass>
+  <Health>650</Health>
+  <HealthMax>650</HealthMax>
+  <RepairDifficulty>3</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>50</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>AMTorpedo</WeaponType>
+  <FieldOfFire>20</FieldOfFire>
+  <Left>1</Left>
+  <Right>1</Right>
+  <Rear>1</Rear>
+  <OrdinanceCapacity>14</OrdinanceCapacity>  
+  
+  <!-- Description -->
+  <Description>A sphere of anti-matter contained in a magnetic field that releases upon impact allowing the anti-matter to explode. Can be shot down.</Description>
+  
+
+</ShipModule>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Fighter Hulls I</UID>
+  <TechnologyType>ShipHull</TechnologyType>
+  <Cost>100</Cost>
+  <RootNode>0</RootNode>
+  <Name>Fighter Hulls I</Name>
+  <NameIndex>18001</NameIndex>
+  <DescriptionIndex>18002</DescriptionIndex>
+  <LongDescription>This hull represents our first effort at a combat ready hull.  It is larger and sleeker than our shuttlecraft hull and is capable of filling the role of a heavy scout or fighter. </LongDescription>
+  <LeadsTo>
+  	<LeadsToTech>
+	  <UID>Fighter Hulls II</UID>
+	</LeadsToTech>	
+	<LeadsToTech>
+	  <UID>Bombers</UID>
+	</LeadsToTech>	
+    <LeadsToTech>	
+      <UID>FighterTheory</UID>
+    </LeadsToTech>	  
+  </LeadsTo>
+  <ModulesUnlocked>
+      <UnlockedMod>
+        <ModuleUID>Cockpit_Side</ModuleUID>
+      </UnlockedMod>  
+      <UnlockedMod>
+        <ModuleUID>Cockpit_Tandem</ModuleUID>
+      </UnlockedMod>  	  
+  </ModulesUnlocked>  
+  <HullsUnlocked>
+    <UnlockedHull>
+      <ShipType>Cordrazine</ShipType>
+      <Name>Cordrazine/Qing</Name>
+    </UnlockedHull>    
+    <UnlockedHull>
+      <ShipType>Dauntless</ShipType>
+      <Name>Dauntless/Wolffish</Name>
+    </UnlockedHull>  
+    <UnlockedHull>
+      <ShipType>Draylok</ShipType>
+      <Name>Draylok/Chenoo</Name>
+    </UnlockedHull>	
+    <UnlockedHull>
+      <Name>Pollops/Spine</Name>
+      <ShipType>Pollops</ShipType>
+    </UnlockedHull>	
+    <UnlockedHull>
+      <Name>Ralyeh/Fanatic</Name>
+      <ShipType>Ralyeh</ShipType>
+    </UnlockedHull>	
+    <UnlockedHull>
+      <ShipType>Terran</ShipType>
+      <Name>Terran/Lightning</Name>
+    </UnlockedHull>   	
+    <UnlockedHull>
+      <ShipType>Kulrathi</ShipType>
+      <Name>Kulrathi/Shuriken</Name>
+    </UnlockedHull> 	
+    <UnlockedHull>
+      <Name>Opteris/Drone01</Name>
+      <ShipType>Opteris</ShipType>
+    </UnlockedHull>	
+	<UnlockedHull>
+	  <Name>Vulfen/Type Ia</Name>
+	  <ShipType>Vulfen</ShipType>
+	</UnlockedHull>
+  </HullsUnlocked>	
+</Technology>

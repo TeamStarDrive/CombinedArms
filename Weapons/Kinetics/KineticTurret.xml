@@ -1,0 +1,29 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Cannon>true</Tag_Cannon>
+  <Tag_Flak>true</Tag_Flak>
+  
+ 
+  <UID>KineticTurret</UID>
+  <fireDelay>2.5</fireDelay>
+  <Range>2500</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0.5</OrdinanceRequiredToFire>
+
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_flakcannon_01</fireCueName>
+  <dieCue></dieCue>
+  <!-- Projectile Information -->
+  <DamageAmount>175</DamageAmount>
+  <Scale>1.1</Scale>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>2000</ProjectileSpeed>
+  <ProjectileRadius>16</ProjectileRadius>  
+  <DamageRadius>0</DamageRadius>
+
+  <explodes>false</explodes>
+  <ProjectileTexturePath>projTear_02_orange</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <WeaponType>Ballistic Cannon</WeaponType>
+</Weapon>

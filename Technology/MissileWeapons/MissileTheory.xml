@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>MissileTheory</UID>
+  <TechnologyType>ShipWeapons</TechnologyType>
+  <Cost>140</Cost>
+  <RootNode>0</RootNode>
+  <Name>Missile Theory</Name>
+  <NameIndex>618</NameIndex>
+  <DescriptionIndex>619</DescriptionIndex>
+  <LongDescription>Adapting missile technology to the rigors of space travel is not overly difficult. We can pursue further advances to missile propulsion, payload, and durability. </LongDescription>
+  <LeadsTo>
+    <LeadsToTech>
+      <UID>Improved SRM Systems</UID>
+    </LeadsToTech>
+    <LeadsToTech>
+      <UID>Guided Missiles</UID>
+    </LeadsToTech>
+    <LeadsToTech>
+      <UID>Improved LRM Platforms</UID>
+    </LeadsToTech>
+    <LeadsToTech>
+      <UID>Light Torpedo</UID>
+    </LeadsToTech>
+    <LeadsToTech>
+      <UID>ATCSM</UID>
+    </LeadsToTech>
+    <LeadsToTech>
+      <UID>MissilePD_I</UID>
+    </LeadsToTech>	
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>RocketLauncher</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>MRLS</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>LRMmk1</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>DroneRocketLauncher</ModuleUID>
+    </UnlockedMod>	
+  </ModulesUnlocked>
+  <BuildingsUnlocked />
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

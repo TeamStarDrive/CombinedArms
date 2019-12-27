@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Suppressive Fire AP</UID>
+  <TechnologyType>ShipWeapons</TechnologyType>
+  <Cost>1350</Cost>
+  <RootNode>0</RootNode>
+  <Name>Suppressive Fire AP</Name>
+  <NameIndex>5359</NameIndex>
+  <DescriptionIndex>5360</DescriptionIndex>
+  <LongDescription>Suppressive Fire AP</LongDescription>
+  <LeadsTo>
+    <LeadsToTech>
+      <UID>Suppressive Fire HEAP</UID>
+    </LeadsToTech>
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>LightACAP</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>AutoCannonAP</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>DroneCannon1x1AP</ModuleUID>
+    </UnlockedMod>		
+  </ModulesUnlocked>
+  <BuildingsUnlocked />
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+<!-- The Doctor, StarDrive Turbo: these are boolean values that configure precisely which ship hull classes are able to mount your module. Like the old 'FightersOnly' tag, except comprehensive in the control provided -->
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <FrigateModule>true</FrigateModule>
+  <DestroyerModule>true</DestroyerModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>
+  
+  
+  <Cost>18</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>1</TechLevel>
+  
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>2</XSIZE>
+  <YSIZE>6</YSIZE>
+  <ModuleType>MainGun</ModuleType>
+  <Name>Mass Driver Long</Name>
+  <Restrictions>O</Restrictions>
+  <UID>Railgun2x6</UID>
+  <IconTexturePath>Modules/MassDriver__long</IconTexturePath>3
+
+
+  <NameIndex>17565</NameIndex>
+  <DescriptionIndex>17566</DescriptionIndex>
+
+  <!-- Mass and Health -->
+  <Mass>23</Mass>
+  <Health>2500</Health>
+  <HealthMax>2500</HealthMax>
+
+  <!-- Power Drawn -->
+  <PowerDraw>20</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>MassDriver_long</WeaponType>
+  <FieldOfFire>15</FieldOfFire>
+  <MountLeft>true</MountLeft>
+  <MountRight>true</MountRight>
+  
+  <!-- Description -->
+  <Description>This weapon is a heavy-mounted rail gun that can propel an explosive projectile an impressive distance. </Description>
+  
+
+</ShipModule>

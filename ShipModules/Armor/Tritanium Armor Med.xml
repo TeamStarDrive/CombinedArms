@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Cost>24</Cost>
+	<!-- Tech Level -->
+	<TechLevel>7</TechLevel>
+	<TechBranch>Armor</TechBranch>
+	<!-- common traits shared by all ship modules -->
+	<XSIZE>2</XSIZE>
+	<YSIZE>2</YSIZE>
+	<ModuleType>Armor</ModuleType>
+	<Name>Tritanium Armor Med</Name>
+	<Restrictions>O</Restrictions>
+	<UID>Tritanium Armor Med</UID>
+	<TexturePath>Textures/transparent</TexturePath>
+	<IconTexturePath>Modules/TritaniumArmor_2x2</IconTexturePath>
+	<NameIndex>17539</NameIndex>
+	<DescriptionIndex>5999</DescriptionIndex>
+	<!-- Mass and Health -->
+	<Mass>56</Mass>
+	<Health>18000</Health>
+	<HealthMax>18000</HealthMax>
+	<RepairDifficulty>2</RepairDifficulty>
+	<!-- Armor resistance -->
+	<KineticResist>0.4</KineticResist>
+	<BeamResist>0.3</BeamResist>
+	<MissileResist>0.2</MissileResist>
+    <ExplosiveResist>0.2</ExplosiveResist>  	
+    <DamageThreshold>200</DamageThreshold>			    	
+	<!-- Power Drawn -->
+	<PowerDraw>0</PowerDraw>
+	<!-- Crew Reqs -->
+	<CrewRequired>0</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<!-- Description -->
+	<Description>New generation of Ceramic Armor.</Description>
+	<APResist>3</APResist>
+</ShipModule>

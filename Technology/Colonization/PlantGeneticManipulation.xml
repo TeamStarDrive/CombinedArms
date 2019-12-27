@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>PlantGeneticManipulation</UID>
+  <TechnologyType>Colonization</TechnologyType>
+  <Cost>1800</Cost>
+  <RootNode>0</RootNode>
+  <Name>Plant Genetic Manipulation</Name>
+  <NameIndex>10043</NameIndex>
+  <DescriptionIndex>10044</DescriptionIndex>
+  <LongDescription>Colonizing barren planets or planets with a low fertility score means that food production will be critical to that colony's survival.  Aeroponic farming techniques provide a basic level of sustenance to support a small colony. </LongDescription>
+  <LeadsTo>
+    <LeadsToTech>
+      <UID>Farming Colony Development I</UID>
+    </LeadsToTech>
+  </LeadsTo>
+  <ModulesUnlocked />
+  <HiddenFrom>
+    <RaceRequirements>
+      <RacialTrait>Cybernetic</RacialTrait>
+    </RaceRequirements>
+  </HiddenFrom>  
+  <BuildingsUnlocked>
+    <UnlockedBuilding>
+      <Name>Plant Genetic Manipulation Center</Name>
+    </UnlockedBuilding>
+  </BuildingsUnlocked>
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

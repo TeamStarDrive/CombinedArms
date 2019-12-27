@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>80</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>4</TechLevel>
+  <TechBranch>Power</TechBranch>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>2</XSIZE>
+  <YSIZE>2</YSIZE>
+  <ModuleType>PowerPlant</ModuleType>
+  <Name>Dark Matter Reactor</Name>
+  <Restrictions>I</Restrictions>
+  <UID>DarkMatterReactor_2x2</UID>
+  <TexturePath>Textures/transparent</TexturePath>
+  <IconTexturePath>Modules/DarkMatterReactor_2x2</IconTexturePath>
+
+
+  <NameIndex>17527</NameIndex>
+  <DescriptionIndex>17528</DescriptionIndex>
+
+
+
+  <Mass>60</Mass>
+  <Health>750</Health>
+  <HealthMax>750</HealthMax>
+  <RepairDifficulty>6</RepairDifficulty>
+  <energyreq>0</energyreq>
+  <modRadius>4</modRadius>
+  <Description>Reactors are the beating hearts of spaceships.  This basic fission model provides a moderate level of power output and power storage. Explodes when destroyed. </Description>
+  <CrewRequired>10</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+  <PowerDraw>0</PowerDraw>
+
+  <!-- for shield items -->
+  <shield_power>0</shield_power>
+  <shield_power_max>0</shield_power_max>
+  <shield_recharge_delay>0</shield_recharge_delay>
+  <shield_recharge_rate>0</shield_recharge_rate>
+  <shield_radius>0</shield_radius>
+
+
+  <!-- for PowerPlant Items -->
+  <explodes>true</explodes>
+  <ExplosionDamage>1200</ExplosionDamage>
+  <ExplosionRadius>256</ExplosionRadius>  
+  <PowerFlowMax>600</PowerFlowMax>
+  <PowerStoreMax>150</PowerStoreMax>
+  <PowerRadius>3</PowerRadius>
+
+  <!-- for Weapons -->
+
+
+
+  <!-- for Engines -->
+  <thrust>0</thrust>
+
+
+
+</ShipModule>

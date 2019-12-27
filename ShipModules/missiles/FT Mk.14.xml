@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<DroneModule>false</DroneModule>
+  <FighterModule>true</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <FrigateModule>false</FrigateModule>
+  <DestroyerModule>false</DestroyerModule>
+  <CruiserModule>false</CruiserModule>
+  <CarrierModule>false</CarrierModule>
+  <CapitalModule>false</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>false</PlatformModule>
+  <StationModule>false</StationModule>
+
+  <Cost>15</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>4</TechLevel>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>1</XSIZE>
+  <YSIZE>2</YSIZE>
+  <ModuleType>MissileLauncher</ModuleType>
+  <Name>FT Mk.14</Name>
+  <Restrictions>I</Restrictions>
+  <UID>FT Mk.14</UID>
+  <IconTexturePath>Modules/FT_Mk14</IconTexturePath>
+
+    <FightersOnly>true</FightersOnly>
+
+
+  <NameIndex>8225</NameIndex>
+  <DescriptionIndex>8226</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>10</Mass>
+  <Health>80</Health>
+  <HealthMax>80</HealthMax>
+  <RepairDifficulty>3</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>0</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>FT Mk.14</WeaponType>
+  <FieldOfFire>30</FieldOfFire>
+  <OrdinanceCapacity>27</OrdinanceCapacity>
+  
+  
+  <!-- Description -->
+  <Description>Fighter Torpedo</Description>
+  
+
+</ShipModule>

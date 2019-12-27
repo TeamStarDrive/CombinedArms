@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <DestroyerModule>false</DestroyerModule>
+  <FrigateModule>false</FrigateModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>false</PlatformModule>
+  <StationModule>true</StationModule>  
+
+	<Cost>400</Cost>
+	<!-- Tech Level Used by AI for Upgrading Ships -->
+	<TechLevel>6</TechLevel>
+	<!-- common traits shared by all ship modules -->
+	<XSIZE>6</XSIZE>
+	<YSIZE>4</YSIZE>
+	<ModuleType>PowerPlant</ModuleType>
+	<Name>Linked Dark Matter Reactor Set</Name>
+	<Restrictions>I</Restrictions>
+	<UID>Linked Dark Matter Reactor Set</UID>
+	<IconTexturePath>Modules/Linked Dark Matter Reactor Set</IconTexturePath>
+	<Mass>600</Mass>
+	<Health>6000</Health>
+	<HealthMax>6000</HealthMax>
+	<RepairDifficulty>7</RepairDifficulty>
+	<DamageThreshold>30</DamageThreshold>
+	<energyreq>0</energyreq>
+	<modRadius>4</modRadius>
+	<Description>Parallel Dark Matter Reactor Set.</Description>
+	<CrewRequired>10</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<PowerDraw>0</PowerDraw>
+	<BonusRepairRate>50</BonusRepairRate>
+	<NameIndex>17551</NameIndex>
+	<DescriptionIndex>17552</DescriptionIndex>
+	<!-- for shield items -->
+	<shield_power>10000</shield_power>
+	<shield_power_max>10000</shield_power_max>
+	<shield_recharge_delay>5</shield_recharge_delay>
+	<shield_recharge_rate>100</shield_recharge_rate>
+	<shield_radius>90</shield_radius>
+	<!-- for PowerPlant Items -->
+	<explodes>true</explodes>
+    <ExplosionDamage>6000</ExplosionDamage>
+    <ExplosionRadius>320</ExplosionRadius>	
+	<PowerFlowMax>4800</PowerFlowMax>
+	<PowerStoreMax>1500</PowerStoreMax>
+	<PowerRadius>8</PowerRadius>
+	<!-- for Weapons -->
+	<!-- for Engines -->
+	<thrust>0</thrust>
+</ShipModule>

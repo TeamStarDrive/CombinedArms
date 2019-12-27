@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <FrigateModule>true</FrigateModule>
+  <DestroyerModule>true</DestroyerModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>true</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>
+  
+  <Cost>60</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>3</TechLevel>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>2</XSIZE>
+  <YSIZE>2</YSIZE>
+  <ModuleType>PowerPlant</ModuleType>
+  <Name>Armored Cold Fusion Reactor</Name>
+  <Restrictions>I</Restrictions>
+  <UID>Armored Cold Fusion Reactor</UID>
+  <IconTexturePath>Modules/Armored Cold Fusion Reactor</IconTexturePath>
+  
+  <Mass>60</Mass>
+  <Health>1500</Health>
+  <HealthMax>1500</HealthMax>
+  <RepairDifficulty>3.75</RepairDifficulty>
+  <DamageThreshold>30</DamageThreshold>  
+  <energyreq>0</energyreq>
+  <modRadius>4</modRadius>
+  <Description>Armored Cold Fusion Reactor. Can install outside of the ship. Stability allows for greater power transmission on this type of reactor so it has great power supply range.</Description>
+  <CrewRequired>10</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+  <PowerDraw>0</PowerDraw>
+
+
+  <NameIndex>8059</NameIndex>
+  <DescriptionIndex>8060</DescriptionIndex>
+
+  <!-- for shield items -->
+  <shield_power>0</shield_power>
+  <shield_power_max>0</shield_power_max>
+  <shield_recharge_delay>0</shield_recharge_delay>
+  <shield_recharge_rate>0</shield_recharge_rate>
+  <shield_radius>0</shield_radius>
+
+
+  <!-- for PowerPlant Items -->
+  <explodes>true</explodes>
+  <ExplosionDamage>75</ExplosionDamage>
+  <ExplosionRadius>32</ExplosionRadius>  
+  <PowerFlowMax>270</PowerFlowMax>
+  <PowerStoreMax>50</PowerStoreMax>
+  <PowerRadius>3</PowerRadius>
+
+  <!-- for Weapons -->
+
+
+
+  <!-- for Engines -->
+  <thrust>0</thrust>
+
+
+
+</ShipModule>

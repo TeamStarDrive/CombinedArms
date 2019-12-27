@@ -1,0 +1,30 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>EmpMines</UID>
+  <fireDelay>5</fireDelay>
+
+  <Range>10000</Range>
+  <HitPoints>60</HitPoints>
+  <PowerRequiredToFire>10</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>2</OrdinanceRequiredToFire>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_emptorpedo</fireCueName>
+  <dieCue>Explo1</dieCue>
+  <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
+  <!-- Projectile Information -->
+  <DamageAmount>350</DamageAmount>
+  <EMPDamage>75</EMPDamage>
+  <ProjectileSpeed>100</ProjectileSpeed>
+
+  <Scale>2</Scale>
+  <DamageRadius>40</DamageRadius>
+  <explodes>true</explodes>
+  <ProjectileTexturePath>spacemine_s</ProjectileTexturePath>
+  <ModelPath>spacemine</ModelPath>
+  <WeaponType>Missile</WeaponType>
+  <SalvoCount>2</SalvoCount>
+  <SalvoTimer>1</SalvoTimer>
+  <FireCone>40</FireCone>
+  <ProjectileRadius>10</ProjectileRadius>
+  <CanCollideProjectiles>true</CanCollideProjectiles>
+</Weapon>

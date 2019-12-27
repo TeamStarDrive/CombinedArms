@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <DestroyerModule>true</DestroyerModule>
+  <FrigateModule>true</FrigateModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>  
+  
+  <Cost>32</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>2</TechLevel>
+
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>2</XSIZE>
+  <YSIZE>3</YSIZE>
+  <ModuleType>MainGun</ModuleType>
+  <Name>Plasma Projector</Name>
+  <Restrictions>O</Restrictions>
+  <UID>PlasmaProjectorMod</UID>
+  <IconTexturePath>Modules/PlasmaProjector</IconTexturePath>3
+
+
+  <NameIndex>5295</NameIndex>
+  <DescriptionIndex>5296</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>45</Mass>
+  <Health>800</Health>
+  <HealthMax>800</HealthMax>
+  <RepairDifficulty>4</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>150</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>PlasmaProjector</WeaponType>
+  <FieldOfFire>15</FieldOfFire>
+  <Left>1</Left>
+  <Right>1</Right>
+  <Rear>1</Rear>
+  
+  
+  <!-- Description -->
+  <Description>Plasma Projector</Description>
+  
+
+</ShipModule>

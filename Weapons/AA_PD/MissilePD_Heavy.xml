@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <UID>MissilePD_Heavy</UID>
+  
+  <Tag_Guided>true</Tag_Guided>
+  <Tag_Missile>true</Tag_Missile>
+  <Tag_Intercept>true</Tag_Intercept>
+  <Tag_Explosive>true</Tag_Explosive>
+  <Tag_PD>true</Tag_PD>   
+  <TruePD>true</TruePD> 
+  
+  <fireDelay>0.2</fireDelay>
+  <SalvoCount>2</SalvoCount>
+  <SalvoTimer>0.4</SalvoTimer>
+  <Range>4000</Range>
+  <HitPoints>8</HitPoints>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0.4</OrdinanceRequiredToFire>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_rocket_01</fireCueName>
+  <!--<dieCue>sd_weapon_rocket_explode_01</dieCue>
+  <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue> -->
+  <!-- Projectile Information -->
+  <TargetChangeTimer>0.9</TargetChangeTimer>
+  <DamageAmount>60</DamageAmount>
+  <ProjectileSpeed>2000</ProjectileSpeed>
+  <DamageRadius>80</DamageRadius>
+  <explodes>false</explodes>
+  <ProjectileTexturePath>missile_d</ProjectileTexturePath>
+  <ModelPath>missile</ModelPath>
+  <WeaponEffectType>RocketTrail</WeaponEffectType>
+  <WeaponType>Missile</WeaponType>
+  <ProjectileRadius>80</ProjectileRadius>
+  <CanCollideProjectiles>true</CanCollideProjectiles>
+  <Scale>0.8</Scale>
+</Weapon>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>SoilEnrichment</UID>
+  <TechnologyType>Colonization</TechnologyType>
+  <Cost>750</Cost>
+  <RootNode>0</RootNode>
+  <Name>Soil Enrichment</Name>
+  <NameIndex>10041</NameIndex>
+  <DescriptionIndex>10042</DescriptionIndex>
+  <LongDescription>Colonizing barren planets or planets with a low fertility score means that food production will be critical to that colony's survival.  Aeroponic farming techniques provide a basic level of sustenance to support a small colony. </LongDescription>
+  <LeadsTo>
+    <LeadsToTech>
+      <UID>Vertical Farming</UID>
+    </LeadsToTech>	
+  </LeadsTo>
+  <ModulesUnlocked />
+  <BuildingsUnlocked>
+    <UnlockedBuilding>
+      <Name>Soil Enrichment Center</Name>
+    </UnlockedBuilding>
+  </BuildingsUnlocked>
+  <HiddenFrom>
+    <RaceRequirements>
+      <RacialTrait>Cybernetic</RacialTrait>
+    </RaceRequirements>
+  </HiddenFrom>  
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

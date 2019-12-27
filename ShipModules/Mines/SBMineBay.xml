@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>15</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>1</TechLevel>
+
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>3</XSIZE>
+  <YSIZE>3</YSIZE>
+  <ModuleType>Turret</ModuleType>
+  <Name>Shield Buster Mine Launch Bay</Name>
+  <Restrictions>O</Restrictions>
+  <UID>SBMineBay</UID>
+  <IconTexturePath>Modules/greenmines</IconTexturePath>3
+
+
+  <NameIndex>5317</NameIndex>
+  <DescriptionIndex>5318</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>25</Mass>
+  <Health>600</Health>
+  <HealthMax>600</HealthMax>
+
+  <!-- Power Drawn -->
+  <PowerDraw>50</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>SBMines</WeaponType>
+  <FieldOfFire>120</FieldOfFire>
+
+  
+  <!-- Description -->
+  <Description>Shield Buster Mine Launch Bay</Description>
+  
+
+</ShipModule>

@@ -1,0 +1,33 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <UID>DroneCannonAP</UID>
+  
+  <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Cannon>true</Tag_Cannon>  
+  
+  <fireDelay>0.5</fireDelay>
+  <Range>1300</Range>
+  <PowerRequiredToFire>1</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0.1</OrdinanceRequiredToFire>
+
+
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_vulcan_alt02_01</fireCueName>
+  <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
+  <!-- Projectile Information -->
+  <DamageAmount>15</DamageAmount>
+  <Scale>.6</Scale>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>1800</ProjectileSpeed>
+  <EffectVsArmor>3</EffectVsArmor>
+  <explodes>false</explodes>
+  <ProjectileTexturePath>projTear_03_red</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <ProjectileCount>1</ProjectileCount>
+  <SalvoCount>5</SalvoCount>
+  <SalvoTimer>0.4</SalvoTimer>  
+  <!--the projectile count is spread over the fire arc-->
+  <FireCone>2</FireCone>
+  <WeaponType>Ballistic Cannon</WeaponType>
+  <WeaponEffectType>MuzzleSmoke</WeaponEffectType>
+</Weapon>

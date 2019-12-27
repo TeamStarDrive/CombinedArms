@@ -1,0 +1,10 @@
+Image vector cordinates
+
+0,0 is topleft
+1920,0 is topright
+1920,1080 is bottomright
+0,1080 is bottomleft
+
+if number is negative, then it means screen size - value,
+so Y: -592 will be 1080-592 for example
+And if you use <=1.0, then it will use screen size * value so Y=0.4 will give 1080*0.4

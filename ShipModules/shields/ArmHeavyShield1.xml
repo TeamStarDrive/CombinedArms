@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <DestroyerModule>true</DestroyerModule>
+  <FrigateModule>true</FrigateModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>true</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>
+
+  <Cost>75</Cost>
+  <TechLevel>3</TechLevel>
+  <!-- common traits shared by all ship modules -->
+ 
+  <ModuleType>Shield</ModuleType>
+  <XSIZE>3</XSIZE>
+  <YSIZE>3</YSIZE>
+  <UID>ArmHeavyShield1</UID>
+  <Restrictions>IO</Restrictions>
+  <Name>Armored Heavy Shield</Name>
+  <IconTexturePath>Modules/armshield</IconTexturePath>
+  <Mass>120</Mass>
+  <Health>15000</Health>
+  <HealthMax>15000</HealthMax>
+  <RepairDifficulty>2.5</RepairDifficulty>
+  <energyreq>0</energyreq>
+  <modRadius>4</modRadius>
+  <Description>This is a large shield that provides heavy protection at a heavy power cost</Description>
+  <CrewRequired>3</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+  <PowerDraw>500</PowerDraw>
+  <PowerDrawAtWarp>-200</PowerDrawAtWarp>
+
+  <NameIndex>17850</NameIndex>
+  <DescriptionIndex>12998</DescriptionIndex>
+
+  <KineticResist>-0.2</KineticResist>
+  <BeamResist>0.25</BeamResist>
+  <EnergyResist>0.1</EnergyResist>
+
+  <!-- for shield items -->
+  <shield_power>20000</shield_power>
+  <shield_power_max>20000</shield_power_max>
+  <shield_recharge_delay>3.5</shield_recharge_delay>
+  <shield_recharge_rate>240</shield_recharge_rate>
+  <shield_radius>180</shield_radius>
+  <shield_recharge_combat_rate>0</shield_recharge_combat_rate>
+  <EMP_Protection>100</EMP_Protection>
+  <shield_threshold>50</shield_threshold>  
+</ShipModule>

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Cost>8</Cost>
+	<FighterModule>false</FighterModule>
+	<!-- Tech Level -->
+	<TechLevel>1</TechLevel>
+	<TechBranch>Armor</TechBranch>
+	<!-- common traits shared by all ship modules -->
+	<XSIZE>3</XSIZE>
+	<YSIZE>3</YSIZE>
+	<ModuleType>Armor</ModuleType>
+	<Name>Armored Solarpanel Large</Name>
+	<Restrictions>O</Restrictions>
+	<UID>Armored Solarpanel Large</UID>
+	<TexturePath>Textures/transparent</TexturePath>
+	<IconTexturePath>Modules/Electro_Armor_Large</IconTexturePath>
+	<NameIndex>6612</NameIndex>
+	<DescriptionIndex>5999</DescriptionIndex>
+	<!-- Mass and Health -->
+	<Mass>90</Mass>
+	<Health>6000</Health>
+	<HealthMax>6000</HealthMax>
+	<RepairDifficulty>0.5</RepairDifficulty>
+	<!-- Power Drawn -->
+	<PowerDraw>0</PowerDraw>
+	<!-- Armor resistance -->
+	<BeamResist>0.1</BeamResist>
+	<!-- for PowerPlant Items -->
+	<explodes>false</explodes>
+	<PowerFlowMax>90</PowerFlowMax>
+	<PowerStoreMax>540</PowerStoreMax>
+	<PowerRadius>2</PowerRadius>
+	<!-- Crew Reqs -->
+	<CrewRequired>0</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<!-- for Weapons -->
+	<!-- Description -->
+	<Description>Armored Solarpanels, provide some to spaceship</Description>
+</ShipModule>

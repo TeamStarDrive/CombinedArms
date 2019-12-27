@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <DestroyerModule>true</DestroyerModule>
+  <FrigateModule>true</FrigateModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>
+
+  <Cost>150</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>4</TechLevel>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>3</XSIZE>
+  <YSIZE>6</YSIZE>
+  <ModuleType>MissileLauncher</ModuleType>
+  <Name>AMX50 Revolver</Name>
+  <Restrictions>O</Restrictions>
+  <UID>AMX50 Revolver</UID>
+  <IconTexturePath>Modules/AMX50 Revolver</IconTexturePath>
+
+
+  <NameIndex>6533</NameIndex>
+  <DescriptionIndex>6534</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>80</Mass>
+  <Health>300</Health>
+  <HealthMax>300</HealthMax>
+  <RepairDifficulty>6</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>25</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>AMX50 Revolver</WeaponType>
+  <FieldOfFire>15</FieldOfFire>
+  <OrdinanceCapacity>114</OrdinanceCapacity>
+  
+  
+  <!-- Description -->
+  <Description>An experimental Oscillating mounted missile launcher, very expensive but can launcher 6 improved version ATCSM at a time. </Description>
+  
+
+</ShipModule>

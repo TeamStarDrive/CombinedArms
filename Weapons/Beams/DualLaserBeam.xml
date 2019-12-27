@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Beam>true</Tag_Beam>
+
+  
+  <Excludes_Fighters>true</Excludes_Fighters>  
+  <Excludes_Corvettes>true</Excludes_Corvettes>
+  
+  <UID>DualLaserBeam</UID>
+  <isBeam>true</isBeam>
+  <fireDelay>5</fireDelay>
+  <Range>3500</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+
+  <fireCueName>sd_weapon_laser_large_alt_04</fireCueName>
+  <ToggleSoundName>sd_weapon_beam_02</ToggleSoundName>
+  
+  
+  <!-- Projectile Information -->
+  <BeamTexture>dualbeam_blue</BeamTexture>
+  
+  
+  <DamageAmount>8</DamageAmount>
+  <BeamThickness>70</BeamThickness>
+  <BeamPowerCostPerSecond>480</BeamPowerCostPerSecond>
+
+  <WeaponType>Energy Beam</WeaponType>
+  
+</Weapon>

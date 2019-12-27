@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<UID>CompositeAlloys</UID>
+	<TechnologyType>ShipDefense</TechnologyType>
+	<Cost>1800</Cost>
+	<RootNode>0</RootNode>
+	<Name>CompositeAlloys</Name>
+	<NameIndex>6569</NameIndex>
+	<DescriptionIndex>17435</DescriptionIndex>
+	<LongDescription>Composite Alloys provides massive defence however the mass is also very "massive". </LongDescription>
+	<LeadsTo>
+		<LeadsToTech>
+			<UID>Crystal Armor</UID>
+		</LeadsToTech>
+	</LeadsTo>
+	<ModulesUnlocked>
+		<UnlockedMod>
+			<ModuleUID>CompositeAlloys Small</ModuleUID>
+		</UnlockedMod>
+		<UnlockedMod>
+			<ModuleUID>CompositeAlloys Med</ModuleUID>
+		</UnlockedMod>
+		<UnlockedMod>
+			<ModuleUID>CompositeAlloys Large</ModuleUID>
+		</UnlockedMod>
+		<UnlockedMod>
+		  <ModuleUID>Repeater2x2_Composite</ModuleUID>
+		</UnlockedMod>				
+	</ModulesUnlocked>
+	<BuildingsUnlocked/>
+	<BonusUnlocked/>
+	<TroopsUnlocked/>
+	<HullsUnlocked/>
+</Technology>

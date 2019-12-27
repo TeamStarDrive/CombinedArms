@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DroneModule>true</DroneModule>
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <FrigateModule>false</FrigateModule>
+  <DestroyerModule>false</DestroyerModule>
+  <CruiserModule>false</CruiserModule>
+  <CarrierModule>false</CarrierModule>
+  <CapitalModule>false</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>false</PlatformModule>
+  <StationModule>false</StationModule>
+
+  <Cost>9</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>3</TechLevel>
+  
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>1</XSIZE>
+  <YSIZE>1</YSIZE>
+  <ModuleType>MainGun</ModuleType>
+  <Name>DroneIonBeam1x1</Name>
+  <Restrictions>IO</Restrictions>
+  <UID>DroneIonBeam1x1</UID>
+  <IconTexturePath>Modules/DroneIonBeam1x1</IconTexturePath>3
+
+
+  <NameIndex>17758</NameIndex>
+  <DescriptionIndex>17759</DescriptionIndex>
+  <RepairDifficulty>4</RepairDifficulty>
+
+
+  <!-- Mass and Health -->
+  <Mass>5</Mass>
+  <Health>100</Health>
+  <HealthMax>100</HealthMax>
+  <RepairDifficulty>2.5</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>6</PowerDraw>
+
+
+
+  <!-- Crew Reqs -->
+  <CrewRequired>1</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+
+ 
+  <!-- for Weapons -->
+  <WeaponType>DroneIonBeam</WeaponType>
+  <FieldOfFire>60</FieldOfFire>
+  <!-- Description -->
+  <Description>X-Ray laser cannons do a lot of extra damage to armor, but easily dissipate against shields.</Description>
+  
+
+</ShipModule>

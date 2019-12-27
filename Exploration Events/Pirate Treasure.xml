@@ -1,0 +1,115 @@
+﻿<ExplorationEvent>
+  <Name>Discover Pirate Treasure</Name>
+  <PotentialOutcomes>
+    <Outcome>
+      <Chance>15</Chance>
+      <TitleText>A Hidden Treasure!</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have massed a great number of artifacts, which will sell nicely on the free market. Also, of the artifacts is a marvel which will help our empire. Unfortunatley, it seems that a small remnant fleet was drawned to this place as well. The ships are attacking immediately!</DescriptionText>
+      <MoneyGranted>5000</MoneyGranted>
+	  <GrantArtifact>true</GrantArtifact>
+      <RemoveTrigger>true</RemoveTrigger>
+      <RemnantShipsToSpawn>
+        <string>Heavy Drone</string>
+		<string>Heavy Drone</string>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+        <string>Disruptor Drone</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
+    </Outcome>
+    <Outcome>
+      <Chance>30</Chance>
+      <TitleText>A Hidden Treasure!</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have massed a great number of artifacts, which will sell nicely on the free market. Unfortunatley, it seems that a small remnant fleet was drawned to this place as well. The ships are attacking immediately!</DescriptionText>
+      <MoneyGranted>2500</MoneyGranted>
+      <RemoveTrigger>true</RemoveTrigger>
+      <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
+    </Outcome>	
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Interesting Treasure Cache</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find some interesting artifacts which can be sold and also schematics of some sort which are revealed as new technology! Unfortunatley, it seems that your troops attraced unwanted attention.</DescriptionText>
+      <MoneyGranted>500</MoneyGranted>
+      <UnlockTech>Cold Fusion</UnlockTech>	  
+      <RemoveTrigger>true</RemoveTrigger>
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+		<string>Skeleton</string>
+      </TroopsToSpawn>	  
+    </Outcome>		
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Interesting Treasure Cache</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find some interesting artifacts which can be sold and also schematics of some sort which are revealed as new technology! Unfortunatley, it seems that your troops attraced unwanted attention.</DescriptionText>
+      <MoneyGranted>250</MoneyGranted>
+      <UnlockTech>Sniper Systems</UnlockTech>	  
+      <RemoveTrigger>true</RemoveTrigger>
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+		<string>Skeleton</string>
+      </TroopsToSpawn>	  
+    </Outcome>			
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Interesting Treasure Cache</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find some interesting artifacts which can be sold and also schematics of some sort which are revealed as new technology! Unfortunatley, it seems that your troops attraced unwanted attention.</DescriptionText>
+      <MoneyGranted>250</MoneyGranted>
+      <UnlockTech>Velocity Stimulance Mk2</UnlockTech>	  
+      <RemoveTrigger>true</RemoveTrigger>
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+		<string>Skeleton</string>
+      </TroopsToSpawn>	  
+    </Outcome>				
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Nothing...</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it only to find that it is empty. One of the troops find a note that says: "Even in my death i outsmart you. You will never find the treasure. Take 2 credits instead, hahaha!". When your troops exit the cave, they find a big swarm of giant insects!</DescriptionText>
+      <MoneyGranted>2</MoneyGranted>
+      <RemoveTrigger>true</RemoveTrigger>	  
+      <SelectRandomPlanet>true</SelectRandomPlanet>
+      <SpawnBuildingOnPlanet>Treasure</SpawnBuildingOnPlanet>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+        <string>Antlion</string>
+        <string>Antlion</string>
+        <string>Antlion</string>
+      </TroopsToSpawn>
+    </Outcome>					
+    <Outcome>
+      <Chance>15</Chance>
+      <TitleText>Military Salvage</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find 2 stolen Terran Destroyer, not even painted with pirate signs. Your Troops bring them into orbit.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>	  
+      <FriendlyShipsToSpawn>
+        <string>Destroyer XF-1</string>
+		<string>Destroyer XF-1</string>
+      </FriendlyShipsToSpawn>
+    </Outcome>				
+   
+  </PotentialOutcomes>
+  
+  
+  
+</ExplorationEvent>

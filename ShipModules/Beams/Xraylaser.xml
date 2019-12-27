@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<DroneModule>false</DroneModule>
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <FrigateModule>true</FrigateModule>
+  <DestroyerModule>false</DestroyerModule>
+  <CruiserModule>false</CruiserModule>
+  <CarrierModule>false</CarrierModule>
+  <CapitalModule>false</CapitalModule>
+  
+  <FreighterModule>true</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>
+
+  <Cost>10</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>3</TechLevel>
+  
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>2</XSIZE>
+  <YSIZE>2</YSIZE>
+  <ModuleType>Turret</ModuleType>
+  <Name>X-Ray Laser</Name>
+  <Restrictions>O</Restrictions>
+  <UID>Xraylaser</UID>
+  <IconTexturePath>Modules/PulseCannon_2x2</IconTexturePath>3
+
+
+  <NameIndex>5249</NameIndex>
+  <DescriptionIndex>5250</DescriptionIndex>
+  <RepairDifficulty>4</RepairDifficulty>
+
+
+  <!-- Mass and Health -->
+  <Mass>4</Mass>
+  <Health>200</Health>
+  <HealthMax>200</HealthMax>
+
+  <!-- Power Drawn -->
+  <PowerDraw>15</PowerDraw>
+
+
+
+  <!-- Crew Reqs -->
+  <CrewRequired>1</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+
+ 
+  <!-- for Weapons -->
+  <WeaponType>BlueLaser</WeaponType>
+  <FieldOfFire>180</FieldOfFire>
+  <!-- Description -->
+  <Description>X-Ray laser cannons do a lot of extra damage to armor, but easily dissipate against shields.</Description>
+  
+
+</ShipModule>

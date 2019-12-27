@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>HSA-Frontier</UID>
+  <TechnologyType>ShipDefense</TechnologyType>
+  <Cost>6345</Cost>
+  <RootNode>0</RootNode>
+  <Name>HSA-Frontier</Name>
+  <NameIndex>6631</NameIndex>
+  <DescriptionIndex>6632</DescriptionIndex>
+  <LongDescription>The best shield armor that we can manufactured. The medium and large size heavy shield armor system- Frontier include a self-sufficient power-generator makes it only need few power to run on our ship.</LongDescription>
+
+  <LeadsTo>
+    <LeadsToTech>
+      <UID>HSA-Mirage</UID>
+    </LeadsToTech>
+  </LeadsTo>
+
+
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>HSA-Frontier Small</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>HSA-Frontier Med</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>HSA-Frontier Large</ModuleUID>
+    </UnlockedMod>
+  </ModulesUnlocked>
+
+
+  <BuildingsUnlocked />
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

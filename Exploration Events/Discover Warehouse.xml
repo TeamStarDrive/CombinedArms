@@ -1,0 +1,53 @@
+﻿<ExplorationEvent>
+  <Name>Discover Warehouse</Name>
+  <PotentialOutcomes>
+
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Jackpot!</TitleText>
+      <DescriptionText>Your combat engineers discover a large cache of ancient equipment. The recovered items will make a nice profit on the open market.</DescriptionText>
+      <MoneyGranted>1000</MoneyGranted>      
+      <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>
+    
+    <Outcome>
+      <Chance>30</Chance>
+      <TitleText>Weapons cache</TitleText>
+      <DescriptionText>While entering the abandoned warehouse your troops spot a large weapons cache, which is worth a lot on the black market.</DescriptionText>
+      <MoneyGranted>500</MoneyGranted>      
+      <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>
+
+    <Outcome>
+      <Chance>30</Chance>
+      <TitleText>It's infested!</TitleText>
+      <DescriptionText>As your troops approach the abandoned warehouse they all agree that this building once cleaned up could provide extra storage for your empire. But as they get closer they see a nest of Antlions that has made its home here and your troops find themselves surrounded by foes.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Large Warehouse</ReplaceWith>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+        <string>Antlion</string>
+        <string>Antlion</string>
+        <string>Antlion</string>
+      </TroopsToSpawn>
+    </Outcome>
+
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Whoops</TitleText>
+      <DescriptionText>As your troops approach abandoned warehouse, they notice signs of recent activity. As they explore the warehouse further they accidentally trip a security system which sends out a Remnant distress signal. A detachment of Remnant forces are alerted to your presence and start orbiting the planet.</DescriptionText> 
+      <RemoveTrigger>true</RemoveTrigger>
+      <RemnantShipsToSpawn>
+        <string>Heavy Drone</string>
+        <string>Slaver Drone</string>
+        <string>Xeno Fighter</string>
+        <string>Xeno Fighter</string>
+        <string>Xeno Fighter</string>
+        <string>Xeno Fighter</string>
+        <string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>
+    </Outcome>
+
+  </PotentialOutcomes>
+  
+</ExplorationEvent>

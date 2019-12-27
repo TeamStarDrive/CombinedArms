@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>55</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>3</TechLevel>
+
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>3</XSIZE>
+  <YSIZE>5</YSIZE>
+  <ModuleType>MainGun</ModuleType>
+  <Name>Remnant Heavy Anti-Matter Cannon</Name>
+  <Restrictions>IO</Restrictions>
+  <UID>REHeavyCannon</UID>
+  <IconTexturePath>Modules/REHeavyCannon</IconTexturePath>3
+
+
+  <NameIndex>5439</NameIndex>
+  <DescriptionIndex>5439</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>180</Mass>
+  <Health>12000</Health>
+  <HealthMax>12000</HealthMax>
+
+  <!-- Power Drawn -->
+  <PowerDraw>450</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>REHeavyCannonWpn</WeaponType>
+  <FieldOfFire>45</FieldOfFire>
+  <Left>1</Left>
+  <Right>1</Right>
+  <Rear>1</Rear>
+  <OrdinanceCapacity>400</OrdinanceCapacity>
+  
+  
+  <!-- Description -->
+  <Description>Heavy Anti-Matter Cannon</Description>
+  
+
+</ShipModule>

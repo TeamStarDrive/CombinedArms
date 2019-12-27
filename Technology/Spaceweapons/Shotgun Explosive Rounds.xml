@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Shotgun Explosive Rounds</UID>
+  <TechnologyType>ShipWeapons</TechnologyType>
+  <Cost>3600</Cost>
+  
+  <Name>Shotgun Explosive Rounds</Name>
+  <NameIndex>5430</NameIndex>
+  <DescriptionIndex>5426</DescriptionIndex>
+  <LeadsTo> 
+   <LeadsToTech>
+      <UID>Shotgun Plasma Rounds</UID>
+    </LeadsToTech>
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>ShotgunHE</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>ShotgunHE1x3</ModuleUID>
+    </UnlockedMod>	
+  </ModulesUnlocked>
+  <BuildingsUnlocked />
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

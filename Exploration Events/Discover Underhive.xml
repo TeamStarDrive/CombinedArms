@@ -1,0 +1,56 @@
+﻿<ExplorationEvent>
+  <Name>Underhive Explored</Name>
+  <PotentialOutcomes>
+   
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Blue Screens</TitleText>
+      <DescriptionText>Your troops enter the Underhive and are quickly surrounded by an unknown gang. They ask if you can spare some time and if one of your engineers can take a look at their ships. You follow them to a warehouse and discover an entire fleet of inoperative captured ships.  \n \n Your engineers quickly discover the problems in the operating system and manage to fix all of their ships. In return, the gang gives you three of their ships for services rendered.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <FriendlyShipsToSpawn>
+        <string>Captured Gunship</string>
+        <string>Captured Gunship</string>
+        <string>Captured Gunship</string>
+      </FriendlyShipsToSpawn>      
+    </Outcome>
+
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Smugglers</TitleText>
+      <DescriptionText>Your troops enter the Underhive and quickly make contact with a local group of smugglers. After hours of talking and negotiating, you will allow them to continue their smuggling operation, if they pay taxes on the profits they make.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>The Underhive Smugglers</ReplaceWith>
+    </Outcome>
+
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Assassins</TitleText>
+      <DescriptionText>Your troops enter the Underhive and quickly make contact with a local group of assassins. You strike a deal with them which allow them to continue their work in the Underhive. In return they promise to provide help if the planet gets invaded.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>The Underhive Assassins</ReplaceWith>
+    </Outcome>
+
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Pit Slaves</TitleText>
+      <DescriptionText>Your troops enter the Underhive and start to look around. They notice a large underground factory. Machines buzzing and whirring, weapons and ammunition being manufactured to supply Corsair ships and bases. As you venture deeper into the underground factory you meet the head of the factory. As it turns out he employs pit slaves as his laborers. Half flesh, half machine, created from slaves, prisoners and Opteris tech. They provide the best workforce he explains and if you let him do his work, he'll provide you with extra production and a small share of the profits. You agree to his terms.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>The Underhive Pit Slaves</ReplaceWith>
+    </Outcome>
+
+    <Outcome>
+      <Chance>30</Chance>
+      <TitleText>A dangerous escape</TitleText>
+      <DescriptionText>Your troops enter the Underhive and notice a large force of Remnant ships warp in they open fire on the Underhive in an effort to destroy it. You are pinned down for a moment, but eventually manage to flee. As your troops look behind them they see the Underhive being destroyed and detect the Remnant ships forces orbiting the planet.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <RemnantShipsToSpawn>
+        <string>Heavy Drone</string>
+        <string>Slaver Drone</string>
+        <string>Disruptor Drone</string>
+      </RemnantShipsToSpawn>
+    </Outcome>
+ 
+  </PotentialOutcomes>
+  
+  
+</ExplorationEvent>

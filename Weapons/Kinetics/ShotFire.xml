@@ -1,0 +1,30 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>ShotFire</UID>
+<Tag_Kinetic>true</Tag_Kinetic>
+ <Tag_Cannon>true</Tag_Cannon>
+<Tag_Explosive>false</Tag_Explosive>
+  <fireDelay>4.8</fireDelay>
+  <Range>1500</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>1</OrdinanceRequiredToFire>
+  <SalvoCount>3</SalvoCount>
+  <SalvoTimer>0.5</SalvoTimer>
+  <ProjectileCount>4</ProjectileCount>
+  <FireArc>10</FireArc>
+
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_vulcan_shotgun_01</fireCueName>
+
+  <EffectVsArmor>2</EffectVsArmor>
+  <EffectVSShields>.5</EffectVSShields>
+  <!-- Projectile Information -->
+  <DamageAmount>225</DamageAmount>
+  <DamageRadius>35</DamageRadius>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>3200</ProjectileSpeed>
+  <Scale>0.8</Scale>
+  <ProjectileTexturePath>projBall_02_red</ProjectileTexturePath>
+  <ModelPath>projBall</ModelPath>
+  <WeaponEffectType>Plasma</WeaponEffectType>
+  <WeaponType>Shotgun</WeaponType>
+</Weapon>

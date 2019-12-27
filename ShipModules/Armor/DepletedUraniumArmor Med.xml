@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Cost>6</Cost>
+	<!-- Tech Level -->
+	<TechLevel>2</TechLevel>
+	<TechBranch>Armor</TechBranch>
+	<!-- common traits shared by all ship modules -->
+	<XSIZE>2</XSIZE>
+	<YSIZE>2</YSIZE>
+	<ModuleType>Armor</ModuleType>
+	<Name>DepletedUraniumArmor Med</Name>
+	<Restrictions>O</Restrictions>
+	<UID>DepletedUraniumArmor Med</UID>
+	<TexturePath>Textures/transparent</TexturePath>
+	<IconTexturePath>Modules/Reactive_Armor_Medium</IconTexturePath>
+	<NameIndex>6567</NameIndex>
+	<DescriptionIndex>5999</DescriptionIndex>
+	<!-- Mass and Health -->
+	<Mass>77</Mass>
+	<Health>7650</Health>
+	<HealthMax>7650</HealthMax>
+	<RepairDifficulty>0.75</RepairDifficulty>
+    <DamageThreshold>40</DamageThreshold>		
+	<!-- Armor resistance -->
+	<KineticResist>0.2</KineticResist>
+	<BeamResist>-0.2</BeamResist>
+	<ExplosiveResist>0.1</ExplosiveResist>	
+	<!-- Power Drawn -->
+	<PowerDraw>0</PowerDraw>
+	<!-- Crew Reqs -->
+	<CrewRequired>0</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<!-- for Weapons -->
+	<!-- Description -->
+	<Description>DepletedUranium Armor, sandwiched between sheets of steel armour plate.</Description>
+</ShipModule>

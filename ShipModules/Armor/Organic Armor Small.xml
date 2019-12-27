@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>6</Cost>
+  <DroneModule>true</DroneModule>
+  <FighterModule>true</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <FrigateModule>true</FrigateModule>
+  <DestroyerModule>true</DestroyerModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>true</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>  
+  <!-- Tech Level -->
+  <TechLevel>4</TechLevel>
+  <TechBranch>Armor</TechBranch>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>1</XSIZE>
+  <YSIZE>1</YSIZE>
+  <ModuleType>Armor</ModuleType>
+  <Name>Organic Armor Small</Name>
+  <Restrictions>O</Restrictions>
+  <UID>Organic Armor Small</UID>
+  <TexturePath>Textures/transparent</TexturePath>
+  <IconTexturePath>Modules/Organic Armor Small</IconTexturePath>
+
+
+  <NameIndex>6598</NameIndex>
+  <DescriptionIndex>6596</DescriptionIndex>
+
+ <OrdnanceAddedPerSecond>0.1</OrdnanceAddedPerSecond>
+
+
+  <!-- Mass and Health -->
+  <Mass>18</Mass>
+  <Health>1200</Health>
+  <HealthMax>1200</HealthMax>
+  <RepairDifficulty>2</RepairDifficulty>
+  <DamageThreshold>40</DamageThreshold>			      
+  <PowerDraw>10</PowerDraw>
+  <PowerDrawAtWarp>-5</PowerDrawAtWarp>
+  <!-- Armor resistance -->
+  <KineticResist>0.8</KineticResist>
+  <BeamResist>-0.4</BeamResist>
+  <EMP_Protection>100</EMP_Protection>
+  <!-- Crew Reqs -->
+  <CrewRequired>0</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+
+  <!-- for Weapons -->
+
+  
+  <!-- Description -->
+  <Description>Organic Armor won't selfrepair but slowly regens ammo instead.</Description>
+  <APResist>1</APResist>    
+
+</ShipModule>

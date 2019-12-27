@@ -1,0 +1,47 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>20</Cost>
+  <!-- Tech Level -->
+  <TechLevel>4</TechLevel>
+  <TechBranch>Cannons</TechBranch>
+  
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>2</XSIZE>
+  <YSIZE>2</YSIZE>
+  <ModuleType>Turret</ModuleType>
+  <Name>Light Auto Cannon HEAP</Name>
+  <Restrictions>O</Restrictions>
+  <UID>LightACHEAP</UID>
+  <IconTexturePath>Modules/LightACHEAP</IconTexturePath>
+
+
+  <NameIndex>5333</NameIndex>
+  <DescriptionIndex>5334</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>16</Mass>
+  <Health>600</Health>
+  <HealthMax>600</HealthMax>
+  <RepairDifficulty>4</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>5</PowerDraw>
+
+
+  <!-- Crew Reqs -->
+  <CrewRequired>12</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+
+ 
+  <!-- for Weapons -->
+  <WeaponType>LACHEAP</WeaponType>
+  <FieldOfFire>90</FieldOfFire>
+  <OrdinanceCapacity>10</OrdinanceCapacity>
+  
+  <!-- Description -->
+  <Description>Light Auto Cannon</Description>
+  
+
+</ShipModule>

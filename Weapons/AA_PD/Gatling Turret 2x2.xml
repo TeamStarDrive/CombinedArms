@@ -1,0 +1,30 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+ <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Cannon>true</Tag_Cannon>
+  <Tag_PD>true</Tag_PD>
+  <UID>Gatling Turret 2x2</UID>
+  <fireDelay>0.1</fireDelay>
+  <Range>2500</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0.1</OrdinanceRequiredToFire>
+  <!-- This weapon will only fire on missiles and is ineffective against other targets -->
+  <TruePD>true</TruePD>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_vulcan_alt02_01</fireCueName>
+  <!-- <PlaySoundOncePerSalvo>true</PlaySoundOncePerSalvo> -->
+ <!-- <ToggleSoundName>sd_weapon_vulcan_spinloop_01</ToggleSoundName> -->
+  <!-- Projectile Information -->
+  <DamageAmount>12</DamageAmount>
+  <Scale>.8</Scale>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>2000</ProjectileSpeed>
+  <ProjectileRadius>35</ProjectileRadius>
+  <explodes>false</explodes>
+  <DamageRadius>30</DamageRadius>  
+  <ProjectileTexturePath>projTear_01_orange</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <WeaponType>AA Weapons</WeaponType>
+  <TargetChangeTimer>0.5</TargetChangeTimer>  
+  <ProjectileCount>2</ProjectileCount>
+  <FireArc>4</FireArc>    
+</Weapon>

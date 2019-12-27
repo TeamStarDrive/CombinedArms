@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Cost>42</Cost>
+	<FighterModule>false</FighterModule>
+	<!-- Tech Level -->
+	<TechLevel>4</TechLevel>
+	<TechBranch>Armor</TechBranch>
+	<!-- common traits shared by all ship modules -->
+	<XSIZE>3</XSIZE>
+	<YSIZE>3</YSIZE>
+	<ModuleType>Armor</ModuleType>
+	<Name>Organic Armor Large</Name>
+	<Restrictions>O</Restrictions>
+	<UID>Organic Armor Large</UID>
+	<TexturePath>Textures/transparent</TexturePath>
+	<IconTexturePath>Modules/Organic Armor Large</IconTexturePath>
+	<NameIndex>6600</NameIndex>
+	<DescriptionIndex>5999</DescriptionIndex>
+	<OrdnanceAddedPerSecond>1</OrdnanceAddedPerSecond>
+	<!-- Mass and Health -->
+	<Mass>144</Mass>
+	<Health>14400</Health>
+	<HealthMax>14400</HealthMax>
+	<RepairDifficulty>2</RepairDifficulty>
+    <DamageThreshold>20</DamageThreshold>			      	
+	<!-- Power Drawn -->
+	<PowerDraw>70</PowerDraw>
+	<PowerDrawAtWarp>-35</PowerDrawAtWarp>
+	<!-- Armor resistance -->
+	<KineticResist>0.8</KineticResist>
+	<BeamResist>-0.4</BeamResist>
+	<EMP_Protection>1100</EMP_Protection>
+	<!-- Crew Reqs -->
+	<CrewRequired>0</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<!-- for Weapons -->
+	<!-- Description -->
+	<Description>Organic Armor won't selfrepair but slowly regens ammo instead.</Description>
+	<APResist>1</APResist> 
+</ShipModule>

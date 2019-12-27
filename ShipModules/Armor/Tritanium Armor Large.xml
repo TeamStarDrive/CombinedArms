@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Cost>56</Cost>
+	<FighterModule>false</FighterModule>
+	<!-- Tech Level -->
+	<TechLevel>7</TechLevel>
+	<TechBranch>Armor</TechBranch>
+	<!-- common traits shared by all ship modules -->
+	<XSIZE>3</XSIZE>
+	<YSIZE>3</YSIZE>
+	<ModuleType>Armor</ModuleType>
+	<Name>Tritanium Armor Large</Name>
+	<Restrictions>O</Restrictions>
+	<UID>Tritanium Armor Large</UID>
+	<TexturePath>Textures/transparent</TexturePath>
+	<IconTexturePath>Modules/TritaniumArmor_3x3</IconTexturePath>
+	<NameIndex>17540</NameIndex>
+	<DescriptionIndex>5999</DescriptionIndex>
+	<!-- Mass and Health -->
+	<Mass>128</Mass>
+	<Health>45000</Health>
+	<HealthMax>45000</HealthMax>
+	<RepairDifficulty>2</RepairDifficulty>
+	<!-- Armor resistance -->
+	<KineticResist>0.4</KineticResist>
+	<BeamResist>0.3</BeamResist>
+	<MissileResist>0.2</MissileResist>
+    <ExplosiveResist>0.2</ExplosiveResist>  
+	<DamageThreshold>200</DamageThreshold>			    
+	<!-- Power Drawn -->
+	<PowerDraw>0</PowerDraw>
+	<!-- Crew Reqs -->
+	<CrewRequired>0</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<!-- Description -->
+	<Description>Active Armor Large</Description>
+	<APResist>3</APResist>
+</ShipModule>

@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <DestroyerModule>false</DestroyerModule>
+  <FrigateModule>true</FrigateModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>
+
+  <Cost>80</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>5</TechLevel>
+
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>3</XSIZE>
+  <YSIZE>6</YSIZE>
+  <ModuleType>MainGun</ModuleType>
+  <Name>Gravity Cannon</Name>
+  <Restrictions>O</Restrictions>
+  <UID>GravCannon</UID>
+  <IconTexturePath>Modules/GravCannon</IconTexturePath>3
+
+
+  <NameIndex>5377</NameIndex>
+  <DescriptionIndex>5378</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>200</Mass>
+  <Health>2000</Health>
+  <HealthMax>2000</HealthMax>
+  <RepairDifficulty>4</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>150</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>GravCannon</WeaponType>
+  <FieldOfFire>20</FieldOfFire>
+  <Left>1</Left>
+  <Right>1</Right>
+  <Rear>1</Rear>
+  
+  
+  <!-- Description -->
+  <Description>Gravity Sucks</Description>
+  
+
+</ShipModule>

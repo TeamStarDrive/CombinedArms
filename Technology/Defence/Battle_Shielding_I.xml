@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Battle_Shielding_I</UID>
+  <TechnologyType>ShipDefense</TechnologyType>
+  <Cost>2100</Cost>
+  <RootNode>0</RootNode>
+  <Name>Battle_Shielding_I</Name>
+  <NameIndex>17587</NameIndex>
+  <DescriptionIndex>17588</DescriptionIndex>
+  <LongDescription>Energy shields are a requirement for any Captain expecting to engage in combat.  These devices extend an absorbant energy field towards projectiles entering its sphere of protection.  Shields 'recharge' by shedding the energy captured.  The shield will overload and be destroyed if it absorbs too many hits. Shields vary in strength, recharge rate, and protection radius.  </LongDescription>
+  <LeadsTo>
+    <LeadsToTech>
+      <UID>Cold_Shielding_I</UID>
+    </LeadsToTech>
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>BattleShield2x2</ModuleUID>
+    </UnlockedMod>
+	<UnlockedMod>
+		<ModuleUID>Fighter Shield Battle</ModuleUID>
+	</UnlockedMod>	
+  </ModulesUnlocked>
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<UID>Fusion Reactor</UID>
+	<TechnologyType>ShipGeneral</TechnologyType>
+	<Cost>190</Cost>
+	<RootNode>0</RootNode>
+	<Name>Fusion Reactor</Name>
+	<NameIndex>8045</NameIndex>
+	<DescriptionIndex>17450</DescriptionIndex>
+	<LongDescription>Fusion Reactor</LongDescription>
+	<LeadsTo>
+		<LeadsToTech>
+			<UID>Extreme Fusion</UID>
+		</LeadsToTech>
+		<LeadsToTech>
+			<UID>Cold Fusion</UID>
+		</LeadsToTech>		
+		<!--<LeadsToTech>
+			<UID>Advanced Fighter Generator</UID>
+		</LeadsToTech>			 -->
+	</LeadsTo>
+	<ModulesUnlocked>
+		<UnlockedMod>
+			<ModuleUID>Fusion Reactor</ModuleUID>
+		</UnlockedMod>
+		<UnlockedMod>
+			<ModuleUID>Advanced Fighter Generator</ModuleUID>
+		</UnlockedMod>				
+		<UnlockedMod>
+			<ModuleUID>DroneClusterBomb1x1</ModuleUID>
+		</UnlockedMod>		
+	</ModulesUnlocked>
+	<BuildingsUnlocked/>
+	<BonusUnlocked/>
+	<TroopsUnlocked/>
+	<HullsUnlocked/>
+</Technology>

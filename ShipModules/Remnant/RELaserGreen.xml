@@ -1,0 +1,27 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Cost>2</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>1</TechLevel>
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>1</XSIZE>
+  <YSIZE>1</YSIZE>
+  <ModuleType>Turret</ModuleType>
+  <Name>RE Green Laser</Name>
+  <Restrictions>O</Restrictions>
+  <UID>RELaserGreen</UID>
+  <IconTexturePath>Modules/GreenLaser</IconTexturePath>3
+  <NameIndex>5463</NameIndex>
+  <DescriptionIndex>5463</DescriptionIndex>
+  <!-- Mass and Health -->
+  <Mass>3</Mass>
+  <Health>500</Health>
+  <HealthMax>500</HealthMax>
+  <!-- Power Drawn -->
+  <PowerDraw>1</PowerDraw>
+  <!-- for Weapons -->
+  <WeaponType>REGreenLaser</WeaponType>
+  <FieldOfFire>90</FieldOfFire>
+  <!-- Description -->
+  <Description>This is a point defense laser cannon with a swivel mount, making it ideal for fighter-class vessels or for capital ship defense</Description>
+</ShipModule>

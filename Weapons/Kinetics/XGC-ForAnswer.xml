@@ -1,0 +1,41 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>XGC-ForAnswer</UID>
+  <Tag_Cannon>true</Tag_Cannon>
+  <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Explosive>true</Tag_Explosive>
+  <fireDelay>0.16</fireDelay>
+  <Range>8000</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>3</OrdinanceRequiredToFire>
+  <Excludes_Fighters>true</Excludes_Fighters>  
+  <Excludes_Corvettes>true</Excludes_Corvettes> 
+
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_flakcannon_01</fireCueName>
+  <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
+  <!-- Projectile Information -->
+  <DamageAmount>300</DamageAmount>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>2850</ProjectileSpeed>
+  <DamageRadius>25</DamageRadius>
+
+  <!-- Animation Information -->
+  <Animated>1</Animated>
+  <Scale>1.2</Scale>
+  <Frames>17</Frames>
+  <AnimationPath>Kinetic_Red/Kinetic_Red_cc_</AnimationPath>
+  <LoopAnimation>1</LoopAnimation>   
+  
+  <explodes>true</explodes>
+  <!--<ProjectileTexturePath>projLong_02_cyan</ProjectileTexturePath>
+  <ModelPath>projLong</ModelPath> -->
+  <ProjectileTexturePath>projLong_02_red</ProjectileTexturePath>
+  <ModelPath>projLong</ModelPath>  
+
+  <ProjectileCount>1</ProjectileCount>
+  <!--the projectile count is spread over the fire arc-->
+  <FireCone>2</FireCone>
+  <WeaponType>Ballistic Cannon</WeaponType>
+  <WeaponEffectType>MuzzleSmoke</WeaponEffectType>  
+
+</Weapon>

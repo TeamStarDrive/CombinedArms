@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Missile>true</Tag_Missile>
+  <Tag_Explosive>true</Tag_Explosive>
+
+  <Excludes_Fighters>true</Excludes_Fighters>  
+  <Excludes_Corvettes>true</Excludes_Corvettes>  
+  
+  <UID>Fighter MeltBomb4</UID>
+  <fireDelay>8.2</fireDelay>
+  <Range>3000</Range>
+  <HitPoints>50</HitPoints>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>4</OrdinanceRequiredToFire>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_emptorpedo</fireCueName>
+  <dieCue>Explo1</dieCue>
+  <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
+  <!-- Projectile Information -->
+  <DamageAmount>775</DamageAmount>
+  <EffectVSShields>1.9</EffectVSShields>  
+  <EMPDamage>150</EMPDamage>      
+  <ProjectileSpeed>500</ProjectileSpeed>
+  <Light>Red</Light>
+
+  <Scale>1.2</Scale>
+  <DamageRadius>20</DamageRadius>
+  <explodes>true</explodes>
+  <ProjectileTexturePath>spacemine_g</ProjectileTexturePath>
+  <ModelPath>spacemine</ModelPath>
+
+  <WeaponType>Missile</WeaponType>
+  <SalvoCount>4</SalvoCount>
+  <SalvoTimer>0.8</SalvoTimer>
+  <FireCone>10</FireCone>
+  <ProjectileRadius>4</ProjectileRadius>
+  <CanCollideProjectiles>true</CanCollideProjectiles>
+
+</Weapon>

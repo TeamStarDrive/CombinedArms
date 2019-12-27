@@ -1,0 +1,60 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <UID>PlasmaTorpedo</UID>
+  
+  <Tag_Kinetic>false</Tag_Kinetic>
+  <Tag_Energy>false</Tag_Energy>
+  <Tag_Guided>true</Tag_Guided>
+  <Tag_Missile>false</Tag_Missile>
+  <Tag_Hybrid>false</Tag_Hybrid>
+  <Tag_Beam>false</Tag_Beam>
+  <Tag_Intercept>true</Tag_Intercept>
+  <Tag_Explosive>true</Tag_Explosive>
+  <Tag_Bomb>false</Tag_Bomb>
+  <Tag_Railgun>false</Tag_Railgun>
+  <Tag_BioWeapon>false</Tag_BioWeapon>
+  <Tag_Warp>false</Tag_Warp>
+  <Tag_Subspace>false</Tag_Subspace>
+  <Tag_Drone>false</Tag_Drone>
+  <Tag_Torpedo>true</Tag_Torpedo>
+  <Tag_Cannon>false</Tag_Cannon>
+  
+  <Excludes_Fighters>true</Excludes_Fighters>  
+  
+  
+  <fireDelay>5</fireDelay>
+  <Range>5000</Range>
+  <HitPoints>175</HitPoints>
+  <PowerRequiredToFire>200</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>5</OrdinanceRequiredToFire>
+  <ProjectileCount>1</ProjectileCount>
+  <SalvoCount>2</SalvoCount>
+  <SalvoTimer>1</SalvoTimer>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_torpedo_01</fireCueName>
+  <dieCue>sd_explosion_ship_det_small</dieCue>
+  <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
+  <EffectVsArmor>1.5</EffectVsArmor>
+  <!-- EffectVSShields>.5</EffectVSShields -->
+  <!-- Projectile Information -->
+  <DamageAmount>1340</DamageAmount>
+  <DamageRadius>50</DamageRadius>
+  <explodes>true</explodes>
+  <ExpColor>Green_1</ExpColor>  
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>1200</ProjectileSpeed>
+  <RotationRadsPerSecond>0.5</RotationRadsPerSecond>
+  <Light>Green</Light>
+  <Scale>1.8</Scale>
+  <WeaponEffectType>RocketTrail</WeaponEffectType>
+  <Animated>1</Animated>
+  <Frames>24</Frames>
+  <AnimationPath>Plasma_Proj/Plasma_Proj_cc_</AnimationPath>
+  <LoopAnimation>1</LoopAnimation>  
+  <ProjectileTexturePath>projTear_03_green</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <WeaponType>Plasma</WeaponType>
+  <ProjectileRadius>5</ProjectileRadius>
+  <CanCollideProjectiles>true</CanCollideProjectiles>
+</Weapon>

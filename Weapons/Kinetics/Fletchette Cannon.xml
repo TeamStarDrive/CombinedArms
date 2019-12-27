@@ -1,0 +1,27 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Fletchette Cannon</UID>
+<Tag_Cannon>true</Tag_Cannon>
+ <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Explosive>false</Tag_Explosive>
+  <fireDelay>2</fireDelay>
+  <Range>1500</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0.75</OrdinanceRequiredToFire>
+  <SalvoCount>3</SalvoCount>
+  <SalvoTimer>.75</SalvoTimer>
+  <ProjectileCount>3</ProjectileCount>
+  <FireArc>10</FireArc>
+
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_vulcan_shotgun_01</fireCueName>
+  <EffectVsArmor>.85</EffectVsArmor>
+  <EffectVSShields>.75</EffectVSShields>
+  <!-- Projectile Information -->
+  <DamageAmount>35</DamageAmount>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>3200</ProjectileSpeed>
+  <Scale>3.7</Scale>
+  <ProjectileTexturePath>superlong_yellow</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <WeaponType>Shotgun</WeaponType>
+</Weapon>

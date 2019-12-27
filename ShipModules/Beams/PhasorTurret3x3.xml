@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+<!-- The Doctor, StarDrive Turbo: these are boolean values that configure precisely which ship hull classes are able to mount your module. Like the old 'FightersOnly' tag, except comprehensive in the control provided -->
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <FrigateModule>true</FrigateModule>
+  <DestroyerModule>true</DestroyerModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>false</PlatformModule>
+  <StationModule>true</StationModule>
+  
+  
+  <UID>PhasorTurret3x3</UID>
+  <Cost>35</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>3</TechLevel>
+
+  
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>3</XSIZE>
+  <YSIZE>3</YSIZE>
+  <ModuleType>Turret</ModuleType>
+  <Name>Light Phasor Array</Name>
+  <Restrictions>O</Restrictions>
+
+  <IconTexturePath>Modules/Phasor3x3</IconTexturePath>
+
+
+  <NameIndex>17808</NameIndex>
+  <DescriptionIndex>17809</DescriptionIndex>
+  <RepairDifficulty>4</RepairDifficulty>
+
+
+  <!-- Mass and Health -->
+  <Mass>24</Mass>
+  <Health>1200</Health>
+  <HealthMax>1200</HealthMax>
+
+  <!-- Power Drawn -->
+  <PowerDraw>10</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>DualPhasorBeam</WeaponType>
+  <FieldOfFire>120</FieldOfFire>
+
+  <!-- Description -->
+  <Description>Phasors are powerful and efficient directed energy weapons.</Description>
+  
+
+</ShipModule>

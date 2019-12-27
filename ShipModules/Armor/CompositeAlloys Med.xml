@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Cost>12</Cost>
+	<!-- Tech Level -->
+	<TechLevel>4</TechLevel>
+	<TechBranch>Armor</TechBranch>
+	<!-- common traits shared by all ship modules -->
+	<XSIZE>2</XSIZE>
+	<YSIZE>2</YSIZE>
+	<ModuleType>Armor</ModuleType>
+	<Name>CompositeAlloys Med</Name>
+	<Restrictions>O</Restrictions>
+	<UID>CompositeAlloys Med</UID>
+	<TexturePath>Textures/transparent</TexturePath>
+	<IconTexturePath>Modules/CompositeAlloys Med</IconTexturePath>
+	<NameIndex>6572</NameIndex>
+	<DescriptionIndex>5999</DescriptionIndex>
+	<!-- Mass and Health -->
+	<Mass>60</Mass>
+	<Health>10800</Health>
+	<HealthMax>10800</HealthMax>
+	<RepairDifficulty>1.25</RepairDifficulty>
+    <DamageThreshold>90</DamageThreshold>			
+	<!-- Armor resistance -->
+	<KineticResist>0.35</KineticResist>
+	<!-- Power Drawn -->
+	<PowerDraw>0</PowerDraw>
+	<!-- Crew Reqs -->
+	<CrewRequired>0</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<!-- for Weapons -->
+	<!-- Description -->
+	<Description>Composite Alloys provides massive defence however the mass is also very "massive".</Description>
+    <APResist>1</APResist>	
+</ShipModule>

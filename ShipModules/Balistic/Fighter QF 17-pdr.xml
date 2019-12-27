@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<DroneModule>false</DroneModule>
+  <FighterModule>true</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <FrigateModule>false</FrigateModule>
+  <DestroyerModule>false</DestroyerModule>
+  <CruiserModule>false</CruiserModule>
+  <CarrierModule>false</CarrierModule>
+  <CapitalModule>false</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>false</PlatformModule>
+  <StationModule>false</StationModule>
+  <Cost>4</Cost>
+  <TechLevel>3</TechLevel>  
+  <!-- common traits shared by all ship modules -->
+  <ModuleType>Turret</ModuleType>
+  <Name>Fighter QF 17-pdr</Name>
+  <XSIZE>1</XSIZE>
+  <YSIZE>2</YSIZE>
+  <Restrictions>IO</Restrictions>
+  <UID>Fighter QF 17-pdr</UID>
+  <IconTexturePath>Modules/Fighter QF 17-pdr</IconTexturePath>
+  <Mass>8</Mass>
+  <Health>120</Health>
+  <HealthMax>120</HealthMax>
+  <RepairDifficulty>3</RepairDifficulty>
+  <Description>Fighter QF 17-pdr</Description>
+  <PowerDraw>1</PowerDraw>
+
+  <NameIndex>8137</NameIndex>
+  <DescriptionIndex>8138</DescriptionIndex>
+    <FightersOnly>true</FightersOnly>
+
+  <!-- for shield items -->
+  <shield_power>0</shield_power>
+  <shield_power_max>0</shield_power_max>
+  <shield_recharge_delay>0</shield_recharge_delay>
+  <shield_recharge_rate>0</shield_recharge_rate>
+  <shield_radius>0</shield_radius>
+  <radius>0</radius>
+
+  <!-- for PowerPlant Items -->
+  <explodes>false</explodes>
+  <PowerFlowMax>0</PowerFlowMax>
+  <PowerStoreMax>0</PowerStoreMax>
+  
+  
+  <!-- for Weapons -->
+  <WeaponType>Fighter QF 17-pdr</WeaponType>
+  <FieldOfFire>120</FieldOfFire>
+  <OrdinanceCapacity>10</OrdinanceCapacity>
+  
+  <!-- for Engines -->
+  <thrust>0</thrust>
+  
+  
+
+</ShipModule>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Corvette Hulls I</UID>
+  <TechnologyType>ShipHull</TechnologyType>
+  <Cost>400</Cost>
+  <RootNode>0</RootNode>
+  <Name>Heavy Fighter Hull</Name>
+  <NameIndex>18005</NameIndex>
+  <DescriptionIndex>18006</DescriptionIndex>
+  <LongDescription>This hull represents our first effort at a combat ready hull.  It is larger and sleeker than our shuttlecraft hull and is capable of filling the role of a heavy scout or fighter. </LongDescription>
+	<LeadsTo>
+    <LeadsToTech>
+      <UID>Corvette Hulls II</UID>
+    </LeadsToTech>	
+	</LeadsTo>
+  <ModulesUnlocked>
+  </ModulesUnlocked>
+  <HullsUnlocked>  
+	  <UnlockedHull>
+  	    <ShipType>Cordrazine</ShipType>
+	    <Name>Cordrazine/Sitving</Name>
+	  </UnlockedHull>	  
+      <UnlockedHull>
+      <Name>Dauntless/ts2</Name>
+	  <ShipType>Dauntless</ShipType>
+    </UnlockedHull>
+    <UnlockedHull>
+      <Name>Draylok/Artemis</Name>
+      <ShipType>Draylok</ShipType>
+    </UnlockedHull>			
+    <UnlockedHull>
+      <Name>Kulrathi/Blade</Name>
+      <ShipType>Kulrathi</ShipType>
+    </UnlockedHull>	
+    <UnlockedHull>
+      <Name>Opteris/Worker01</Name>
+      <ShipType>Opteris</ShipType>
+    </UnlockedHull>	
+    <UnlockedHull>
+      <Name>Pollops/Grove</Name>
+      <ShipType>Pollops</ShipType>
+    </UnlockedHull>	
+    <UnlockedHull>
+      <Name>Ralyeh/Cleric</Name>
+      <ShipType>Ralyeh</ShipType>
+    </UnlockedHull>		
+    <UnlockedHull>
+      <Name>Terran/Seeker</Name>
+      <ShipType>Terran</ShipType>
+    </UnlockedHull>	
+    <UnlockedHull>
+      <Name>Vulfen/Type IV</Name>
+      <ShipType>Vulfen</ShipType>
+    </UnlockedHull>
+  </HullsUnlocked>
+  <BuildingsUnlocked>
+    <UnlockedBuilding>
+      <Name>CorvetteDefense3</Name>
+    </UnlockedBuilding>
+  </BuildingsUnlocked>  
+</Technology>

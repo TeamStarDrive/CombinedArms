@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>1</Cost>
+  
+  <DroneModule>true</DroneModule>
+  <FighterModule>true</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <FrigateModule>true</FrigateModule>
+  <DestroyerModule>true</DestroyerModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>true</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>  
+  
+  <!-- Tech Level -->
+  <TechLevel>1</TechLevel>
+  <TechBranch>Armor</TechBranch>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>1</XSIZE>
+  <YSIZE>1</YSIZE>
+  <ModuleType>Armor</ModuleType>
+  <Name>Small Plasteel Armor</Name>
+  <Restrictions>O</Restrictions>
+  <UID>PlaSteelArmorSmall</UID>
+  <TexturePath>Textures/transparent</TexturePath>
+  <IconTexturePath>Modules/PlaSteelSm</IconTexturePath>
+
+
+  <NameIndex>1026</NameIndex>
+  <DescriptionIndex>1027</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>9</Mass>
+  <Health>625</Health>
+  <HealthMax>625</HealthMax>
+  <RepairDifficulty>0.25</RepairDifficulty>
+  <DamageThreshold>10</DamageThreshold>
+  <!-- Power Drawn -->
+  <PowerDraw>0</PowerDraw>
+
+
+  <!-- Crew Reqs -->
+  <CrewRequired>0</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+
+  <!-- for Weapons -->
+
+
+  <!-- Description -->
+  <Description>Plasteel armor provides approximately 25% less protection than steel armor but does so with half of the mass.</Description>
+  
+
+</ShipModule>

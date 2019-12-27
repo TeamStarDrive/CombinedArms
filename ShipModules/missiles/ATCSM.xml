@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <DestroyerModule>true</DestroyerModule>
+  <FrigateModule>true</FrigateModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>
+
+  <Cost>15</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>2</TechLevel>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>1</XSIZE>
+  <YSIZE>3</YSIZE>
+  <ModuleType>MissileLauncher</ModuleType>
+  <Name>ATCSM</Name>
+  <Restrictions>O</Restrictions>
+  <UID>ATCSM</UID>
+  <IconTexturePath>Modules/ATCSM</IconTexturePath>
+
+
+  <NameIndex>6525</NameIndex>
+  <DescriptionIndex>6526</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>15</Mass>
+  <Health>200</Health>
+  <HealthMax>200</HealthMax>
+  <RepairDifficulty>2</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>5</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>ATCSM</WeaponType>
+  <FieldOfFire>15</FieldOfFire>
+  <OrdinanceCapacity>13</OrdinanceCapacity>
+  
+  
+  <!-- Description -->
+  <Description>Anti Capital Ship missiles, much powerful than regular missiles. </Description>
+  
+
+</ShipModule>

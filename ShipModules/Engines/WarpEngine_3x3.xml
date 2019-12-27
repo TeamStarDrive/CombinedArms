@@ -1,0 +1,63 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <DestroyerModule>false</DestroyerModule>
+  <FrigateModule>true</FrigateModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>true</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>
+
+  <Cost>20</Cost>
+  <TechLevel>3</TechLevel>
+  <!-- common traits shared by all ship modules -->
+  <ModuleType>Engine</ModuleType>
+  <Name>Capital Warp Engine</Name>
+  <XSIZE>3</XSIZE>
+  <YSIZE>3</YSIZE>
+  <Restrictions>E</Restrictions>
+  <UID>WarpEngine_3x3</UID>
+  <IconTexturePath>Modules/warpengine_3x3</IconTexturePath>
+  <Mass>94</Mass>
+  <Health>2000</Health>
+  <HealthMax>2000</HealthMax>
+  <RepairDifficulty>3</RepairDifficulty>
+  <energyreq>0</energyreq>
+  <modRadius>4</modRadius>
+  <Description>A ship that requires more strategic mobility than tactical mobility would do well to install this massive warp engine. </Description>
+  <CrewRequired>1</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+  <PowerDraw>150</PowerDraw>
+
+
+  <NameIndex>1080</NameIndex>
+  <DescriptionIndex>1081</DescriptionIndex>
+
+  <!-- for shield items -->
+  <shield_power>0</shield_power>
+  <shield_power_max>0</shield_power_max>
+  <shield_recharge_delay>0</shield_recharge_delay>
+  <shield_recharge_rate>0</shield_recharge_rate>
+  <shield_radius>0</shield_radius>
+
+  <!-- for PowerPlant Items -->
+  <explodes>false</explodes>
+  <PowerFlowMax>0</PowerFlowMax>
+  <PowerStoreMax>0</PowerStoreMax>
+  
+  <!-- for Weapons -->
+
+  
+  
+  <!-- for Engines -->
+  <thrust>73447</thrust>
+  <WarpThrust>918090</WarpThrust>
+  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
+  <TurnThrust>73447</TurnThrust>
+
+</ShipModule>

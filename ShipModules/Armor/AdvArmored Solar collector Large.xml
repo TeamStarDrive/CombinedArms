@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Cost>16</Cost>
+	<FighterModule>false</FighterModule>
+	<!-- Tech Level -->
+	<TechLevel>2</TechLevel>
+	<TechBranch>Armor</TechBranch>
+	<!-- common traits shared by all ship modules -->
+	<XSIZE>3</XSIZE>
+	<YSIZE>3</YSIZE>
+	<ModuleType>Armor</ModuleType>
+	<Name>AdvArmored Solar collector Large</Name>
+	<Restrictions>O</Restrictions>
+	<UID>AdvArmored Solar collector Large</UID>
+	<TexturePath>Textures/transparent</TexturePath>
+	<IconTexturePath>Modules/Solar_Armor_Large</IconTexturePath>
+	<NameIndex>6618</NameIndex>
+	<DescriptionIndex>5999</DescriptionIndex>
+	<!-- Mass and Health -->
+	<Mass>99</Mass>
+	<Health>9600</Health>
+	<HealthMax>9600</HealthMax>
+	<RepairDifficulty>1</RepairDifficulty>
+    <DamageThreshold>20</DamageThreshold>			      			
+	<!-- Power Drawn -->
+	<PowerDraw>0</PowerDraw>
+	<!-- Armor resistance -->
+	<BeamResist>0.15</BeamResist>
+	<!-- for PowerPlant Items -->
+	<explodes>false</explodes>
+	<PowerFlowMax>90</PowerFlowMax>
+	<PowerStoreMax>180</PowerStoreMax>
+	<PowerRadius>3</PowerRadius>
+	<!-- Crew Reqs -->
+	<CrewRequired>0</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<!-- for Weapons -->
+	<!-- Description -->
+	<Description>Advanced Armored Solar collector, procides power within a small radius.</Description>
+</ShipModule>

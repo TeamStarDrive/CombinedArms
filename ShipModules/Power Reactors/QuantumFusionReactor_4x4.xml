@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <DroneModule>false</DroneModule>
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <DestroyerModule>false</DestroyerModule>
+  <FrigateModule>true</FrigateModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>false</PlatformModule>
+  <StationModule>true</StationModule> 
+
+  <Cost>160</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>3</TechLevel>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>4</XSIZE>
+  <YSIZE>4</YSIZE>
+  <ModuleType>PowerPlant</ModuleType>
+  <Name>Med. Nuclear Reactor</Name>
+  <Restrictions>I</Restrictions>
+  <UID>AntimatterReactor4x4</UID>
+  <TexturePath>Textures/transparent</TexturePath>
+  <IconTexturePath>Modules/QuantumFusionReactor_4x4</IconTexturePath>
+
+
+  <NameIndex>17516</NameIndex>
+  <DescriptionIndex>17517</DescriptionIndex>
+
+
+
+  <Mass>175</Mass>
+  <Health>2650</Health>
+  <HealthMax>2650</HealthMax>
+  <RepairDifficulty>5</RepairDifficulty>
+  <energyreq>0</energyreq>
+  <modRadius>4</modRadius>
+  <Description>Reactors are the beating hearts of spaceships.  This advanced fission model provides a large level of power output and power storage. Explodes when destroyed. </Description>
+  <CrewRequired>10</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+  <PowerDraw>0</PowerDraw>
+
+  <!-- for shield items -->
+  <shield_power>0</shield_power>
+  <shield_power_max>0</shield_power_max>
+  <shield_recharge_delay>0</shield_recharge_delay>
+  <shield_recharge_rate>0</shield_recharge_rate>
+  <shield_radius>0</shield_radius>
+
+
+  <!-- for PowerPlant Items -->
+  <explodes>true</explodes>
+  <ExplosionDamage>4000</ExplosionDamage>
+  <ExplosionRadius>256</ExplosionRadius>  
+  <PowerFlowMax>1920</PowerFlowMax>
+  <PowerStoreMax>320</PowerStoreMax>
+  <PowerRadius>6</PowerRadius>
+
+  <!-- for Weapons -->
+
+
+
+  <!-- for Engines -->
+  <thrust>0</thrust>
+
+
+
+</ShipModule>

@@ -1,0 +1,29 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>SniperHEAP</UID>
+ <Tag_Cannon>true</Tag_Cannon>
+  <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Explosive>true</Tag_Explosive>  
+
+  <fireDelay>6.3</fireDelay>
+  <Range>8500</Range>
+  <PowerRequiredToFire>50</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>3</OrdinanceRequiredToFire>
+
+  
+  <Excludes_Fighters>true</Excludes_Fighters>    
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_vulcan_shotgun_01</fireCueName>
+
+  <!-- Projectile Information -->
+  <DamageAmount>750</DamageAmount>
+  <EffectVsArmor>1.5</EffectVsArmor>
+  <DamageRadius>30</DamageRadius>
+  <explodes>true</explodes>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>5500</ProjectileSpeed>
+  <Scale>1.1</Scale>
+  <ProjectileTexturePath>projLong_02_orange</ProjectileTexturePath>
+  <ModelPath>projLong</ModelPath>
+  <WeaponType>Gauss Cannon</WeaponType>
+  <FireCone>0</FireCone>
+</Weapon>

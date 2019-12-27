@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tag_Kinetic>false</Tag_Kinetic>
+  <Tag_Energy>true</Tag_Energy>
+  <Tag_Guided>false</Tag_Guided>
+  <Tag_Missile>false</Tag_Missile>
+  <Tag_Hybrid>false</Tag_Hybrid>
+  <Tag_Beam>false</Tag_Beam>
+  <Tag_Intercept>false</Tag_Intercept>
+  <Tag_Explosive>false</Tag_Explosive>
+  <Tag_Bomb>false</Tag_Bomb>
+  <Tag_BioWeapon>false</Tag_BioWeapon>
+  <Tag_Warp>false</Tag_Warp>
+  <Tag_Subspace>false</Tag_Subspace>
+  <Tag_Drone>false</Tag_Drone>
+  <Tag_Torpedo>false</Tag_Torpedo>
+  <Tag_Cannon>true</Tag_Cannon>
+
+  <UID>Laser</UID>
+  <fireDelay>0.8</fireDelay>
+  <Range>1900</Range>
+  <PowerRequiredToFire>22</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
+
+  <SalvoCount>2</SalvoCount>
+  <SalvoTimer>0.8</SalvoTimer>
+  <PlaySoundOncePerSalvo>false</PlaySoundOncePerSalvo>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>heavylaser1</fireCueName>
+
+
+  <!-- Projectile Information -->
+  <DamageAmount>60</DamageAmount>
+  <ProjectileSpeed>2000</ProjectileSpeed>
+  <explodes>false</explodes>
+  <Light>Red</Light>
+  <Scale>1.1</Scale>
+  <ProjectileTexturePath>projPulse_01_red_1</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <WeaponType>Energy Cannon</WeaponType>
+  <EffectVsArmor>1.25</EffectVsArmor>  
+  <ProjectileCount>1</ProjectileCount>
+  <FireArc>0</FireArc>
+</Weapon>

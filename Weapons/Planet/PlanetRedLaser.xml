@@ -1,0 +1,27 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Tag_Cannon>true</Tag_Cannon>
+  <Tag_Energy>true</Tag_Energy>
+
+  <UID>PlanetRedLaser</UID>
+  <fireDelay>1.5</fireDelay>
+  <Range>3000</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>heavylaser1</fireCueName>
+
+ <!-- <ToggleSoundName>sd_weapon_vulcan_spinloop_01</ToggleSoundName> -->
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <!-- Projectile Information -->
+  <DamageAmount>250</DamageAmount>  
+  <Scale>1.2</Scale>
+  <Light>Red</Light>
+  <ProjectileSpeed>2200</ProjectileSpeed>
+  <ProjectileRadius>8</ProjectileRadius> 
+  <explodes>false</explodes>
+  <ProjectileTexturePath>projPulse_01_red_dual</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>  
+  <WeaponType>Energy Cannon</WeaponType>
+  <FireCone>5</FireCone>
+
+</Weapon>

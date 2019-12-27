@@ -1,0 +1,31 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Beam>true</Tag_Beam>
+  
+  <UID>Singularity</UID>
+  <isBeam>true</isBeam>
+  <fireDelay>1.8</fireDelay>
+  <Range>4200</Range>
+  <PowerRequiredToFire>500</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+
+  <fireCueName>sd_weapon_emptorpedo</fireCueName>
+  <!-- ToggleSoundName>sd_weapon_beam_02</ToggleSoundName -->
+  
+  
+  <!-- Projectile Information -->
+  <BeamTexture>gravround</BeamTexture>
+
+  <RepulsionDamage>154000</RepulsionDamage>
+  <MassDamage>1</MassDamage>
+  <DamageAmount>500</DamageAmount>
+  <EffectVsArmor>1</EffectVsArmor>
+  <EffectVSShields>1</EffectVSShields>
+  <BeamThickness>0</BeamThickness>
+  <BeamPowerCostPerSecond>0</BeamPowerCostPerSecond>
+
+  <WeaponType>Ballistic Cannon</WeaponType>
+  
+</Weapon>

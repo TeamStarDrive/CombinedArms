@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <DestroyerModule>false</DestroyerModule>
+  <FrigateModule>false</FrigateModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>true</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>
+
+	<Cost>240</Cost>
+	<TechLevel>4</TechLevel>
+	<!-- common traits shared by all ship modules -->
+	<ModuleType>Shield</ModuleType>
+	<XSIZE>3</XSIZE>
+	<YSIZE>6</YSIZE>
+	<UID>ArmCanopyShield1</UID>
+	<Restrictions>IO</Restrictions>
+	<Name>Armored Canopy Shield</Name>
+	<IconTexturePath>Modules/armcanopy</IconTexturePath>
+	<Mass>300</Mass>
+	<Health>25000</Health>
+	<HealthMax>25000</HealthMax>
+	<RepairDifficulty>3</RepairDifficulty>
+	<energyreq>0</energyreq>
+	<modRadius>4</modRadius>
+	<Description>This is a monstrous shield with the a high resistance and a massive protection radius, making it ideal for capital ships or specialized shield ships.  The power costs are enormous.</Description>
+	<CrewRequired>3</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<PowerDraw>4000</PowerDraw>
+	<PowerDrawAtWarp>-1800</PowerDrawAtWarp>
+	<NameIndex>13001</NameIndex>
+	<DescriptionIndex>13000</DescriptionIndex>
+	<!-- for shield items -->
+	<shield_power>60000</shield_power>
+	<shield_power_max>60000</shield_power_max>
+	<shield_recharge_delay>3.5</shield_recharge_delay>
+	<shield_recharge_rate>400</shield_recharge_rate>
+	<shield_radius>600</shield_radius>
+	<shield_recharge_combat_rate>0</shield_recharge_combat_rate>
+    <shield_threshold>100</shield_threshold>	
+	<!-- for Weapons -->
+	<EMP_Protection>300</EMP_Protection>
+	<!-- Armor resistance -->	
+	<KineticResist>-0.2</KineticResist>
+	<BeamResist>0.25</BeamResist>
+	<EnergyResist>0.1</EnergyResist>	
+</ShipModule>

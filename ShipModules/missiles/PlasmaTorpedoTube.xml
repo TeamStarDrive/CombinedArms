@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <DestroyerModule>true</DestroyerModule>
+  <FrigateModule>true</FrigateModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>true</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>
+
+  <Cost>25</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>2</TechLevel>
+
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>2</XSIZE>
+  <YSIZE>4</YSIZE>
+  <ModuleType>MainGun</ModuleType>
+  <Name>Plasma Torpedo</Name>
+  <Restrictions>O</Restrictions>
+  <UID>PlasmaTorpedoTube</UID>
+  <IconTexturePath>Modules/PlasmaTorpedoTube</IconTexturePath>3
+
+
+  <NameIndex>5309</NameIndex>
+  <DescriptionIndex>5310</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>110</Mass>
+  <Health>650</Health>
+  <HealthMax>650</HealthMax>
+  <RepairDifficulty>2</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>50</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>PlasmaTorpedo</WeaponType>
+  <FieldOfFire>25</FieldOfFire>
+  <Left>1</Left>
+  <Right>1</Right>
+  <Rear>1</Rear>
+  
+  
+  <!-- Description -->
+  <Description>A sphere of plasma contained in a magnetic field that releases upon impact allowing the plasma sphere to explode. Can be shot down.</Description>
+  
+
+</ShipModule>

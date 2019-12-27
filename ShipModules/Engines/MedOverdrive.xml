@@ -1,0 +1,68 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <DestroyerModule>false</DestroyerModule>
+  <FrigateModule>true</FrigateModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>true</FreighterModule>
+  <PlatformModule>false</PlatformModule>
+  <StationModule>false</StationModule>
+
+  <Cost>21</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>1</TechLevel>
+  
+  <!-- common traits shared by all ship modules -->
+  <ModuleType>Engine</ModuleType>
+  <XSIZE>2</XSIZE>
+  <YSIZE>2</YSIZE>
+  <Name>Medium Overdrive Engine</Name>
+  <Restrictions>E</Restrictions>
+  <UID>MedOverdrive</UID>
+  <TexturePath>Textures/transparent</TexturePath>
+  <IconTexturePath>Modules/MedOverdrive_v2</IconTexturePath>
+  <Mass>40</Mass>
+  <Health>800</Health>
+  <HealthMax>800</HealthMax>
+  <RepairDifficulty>3.5</RepairDifficulty>
+  <energyreq>0</energyreq>
+  <modRadius>4</modRadius>
+  <Description>This frigate engine has been pushed to the limit, using twice as much power to deliver an additional 50% thrust.</Description>
+  <CrewRequired>5</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+  <PowerDraw>104</PowerDraw>
+
+
+  <NameIndex>12009</NameIndex>
+  <DescriptionIndex>12010</DescriptionIndex>
+
+
+  <!-- for shield items -->
+  <shield_power>0</shield_power>
+  <shield_power_max>0</shield_power_max>
+  <shield_recharge_delay>0</shield_recharge_delay>
+  <shield_recharge_rate>0</shield_recharge_rate>
+  <shield_radius>0</shield_radius>
+
+  <!-- for PowerPlant Items -->
+  <explodes>false</explodes>
+  <PowerFlowMax>0</PowerFlowMax>
+  <PowerStoreMax>0</PowerStoreMax>
+  
+  <!-- for Weapons -->
+
+  
+  
+  <!-- for Engines -->
+  <thrust>118776</thrust>
+  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
+  <TurnThrust>114534</TurnThrust>
+  <WarpThrust>159075</WarpThrust>
+  
+
+</ShipModule>

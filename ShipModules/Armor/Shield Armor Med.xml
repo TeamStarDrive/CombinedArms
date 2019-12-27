@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Cost>17.5</Cost>
+	<!-- Tech Level -->
+	<TechLevel>4</TechLevel>
+	<TechBranch>Armor</TechBranch>
+	<!-- common traits shared by all ship modules -->
+	<XSIZE>2</XSIZE>
+	<YSIZE>2</YSIZE>
+	<ModuleType>Armor</ModuleType>
+	<Name>Shield Armor Med</Name>
+	<Restrictions>O</Restrictions>
+	<UID>Shield Armor Med</UID>
+	<TexturePath>Textures/transparent</TexturePath>
+	<IconTexturePath>Modules/Shield_Armor_Medium</IconTexturePath>
+	<NameIndex>6629</NameIndex>
+	<DescriptionIndex>5999</DescriptionIndex>
+	<!-- Mass and Health -->
+	<Mass>63</Mass>
+	<Health>6000</Health>
+	<HealthMax>6000</HealthMax>
+	<RepairDifficulty>2</RepairDifficulty>
+    <DamageThreshold>60</DamageThreshold>			      					
+	<!-- Power Drawn -->
+	<PowerDraw>45</PowerDraw>
+	<!-- for shield items -->
+	<shield_power>3500</shield_power>
+	<shield_power_max>3500</shield_power_max>
+	<shield_recharge_delay>4.0</shield_recharge_delay>
+	<shield_recharge_rate>14.0</shield_recharge_rate>
+	<shield_radius>70</shield_radius>
+	<!-- Armor Resistance -->
+	<EnergyResist>-0.15</EnergyResist>
+	<!-- Crew Reqs -->
+	<CrewRequired>0</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<!-- for Weapons -->
+	<!-- Description -->
+	<Description>The massproduction version of Experimental Shield-Generator Armor-5 Fairy(XSGA5) . Greatly reduce energy comsuption also improved in shield power,range and recharge speed.</Description>
+	<APResist>1</APResist> 
+</ShipModule>

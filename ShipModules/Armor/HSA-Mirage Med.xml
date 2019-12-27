@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Cost>35</Cost>
+	<!-- Tech Level -->
+	<TechLevel>6</TechLevel>
+	<TechBranch>Armor</TechBranch>
+	<!-- common traits shared by all ship modules -->
+	<XSIZE>2</XSIZE>
+	<YSIZE>2</YSIZE>
+	<ModuleType>Armor</ModuleType>
+	<Name>HSA-Mirage Med</Name>
+	<Restrictions>O</Restrictions>
+	<UID>HSA-Mirage Med</UID>
+	<TexturePath>Textures/transparent</TexturePath>
+	<IconTexturePath>Modules/Mirage_Armor_Medium</IconTexturePath>
+	<NameIndex>8215</NameIndex>
+	<DescriptionIndex>5999</DescriptionIndex>
+	<!-- Mass and Health -->
+	<Mass>53</Mass>
+	<Health>8000</Health>
+	<HealthMax>8000</HealthMax>
+    <RepairDifficulty>3</RepairDifficulty>	
+    <DamageThreshold>120</DamageThreshold>			      							
+	<!-- Power Drawn -->
+	<PowerDraw>24</PowerDraw>
+	<PowerDrawAtWarp>-12</PowerDrawAtWarp>
+	<!-- for shield items -->
+	<shield_power>7500</shield_power>
+	<shield_power_max>7500</shield_power_max>
+	<shield_recharge_delay>6.0</shield_recharge_delay>
+	<shield_recharge_rate>90.0</shield_recharge_rate>
+	<shield_radius>80</shield_radius>
+	<!-- Armor Resistance -->
+	<EnergyResist>-0.05</EnergyResist>
+	<!-- Crew Reqs -->
+	<CrewRequired>0</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<!-- for Weapons -->
+	<!-- for Engines -->
+	<thrust>0</thrust>
+	<!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
+	<TurnThrust>0</TurnThrust>
+	<WarpThrust>45000</WarpThrust>
+	<!-- Description -->
+	<Description>The best shield armor that we can manufactured. The medium and large saiz heavy shield armor system- Frontier include a self-sufficient power-generator makes it only need few power to run on our ship.</Description>
+	<APResist>2</APResist>
+</ShipModule>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Shotgun Repeater</UID>
+  <TechnologyType>ShipWeapons</TechnologyType>
+  <Cost>1600</Cost>
+  
+  <Name>Shotgun Repeater</Name>
+  <NameIndex>5429</NameIndex>
+  <DescriptionIndex>5426</DescriptionIndex>
+  <LeadsTo> 
+   <LeadsToTech>
+      <UID>Shotgun Explosive Rounds</UID>
+    </LeadsToTech>
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>ShotgunRepeater</ModuleUID>
+    </UnlockedMod>
+    <UnlockedMod>
+      <ModuleUID>ShotgunRepeater1x3</ModuleUID>
+    </UnlockedMod>	
+  </ModulesUnlocked>
+  <BuildingsUnlocked />
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>
