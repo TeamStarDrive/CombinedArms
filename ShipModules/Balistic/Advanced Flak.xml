@@ -5,7 +5,7 @@
 <!-- The Doctor, StarDrive Turbo: these are boolean values that configure precisely which ship hull classes are able to mount your module. Like the old 'FightersOnly' tag, except comprehensive in the control provided -->
 
   <DroneModule>false</DroneModule>
-  <FighterModule>false</FighterModule>
+  <FighterModule>true</FighterModule>
   <CorvetteModule>true</CorvetteModule>
   <FrigateModule>true</FrigateModule>
   <DestroyerModule>true</DestroyerModule>
@@ -22,26 +22,24 @@
   <TechLevel>0</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Turret</ModuleType>
-  <XSIZE>3</XSIZE>
-  <YSIZE>3</YSIZE>
-  <Name>Flak Turret</Name>
+  <XSIZE>2</XSIZE>
+  <YSIZE>2</YSIZE>
+  <Name>Advanced Flak</Name>
   <Restrictions>O</Restrictions>
-  <UID>FlakTurret3x3</UID>
-  <IconTexturePath>Modules/FlakTurret3x3</IconTexturePath>
-  <Mass>19</Mass>
-  <Health>900</Health>
-  <HealthMax>900</HealthMax>
+  <UID>Advanced Flak</UID>
+  <IconTexturePath>Modules/Advanced Flak</IconTexturePath>
+  <Mass>12</Mass>
+  <Health>550</Health>
+  <HealthMax>550</HealthMax>
   <energyreq>0</energyreq>
-  <Description>Flak Turrets are mounted on omni-directional swivel platforms for a full field of fire.  They fire explosive shells with a wide damaging radius, but the projectiles are somewhat slow and have a limited range.  Furthermore, this weapon requires ordnance to fire.
+  <Description>Flak Turrets are mounted on omni-directional swivel platforms for a 90 degree field of fire.  They fire explosive shells with a moderate damaging radius, but the projectiles are somewhat slow and ill-suited for tracking swift targets.  Furthermore, this weapon requires ordnance to fire.
   </Description>
   <CrewRequired>12</CrewRequired>
   <CrewSupplied>0</CrewSupplied>
-  <PowerDraw>9</PowerDraw>
+  <PowerDraw>4</PowerDraw>
 
-
-  <NameIndex>954</NameIndex>
-  <DescriptionIndex>955</DescriptionIndex>
-
+  <NameIndex>17903</NameIndex>
+  <DescriptionIndex>17904</DescriptionIndex>
 
 
   <!-- for shield items -->
@@ -58,9 +56,9 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-  <WeaponType>DualFlak</WeaponType>
-  <FieldOfFire>120</FieldOfFire>
-  <OrdinanceCapacity>32</OrdinanceCapacity>
+  <WeaponType>Advanced Flak</WeaponType>
+  <FieldOfFire>90</FieldOfFire>
+  <OrdinanceCapacity>16</OrdinanceCapacity>
   
   <!-- for Engines -->
   <thrust>0</thrust>

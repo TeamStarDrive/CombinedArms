@@ -18,19 +18,19 @@
   <StationModule>true</StationModule>
   
   
-  <Cost>4</Cost>
+  <Cost>7</Cost>
   <TechLevel>0</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Turret</ModuleType>
   <XSIZE>3</XSIZE>
   <YSIZE>3</YSIZE>
-  <Name>Flak Turret</Name>
+  <Name>Advanced DualFlak</Name>
   <Restrictions>O</Restrictions>
-  <UID>FlakTurret3x3</UID>
-  <IconTexturePath>Modules/FlakTurret3x3</IconTexturePath>
-  <Mass>19</Mass>
-  <Health>900</Health>
-  <HealthMax>900</HealthMax>
+  <UID>Advanced DualFlak</UID>
+  <IconTexturePath>Modules/Advanced DualFlak</IconTexturePath>
+  <Mass>22</Mass>
+  <Health>1100</Health>
+  <HealthMax>1100</HealthMax>
   <energyreq>0</energyreq>
   <Description>Flak Turrets are mounted on omni-directional swivel platforms for a full field of fire.  They fire explosive shells with a wide damaging radius, but the projectiles are somewhat slow and have a limited range.  Furthermore, this weapon requires ordnance to fire.
   </Description>
@@ -39,8 +39,8 @@
   <PowerDraw>9</PowerDraw>
 
 
-  <NameIndex>954</NameIndex>
-  <DescriptionIndex>955</DescriptionIndex>
+  <NameIndex>17905</NameIndex>
+  <DescriptionIndex>17904</DescriptionIndex>
 
 
 
@@ -58,7 +58,7 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-  <WeaponType>DualFlak</WeaponType>
+  <WeaponType>Advanced DualFlak</WeaponType>
   <FieldOfFire>120</FieldOfFire>
   <OrdinanceCapacity>32</OrdinanceCapacity>
   
