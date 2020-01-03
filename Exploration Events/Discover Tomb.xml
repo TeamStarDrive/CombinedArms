@@ -2,22 +2,29 @@
   <Name>Discover Ancient Tomb</Name>
   <PotentialOutcomes>
     <Outcome>
-      <Chance>10</Chance>
-      <TitleText>Unwanted Attention</TitleText>
-      <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. The artifacts and other curiousities found there will sell well on the black market. Your discovery however attracts the attention of a nearby Remnant taskforce that jumps into orbit.</DescriptionText>
-      <MoneyGranted>7500</MoneyGranted>
-      <RemoveTrigger>true</RemoveTrigger>
-      <RemnantShipsToSpawn>
-        <string>Heavy Drone</string>
-		<string>Heavy Drone</string>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
-        <string>Disruptor Drone</string>
-      </RemnantShipsToSpawn>
+      <Chance>40</Chance>
+      <TitleText>Ancient curse</TitleText>
+      <DescriptionText>After closing in to the anomaly you troops woken up the dead guarding the tomb.</DescriptionText>
+       <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+		<string>Skeleton</string>
+      </TroopsToSpawn>     
+      <RemoveTrigger>false</RemoveTrigger>
     </Outcome>
 
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>9</Chance>
       <TitleText>Watch your step</TitleText>
       <DescriptionText>Your forces enter the mysterious tomb and quickly find evidence of Remnant activity. As they explore further they discover a still operational hangar bay. Your troops trip the automated security sensors and the entire Remnant fleet that was stationed here powers up and flies into orbit.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -41,39 +48,140 @@
     </Outcome>
 
     <Outcome>
-      <Chance>5</Chance>
-      <TitleText>Sleep no more</TitleText>
-      <DescriptionText>Your forces enter the mysterious tomb and discover an ancient lab full of intact computer and data storage systems. They power the lab back up using portable generators and start to sift through the information. One of the engineers however accesses the controls to a large stasis chamber and accidentaly releases the safety locks. What was once dormant is now awake, ancient soldiers exit their resting places.</DescriptionText>
-      <RemoveTrigger>true</RemoveTrigger>
+      <Chance>9</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After Scouting the area, your troops find the pilar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socet, the pilar shakes and crubles to rubble alarming dormant defenders.</DescriptionText>
+      <MoneyGranted>500</MoneyGranted>
+      <UnlockTech>Enforcer</UnlockTech>	  
+      <RemoveTrigger>True</RemoveTrigger>
+      <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
         <string>Skeleton</string>
         <string>Skeleton</string>
-      </TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+		<string>Skeleton</string>
+      </TroopsToSpawn>	  
+    </Outcome>
+    <Outcome>
+      <Chance>9</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After Scouting the area, your troops find the pilar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socet, the pilar shakes and crubles to rubble alarming dormant defenders.</DescriptionText>
+      <MoneyGranted>500</MoneyGranted>
+      <UnlockTech>Black matter weaponry</UnlockTech>	  
+      <RemoveTrigger>True</RemoveTrigger>
+      <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+		<string>Skeleton</string>
+      </TroopsToSpawn>	  
+    </Outcome>
+    <Outcome>
+      <Chance>9</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After Scouting the area, your troops find the pilar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socet, the pilar shakes and crubles to rubble alarming dormant defenders.</DescriptionText>
+      <MoneyGranted>500</MoneyGranted>
+      <UnlockTech>Enforcer</UnlockTech>	  
+      <RemoveTrigger>True</RemoveTrigger>
+      <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+		<string>Skeleton</string>
+      </TroopsToSpawn>	  
+    </Outcome>
+    <Outcome>
+      <Chance>9</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After Scouting the area, your troops find the pilar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socet, the pilar shakes and crubles to rubble alarming dormant defenders.</DescriptionText>
+      <MoneyGranted>500</MoneyGranted>
+      <UnlockTech>AncientArmor</UnlockTech>	  
+      <RemoveTrigger>True</RemoveTrigger>
+      <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+		<string>Skeleton</string>
+      </TroopsToSpawn>	  
     </Outcome>
 
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>9</Chance>
       <TitleText>Secrets of the Ancients</TitleText>
       <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. The complex is incredibly well preserved. Yet even more curious is the fact that this site seems to have been the target of an earlier archaeological expedition by a second alien race -- very likely starfarers based on the evidence found. \n \n The wealth of information presented here will pay dividends to our scientists for years to come. Your race gains a 3% bonus to all scientific efforts for the discovery.</DescriptionText>
       <ScienceBonus>.03</ScienceBonus>
+      <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
 
-    <Outcome>
-      <Chance>60</Chance>
-      <TitleText>Horrors of the Ancients</TitleText>
-      <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. Deep within the tomb's halls they discover a mysterious artifact encased in some sort of energy shield. They disable the shield and take the artifact. \n \n Upon returning to the planet's surface, they find themselves surrounded by the skeletons of the long dead, seemingly animated by the same energy field that had encased the artifact! </DescriptionText>
-      <GrantArtifact>true</GrantArtifact>
-      <RemoveTrigger>true</RemoveTrigger>
-      <TroopsToSpawn>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-      </TroopsToSpawn>
-    </Outcome>
+    
     
   </PotentialOutcomes>
   
