@@ -18,7 +18,7 @@
   <Tag_Cannon>true</Tag_Cannon>
 
   <UID>AdvancedDualFlak</UID>
-  <fireDelay>1.2</fireDelay>
+  <fireDelay>1.0</fireDelay>
   <Range>3100</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.5</OrdinanceRequiredToFire>
@@ -27,9 +27,9 @@
   <fireCueName>sd_weapon_flakcannon_01</fireCueName>
   <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
   <!-- Projectile Information -->
-  <DamageAmount>160</DamageAmount>
+  <DamageAmount>200</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
-  <ProjectileSpeed>900</ProjectileSpeed>
+  <ProjectileSpeed>1000</ProjectileSpeed>
 
 
   <FakeExplode>true</FakeExplode>
@@ -39,7 +39,7 @@
 
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
-  <ProjectileCount>4</ProjectileCount>
+  <ProjectileCount>2</ProjectileCount>
   <!--the projectile count is spread over the fire arc-->
   <FireArc>7</FireArc>
   <WeaponType>Ballistic Cannon</WeaponType>
