@@ -7,20 +7,22 @@
 	<!--Selection graphic is optional; used in the selection box module overlay-->
 	<SelectionGraphic>01</SelectionGraphic>
 	<ThrusterList>
-		<ThrusterZone>
-			<Position>
-				<X>232</X>
-				<Y>488</Y>
-			</Position>
-			<scale>83</scale>
-		</ThrusterZone>
-		<ThrusterZone>
-			<Position>
-				<X>280</X>
-				<Y>488</Y>
-			</Position>
-			<scale>83</scale>
-		</ThrusterZone>
+	<ThrusterZone>
+	  <Position>
+		<X>228</X>
+		<Y>488</Y>
+		<Z>6</Z>
+	  </Position>
+	  <scale>75</scale>
+	</ThrusterZone>
+	<ThrusterZone>
+	  <Position>
+		<X>284</X>
+		<Y>488</Y>
+		<Z>6</Z>
+	  </Position>
+	  <scale>75</scale>
+	</ThrusterZone>
 	</ThrusterList>
 	<ModelPath>mod models/Terran/Emissary/EmissaryCruiser</ModelPath>
 	<DefaultAIState>AttackRunner</DefaultAIState>

@@ -7,20 +7,30 @@
 	<!--Selection graphic is optional; used in the selection box module overlay-->
 	<SelectionGraphic>10c</SelectionGraphic>
 	<ThrusterList>
-		<ThrusterZone>
-			<Position>
-				<X>216</X>
-				<Y>504</Y>
-			</Position>
-			<scale>110</scale>
-		</ThrusterZone>
-		<ThrusterZone>
-			<Position>
-				<X>296</X>
-				<Y>504</Y>
-			</Position>
-			<scale>110</scale>
-		</ThrusterZone>
+	<ThrusterZone>
+	  <Position>
+		<X>216</X>
+		<Y>494</Y>
+		<Z>8</Z>
+	  </Position>
+	  <scale>100</scale>
+	</ThrusterZone>
+	<ThrusterZone>
+	  <Position>
+		<X>256</X>
+		<Y>514</Y>
+		<Z>8</Z>
+	  </Position>
+	  <scale>100</scale>
+	</ThrusterZone>	
+	<ThrusterZone>
+	  <Position>
+		<X>296</X>
+		<Y>494</Y>
+		<Z>8</Z>
+	  </Position>
+	  <scale>100</scale>
+	</ThrusterZone>
 	</ThrusterList>
 	<ModelPath>mod models/Terran/LightCarrierRed/LightCarrier</ModelPath>
 	<DefaultAIState>AttackRunner</DefaultAIState>
