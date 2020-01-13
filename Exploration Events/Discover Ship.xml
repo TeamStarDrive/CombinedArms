@@ -2,9 +2,12 @@
   <Name>Discover Crashed Ship</Name>
   <PotentialOutcomes>
     <Outcome>
-      <Chance>40</Chance>
+      <Chance>20</Chance>
       <TitleText>Unknown defenders</TitleText>
-      <DescriptionText>Before reaching the Crashed Ship, your troops were attacked by unknown enemies and had to fall back.</DescriptionText>
+      <DescriptionText>Before reaching the Crashed Ship, your troops were attacked by unknown enemies and had to fall back, the crashed ship takes off and warps out of the system.</DescriptionText>
+      
+      <SelectRandomPlanet>true</SelectRandomPlanet>
+      <SpawnBuildingOnPlanet>Crash Site</SpawnBuildingOnPlanet>
        <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
@@ -14,7 +17,7 @@
         <string>Skeleton</string>
 		<string>Skeleton</string>
       </TroopsToSpawn>     
-      <RemoveTrigger>false</RemoveTrigger>
+      <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
     <Outcome>
       <Chance>8</Chance>
@@ -111,7 +114,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>8</Chance>
+      <Chance>10</Chance>
       <TitleText>Red Alert</TitleText>
       <DescriptionText>While your troops carefully examined the wreckage and the still intact computer systems, one of them trips an alarm. Your troops manage to deactivate the alarm and salvage the control system which is valuable on the black market, however a fleet of Remnant vessels jump into orbit detecting your presence.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
@@ -129,7 +132,7 @@
     
 
     <Outcome>
-      <Chance>8</Chance>
+      <Chance>20</Chance>
       <TitleText>A sad wreck</TitleText>
       <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. Even so, there are some curiosities among the wreckage that will have some value on the open market.</DescriptionText>
       <MoneyGranted>250</MoneyGranted>
@@ -139,7 +142,7 @@
   
 
     <Outcome>
-      <Chance>12</Chance>
+      <Chance>15</Chance>
       <TitleText>Excellent find</TitleText>
       <DescriptionText>Here you have made an excellent discovery - what appeared from orbit to be a shipwreck was in fact not a wreck at all but a completely intact alien light frigate! What's more, it appears to be spaceworthy and inside of its cargo theres mysterious artifact.</DescriptionText>
       <FriendlyShipsToSpawn>

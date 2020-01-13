@@ -2,9 +2,11 @@
   <Name>Discover pillar</Name>
   <PotentialOutcomes>
    <Outcome>
-      <Chance>45</Chance>
+      <Chance>30</Chance>
       <TitleText>Unknown defenders</TitleText>
-      <DescriptionText>Before reaching the Pilar, your troops were attacked by unknown enemies and had to fall back.</DescriptionText>
+      <DescriptionText>Before reaching the Pilar, your troops were attacked by unknown enemies and had to fall back and the pillar dissapear before their eyes, leaving big hole in the ground.</DescriptionText>
+      <SelectRandomPlanet>true</SelectRandomPlanet>
+      <SpawnBuildingOnPlanet>Ancient Pillar</SpawnBuildingOnPlanet>
        <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
@@ -13,7 +15,7 @@
         <string>Skeleton</string>
         <string>Skeleton</string>
       </TroopsToSpawn>     
-      <RemoveTrigger>false</RemoveTrigger>
+      <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
     <Outcome>
       <Chance>10</Chance>
@@ -32,7 +34,13 @@
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
      </Outcome>
-
+     <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Shattering</TitleText>
+      <DescriptionText>As your troops get closer to the pillar is starting to shake and shatter into rubble and abnormal crystals.</DescriptionText>
+      <ReplaceWith>Thought Crystal</ReplaceWith>
+      <RemoveTrigger>true</RemoveTrigger>
+     </Outcome>
     <Outcome>
       <Chance>10</Chance>
       <TitleText>A unique technology!</TitleText>
@@ -114,7 +122,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>15</Chance>
       <TitleText>Intervention</TitleText>
       <DescriptionText>As your troops approach the ancient pillar, they notice that they aren't the first group to discover it. They see lots of electronical equipment, computers and a large Remnant power generator. One of your combat engineers activates the generator and in doing so alerts the owners of these items to your presence. A small Remnant fleet warps.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>

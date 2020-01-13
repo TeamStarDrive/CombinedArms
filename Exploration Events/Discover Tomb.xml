@@ -2,9 +2,9 @@
   <Name>Discover Ancient Tomb</Name>
   <PotentialOutcomes>
     <Outcome>
-      <Chance>40</Chance>
+      <Chance>25</Chance>
       <TitleText>Ancient curse</TitleText>
-      <DescriptionText>Before reaching the the Tomb, the movement of your troops has woken up the dead guarding the tomb.</DescriptionText>
+      <DescriptionText>Before reaching the the Tomb, the movement of your troops has woken up the dead, the tomb sinks into the ground.</DescriptionText>
        <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
@@ -13,11 +13,13 @@
         <string>Skeleton</string>
         <string>Skeleton</string>
       </TroopsToSpawn>     
-      <RemoveTrigger>false</RemoveTrigger>
+      <SelectRandomPlanet>true</SelectRandomPlanet>
+      <SpawnBuildingOnPlanet>Mysterious Tomb</SpawnBuildingOnPlanet>
+      <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
 
     <Outcome>
-      <Chance>9</Chance>
+      <Chance>15</Chance>
       <TitleText>Watch your step</TitleText>
       <DescriptionText>Your forces enter the mysterious tomb and quickly find evidence of Remnant activity. As they explore further they discover a still operational hangar bay. Your troops trip the automated security sensors and the entire Remnant fleet that was stationed here powers up and flies into orbit.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -33,7 +35,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>5</Chance>
+      <Chance>15</Chance>
       <TitleText>Tomb Raiders</TitleText>
       <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. The artifacts and other curiousities found there will sell well on the open market.</DescriptionText>
       <MoneyGranted>7500</MoneyGranted>

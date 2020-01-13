@@ -53,11 +53,12 @@
     <G>39</G>
     <B>143</B>
     <RaceDescription>Deprecated </RaceDescription>
-    <Cost>0</Cost>
-    <ConsumptionModifier>0</ConsumptionModifier>
-    <ReproductionMod>0</ReproductionMod>
+    <Cost>-1</Cost>
+    <ConsumptionModifier>-.25</ConsumptionModifier>
+    <ReproductionMod>-.02</ReproductionMod>
+    <PopGrowthMax>.02</PopGrowthMax>
     <DiplomacyMod>.2</DiplomacyMod>
-    <GenericMaxPopMod>0</GenericMaxPopMod>
+    <GenericMaxPopMod>.2</GenericMaxPopMod>
     <Aquatic>0</Aquatic>
     <Burrowers>0</Burrowers>
     <Blind>0</Blind>
@@ -73,9 +74,9 @@
     <ResearchMod>.35</ResearchMod>
     <Mercantile>0</Mercantile>
     <Miners>0</Miners>
-    <ProductionMod>0</ProductionMod>
+    <ProductionMod>-.2</ProductionMod>
     <MaintMod>0</MaintMod>
-    <TaxMod>0</TaxMod>
+    <TaxMod>.25</TaxMod>
     <ShipCostMod>0</ShipCostMod>
     <ModHpModifier>0</ModHpModifier>
     <SmallSize>0</SmallSize>
@@ -84,6 +85,7 @@
     <RepairRateMod>0</RepairRateMod>
     <Cybernetic>0</Cybernetic>
     <SpyMultiplier>10</SpyMultiplier>
+    <HistoryTraitAstronomers>true</HistoryTraitAstronomers>	
 	<PreferredEnvDescription>17897</PreferredEnvDescription>	
   </Traits>
   <Faction>0</Faction>

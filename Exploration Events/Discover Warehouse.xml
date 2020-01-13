@@ -3,7 +3,7 @@
   <PotentialOutcomes>
 
     <Outcome>
-      <Chance>40</Chance>
+      <Chance>30</Chance>
       <TitleText>Unknown defenders</TitleText>
       <DescriptionText>Before reaching the Pilar, your troops were attacked by unknown enemies and had to fall back.</DescriptionText>
        <TroopsToSpawn>
@@ -14,10 +14,12 @@
         <string>Skeleton</string>
         <string>Skeleton</string>
       </TroopsToSpawn>     
-      <RemoveTrigger>false</RemoveTrigger>
+
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Terraformer</ReplaceWith>
     </Outcome>
     <Outcome>
-      <Chance>8</Chance>
+      <Chance>15</Chance>
       <TitleText>It's infested!</TitleText>
       <DescriptionText>As your troops approach the abandoned warehouse they all agree that this building once cleaned up could provide extra storage for your empire. But as they get closer they see a nest of Antlions that has made its home here and your troops find themselves surrounded by foes.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
