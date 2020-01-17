@@ -27,7 +27,7 @@
   <fireCueName>sd_weapon_flakcannon_01</fireCueName>
   <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
   <!-- Projectile Information -->
-  <DamageAmount>150</DamageAmount>
+  <DamageAmount>180</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>750</ProjectileSpeed>
 
@@ -39,8 +39,10 @@
 
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
-  <ProjectileCount>4</ProjectileCount>
+  <SalvoCount>3</SalvoCount>
+  <SalvoTimer>1.2</SalvoTimer>
+  <ProjectileCount>1</ProjectileCount>
   <!--the projectile count is spread over the fire arc-->
-  <FireArc>8</FireArc>
+  <FireCone>15</FireCone>
   <WeaponType>Ballistic Cannon</WeaponType>
 </Weapon>

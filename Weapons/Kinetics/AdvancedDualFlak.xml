@@ -18,29 +18,27 @@
   <Tag_Cannon>true</Tag_Cannon>
 
   <UID>AdvancedDualFlak</UID>
-  <fireDelay>1.0</fireDelay>
+  <fireDelay>1.4</fireDelay>
   <Range>3100</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0.5</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>1</OrdinanceRequiredToFire>
 
   <!-- name of XACT audio cue to play on firing this weapon -->
   <fireCueName>sd_weapon_flakcannon_01</fireCueName>
   <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
   <!-- Projectile Information -->
-  <DamageAmount>200</DamageAmount>
+  <DamageAmount>160</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1000</ProjectileSpeed>
-
-
   <FakeExplode>true</FakeExplode>
   <DamageRadius>15</DamageRadius>
-    
   <ProjectileRadius>50</ProjectileRadius>
-
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
-  <ProjectileCount>2</ProjectileCount>
+  <SalvoCount>4</SalvoCount>
+  <SalvoTimer>1.2</SalvoTimer>
+  <ProjectileCount>1</ProjectileCount>
   <!--the projectile count is spread over the fire arc-->
-  <FireArc>7</FireArc>
+  <FireCone>10</FireCone>
   <WeaponType>Ballistic Cannon</WeaponType>
 </Weapon>
