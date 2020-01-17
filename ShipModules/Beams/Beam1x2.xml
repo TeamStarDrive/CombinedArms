@@ -1,0 +1,55 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+
+<!-- The Doctor, StarDrive Turbo: these are boolean values that configure precisely which ship hull classes are able to mount your module. Like the old 'FightersOnly' tag, except comprehensive in the control provided -->
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>true</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <FrigateModule>true</FrigateModule>
+  <DestroyerModule>true</DestroyerModule>
+  <CruiserModule>false</CruiserModule>
+  <CarrierModule>false</CarrierModule>
+  <CapitalModule>false</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>false</StationModule>
+  
+  
+  <UID>Beam1x2</UID>
+  <Cost>4</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>1</TechLevel>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>1</XSIZE>
+  <YSIZE>2</YSIZE>
+  <ModuleType>MainGun</ModuleType>
+  <Name>Prototype beam weapon</Name>
+  <Restrictions>O</Restrictions>
+
+  <IconTexturePath>Modules/Beam1x2</IconTexturePath>3
+
+  <NameIndex>17901</NameIndex>
+  <DescriptionIndex>17902</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>7</Mass>
+  <Health>200</Health>
+  <HealthMax>200</HealthMax>
+
+  <!-- Power Drawn -->
+  <PowerDraw>3</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>Beam1x2</WeaponType>
+  <FieldOfFire>45</FieldOfFire>
+
+  <!-- Description -->
+  <Description>This heavy laser beam has a fixed field of fire and is relatively inefficient.</Description>
+  
+
+</ShipModule>
