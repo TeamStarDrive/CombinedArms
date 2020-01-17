@@ -110,7 +110,7 @@ PlanetType: 17 # Kholin:Jasnah
   Habitable: true
   HabitableTileChance: [35, 75]
   PopPerTile: [200, 350]
-  BaseFertility: [0.5, 2.0]
+  BaseFertility: [0.15, 1.0]
   MinBaseFertility: 0.7
 
 # Ice, better pop but less tiles
@@ -148,7 +148,7 @@ PlanetType: 19 # Polmar:Sporl
   Habitable: true
   HabitableTileChance: [35, 70]
   PopPerTile: [250, 500]
-  BaseFertility: [0.5, 1.5]
+  BaseFertility: [0.25, 1.5]
   MinBaseFertility: 1.0
 
 # Swamp, slightly harsher
@@ -162,7 +162,7 @@ PlanetType: 34
   Habitable: true
   HabitableTileChance: [15, 45]
   PopPerTile: [50, 100]
-  BaseFertility: [-1.0, 1.5]
+  BaseFertility: [-1.0, 1.0]
   MinBaseFertility: 0.25
 
 # Swamp, wider magrins on this planet
@@ -176,7 +176,7 @@ PlanetType: 35
   Habitable: true
   HabitableTileChance: 40
   PopPerTile: [50, 250]
-  BaseFertility: [-0.5, 0.5]
+  BaseFertility: [-0.25, 0.25]
   
 # Oceanic 
 PlanetType: 21
@@ -190,8 +190,7 @@ PlanetType: 21
   HabitableTileChance: [40, 60]
   PopPerTile: [100, 200]
   BaseFertility: [-1.5, 2.5]
-  MinBaseFertility: 0.5
-
+  
 # Oceanic, more oceans so less tiles 
 PlanetType: 36
   Category: Oceanic
@@ -203,9 +202,8 @@ PlanetType: 36
   Habitable: true
   HabitableTileChance: [15, 45]
   PopPerTile: [200, 400]
-  BaseFertility: [-1, 2]
-  MinBaseFertility: 0.3
-
+  BaseFertility: [-1.5, 1.5]
+  
 # Oceanic, many isle, so more tiles but less pop 
 PlanetType: 37
   Category: Oceanic
@@ -217,7 +215,7 @@ PlanetType: 37
   Habitable: true
   HabitableTileChance: [50, 85]
   PopPerTile: [175, 325]
-  BaseFertility: [0.25, 1]
+  BaseFertility: [0.15, 0.5]
 
 # Desert
 PlanetType: 14 # Mradeep:Arrachus
@@ -229,9 +227,8 @@ PlanetType: 14 # Mradeep:Arrachus
   Habitable: true
   HabitableTileChance: [10, 45]
   PopPerTile: [100, 200]
-  BaseFertility: [-1.0, 1]
-  MinBaseFertility: 0.4
-
+  BaseFertility: [-1.0, 0.75]
+  
 # Desert
 PlanetType: 30
   Category: Desert
@@ -243,8 +240,7 @@ PlanetType: 30
   HabitableTileChance: [45, 75]
   PopPerTile: [75, 150]
   BaseFertility: [-0.4, 0.4]
-  MinBaseFertility: 0.25
-
+  
 # Desert, big (tatooine style)
 PlanetType: 38
   Category: Desert
@@ -256,8 +252,7 @@ PlanetType: 38
   HabitableTileChance: [5, 40]
   PopPerTile: [50, 300]
   BaseFertility: [-0.4, 0.25]
-  MinBaseFertility: 0.1
-  Scale: 1.5
+    Scale: 1.5
   
 # Tundra
 PlanetType: 11 # Pandora, Rathi:Bul
@@ -270,7 +265,7 @@ PlanetType: 11 # Pandora, Rathi:Bul
   Habitable: true
   HabitableTileChance: [45, 75]
   PopPerTile: [150, 250]
-  BaseFertility: [0.5, 1.0]
+  BaseFertility: [-1.0, 1.0]
 
 # Tundra, harsg
 PlanetType: 39 
@@ -283,7 +278,7 @@ PlanetType: 39
   Habitable: true
   HabitableTileChance: [20, 45]
   PopPerTile: [75, 300]
-  BaseFertility: [0.25, 0.5]
+  BaseFertility: [-0.25, 0.5]
 
 # Tundra, dense
 PlanetType: 40 
@@ -296,7 +291,7 @@ PlanetType: 40
   Habitable: true
   HabitableTileChance: [25, 45]
   PopPerTile: [200, 450]
-  BaseFertility: [0.25, 1.5]
+  BaseFertility: [-0.25, 1.0]
   
 # Steppe
 PlanetType: 18
@@ -309,9 +304,8 @@ PlanetType: 18
   Habitable: true
   HabitableTileChance: [15, 45]
   PopPerTile: [100, 300]
-  BaseFertility: [0.0, 2.1]
-  MinBaseFertility: 0.8
-
+  BaseFertility: [-2.0, 2.0]
+  
 # Steppe
 PlanetType: 41
   Category: Steppe
@@ -323,7 +317,7 @@ PlanetType: 41
   Habitable: true
   HabitableTileChance: [15, 45]
   PopPerTile: [100, 200]
-  BaseFertility: [0.0, 1.0]
+  BaseFertility: [-0.25, 1.0]
 
 # Steppe
 PlanetType: 42
@@ -336,7 +330,7 @@ PlanetType: 42
   Habitable: true
   HabitableTileChance: [35, 70]
   PopPerTile: [150, 250]
-  BaseFertility: [-0.5, 1.5]
+  BaseFertility: [-0.5, 0.5]
 
 # Terran
 PlanetType: 1
@@ -349,7 +343,7 @@ PlanetType: 1
   Habitable: true
   HabitableTileChance: 10
   PopPerTile: [100, 250]
-  BaseFertility: [0.4, 0.75]
+  BaseFertility: [-0.4, 0.75]
 
 PlanetType: 13
   Category: Terran
@@ -362,7 +356,7 @@ PlanetType: 13
   Habitable: true
   HabitableTileChance: 75
   PopPerTile: [250, 375]
-  BaseFertility: [0.5, 1.5]
+  BaseFertility: [-0.5, 1.0]
 
 PlanetType: 22 # Kholin:Adolin
   Category: Terran
