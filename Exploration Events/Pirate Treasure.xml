@@ -2,9 +2,9 @@
   <Name>Discover Pirate Treasure</Name>
   <PotentialOutcomes>
   <Outcome>
-      <Chance>40</Chance>
-      <TitleText>Unknown defenders</TitleText>
-      <DescriptionText>Before reaching the Pilar, your troops were attacked by unknown enemies and had to fall back.</DescriptionText>
+      <Chance>15</Chance>
+      <TitleText>It was a trap</TitleText>
+      <DescriptionText>You were lied to, there isnt anything worth value here.</DescriptionText>
        <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
@@ -12,15 +12,13 @@
         <string>Skeleton</string>
         <string>Skeleton</string>
       </TroopsToSpawn>     
-      <RemoveTrigger>false</RemoveTrigger>
-      <SpawnBuildingOnPlanet>Treasure</SpawnBuildingOnPlanet>
-      <SelectRandomPlanet>true</SelectRandomPlanet>
+      <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
     
     <Outcome>
       <Chance>8</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created a untested tech. Unfortunatley, it seems that a small remnant fleet was drawned to this place as well. The ships are attacking immediately!</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created a untested tech. Unfortunately, it seems that a small remnant fleet was dawned to this place as well. The ships are attacking immediately!</DescriptionText>
       <MoneyGranted>200</MoneyGranted>
       <UnlockTech>AtomizingBattery</UnlockTech>
       <RemoveTrigger>true</RemoveTrigger>
@@ -36,12 +34,14 @@
     <Outcome>
       <Chance>8</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created a untested tech. Unfortunatley, it seems that a small remnant fleet was drawned to this place as well. The ships are attacking immediately!</DescriptionText>
-      <MoneyGranted>200</MoneyGranted>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created a untested tech. Unfortunately, it seems that a small remnant fleet was dawned to this place as well. The ships are attacking immediately!</DescriptionText>
       <UnlockTech>Magnetrom</UnlockTech>
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
 		<string>Light Drone</string>
+    <string>Light Drone</string>
+    <string>Light Drone</string>
+    <string>Light Drone</string>
 		<string>Light Drone</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
@@ -52,8 +52,7 @@
     <Outcome>
       <Chance>8</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created a untested tech. Unfortunatley, it seems that a small remnant fleet was drawned to this place as well. The ships are attacking immediately!</DescriptionText>
-      <MoneyGranted>500</MoneyGranted>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created a untested tech. Unfortunately, it seems that a small remnant fleet was dawned to this place as well. The ships are attacking immediately!</DescriptionText>
       <UnlockTech>AncientArmor</UnlockTech>
       <GrantArtifact>true</GrantArtifact>	  
       <RemoveTrigger>true</RemoveTrigger>
@@ -68,29 +67,15 @@
       <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-		<string>Skeleton</string>
       </TroopsToSpawn>	  
     </Outcome>
     <Outcome>
       <Chance>8</Chance>
       <TitleText>Interesting Treasure Cache</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find some interesting artifacts which can be sold and also schematics of some sort which are revealed as new technology! Unfortunatley, it seems that your troops attraced unwanted attention.</DescriptionText>
-      <MoneyGranted>500</MoneyGranted>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find some interesting artifacts which can be sold and also schematics of some sort which are revealed as new technology! Unfortunately, it seems that your troops attracted unwanted attention.</DescriptionText>
       <UnlockTech>Experimental Phasors</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
@@ -100,16 +85,6 @@
         <string>Skeleton</string>
         <string>Skeleton</string>
         <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-		<string>Skeleton</string>
       </TroopsToSpawn>	  
     </Outcome>		
     
