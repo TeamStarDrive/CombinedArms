@@ -1,6 +1,17 @@
 # Combined Arms
 ### This is an edited version of the original Combomod. BlackBox features are supported where possible.
 
+In order to install and play Combined arms you need a Vanilla copy of StarDrive 1. Once you have that installed, you need to install the alpha version of Blackbox, called Texas. 
+This are not the mod itself, but major code refactoring and new features of StarDrive core game. Once you have the above installed, you can download the latest copy of combined Arms from Bit Bucket.
+
+* Get a Vanilla copy from Steam. If you have the game already installed, a re-install its recommended, since we saw several early game crashes being solved by re-installation).
+* Install latest build (https://bitbucket.org/codegremlins/stardrive-blackbox/downloads/), make sure to give the installer the exact path of the game if it is not installed on the default steam directory.
+* Download the mod (https://bitbucket.org/codegremlins/combined-arms/downloads/) and extract it into the mods dir of StardDrive
+* It is recommended to remove your saved ship designs if you saved designs using the old combo mod. Usually its located in c:\users\[username]\.appdata\roaming\stardrive\saveddesigns
+* Start the game and load the mod from the mod menu.
+* Drop us a note in Discord chat (https://discord.gg/dfvnfH4).
+
+Some stuff changed in Combined Arms:
 - Done some balancing to weapons and other modules
 - Fixed some not working weapons with the newest BlackBox version.
 - Edited a bit tech tree
@@ -30,17 +41,4 @@ Some of the assets used for module images come from:
 * http://marinaortega.deviantart.com/art/UGR-camera-drone-574803602
 
 
-# Contributing
-Contact Repo owners or users for write acces to add to the current work.  
 
-### How to use this repo
-* Create an empty ComboMod folder in your stardrive directory.
-* Install SourceTree.
-* Go to the overview page and click on the box with a downarrow in it at the top of the page.
-* click on "Clone in source tree"
-* point the local directory to the folder created above.
-
-### If you have combomod installed and still want the repo version to make your own changes.
-* follow the steps above but instead of combomod folder create a folder that is unique to you. like ComboMod_CrunchyG
-* rename it to something unique like the folderName you created.
-* edit this file and change all the combo mod names to your new directory name.

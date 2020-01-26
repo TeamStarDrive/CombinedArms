@@ -20,8 +20,8 @@
   <Excludes_Fighters>true</Excludes_Fighters>  
   <Excludes_Corvettes>true</Excludes_Corvettes>   
   <fireDelay>14</fireDelay>
-  <Range>15000</Range>
-  <HitPoints>600</HitPoints>
+  <Range>10000</Range>
+  <HitPoints>300</HitPoints>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>40</OrdinanceRequiredToFire>
   <!-- name of XACT audio cue to play on firing this weapon -->
@@ -29,8 +29,8 @@
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
   <dieCue>Explo1</dieCue>
   <!-- Projectile Information -->
-  <DamageAmount>4800</DamageAmount>
-  <EMPDamage>2500</EMPDamage>  
+  <DamageAmount>5000</DamageAmount>
+  <EMPDamage>1000</EMPDamage>  
   <ProjectileSpeed>800</ProjectileSpeed>
   <DamageRadius>180</DamageRadius>
   <explodes>true</explodes>
@@ -39,8 +39,6 @@
   <WeaponEffectType>RocketTrail</WeaponEffectType>
   <WeaponType>Missile</WeaponType>
   <CanCollideProjectiles>true</CanCollideProjectiles>
-  <SalvoCount>1</SalvoCount>
-  <SalvoTimer>0.1</SalvoTimer>
   <ProjectileCount>1</ProjectileCount>
   <FireArc>20</FireArc>
  <ProjectileRadius>12</ProjectileRadius>
