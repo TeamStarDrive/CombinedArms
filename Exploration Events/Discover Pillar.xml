@@ -8,6 +8,15 @@
       <SelectRandomPlanet>true</SelectRandomPlanet>
       <SpawnBuildingOnPlanet>Ancient Pillar</SpawnBuildingOnPlanet>
        <TroopsToSpawn>
+       <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+    <string>Light Drone</string>
+    <string>Light Drone</string>
+    <string>Light Drone</string>
+    <string>Light Drone</string>
+    <string>Type WII Colony Mk4</string>
+      </RemnantShipsToSpawn>	  
         <string>Skeleton</string>
         <string>Skeleton</string>
       </TroopsToSpawn>     
@@ -90,11 +99,12 @@
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
+        <string>Corsair Asteroid Base</string>
       </RemnantShipsToSpawn>
     </Outcome>
 
     <Outcome>
-      <Chance>15</Chance>
+      <Chance>10</Chance>
       <TitleText>Intervention</TitleText>
       <DescriptionText>As your troops approach the ancient pillar, they notice that they aren't the first group to discover it. They see lots of electronical equipment, computers and a large Remnant power generator. One of your combat engineers activates the generator and in doing so alerts the owners of these items to your presence. A small Remnant fleet warps.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -104,6 +114,7 @@
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
+        <string>Corsair Asteroid Base</string>
        </RemnantShipsToSpawn>
     </Outcome>
 
