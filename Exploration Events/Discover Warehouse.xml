@@ -3,23 +3,21 @@
   <PotentialOutcomes>
 
     <Outcome>
-      <Chance>20</Chance>
-      <TitleText>Jackpot!</TitleText>
-      <DescriptionText>Your combat engineers discover a large cache of ancient equipment. The recovered items will make a nice profit on the open market.</DescriptionText>
-      <MoneyGranted>1000</MoneyGranted>      
+      <Chance>10</Chance>
+      <TitleText>Hidden Treasure</TitleText>
+      <DescriptionText>After entering this enormous complex, your troops couldnt believe that this gigantic structure was hiding another very impressive building inside. </DescriptionText>
+       <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+      </TroopsToSpawn>     
       <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Terraformer</ReplaceWith>
     </Outcome>
-    
     <Outcome>
-      <Chance>30</Chance>
-      <TitleText>Weapons cache</TitleText>
-      <DescriptionText>While entering the abandoned warehouse your troops spot a large weapons cache, which is worth a lot on the black market.</DescriptionText>
-      <MoneyGranted>500</MoneyGranted>      
-      <RemoveTrigger>true</RemoveTrigger>
-    </Outcome>
-
-    <Outcome>
-      <Chance>30</Chance>
+      <Chance>15</Chance>
       <TitleText>It's infested!</TitleText>
       <DescriptionText>As your troops approach the abandoned warehouse they all agree that this building once cleaned up could provide extra storage for your empire. But as they get closer they see a nest of Antlions that has made its home here and your troops find themselves surrounded by foes.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -31,9 +29,51 @@
         <string>Antlion</string>
       </TroopsToSpawn>
     </Outcome>
-
     <Outcome>
-      <Chance>20</Chance>
+      <Chance>8</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After Scouting the area, your troops enter the abandoned warehouse. Inside they found old rusty equipment and a well preserved schematics of old tech.</DescriptionText>
+      <MoneyGranted>300</MoneyGranted>
+      <UnlockTech>StorageShield</UnlockTech>	  
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Large Warehouse</ReplaceWith>
+      <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+      </TroopsToSpawn>	  
+    </Outcome>
+<Outcome>
+      <Chance>8</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After Scouting the area, your troops enter the abandoned warehouse. Inside they found old rusty equipment and a well preserved schematics of old tech.</DescriptionText>
+      <UnlockTech>Experimental Phasors</UnlockTech>	  
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Large Warehouse</ReplaceWith>
+      <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+      </TroopsToSpawn>	  
+    </Outcome>
+    <Outcome>
+      <Chance>8</Chance>
       <TitleText>Whoops</TitleText>
       <DescriptionText>As your troops approach abandoned warehouse, they notice signs of recent activity. As they explore the warehouse further they accidentally trip a security system which sends out a Remnant distress signal. A detachment of Remnant forces are alerted to your presence and start orbiting the planet.</DescriptionText> 
       <RemoveTrigger>true</RemoveTrigger>
@@ -47,7 +87,17 @@
         <string>Xeno Fighter</string>
       </RemnantShipsToSpawn>
     </Outcome>
-
+    <Outcome>
+      <Chance>12</Chance>
+      <TitleText>Excellent find</TitleText>
+      <DescriptionText>Here you have made an excellent discovery - Inside the warehouse you found completely intact alien light frigate! What's more, it appears to be spaceworthy and inside of its cargo theres mysterious artifact.</DescriptionText>
+      <FriendlyShipsToSpawn>
+        <string>Disruptor Drone</string>
+      </FriendlyShipsToSpawn>
+      <ReplaceWith>Large Warehouse</ReplaceWith>
+      <GrantArtifact>true</GrantArtifact>
+      <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>
   </PotentialOutcomes>
   
 </ExplorationEvent>

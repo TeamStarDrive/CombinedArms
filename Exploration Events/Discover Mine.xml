@@ -2,7 +2,7 @@
   <Name>Discover Ancient Mine</Name>
   <PotentialOutcomes>
     <Outcome>
-      <Chance>50</Chance>
+      <Chance>40</Chance>
       <TitleText>It's infested!</TitleText>
       <DescriptionText>As your troops approach the mine entrance, they see clearly that this machinery, while ancient, is still in excellent shape. Unfortunately, a nest of Antlions has made its home here and your troops find themselves surrounded by foes very suddenly.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -12,19 +12,67 @@
         <string>Antlion</string>
         <string>Antlion</string>
         <string>Antlion</string>
-      </TroopsToSpawn>
+ </TroopsToSpawn>
     </Outcome>
 
     <Outcome>
-      <Chance>25</Chance>
+      <Chance>10</Chance>
       <TitleText>Salvage operation</TitleText>
       <DescriptionText>As your combat engineers try to salvage some of the ancient equipment they soon discover that the mine itself has suffered too much damage to be of any further use. The recovered items however will make a nice profit on the open market.</DescriptionText>
       <MoneyGranted>750</MoneyGranted>      
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
-    
     <Outcome>
-      <Chance>25</Chance>
+      <Chance>10</Chance>
+      <TitleText>Salvage operation</TitleText>
+      <DescriptionText>As your combat engineers try to salvage some of the ancient equipment they soon discover that in the deepest parts of mineshaft there's some strange artifact.</DescriptionText>
+      <GrantArtifact>true</GrantArtifact>      
+      <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>
+    	
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that someone was hiding a untested tech. Unfortunately, it seems that a small remnant fleet was dawned to this place as well. The ships are attacking immediately!</DescriptionText>
+      <UnlockTech>TritaniumMissiles</UnlockTech>
+      <ReplaceWith>Nano Mine</ReplaceWith>	  
+      <RemoveTrigger>true</RemoveTrigger>
+      <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+      </TroopsToSpawn>	  
+    </Outcome>
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that someone was hiding a untested tech. Unfortunately, it seems that a small remnant fleet was dawned to this place as well. The ships are attacking immediately!</DescriptionText>
+      <UnlockTech>ScrappyBeam2x4</UnlockTech>	  
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Nano Mine</ReplaceWith>
+      <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+      </TroopsToSpawn>	  
+    </Outcome>
+
+    <Outcome>
+      <Chance>10</Chance>
       <TitleText>Whoops</TitleText>
       <DescriptionText>As your troops approach the mine entrance, they see clearly that this machinery, while ancient, is still in excellent shape. As they explore the mine further they accidentally trip the decrepit security system which sends out a distress signal. A small detachment of Remnant forces are alerted to your presence and start orbiting the planet.</DescriptionText> 
       <RemoveTrigger>true</RemoveTrigger>
@@ -36,6 +84,18 @@
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
       </RemnantShipsToSpawn>
+    </Outcome>
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that someone was hiding a untested tech. Unfortunately, it seems that a small remnant fleet was dawned to this place as well. The ships are attacking immediately!</DescriptionText>
+      <UnlockTech>Ancient Ion Technology</UnlockTech>
+      <RemoveTrigger>true</RemoveTrigger>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+        <string>Antlion</string>
+        <string>Antlion</string>
+      </TroopsToSpawn>
     </Outcome>
 
   </PotentialOutcomes>

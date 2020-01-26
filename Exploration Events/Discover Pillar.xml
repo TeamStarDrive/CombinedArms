@@ -1,42 +1,94 @@
 ﻿<ExplorationEvent>
   <Name>Discover pillar</Name>
   <PotentialOutcomes>
-
+   <Outcome>
+      <Chance>30</Chance>
+      <TitleText>Unknown defenders</TitleText>
+      <DescriptionText>Before reaching the Pillar, your troops were attacked by unknown enemies and had to fall back and the pillar disappear before their eyes, leaving big hole in the ground.</DescriptionText>
+      <SelectRandomPlanet>true</SelectRandomPlanet>
+      <SpawnBuildingOnPlanet>Ancient Pillar</SpawnBuildingOnPlanet>
+       <TroopsToSpawn>
+       <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+    <string>Light Drone</string>
+    <string>Light Drone</string>
+    <string>Light Drone</string>
+    <string>Light Drone</string>
+    <string>Type WII Colony Mk4</string>
+      </RemnantShipsToSpawn>	  
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+      </TroopsToSpawn>     
+      <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Scientific Discovery</TitleText>
-      <DescriptionText>As your troops get closer to the pillar their scans immediately reveal that this structure is much older than most known structures in the galaxy. At the back of this pillar your troops discover an active energy source - they activate it. Upon activation one of your men is targetted by the pillar. A massive beam engulfes the soldier and large amounts of information is downloaded into his brain. Suddenly the pillar deactivates and the energy source is burned out. This discovery grants your empire a 5% bonus to all scientific efforts.</DescriptionText>
+      <DescriptionText>As your troops get closer to the pillar their scans immediately reveal that this structure is much older than most known structures in the galaxy. At the back of this pillar your troops discover an active energy source - they activate it. Upon activation one of your men is targeted by the pillar. A massive beam engulfs the soldier and large amounts of information is downloaded into his brain. Suddenly the pillar deactivates and the energy source is burned out. This discovery grants your empire a 5% bonus to all scientific efforts.</DescriptionText>
       <ScienceBonus>.05</ScienceBonus>
+      <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
      </Outcome>
 
     <Outcome>
       <Chance>5</Chance>
       <TitleText>Scientific Discovery</TitleText>
-      <DescriptionText>As your troops get closer to the pillar their scans immediately reveal that this structure is much older than most known structures in the galaxy. At the back of this pillar your troops discover an active energy source - they activate it. Upon activation one of your men is targetted by the pillar. A massive beam engulfes the soldier and large amounts of information is downloaded into his brain. Suddenly the pillar deactivates and the energy source is burned out. This discovery grants your empire a 10% bonus to all scientific efforts.</DescriptionText>
+      <DescriptionText>As your troops get closer to the pillar their scans immediately reveal that this structure is much older than most known structures in the galaxy. At the back of this pillar your troops discover an active energy source - they activate it. Upon activation one of your men is targeted by the pillar. A massive beam engulfs the soldier and large amounts of information is downloaded into his brain. Suddenly the pillar deactivates and the energy source is burned out. This discovery grants your empire a 10% bonus to all scientific efforts.</DescriptionText>
       <ScienceBonus>.10</ScienceBonus>
+      <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
      </Outcome>
-
-    <Outcome>
-      <Chance>20</Chance>
-      <TitleText>Salvage operation</TitleText>
-      <DescriptionText>Your combat engineers salvage most of the ancient and no longer operational equipment, figuring it will make a nice profit on the open market.</DescriptionText>
-      <MoneyGranted>750</MoneyGranted>      
+     <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Shattering</TitleText>
+      <DescriptionText>As your troops get closer to the pillar is starting to shake and shatter into rubble and abnormal crystals.</DescriptionText>
+      <ReplaceWith>Thought Crystal</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
+     </Outcome>
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant defenders.</DescriptionText>
+      <MoneyGranted>500</MoneyGranted>
+      <UnlockTech>RAD</UnlockTech>	  
+      <RemoveTrigger>true</RemoveTrigger>
+      <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+      </TroopsToSpawn>	  
+    </Outcome>
+     <Outcome>
+      <Chance>10</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After Scouting the area, your troops found the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant defenders.</DescriptionText>
+      <MoneyGranted>500</MoneyGranted>
+      <UnlockTech>S_cannon</UnlockTech>	  
+      <RemoveTrigger>true</RemoveTrigger>
+      <RemnantShipsToSpawn>
+		<string>Light Drone</string>
+		<string>Light Drone</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+      </TroopsToSpawn>	  
     </Outcome>
     
-    <Outcome>
-      <Chance>25</Chance>
-      <TitleText>Salvage operation</TitleText>
-      <DescriptionText>Your combat engineers try salvage some of the ancient and no longer operational equipment, figuring it will make a decent profit on the open market.</DescriptionText>
-      <MoneyGranted>450</MoneyGranted>      
-      <RemoveTrigger>true</RemoveTrigger>
-    </Outcome>
     
 
     <Outcome>
-      <Chance>20</Chance>
+      <Chance>10</Chance>
       <TitleText>I see you</TitleText>
       <DescriptionText>As your troops approach the ancient pillar, they hear a humming noise. As they get closer the noise gets louder. Suddenly a deafening sound is heard and a large bright beam shoots into the sky. You quickly realize that your presence activated a homing beacon and your sensors detect a Remnant fleet warping in. One of your soldiers spots something and grabs it before fleeing to the surface. Turns out this is a rare Artifact!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -47,11 +99,12 @@
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
+        <string>Corsair Asteroid Base</string>
       </RemnantShipsToSpawn>
     </Outcome>
 
     <Outcome>
-      <Chance>20</Chance>
+      <Chance>10</Chance>
       <TitleText>Intervention</TitleText>
       <DescriptionText>As your troops approach the ancient pillar, they notice that they aren't the first group to discover it. They see lots of electronical equipment, computers and a large Remnant power generator. One of your combat engineers activates the generator and in doing so alerts the owners of these items to your presence. A small Remnant fleet warps.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -61,6 +114,7 @@
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
+        <string>Corsair Asteroid Base</string>
        </RemnantShipsToSpawn>
     </Outcome>
 
