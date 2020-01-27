@@ -33,13 +33,14 @@
 	<HealthMax>1200</HealthMax>
 	<RepairDifficulty>2</RepairDifficulty>
     <DamageThreshold>60</DamageThreshold>			      				
-	<!-- Power Drawn -->
-	<PowerDraw>15</PowerDraw>
-	<shield_power>700</shield_power>
-	<shield_power_max>700</shield_power_max>
-	<shield_recharge_delay>4.0</shield_recharge_delay>
-	<shield_recharge_rate>7.0</shield_recharge_rate>
-	<shield_radius>50</shield_radius>
+	<!-- for PowerPlant Items -->
+	<PowerDraw>10</PowerDraw>
+	<explodes>false</explodes>
+	<PowerFlowMax>20</PowerFlowMax>
+	<PowerStoreMax>100</PowerStoreMax>
+	<PowerRadius>2</PowerRadius>
+    <AmplifyShields>800</AmplifyShields>
+
 	<!-- Armor Resistance -->
 	<EnergyResist>-0.15</EnergyResist>
 	<!-- Crew Reqs -->

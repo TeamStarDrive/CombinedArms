@@ -3,11 +3,8 @@
 
   <Cost>16</Cost>
   <FighterModule>false</FighterModule>
-  <!-- Tech Level -->
   <TechLevel>2</TechLevel>
   <TechBranch>Armor</TechBranch>
-
-  <!-- common traits shared by all ship modules -->
   <XSIZE>3</XSIZE>
   <YSIZE>3</YSIZE>
   <ModuleType>Armor</ModuleType>
@@ -16,35 +13,17 @@
   <UID>Shapememory Alloys Large</UID>
   <TexturePath>Textures/transparent</TexturePath>
   <IconTexturePath>Modules/Shapememory Alloys Large</IconTexturePath>
-
-
   <NameIndex>6594</NameIndex>
   <DescriptionIndex>5999</DescriptionIndex>
-
-
-  <!-- Mass and Health -->
-  <Mass>72</Mass>
+  <Mass>63</Mass>
   <Health>7200</Health>
   <HealthMax>7200</HealthMax>
   <RepairDifficulty>1</RepairDifficulty>
-
-  <!-- Power Drawn -->
   <PowerDraw>35</PowerDraw>
   <PowerDrawAtWarp>-17</PowerDrawAtWarp>
   <BonusRepairRate>45</BonusRepairRate>
+  <Regenerate>120</Regenerate>
   <modRadius>1</modRadius>
-  <!-- Armor Resistance -->
   <ExplosiveResist>0.4</ExplosiveResist>
-
-  <!-- Crew Reqs -->
-  <CrewRequired>0</CrewRequired>
-  <CrewSupplied>0</CrewSupplied>
-
-  <!-- for Weapons -->
-
-
-  <!-- Description -->
   <Description>Shapememory Alloys can slowly repair itself when damaged.</Description>
-  
-
 </ShipModule>
