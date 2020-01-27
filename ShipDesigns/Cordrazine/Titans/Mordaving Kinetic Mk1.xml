@@ -14,7 +14,7 @@
   <IsShipyard>false</IsShipyard>
   <IsOrbitalDefense>false</IsOrbitalDefense>
   <IconPath>ShipIcons/Mordaving</IconPath>
-  <CombatState>AttackRuns</CombatState>
+  <CombatState>Artillery</CombatState>
   <MechanicalBoardingDefense>0</MechanicalBoardingDefense>
   <Hull>Cordrazine/Mordaving</Hull>
   <Role>capital</Role>
@@ -23,6 +23,7 @@
       <Position>
         <X>248</X>
         <Y>536</Y>
+        <Z>0</Z>
       </Position>
       <scale>98</scale>
     </ThrusterZone>
@@ -30,13 +31,14 @@
       <Position>
         <X>264</X>
         <Y>536</Y>
+        <Z>0</Z>
       </Position>
       <scale>98</scale>
     </ThrusterZone>
   </ThrusterList>
   <ModelPath>mod models/Cordrazine/Shared/ship16f</ModelPath>
   <DefaultAIState>DoNothing</DefaultAIState>
-  <ShipCategory>Unclassified</ShipCategory>
+  <ShipCategory>Conservative</ShipCategory>
   <HangarDesignation>General</HangarDesignation>
   <ShieldsBehavior>FullPower</ShieldsBehavior>
   <CarrierShip>false</CarrierShip>
@@ -111,7 +113,7 @@
         <X>40</X>
         <Y>72</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Large</InstalledModuleUID>
+      <InstalledModuleUID>XSGA5Fairy Large</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -148,7 +150,7 @@
         <X>40</X>
         <Y>120</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Large</InstalledModuleUID>
+      <InstalledModuleUID>XSGA5Fairy Large</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -342,7 +344,7 @@
         <X>72</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Med</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -367,7 +369,7 @@
         <X>72</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Med</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -567,7 +569,7 @@
         <X>104</X>
         <Y>24</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -729,7 +731,7 @@
         <X>104</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Med</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -754,7 +756,7 @@
         <X>120</X>
         <Y>-8</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -977,12 +979,12 @@
         <X>120</X>
         <Y>488</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Med</InstalledModuleUID>
+      <InstalledModuleUID>AutoTurret Type54</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>270</facing>
+      <state>Left</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -1002,7 +1004,7 @@
         <X>136</X>
         <Y>-40</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1230,7 +1232,7 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>210</facing>
+      <facing>210.000076</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -1275,7 +1277,7 @@
         <X>136</X>
         <Y>360</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Med</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1337,7 +1339,7 @@
         <X>152</X>
         <Y>-72</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1363,11 +1365,11 @@
         <X>152</X>
         <Y>-40</Y>
       </Position>
-      <InstalledModuleUID>ShotgunHVEmp</InstalledModuleUID>
+      <InstalledModuleUID>BattleShield2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>270</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -1540,7 +1542,7 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>315</facing>
+      <facing>315.0001</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -1720,12 +1722,11 @@
         <X>152</X>
         <Y>488</Y>
       </Position>
-      <InstalledModuleUID>AutoTurret Type54</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>270</facing>
-      <state>Left</state>
+      <facing>0</facing>
+      <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -1758,7 +1759,7 @@
         <X>168</X>
         <Y>-104</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Large</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Large</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1932,7 +1933,7 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>315</facing>
+      <facing>315.0001</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -2310,7 +2311,7 @@
         <X>184</X>
         <Y>72</Y>
       </Position>
-      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
+      <InstalledModuleUID>BattleShield3x3</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2323,7 +2324,6 @@
         <X>184</X>
         <Y>88</Y>
       </Position>
-      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2336,7 +2336,6 @@
         <X>184</X>
         <Y>104</Y>
       </Position>
-      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2533,6 +2532,7 @@
         <X>184</X>
         <Y>488</Y>
       </Position>
+      <InstalledModuleUID>BattleShield2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2570,7 +2570,7 @@
         <X>200</X>
         <Y>-120</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2715,7 +2715,6 @@
         <X>200</X>
         <Y>72</Y>
       </Position>
-      <InstalledModuleUID>SniperRifle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2752,6 +2751,7 @@
         <X>200</X>
         <Y>120</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLocker</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2764,7 +2764,6 @@
         <X>200</X>
         <Y>136</Y>
       </Position>
-      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2781,7 +2780,7 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>315</facing>
+      <facing>315.0001</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -3004,7 +3003,7 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>225</facing>
+      <facing>225.000046</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -3101,7 +3100,7 @@
         <X>216</X>
         <Y>-104</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Large</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Large</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3234,7 +3233,6 @@
         <X>216</X>
         <Y>72</Y>
       </Position>
-      <InstalledModuleUID>SniperRifle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3283,7 +3281,6 @@
         <X>216</X>
         <Y>136</Y>
       </Position>
-      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3662,11 +3659,11 @@
         <X>232</X>
         <Y>-56</Y>
       </Position>
-      <InstalledModuleUID>Ammunition Dump</InstalledModuleUID>
+      <InstalledModuleUID>ShotgunHVEmp</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
+      <facing>270</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -3687,6 +3684,7 @@
         <X>232</X>
         <Y>-24</Y>
       </Position>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3699,6 +3697,7 @@
         <X>232</X>
         <Y>-8</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -4227,6 +4226,7 @@
         <X>248</X>
         <Y>-24</Y>
       </Position>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -4239,6 +4239,7 @@
         <X>248</X>
         <Y>-8</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -4684,7 +4685,7 @@
         <X>248</X>
         <Y>584</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Med</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -4709,7 +4710,7 @@
         <X>264</X>
         <Y>-104</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Large</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Large</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -4746,10 +4747,11 @@
         <X>264</X>
         <Y>-56</Y>
       </Position>
+      <InstalledModuleUID>ShotgunHVEmp</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
+      <facing>90</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -4770,6 +4772,7 @@
         <X>264</X>
         <Y>-24</Y>
       </Position>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -4782,6 +4785,7 @@
         <X>264</X>
         <Y>-8</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -5314,6 +5318,7 @@
         <X>280</X>
         <Y>-24</Y>
       </Position>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -5326,6 +5331,7 @@
         <X>280</X>
         <Y>-8</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -5929,7 +5935,7 @@
         <X>296</X>
         <Y>72</Y>
       </Position>
-      <InstalledModuleUID>SniperRifle</InstalledModuleUID>
+      <InstalledModuleUID>BattleShield3x3</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -5966,6 +5972,7 @@
         <X>296</X>
         <Y>120</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLocker</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -5978,7 +5985,6 @@
         <X>296</X>
         <Y>136</Y>
       </Position>
-      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -6324,7 +6330,7 @@
         <X>312</X>
         <Y>-120</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -6337,7 +6343,7 @@
         <X>312</X>
         <Y>-104</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Large</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Large</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -6470,7 +6476,6 @@
         <X>312</X>
         <Y>72</Y>
       </Position>
-      <InstalledModuleUID>SniperRifle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -6519,7 +6524,6 @@
         <X>312</X>
         <Y>136</Y>
       </Position>
-      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -6789,12 +6793,12 @@
         <X>312</X>
         <Y>488</Y>
       </Position>
-      <InstalledModuleUID>AutoTurret Type54</InstalledModuleUID>
+      <InstalledModuleUID>BattleShield2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>90</facing>
-      <state>Right</state>
+      <facing>0</facing>
+      <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -6972,7 +6976,6 @@
         <X>328</X>
         <Y>72</Y>
       </Position>
-      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -6985,7 +6988,6 @@
         <X>328</X>
         <Y>88</Y>
       </Position>
-      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -6998,7 +7000,6 @@
         <X>328</X>
         <Y>104</Y>
       </Position>
-      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -7281,11 +7282,11 @@
         <X>344</X>
         <Y>-40</Y>
       </Position>
-      <InstalledModuleUID>ShotgunHVEmp</InstalledModuleUID>
+      <InstalledModuleUID>BattleShield2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>90</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -7615,11 +7616,12 @@
         <X>344</X>
         <Y>488</Y>
       </Position>
+      <InstalledModuleUID>AutoTurret Type54</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>90</facing>
+      <state>Right</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -7652,7 +7654,7 @@
         <X>360</X>
         <Y>-72</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -7940,7 +7942,7 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>150</facing>
+      <facing>150.000046</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -7985,7 +7987,7 @@
         <X>360</X>
         <Y>360</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Med</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -8073,7 +8075,7 @@
         <X>376</X>
         <Y>-40</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -8367,7 +8369,6 @@
         <X>376</X>
         <Y>488</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -8405,7 +8406,7 @@
         <X>392</X>
         <Y>-8</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -8606,7 +8607,7 @@
         <X>392</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Med</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -8655,7 +8656,7 @@
         <X>408</X>
         <Y>24</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -8940,7 +8941,7 @@
         <X>424</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Med</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -8965,7 +8966,7 @@
         <X>424</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Med</InstalledModuleUID>
+      <InstalledModuleUID>HSA-Frontier Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -9016,7 +9017,7 @@
         <X>440</X>
         <Y>72</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Large</InstalledModuleUID>
+      <InstalledModuleUID>XSGA5Fairy Large</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -9053,7 +9054,7 @@
         <X>440</X>
         <Y>120</Y>
       </Position>
-      <InstalledModuleUID>HSA-Mirage Large</InstalledModuleUID>
+      <InstalledModuleUID>XSGA5Fairy Large</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
