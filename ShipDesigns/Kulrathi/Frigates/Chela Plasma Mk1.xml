@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ShipData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Animated>false</Animated>
   <ShipStyle>Kulrathi</ShipStyle>
   <experience>0</experience>
   <Level>0</Level>
   <SelectionGraphic />
-  <Name>Chela Sniper Mk1</Name>
+  <Name>Chela Plasma Mk1</Name>
+  <ModName>Combined Arms</ModName>
   <HasFixedCost>false</HasFixedCost>
   <FixedCost>0</FixedCost>
-  <HasFixedUpkeep>false</HasFixedUpkeep>
   <FixedUpkeep>0</FixedUpkeep>
+  <HasFixedUpkeep>false</HasFixedUpkeep>
+  <Animated>false</Animated>
   <IsShipyard>false</IsShipyard>
   <IsOrbitalDefense>false</IsOrbitalDefense>
   <IconPath>ShipIcons/icon_Chela</IconPath>
-  <CombatState>Artillery</CombatState>
+  <CombatState>AttackRuns</CombatState>
   <MechanicalBoardingDefense>0</MechanicalBoardingDefense>
   <Hull>Kulrathi/Chela</Hull>
   <Role>frigate</Role>
@@ -22,13 +23,15 @@
       <Position>
         <X>200</X>
         <Y>336</Y>
+        <Z>0</Z>
       </Position>
       <scale>40</scale>
     </ThrusterZone>
     <ThrusterZone>
       <Position>
-        <X>248</X>
+        <X>256</X>
         <Y>336</Y>
+        <Z>0</Z>
       </Position>
       <scale>72</scale>
     </ThrusterZone>
@@ -36,13 +39,15 @@
       <Position>
         <X>312</X>
         <Y>336</Y>
+        <Z>0</Z>
       </Position>
       <scale>40</scale>
     </ThrusterZone>
   </ThrusterList>
   <ModelPath>mod models/Kulrathi/Chela</ModelPath>
   <DefaultAIState>DoNothing</DefaultAIState>
-  <ShipCategory>Unclassified</ShipCategory>
+  <ShipCategory>Neutral</ShipCategory>
+  <HangarDesignation>General</HangarDesignation>
   <ShieldsBehavior>FullPower</ShieldsBehavior>
   <CarrierShip>false</CarrierShip>
   <ModuleSlotList>
@@ -55,8 +60,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -70,8 +73,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -81,12 +82,10 @@
         <X>136</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>PowerSolarArm</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -100,8 +99,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -115,8 +112,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -130,8 +125,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -141,14 +134,12 @@
         <X>152</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>PlasmaProjectorMod</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -156,13 +147,10 @@
         <X>152</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>LightAC</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>180</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -174,8 +162,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -189,8 +175,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -204,8 +188,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -219,8 +201,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -234,8 +214,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -245,12 +223,10 @@
         <X>168</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>Shield_1KW</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -263,8 +239,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -277,8 +251,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -291,8 +263,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -306,8 +276,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -321,8 +289,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -336,8 +302,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -347,14 +311,12 @@
         <X>184</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>LaserPurple</InstalledModuleUID>
+      <InstalledModuleUID>PlasmaProjectorMod</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>270</facing>
-      <state>Normal</state>
+      <state>Left</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -362,12 +324,9 @@
         <X>184</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>SniperRifle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -377,11 +336,10 @@
         <X>184</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>PlasmaCannon</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -394,8 +352,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -408,8 +364,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -419,11 +373,10 @@
         <X>184</X>
         <Y>312</Y>
       </Position>
+      <InstalledModuleUID>Overload Fusion Reactor</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -436,8 +389,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -447,12 +398,10 @@
         <X>184</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
+      <InstalledModuleUID>Cockpit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -466,8 +415,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -481,8 +428,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -496,8 +441,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -507,12 +450,10 @@
         <X>200</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>Ceramic Armor Small</InstalledModuleUID>
+      <InstalledModuleUID>Armored Solarpanel Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -526,8 +467,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -537,12 +476,10 @@
         <X>200</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>LaserPurple</InstalledModuleUID>
+      <InstalledModuleUID>FuelCellSmallArmored</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -552,13 +489,10 @@
         <X>200</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>LaserPurple</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>270</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -567,12 +501,9 @@
         <X>200</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>Phalanx PD</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -582,11 +513,10 @@
         <X>200</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -596,12 +526,10 @@
         <X>200</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLocker</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -611,11 +539,10 @@
         <X>200</X>
         <Y>296</Y>
       </Position>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -625,12 +552,9 @@
         <X>200</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>jumpdrive2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -643,8 +567,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -654,12 +576,10 @@
         <X>200</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -673,8 +593,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -688,8 +606,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -703,8 +619,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -717,8 +631,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -728,12 +640,10 @@
         <X>216</X>
         <Y>136</Y>
       </Position>
-      <InstalledModuleUID>LightAC</InstalledModuleUID>
+      <InstalledModuleUID>Ceramic Armor Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -746,8 +656,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -757,12 +665,10 @@
         <X>216</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>SniperRifle</InstalledModuleUID>
+      <InstalledModuleUID>PlasmaProjectorMod</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -775,8 +681,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -789,8 +693,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -800,11 +702,10 @@
         <X>216</X>
         <Y>216</Y>
       </Position>
+      <InstalledModuleUID>FuelCellSmallArmored</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -814,13 +715,10 @@
         <X>216</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>LaserPurple</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>165</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -832,8 +730,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -843,11 +739,10 @@
         <X>216</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>PowerConduit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -857,11 +752,10 @@
         <X>216</X>
         <Y>280</Y>
       </Position>
+      <InstalledModuleUID>Overload Fusion Reactor</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -874,8 +768,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -885,11 +777,10 @@
         <X>216</X>
         <Y>312</Y>
       </Position>
+      <InstalledModuleUID>PowerConduit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -899,11 +790,10 @@
         <X>216</X>
         <Y>328</Y>
       </Position>
+      <InstalledModuleUID>CombatEngine_2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IE</Restrictions>
@@ -913,12 +803,9 @@
         <X>216</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>engine_fighter_1x1</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>OE</Restrictions>
@@ -931,8 +818,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -945,8 +830,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -959,8 +842,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -973,8 +854,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -984,12 +863,9 @@
         <X>232</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>SniperRifle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1002,8 +878,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1016,8 +890,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1027,11 +899,10 @@
         <X>232</X>
         <Y>216</Y>
       </Position>
+      <InstalledModuleUID>FuelCellSmallArmored</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1041,12 +912,10 @@
         <X>232</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1056,12 +925,10 @@
         <X>232</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>AntiMatterReactor</InstalledModuleUID>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1071,11 +938,10 @@
         <X>232</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1088,8 +954,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1099,12 +963,9 @@
         <X>232</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>Cockpit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1118,8 +979,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1129,12 +988,9 @@
         <X>232</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>CombatEngine_2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1147,8 +1003,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1158,12 +1012,10 @@
         <X>248</X>
         <Y>152</Y>
       </Position>
-      <InstalledModuleUID>Ceramic Armor Small</InstalledModuleUID>
+      <InstalledModuleUID>Ceramic Armor Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1173,12 +1025,9 @@
         <X>248</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>Shield_1KW</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1188,11 +1037,10 @@
         <X>248</X>
         <Y>184</Y>
       </Position>
+      <InstalledModuleUID>Armored Solarpanel Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1201,28 +1049,23 @@
       <Position>
         <X>248</X>
         <Y>200</Y>
-      </Position>
-      <InstalledModuleUID>PowerConduit</InstalledModuleUID>
-      <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
-      <Health>0</Health>
-      <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>0</facing>
-      <state>Normal</state>
-      <Restrictions>I</Restrictions>
-    </ModuleSlotData>
-    <ModuleSlotData>
-      <Position>
-        <X>248</X>
-        <Y>216</Y>
       </Position>
       <InstalledModuleUID>Bridge</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
+      <facing>0</facing>
+      <state>Normal</state>
+      <Restrictions>I</Restrictions>
+    </ModuleSlotData>
+    <ModuleSlotData>
+      <Position>
+        <X>248</X>
+        <Y>216</Y>
+      </Position>
+      <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
+      <Health>0</Health>
+      <Shield_Power>0</Shield_Power>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1232,11 +1075,10 @@
         <X>248</X>
         <Y>232</Y>
       </Position>
+      <InstalledModuleUID>Shield_10KW</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1249,8 +1091,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1263,8 +1103,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1274,11 +1112,10 @@
         <X>248</X>
         <Y>280</Y>
       </Position>
+      <InstalledModuleUID>Overload Fusion Reactor</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1288,12 +1125,9 @@
         <X>248</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>PowerConduit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1307,8 +1141,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1318,11 +1150,10 @@
         <X>248</X>
         <Y>328</Y>
       </Position>
+      <InstalledModuleUID>WarpEngine_2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1335,8 +1166,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1346,12 +1175,9 @@
         <X>264</X>
         <Y>152</Y>
       </Position>
-      <InstalledModuleUID>Ceramic Armor Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1364,8 +1190,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1375,11 +1199,10 @@
         <X>264</X>
         <Y>184</Y>
       </Position>
+      <InstalledModuleUID>Armored Solarpanel Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1389,12 +1212,9 @@
         <X>264</X>
         <Y>200</Y>
       </Position>
-      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1407,8 +1227,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1421,8 +1239,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1435,8 +1251,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1449,8 +1263,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1463,8 +1275,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1474,12 +1284,9 @@
         <X>264</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>PowerConduit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1493,8 +1300,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1504,12 +1309,9 @@
         <X>264</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>CombatEngine_2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1522,8 +1324,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1537,8 +1337,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1551,8 +1349,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1562,12 +1358,10 @@
         <X>280</X>
         <Y>136</Y>
       </Position>
-      <InstalledModuleUID>LightAC</InstalledModuleUID>
+      <InstalledModuleUID>Ceramic Armor Med</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1580,8 +1374,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1591,12 +1383,10 @@
         <X>280</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>SniperRifle</InstalledModuleUID>
+      <InstalledModuleUID>PlasmaProjectorMod</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1609,8 +1399,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1623,8 +1411,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1634,11 +1420,10 @@
         <X>280</X>
         <Y>216</Y>
       </Position>
+      <InstalledModuleUID>FuelCellSmallArmored</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1648,12 +1433,9 @@
         <X>280</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1663,12 +1445,9 @@
         <X>280</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1678,12 +1457,9 @@
         <X>280</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1693,12 +1469,10 @@
         <X>280</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>Overload Fusion Reactor</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1708,12 +1482,9 @@
         <X>280</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>Cockpit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1727,8 +1498,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1738,11 +1507,10 @@
         <X>280</X>
         <Y>328</Y>
       </Position>
+      <InstalledModuleUID>CombatEngine_2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1755,8 +1523,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1770,8 +1536,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1784,8 +1548,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1798,8 +1560,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1812,8 +1572,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1826,8 +1584,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1837,12 +1593,9 @@
         <X>296</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>SniperRifle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1855,8 +1608,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1869,8 +1620,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1880,11 +1629,10 @@
         <X>296</X>
         <Y>216</Y>
       </Position>
+      <InstalledModuleUID>FuelCellSmallArmored</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1894,14 +1642,12 @@
         <X>296</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>LaserPurple</InstalledModuleUID>
+      <InstalledModuleUID>PlasmaProjectorMod</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>180</facing>
-      <state>Normal</state>
+      <facing>90</facing>
+      <state>Right</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -1909,13 +1655,10 @@
         <X>296</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>Phalanx PD</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>180</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -1924,11 +1667,10 @@
         <X>296</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>PowerConduit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1938,12 +1680,9 @@
         <X>296</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLocker</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1956,8 +1695,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1967,12 +1704,10 @@
         <X>296</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>jumpdrive2x2</InstalledModuleUID>
+      <InstalledModuleUID>PowerConduit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1985,8 +1720,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IE</Restrictions>
@@ -1996,12 +1729,9 @@
         <X>296</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>engine_fighter_1x1</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>OE</Restrictions>
@@ -2015,8 +1745,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2030,8 +1758,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2041,12 +1767,10 @@
         <X>312</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>Ceramic Armor Small</InstalledModuleUID>
+      <InstalledModuleUID>Armored Solarpanel Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2060,8 +1784,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2071,12 +1793,10 @@
         <X>312</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>LaserPurple</InstalledModuleUID>
+      <InstalledModuleUID>FuelCellSmallArmored</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2086,13 +1806,10 @@
         <X>312</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>LaserPurple</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>90</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -2104,8 +1821,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2115,11 +1830,10 @@
         <X>312</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2129,11 +1843,10 @@
         <X>312</X>
         <Y>280</Y>
       </Position>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2143,11 +1856,10 @@
         <X>312</X>
         <Y>296</Y>
       </Position>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2157,11 +1869,10 @@
         <X>312</X>
         <Y>312</Y>
       </Position>
+      <InstalledModuleUID>Overload Fusion Reactor</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2174,8 +1885,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2185,12 +1894,10 @@
         <X>312</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2204,8 +1911,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2219,8 +1924,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2234,8 +1937,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2245,13 +1946,10 @@
         <X>328</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>LaserPurple</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>90</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
@@ -2260,12 +1958,9 @@
         <X>328</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>SniperRifle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2275,11 +1970,10 @@
         <X>328</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>PlasmaCannon</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2292,8 +1986,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2306,8 +1998,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2317,12 +2007,9 @@
         <X>328</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>Shield_1KW</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2335,8 +2022,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2346,12 +2031,10 @@
         <X>328</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
+      <InstalledModuleUID>Cockpit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2365,8 +2048,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2380,8 +2061,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2395,8 +2074,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2410,8 +2087,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2421,11 +2096,10 @@
         <X>344</X>
         <Y>312</Y>
       </Position>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2435,27 +2109,23 @@
         <X>344</X>
         <Y>328</Y>
       </Position>
+      <InstalledModuleUID>PlasmaProjectorMod</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>0</facing>
-      <state>Normal</state>
-      <Restrictions>IO</Restrictions>
-    </ModuleSlotData>
-    <ModuleSlotData>
-      <Position>
-        <X>344</X>
-        <Y>344</Y>
-      </Position>
-      <InstalledModuleUID>LightAC</InstalledModuleUID>
-      <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
-      <Health>0</Health>
-      <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>180</facing>
+      <state>Rear</state>
+      <Restrictions>IO</Restrictions>
+    </ModuleSlotData>
+    <ModuleSlotData>
+      <Position>
+        <X>344</X>
+        <Y>344</Y>
+      </Position>
+      <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
+      <Health>0</Health>
+      <Shield_Power>0</Shield_Power>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -2467,8 +2137,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2482,8 +2150,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2497,8 +2163,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2508,12 +2172,9 @@
         <X>360</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2526,8 +2187,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2540,8 +2199,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2555,8 +2212,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2570,8 +2225,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2581,12 +2234,10 @@
         <X>376</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>PowerSolarArm</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2600,8 +2251,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2615,8 +2264,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2630,8 +2277,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
