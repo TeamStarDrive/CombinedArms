@@ -23,13 +23,11 @@
   <Excludes_Fighters>true</Excludes_Fighters>  
   <Excludes_Corvettes>true</Excludes_Corvettes>   
   
-  <fireDelay>5</fireDelay>
+  <fireDelay>4</fireDelay>
   <Range>6000</Range>
-  <HitPoints>225</HitPoints>
+  <HitPoints>110</HitPoints>
   <PowerRequiredToFire>250</PowerRequiredToFire>
   <OrdinanceRequiredToFire>7</OrdinanceRequiredToFire>
-  <SalvoCount>2</SalvoCount>
-  <SalvoTimer>1</SalvoTimer>
   <ProjectileCount>1</ProjectileCount>
 
   <!-- name of XACT audio cue to play on firing this weapon -->
@@ -54,6 +52,6 @@
   <ProjectileTexturePath>projTear_03_purple</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <WeaponType>Anti-Matter</WeaponType>
-  <ProjectileRadius>5</ProjectileRadius>
+  <ProjectileRadius>10</ProjectileRadius>
   <CanCollideProjectiles>true</CanCollideProjectiles>
 </Weapon>
