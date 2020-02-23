@@ -33,8 +33,8 @@
   <IconTexturePath>Modules/CIC_4x4</IconTexturePath>
   <IsCommandModule>true</IsCommandModule>
   <Mass>100</Mass>
-  <Health>1600</Health>
-  <HealthMax>1600</HealthMax>
+  <Health>2600</Health>
+  <HealthMax>2600</HealthMax>
   <RepairDifficulty>8</RepairDifficulty>
   <energyreq>0</energyreq>
   <modRadius>4</modRadius>
@@ -42,8 +42,8 @@
   <PowerDraw>32</PowerDraw>
   <BonusRepairRate>400</BonusRepairRate>
 
-  <SensorRange>150000</SensorRange>
-  <TargetTracking>8</TargetTracking>
+  <SensorRange>25000</SensorRange>
+  <TargetTracking>10</TargetTracking>
 
 
   <NameIndex>920</NameIndex>
@@ -58,13 +58,15 @@
   <shield_recharge_delay>0</shield_recharge_delay>
   <shield_recharge_rate>0</shield_recharge_rate>
   <shield_radius>0</shield_radius>
-
-
-
+  <AmplifyShields>8000</AmplifyShields>
+  <!---repair and defence-->
+  <Regenerate>80</Regenerate>
+  <EMP_Protection>2000</EMP_Protection>
+  <InhibitionRadius>10000</InhibitionRadius>
   <!-- for PowerPlant Items -->
   <explodes>false</explodes>
   <PowerFlowMax>0</PowerFlowMax>
-  <PowerStoreMax>0</PowerStoreMax>
+  <PowerStoreMax>300</PowerStoreMax>
 
   <!-- for Weapons -->
 
@@ -72,7 +74,7 @@
 
   <!-- for Engines -->
   <thrust>0</thrust>
-
+  
 
 
 </ShipModule>
