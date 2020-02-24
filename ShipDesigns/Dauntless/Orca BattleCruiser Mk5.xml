@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ShipData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <CarrierShip>false</CarrierShip>
-  <ShipCategory>Unclassified</ShipCategory>
-  <Animated>false</Animated>
   <ShipStyle>Dauntless</ShipStyle>
   <experience>0</experience>
   <Level>0</Level>
   <SelectionGraphic />
   <Name>Orca BattleCruiser Mk5</Name>
+  <ModName>Combined Arms</ModName>
   <HasFixedCost>false</HasFixedCost>
   <FixedCost>0</FixedCost>
-  <HasFixedUpkeep>false</HasFixedUpkeep>
   <FixedUpkeep>0</FixedUpkeep>
+  <HasFixedUpkeep>false</HasFixedUpkeep>
+  <Animated>false</Animated>
   <IsShipyard>false</IsShipyard>
   <IsOrbitalDefense>false</IsOrbitalDefense>
   <IconPath>ShipIcons/icon_ts3</IconPath>
@@ -24,13 +23,17 @@
       <Position>
         <X>256</X>
         <Y>520</Y>
+        <Z>0</Z>
       </Position>
       <scale>120</scale>
     </ThrusterZone>
   </ThrusterList>
   <ModelPath>mod models/Dauntless/ts3</ModelPath>
   <DefaultAIState>DoNothing</DefaultAIState>
+  <ShipCategory>Unclassified</ShipCategory>
+  <HangarDesignation>General</HangarDesignation>
   <ShieldsBehavior>FullPower</ShieldsBehavior>
+  <CarrierShip>false</CarrierShip>
   <ModuleSlotList>
     <ModuleSlotData>
       <Position>
@@ -41,8 +44,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -56,8 +57,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -71,8 +70,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -86,8 +83,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -100,8 +95,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -114,8 +107,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -129,8 +120,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -143,8 +132,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -157,8 +144,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -171,8 +156,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -185,8 +168,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -199,8 +180,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -213,8 +192,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -228,8 +205,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -243,8 +218,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -258,8 +231,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -272,8 +243,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -287,8 +256,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -302,8 +269,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -316,8 +281,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -330,8 +293,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -345,8 +306,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -360,8 +319,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -375,8 +332,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -390,8 +345,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -405,8 +358,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -420,8 +371,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -435,8 +384,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -450,8 +397,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -465,9 +410,7 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>225</facing>
+      <facing>225.000015</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -479,8 +422,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -494,8 +435,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -509,8 +448,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -524,8 +461,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -539,8 +474,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -554,8 +487,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -569,8 +500,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -584,8 +513,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -599,8 +526,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -614,8 +539,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -629,8 +552,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -644,8 +565,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -659,8 +578,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -673,8 +590,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -687,8 +602,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -702,8 +615,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -717,8 +628,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -732,8 +641,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -747,8 +654,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -761,8 +666,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -775,8 +678,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -790,8 +691,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -801,12 +700,10 @@
         <X>200</X>
         <Y>392</Y>
       </Position>
-      <InstalledModuleUID>Crystal Armor Med</InstalledModuleUID>
+      <InstalledModuleUID>Crystal Armor Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -816,11 +713,10 @@
         <X>200</X>
         <Y>408</Y>
       </Position>
+      <InstalledModuleUID>Crystal Armor Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -834,8 +730,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -849,8 +743,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -863,8 +755,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -878,8 +768,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -892,8 +780,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -907,8 +793,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -922,8 +806,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -937,8 +819,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -952,8 +832,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -967,8 +845,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -982,8 +858,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -997,8 +871,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>270</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1011,8 +883,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1026,8 +896,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>270</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1040,8 +908,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1055,8 +921,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1069,8 +933,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1084,9 +946,7 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>315</facing>
+      <facing>315.000031</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -1098,8 +958,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1112,8 +970,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1127,8 +983,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1141,8 +995,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1156,9 +1008,7 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>315</facing>
+      <facing>315.000031</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -1170,8 +1020,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1184,8 +1032,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1199,8 +1045,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1213,8 +1057,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1224,11 +1066,10 @@
         <X>216</X>
         <Y>392</Y>
       </Position>
+      <InstalledModuleUID>SubspaceSensors</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1241,8 +1082,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1256,8 +1095,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1270,8 +1107,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1284,8 +1119,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1298,8 +1131,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1312,8 +1143,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1327,9 +1156,7 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
-      <facing>225</facing>
+      <facing>225.000015</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
@@ -1341,8 +1168,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1356,8 +1181,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1371,8 +1194,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1386,8 +1207,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1400,8 +1219,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1414,8 +1231,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1429,8 +1244,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1443,8 +1256,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1457,8 +1268,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1471,8 +1280,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1485,8 +1292,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1499,8 +1304,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1513,8 +1316,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1527,8 +1328,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1541,8 +1340,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1555,8 +1352,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1569,8 +1364,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1583,8 +1376,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1597,8 +1388,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1611,8 +1400,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1625,8 +1412,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1639,8 +1424,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1653,8 +1436,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1664,12 +1445,9 @@
         <X>232</X>
         <Y>392</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1679,12 +1457,9 @@
         <X>232</X>
         <Y>408</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1698,8 +1473,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1713,8 +1486,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1727,8 +1498,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1742,8 +1511,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1756,8 +1523,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -1770,8 +1535,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1784,8 +1547,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1799,8 +1560,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -1814,8 +1573,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1828,8 +1585,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1843,8 +1598,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1857,8 +1610,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1872,8 +1623,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1886,8 +1635,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1901,8 +1648,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1915,8 +1660,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1930,8 +1673,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -1944,8 +1685,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1958,8 +1697,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1972,8 +1709,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -1986,8 +1721,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2001,8 +1734,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2015,8 +1746,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2029,8 +1758,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2043,8 +1770,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2057,8 +1782,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2072,8 +1795,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2086,8 +1807,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2101,8 +1820,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2115,8 +1832,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2129,8 +1844,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2143,8 +1856,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2157,8 +1868,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2171,8 +1880,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -2185,8 +1892,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -2200,8 +1905,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>180</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2214,8 +1917,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2229,8 +1930,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2243,8 +1942,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2257,8 +1954,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2271,8 +1966,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2285,8 +1978,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2299,8 +1990,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2313,8 +2002,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2327,8 +2014,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2341,8 +2026,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2355,8 +2038,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2369,8 +2050,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2384,8 +2063,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>45</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2398,8 +2075,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2412,8 +2087,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2426,8 +2099,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2440,8 +2111,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2455,8 +2124,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>45</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2469,8 +2136,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2483,8 +2148,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2497,8 +2160,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2511,8 +2172,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2525,8 +2184,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2539,8 +2196,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2553,8 +2208,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2568,8 +2221,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2582,8 +2233,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2597,8 +2246,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -2611,8 +2258,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -2625,8 +2270,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2639,8 +2282,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2654,8 +2295,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2669,8 +2308,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2683,8 +2320,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2697,8 +2332,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -2712,8 +2345,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2727,8 +2358,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>90</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2741,8 +2370,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2756,8 +2383,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>90</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2770,8 +2395,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2785,8 +2408,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2799,8 +2420,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2813,8 +2432,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2827,8 +2444,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2841,8 +2456,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2856,8 +2469,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2870,8 +2481,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2884,8 +2493,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2898,8 +2505,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2912,8 +2517,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -2927,8 +2530,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2941,8 +2542,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2955,8 +2554,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2969,8 +2566,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2983,8 +2578,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -2997,8 +2590,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -3011,8 +2602,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -3025,8 +2614,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -3039,8 +2626,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -3054,8 +2639,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>135</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3068,8 +2651,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3083,8 +2664,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3098,8 +2677,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3113,8 +2690,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3128,8 +2703,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3143,8 +2716,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3158,8 +2729,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3172,8 +2741,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3186,8 +2753,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3200,8 +2765,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3214,8 +2777,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3228,8 +2789,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3242,8 +2801,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3256,8 +2813,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3270,8 +2825,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3284,8 +2837,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3298,8 +2849,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -3312,8 +2861,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3326,8 +2873,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3340,8 +2885,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3354,8 +2897,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3368,8 +2909,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -3382,8 +2921,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -3397,8 +2934,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3411,8 +2946,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3426,8 +2959,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -3441,8 +2972,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3455,8 +2984,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3470,8 +2997,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -3484,8 +3009,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -3498,8 +3021,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3512,8 +3033,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3527,8 +3046,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3542,8 +3059,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3557,8 +3072,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3572,8 +3085,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3587,8 +3098,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3602,8 +3111,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3617,8 +3124,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3632,8 +3137,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3647,8 +3150,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3661,8 +3162,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3675,8 +3174,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3690,8 +3187,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3705,8 +3200,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3720,8 +3213,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3735,8 +3226,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3750,8 +3239,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>135</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3764,8 +3251,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3779,8 +3264,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>I</Restrictions>
@@ -3793,8 +3276,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3807,8 +3288,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3822,8 +3301,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3836,8 +3313,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3850,8 +3325,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3864,8 +3337,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -3878,8 +3349,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -3893,8 +3362,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3908,8 +3375,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3923,8 +3388,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3938,8 +3401,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3953,8 +3414,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3968,8 +3427,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -3983,8 +3440,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -3997,8 +3452,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -4011,8 +3464,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -4026,8 +3477,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -4041,8 +3490,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -4056,8 +3503,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -4071,8 +3516,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -4086,8 +3529,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -4101,8 +3542,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -4115,8 +3554,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -4130,8 +3567,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -4145,8 +3580,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -4160,8 +3593,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -4174,8 +3605,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -4188,8 +3617,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -4203,8 +3630,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -4218,8 +3643,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -4232,8 +3655,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -4246,8 +3667,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -4261,8 +3680,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -4275,8 +3692,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -4289,8 +3704,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -4303,8 +3716,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -4317,8 +3728,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
@@ -4331,8 +3740,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -4345,8 +3752,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>E</Restrictions>
@@ -4360,8 +3765,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -4375,8 +3778,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
@@ -4390,8 +3791,6 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <ShieldUpChance>0</ShieldUpChance>
-      <ShieldPowerBeforeWarp>0</ShieldPowerBeforeWarp>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
