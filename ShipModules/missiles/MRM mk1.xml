@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <FighterModule>false</FighterModule>
+
+<!-- The Doctor, StarDrive Turbo: these are boolean values that configure precisely which ship hull classes are able to mount your module. Like the old 'FightersOnly' tag, except comprehensive in the control provided -->
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>true</FighterModule>
   <CorvetteModule>true</CorvetteModule>
-  <DestroyerModule>true</DestroyerModule>
   <FrigateModule>true</FrigateModule>
+  <DestroyerModule>true</DestroyerModule>
   <CruiserModule>true</CruiserModule>
   <CarrierModule>true</CarrierModule>
   <CapitalModule>true</CapitalModule>
@@ -12,29 +16,31 @@
   <FreighterModule>true</FreighterModule>
   <PlatformModule>true</PlatformModule>
   <StationModule>true</StationModule>
-
-  <Cost>24</Cost>
-  <TechLevel>3</TechLevel>
+  
+  
+  <Cost>8</Cost>
+  <TechLevel>2</TechLevel>
   <!-- common traits shared by all ship modules -->
-  <ModuleType>MissileLauncher</ModuleType>
+  <ModuleType>Turret</ModuleType>
   <XSIZE>2</XSIZE>
-  <YSIZE>3</YSIZE>
-  <Name>BroadSide SRM</Name>
+  <YSIZE>2</YSIZE>
+  <Name>MRLS</Name>
   <Restrictions>O</Restrictions>
-  <UID>BroadSide_SRM_2x3</UID>
-  <IconTexturePath>Modules/BroadSide_SRM</IconTexturePath>
-  <Mass>20</Mass>
-  <Health>1150</Health>
-  <HealthMax>1150</HealthMax>
-  <RepairDifficulty>3</RepairDifficulty>
+  <UID>MRM mk1</UID>
+  <IconTexturePath>Modules/MRM mk1</IconTexturePath>
+  <Mass>10</Mass>
+  <Health>450</Health>
+  <HealthMax>450</HealthMax>
+  <RepairDifficulty>1.5</RepairDifficulty>
   <energyreq>0</energyreq>
-  <Description>Advance Missile System</Description>
+  <Description>This is a multiple rocket launching system housed on a swivel turret for an enhanced field of fire.
+  </Description>
   <CrewRequired>12</CrewRequired>
   <CrewSupplied>0</CrewSupplied>
-  <PowerDraw>10</PowerDraw>
+  <PowerDraw>4</PowerDraw>
 
-  <NameIndex>17597</NameIndex>
-  <DescriptionIndex>17598</DescriptionIndex>
+  <NameIndex>998</NameIndex>
+  <DescriptionIndex>999</DescriptionIndex>
 
 
   <!-- for shield items -->
@@ -51,9 +57,9 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-  <WeaponType>BroadsideMiss</WeaponType>
-  <OrdinanceCapacity>20</OrdinanceCapacity>
-  <FieldOfFire>180</FieldOfFire>
+  <WeaponType>MRM mk1</WeaponType>
+  <OrdinanceCapacity>5</OrdinanceCapacity>
+  <FieldOfFire>90</FieldOfFire>
   
   
   <!-- for Engines -->

@@ -28,8 +28,8 @@
   <UID>ConventionalTorpedo</UID>
   <IconTexturePath>Modules/conventionalTorpedo</IconTexturePath>
   <Mass>10</Mass>
-  <Health>1000</Health>
-  <HealthMax>1000</HealthMax>
+  <Health>2400</Health>
+  <HealthMax>2400</HealthMax>
   <energyreq>0</energyreq>
   <Description>This torpedo tube launches slow-moving but devastating torpedos packed to the hilt with explosives.  They require substantial ordnance to fire and can be intercepted by point defense weapons.</Description>
   <CrewRequired>5</CrewRequired>
@@ -53,9 +53,9 @@
   <PowerStoreMax>0</PowerStoreMax>
 
   <!-- for Weapons -->
-  <WeaponType>BasicTorpedo</WeaponType>
+  <WeaponType>ConventionalTorpedo</WeaponType>
   <OrdinanceCapacity>80</OrdinanceCapacity>
-  <FieldOfFire>15</FieldOfFire>
+  <FieldOfFire>30</FieldOfFire>
 
   <!-- for Engines -->
   <thrust>0</thrust>

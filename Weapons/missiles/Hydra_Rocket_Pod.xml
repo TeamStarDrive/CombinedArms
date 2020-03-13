@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0"?>
 <Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-<Tag_Kinetic>false</Tag_Kinetic>
+  <Tag_Kinetic>false</Tag_Kinetic>
   <Tag_Energy>false</Tag_Energy>
-  <Tag_Guided>true</Tag_Guided>
+  <Tag_Guided>false</Tag_Guided>
   <Tag_Missile>true</Tag_Missile>
   <Tag_Hybrid>false</Tag_Hybrid>
   <Tag_Beam>false</Tag_Beam>
@@ -16,42 +16,42 @@
   <Tag_Drone>false</Tag_Drone>
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>false</Tag_Cannon>
-
-<UID>LightningStormMiss</UID>
+  
+  <UID>Hydra_Rocket_Pod</UID>
 
   <HitPoints>8</HitPoints>
-  <fireDelay>1.5</fireDelay>
-  <Range>3100</Range>
+  <fireDelay>8</fireDelay>
+  <Range>2500</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0.4</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>3</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
   <ProjectileCount>1</ProjectileCount>
   <FireArc>15</FireArc>             <!--for shotgun effect-->
-  <DamageAmount>70</DamageAmount>
-  <ProjectileSpeed>2150</ProjectileSpeed>
-  <DamageRadius>20</DamageRadius>
-  <SalvoCount>8</SalvoCount>
+  <DamageAmount>110</DamageAmount>
+  <ProjectileSpeed>1500</ProjectileSpeed>
+  <DamageRadius>8</DamageRadius>
+  <SalvoCount>7</SalvoCount>
   <SalvoTimer>1</SalvoTimer>
   <FireCone>30</FireCone>               <!--for salvos-->
   
-  <ProjectileRadius>10</ProjectileRadius>
-  <RotationRadsPerSecond>6</RotationRadsPerSecond>
+  <ProjectileRadius>4</ProjectileRadius>
+  <RotationRadsPerSecond>2</RotationRadsPerSecond>
 <!--Projectile atributes-->
   <ArmourPen>0</ArmourPen>
-  <ShieldPenChance>15</ShieldPenChance>
+  <ShieldPenChance>0</ShieldPenChance>
   <EffectVSShields>1</EffectVSShields>
-  <EffectVsArmor>1</EffectVsArmor>
-  <Scale>0.3</Scale>
+  <EffectVsArmor>1.2</EffectVsArmor>
+  <Scale>0.5</Scale>
   <explodes>true</explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
-  <ModelPath>Nuke</ModelPath>
-  <ProjectileTexturePath>SRM_d</ProjectileTexturePath>
-  <ModelPath>SRM</ModelPath>
+    <ProjectileTexturePath>Rocket_d</ProjectileTexturePath>
+  <ModelPath>Rocket</ModelPath>
+  <WeaponEffectType>RocketTrail</WeaponEffectType>
   <WeaponType>Missile</WeaponType>
 <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_rocket_01</fireCueName>
+  <fireCueName>sd_weapon_flame_start_01</fireCueName>
   <dieCue>sd_weapon_rocket_explode_01</dieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
 </Weapon>

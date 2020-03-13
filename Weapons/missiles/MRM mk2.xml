@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0"?>
 <Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <UID>MRM mk2</UID>
-  
   <Tag_Kinetic>false</Tag_Kinetic>
   <Tag_Energy>false</Tag_Energy>
   <Tag_Guided>true</Tag_Guided>
@@ -19,30 +17,42 @@
   <Tag_Drone>false</Tag_Drone>
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>false</Tag_Cannon>
-  
+
+  <UID>MRM mk2</UID>
+
+  <HitPoints>36</HitPoints>
   <fireDelay>4</fireDelay>
   <Range>6500</Range>
-  <SalvoCount>4</SalvoCount>
-  <SalvoTimer>1</SalvoTimer>
-  <HitPoints>50</HitPoints>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>4</OrdinanceRequiredToFire>
-  <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_missile_heavy_01</fireCueName>
-  <dieCue>sd_weapon_rocket_explode_01</dieCue>
-  <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
-  <!-- Projectile Information -->
-  <DamageAmount>225</DamageAmount>
+  
+<!-- Projectile stats -->
+  <ProjectileCount>1</ProjectileCount>
+  <FireArc>15</FireArc>             <!--for shotgun effect-->
+  <DamageAmount>745</DamageAmount>
   <ProjectileSpeed>1000</ProjectileSpeed>
   <DamageRadius>32</DamageRadius>
+  <SalvoCount>4</SalvoCount>
+  <SalvoTimer>1</SalvoTimer>
+  <FireCone>15</FireCone>               <!--for salvos-->
+  
+  <ProjectileRadius>6</ProjectileRadius>
+  <RotationRadsPerSecond>3</RotationRadsPerSecond>
+<!--Projectile atributes-->
+  <ArmourPen>0</ArmourPen>
+  <ShieldPenChance>0</ShieldPenChance>
+  <EffectVSShields>1</EffectVSShields>
+  <EffectVsArmor>1</EffectVsArmor>
+  <Scale>0.5</Scale>
   <explodes>true</explodes>
-  <ProjectileTexturePath>MRM_d</ProjectileTexturePath>
+  <CanCollideProjectiles>true</CanCollideProjectiles>
+<!-- Projectile textures-->
+   <ProjectileTexturePath>MRM_d</ProjectileTexturePath>
   <ModelPath>MRM</ModelPath>
   <WeaponEffectType>RocketTrail</WeaponEffectType>
   <WeaponType>Missile</WeaponType>
-  <ProjectileRadius>6</ProjectileRadius>
-  <RotationRadsPerSecond>3</RotationRadsPerSecond>
-  <Scale>0.5</Scale>
-  <CanCollideProjectiles>true</CanCollideProjectiles>
-  
+<!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_flame_start_01</fireCueName>
+  <dieCue>sd_weapon_rocket_explode_01</dieCue>
+  <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
 </Weapon>
