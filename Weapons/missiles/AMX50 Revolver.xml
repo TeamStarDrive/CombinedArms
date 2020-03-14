@@ -21,7 +21,7 @@
   <Excludes_Fighters>true</Excludes_Fighters>  
   <Excludes_Corvettes>true</Excludes_Corvettes>   
   
-  <HitPoints>110</HitPoints>
+  <HitPoints>100</HitPoints>
   <fireDelay>6</fireDelay>
   <Range>8000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
@@ -29,21 +29,21 @@
   
 <!-- Projectile stats -->
   <ProjectileCount>1</ProjectileCount>
-  <FireArc>15</FireArc>             <!--for shotgun effect-->
-  <DamageAmount>2100</DamageAmount>
-  <ProjectileSpeed>1100</ProjectileSpeed>
-  <DamageRadius>30</DamageRadius>
+  <FireArc>5</FireArc>             <!--for shotgun effect-->
+  <DamageAmount>2700</DamageAmount>
+  <ProjectileSpeed>1250</ProjectileSpeed>
+  <DamageRadius>90</DamageRadius>
   <SalvoCount>6</SalvoCount>
   <SalvoTimer>1</SalvoTimer>
-  <FireCone>15</FireCone>               <!--for salvos-->
+  <FireCone>5</FireCone>               <!--for salvos-->
   
-  <ProjectileRadius>13</ProjectileRadius>
-  <RotationRadsPerSecond>0.8</RotationRadsPerSecond>
+  <ProjectileRadius>9</ProjectileRadius>
+  <RotationRadsPerSecond>1.2</RotationRadsPerSecond>
 <!--Projectile atributes-->
   <ArmourPen>0</ArmourPen>
   <ShieldPenChance>0</ShieldPenChance>
   <EffectVSShields>1</EffectVSShields>
-  <EffectVsArmor>1.5</EffectVsArmor>
+  <EffectVsArmor>1.2</EffectVsArmor>
   <Scale>0.9</Scale>
   <explodes>true</explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>
