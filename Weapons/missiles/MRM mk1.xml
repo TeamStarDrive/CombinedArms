@@ -20,29 +20,24 @@
 
   <UID>MRM mk1</UID>
   
-  <HitPoints>25</HitPoints>
+  <Excludes_Fighters>true</Excludes_Fighters>  
+  
+  <HitPoints>40</HitPoints>
   <fireDelay>3.5</fireDelay>
   <Range>5800</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>1.2</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>3</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
-  <ProjectileCount>1</ProjectileCount>
-  <FireArc>15</FireArc>             <!--for shotgun effect-->
-  <DamageAmount>385</DamageAmount>
-  <ProjectileSpeed>1150</ProjectileSpeed>
-  <DamageRadius>38</DamageRadius>
+  <DamageAmount>380</DamageAmount>
+  <ProjectileSpeed>1200</ProjectileSpeed>
+  <DamageRadius>40</DamageRadius>
   <SalvoCount>2</SalvoCount>
   <SalvoTimer>0.5</SalvoTimer>
-  <FireCone>10</FireCone>               <!--for salvos-->
   
   <ProjectileRadius>4</ProjectileRadius>
-  <RotationRadsPerSecond>4</RotationRadsPerSecond>
+  <RotationRadsPerSecond>2</RotationRadsPerSecond>
 <!--Projectile atributes-->
-  <ArmourPen>0</ArmourPen>
-  <ShieldPenChance>0</ShieldPenChance>
-  <EffectVSShields>1</EffectVSShields>
-  <EffectVsArmor>1</EffectVsArmor>
   <Scale>0.5</Scale>
   <explodes>true</explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>

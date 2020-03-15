@@ -19,29 +19,23 @@
 
    <UID>LRM1</UID>
    
+  <Excludes_Fighters>true</Excludes_Fighters>  
+  <Excludes_Corvettes>true</Excludes_Corvettes>      
+  
   <HitPoints>30</HitPoints>
-  <fireDelay>5</fireDelay>
-  <Range>9000</Range>
+  <fireDelay>4</fireDelay>
+  <Range>8000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>6</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
-  <ProjectileCount>1</ProjectileCount>
-  <FireArc>15</FireArc>             <!--for shotgun effect-->
   <DamageAmount>800</DamageAmount>
-  <ProjectileSpeed>950</ProjectileSpeed>
+  <ProjectileSpeed>1000</ProjectileSpeed>
   <DamageRadius>20</DamageRadius>
-  <SalvoCount>1</SalvoCount>
-  <SalvoTimer>1</SalvoTimer>
-  <FireCone>90</FireCone>               <!--for salvos-->
   
   <ProjectileRadius>4</ProjectileRadius>
   <RotationRadsPerSecond>0.6</RotationRadsPerSecond>
 <!--Projectile atributes-->
-  <ArmourPen>0</ArmourPen>
-  <ShieldPenChance>0</ShieldPenChance>
-  <EffectVSShields>1</EffectVSShields>
-  <EffectVsArmor>1</EffectVsArmor>
   <Scale>0.7</Scale>
   <explodes>true</explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>

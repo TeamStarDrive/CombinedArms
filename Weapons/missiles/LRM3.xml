@@ -23,28 +23,21 @@
   <Excludes_Corvettes>true</Excludes_Corvettes>   
   
   <HitPoints>60</HitPoints>
-  <fireDelay>7.5</fireDelay>
-  <Range>15500</Range>
+  <fireDelay>4</fireDelay>
+  <Range>15000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>7</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>12</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
-  <ProjectileCount>1</ProjectileCount>
-  <FireArc>45</FireArc>             <!--for shotgun effect-->
-  <DamageAmount>2200</DamageAmount>
+  <DamageAmount>1600</DamageAmount>
   <ProjectileSpeed>1000</ProjectileSpeed>
-  <DamageRadius>36</DamageRadius>
+  <DamageRadius>52</DamageRadius>
   <SalvoCount>4</SalvoCount>
-  <SalvoTimer>1</SalvoTimer>
-  <FireCone>80</FireCone>               <!--for salvos-->
+  <SalvoTimer>2</SalvoTimer>
   
   <ProjectileRadius>11</ProjectileRadius>
   <RotationRadsPerSecond>0.6</RotationRadsPerSecond>
 <!--Projectile atributes-->
-  <ArmourPen>0</ArmourPen>
-  <ShieldPenChance>0</ShieldPenChance>
-  <EffectVSShields>1</EffectVSShields>
-  <EffectVsArmor>1</EffectVsArmor>
   <Scale>0.8</Scale>
   <explodes>true</explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>

@@ -13,7 +13,7 @@
   <PlatformModule>true</PlatformModule>
   <StationModule>true</StationModule>
 
-  <Cost>36</Cost>
+  <Cost>32</Cost>
   <!-- common traits shared by all ship modules -->
   <TechLevel>4</TechLevel>
   <ModuleType>Turret</ModuleType>
@@ -24,10 +24,10 @@
   <UID>MRM mk3</UID>
   <IconTexturePath>Modules/Burst MRM</IconTexturePath>
 
-  <Mass>28</Mass>
-  <Health>2400</Health>
-  <HealthMax>2400</HealthMax>
-  <RepairDifficulty>4</RepairDifficulty>
+  <Mass>24</Mass>
+  <Health>3000</Health>
+  <HealthMax>3000</HealthMax>
+  <RepairDifficulty>2.5</RepairDifficulty>
   <energyreq>50</energyreq>
   <Description>This is a prototype burst MRM launcher.</Description>
 
@@ -53,7 +53,7 @@
   
   <!-- for Weapons -->
   <WeaponType>MRM mk3</WeaponType>
-  <OrdinanceCapacity>15</OrdinanceCapacity>
+  <OrdinanceCapacity>80</OrdinanceCapacity>
   <FieldOfFire>120</FieldOfFire>
   
   <!-- for Engines -->

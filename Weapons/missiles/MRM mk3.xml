@@ -22,29 +22,22 @@
 
   <UID>MRM mk3</UID>
 
-  <HitPoints>60</HitPoints>
-  <fireDelay>5</fireDelay>
+  <HitPoints>80</HitPoints>
+  <fireDelay>4</fireDelay>
   <Range>6500</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>3.5</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>10</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
-  <ProjectileCount>1</ProjectileCount>
-  <FireArc>15</FireArc>             <!--for shotgun effect-->
-  <DamageAmount>1190</DamageAmount>
-  <ProjectileSpeed>1150</ProjectileSpeed>
-  <DamageRadius>46</DamageRadius>
+  <DamageAmount>1200</DamageAmount>
+  <ProjectileSpeed>1200</ProjectileSpeed>
+  <DamageRadius>60</DamageRadius>
   <SalvoCount>8</SalvoCount>
-  <SalvoTimer>1</SalvoTimer>
-  <FireCone>45</FireCone>               <!--for salvos-->
+  <SalvoTimer>2</SalvoTimer>
   
   <ProjectileRadius>10</ProjectileRadius>
-  <RotationRadsPerSecond>4</RotationRadsPerSecond>
+  <RotationRadsPerSecond>2</RotationRadsPerSecond>
 <!--Projectile atributes-->
-  <ArmourPen>0</ArmourPen>
-  <ShieldPenChance>0</ShieldPenChance>
-  <EffectVSShields>1</EffectVSShields>
-  <EffectVsArmor>1</EffectVsArmor>
   <Scale>0.7</Scale>
   <explodes>true</explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>

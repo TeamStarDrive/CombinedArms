@@ -22,29 +22,22 @@
   
   <UID>LRM2</UID>
 
-   <HitPoints>70</HitPoints>
-  <fireDelay>8</fireDelay>
+   <HitPoints>40</HitPoints>
+  <fireDelay>4</fireDelay>
   <Range>12000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>5</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>10</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
-  <ProjectileCount>1</ProjectileCount>
-  <FireArc>15</FireArc>             <!--for shotgun effect-->
-  <DamageAmount>2150</DamageAmount>
+  <DamageAmount>1200</DamageAmount>
   <ProjectileSpeed>1000</ProjectileSpeed>
   <DamageRadius>36</DamageRadius>
   <SalvoCount>2</SalvoCount>
-  <SalvoTimer>0.7</SalvoTimer>
-  <FireCone>60</FireCone>               <!--for salvos-->
+  <SalvoTimer>1</SalvoTimer>
   
   <ProjectileRadius>6</ProjectileRadius>
   <RotationRadsPerSecond>0.6</RotationRadsPerSecond>
 <!--Projectile atributes-->
-  <ArmourPen>0</ArmourPen>
-  <ShieldPenChance>0</ShieldPenChance>
-  <EffectVSShields>1</EffectVSShields>
-  <EffectVsArmor>1</EffectVsArmor>
   <Scale>0.8</Scale>
   <explodes>true</explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>
