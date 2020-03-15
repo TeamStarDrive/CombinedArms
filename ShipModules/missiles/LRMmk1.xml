@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <Cost>9</Cost>
-  <TechLevel>1</TechLevel> 
+  <Cost>10</Cost>
+  <TechLevel>2</TechLevel> 
   <!-- common traits shared by all ship modules -->
   <ModuleType>Turret</ModuleType>
   <XSIZE>2</XSIZE>
@@ -11,7 +11,7 @@
   <Restrictions>O</Restrictions>
   <UID>LRMmk1</UID>
   <IconTexturePath>Modules/LRMmk1</IconTexturePath>
-  <Mass>10</Mass>
+  <Mass>14</Mass>
   <Health>250</Health>
   <HealthMax>250</HealthMax>
   <RepairDifficulty>1.5</RepairDifficulty>
@@ -41,8 +41,8 @@
   
   <!-- for Weapons -->
   <WeaponType>LRM1</WeaponType>
-  <OrdinanceCapacity>10</OrdinanceCapacity>
-  <FieldOfFire>90</FieldOfFire>
+  <OrdinanceCapacity>6</OrdinanceCapacity>
+  <FieldOfFire>180</FieldOfFire>
   
   
   <!-- for Engines -->

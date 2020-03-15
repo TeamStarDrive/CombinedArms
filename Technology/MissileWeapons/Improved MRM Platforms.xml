@@ -1,27 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <UID>Guided Missiles</UID>
+  <UID>Improved MRM Platforms</UID>
   <TechnologyType>ShipWeapons</TechnologyType>
-  <Cost>320</Cost>
+  <Cost>2100</Cost>
   <RootNode>0</RootNode>
   <Name>Anti-Frigate Missiles</Name>
-  <NameIndex>581</NameIndex>
-  <DescriptionIndex>582</DescriptionIndex>
+  <NameIndex>2251</NameIndex>
+  <DescriptionIndex>999</DescriptionIndex>
   <LongDescription>To engage larger enemy threats we need to upgrade our current missile technology to have longer ranges and increased payloads</LongDescription>
   <LeadsTo>
     <LeadsToTech>
       <UID>Advanced MRM Systems</UID>
-    </LeadsToTech>
-	<LeadsToTech>
-		<UID>BroadSide_SRM</UID>
-	</LeadsToTech>	    
+    </LeadsToTech>	    
   </LeadsTo>
   <ModulesUnlocked>
     <UnlockedMod>
-      <ModuleUID>MissileLauncher1x3</ModuleUID>
-    </UnlockedMod>
-    <UnlockedMod>
-      <ModuleUID>MissileLauncher3x3</ModuleUID>
+      <ModuleUID>MRM mk2</ModuleUID>
     </UnlockedMod>
   </ModulesUnlocked>
   <BuildingsUnlocked />

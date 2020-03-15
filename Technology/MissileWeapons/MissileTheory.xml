@@ -2,7 +2,7 @@
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <UID>MissileTheory</UID>
   <TechnologyType>ShipWeapons</TechnologyType>
-  <Cost>140</Cost>
+  <Cost>220</Cost>
   <RootNode>0</RootNode>
   <Name>Missile Theory</Name>
   <NameIndex>618</NameIndex>
@@ -10,13 +10,13 @@
   <LongDescription>Adapting missile technology to the rigors of space travel is not overly difficult. We can pursue further advances to missile propulsion, payload, and durability. </LongDescription>
   <LeadsTo>
     <LeadsToTech>
-      <UID>Improved SRM Systems</UID>
+      <UID>Anti-fighter Missiles</UID>
     </LeadsToTech>
     <LeadsToTech>
-      <UID>Guided Missiles</UID>
+      <UID>Medium Range Missiles</UID>
     </LeadsToTech>
     <LeadsToTech>
-      <UID>Improved LRM Platforms</UID>
+      <UID>Long Range Support Missile</UID>
     </LeadsToTech>
     <LeadsToTech>
       <UID>Light Torpedo</UID>
@@ -33,10 +33,7 @@
       <ModuleUID>RocketLauncher</ModuleUID>
     </UnlockedMod>
     <UnlockedMod>
-      <ModuleUID>MRLS</ModuleUID>
-    </UnlockedMod>
-    <UnlockedMod>
-      <ModuleUID>LRMmk1</ModuleUID>
+      <ModuleUID>MissileLauncher1x3</ModuleUID>
     </UnlockedMod>
     <UnlockedMod>
       <ModuleUID>DroneRocketLauncher</ModuleUID>

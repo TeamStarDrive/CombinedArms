@@ -17,35 +17,41 @@
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>false</Tag_Cannon>
 
+<UID>LightningStormMiss</UID>
 
-  <UID>LightningStormMiss</UID>
-  <fireDelay>1.5</fireDelay>
-  <Range>2800</Range>
   <HitPoints>8</HitPoints>
+  <fireDelay>1.5</fireDelay>
+  <Range>3400</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.4</OrdinanceRequiredToFire>
-
-  <!-- name of XACT audio cue to play on firing this weapon -->
+  
+<!-- Projectile stats -->
+  <ProjectileCount>1</ProjectileCount>
+  <FireArc>15</FireArc>             <!--for shotgun effect-->
+  <DamageAmount>110</DamageAmount>
+  <ProjectileSpeed>2150</ProjectileSpeed>
+  <DamageRadius>30</DamageRadius>
+  <SalvoCount>8</SalvoCount>
+  <SalvoTimer>1</SalvoTimer>
+  <FireCone>30</FireCone>               <!--for salvos-->
+  
+  <ProjectileRadius>10</ProjectileRadius>
+  <RotationRadsPerSecond>6</RotationRadsPerSecond>
+<!--Projectile atributes-->
+  <ArmourPen>0</ArmourPen>
+  <ShieldPenChance>15</ShieldPenChance>
+  <EffectVSShields>1</EffectVSShields>
+  <EffectVsArmor>1</EffectVsArmor>
+  <Scale>0.3</Scale>
+  <explodes>true</explodes>
+  <CanCollideProjectiles>true</CanCollideProjectiles>
+<!-- Projectile textures-->
+  <ModelPath>Nuke</ModelPath>
+  <ProjectileTexturePath>SRM_d</ProjectileTexturePath>
+  <ModelPath>SRM</ModelPath>
+  <WeaponType>Missile</WeaponType>
+<!-- name of XACT audio cue to play on firing this weapon -->
   <fireCueName>sd_weapon_rocket_01</fireCueName>
   <dieCue>sd_weapon_rocket_explode_01</dieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
-  <!-- Projectile Information -->
-  <SalvoCount>8</SalvoCount>
-  <SalvoTimer>1</SalvoTimer>
-
-  <DamageAmount>70</DamageAmount>
-  <ProjectileSpeed>2400</ProjectileSpeed>
-  <DamageRadius>22</DamageRadius>
-  <explodes>true</explodes>
-  <ProjectileTexturePath>SRM_d</ProjectileTexturePath>
-  <ModelPath>SRM</ModelPath>
-  <WeaponEffectType>RocketTrail</WeaponEffectType>
-  <WeaponType>Missile</WeaponType>
-  <ProjectileCount>1</ProjectileCount>
-  <FireArc>40</FireArc>
-  <ProjectileRadius>10</ProjectileRadius>
-  <CanCollideProjectiles>true</CanCollideProjectiles>
-  <RotationRadsPerSecond>6</RotationRadsPerSecond>
-  <Scale>0.3</Scale>
-
 </Weapon>

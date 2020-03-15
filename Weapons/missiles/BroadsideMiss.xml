@@ -19,31 +19,35 @@
 
 
   <UID>BroadsideMiss</UID>
-  <fireDelay>4.5</fireDelay>
-  <Range>3500</Range>
-  <HitPoints>9</HitPoints>
-  <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>1</OrdinanceRequiredToFire>
 
-  <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_flame_start_01</fireCueName>
+  <HitPoints>15</HitPoints>
+  <fireDelay>4.5</fireDelay>
+  <Range>4200</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>2</OrdinanceRequiredToFire>
+  
+<!-- Projectile stats -->
+  <DamageAmount>250</DamageAmount>
+  <ProjectileSpeed>1100</ProjectileSpeed>
+  <DamageRadius>30</DamageRadius>
+  <SalvoCount>8</SalvoCount>
+  <SalvoTimer>1</SalvoTimer>
+  
+  <ProjectileRadius>10</ProjectileRadius>
+  <RotationRadsPerSecond>1.5</RotationRadsPerSecond>
+<!--Projectile atributes-->
+  <EffectVSShields>1.5</EffectVSShields>
+  <EffectVsArmor>1</EffectVsArmor>
+  <Scale>0.4</Scale>
+  <explodes>true</explodes>
+  <CanCollideProjectiles>true</CanCollideProjectiles>
+<!-- Projectile textures-->
+  <WeaponEffectType>RocketTrail</WeaponEffectType>
+  <ProjectileTexturePath>SRM_d</ProjectileTexturePath>
+  <ModelPath>SRM</ModelPath>
+  <WeaponType>Missile</WeaponType>
+<!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_rocket_01</fireCueName>
   <dieCue>sd_weapon_rocket_explode_01</dieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
-  <!-- Projectile Information -->
-  <SalvoCount>16</SalvoCount>
-  <SalvoTimer>1</SalvoTimer>
-  <FireArc>5</FireArc>
-  <DamageAmount>74</DamageAmount>
-  <ProjectileSpeed>1500</ProjectileSpeed>
-  <DamageRadius>20</DamageRadius>
-  <explodes>true</explodes>
-  <ProjectileTexturePath>missile_d</ProjectileTexturePath>
-  <ModelPath>missile</ModelPath>
-  <WeaponEffectType>RocketTrail</WeaponEffectType>
-  <WeaponType>Missile</WeaponType>
-  <ProjectileRadius>10</ProjectileRadius>
-  <CanCollideProjectiles>true</CanCollideProjectiles>
-  <RotationRadsPerSecond>0.7</RotationRadsPerSecond>
-  <Scale>0.2</Scale>
-
 </Weapon>
