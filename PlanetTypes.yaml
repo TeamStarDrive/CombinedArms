@@ -37,6 +37,10 @@ PlanetType: 7 # Mercury
   IconPath: Planets/7
   MeshPath: Model/SpaceObjects/planet_7
   Glow: Red
+  Habitable: true
+  HabitableTileChance: 2
+  PopPerTile: [50, 100]
+  BaseFertility: 0
 
 PlanetType: 8 # Mars
   Category: Barren
