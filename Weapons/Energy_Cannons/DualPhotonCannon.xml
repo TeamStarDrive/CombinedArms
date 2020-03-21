@@ -28,7 +28,7 @@
   <InFlightCue>sd_weapon_photon_flight_01</InFlightCue>
   
   <!-- Projectile Information -->
-  <DamageAmount>300</DamageAmount>
+  <DamageAmount>500</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>3000</ProjectileSpeed>
   <SalvoCount>4</SalvoCount>
@@ -45,7 +45,8 @@
   <!-- Explosion Information -->
   <explodes>true</explodes>
    <ExplosionType>Photon</ExplosionType>
-  <DamageRadius>20</DamageRadius>
+  <DamageRadius>33</DamageRadius>
+  <EffectVSShields>1.35</EffectVSShields>   
   
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>

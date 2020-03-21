@@ -30,7 +30,7 @@
   <DamageAmount>300</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>3000</ProjectileSpeed>
-  <SalvoCount>3</SalvoCount>
+  <SalvoCount>2</SalvoCount>
   <SalvoTimer>0.6</SalvoTimer>  
 
   <!-- Animation Information -->
@@ -44,7 +44,8 @@
   <!-- Explosion Information -->
   <explodes>true</explodes>
    <ExplosionType>Photon</ExplosionType>
-  <DamageRadius>20</DamageRadius>
+  <DamageRadius>33</DamageRadius>
+  <EffectVSShields>1.2</EffectVSShields>  
   
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>
