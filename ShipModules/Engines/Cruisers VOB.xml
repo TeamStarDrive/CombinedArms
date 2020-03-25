@@ -2,18 +2,23 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <FighterModule>false</FighterModule>
   <CorvetteModule>false</CorvetteModule>
-  <FrigateModule>true</FrigateModule>
+  <FrigateModule>false</FrigateModule>
   <DestroyerModule>true</DestroyerModule>
   <CruiserModule>true</CruiserModule>
   <CarrierModule>true</CarrierModule>
-  <CapitalModule>true</CapitalModule>
+  <CapitalModule>false</CapitalModule>
+
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>false</PlatformModule>
+  <StationModule>false</StationModule>
+
   <Cost>188</Cost>
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
   <Name>Cruisers VOB</Name>
   <XSIZE>2</XSIZE>
-  <YSIZE>4</YSIZE>
+  <YSIZE>5</YSIZE>
   <Restrictions>O</Restrictions>
   <UID>Cruisers VOB</UID>
   <IconTexturePath>Modules/Cruisers VOB</IconTexturePath>

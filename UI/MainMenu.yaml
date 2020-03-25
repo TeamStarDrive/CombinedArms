@@ -18,6 +18,8 @@ Panel: background
   AxisAlign: TopLeft # Align our Pos and Axis to BottomLeft
   DrawDepth: Background
 
+
+
 Panel: Ca_logo
   Texture: MainMenu/ca_logo.png
   Size: [0.7, 0] # fill to width, auto-pick height
@@ -49,6 +51,22 @@ Panel: planet_flare
   Animation: [0, 3, 3, 1.25, 1.25] # delay, duration, end-time, fadein, fadeout
     MinColor: [0.85,0.85,0.85,1.0] # vary the color from min
     MaxColor: [1.0,1.0,1.0,1.0]    # to max
+
+Panel: blacbox_animated_logo
+  Size: [0.25, 0]
+  Pos: [-1350, 930]
+  Color: [0.8,0.8,0.8,0.0] # start with alpha 0.0
+  AxisAlign: TopRight
+  DrawDepth: Foreground
+  SpriteAnim: MMenu/bb_logo_animated
+    Delay: 0
+    Duration: 7
+    StartAt: 0
+    Looping: true
+    FreezeAtLastFrame: false
+    VisibleBeforeDelay: true
+  Animation: [1, 2, 0, 2, 0] # delay, duration, end-time, fadein, fadeout
+    Alpha: [0, 1]
     
 List: buttons
   Rect: [-20, 0.22, 200, 600]
