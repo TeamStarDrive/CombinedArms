@@ -1,0 +1,40 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>30</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>4</TechLevel>
+
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>2</XSIZE>
+  <YSIZE>2</YSIZE>
+  <ModuleType>Turret</ModuleType>
+  <Name>Emp Mine Launch Bay</Name>
+  <Restrictions>O</Restrictions>
+  <UID>REEmpMineBay</UID>
+  <IconTexturePath>Modules/bluemines</IconTexturePath>
+  <RepairDifficulty>4</RepairDifficulty>
+
+  <NameIndex>5313</NameIndex>
+  <DescriptionIndex>5314</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>25</Mass>
+  <Health>3000</Health>
+  <HealthMax>3000</HealthMax>
+
+  <!-- Power Drawn -->
+  <PowerDraw>10</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>REEmpMinesWeapon</WeaponType>
+  <FieldOfFire>90</FieldOfFire>
+
+  
+  <!-- Description -->
+  <Description>Emp Mine Launch Bay</Description>
+  
+
+</ShipModule>
