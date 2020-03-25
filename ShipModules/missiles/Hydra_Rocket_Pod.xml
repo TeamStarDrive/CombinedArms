@@ -2,11 +2,9 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
 
-<!-- The Doctor, StarDrive Turbo: these are boolean values that configure precisely which ship hull classes are able to mount your module. Like the old 'FightersOnly' tag, except comprehensive in the control provided -->
-
  <DroneModule>false</DroneModule>
  <FighterModule>true</FighterModule>
- <CorvetteModule>false</CorvetteModule>
+ <CorvetteModule>true</CorvetteModule>
  <FrigateModule>false</FrigateModule>
  <DestroyerModule>false</DestroyerModule>
  <CruiserModule>false</CruiserModule>
