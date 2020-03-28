@@ -1,0 +1,33 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Torpedo>true</Tag_Torpedo>
+  <Tag_Explosive>true</Tag_Explosive>
+  <Tag_Intercept>true</Tag_Intercept>
+  
+  <UID>REAPMinesWeapon</UID>
+  <fireDelay>10</fireDelay>
+  <Range>5000</Range>
+  <HitPoints>75</HitPoints>
+  <OrdinanceRequiredToFire>0.5</OrdinanceRequiredToFire>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_torpedo_01</fireCueName>
+  <dieCue>Explo1</dieCue>
+  <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
+  <!-- Projectile Information -->
+  <DamageAmount>2000</DamageAmount>
+  <EffectVsArmor>3</EffectVsArmor>
+  <ProjectileSpeed>50</ProjectileSpeed>
+
+  <Scale>1</Scale>
+  <DamageRadius>70</DamageRadius>
+  <explodes>true</explodes>
+  <ProjectileTexturePath>spacemine_s</ProjectileTexturePath>
+  <ModelPath>spacemine</ModelPath>
+  <WeaponType>Missile</WeaponType>
+  <SalvoCount>20</SalvoCount>
+  <SalvoTimer>8</SalvoTimer>
+  <FireCone>40</FireCone>
+  <ProjectileRadius>10</ProjectileRadius>
+  <CanCollideProjectiles>true</CanCollideProjectiles>
+</Weapon>
