@@ -8,7 +8,7 @@
     <Category>Physical</Category>
     <Cost>3</Cost>
     <Description>33</Description>
-    <ConsumptionModifier>-.25</ConsumptionModifier>
+    <ConsumptionModifier>-.20</ConsumptionModifier>
     <Excludes>34</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -18,7 +18,7 @@
     <Category>Physical</Category>
     <Cost>-3</Cost>
     <Description>35</Description>
-    <ConsumptionModifier>.25</ConsumptionModifier>
+    <ConsumptionModifier>.20</ConsumptionModifier>
     <Excludes>32</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -151,6 +151,7 @@
     <Cybernetic>1</Cybernetic>
     <RepairMod>1</RepairMod>
     <Excludes>5091</Excludes>
+    <Excludes>17997</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!--industrious -->
@@ -286,6 +287,7 @@
       <HomeworldFertMod>-.5</HomeworldFertMod>
       <Excludes>5087</Excludes>
       <Excludes>5091</Excludes>
+      <Excludes>17997</Excludes>
     </RacialTrait>
     <RacialTrait>
       <!-- Industrialized Homeworld -->
@@ -297,6 +299,7 @@
       <HomeworldRichMod>1.0</HomeworldRichMod>
       <Excludes>5087</Excludes>
       <Excludes>5091</Excludes>
+      <Excludes>17997</Excludes>
     </RacialTrait>
     <RacialTrait>
       <!-- Huge Homeworld -->
@@ -370,12 +373,13 @@
       <!-- 	 Homeworld -->
       <TraitName>17997</TraitName>
       <Category>Special</Category>
-      <Cost>1</Cost>
+      <Cost>2</Cost>
+      <Excludes>60</Excludes>
+      <Excludes>86</Excludes>
       <Excludes>5081</Excludes>
       <Excludes>5091</Excludes>
       <Description>17998</Description>
-      <HomeworldFertMod>.5</HomeworldFertMod>
-      <HomeworldRichMod>-.5</HomeworldRichMod>
+      <HomeworldFertMod>1</HomeworldFertMod>
     </RacialTrait>
     
     <!-- Sorry not working :( 

@@ -15,8 +15,9 @@
   <Tag_Drone>false</Tag_Drone>
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>true</Tag_Cannon>
+
   <UID>PhotonCannon</UID>
-  <fireDelay>6.4</fireDelay>
+  <fireDelay>4.3</fireDelay>
   <Range>4800</Range>
   <PowerRequiredToFire>180</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
@@ -27,9 +28,9 @@
   <InFlightCue>sd_weapon_photon_flight_01</InFlightCue>
   
   <!-- Projectile Information -->
-  <DamageAmount>300</DamageAmount>
+  <DamageAmount>350</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
-  <ProjectileSpeed>3000</ProjectileSpeed>
+  <ProjectileSpeed>2800</ProjectileSpeed>
   <SalvoCount>2</SalvoCount>
   <SalvoTimer>0.6</SalvoTimer>  
 
@@ -44,12 +45,13 @@
   <!-- Explosion Information -->
   <explodes>true</explodes>
    <ExplosionType>Photon</ExplosionType>
-  <DamageRadius>33</DamageRadius>
+  <DamageRadius>26</DamageRadius>
   <EffectVSShields>1.2</EffectVSShields>  
   
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>
   <WeaponType>Energy Torpedo</WeaponType>
 
-  <FireArc>1</FireArc>
+ 
+  <FireCone>3</FireCone>
 </Weapon>
