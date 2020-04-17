@@ -17,9 +17,9 @@
   <Tag_Cannon>true</Tag_Cannon>
 
   <UID>DualPhotonCannon</UID>
-  <fireDelay>4.2</fireDelay>
-  <Range>4800</Range>
-  <PowerRequiredToFire>180</PowerRequiredToFire>
+  <fireDelay>4.3</fireDelay>
+  <Range>5000</Range>
+  <PowerRequiredToFire>90</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
 
   <!-- name of XACT audio cue to play on firing this weapon -->
@@ -28,11 +28,11 @@
   <InFlightCue>sd_weapon_photon_flight_01</InFlightCue>
   
   <!-- Projectile Information -->
-  <DamageAmount>500</DamageAmount>
+  <DamageAmount>550</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>3000</ProjectileSpeed>
   <SalvoCount>4</SalvoCount>
-  <SalvoTimer>0.8</SalvoTimer>
+  <SalvoTimer>0.7</SalvoTimer>
 
   <!-- Animation Information -->
   <Animated>1</Animated>
@@ -46,11 +46,11 @@
   <explodes>true</explodes>
    <ExplosionType>Photon</ExplosionType>
   <DamageRadius>33</DamageRadius>
-  <EffectVSShields>1.35</EffectVSShields>   
+  <EffectVSShields>1.5</EffectVSShields>   
   
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>
   <WeaponType>Energy Torpedo</WeaponType>
 
-  <FireCone>5</FireCone>
+  <FireCone>3</FireCone>
 </Weapon>

@@ -3,7 +3,7 @@
 
   <DroneModule>false</DroneModule>
   
-  <Cost>15</Cost>
+  <Cost>17</Cost>
 
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>4</TechLevel>
@@ -20,10 +20,7 @@
   <Health>450</Health>
   <HealthMax>450</HealthMax>
   <energyreq>0</energyreq>
-  <Description>A turret mounted photon cannon weapon, highly effective in any combat situation.  
-  </Description>
-  <CrewRequired>12</CrewRequired>
-  <CrewSupplied>0</CrewSupplied>
+  <Description>A turret mounted photon cannon weapon, highly effective in any combat situation.</Description>
   <PowerDraw>10</PowerDraw>
 
   <NameIndex>1016</NameIndex>
@@ -31,27 +28,9 @@
   <RepairDifficulty>3</RepairDifficulty>
 
 
-  <!-- for shield items -->
-  <shield_power>0</shield_power>
-  <shield_power_max>0</shield_power_max>
-  <shield_recharge_delay>0</shield_recharge_delay>
-  <shield_recharge_rate>0</shield_recharge_rate>
-  <shield_radius>0</shield_radius>
-  <radius>0</radius>
-
-  <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
-  <PowerFlowMax>0</PowerFlowMax>
-  <PowerStoreMax>0</PowerStoreMax>
-  
   <!-- for Weapons -->
   <WeaponType>PhotonCannon</WeaponType>
   <FieldOfFire>60</FieldOfFire>
-  
-  
-  <!-- for Engines -->
-  <thrust>0</thrust>
-  
   
 
 </ShipModule>
