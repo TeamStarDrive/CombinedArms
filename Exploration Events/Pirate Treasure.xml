@@ -8,13 +8,16 @@
        <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
       </TroopsToSpawn>     
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
-    
+    <Outcome>
+      <Chance>11</Chance>
+      <TitleText>Money trail</TitleText>
+      <DescriptionText>Your forces found recently cleared out rooms, it seems someone beat us to it. Only few things were left behind of low value.</DescriptionText>
+      <MoneyGranted>1500</MoneyGranted>
+      <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>
     <Outcome>
       <Chance>7</Chance>
       <TitleText>A unique technology!</TitleText>
@@ -82,9 +85,6 @@
 		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
       </TroopsToSpawn>	  
     </Outcome>		
     
@@ -97,8 +97,6 @@
       <SelectRandomPlanet>true</SelectRandomPlanet>
       <SpawnBuildingOnPlanet>Treasure</SpawnBuildingOnPlanet>
       <TroopsToSpawn>
-        <string>Antlion</string>
-        <string>Antlion</string>
         <string>Antlion</string>
         <string>Antlion</string>
       </TroopsToSpawn>

@@ -1,20 +1,6 @@
 ﻿<ExplorationEvent>
   <Name>Discover Warehouse</Name>
   <PotentialOutcomes>
-      <Outcome>
-      <Chance>7</Chance>
-      <TitleText>Hidden Treasure</TitleText>
-      <DescriptionText>After entering this enormous complex, your troops couldnt believe that this gigantic structure was hiding another very impressive building inside. </DescriptionText>
-       <TroopsToSpawn>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-      </TroopsToSpawn>     
-      <RemoveTrigger>true</RemoveTrigger>
-      <ReplaceWith>Terraformer</ReplaceWith>
-    </Outcome>
     <Outcome>
       <Chance>15</Chance>
       <TitleText>It's infested!</TitleText>
@@ -22,8 +8,6 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Large Warehouse</ReplaceWith>
       <TroopsToSpawn>
-        <string>Antlion</string>
-        <string>Antlion</string>
         <string>Antlion</string>
         <string>Antlion</string>
       </TroopsToSpawn>
@@ -45,12 +29,18 @@
 		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
       </TroopsToSpawn>	  
     </Outcome>
-<Outcome>
+    <Outcome>
+      <Chance>7</Chance>
+      <TitleText>Hidden Treasure</TitleText>
+      <DescriptionText>After entering this enormous complex, your troops couldnt believe that this gigantic structure was hiding another very impressive building inside. </DescriptionText>
+       <TroopsToSpawn>
+      </TroopsToSpawn>     
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Terraformer</ReplaceWith>
+    </Outcome> 
+    <Outcome>
       <Chance>7</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After Scouting the area, your troops enter the abandoned warehouse. Inside they found old rusty equipment and a well preserved schematics of old tech.</DescriptionText>
@@ -66,9 +56,6 @@
 		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
       </TroopsToSpawn>	  
     </Outcome>
     <Outcome>
