@@ -20,9 +20,9 @@
 
   <Excludes_Fighters>true</Excludes_Fighters>  
 
-  <fireDelay>6</fireDelay>
-  <Range>7000</Range>
-  <PowerRequiredToFire>1000</PowerRequiredToFire>
+  <fireDelay>5</fireDelay>
+  <Range>6500</Range>
+  <PowerRequiredToFire>1200</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
 
   <!-- name of XACT audio cue to play on firing this weapon -->
@@ -36,17 +36,16 @@
   <LoopAnimation>1</LoopAnimation>   
   
   <!-- Projectile Information -->
-  <DamageAmount>2000</DamageAmount>
-  <ProjectileSpeed>6000</ProjectileSpeed>
+  <DamageAmount>6500</DamageAmount>
+  <ShieldPenChance>35</ShieldPenChance>
+  <ProjectileSpeed>3500</ProjectileSpeed>
   <explodes>true</explodes>
   <DamageRadius>40</DamageRadius>
   <Light>Blue</Light>
   <ProjectileTexturePath>projTear_01_red</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <WeaponEffectType>DisruptorCannon</WeaponEffectType>
-  <EffectVSShields>0.5</EffectVSShields>  
+  <EffectVSShields>0.8</EffectVSShields>  
   <WeaponType>Energy Cannon</WeaponType>
-  <SalvoCount>3</SalvoCount>
-  <SalvoTimer>1.5</SalvoTimer>
   <FireCone>2</FireCone>
 </Weapon>
