@@ -149,7 +149,7 @@ PlanetType: 19 # Polmar:Sporl
   HabitableTileChance: [35, 70]
   PopPerTile: [250, 400]
   BaseFertility: [0.25, 1.5]
-  MinBaseFertility: 1.0
+  MinBaseFertility: 0.75
 
 # Swamp, slightly harsher
 PlanetType: 34
@@ -162,7 +162,7 @@ PlanetType: 34
   Habitable: true
   HabitableTileChance: [15, 45]
   PopPerTile: [100, 200]
-  BaseFertility: [-1.0, 0.5]
+  BaseFertility: [-0.5, 0.5]
   
 # Swamp, wider magrins on this planet
 PlanetType: 35 
@@ -175,7 +175,7 @@ PlanetType: 35
   Habitable: true
   HabitableTileChance: 40
   PopPerTile: [100, 500]
-  BaseFertility: [-0.5, 0.5]
+  BaseFertility: [-1.5, 1.5]
     
 # Oceanic 
 PlanetType: 21
@@ -241,7 +241,7 @@ PlanetType: 30
   Habitable: true
   HabitableTileChance: [45, 75]
   PopPerTile: [75, 300]
-  BaseFertility: [-0.4, 0.4]
+  BaseFertility: [-0.2, 0.4]
     
 # Desert, big (tatooine style)
 PlanetType: 38
@@ -280,7 +280,7 @@ PlanetType: 39
   Habitable: true
   HabitableTileChance: [20, 45]
   PopPerTile: [100, 500]
-  BaseFertility: [0.1, 0.5]
+  BaseFertility: [0.1, 0.75]
 
 # Tundra, dense
 PlanetType: 40 
@@ -332,7 +332,7 @@ PlanetType: 42
   Habitable: true
   HabitableTileChance: [35, 70]
   PopPerTile: [200, 450]
-  BaseFertility: [-0.5, 0.8]
+  BaseFertility: [0, 0.8]
 
 # Terran
 PlanetType: 1
