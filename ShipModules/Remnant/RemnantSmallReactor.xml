@@ -2,10 +2,21 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <DroneModule>false</DroneModule>
+  <FighterModule>true</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <FrigateModule>false</FrigateModule>
+  <DestroyerModule>false</DestroyerModule>
+  <CruiserModule>false</CruiserModule>
+  <CarrierModule>false</CarrierModule>
+  <CapitalModule>false</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>false</StationModule>
   <!-- Tech Level -->
   <TechLevel>0</TechLevel>
   <TechBranch>Power</TechBranch>
-  <Cost>15</Cost>
+  <Cost>20</Cost>
   <Reserved>true</Reserved>
   <!-- common traits shared by all ship modules -->
   <XSIZE>1</XSIZE>
@@ -40,8 +51,8 @@
 
   <!-- for PowerPlant Items -->
   <explodes>true</explodes>
-  <PowerFlowMax>150</PowerFlowMax>
-  <PowerStoreMax>25</PowerStoreMax>
+  <PowerFlowMax>175</PowerFlowMax>
+  <PowerStoreMax>150</PowerStoreMax>
   
   <!-- for Weapons -->
 
