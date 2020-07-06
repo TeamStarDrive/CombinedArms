@@ -1,13 +1,13 @@
 ﻿<Encounter>
   <Faction>Draugar</Faction>
-  <Step>1</Step>
+  <Step>2</Step>
   <Name>Renewing our not so Yummy Contract</Name>
   <FactionInitiated>true</FactionInitiated>
-  <BaseMoneyDemanded>300</BaseMoneyDemanded> <!-- this money request will be modified and overwrite any MoneyToThem below -->
+  <PercentMoneyDemanded>16</PercentMoneyDemanded><!-- this percentage of total treasury request will be modified and overwrite any MoneyToThem below -->
   <DescriptionText>Your sub-space transmitter hums with a new Draugar message:</DescriptionText>
   <MessageList>
     <Message>
-    <Text>Dear SING,
+    <Text>Dear SING, 
 
 Unfortunately, it is  time to renew our contract. Would you be so kind to transfer MONEY credits into our galactic account? We promise not to feast on SING colonists,
 maybe even help you protect against (other) space monsters.
@@ -55,10 +55,10 @@ I was hoping you would say that. It is so much more fun to get your food by your
       <Index>3</Index>
       <SetWar>true</SetWar>
       <Text>
-oh dear, it seems like you dont have enough credits. Silly you! Oh well, freighter snacks are yummy, especially if they contain colonists.
+Oh dear, it seems like you dont have enough credits. Silly you! Oh well, freighter snacks are yummy, especially if they contain colonists.
 	  </Text>
       <EndTransmission>true</EndTransmission>
-      <SetPlayerContactStep>3</SetPlayerContactStep> !--pay twice to end the war-->
+      <SetPlayerContactStep>3</SetPlayerContactStep> <!--pay twice to end the war-->
       <SetFactionContactStep>2</SetFactionContactStep> <!-- Money demand after end of contract period -->
     </Message>
 

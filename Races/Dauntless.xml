@@ -31,7 +31,7 @@
   <ThrustColor1G>255</ThrustColor1G>
   <ThrustColor1B>255</ThrustColor1B>	  
 
-  <EnvTerran>2</EnvTerran>
+  <EnvTerran>1.5</EnvTerran>
   <EnvOceanic>0.75</EnvOceanic>
   <EnvSteppe>1.2</EnvSteppe>
   <EnvTundra>1.1</EnvTundra>
@@ -57,38 +57,44 @@
     <B>238</B>
     <RaceDescription>The Dauntless corporation was once goverened by the United Empire. The events that resulted in them becoming an independant nation with their own homeworld have never been fully explained.</RaceDescription>
     <Cost>0</Cost>
-    <ConsumptionModifier>-.20</ConsumptionModifier>
+    <ConsumptionModifier>-0.2</ConsumptionModifier>
     <ReproductionMod>0</ReproductionMod>
-    <DiplomacyMod>-.50</DiplomacyMod>
+    <PopGrowthMax>0</PopGrowthMax>
+    <PopGrowthMin>0</PopGrowthMin>
+    <DiplomacyMod>-0.5</DiplomacyMod>
     <GenericMaxPopMod>0</GenericMaxPopMod>
-    <Aquatic>0</Aquatic>
-    <Burrowers>0</Burrowers>
     <Blind>0</Blind>
     <BonusExplored>0</BonusExplored>
-    <Pioneers>0</Pioneers>
     <Militaristic>0</Militaristic>
-    <HomeworldSizeMod>0</HomeworldSizeMod>
+    <HomeworldSizeMod>-0.25</HomeworldSizeMod>
     <Prewarp>0</Prewarp>
+    <Prototype>1</Prototype>
     <Spiritual>0</Spiritual>
     <HomeworldFertMod>0</HomeworldFertMod>
     <HomeworldRichMod>0</HomeworldRichMod>
-    <DodgeMod>.25</DodgeMod>
+    <DodgeMod>0.25</DodgeMod>
     <EnergyDamageMod>0</EnergyDamageMod>
-    <ResearchMod>.35</ResearchMod>
-    <Mercantile>0</Mercantile>
+    <ResearchMod>0.35</ResearchMod>
+    <Mercantile>0.5</Mercantile>
     <Miners>0</Miners>
-    <ProductionMod>.35</ProductionMod>
-    <MaintMod>.25</MaintMod>
+    <ProductionMod>0.35</ProductionMod>
+    <MaintMod>0</MaintMod>
+    <InBordersSpeedBonus>0.5</InBordersSpeedBonus>
     <TaxMod>0</TaxMod>
-    <ShipCostMod>-.35</ShipCostMod>
-    <ModHpModifier>-.20</ModHpModifier>
+    <ShipCostMod>0</ShipCostMod>
+    <ModHpModifier>-0.2</ModHpModifier>
     <SmallSize>0</SmallSize>
     <HugeSize>0</HugeSize>
+    <PassengerModifier>1</PassengerModifier>
+    <PassengerBonus>0</PassengerBonus>
+    <Assimilators>false</Assimilators>
     <GroundCombatModifier>0</GroundCombatModifier>
-    <RepairRateMod>0</RepairRateMod>
+    <RepairMod>0</RepairMod>
     <Cybernetic>0</Cybernetic>
-    <Prototype>1</Prototype>
-    <HistoryTraitNavalTraditions>true</HistoryTraitNavalTraditions> 
+    <Aquatic>0</Aquatic>
+    <Burrowers>0</Burrowers>
+    <SpyModifier>0</SpyModifier>
+    <ResearchTaxMultiplier>1</ResearchTaxMultiplier>    
 	<PreferredEnvDescription>18027</PreferredEnvDescription>	
   </Traits>
   <Faction>0</Faction>

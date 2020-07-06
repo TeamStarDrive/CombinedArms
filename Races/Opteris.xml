@@ -27,14 +27,15 @@
   <ThrustColor1G>0</ThrustColor1G>
   <ThrustColor1B>255</ThrustColor1B>	
 
-  <EnvTerran>0.5</EnvTerran>
-  <EnvOceanic>0.3</EnvOceanic>
+  <!-- Cybernetics Opteris start with biospheres, with is critical at the beginning, so env perfs are nerfed -->  
+  <EnvTerran>0.25</EnvTerran>
+  <EnvOceanic>0.25</EnvOceanic>
   <EnvSteppe>0.5</EnvSteppe>
-  <EnvTundra>1.25</EnvTundra>
-  <EnvSwamp>0.25</EnvSwamp>
-  <EnvDesert>1</EnvDesert>
-  <EnvIce>1.5</EnvIce>
-  <EnvBarren>2</EnvBarren>  
+  <EnvTundra>0.75</EnvTundra>
+  <EnvSwamp>0.1</EnvSwamp>
+  <EnvDesert>0.25</EnvDesert>
+  <EnvIce>0.9</EnvIce>
+  <EnvBarren>1</EnvBarren>  
   <PreferredEnv>Barren</PreferredEnv>  
   
   <ExcludedDTraits>
@@ -66,36 +67,44 @@
     <B>51</B>
     <RaceDescription>Bzzzz!</RaceDescription>
     <Cost>0</Cost>
-    <ConsumptionModifier>-.20</ConsumptionModifier>
+    <ConsumptionModifier>-0.2</ConsumptionModifier>
     <ReproductionMod>0</ReproductionMod>
-    <DiplomacyMod>-.25</DiplomacyMod>
+    <PopGrowthMax>0</PopGrowthMax>
+    <PopGrowthMin>0</PopGrowthMin>
+    <DiplomacyMod>-0.5</DiplomacyMod>
     <GenericMaxPopMod>0</GenericMaxPopMod>
-    <Aquatic>0</Aquatic>
-    <Burrowers>0</Burrowers>
     <Blind>0</Blind>
     <BonusExplored>0</BonusExplored>
-    <Pioneers>0</Pioneers>
     <Militaristic>0</Militaristic>
-    <HomeworldSizeMod>-.25</HomeworldSizeMod>
+    <HomeworldSizeMod>-0.25</HomeworldSizeMod>
     <Prewarp>0</Prewarp>
+    <Prototype>1</Prototype>
     <Spiritual>0</Spiritual>
-    <HomeworldFertMod>-.5</HomeworldFertMod>
+    <HomeworldFertMod>-1</HomeworldFertMod>
+    <HomeworldRichMod>1</HomeworldRichMod>
     <DodgeMod>0</DodgeMod>
     <EnergyDamageMod>0</EnergyDamageMod>
     <ResearchMod>0</ResearchMod>
     <Mercantile>0</Mercantile>
     <Miners>0</Miners>
-    <ProductionMod>.35</ProductionMod>
-    <MaintMod>-.25</MaintMod>
+    <ProductionMod>0.35</ProductionMod>
+    <MaintMod>0</MaintMod>
+    <InBordersSpeedBonus>0.5</InBordersSpeedBonus>
     <TaxMod>0</TaxMod>
     <ShipCostMod>0</ShipCostMod>
-    <ModHpModifier>-.20</ModHpModifier>
+    <ModHpModifier>-0.2</ModHpModifier>
     <SmallSize>0</SmallSize>
     <HugeSize>0</HugeSize>
-    <HomeworldRichMod>1.0</HomeworldRichMod>
+    <PassengerModifier>1</PassengerModifier>
+    <PassengerBonus>0</PassengerBonus>
+    <Assimilators>false</Assimilators>
     <GroundCombatModifier>0</GroundCombatModifier>
-    <RepairRateMod>0</RepairRateMod>
+    <RepairMod>1</RepairMod>
     <Cybernetic>1</Cybernetic>
+    <Aquatic>0</Aquatic>
+    <Burrowers>0</Burrowers>
+    <SpyModifier>0</SpyModifier>
+    <ResearchTaxMultiplier>1</ResearchTaxMultiplier>
 	<PreferredEnvDescription>17893</PreferredEnvDescription>		
   </Traits>
   <Faction>0</Faction>
