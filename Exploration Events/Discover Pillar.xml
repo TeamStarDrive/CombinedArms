@@ -7,7 +7,6 @@
       <DescriptionText>Before reaching the Pillar, your troops were attacked by unknown enemies and had to fall back and the pillar disappear before their eyes, leaving big hole in the ground.</DescriptionText>
       <SelectRandomPlanet>true</SelectRandomPlanet>
       <SpawnBuildingOnPlanet>Ancient Pillar</SpawnBuildingOnPlanet>
-       <TroopsToSpawn>
        <RemnantShipsToSpawn>
 		<string>Light Drone</string>
 		<string>Light Drone</string>
@@ -16,10 +15,7 @@
     <string>Light Drone</string>
     <string>Light Drone</string>
     <string>Type WII Colony Mk4</string>
-      </RemnantShipsToSpawn>	  
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-      </TroopsToSpawn>     
+      </RemnantShipsToSpawn>	      
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
     <Outcome>
@@ -47,7 +43,7 @@
       <RemoveTrigger>true</RemoveTrigger>
      </Outcome>
     <Outcome>
-      <Chance>7</Chance>
+      <Chance>4</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant defenders.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
@@ -65,7 +61,7 @@
       </TroopsToSpawn>	  
     </Outcome>
      <Outcome>
-      <Chance>7</Chance>
+      <Chance>4</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After Scouting the area, your troops found the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant defenders.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
