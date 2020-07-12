@@ -12,19 +12,19 @@
   
   <FreighterModule>false</FreighterModule>
   <PlatformModule>true</PlatformModule>
-  <StationModule>true</StationModule>
+  <StationModule>false</StationModule>
   
   
   <Cost>65</Cost>
-  <TechLevel>4</TechLevel>
+  <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Turret</ModuleType>
   <XSIZE>2</XSIZE>
   <YSIZE>2</YSIZE>
-  <Name>platform polaron</Name>
+  <Name>PlatformKinetic2</Name>
   <Restrictions>O</Restrictions>
-  <UID>platform polaron</UID>
-  <IconTexturePath>Modules/platform laser</IconTexturePath>
+  <UID>PlatformKinetic2</UID>
+  <IconTexturePath>Modules/PlatformKinetic2</IconTexturePath>
 
 
   <NameIndex>8235</NameIndex>
@@ -32,20 +32,15 @@
   <RepairDifficulty>5</RepairDifficulty>
 
 
-  <Mass>40</Mass>
-  <Health>2200</Health>
-  <HealthMax>2200</HealthMax>
+  <Mass>50</Mass>
+  <Health>2000</Health>
+  <HealthMax>2000</HealthMax>
   <energyreq>0</energyreq>
   <Description>Twin polaron cannons mounted on a turret platform with advance cooling systems for rapid and sustained fire.</Description>
 
-  <PowerDraw>50</PowerDraw>
+  <PowerDraw>40</PowerDraw>
   
   <!-- for Weapons -->
-  <WeaponType>platform polaron</WeaponType>
+  <WeaponType>platformkineticW2</WeaponType>
   <FieldOfFire>360</FieldOfFire>
-  
-  
-  
-  
-
 </ShipModule>

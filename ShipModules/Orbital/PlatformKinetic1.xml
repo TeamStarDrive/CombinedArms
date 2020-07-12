@@ -12,24 +12,24 @@
   
   <FreighterModule>false</FreighterModule>
   <PlatformModule>true</PlatformModule>
-  <StationModule>true</StationModule>
+  <StationModule>false</StationModule>
 
 
 
   <Cost>50</Cost>
-  <TechLevel>3</TechLevel>
+  <TechLevel>2</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Turret</ModuleType>
   <XSIZE>2</XSIZE>
   <YSIZE>2</YSIZE>
-  <Name>platform kinetic</Name>
+  <Name>PlatformKinetic1</Name>
   <Restrictions>O</Restrictions>
-  <UID>platform kinetic</UID>
-  <IconTexturePath>Modules/platform kinetic</IconTexturePath>
-  <Mass>45</Mass>
+  <UID>PlatformKinetic1</UID>
+  <IconTexturePath>Modules/PlatformKinetic1</IconTexturePath>
+  <Mass>50</Mass>
   <Health>1500</Health>
   <HealthMax>1500</HealthMax>
-  <RepairDifficulty>6</RepairDifficulty>
+  <RepairDifficulty>5</RepairDifficulty>
   <energyreq>0</energyreq>
   <Description>platform kinetic</Description>
   <CrewRequired>10</CrewRequired>
@@ -56,13 +56,10 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-  <WeaponType>platform kinetic</WeaponType>
+  <WeaponType>platformkineticW1</WeaponType>
   <FieldOfFire>360</FieldOfFire>
   <OrdinanceCapacity>8</OrdinanceCapacity>
   
   <!-- for Engines -->
   <thrust>0</thrust>
-  
-  
-
 </ShipModule>

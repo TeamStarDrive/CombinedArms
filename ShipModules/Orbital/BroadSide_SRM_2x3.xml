@@ -4,7 +4,7 @@
   <DroneModule>false</DroneModule>
   <FighterModule>false</FighterModule>
 
-  <Cost>24</Cost>
+  <Cost>60</Cost>
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>MissileLauncher</ModuleType>
@@ -14,10 +14,10 @@
   <Restrictions>O</Restrictions>
   <UID>BroadSide_SRM_2x3</UID>
   <IconTexturePath>Modules/BroadSide_SRM</IconTexturePath>
-  <Mass>20</Mass>
-  <Health>1150</Health>
-  <HealthMax>1150</HealthMax>
-  <RepairDifficulty>2</RepairDifficulty>
+  <Mass>50</Mass>
+  <Health>2000</Health>
+  <HealthMax>2000</HealthMax>
+  <RepairDifficulty>3</RepairDifficulty>
   <energyreq>0</energyreq>
   <Description>Advance Missile System</Description>
   <CrewRequired>12</CrewRequired>
@@ -43,7 +43,7 @@
   
   <!-- for Weapons -->
   <WeaponType>BroadsideMiss</WeaponType>
-  <OrdinanceCapacity>16</OrdinanceCapacity>
+  <OrdinanceCapacity>32</OrdinanceCapacity>
   <FieldOfFire>180</FieldOfFire>
   
   

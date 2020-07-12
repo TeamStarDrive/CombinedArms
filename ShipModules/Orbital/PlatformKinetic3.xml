@@ -12,22 +12,19 @@
   
   <FreighterModule>false</FreighterModule>
   <PlatformModule>true</PlatformModule>
-  <StationModule>true</StationModule>
+  <StationModule>false</StationModule>
   
   
   <Cost>80</Cost>
   <TechLevel>4</TechLevel>
-  <!-- Tech Level Used by AI for Upgrading Ships -->
-  <TechLevel>3</TechLevel>
-  
   <!-- common traits shared by all ship modules -->
   <ModuleType>Turret</ModuleType>
   <XSIZE>2</XSIZE>
   <YSIZE>2</YSIZE>
-  <Name>platform photon</Name>
+  <Name>PlatformKinetic3</Name>
   <Restrictions>O</Restrictions>
-  <UID>platform photon</UID>
-  <IconTexturePath>Modules/platform photon</IconTexturePath>
+  <UID>PlatformKinetic3</UID>
+  <IconTexturePath>Modules/PlatformKinetic3</IconTexturePath>
 
 
   <NameIndex>8237</NameIndex>
@@ -36,19 +33,14 @@
 
 
   <Mass>50</Mass>
-  <Health>3000</Health>
-  <HealthMax>3000</HealthMax>
+  <Health>2500</Health>
+  <HealthMax>2500</HealthMax>
   <energyreq>0</energyreq>
   <Description>Twin photon cannons mounted on a turret platform with advance cooling systems for rapid and sustained fire.</Description>
 
   <PowerDraw>50</PowerDraw>
   
   <!-- for Weapons -->
-  <WeaponType>platform photon</WeaponType>
+  <WeaponType>platformkineticW3</WeaponType>
   <FieldOfFire>360</FieldOfFire>
-  
-  
-  
-  
-
 </ShipModule>

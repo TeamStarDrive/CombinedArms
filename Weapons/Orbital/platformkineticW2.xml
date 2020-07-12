@@ -2,13 +2,13 @@
 <Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <Tag_Kinetic>false</Tag_Kinetic>
-  <Tag_Energy>true</Tag_Energy>
+  <Tag_Energy>false</Tag_Energy>
   <Tag_Guided>false</Tag_Guided>
   <Tag_Missile>false</Tag_Missile>
   <Tag_Hybrid>false</Tag_Hybrid>
   <Tag_Beam>false</Tag_Beam>
   <Tag_Intercept>false</Tag_Intercept>
-  <Tag_Explosive>false</Tag_Explosive>
+  <Tag_Explosive>true</Tag_Explosive>
   <Tag_Bomb>false</Tag_Bomb>
   <Tag_BioWeapon>false</Tag_BioWeapon>
   <Tag_Warp>false</Tag_Warp>
@@ -18,27 +18,29 @@
   <Tag_Cannon>true</Tag_Cannon>
   
   
-  <UID>platform polaron</UID>
-  <fireDelay>1.2</fireDelay>
+  <UID>platformkineticW2</UID>
+  <fireDelay>4</fireDelay>
   <Range>8000</Range>
-  <PowerRequiredToFire>50</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>3</OrdinanceRequiredToFire>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>weak laser</fireCueName>
+  <fireCueName>sd_weapon_flakcannon_01</fireCueName>
+  <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
 
   <!-- Projectile Information -->
-  <DamageAmount>120</DamageAmount>
-  <ProjectileSpeed>1500</ProjectileSpeed>
-  <explodes>false</explodes>
+  <DamageAmount>300</DamageAmount>
+  <ProjectileSpeed>2500</ProjectileSpeed>
+  <explodes>true</explodes>
+  <DamageRadius>24</DamageRadius>
   <Light>Blue</Light>
   <ProjectileTexturePath>projLong_02_blue</ProjectileTexturePath>
   <ModelPath>projLong</ModelPath>
   <ShieldPenChance>100</ShieldPenChance>
   
   <SalvoCount>2</SalvoCount>
-  <SalvoTimer>0.3</SalvoTimer>
-  <FireArc>1</FireArc>
-  <WeaponType>Energy Cannon</WeaponType>
+  <SalvoTimer>0.5</SalvoTimer>
+  <FireCone>2</FireCone>
+  <WeaponType>Ballistic Cannon</WeaponType>
+  <WeaponEffectType>SmokeTrail</WeaponEffectType>  
   
 </Weapon>

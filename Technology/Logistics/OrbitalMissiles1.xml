@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <UID>BroadSide_SRM</UID>
+  <UID>OrbitalMissiles1</UID>
   <TechnologyType>ShipWeapons</TechnologyType>
-  <Cost>1200</Cost>
+  <Cost>600</Cost>
   <RootNode>0</RootNode>
-  <Name>BroadSide_SRM</Name>
+  <Name>OrbitalMissiles1</Name>
   <NameIndex>17595</NameIndex>
   <DescriptionIndex>17596</DescriptionIndex>
-  <LongDescription>BroadSide_SRM</LongDescription>
+  <LongDescription>OrbitalMissiles1</LongDescription>
   <LeadsTo>
   	  <LeadsToTech>
-		  <UID>BroadSide_SRM2</UID>
+		  <UID>OrbitalMissiles2</UID>
 	  </LeadsToTech>
   </LeadsTo>
   <ModulesUnlocked>
@@ -18,8 +18,4 @@
       <ModuleUID>BroadSide_SRM_2x3</ModuleUID>
     </UnlockedMod>
   </ModulesUnlocked>
-  <BuildingsUnlocked />
-
-  <TroopsUnlocked />
-  <HullsUnlocked />
 </Technology>

@@ -17,29 +17,27 @@
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>false</Tag_Cannon>
   
-  <Excludes_Corvettes>true</Excludes_Corvettes>
-  <Excludes_Capitals>true</Excludes_Capitals>
   <UID>BroadsideMiss</UID>
 
-  <HitPoints>15</HitPoints>
-  <fireDelay>4.5</fireDelay>
-  <Range>4200</Range>
+  <HitPoints>20</HitPoints>
+  <fireDelay>6</fireDelay>
+  <Range>10000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>2</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>4</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
-  <DamageAmount>270</DamageAmount>
-  <ProjectileSpeed>1100</ProjectileSpeed>
+  <DamageAmount>175</DamageAmount>
+  <ProjectileSpeed>1500</ProjectileSpeed>
   <DamageRadius>32</DamageRadius>
   <SalvoCount>8</SalvoCount>
-  <SalvoTimer>1</SalvoTimer>
+  <SalvoTimer>2</SalvoTimer>
   
   <ProjectileRadius>10</ProjectileRadius>
-  <RotationRadsPerSecond>1.5</RotationRadsPerSecond>
+  <RotationRadsPerSecond>1</RotationRadsPerSecond>
 <!--Projectile atributes-->
-  <EffectVSShields>1.6</EffectVSShields>
+  <EffectVSShields>1</EffectVSShields>
   <EffectVsArmor>1</EffectVsArmor>
-  <Scale>0.4</Scale>
+  <Scale>0.6</Scale>
   <explodes>true</explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
