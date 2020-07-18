@@ -27,6 +27,10 @@
   <Range>6500</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>10</OrdinanceRequiredToFire>
+  <TerminalPhaseAttack>true</TerminalPhaseAttack>      
+  <TerminalPhaseDistance>2000</TerminalPhaseDistance>      
+  <TerminalPhaseSpeedMod>2.5</TerminalPhaseSpeedMod>  
+  <DelayedIgnition>0.75</DelayedIgnition>    
   
 <!-- Projectile stats -->
   <DamageAmount>1000</DamageAmount>
@@ -35,7 +39,7 @@
   <SalvoCount>8</SalvoCount>
   <SalvoTimer>2</SalvoTimer>
   <ShieldPenChance>15</ShieldPenChance>
-  
+  <DelayedIgnition>1</DelayedIgnition>
   <ProjectileRadius>10</ProjectileRadius>
   <RotationRadsPerSecond>2</RotationRadsPerSecond>
 <!--Projectile atributes-->

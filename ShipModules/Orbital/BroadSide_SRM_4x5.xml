@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <FrigateModule>false</FrigateModule>
+  <DestroyerModule>false</DestroyerModule>
+  <CruiserModule>false</CruiserModule>
+  <CarrierModule>false</CarrierModule>
+  <CapitalModule>false</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>
+  
+  <Cost>150</Cost>
+  <TechLevel>5</TechLevel>
+  <!-- common traits shared by all ship modules -->
+  <ModuleType>MissileLauncher</ModuleType>
+  <XSIZE>4</XSIZE>
+  <YSIZE>5</YSIZE>
+  <Name>BroadSide_SRM_4x5</Name>
+  <Restrictions>O</Restrictions>
+  <UID>BroadSide_SRM_4x5</UID>
+  <IconTexturePath>Modules/AssaultBroadSideSRM</IconTexturePath>
+  <Mass>200</Mass>
+  <Health>6000</Health>
+  <HealthMax>6000</HealthMax>
+  <RepairDifficulty>5</RepairDifficulty>
+  <energyreq>0</energyreq>
+  <Description>Advance Missile System</Description>
+  <CrewRequired>12</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+  <PowerDraw>80</PowerDraw>
+
+  <NameIndex>17699</NameIndex>
+  <DescriptionIndex>17700</DescriptionIndex>
+
+  <!-- for PowerPlant Items -->
+  <explodes>false</explodes>
+  <PowerFlowMax>0</PowerFlowMax>
+  <PowerStoreMax>0</PowerStoreMax>
+  
+  <!-- for Weapons -->
+  <WeaponType>BroadsideMiss3</WeaponType>
+  <OrdinanceCapacity>32</OrdinanceCapacity>
+  <FieldOfFire>180</FieldOfFire>
+  
+  
+  <!-- for Engines -->
+  <thrust>0</thrust>
+  
+  
+
+</ShipModule>

@@ -1,58 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <UID>Battle_Stations</UID>
-  <TechnologyType>ShipHull</TechnologyType>
-  <Cost>2000</Cost>
+  <UID>SmallStations</UID>
+  <TechnologyType>Industry</TechnologyType>
+  <Cost>600</Cost>
   <RootNode>0</RootNode>
-  <Name>Battle_Stations</Name>
-  <NameIndex>17794</NameIndex>
-  <DescriptionIndex>17795</DescriptionIndex>
+  <Name>SmallStations</Name>
+  <NameIndex>17595</NameIndex>
+  <DescriptionIndex>17596</DescriptionIndex>
   <LeadsTo>
     <LeadsToTech>
-      <UID>Sector_Stations</UID> 
+      <UID>Battle_Stations</UID>
     </LeadsToTech>  
   </LeadsTo>
+<BuildingsUnlocked />
+  <BonusUnlocked />
+  <TroopsUnlocked />
   <HullsUnlocked>
     <UnlockedHull>
       <ShipType>Cordrazine</ShipType>
-      <Name>Cordrazine/Cordrazine_Station</Name>	
+      <Name>Cordrazine/Cordrazine_Station_Small</Name>	
     </UnlockedHull>
     <UnlockedHull>
       <ShipType>Dauntless</ShipType>
-      <Name>Dauntless/Dauntless_Station</Name>	
+      <Name>Dauntless/Dauntless_Station_Small</Name>	
     </UnlockedHull>
     <UnlockedHull>
       <ShipType>Draylok</ShipType>
-      <Name>Draylok/Draylok_Station</Name>	
+      <Name>Draylok/Draylok_Station_Small</Name>	
     </UnlockedHull>
     <UnlockedHull>
       <ShipType>Kulrathi</ShipType>
-      <Name>Kulrathi/Kulrathi_Station</Name>	
+      <Name>Kulrathi/Kulrathi_Station_Small</Name>	
     </UnlockedHull>
     <UnlockedHull>
       <ShipType>Opteris</ShipType>
-      <Name>Opteris/Opteris_Station</Name>	
+      <Name>Opteris/Opteris_Station_Small</Name>	
     </UnlockedHull>
     <UnlockedHull>
       <ShipType>Pollops</ShipType>
-      <Name>Pollops/Pollops_Station</Name>	
+      <Name>Pollops/Pollops_Station_Small</Name>	
     </UnlockedHull>
     <UnlockedHull>
       <ShipType>Ralyeh</ShipType>
-      <Name>Ralyeh/Ralyeh_Station</Name>	
+      <Name>Ralyeh/Ralyeh_Station_Small</Name>	
     </UnlockedHull>		
-    <UnlockedHull>	
+	<UnlockedHull>
       <ShipType>Terran</ShipType>
-      <Name>Terran/Terran_Station</Name>	
+      <Name>Terran/Terran_Station_Small</Name>	
     </UnlockedHull>
     <UnlockedHull>
       <ShipType>Vulfen</ShipType>
-      <Name>Vulfen/Vulfen_Station</Name>	
+      <Name>Vulfen/Vulfen_Station_Small</Name>	
     </UnlockedHull>
   </HullsUnlocked>
   <ModulesUnlocked>
     <UnlockedMod>
-      <ModuleUID>BroadSide_SRM_3x4</ModuleUID>
+      <ModuleUID>BroadSide_SRM_2x3</ModuleUID>
     </UnlockedMod>
   </ModulesUnlocked>  
 </Technology>

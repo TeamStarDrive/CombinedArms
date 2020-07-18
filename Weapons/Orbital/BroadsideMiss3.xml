@@ -19,29 +19,32 @@
   
   <Excludes_Fighters>true</Excludes_Fighters>  
   <Excludes_Corvettes>true</Excludes_Corvettes>    
-  <UID>BroadsideMiss2</UID>
+  <UID>BroadsideMiss3</UID>
 
-  <HitPoints>30</HitPoints>
-  <fireDelay>6</fireDelay>
-  <Range>16000</Range>
-  <MirvWeapon>BroadsideMiss2Mirv</MirvWeapon>
-  <MirvWarheads>2</MirvWarheads>
-  <MirvSeparationDistance>4000</MirvSeparationDistance>    
+  <HitPoints>100</HitPoints>
+  <fireDelay>10</fireDelay>
+  <Range>17000</Range>
+  <MirvWeapon>BroadsideMiss3Mirv</MirvWeapon>
+  <MirvWarheads>5</MirvWarheads>
+  <MirvSeparationDistance>3000</MirvSeparationDistance>    
+  <TerminalPhaseAttack>true</TerminalPhaseAttack>      
+  <TerminalPhaseDistance>3100</TerminalPhaseDistance>      
+  <TerminalPhaseSpeedMod>0.5</TerminalPhaseSpeedMod>    
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>8</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>20</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
-  <DamageAmount>800</DamageAmount>
+  <DamageAmount>1000</DamageAmount>
   <ProjectileSpeed>1200</ProjectileSpeed>
-  <DamageRadius>60</DamageRadius>
+  <DamageRadius>80</DamageRadius>
   <SalvoCount>4</SalvoCount>
-  <SalvoTimer>2</SalvoTimer>
-  <DelayedIgnition>1.5</DelayedIgnition>
+  <SalvoTimer>4</SalvoTimer>
+  <DelayedIgnition>4</DelayedIgnition>
   
-  <ProjectileRadius>20</ProjectileRadius>
-  <RotationRadsPerSecond>0.6</RotationRadsPerSecond>
+  <ProjectileRadius>30</ProjectileRadius>
+  <RotationRadsPerSecond>0.5</RotationRadsPerSecond>
 <!--Projectile atributes-->
-  <Scale>1.5</Scale>
+  <Scale>2</Scale>
   <explodes>true</explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
