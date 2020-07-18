@@ -214,7 +214,7 @@
 		</Token>		
 		<Token>
 			<Index>997</Index>
-			<Text>A medium range missile launcher on a swivel turret shooting 4 missiles per salvo.</Text>
+			<Text>A medium range missile launcher on a swivel turret shooting 4 missiles per salvo. It also has the Termina Phase system.</Text>
 		</Token>
 		<Token>
 			<Index>998</Index>
@@ -222,7 +222,7 @@
 		</Token>
 		<Token>
 			<Index>999</Index>
-			<Text>Medium range multi-rocket launching system. It does not excel in any category, but is highly useful in any combat situation.</Text>
+			<Text>Medium range multi-rocket launching system. It has a terminal phase system, meaning at a certain range from the target, the missile will disable the guidence system and will greatly accelerate to avoid interception.</Text>
 		</Token>
 		<Token>
 			<Index>1000</Index>
@@ -1253,7 +1253,7 @@
 		</Token>
 		<Token>
 			<Index>5224</Index>
-			<Text>Long Range Missiles are designed to out-range any other weapon. This comes with the drawback of slower missile speeds and maneuverability. Best used against slower ships as a long range support</Text>
+			<Text>Long Range Missiles are designed to out-range any other weapon. This comes with the drawback of slower missile speeds and maneuverability, but it contains multiple warhead system designed to decrease chances of interception.</Text>
 		</Token>
 		<Token>
 			<Index>5225</Index>
@@ -1718,7 +1718,7 @@
 		</Token>
 		<Token>
 			<Index>5340</Index>
-			<Text>This prototype MRM platform launches a salvo of 8 missiles at unsuspecting targets. This weapon can easily overwhelm even the most potent point defense systems.</Text>
+			<Text>This MRM platform launches a salvo of 8 missiles at unsuspecting targets. This weapon can easily overwhelm even the most potent point defense systems with its Terminal Phase system.</Text>
 		</Token>
 		<Token>
 			<Index>5341</Index>
@@ -5829,15 +5829,15 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 			<Index>17594</Index>
 			<Text>This shield has a very fast recharge rate, which takes some time to kick in after combat. It can also recharge during combat, and it is stronger than a regular Class III Fast shield. Unfortunately, it draws more power.</Text>
 		</Token>
-		<!-- broadside SRM tech  description -->
 		<Token>
 			<Index>17595</Index>
-			<Text>Orbital Missiles I</Text>
+			<Text>Small Stations</Text>
 		</Token>
 		<Token>
 			<Index>17596</Index>
-			<Text>These fixed-mount long range guided missile launchers proved to be too impractical for our ordinary ships. However, we should be able to repurpose them for use on our station emplacements.</Text>
+			<Text>As the need to defend our colonies grows stronger, we can design a small orbital station, along with fixed long range missile defense.</Text>
 		</Token>
+		<!-- Orbital Defense missile tech description -->		
 		<Token>
 			<Index>17597</Index>
 			<Text>Light Orbital Missile Launcher</Text>
@@ -6262,11 +6262,11 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>		
 		<Token>
 			<Index>17699</Index>
-			<Text>Orbital Missiles II</Text>
+			<Text>Assault Orbital Missile</Text>
 		</Token>
 		<Token>
 			<Index>17700</Index>
-			<Text>We may want to invest research into a larger, more powerful, longer range orbital missile launcher. Such an obtuse weapon would obviously be unable to target fighters and corvettes.</Text>
+			<Text>This fixed launcher can launch devastating long range missiles with a MIRV and Terminal Phase systems</Text>
 		</Token>
 		<Token>
 			<Index>17701</Index>
@@ -6274,7 +6274,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>17702</Index>
-			<Text>This orbital missile launcher fires large missiles which are designed to strike frigates and capital ships. It features an extremely long range.</Text>
+			<Text>This orbital missile launcher fires large missiles which are designed to strike frigates and capital ships. It features an extremely long range and MIRV system.</Text>
 		</Token>		
 		<!-- Defensive structures description -->
 		<Token>
@@ -6659,7 +6659,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>		
 		<Token>
 			<Index>17795</Index>
-			<Text>The need to defend our colonies against invasions grows constantly. With the design of new station blueprints, we can construct a larger Battle Station that would be able to replace or compliment our Small Space Stations.</Text>
+			<Text>The need to defend our colonies against invasions grows constantly. With the design of new station blueprints, we can construct a larger Battle Station that would be able to replace or compliment our Small Space Stations. We also get a heavy orbital missile system</Text>
 		</Token>
 		<Token>
 			<Index>17796</Index>
@@ -6667,7 +6667,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>		
 		<Token>
 			<Index>17797</Index>
-			<Text>These huge stations can serve as a sector hub for trade and defense. Besides more space for weapons and armor, these stations contain trade sections that fund most of their maintenance costs.</Text>
+			<Text>These huge stations can serve as a sector hub for trade and defense. Besides more space for weapons and armor, these stations contain trade sections that fund most of their maintenance costs. We also get the assault orbital defense system along with these.</Text>
 		</Token>		
 		<Token>
 			<Index>17798</Index>
@@ -7539,10 +7539,6 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		  <Text>New line of rocket pods build upon very effective Talon class rockets.</Text>
 		</Token>
 		<!-- Hellstorm systems-->
-         <Token>
-		  <Index>18029</Index>
-		  <Text>The most advanced in the storm line of weapons, the Hellstorm delivers a devastating salvo of 6 rockets that now have a substantial chance to penetrate shields.</Text>
-		</Token>
         <Token>
 		  <Index>18030</Index>
 		  <Text>Advanced SRM Systems</Text>
