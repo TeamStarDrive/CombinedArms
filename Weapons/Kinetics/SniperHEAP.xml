@@ -4,9 +4,9 @@
   <Tag_Kinetic>true</Tag_Kinetic>
   <Tag_Explosive>true</Tag_Explosive>  
 
-  <fireDelay>6.3</fireDelay>
-  <Range>8500</Range>
-  <PowerRequiredToFire>50</PowerRequiredToFire>
+  <fireDelay>6</fireDelay>
+  <Range>8000</Range>
+  <PowerRequiredToFire>40</PowerRequiredToFire>
   <OrdinanceRequiredToFire>3</OrdinanceRequiredToFire>
 
   
@@ -15,15 +15,15 @@
   <fireCueName>sd_weapon_vulcan_shotgun_01</fireCueName>
 
   <!-- Projectile Information -->
-  <DamageAmount>750</DamageAmount>
-  <EffectVsArmor>1.5</EffectVsArmor>
+  <DamageAmount>500</DamageAmount>
+  <EffectVsArmor>2</EffectVsArmor>
   <DamageRadius>33</DamageRadius>
   <explodes>true</explodes>
   <MuzzleFlash>Yes</MuzzleFlash>
-  <ProjectileSpeed>5500</ProjectileSpeed>
+  <ProjectileSpeed>5000</ProjectileSpeed>
   <Scale>1.1</Scale>
   <ProjectileTexturePath>projLong_02_orange</ProjectileTexturePath>
   <ModelPath>projLong</ModelPath>
   <WeaponType>Gauss Cannon</WeaponType>
-  <FireCone>0</FireCone>
+  <FireCone>1</FireCone>
 </Weapon>
