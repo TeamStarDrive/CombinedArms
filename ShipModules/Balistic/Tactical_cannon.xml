@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <FreighterModule>false</FreighterModule>
+  
+  <Cost>20</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>3</TechLevel>
+  
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>2</XSIZE>
+  <YSIZE>6</YSIZE>
+  <ModuleType>MainGun</ModuleType>
+  <Name>Tactical_cannon</Name>
+  <Restrictions>O</Restrictions>
+  <UID>Tactical_cannon</UID>
+  <IconTexturePath>Modules/Tactical_cannon</IconTexturePath>3
+
+
+  <NameIndex>18037</NameIndex>
+  <DescriptionIndex>18038</DescriptionIndex>
+  <OrdinanceCapacity>70</OrdinanceCapacity>
+  <!-- Mass and Health -->
+  <Mass>50</Mass>
+  <Health>3800</Health>
+  <HealthMax>3800</HealthMax>
+  <RepairDifficulty>2</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>20</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>Tactical_cannon</WeaponType>
+  <FieldOfFire>15</FieldOfFire>
+  <MountLeft>true</MountLeft>
+  <MountRight>true</MountRight>
+  
+  <!-- Description -->
+  <Description>This weapon is a heavy-mounted rail gun that can propel an explosive projectile an impressive distance. </Description>
+  
+
+</ShipModule>
