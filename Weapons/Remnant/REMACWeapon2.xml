@@ -16,11 +16,10 @@
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>true</Tag_Cannon>
   <UID>REMACWeapon</UID>
-  <fireDelay>10</fireDelay>
+  <fireDelay>8</fireDelay>
   <Range>8000</Range>
-  <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
-
+  <PowerRequiredToFire>1000</PowerRequiredToFire>
+  <Excludes_Fighters>true</Excludes_Fighters>  
   <!-- name of XACT audio cue to play on firing this weapon -->
   <fireCueName>sd_weapon_bigcannon_01</fireCueName>
 
@@ -30,7 +29,7 @@
   <explodes>true</explodes>
   <DamageRadius>60</DamageRadius>
   <MuzzleFlash>Yes</MuzzleFlash>
-  <ProjectileSpeed>5000</ProjectileSpeed>
+  <ProjectileSpeed>3000</ProjectileSpeed>
   <Scale>2.5</Scale>
 
   <ProjectileTexturePath>projLong_02_red</ProjectileTexturePath>
