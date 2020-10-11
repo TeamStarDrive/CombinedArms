@@ -7,42 +7,33 @@
   <Tag_Hybrid>false</Tag_Hybrid>
   <Tag_Beam>false</Tag_Beam>
   <Tag_Intercept>false</Tag_Intercept>
-  <Tag_Explosive>true</Tag_Explosive>
+  <Tag_Explosive>false</Tag_Explosive>
   <Tag_Bomb>false</Tag_Bomb>
+  <Tag_Railgun>true</Tag_Railgun>
   <Tag_BioWeapon>false</Tag_BioWeapon>
   <Tag_Warp>false</Tag_Warp>
   <Tag_Subspace>false</Tag_Subspace>
   <Tag_Drone>false</Tag_Drone>
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>true</Tag_Cannon>
-  <Tag_Railgun>false</Tag_Railgun>
-  <Excludes_Fighters>true</Excludes_Fighters>  
-
   
-  <UID>AutoTurret Type68</UID>
-  <fireDelay>4.7</fireDelay>
-  <Range>5000</Range>
-  <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>7</OrdinanceRequiredToFire>
-
+  <UID>RailgunV2</UID>
+  <fireDelay>0.75</fireDelay>
+  <Range>4800</Range>
+  <OrdinanceRequiredToFire>1</OrdinanceRequiredToFire>
 
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_bigcannon_01</fireCueName>
-  <dieCue>Explo1</dieCue>
-  <!-- Projectile Information -->
-  <DamageAmount>1100</DamageAmount>
-  <Scale>1.6</Scale>
-  <MuzzleFlash>Yes</MuzzleFlash>
-  <ProjectileSpeed>1850</ProjectileSpeed>
-  <DamageRadius>80</DamageRadius>
+  <fireCueName>sd_weapon_vulcan_shotgun_01</fireCueName>
 
+  <Scale>0.9</Scale>
+  <!-- Projectile Information -->
+  <DamageAmount>180</DamageAmount>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>2400</ProjectileSpeed>
   <explodes>true</explodes>
-  <ProjectileTexturePath>projTear_02_green</ProjectileTexturePath>
+  <DamageRadius>32</DamageRadius>
+  <ProjectileTexturePath>projExotic_01</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
-  <SalvoCount>3</SalvoCount>
-  <SalvoTimer>0.9</SalvoTimer>
-  <!--the projectile count is spread over the fire arc-->
-  <WeaponEffectType>MuzzleSmokeFire</WeaponEffectType>
   <WeaponType>Ballistic Cannon</WeaponType>
-  <FireCone>4</FireCone>
+  <WeaponEffectType>MuzzleSmoke</WeaponEffectType>  
 </Weapon>

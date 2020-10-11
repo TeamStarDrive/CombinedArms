@@ -18,7 +18,7 @@
   <Tag_Cannon>true</Tag_Cannon>
   
   <UID>Railgun</UID>
-  <fireDelay>1</fireDelay>
+  <fireDelay>0.75</fireDelay>
   <Range>3800</Range>
   <OrdinanceRequiredToFire>0.8</OrdinanceRequiredToFire>
 
@@ -27,13 +27,13 @@
 
   <Scale>0.9</Scale>
   <!-- Projectile Information -->
-  <DamageAmount>100</DamageAmount>
+  <DamageAmount>120</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1600</ProjectileSpeed>
-
+  <explodes>true</explodes>
+  <DamageRadius>16</DamageRadius>
   <ProjectileTexturePath>projExotic_01</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <WeaponType>Ballistic Cannon</WeaponType>
   <WeaponEffectType>MuzzleSmoke</WeaponEffectType>  
-  <FireCone>3</FireCone>
 </Weapon>
