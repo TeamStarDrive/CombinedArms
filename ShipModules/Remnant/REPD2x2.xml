@@ -1,9 +1,5 @@
 ﻿<?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
-
-<!-- The Doctor, StarDrive Turbo: these are boolean values that configure precisely which ship hull classes are able to mount your module. Like the old 'FightersOnly' tag, except comprehensive in the control provided -->
-
   <DroneModule>false</DroneModule>
   <FighterModule>true</FighterModule>
   <CorvetteModule>true</CorvetteModule>
@@ -16,37 +12,27 @@
   <FreighterModule>true</FreighterModule>
   <PlatformModule>true</PlatformModule>
   <StationModule>true</StationModule>
-  
-  
-  <Cost>10</Cost>
-  <!-- Tech Level Used by AI for Upgrading Ships -->
-  <TechLevel>3</TechLevel>
+  <Cost>30</Cost>
   
   <!-- common traits shared by all ship modules -->
+  <ModuleType>Turret</ModuleType>
   <XSIZE>2</XSIZE>
   <YSIZE>2</YSIZE>
-  <ModuleType>Command</ModuleType>
-  <Name>REBridge</Name>
-  <Restrictions>I</Restrictions>
-  <UID>REBridge</UID>
-  <IconTexturePath>Modules/REBridge</IconTexturePath>
-  <IsCommandModule>true</IsCommandModule>
-  <Mass>50</Mass>
-  <Health>2000</Health>
-  <HealthMax>2000</HealthMax>
+  <Name>Flak Turret</Name>
+  <Restrictions>O</Restrictions>
+  <UID>REPD2x2</UID>
+  <IconTexturePath>Modules/REPhalanx</IconTexturePath>
+  <Mass>20</Mass>
+  <Health>12000</Health>
+  <HealthMax>12000</HealthMax>
   <energyreq>0</energyreq>
-  <modRadius>4</modRadius>
-  <Description>The bridge is the nerve center of a starship, providing basic sensor functionality, damage control, and life support for a moderate sized crew.</Description>
-  <PowerDraw>8</PowerDraw>
-  <BonusRepairRate>150</BonusRepairRate>
 
-  <SensorRange>80000</SensorRange>
-  <TargetTracking>4</TargetTracking>
+  <CrewRequired>12</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+  <PowerDraw>4</PowerDraw>
 
-  <NameIndex>17734</NameIndex>
-  <DescriptionIndex>17734</DescriptionIndex>
-
-  <MechanicalBoardingDefense>300</MechanicalBoardingDefense>
+  <NameIndex>17735</NameIndex>
+  <DescriptionIndex>17735</DescriptionIndex>
 
 
   <!-- for shield items -->
@@ -55,22 +41,21 @@
   <shield_recharge_delay>0</shield_recharge_delay>
   <shield_recharge_rate>0</shield_recharge_rate>
   <shield_radius>0</shield_radius>
-
-  <!-- Sensor Data -->
-
+  <radius>0</radius>
 
   <!-- for PowerPlant Items -->
   <explodes>false</explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
-
+  
   <!-- for Weapons -->
-
-
-
+  <WeaponType>REPD2x2Wpn</WeaponType>
+  <FieldOfFire>180</FieldOfFire>
+  <OrdinanceCapacity>0</OrdinanceCapacity>
+  
   <!-- for Engines -->
   <thrust>0</thrust>
-
-
+  
+  
 
 </ShipModule>
