@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Beam>true</Tag_Beam>
+ 
+  <Excludes_Fighters>true</Excludes_Fighters>  
+  <Excludes_Corvettes>true</Excludes_Corvettes>
+
+  <UID>REDisintegrator</UID>
+  <isBeam>true</isBeam>
+  <fireDelay>7</fireDelay>
+  <Range>12000</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
+  
+  <!-- name of XACT audio cue to play on firing this weapon -->
+
+  <fireCueName>sd_weapon_flame_start_01</fireCueName>
+  <ToggleSoundName>sd_weapon_phasor_01</ToggleSoundName>
+  <BeamTexture>beam_greenA</BeamTexture>
+  
+  <!-- Projectile Information -->
+  <DamageAmount>600</DamageAmount>
+  <BeamThickness>110</BeamThickness>
+  <BeamPowerCostPerSecond>1500</BeamPowerCostPerSecond>
+
+  <WeaponType>Energy Beam</WeaponType>
+
+</Weapon>
