@@ -4,7 +4,8 @@
   <experience>0</experience>
   <Level>0</Level>
   <SelectionGraphic />
-  <Name>Platform Missile Mk1</Name>
+  <Name>Small Defense Platform Mk2a</Name>
+  <ModName>Combined Arms</ModName>
   <HasFixedCost>false</HasFixedCost>
   <FixedCost>0</FixedCost>
   <FixedUpkeep>0</FixedUpkeep>
@@ -22,7 +23,6 @@
   <DefaultAIState>DoNothing</DefaultAIState>
   <ShipCategory>Unclassified</ShipCategory>
   <HangarDesignation>General</HangarDesignation>
-  <ShieldsBehavior>FullPower</ShieldsBehavior>
   <CarrierShip>false</CarrierShip>
   <ModuleSlotList>
     <ModuleSlotData>
@@ -30,11 +30,11 @@
         <X>200</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>MRLS</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>225</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
@@ -43,6 +43,7 @@
         <X>200</X>
         <Y>296</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -55,7 +56,7 @@
         <X>216</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
+      <InstalledModuleUID>PlatformKinetic1</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -80,6 +81,7 @@
         <X>216</X>
         <Y>296</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -92,7 +94,7 @@
         <X>232</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>Defshield</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -118,7 +120,6 @@
         <X>232</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -131,7 +132,6 @@
         <X>232</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -144,7 +144,7 @@
         <X>248</X>
         <Y>200</Y>
       </Position>
-      <InstalledModuleUID>MRLS</InstalledModuleUID>
+      <InstalledModuleUID>PlatformKinetic1</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -169,7 +169,7 @@
         <X>248</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
+      <InstalledModuleUID>Cockpit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -182,7 +182,7 @@
         <X>248</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>Magshield</InstalledModuleUID>
+      <InstalledModuleUID>Fighter Shield</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -195,6 +195,7 @@
         <X>248</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -244,7 +245,7 @@
         <X>264</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -257,6 +258,7 @@
         <X>264</X>
         <Y>248</Y>
       </Position>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -269,6 +271,7 @@
         <X>264</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>Fighter Shield Fast</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -281,7 +284,7 @@
         <X>264</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>Defshield</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -294,7 +297,7 @@
         <X>280</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>Defshield</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -333,7 +336,7 @@
         <X>280</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -346,7 +349,7 @@
         <X>296</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -359,11 +362,11 @@
         <X>296</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>MRLS</InstalledModuleUID>
+      <InstalledModuleUID>PlatformKinetic1</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>135</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
