@@ -12,7 +12,6 @@
         <string>Antlion</string>
  </TroopsToSpawn>
     </Outcome>
-
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Salvage operation</TitleText>
@@ -36,9 +35,7 @@
       <ReplaceWith>Nano Mine</ReplaceWith>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
-		<string>Xeno Fighter</string>
+		<string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
@@ -54,9 +51,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Nano Mine</ReplaceWith>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
-		<string>Xeno Fighter</string>
+		<string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
@@ -64,7 +59,6 @@
       <TroopsToSpawn>
       </TroopsToSpawn>	  
     </Outcome>
-
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Whoops</TitleText>
@@ -73,7 +67,6 @@
       <ReplaceWith>Nano Mine</ReplaceWith>
       <RemnantShipsToSpawn>
         <string>Heavy Drone</string>
-        <string>Slaver Drone</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
@@ -90,7 +83,5 @@
         <string>Antlion</string>
       </TroopsToSpawn>
     </Outcome>
-
   </PotentialOutcomes>
-  
-</ExplorationEvent>
+ </ExplorationEvent>

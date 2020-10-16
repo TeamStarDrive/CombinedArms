@@ -8,13 +8,12 @@
       <SelectRandomPlanet>true</SelectRandomPlanet>
       <SpawnBuildingOnPlanet>Ancient Pillar</SpawnBuildingOnPlanet>
        <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
-    <string>Light Drone</string>
-    <string>Light Drone</string>
-    <string>Light Drone</string>
-    <string>Light Drone</string>
-    <string>Type WII Colony Mk4</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>		
+		<string>Support Drone</string>		
+		<string>Support Drone</string>
+		<string>Support Drone</string>
+		<string>Support Drone</string>
       </RemnantShipsToSpawn>	      
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
@@ -26,7 +25,6 @@
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
      </Outcome>
-
     <Outcome>
       <Chance>5</Chance>
       <TitleText>Scientific Discovery</TitleText>
@@ -50,8 +48,8 @@
       <UnlockTech>RAD</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>		
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
@@ -68,8 +66,8 @@
       <UnlockTech>S_cannon</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
@@ -80,9 +78,6 @@
         <string>Skeleton</string>
       </TroopsToSpawn>	  
     </Outcome>
-    
-    
-
     <Outcome>
       <Chance>10</Chance>
       <TitleText>I see you</TitleText>
@@ -91,7 +86,6 @@
 	  <GrantArtifact>true</GrantArtifact>
       <RemnantShipsToSpawn>
         <string>Heavy Drone</string>
-        <string>Disruptor Drone</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
@@ -105,15 +99,13 @@
       <DescriptionText>As your troops approach the ancient pillar, they notice that they aren't the first group to discover it. They see lots of electronical equipment, computers and a large Remnant power generator. One of your combat engineers activates the generator and in doing so alerts the owners of these items to your presence. A small Remnant fleet warps.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-        <string>Disruptor Drone</string>
-        <string>Disruptor Drone</string>
+        <string>Heavy Drone</string>
+        <string>Heavy Drone</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
         <string>Corsair Asteroid Base</string>
        </RemnantShipsToSpawn>
     </Outcome>
-
   </PotentialOutcomes>
-  
 </ExplorationEvent>

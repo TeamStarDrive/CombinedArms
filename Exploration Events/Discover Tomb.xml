@@ -20,8 +20,8 @@
       <DescriptionText>Your forces enter the mysterious tomb and quickly find evidence of Remnant activity. As they explore further they discover a still operational hangar bay. Your troops trip the automated security sensors and the entire Remnant fleet that was stationed here powers up and flies into orbit.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-        <string>Slaver Drone</string>
-        <string>Slaver Drone</string>
+        <string>Heavy Drone</string>
+        <string>Heavy Drone</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
@@ -45,8 +45,8 @@
       <UnlockTech>Black matter weaponry</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
+        <string>Heavy Drone</string>
+        <string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
@@ -65,16 +65,15 @@
       <UnlockTech>Enforcer</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
-    <string>Light Drone</string>
-    <string>Light Drone</string>
-    <string>Xeno Fighter</string>
+        <string>Heavy Drone</string>
+        <string>Heavy Drone</string>
+		<string>Support Drone</string>
+		<string>Support Drone</string>
+		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
-
       </TroopsToSpawn>	  
     </Outcome>
     <Outcome>
@@ -85,8 +84,8 @@
       <UnlockTech>AncientArmor</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
@@ -98,7 +97,6 @@
         <string>Skeleton</string>
       </TroopsToSpawn>	  
     </Outcome>
-
     <Outcome>
       <Chance>9</Chance>
       <TitleText>Secrets of the Ancients</TitleText>
@@ -107,11 +105,5 @@
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
-
-    
-    
   </PotentialOutcomes>
-  
-  
-  
 </ExplorationEvent>

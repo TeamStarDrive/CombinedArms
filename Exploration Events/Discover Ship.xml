@@ -5,7 +5,6 @@
       <Chance>20</Chance>
       <TitleText>Unknown defenders</TitleText>
       <DescriptionText>Before reaching the Crashed Ship, your troops were attacked by unknown enemies and had to fall back, the crashed ship takes off and warps out of the system.</DescriptionText>
-      
       <SelectRandomPlanet>true</SelectRandomPlanet>
       <SpawnBuildingOnPlanet>Crash Site</SpawnBuildingOnPlanet>
        <TroopsToSpawn>
@@ -22,8 +21,8 @@
       <UnlockTech>Cyclone</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
@@ -38,7 +37,7 @@
       <UnlockTech>Energizer3x3</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
+		<string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
@@ -54,14 +53,13 @@
       <UnlockTech>RemnantNuker</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
       </TroopsToSpawn>	  
     </Outcome>
-
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Red Alert</TitleText>
@@ -77,9 +75,6 @@
         <string>Heavy Drone</string>
       </RemnantShipsToSpawn>
     </Outcome>
-
-    
-
     <Outcome>
       <Chance>20</Chance>
       <TitleText>A sad wreck</TitleText>
@@ -87,22 +82,18 @@
       <MoneyGranted>250</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
-
-  
-
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Excellent find</TitleText>
       <DescriptionText>Here you have made an excellent discovery - what appeared from orbit to be a shipwreck was in fact not a wreck at all but a completely intact alien light frigate! What's more, it appears to be space worthy and inside of its cargo there's mysterious artifact.</DescriptionText>
       <FriendlyShipsToSpawn>
-        <string>Disruptor Drone</string>
-        <string>Disruptor Drone</string>
-        <string>Disruptor Drone</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>
       </FriendlyShipsToSpawn>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
-
     <Outcome>
       <Chance>8</Chance>
       <TitleText>Mysteries</TitleText>
@@ -114,10 +105,5 @@
         <string>Antlion</string>
       </TroopsToSpawn>
     </Outcome>
-	
-    
   </PotentialOutcomes>
-  
-  
-  
 </ExplorationEvent>
