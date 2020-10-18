@@ -1,0 +1,48 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+
+<!-- The Doctor, StarDrive Turbo: these are boolean values that configure precisely which ship hull classes are able to mount your module. Like the old 'FightersOnly' tag, except comprehensive in the control provided -->
+
+  <DroneModule>false</DroneModule>
+
+  
+  <Cost>0.5</Cost>
+  <!-- Tech Level -->
+  <TechLevel>0</TechLevel>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>1</XSIZE>
+  <YSIZE>1</YSIZE>
+  <ModuleType>Special</ModuleType>
+  <Name>Structure</Name>
+  <Restrictions>IO</Restrictions>
+  <UID>Structure</UID>
+  <TexturePath>Textures/transparent</TexturePath>
+  <IconTexturePath>Modules/Structure</IconTexturePath>
+
+
+  <NameIndex>18048</NameIndex>
+  <DescriptionIndex>18049</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>1</Mass>
+  <Health>50</Health>
+  <HealthMax>50</HealthMax>
+  <RepairDifficulty>0.5</RepairDifficulty>
+  <!-- Power Drawn -->
+  <PowerDraw>0</PowerDraw>
+
+
+  <!-- Crew Reqs -->
+  <CrewRequired>0</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+
+  <!-- for Weapons -->
+
+
+  <!-- Description -->
+
+
+</ShipModule>
