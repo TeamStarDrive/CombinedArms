@@ -13,7 +13,6 @@
       <SpawnBuildingOnPlanet>Mysterious Tomb</SpawnBuildingOnPlanet>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
-
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Watch your step</TitleText>
@@ -29,7 +28,6 @@
         <string>Xeno Fighter</string>
       </RemnantShipsToSpawn>
     </Outcome>
-
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Tomb Raiders</TitleText>
@@ -79,29 +77,16 @@
     <Outcome>
       <Chance>3</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find the pilar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socet, the pilar shakes and crubles to rubble alarming dormant defenders.</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops found an altar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the altar shakes and crubles to rubble.</DescriptionText>
       <MoneyGranted>100</MoneyGranted>
       <UnlockTech>AncientArmor</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
-      <RemnantShipsToSpawn>
-		<string>Heavy Drone</string>
-		<string>Heavy Drone</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-      </RemnantShipsToSpawn>	  
-      <TroopsToSpawn>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-      </TroopsToSpawn>	  
     </Outcome>
     <Outcome>
       <Chance>9</Chance>
       <TitleText>Secrets of the Ancients</TitleText>
       <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. The complex is incredibly well preserved. Yet even more curious is the fact that this site seems to have been the target of an earlier archaeological expedition by a second alien race -- very likely starfarers based on the evidence found. \n \n The wealth of information presented here will pay dividends to our scientists for years to come. Your race gains a 3% bonus to all scientific efforts for the discovery.</DescriptionText>
-      <ScienceBonus>.03</ScienceBonus>
+      <ScienceBonus>0.03</ScienceBonus>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>

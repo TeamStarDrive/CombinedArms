@@ -2,58 +2,65 @@
   <Name>Discover Pirate Treasure</Name>
   <PotentialOutcomes>
   <Outcome>
-      <Chance>15</Chance>
-      <TitleText>It was a trap</TitleText>
-      <DescriptionText>You were lied to, there isnt anything worth value here.</DescriptionText>
+      <Chance>12</Chance>
+      <TitleText>It's a Trap!</TitleText>
+      <DescriptionText>There isnt anything worth value here, besides some skeletons, which turn to be animated and attack your forces.</DescriptionText>
        <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
+		<string>Skeleton</string>
+		<string>Skeleton</string>
       </TroopsToSpawn>     
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
     <Outcome>
       <Chance>11</Chance>
-      <TitleText>Money trail</TitleText>
-      <DescriptionText>Your forces found recently cleared out rooms, it seems someone beat us to it. Only few things were left behind of low value.</DescriptionText>
+      <TitleText>A Treasure</TitleText>
+      <DescriptionText>Your forces found recently half cleared out rooms, it seems someone beat us to it, though several things were left behind which are valuable.</DescriptionText>
       <MoneyGranted>1500</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
     <Outcome>
-      <Chance>4</Chance>
-      <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created a untested tech. Unfortunately, it seems that a small remnant fleet was dawned to this place as well. The ships are attacking immediately!</DescriptionText>
+      <Chance>11</Chance>
+      <TitleText>The Bosses's Conference Call</TitleText>
+      <DescriptionText>Your troops burst it to a room only to find out that 2 pirate bosses were meeting here for their anual grab and smash plans. They don't seem happy to see you and scramble to their ships. Seemes things get hairy as non one knows who will attack who.</DescriptionText>
+	  <MoneyGranted>750</MoneyGranted>
+      <RemoveTrigger>true</RemoveTrigger>
+      <PirateShipsToSpawn>
+		<string>Draug Flagship</string>
+		<string>Corsair Flagship</string>
+      </PirateShipsToSpawn>	  	  
+    </Outcome>	
+    <Outcome>
+      <Chance>11</Chance>
+      <TitleText>Pirate Technology?</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created a untested tech. Unfortunately, it seems that the pirate fleet left here might not let you go unharmed, unless you paid them for protection recently.</DescriptionText>
       <MoneyGranted>200</MoneyGranted>
       <UnlockTech>AtomizingBattery</UnlockTech>
       <RemoveTrigger>true</RemoveTrigger>
-      <RemnantShipsToSpawn>
-		<string>Support Drone</string>
-		<string>Support Drone</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-      </RemnantShipsToSpawn>	  
+      <PirateShipsToSpawn>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+      </PirateShipsToSpawn>	  
     </Outcome>
     <Outcome>
-      <Chance>4</Chance>
-      <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created a untested tech. Unfortunately, it seems that a small remnant fleet was dawned to this place as well. The ships are attacking immediately!</DescriptionText>
+      <Chance>11</Chance>
+      <TitleText>Pirate Technology?</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created a untested tech. Unfortunately, it seems that the pirate fleet left here might not let you go unharmed, unless you paid them for protection recently.</DescriptionText>
       <UnlockTech>Magnetrom</UnlockTech>
       <RemoveTrigger>true</RemoveTrigger>
-      <RemnantShipsToSpawn>
+      <PirateShipsToSpawn>
+		<string>Draug</string>
+		<string>Draug</string>
 		<string>Support Drone</string>
-		<string>Support Drone</string>
-		<string>Heavy Drone</string>
-		<string>Heavy Drone</string>
-		<string>Heavy Drone</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-      </RemnantShipsToSpawn>	  
+      </PirateShipsToSpawn>	  
     </Outcome>
     <Outcome>
-      <Chance>4</Chance>
+      <Chance>11</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created a untested tech. Unfortunately, it seems that a small remnant fleet was dawned to this place as well. The ships are attacking immediately!</DescriptionText>
       <UnlockTech>AncientArmor</UnlockTech>
@@ -67,29 +74,27 @@
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
-      <TroopsToSpawn>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-      </TroopsToSpawn>	  
     </Outcome>
     <Outcome>
-      <Chance>4</Chance>
+      <Chance>11</Chance>
       <TitleText>Interesting Treasure Cache</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find some interesting artifacts which can be sold and also schematics of some sort which are revealed as new technology! Unfortunately, it seems that your troops attracted unwanted attention.</DescriptionText>
       <UnlockTech>Experimental Phasors</UnlockTech>	  
+	  <MoneyGranted>300</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
-      <RemnantShipsToSpawn>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-      </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+		<string>Skeleton</string>
+		<string>Skeleton</string>
+		<string>Skeleton</string>
+        <string>Skeleton</string>
+		<string>Skeleton</string>
+		<string>Skeleton</string>
       </TroopsToSpawn>	  
     </Outcome>		
-    
     <Outcome>
-      <Chance>12</Chance>
+      <Chance>11</Chance>
       <TitleText>Nothing...</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it only to find that it is empty. One of the troops find a note that says: "Even in my death i outsmart you. You will never find the treasure. Take 2 credits instead, hahaha!". When your troops exit the cave, they find a big swarm of giant insects!</DescriptionText>
       <MoneyGranted>2</MoneyGranted>
@@ -102,18 +107,14 @@
       </TroopsToSpawn>
     </Outcome>					
     <Outcome>
-      <Chance>13</Chance>
+      <Chance>11</Chance>
       <TitleText>Military Salvage</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find 2 stolen Terran Destroyer, not even painted with pirate signs. Your Troops bring them into orbit.</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find 2 stolen Terran Destroyers, not even painted with pirate signs. Your Troops bring them into orbit.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>	  
       <FriendlyShipsToSpawn>
-        <string>Destroyer XF-1</string>
-		<string>Destroyer XF-1</string>
+        <string>Destroyer Basic</string>
+		<string>Destroyer Basic</string>
       </FriendlyShipsToSpawn>
     </Outcome>				
-   
   </PotentialOutcomes>
-  
-  
-  
 </ExplorationEvent>
