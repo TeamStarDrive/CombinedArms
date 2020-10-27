@@ -6,7 +6,7 @@ PlanetType: 3 # this is the legacy planet ID
   MeshPath: Model/SpaceObjects/planet_3
   Habitable: true
   HabitableTileChance: 1
-  PopPerTile: [50, 100]
+  PopPerTile: [50, 200]
   BaseFertility: 0
 
 PlanetType: 4
@@ -16,7 +16,7 @@ PlanetType: 4
   MeshPath: Model/SpaceObjects/planet_4
   Habitable: true
   HabitableTileChance: 2
-  PopPerTile: [50, 100]
+  PopPerTile: [75, 200]
   BaseFertility: 0
 
 PlanetType: 5 # Venus
@@ -28,7 +28,7 @@ PlanetType: 5 # Venus
   EarthLike: true # Give it earthlike clouds
   Habitable: true
   HabitableTileChance: 1
-  PopPerTile: [50, 100]
+  PopPerTile: [50, 250]
   BaseFertility: 0
 
 PlanetType: 7 # Mercury
@@ -39,7 +39,7 @@ PlanetType: 7 # Mercury
   Glow: Red
   Habitable: true
   HabitableTileChance: 2
-  PopPerTile: [50, 100]
+  PopPerTile: [75, 200]
   BaseFertility: 0
 
 PlanetType: 8 # Mars
@@ -49,7 +49,7 @@ PlanetType: 8 # Mars
   MeshPath: Model/SpaceObjects/planet_8
   Glow: Red
   Habitable: true
-  HabitableTileChance: 5
+  HabitableTileChance: [10, 20]
   PopPerTile: [100, 300]
   BaseFertility: 0
 
@@ -62,7 +62,7 @@ PlanetType: 16
   EarthLike: true # Give it earthlike clouds
   Habitable: true
   HabitableTileChance: 5
-  PopPerTile: [50, 100]
+  PopPerTile: [50, 200]
   BaseFertility: 0
 
 PlanetType: 24
@@ -72,7 +72,7 @@ PlanetType: 24
   MeshPath: Model/SpaceObjects/planet_24
   Habitable: true
   HabitableTileChance: 1
-  PopPerTile: [75, 125]
+  PopPerTile: [75, 250]
   BaseFertility: 0
 
 PlanetType: 20 # Moon, rocky barren
@@ -82,7 +82,7 @@ PlanetType: 20 # Moon, rocky barren
   MeshPath: Model/SpaceObjects/planet_20
   Habitable: true
   HabitableTileChance: 0
-  PopPerTile: [50, 100]
+  PopPerTile: [50, 150]
   BaseFertility: [-0.5, 0.1]
 
 # Volcanic
