@@ -32,7 +32,6 @@
   <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
   <!-- Projectile Information -->
   <DamageAmount>10000</DamageAmount>
-  <Scale>2.2</Scale>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1900</ProjectileSpeed>
   <DamageRadius>120</DamageRadius>
@@ -41,14 +40,13 @@
 
   <!-- Animation Information -->
   <Animated>1</Animated>
-  <Scale>2.2</Scale>
+  <Scale>0.3</Scale>
   <Frames>18</Frames>
-  <AnimationPath>Kinetic_Orange/Kinetic_Orange_cc_</AnimationPath>
+  <AnimationPath>Kinetic_Blue_Green_Blue/Kinetic_Blue_Green_Blue_cc</AnimationPath>  
   <LoopAnimation>1</LoopAnimation>       
 
   <explodes>true</explodes>
-  <ProjectileTexturePath>projLong_02_orange</ProjectileTexturePath>
-  <ModelPath>projLong</ModelPath>
+  <ModelPath>projBall</ModelPath>
   <ProjectileCount>1</ProjectileCount>
   <ProjectileRadius>25</ProjectileRadius>
   <WeaponType>Ballistic Cannon</WeaponType>
