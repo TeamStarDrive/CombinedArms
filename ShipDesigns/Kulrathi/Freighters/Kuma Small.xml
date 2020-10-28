@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ShipData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <Animated>false</Animated>
   <ShipStyle>Kulrathi</ShipStyle>
   <experience>0</experience>
   <Level>0</Level>
   <SelectionGraphic />
   <Name>Kuma Small</Name>
+  <ModName>Combined Arms</ModName>
   <HasFixedCost>false</HasFixedCost>
   <FixedCost>0</FixedCost>
-  <HasFixedUpkeep>false</HasFixedUpkeep>
   <FixedUpkeep>0</FixedUpkeep>
+  <HasFixedUpkeep>false</HasFixedUpkeep>
+  <Animated>false</Animated>
   <IsShipyard>false</IsShipyard>
   <IsOrbitalDefense>false</IsOrbitalDefense>
   <IconPath>ShipIcons/icon_Kuma_Sukoshi</IconPath>
@@ -22,13 +23,15 @@
       <Position>
         <X>256</X>
         <Y>312</Y>
+        <Z>0</Z>
       </Position>
       <scale>65</scale>
     </ThrusterZone>
   </ThrusterList>
   <ModelPath>mod models/Kulrathi/Kuma Sukoshi</ModelPath>
   <DefaultAIState>DoNothing</DefaultAIState>
-  <ShipCategory>Unclassified</ShipCategory>
+  <ShipCategory>Civilian</ShipCategory>
+  <HangarDesignation>General</HangarDesignation>
   <CarrierShip>false</CarrierShip>
   <ModuleSlotList>
     <ModuleSlotData>
@@ -36,7 +39,7 @@
         <X>216</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -49,7 +52,7 @@
         <X>216</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -62,7 +65,7 @@
         <X>216</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -140,7 +143,7 @@
         <X>232</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -153,7 +156,7 @@
         <X>248</X>
         <Y>200</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -257,7 +260,7 @@
         <X>264</X>
         <Y>200</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -426,7 +429,7 @@
         <X>280</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -439,7 +442,7 @@
         <X>296</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -452,7 +455,7 @@
         <X>296</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -465,7 +468,7 @@
         <X>296</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>

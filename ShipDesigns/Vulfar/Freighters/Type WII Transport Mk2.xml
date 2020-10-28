@@ -23,15 +23,15 @@
       <Position>
         <X>260</X>
         <Y>344</Y>
+        <Z>0</Z>
       </Position>
       <scale>65</scale>
     </ThrusterZone>
   </ThrusterList>
   <ModelPath>mod models/Vulfar/TypeWII</ModelPath>
   <DefaultAIState>DoNothing</DefaultAIState>
-  <ShipCategory>Unclassified</ShipCategory>
+  <ShipCategory>Civilian</ShipCategory>
   <HangarDesignation>General</HangarDesignation>
-  <ShieldsBehavior>FullPower</ShieldsBehavior>
   <CarrierShip>false</CarrierShip>
   <ModuleSlotList>
     <ModuleSlotData>
@@ -270,12 +270,12 @@
         <X>248</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>PowerSolarArm</InstalledModuleUID>
+      <InstalledModuleUID>thruster1x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>270</facing>
+      <state>Left</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -283,7 +283,7 @@
         <X>248</X>
         <Y>184</Y>
       </Position>
-      <InstalledModuleUID>MediumCargoHold</InstalledModuleUID>
+      <InstalledModuleUID>jumpdrive2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -308,7 +308,7 @@
         <X>248</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>BasicCargoHold</InstalledModuleUID>
+      <InstalledModuleUID>Bridge</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -321,7 +321,6 @@
         <X>248</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>Bridge</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -334,7 +333,7 @@
         <X>248</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
+      <InstalledModuleUID>PowerConduit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -373,7 +372,7 @@
         <X>248</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>mwdsmall</InstalledModuleUID>
+      <InstalledModuleUID>2x1Twinengines</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -386,7 +385,7 @@
         <X>248</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
+      <InstalledModuleUID>WarpEngine_2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -399,7 +398,6 @@
         <X>248</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -412,7 +410,6 @@
         <X>264</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>PowerSolarArm</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -449,7 +446,6 @@
         <X>264</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>BasicCargoHold</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -462,7 +458,6 @@
         <X>264</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -475,7 +470,7 @@
         <X>264</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -514,7 +509,6 @@
         <X>264</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>mwdsmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -527,7 +521,6 @@
         <X>264</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -540,7 +533,6 @@
         <X>264</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>

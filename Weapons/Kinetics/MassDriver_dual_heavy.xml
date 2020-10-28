@@ -29,18 +29,17 @@
   <fireCueName>sd_weapon_railgun_massive_01</fireCueName>
   <dieCue>sd_explosion_ship_det_small</dieCue>
   <WeaponEffectType>SmokeTrail</WeaponEffectType>
-
+  <ProjectileRadius>10</ProjectileRadius>
   <Scale>1.7</Scale>
   <!-- Projectile Information -->
   <DamageAmount>2500</DamageAmount>
   <EffectVSShields>1.25</EffectVSShields>  
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>2200</ProjectileSpeed>
-  <DamageRadius>25</DamageRadius>
+  <DamageRadius>55</DamageRadius>
   <Light>Orange</Light>
   <explodes>true</explodes>
   <ProjectileTexturePath>projLong_02_red_dual</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <WeaponType>Ballistic Cannon</WeaponType>
-  <FireCone>5</FireCone>  
 </Weapon>

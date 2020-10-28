@@ -16,28 +16,28 @@
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>true</Tag_Cannon>
   <UID>REMACWeapon</UID>
-  <fireDelay>20</fireDelay>
+  
+  <Excludes_Fighters>true</Excludes_Fighters>  
+  <Excludes_Corvettes>true</Excludes_Corvettes>  
+  
+  <fireDelay>5</fireDelay>
   <Range>16000</Range>
-  <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
-  <SalvoCount>12</SalvoCount>
-  <SalvoTimer>0.1</SalvoTimer>
+  <PowerRequiredToFire>2000</PowerRequiredToFire>
+  <SalvoCount>2</SalvoCount>
+  <SalvoTimer>1</SalvoTimer>
   <!-- name of XACT audio cue to play on firing this weapon -->
   <fireCueName>sd_weapon_bigcannon_01</fireCueName>
 
 
   <!-- Projectile Information -->
-  <DamageAmount>15050</DamageAmount>
+  <DamageAmount>10000</DamageAmount>
   <explodes>true</explodes>
   <DamageRadius>80</DamageRadius>
   <MuzzleFlash>Yes</MuzzleFlash>
-  <ProjectileSpeed>5000</ProjectileSpeed>
+  <ProjectileSpeed>4000</ProjectileSpeed>
   <Scale>2.5</Scale>
-
   <ProjectileTexturePath>projLong_02_cyan</ProjectileTexturePath>
   <ModelPath>projLong</ModelPath>
   <WeaponType>RemnantTech</WeaponType>
-  <FireCone>1</FireCone>
-
-
+  <ProjectileRadius>20</ProjectileRadius>
 </Weapon>

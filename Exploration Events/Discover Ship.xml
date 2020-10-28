@@ -5,7 +5,6 @@
       <Chance>20</Chance>
       <TitleText>Unknown defenders</TitleText>
       <DescriptionText>Before reaching the Crashed Ship, your troops were attacked by unknown enemies and had to fall back, the crashed ship takes off and warps out of the system.</DescriptionText>
-      
       <SelectRandomPlanet>true</SelectRandomPlanet>
       <SpawnBuildingOnPlanet>Crash Site</SpawnBuildingOnPlanet>
        <TroopsToSpawn>
@@ -16,16 +15,13 @@
     </Outcome>
     <Outcome>
       <Chance>4</Chance>
-      <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant defenders.</DescriptionText>
+      <TitleText>A unique technology and great peril!</TitleText>
+      <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming a dormant Remnant Inhibitor!</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>Cyclone</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
+		<string>Remnant Inhibitor</string>
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
       </TroopsToSpawn>	  
@@ -38,7 +34,7 @@
       <UnlockTech>Energizer3x3</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
+		<string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
@@ -47,21 +43,20 @@
       </TroopsToSpawn>	  
     </Outcome>
    <Outcome>
-      <Chance>4</Chance>
+      <Chance>8</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant defenders.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>RemnantNuker</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
       </TroopsToSpawn>	  
     </Outcome>
-
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Red Alert</TitleText>
@@ -77,47 +72,24 @@
         <string>Heavy Drone</string>
       </RemnantShipsToSpawn>
     </Outcome>
-
-    
-
     <Outcome>
-      <Chance>20</Chance>
+      <Chance>24</Chance>
       <TitleText>A sad wreck</TitleText>
       <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. Even so, there are some curiosities among the wreckage that will have some value on the open market.</DescriptionText>
       <MoneyGranted>250</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
-
-  
-
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Excellent find</TitleText>
       <DescriptionText>Here you have made an excellent discovery - what appeared from orbit to be a shipwreck was in fact not a wreck at all but a completely intact alien light frigate! What's more, it appears to be space worthy and inside of its cargo there's mysterious artifact.</DescriptionText>
       <FriendlyShipsToSpawn>
-        <string>Disruptor Drone</string>
-        <string>Disruptor Drone</string>
-        <string>Disruptor Drone</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>
+		<string>Support Drone</string>
       </FriendlyShipsToSpawn>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
-
-    <Outcome>
-      <Chance>8</Chance>
-      <TitleText>Mysteries</TitleText>
-      <DescriptionText>As your forces approach the downed vessel, they note that it is in surprisingly excellent shape. They are able to breach the hull through an airlock and they begin to explore the ship. They report finding an extremely odd piece of equipment in what they assume to be the engineering room. They take the equipment and leave. However, their presence has not gone unnoticed! Indigenous carnivores are attacking!</DescriptionText>
-      <UnlockTech>Remnant Tech</UnlockTech>
-      <RemoveTrigger>true</RemoveTrigger>
-      <TroopsToSpawn>
-        <string>Antlion</string>
-        <string>Antlion</string>
-      </TroopsToSpawn>
-    </Outcome>
-	
-    
   </PotentialOutcomes>
-  
-  
-  
 </ExplorationEvent>

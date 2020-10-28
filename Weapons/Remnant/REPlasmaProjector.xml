@@ -19,24 +19,24 @@
   <Tag_Cannon>true</Tag_Cannon>
 
   <UID>REPlasmaProjector</UID>
-  <fireDelay>2</fireDelay>
-  <Range>6500</Range>
-  <PowerRequiredToFire>1</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
-  <SalvoCount>33</SalvoCount>
-  <SalvoTimer>1</SalvoTimer>
+  <fireDelay>9</fireDelay>
+  <Range>5000</Range>
+  <PowerRequiredToFire>50</PowerRequiredToFire>
+  <SalvoCount>30</SalvoCount>
+  <SalvoTimer>3</SalvoTimer>
   <!-- name of XACT audio cue to play on firing this weapon -->
   <fireCueName>sd_weapon_bigcannon_01</fireCueName>
   <Name>Plasma Projector</Name>
   <!-- Projectile Information -->
-  <DamageAmount>700</DamageAmount>
-  <ProjectileSpeed>2000</ProjectileSpeed>
+  <DamageAmount>500</DamageAmount>
+  <ProjectileSpeed>1800</ProjectileSpeed>
+  <ProjectileRadius>4</ProjectileRadius>
   <Scale>1.2</Scale>
   <ProjectileTexturePath>projBall_03_green</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>
   <WeaponType>RemnantTech</WeaponType>
   <ProjectileCount>3</ProjectileCount>
-  <FireCone>5</FireCone>
+  <FireArc>10</FireArc>  
   <explodes>true</explodes>
   <MuzzleFlash>Yes</MuzzleFlash>
   <DamageRadius>33</DamageRadius>

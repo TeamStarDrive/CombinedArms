@@ -8,13 +8,12 @@
       <SelectRandomPlanet>true</SelectRandomPlanet>
       <SpawnBuildingOnPlanet>Ancient Pillar</SpawnBuildingOnPlanet>
        <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
-    <string>Light Drone</string>
-    <string>Light Drone</string>
-    <string>Light Drone</string>
-    <string>Light Drone</string>
-    <string>Type WII Colony Mk4</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>		
+		<string>Support Drone</string>		
+		<string>Support Drone</string>
+		<string>Support Drone</string>
+		<string>Support Drone</string>
       </RemnantShipsToSpawn>	      
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
@@ -22,16 +21,15 @@
       <Chance>10</Chance>
       <TitleText>Scientific Discovery</TitleText>
       <DescriptionText>As your troops get closer to the pillar their scans immediately reveal that this structure is much older than most known structures in the galaxy. At the back of this pillar your troops discover an active energy source - they activate it. Upon activation one of your men is targeted by the pillar. A massive beam engulfs the soldier and large amounts of information is downloaded into his brain. Suddenly the pillar deactivates and the energy source is burned out. This discovery grants your empire a 5% bonus to all scientific efforts.</DescriptionText>
-      <ScienceBonus>.05</ScienceBonus>
+      <ScienceBonus>0.05</ScienceBonus>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
      </Outcome>
-
     <Outcome>
       <Chance>5</Chance>
       <TitleText>Scientific Discovery</TitleText>
       <DescriptionText>As your troops get closer to the pillar their scans immediately reveal that this structure is much older than most known structures in the galaxy. At the back of this pillar your troops discover an active energy source - they activate it. Upon activation one of your men is targeted by the pillar. A massive beam engulfs the soldier and large amounts of information is downloaded into his brain. Suddenly the pillar deactivates and the energy source is burned out. This discovery grants your empire a 10% bonus to all scientific efforts.</DescriptionText>
-      <ScienceBonus>.10</ScienceBonus>
+      <ScienceBonus>0.1</ScienceBonus>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
      </Outcome>
@@ -50,14 +48,15 @@
       <UnlockTech>RAD</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>		
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
+		<string>Skeleton</string>
       </TroopsToSpawn>	  
     </Outcome>
      <Outcome>
@@ -68,8 +67,8 @@
       <UnlockTech>S_cannon</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Light Drone</string>
-		<string>Light Drone</string>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
@@ -80,40 +79,37 @@
         <string>Skeleton</string>
       </TroopsToSpawn>	  
     </Outcome>
-    
-    
-
     <Outcome>
       <Chance>10</Chance>
-      <TitleText>I see you</TitleText>
-      <DescriptionText>As your troops approach the ancient pillar, they hear a humming noise. As they get closer the noise gets louder. Suddenly a deafening sound is heard and a large bright beam shoots into the sky. You quickly realize that your presence activated a homing beacon and your sensors detect a Remnant fleet warping in. One of your soldiers spots something and grabs it before fleeing to the surface. Turns out this is a rare Artifact!</DescriptionText>
+      <TitleText>That's no moon...</TitleText>
+      <DescriptionText>As your troops approach the ancient pillar, they hear a humming noise. As they get closer the noise gets louder. Suddenly a deafening sound is heard and a large bright beam shoots into the sky. You quickly realize one of your soldiers mistakenly hit a switch with uncovered a Pirate space station orbiting the planet! That soldier spots something and grabs it before fleeing to the surface. Turns out this is a rare Artifact!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
 	  <GrantArtifact>true</GrantArtifact>
-      <RemnantShipsToSpawn>
-        <string>Heavy Drone</string>
-        <string>Disruptor Drone</string>
-        <string>Xeno Fighter</string>
-        <string>Xeno Fighter</string>
-        <string>Xeno Fighter</string>
-        <string>Corsair Asteroid Base</string>
-      </RemnantShipsToSpawn>
+      <PirateShipsToSpawn>
+        <string>Draug Station-Mk2</string>
+        <string>Draug-Slaver-Mk2</string>
+        <string>Draug-Slaver-Mk2</string>
+		<string>Draug-Mk2</string>
+		<string>Draug-Mk2</string>
+		<string>Draug-Fighter-Mk2</string>		
+		<string>Draug-Fighter-Mk2</string>		
+		<string>Draug-Fighter-Mk2</string>		
+		<string>Draug-Fighter-Mk2</string>		
+		<string>Draug-Fighter-Mk2</string>		
+      </PirateShipsToSpawn>
     </Outcome>
-
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Intervention</TitleText>
       <DescriptionText>As your troops approach the ancient pillar, they notice that they aren't the first group to discover it. They see lots of electronical equipment, computers and a large Remnant power generator. One of your combat engineers activates the generator and in doing so alerts the owners of these items to your presence. A small Remnant fleet warps.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-        <string>Disruptor Drone</string>
-        <string>Disruptor Drone</string>
+        <string>Heavy Drone</string>
+        <string>Heavy Drone</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
-        <string>Xeno Fighter</string>
-        <string>Corsair Asteroid Base</string>
+        <string>Ancient Frigate</string>
        </RemnantShipsToSpawn>
     </Outcome>
-
   </PotentialOutcomes>
-  
 </ExplorationEvent>

@@ -1,0 +1,39 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Energy>false</Tag_Energy>
+  <Tag_Guided>false</Tag_Guided>
+  <Tag_Missile>false</Tag_Missile>
+  <Tag_Hybrid>false</Tag_Hybrid>
+  <Tag_Beam>false</Tag_Beam>
+  <Tag_Intercept>false</Tag_Intercept>
+  <Tag_Explosive>false</Tag_Explosive>
+  <Tag_Bomb>false</Tag_Bomb>
+  <Tag_Railgun>true</Tag_Railgun>
+  <Tag_BioWeapon>false</Tag_BioWeapon>
+  <Tag_Warp>false</Tag_Warp>
+  <Tag_Subspace>false</Tag_Subspace>
+  <Tag_Drone>false</Tag_Drone>
+  <Tag_Torpedo>false</Tag_Torpedo>
+  <Tag_Cannon>true</Tag_Cannon>
+  
+  <UID>RailgunV2</UID>
+  <fireDelay>1</fireDelay>
+  <Range>4800</Range>
+  <OrdinanceRequiredToFire>1</OrdinanceRequiredToFire>
+  <ProjectileRadius>5</ProjectileRadius> 
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_vulcan_shotgun_01</fireCueName>
+
+  <Scale>0.9</Scale>
+  <!-- Projectile Information -->
+  <DamageAmount>150</DamageAmount>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>2400</ProjectileSpeed>
+  <explodes>true</explodes>
+  <DamageRadius>32</DamageRadius>
+  <ProjectileTexturePath>projExotic_01</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <WeaponType>Ballistic Cannon</WeaponType>
+  <WeaponEffectType>MuzzleSmoke</WeaponEffectType>  
+</Weapon>

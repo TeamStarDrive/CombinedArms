@@ -23,16 +23,15 @@
       <Position>
         <X>256</X>
         <Y>438</Y>
-		<Z>10</Z>
+        <Z>10</Z>
       </Position>
       <scale>65</scale>
     </ThrusterZone>
   </ThrusterList>
   <ModelPath>mod models/Opteris/Ship19i</ModelPath>
   <DefaultAIState>DoNothing</DefaultAIState>
-  <ShipCategory>Unclassified</ShipCategory>
+  <ShipCategory>Civilian</ShipCategory>
   <HangarDesignation>General</HangarDesignation>
-  <ShieldsBehavior>FullPower</ShieldsBehavior>
   <CarrierShip>false</CarrierShip>
   <ModuleSlotList>
     <ModuleSlotData>
@@ -265,7 +264,7 @@
         <X>232</X>
         <Y>88</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -459,7 +458,7 @@
         <X>232</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>Fusion Reactor</InstalledModuleUID>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -472,6 +471,7 @@
         <X>232</X>
         <Y>360</Y>
       </Position>
+      <InstalledModuleUID>PowerConduit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -729,6 +729,7 @@
         <X>248</X>
         <Y>344</Y>
       </Position>
+      <InstalledModuleUID>Fusion Reactor</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1027,7 +1028,6 @@
         <X>264</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>Fusion Reactor</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1114,7 +1114,7 @@
         <X>280</X>
         <Y>88</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1307,6 +1307,7 @@
         <X>280</X>
         <Y>344</Y>
       </Position>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1319,6 +1320,7 @@
         <X>280</X>
         <Y>360</Y>
       </Position>
+      <InstalledModuleUID>PowerConduit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>

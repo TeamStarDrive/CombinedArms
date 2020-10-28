@@ -17,8 +17,8 @@
 	<DescriptionIndex>5999</DescriptionIndex>
 	<!-- Mass and Health -->
 	<Mass>44</Mass>
-	<Health>4000</Health>
-	<HealthMax>4000</HealthMax>
+	<Health>3200</Health>
+	<HealthMax>3200</HealthMax>
 	<RepairDifficulty>1</RepairDifficulty>
     <DamageThreshold>20</DamageThreshold>			      			
 	<!-- Power Drawn -->
@@ -28,7 +28,9 @@
 	<KineticResist>-0.1</KineticResist>
 	<ExplosiveResist>-0.15</ExplosiveResist>	
 	<!-- for PowerPlant Items -->
-	<explodes>false</explodes>
+    <explodes>true</explodes>
+    <ExplosionDamage>188</ExplosionDamage>
+    <ExplosionRadius>48</ExplosionRadius>    
 	<PowerFlowMax>50</PowerFlowMax>
 	<PowerStoreMax>250</PowerStoreMax>
 	<PowerRadius>2</PowerRadius>

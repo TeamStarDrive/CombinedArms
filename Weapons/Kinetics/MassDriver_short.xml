@@ -28,19 +28,18 @@
   <!-- name of XACT audio cue to play on firing this weapon -->
   <fireCueName>sd_weapon_railgun_massive_01</fireCueName>
   <dieCue>sd_explosion_ship_det_small</dieCue>
-
+  <ProjectileRadius>8</ProjectileRadius>  
   <Scale>1.3</Scale>
   <!-- Projectile Information -->
   <DamageAmount>1000</DamageAmount>
   <EffectVSShields>1.25</EffectVSShields>  
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1600</ProjectileSpeed>
-  <DamageRadius>15</DamageRadius>
+  <DamageRadius>30</DamageRadius>
   <Light>Orange</Light>
   <explodes>true</explodes>
   <ProjectileTexturePath>projLong_02_orange</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <WeaponType>Ballistic Cannon</WeaponType>
   <WeaponEffectType>MuzzleSmoke</WeaponEffectType>    
-  <FireCone>3</FireCone>
 </Weapon>

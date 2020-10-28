@@ -23,6 +23,7 @@
       <Position>
         <X>260</X>
         <Y>310</Y>
+        <Z>0</Z>
       </Position>
       <scale>65</scale>
     </ThrusterZone>
@@ -31,7 +32,6 @@
   <DefaultAIState>DoNothing</DefaultAIState>
   <ShipCategory>Unclassified</ShipCategory>
   <HangarDesignation>General</HangarDesignation>
-  <ShieldsBehavior>FullPower</ShieldsBehavior>
   <CarrierShip>false</CarrierShip>
   <ModuleSlotList>
     <ModuleSlotData>
@@ -39,7 +39,7 @@
         <X>216</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -52,7 +52,7 @@
         <X>216</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -65,7 +65,7 @@
         <X>216</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -78,7 +78,7 @@
         <X>232</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -91,7 +91,7 @@
         <X>232</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
+      <InstalledModuleUID>Cockpit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -104,7 +104,7 @@
         <X>232</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -117,7 +117,7 @@
         <X>232</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -130,7 +130,7 @@
         <X>248</X>
         <Y>200</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -180,7 +180,7 @@
         <X>248</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>Cockpit</InstalledModuleUID>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -219,7 +219,7 @@
         <X>264</X>
         <Y>200</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -307,7 +307,7 @@
         <X>280</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -320,12 +320,12 @@
         <X>280</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>PowerConduit</InstalledModuleUID>
+      <InstalledModuleUID>Sensor1x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>90</facing>
+      <state>Right</state>
       <Restrictions>I</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -333,7 +333,6 @@
         <X>280</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -346,7 +345,7 @@
         <X>280</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -359,7 +358,7 @@
         <X>296</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -372,7 +371,7 @@
         <X>296</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -385,7 +384,7 @@
         <X>296</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>

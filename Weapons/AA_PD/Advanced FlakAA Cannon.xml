@@ -9,7 +9,7 @@
   <Excludes_Stations>true</Excludes_Stations>
   
   <UID>Advanced FlakAA Cannon</UID>
-  <fireDelay>0.2</fireDelay>
+  <fireDelay>0.5</fireDelay>
   <Range>3000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.2</OrdinanceRequiredToFire>
@@ -18,8 +18,8 @@
   <fireCueName>sd_weapon_flakcannon_01</fireCueName>
   <PlaySoundOncePerSalvo>false</PlaySoundOncePerSalvo>
   <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
-  <DamageAmount>25</DamageAmount>
-  <Scale>.8</Scale>
+  <DamageAmount>40</DamageAmount>
+  <Scale>0.75</Scale>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1700</ProjectileSpeed>
   <DamageRadius>20</DamageRadius>
@@ -28,8 +28,8 @@
   <ModelPath>projTear</ModelPath>
   <ProjectileCount>1</ProjectileCount>
   <ProjectileRadius>40</ProjectileRadius>  
-  <SalvoCount>8</SalvoCount> 
-  <SalvoTimer>0.2</SalvoTimer>
+  <SalvoCount>5</SalvoCount> 
+  <SalvoTimer>0.5</SalvoTimer>
   <!--the projectile count is spread over the fire arc-->
   <FireCone>3</FireCone>
   <WeaponType>AA Weapons</WeaponType>
