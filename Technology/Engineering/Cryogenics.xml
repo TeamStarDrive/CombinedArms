@@ -2,13 +2,16 @@
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <UID>Cryogenics</UID>
   <TechnologyType>Colonization</TechnologyType>
-  <Cost>300</Cost>
+  <Cost>900</Cost>
   <RootNode>0</RootNode>
   <Name>Cryogenics</Name>
   <NameIndex>538</NameIndex>
   <DescriptionIndex>539</DescriptionIndex>
   <LongDescription>Cryogenics is the science of suspending an organism's life functions by freezing it. Even though cryogenics equipment is bulky, it is possible to transport many more people with cryogenics than without it. </LongDescription>
   <LeadsTo>
+    <LeadsToTech>
+      <UID>Rapid Cloning</UID>
+    </LeadsToTech>	
   </LeadsTo>
   <ModulesUnlocked />
   <BuildingsUnlocked />

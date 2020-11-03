@@ -2,7 +2,7 @@
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <UID>Assimilation</UID>
   <TechnologyType>General</TechnologyType>
-  <Cost>64000</Cost>
+  <Cost>36000</Cost>
   <RootNode>0</RootNode>
   <Name>Assimilation</Name>
   <NameIndex>517</NameIndex>
@@ -19,11 +19,11 @@
       <BonusIndex>519</BonusIndex>
     </UnlockedBonus>
   </BonusUnlocked>
-  <RaceExclusions>
-    <RequiredRace>
-      <ShipType>Opteris</ShipType>
-    </RequiredRace>
-  </RaceExclusions>  
+  <HiddenFrom>
+    <RaceRequirements>
+      <RacialTrait>Cybernetic</RacialTrait>
+    </RaceRequirements>
+  </HiddenFrom>     
   <TroopsUnlocked />
   <HullsUnlocked />
 </Technology>

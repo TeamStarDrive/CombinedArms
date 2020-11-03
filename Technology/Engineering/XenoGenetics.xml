@@ -2,16 +2,13 @@
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <UID>XenoGenetics</UID>
   <TechnologyType>Research</TechnologyType>
-  <Cost>1700</Cost>
+  <Cost>1800</Cost>
   <RootNode>0</RootNode>
   <Name>Xeno Genetics</Name>
   <NameIndex>702</NameIndex>
   <DescriptionIndex>703</DescriptionIndex>
   <LongDescription>By studying alien plants, animals, and microganisms, we have learned many new genetic secrets.  By applying some of what we have learned to our own bodies, we are able to live much longer and healthier lives. </LongDescription>
   <LeadsTo>
-    <LeadsToTech>
-      <UID>Rapid Cloning</UID>
-    </LeadsToTech>
     <LeadsToTech>
       <UID>Genetic Manipulation</UID>
     </LeadsToTech>
@@ -23,6 +20,11 @@
       <Name>Genetics Lab</Name>
     </UnlockedBuilding>
   </BuildingsUnlocked>
+  <HiddenFrom>
+    <RaceRequirements>
+      <RacialTrait>Cybernetic</RacialTrait>
+    </RaceRequirements>
+  </HiddenFrom>   
   <BonusUnlocked>
     <UnlockedBonus>
       <Name>Increased Lifespans</Name>
