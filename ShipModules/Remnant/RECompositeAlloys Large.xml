@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Cost>28</Cost>
+	<FighterModule>false</FighterModule>
+	<!-- Tech Level -->
+	<TechLevel>4</TechLevel>
+	<TechBranch>Armor</TechBranch>
+	<!-- common traits shared by all ship modules -->
+	<XSIZE>3</XSIZE>
+	<YSIZE>3</YSIZE>
+	<ModuleType>Armor</ModuleType>
+	<Name>RECompositeAlloys Large</Name>
+	<Restrictions>O</Restrictions>
+	<UID>CompositeAlloys Large</UID>
+	<TexturePath>Textures/transparent</TexturePath>
+	<IconTexturePath>Modules/RECompositeAlloys Large</IconTexturePath>
+	<NameIndex>6573</NameIndex>
+	<DescriptionIndex>5999</DescriptionIndex>
+	<!-- Mass and Health -->
+	<Mass>136</Mass>
+	<Health>54000</Health>
+	<HealthMax>54000</HealthMax>
+	<RepairDifficulty>1.25</RepairDifficulty>
+    <DamageThreshold>180</DamageThreshold>				
+	<!-- Armor resistance -->
+	<KineticResist>0.3</KineticResist>
+	<BeamResist>0.2</BeamResist>
+	<EnergyResist>0.1</EnergyResist>    
+	<!-- Power Drawn -->
+	<PowerDraw>0</PowerDraw>
+	<!-- Crew Reqs -->
+	<CrewRequired>0</CrewRequired>
+	<CrewSupplied>0</CrewSupplied>
+	<!-- for Weapons -->
+	<!-- Description -->
+	<Description>Composite Alloys provides massive defence however the mass is also very "massive".</Description>
+    <APResist>1</APResist>	
+</ShipModule>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>4</Cost>
+  <DroneModule>true</DroneModule>
+  <FighterModule>true</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <FrigateModule>true</FrigateModule>
+  <DestroyerModule>true</DestroyerModule>
+  <CruiserModule>true</CruiserModule>
+  <CarrierModule>true</CarrierModule>
+  <CapitalModule>true</CapitalModule>
+  
+  <FreighterModule>true</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>true</StationModule>  
+  <!-- Tech Level -->
+  <TechLevel>4</TechLevel>
+  <TechBranch>Armor</TechBranch>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>1</XSIZE>
+  <YSIZE>1</YSIZE>
+  <ModuleType>Armor</ModuleType>
+  <Name>RECompositeAlloys Small</Name>
+  <Restrictions>O</Restrictions>
+  <UID>CompositeAlloys Small</UID>
+  <TexturePath>Textures/transparent</TexturePath>
+  <IconTexturePath>Modules/RECompositeAlloys Small</IconTexturePath>
+
+
+  <NameIndex>6571</NameIndex>
+  <DescriptionIndex>6570</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>17</Mass>
+  <Health>3600</Health>
+  <HealthMax>3600</HealthMax>
+  <RepairDifficulty>1.25</RepairDifficulty>
+  <DamageThreshold>90</DamageThreshold>			  
+  <!-- Armor resistance -->
+  <KineticResist>0.3</KineticResist>
+  <BeamResist>0.2</BeamResist>
+  <EnergyResist>0.1</EnergyResist>    
+
+  <!-- Power Drawn -->
+  <PowerDraw>0</PowerDraw>
+
+
+  <!-- Crew Reqs -->
+  <CrewRequired>0</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+
+  <!-- for Weapons -->
+
+
+  <!-- Description -->
+  <Description>Composite Alloys provides massive defence however the mass is also very "massive".</Description>
+  <APResist>1</APResist>  
+
+</ShipModule>
