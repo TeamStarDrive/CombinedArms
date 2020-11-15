@@ -3,8 +3,7 @@
 
     <FighterModule>false</FighterModule>
     <CorvetteModule>false</CorvetteModule>
-    <DestroyerModule>false</DestroyerModule>
-    <FrigateModule>false</FrigateModule>
+
   
 	<Cost>240</Cost>
 	<TechLevel>4</TechLevel>
@@ -26,7 +25,7 @@
 	<CrewRequired>3</CrewRequired>
 	<CrewSupplied>0</CrewSupplied>
 	<PowerDraw>4000</PowerDraw>
-	<PowerDrawAtWarp>-1800</PowerDrawAtWarp>
+	<PowerDrawAtWarp>-2000</PowerDrawAtWarp>
 	<NameIndex>13001</NameIndex>
 	<DescriptionIndex>13000</DescriptionIndex>
 	<!-- for shield items -->
@@ -34,13 +33,12 @@
 	<shield_power_max>60000</shield_power_max>
 	<shield_recharge_delay>3.5</shield_recharge_delay>
 	<shield_recharge_rate>400</shield_recharge_rate>
-	<shield_radius>600</shield_radius>
+	<shield_radius>500</shield_radius>
 	<shield_recharge_combat_rate>0</shield_recharge_combat_rate>
     <shield_threshold>100</shield_threshold>	
 	<!-- for Weapons -->
 	<EMP_Protection>300</EMP_Protection>
 	<!-- Armor resistance -->	
-	<KineticResist>-0.2</KineticResist>
-	<BeamResist>0.25</BeamResist>
-	<EnergyResist>0.1</EnergyResist>	
+	<shield_hybrid_resist>0.25</shield_hybrid_resist>
+	<shield_kinetic_resist>0.2</shield_kinetic_resist>
 </ShipModule>

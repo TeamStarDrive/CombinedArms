@@ -2,7 +2,6 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <FighterModule>false</FighterModule>
-  <CorvetteModule>false</CorvetteModule>
   <FreighterModule>false</FreighterModule>
   
   <Cost>100</Cost>
@@ -42,6 +41,7 @@
   <shield_recharge_combat_rate>100</shield_recharge_combat_rate>
   <shield_energy_resist>0.35</shield_energy_resist>
   <shield_beam_resist>0.7</shield_beam_resist>
+  <shield_hybrid_resist>0.9</shield_hybrid_resist>
   <shield_threshold>30</shield_threshold>    
   <!-- for PowerPlant Items -->
   <explodes>false</explodes>
