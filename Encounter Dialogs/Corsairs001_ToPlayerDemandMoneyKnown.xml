@@ -1,13 +1,15 @@
 ﻿<Encounter>
   <Faction>Corsairs</Faction>
-  <Step>0</Step>
+  <Step>1</Step>
   <Name>Protection Money</Name>
   <FactionInitiated>true</FactionInitiated>
   <PercentMoneyDemanded>10</PercentMoneyDemanded> <!-- this percentage of total treasury request will be modified and overwrite any MoneyToThem below -->
-  <DescriptionText>While you are busy managing your empire's new found colonies, you receive a message from an organization which is called "The Corsairs":</DescriptionText>
+  <DescriptionText>While you are busy managing your empire's new found colonies, you receive a message from "The Corsairs" you have met before:</DescriptionText>
   <MessageList>
     <Message>
     <Text>Dearest SING friends,
+
+We said we would contact you when we require something. Well, here we are.
 
 We are delighted to see your empire's progress. Isn't this exciting, to colonize new worlds and struggle with unknown environment? However, all these little freighters, moving from planet to planet like loyal bees are so exposed out there in deep space.
 
@@ -19,7 +21,7 @@ Regards,
     <ResponseOptions>
       <Response>
         <Text>Agree to pay this upstanding gentleman.</Text>
-        <MoneyToThem>250</MoneyToThem>
+        <MoneyToThem>200</MoneyToThem>
         <SuccessIndex>1</SuccessIndex>
         <FailIndex>3</FailIndex>
       </Response>
@@ -34,8 +36,7 @@ Regards,
     <Message>
       <Index>1</Index>
       <EndWar>true</EndWar>
-      <Text>
-Wonderful news! We'll let you know when we're done drinking our way through your money. Until then, sleep safe!
+      <Text>Wonderful news! We'll let you know when we're done drinking our way through your money. Until then, sleep safe!
 
     Regards,
     CM
@@ -47,11 +48,7 @@ Wonderful news! We'll let you know when we're done drinking our way through your
     <Message>
       <Index>2</Index>
       <SetWar>true</SetWar>
-      <Text>
-Now that is disappointing, isn't it? And here I was thinking that we were going to be fast friends. It will be fun to rip open your freighters.
-
-(Comm Officer's Note - If we ever want to pay them, we can select their ship and press Q to contact them.)
-      </Text>
+      <Text>Now that is disappointing, isn't it? And here I was thinking that we were going to be fast friends. It will be fun to rip open your freighters.</Text>
       <EndTransmission>true</EndTransmission>
       <SetPlayerContactStep>3</SetPlayerContactStep> <!--pay twice to end the war-->
       <SetFactionContactStep>2</SetFactionContactStep> <!-- Money demand after end of contract period -->
@@ -59,11 +56,7 @@ Now that is disappointing, isn't it? And here I was thinking that we were going 
     <Message>
       <Index>3</Index>
       <SetWar>true</SetWar>
-      <Text>
-What, is this some sort of SING humor? You don't have the credits! Unfortunately for you, this is not my problem. We're gonna collect our money through your freighters!
-
-(Comm Officer's Note - If we ever want to pay them, we can select their ship and press Q to contact them.)
-      </Text>
+      <Text>What, is this some sort of SING humor? You don't have the credits! Unfortunately for you, this is not my problem. We're gonna collect our money through your freighters!</Text>
       <EndTransmission>true</EndTransmission>
       <SetPlayerContactStep>3</SetPlayerContactStep> <!--pay twice to end the war-->
       <SetFactionContactStep>2</SetFactionContactStep> <!-- Money demand after end of contract period -->
