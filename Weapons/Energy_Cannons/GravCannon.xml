@@ -26,11 +26,11 @@
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
 
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>disruptor</fireCueName>
+  <fireCueName>sd_mech_attack_03</fireCueName>
   
   <!-- Animation Information -->
   <Animated>1</Animated>
-  <Scale>2</Scale>
+  <Scale>1</Scale>
   <Frames>23</Frames>
   <AnimationPath>Pulse_Blue/Pulse_Blue_cc_</AnimationPath>
   <LoopAnimation>1</LoopAnimation>   
@@ -41,8 +41,8 @@
   <explodes>true</explodes>
   <DamageRadius>40</DamageRadius>
   <Light>Blue</Light>
-  <ProjectileTexturePath>projTear_01_red</ProjectileTexturePath>
-  <ModelPath>projTear</ModelPath>
+  <ProjectileTexturePath>projLong_02_red</ProjectileTexturePath>
+  <ModelPath>projBall</ModelPath>
   <WeaponEffectType>DisruptorCannon</WeaponEffectType>
   <EffectVSShields>0.5</EffectVSShields>
   <SalvoCount>2</SalvoCount>
