@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Beam>true</Tag_Beam>
+
+  <UID>REPhasorBeam</UID>
+  <isBeam>true</isBeam>
+  <fireDelay>6</fireDelay>
+  <Range>4000</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
+  
+  <!-- name of XACT audio cue to play on firing this weapon -->
+
+  <fireCueName>sd_weapon_laser_large_alt_04</fireCueName>
+  <ToggleSoundName>sd_weapon_beam_fusion_med</ToggleSoundName>
+  <BeamTexture>beam_green</BeamTexture>
+  <!-- Projectile Information -->
+  <DamageAmount>24</DamageAmount>
+  <BeamThickness>35</BeamThickness>
+  <BeamPowerCostPerSecond>350</BeamPowerCostPerSecond>
+  <WeaponType>RemnantTech</WeaponType>
+  <OffPowerMod>0.6</OffPowerMod>
+</Weapon>

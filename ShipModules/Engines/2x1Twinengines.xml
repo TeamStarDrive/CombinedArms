@@ -30,7 +30,7 @@
   <CrewRequired>2</CrewRequired>
   <CrewSupplied>0</CrewSupplied>
   <PowerDraw>28</PowerDraw>
-
+  <PowerDrawAtWarp>-20</PowerDrawAtWarp>
 
   <NameIndex>12013</NameIndex>
   <DescriptionIndex>12014</DescriptionIndex>
@@ -53,10 +53,10 @@
   
   
   <!-- for Engines -->
-  <thrust>30000</thrust>
+  <thrust>25000</thrust>
   <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
   <TurnThrust>50000</TurnThrust>
-  <WarpThrust>80000</WarpThrust>
+  <WarpThrust>72000</WarpThrust>
   
 
 </ShipModule>

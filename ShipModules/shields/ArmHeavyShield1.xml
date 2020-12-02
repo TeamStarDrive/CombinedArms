@@ -2,7 +2,6 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <FighterModule>false</FighterModule>
-  <CorvetteModule>false</CorvetteModule>
   
   <Cost>75</Cost>
   <TechLevel>3</TechLevel>
@@ -30,17 +29,14 @@
   <NameIndex>17850</NameIndex>
   <DescriptionIndex>12998</DescriptionIndex>
 
-  <KineticResist>-0.2</KineticResist>
-  <BeamResist>0.25</BeamResist>
-  <EnergyResist>0.1</EnergyResist>
-
   <!-- for shield items -->
   <shield_power>20000</shield_power>
   <shield_power_max>20000</shield_power_max>
-  <shield_recharge_delay>3.5</shield_recharge_delay>
-  <shield_recharge_rate>240</shield_recharge_rate>
+  <shield_recharge_delay>6.5</shield_recharge_delay>
+  <shield_recharge_rate>200</shield_recharge_rate>
   <shield_radius>180</shield_radius>
   <shield_recharge_combat_rate>0</shield_recharge_combat_rate>
+  <shield_hybrid_resist>0.25</shield_hybrid_resist>
   <EMP_Protection>100</EMP_Protection>
   <shield_threshold>50</shield_threshold>  
 </ShipModule>

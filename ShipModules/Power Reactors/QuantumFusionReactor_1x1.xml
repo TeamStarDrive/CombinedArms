@@ -25,10 +25,11 @@
 	<UID>QuantumFusionReactor_1x1</UID>
 	<TexturePath>Textures/transparent</TexturePath>
 	<IconTexturePath>Modules/QuantumFusionReactor_1x1</IconTexturePath>
-	<Mass>12</Mass>
+	<Mass>16</Mass>
 	<Health>150</Health>
 	<HealthMax>150</HealthMax>
 	<RepairDifficulty>2</RepairDifficulty>
+	<BonusRepairRate>10</BonusRepairRate>
 	<energyreq>0</energyreq>
 	<modRadius>4</modRadius>
 	<Description>Power Plants are the beating hearts of spaceships.  This small fission model provides a moderate level of power output and power storage. Explodes when destroyed.</Description>
@@ -37,8 +38,6 @@
 	<PowerDraw>0</PowerDraw>
 	<NameIndex>17510</NameIndex>
 	<DescriptionIndex>17511</DescriptionIndex>
-    <MechanicalBoardingDefense>10</MechanicalBoardingDefense>
-    <BonusRepairRate>10</BonusRepairRate>	
 	<!-- for shield items -->
 	<shield_power>0</shield_power>
 	<shield_power_max>0</shield_power_max>
@@ -49,8 +48,8 @@
 	<explodes>true</explodes>
     <ExplosionDamage>300</ExplosionDamage>
     <ExplosionRadius>32</ExplosionRadius>	
-	<PowerFlowMax>200</PowerFlowMax>
-	<PowerStoreMax>100</PowerStoreMax>
+	<PowerFlowMax>120</PowerFlowMax>
+	<PowerStoreMax>120</PowerStoreMax>
 	<PowerRadius>4</PowerRadius>
 	<!-- for Weapons -->
 	<!-- for Engines -->

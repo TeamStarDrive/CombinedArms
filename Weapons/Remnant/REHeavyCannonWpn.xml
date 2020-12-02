@@ -2,7 +2,7 @@
 <Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <UID>REHeavyCannonWpn</UID>
   <fireDelay>5</fireDelay>
-  <Range>10000</Range>
+  <Range>8000</Range>
   <PowerRequiredToFire>25</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.5</OrdinanceRequiredToFire>
   <SalvoCount>3</SalvoCount>
@@ -23,6 +23,7 @@
   <AnimationPath>projBall_01_plasma_1/projBall_01_plasma_1_cc_</AnimationPath>
   <LoopAnimation>1</LoopAnimation>
   <explodes>false</explodes>
+  <OffPowerMod>0.6</OffPowerMod>
   <ProjectileTexturePath>projTear_03_red</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>
   <WeaponType>RemnantTech</WeaponType>

@@ -48,7 +48,6 @@
   <DefaultAIState>DoNothing</DefaultAIState>
   <ShipCategory>Reckless</ShipCategory>
   <HangarDesignation>General</HangarDesignation>
-  <ShieldsBehavior>FullPower</ShieldsBehavior>
   <CarrierShip>false</CarrierShip>
   <ModuleSlotList>
     <ModuleSlotData>
@@ -56,21 +55,19 @@
         <X>200</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceSupplyBay</InstalledModuleUID>
+      <InstalledModuleUID>RepairDrone</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
       <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
-      <SlotOptions>Drone Interceptor</SlotOptions>
     </ModuleSlotData>
     <ModuleSlotData>
       <Position>
         <X>200</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -83,11 +80,11 @@
         <X>216</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>RegenArmorSmall</InstalledModuleUID>
+      <InstalledModuleUID>RELaserGreen</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
+      <facing>315.000031</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
@@ -96,7 +93,6 @@
         <X>216</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -109,7 +105,6 @@
         <X>216</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -135,11 +130,11 @@
         <X>216</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>RegenArmorSmall</InstalledModuleUID>
+      <InstalledModuleUID>RELaserGreen</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
+      <facing>210.000031</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
@@ -148,7 +143,7 @@
         <X>232</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>RemnantSmallReactor</InstalledModuleUID>
+      <InstalledModuleUID>RELaserGreen</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -161,7 +156,7 @@
         <X>232</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>RemnantSmallReactor</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -200,7 +195,7 @@
         <X>232</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
+      <InstalledModuleUID>RemnantSmallFuelCell</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -303,7 +298,7 @@
         <X>248</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>RECockpit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -444,7 +439,7 @@
         <X>280</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>RemnantSmallReactor</InstalledModuleUID>
+      <InstalledModuleUID>RELaserGreen</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -457,7 +452,7 @@
         <X>280</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>Cockpit</InstalledModuleUID>
+      <InstalledModuleUID>RemnantSmallReactor</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -496,7 +491,7 @@
         <X>280</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
+      <InstalledModuleUID>RemnantSmallFuelCell</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -535,11 +530,11 @@
         <X>296</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>RegenArmorSmall</InstalledModuleUID>
+      <InstalledModuleUID>RELaserGreen</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
+      <facing>45</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
@@ -561,7 +556,6 @@
         <X>296</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -587,11 +581,11 @@
         <X>296</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>RegenArmorSmall</InstalledModuleUID>
+      <InstalledModuleUID>RELaserGreen</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
+      <facing>150.000015</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
@@ -600,7 +594,6 @@
         <X>312</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -613,7 +606,6 @@
         <X>312</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>Dummy</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>

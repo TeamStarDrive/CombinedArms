@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <Cost>2</Cost>
+  <Cost>3</Cost>
   <TechLevel>0</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>FuelCell</ModuleType>
@@ -12,9 +12,9 @@
   <Restrictions>IO</Restrictions>
   <Name>advanced_small_fuelcell</Name>
   <IconTexturePath>Modules/advanced_small_fuelcell</IconTexturePath>
-  <Mass>1</Mass>
-  <Health>60</Health>
-  <HealthMax>60</HealthMax>
+  <Mass>3</Mass>
+  <Health>300</Health>
+  <HealthMax>300</HealthMax>
   <RepairDifficulty>3</RepairDifficulty>
   <energyreq>1</energyreq>
   <modRadius>4</modRadius>

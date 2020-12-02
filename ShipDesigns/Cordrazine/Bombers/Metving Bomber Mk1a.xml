@@ -40,7 +40,6 @@
   <DefaultAIState>DoNothing</DefaultAIState>
   <ShipCategory>Conservative</ShipCategory>
   <HangarDesignation>General</HangarDesignation>
-  <ShieldsBehavior>FullPower</ShieldsBehavior>
   <CarrierShip>false</CarrierShip>
   <ModuleSlotList>
     <ModuleSlotData>
@@ -161,7 +160,7 @@
         <X>216</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>PowerSolarArm</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -326,7 +325,7 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>225</facing>
+      <facing>225.000015</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
@@ -364,7 +363,7 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>315</facing>
+      <facing>315.000031</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -372,19 +371,6 @@
       <Position>
         <X>248</X>
         <Y>200</Y>
-      </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
-      <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
-      <Health>0</Health>
-      <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
-      <Restrictions>I</Restrictions>
-    </ModuleSlotData>
-    <ModuleSlotData>
-      <Position>
-        <X>248</X>
-        <Y>216</Y>
       </Position>
       <InstalledModuleUID>Bridge</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
@@ -397,7 +383,7 @@
     <ModuleSlotData>
       <Position>
         <X>248</X>
-        <Y>232</Y>
+        <Y>216</Y>
       </Position>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
@@ -409,7 +395,7 @@
     <ModuleSlotData>
       <Position>
         <X>248</X>
-        <Y>248</Y>
+        <Y>232</Y>
       </Position>
       <InstalledModuleUID>QuantumFusionReactor_2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
@@ -422,8 +408,21 @@
     <ModuleSlotData>
       <Position>
         <X>248</X>
+        <Y>248</Y>
+      </Position>
+      <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
+      <Health>0</Health>
+      <Shield_Power>0</Shield_Power>
+      <facing>0</facing>
+      <state>Normal</state>
+      <Restrictions>I</Restrictions>
+    </ModuleSlotData>
+    <ModuleSlotData>
+      <Position>
+        <X>248</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -548,7 +547,6 @@
         <X>264</X>
         <Y>200</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -597,6 +595,7 @@
         <X>264</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -806,7 +805,7 @@
         <X>296</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>PowerSolarArm</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
