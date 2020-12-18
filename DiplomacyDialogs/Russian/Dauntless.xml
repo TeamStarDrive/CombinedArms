@@ -615,5 +615,33 @@
       <DialogType>JoinWar_OK</DialogType>
       <Default>You know what? That sounds like an EXCELLENT idea! God I've been wanting to fire these torpedos so freaking badly too! YES!</Default>
     </DialogLine>
+	
+    <DialogLine>
+      <DialogType>REJECT_OFFER_PEACE_ALLIED_WITH_ENEMY</DialogType>
+      <Default>No, "friend", we will not sign peace while you are allied with our enemies.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>AI_ALLIANCE_REJECT_ALLIED_WITH_ENEMY</DialogType>
+      <Default>Ah, looking for new friends, aren't you? Well, no. You are allied with our enemies. Break alliance with them and we shall see.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>CUTTING_DEALS_WITH_ENEMY</DialogType>
+      <Default>I'll be damned, you go to our enemies and sign treaties with them. We are friends, you know.</Default>
+      <DL_Agg>Our alliance deal is off.</DL_Agg>
+      <DL_Ruth>You are not worthy of any relations. Good bye.</DL_Ruth>
+      <DL_Xeno>We are not going to have any agreements with you, jerks. Everything if off!</DL_Xeno>
+      <DL_Cunn>Interseting plot revealed, mmm?</DL_Cunn>
+      <DL_Pac>Nice. But next time, work with our allies, not our enemies.</DL_Pac>
+      <DL_Hon>We will not tolerate this! Relations off, war on.</DL_Hon>
+    </DialogLine>
+    <DialogLine>
+      <Default>I'll be damned, you crawl to our enemies and try to sign treaties with them regardless of our alliance!?</Default>
+      <DL_Agg>Our alliance deal is off.</DL_Agg>
+      <DL_Ruth>You are not worthy of any relations. Good bye.</DL_Ruth>
+      <DL_Xeno>We are not going to have any agreements with you, jerks. Everything if off!</DL_Xeno>
+      <DL_Cunn>Interseting plot revealed, mmm?</DL_Cunn>
+      <DL_Pac>Nice. But next time, work with our allies, not our enemies.</DL_Pac>
+      <DL_Hon>We will not tolerate this! Relations off, war on.</DL_Hon>
+    </DialogLine>	
   </Dialogs>
 </DiplomacyDialog>

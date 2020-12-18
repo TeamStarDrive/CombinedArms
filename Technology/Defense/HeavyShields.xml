@@ -2,7 +2,7 @@
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <UID>HeavyShields</UID>
   <TechnologyType>ShipDefense</TechnologyType>
-  <Cost>1500</Cost>
+  <Cost>600</Cost>
   <RootNode>0</RootNode>
   <Name>Heavy Shielding</Name>
   <NameIndex>587</NameIndex>
@@ -12,9 +12,6 @@
     <LeadsToTech>
       <UID>ArmHeavyShield</UID>
     </LeadsToTech>
-    <LeadsToTech>
-      <UID>Fast_Shielding_II</UID>
-    </LeadsToTech>	
 <LeadsToTech>
       <UID>CanopyShields</UID>
     </LeadsToTech>
@@ -23,14 +20,11 @@
     <UnlockedMod>
       <ModuleUID>Shield_10KW</ModuleUID>
     </UnlockedMod>
-	<UnlockedMod>
-		<ModuleUID>AdvancedFShield</ModuleUID>
-	</UnlockedMod>			
+    <UnlockedMod>
+      <ModuleUID>AdvancedFShield</ModuleUID>
+    </UnlockedMod>		
   </ModulesUnlocked>
   <BuildingsUnlocked>
-    <UnlockedBuilding>
-      <Name>Colony Shield</Name>
-    </UnlockedBuilding>
   </BuildingsUnlocked>
   <BonusUnlocked />
   <TroopsUnlocked />
