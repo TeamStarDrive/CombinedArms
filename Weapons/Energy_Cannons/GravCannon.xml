@@ -26,14 +26,17 @@
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
 
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>disruptor</fireCueName>
+  <fireCueName>sd_mech_attack_03</fireCueName>
   
   <!-- Animation Information -->
-  <Animated>1</Animated>
-  <Scale>2</Scale>
+  <!--  will use single texture till the issue with aspect ratio of anims be resolved
+  
+      <Animated>1</Animated>
   <Frames>23</Frames>
   <AnimationPath>Pulse_Blue/Pulse_Blue_cc_</AnimationPath>
-  <LoopAnimation>1</LoopAnimation>   
+  <LoopAnimation>1</LoopAnimation>
+  -->
+  <Scale>1.6</Scale>   
   <ProjectileRadius>8</ProjectileRadius>  
   <!-- Projectile Information -->
   <DamageAmount>6500</DamageAmount>
@@ -41,8 +44,8 @@
   <explodes>true</explodes>
   <DamageRadius>40</DamageRadius>
   <Light>Blue</Light>
-  <ProjectileTexturePath>projTear_01_red</ProjectileTexturePath>
-  <ModelPath>projTear</ModelPath>
+  <ProjectileTexturePath>projLong_02_red</ProjectileTexturePath>
+  <ModelPath>projLong</ModelPath>
   <WeaponEffectType>DisruptorCannon</WeaponEffectType>
   <EffectVSShields>0.5</EffectVSShields>
   <SalvoCount>2</SalvoCount>
