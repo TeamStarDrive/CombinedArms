@@ -2,27 +2,27 @@
   <UID>AC</UID>
   <Tag_Cannon>true</Tag_Cannon>
   <Tag_Kinetic>true</Tag_Kinetic>
-  <fireDelay>2.9</fireDelay>
+  <fireDelay>1.4</fireDelay>
   <Range>3600</Range>
   <PowerRequiredToFire>35</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.8</OrdinanceRequiredToFire>
-  <SalvoCount>6</SalvoCount>
-  <SalvoTimer>0.6</SalvoTimer>
+  <SalvoCount>3</SalvoCount>
+  <SalvoTimer>0.4</SalvoTimer>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
   <fireCueName>sd_weapon_torpedo_01</fireCueName>
 
   <!-- Projectile Information -->
-  <DamageAmount>100</DamageAmount>
-  <Scale>.8</Scale>
+  <DamageAmount>150</DamageAmount>
+  <Scale>0.8</Scale>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1950</ProjectileSpeed>
-  
-  <FakeExplode>true</FakeExplode>
+  <EffectVsArmor>0.3</EffectVsArmor>
+  <ShieldPenChance>25</ShieldPenChance>
   <ProjectileTexturePath>projTear_01_blue_dual</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
-  <WeaponType>Repeater Turret</WeaponType>
-  <FireCone>8</FireCone>
-  <ProjectileRadius>10</ProjectileRadius>
+  <WeaponType>Phased Defense</WeaponType>
+  <FireCone>6</FireCone>
+  <ProjectileRadius>16</ProjectileRadius>
   <WeaponEffectType>MuzzleSmoke</WeaponEffectType>  
 </Weapon>

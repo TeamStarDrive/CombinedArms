@@ -8,15 +8,15 @@
   <fireDelay>0.5</fireDelay>
   <Range>1300</Range>
   <PowerRequiredToFire>1</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0.1</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>0.15</OrdinanceRequiredToFire>
 
 
   <!-- name of XACT audio cue to play on firing this weapon -->
   <fireCueName>sd_weapon_vulcan_alt02_01</fireCueName>
   <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
   <!-- Projectile Information -->
-  <DamageAmount>15</DamageAmount>
-  <Scale>.6</Scale>
+  <DamageAmount>30</DamageAmount>
+  <Scale>0.6</Scale>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1800</ProjectileSpeed>
   <EffectVsArmor>3</EffectVsArmor>
@@ -24,10 +24,11 @@
   <ProjectileTexturePath>projTear_03_red</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <ProjectileCount>1</ProjectileCount>
-  <SalvoCount>5</SalvoCount>
+  <SalvoCount>6</SalvoCount>
   <SalvoTimer>0.4</SalvoTimer>  
   <!--the projectile count is spread over the fire arc-->
   <FireCone>2</FireCone>
+  <ShieldPenChance>50</ShieldPenChance>
   <WeaponType>Ballistic Cannon</WeaponType>
   <WeaponEffectType>MuzzleSmoke</WeaponEffectType>
 </Weapon>

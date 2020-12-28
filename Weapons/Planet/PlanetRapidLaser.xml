@@ -3,7 +3,7 @@
   <Tag_Energy>true</Tag_Energy>
 
   <UID>PlanetRapidLaser</UID>
-  <fireDelay>0.1</fireDelay>
+  <fireDelay>0.3</fireDelay>
   <Range>4000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   
@@ -13,7 +13,7 @@
  <!-- <ToggleSoundName>sd_weapon_vulcan_spinloop_01</ToggleSoundName> -->
   <MuzzleFlash>Yes</MuzzleFlash>
   <!-- Projectile Information -->
-  <DamageAmount>100</DamageAmount>  
+  <DamageAmount>200</DamageAmount>  
   <Scale>1.2</Scale>
   <Light>Blue</Light>
   <ProjectileSpeed>2500</ProjectileSpeed>
@@ -22,6 +22,5 @@
   <ProjectileTexturePath>projPulse_01_blue_1</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>  
   <WeaponType>Energy Cannon</WeaponType>
-  <FireCone>0</FireCone>
-
+  <FireCone>1</FireCone>
 </Weapon>

@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <UID>Suppressive Fire HEAP</UID>
+  <UID>Phased Defense II</UID>
   <TechnologyType>ShipWeapons</TechnologyType>
-  <Cost>4200</Cost>
+  <Cost>1200</Cost>
   <RootNode>0</RootNode>
-  <Name>Suppressive Fire HEAP</Name>
-  <NameIndex>5361</NameIndex>
-  <DescriptionIndex>5362</DescriptionIndex>
-  <LongDescription>Suppressive Fire HEAP</LongDescription>
-  <LeadsTo />
+  <Name>Phased Defense II</Name>
+  <NameIndex>5359</NameIndex>
+  <DescriptionIndex>5360</DescriptionIndex>
+  <LongDescription>Suppressive Fire AP</LongDescription>
+  <LeadsTo>
+    <LeadsToTech>
+      <UID>Phased Defense III</UID>
+    </LeadsToTech>
+  </LeadsTo>
   <ModulesUnlocked>
     <UnlockedMod>
-      <ModuleUID>LightACHEAP</ModuleUID>
+      <ModuleUID>LightACAP</ModuleUID>
     </UnlockedMod>
     <UnlockedMod>
-      <ModuleUID>AutoCannonHEAP</ModuleUID>
+      <ModuleUID>AutoCannonAP</ModuleUID>
     </UnlockedMod>
     <UnlockedMod>
-      <ModuleUID>DroneCannon1x1HE</ModuleUID>
+      <ModuleUID>DroneCannon1x1AP</ModuleUID>
     </UnlockedMod>		
   </ModulesUnlocked>
   <BuildingsUnlocked />
