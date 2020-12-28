@@ -3,30 +3,29 @@
   <Tag_Cannon>true</Tag_Cannon>
   <Tag_Kinetic>true</Tag_Kinetic>
   <Tag_Explosive>true</Tag_Explosive>
-  <fireDelay>3.5</fireDelay>
+  <fireDelay>1.25</fireDelay>
   <Range>3000</Range>
   <PowerRequiredToFire>20</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0.8</OrdinanceRequiredToFire>
-  <SalvoCount>6</SalvoCount>
-  <SalvoTimer>0.4</SalvoTimer>
+  <OrdinanceRequiredToFire>0.6</OrdinanceRequiredToFire>
+  <SalvoCount>3</SalvoCount>
+  <SalvoTimer>0.3</SalvoTimer>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
   <fireCueName>sd_weapon_Turretgun_001</fireCueName>
 
   <!-- Projectile Information -->
-  <DamageAmount>80</DamageAmount>
-  <EffectVsArmor>1.8</EffectVsArmor>
+  <DamageAmount>100</DamageAmount>
+  <EffectVsArmor>0.5</EffectVsArmor>
   <DamageRadius>30</DamageRadius>
+  <ShieldPenChance>40</ShieldPenChance>
   <explodes>true</explodes>
-  <Scale>.7</Scale>
+  <Scale>0.7</Scale>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1950</ProjectileSpeed>
-  
-  <FakeExplode>true</FakeExplode>
   <ProjectileTexturePath>projTear_01_orange</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
-  <WeaponType>Repeater Turret</WeaponType>
+  <WeaponType>Phased Defense</WeaponType>
   <WeaponEffectType>MuzzleSmokeFire</WeaponEffectType>  
-  <FireCone>5</FireCone>
+  <FireCone>4</FireCone>
   <ProjectileRadius>4</ProjectileRadius>
 </Weapon>

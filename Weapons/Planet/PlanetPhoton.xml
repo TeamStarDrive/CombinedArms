@@ -4,7 +4,7 @@
   <Tag_Explosive>true</Tag_Explosive>  
 
   <UID>PlanetPhoton</UID>
-  <fireDelay>0.8</fireDelay>
+  <fireDelay>1</fireDelay>
   <Range>4800</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.9</OrdinanceRequiredToFire>
@@ -18,13 +18,14 @@
   <MuzzleFlash>Yes</MuzzleFlash>
   <!-- Projectile Information -->
   <Excludes_Fighters>true</Excludes_Fighters>    
-  <DamageAmount>500</DamageAmount>  
+  <DamageAmount>400</DamageAmount>  
   <Scale>1.7</Scale>
   <ProjectileSpeed>3000</ProjectileSpeed>
   <ProjectileRadius>8</ProjectileRadius> 
   <explodes>true</explodes>
    <ExplosionType>Photon</ExplosionType>
   <DamageRadius>25</DamageRadius>
+  <Excludes_Fighters>true</Excludes_Fighters>  
   
   <Animated>1</Animated>
   <Light>Blue</Light>
@@ -35,6 +36,6 @@
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>  
   <WeaponType>Energy Cannon</WeaponType>
-  <FireCone>5</FireCone>
+  <FireCone>1</FireCone>
 
 </Weapon>

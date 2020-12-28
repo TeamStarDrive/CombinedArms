@@ -22,8 +22,8 @@
   <Excludes_Fighters>true</Excludes_Fighters>  
   <Excludes_Corvettes>true</Excludes_Corvettes>   
   
-  <fireDelay>8</fireDelay>
-  <Range>50000</Range>
+  <fireDelay>7</fireDelay>
+  <Range>30000</Range>
   <HitPoints>250</HitPoints>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>10</OrdinanceRequiredToFire>
@@ -33,15 +33,19 @@
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
   <!-- Projectile Information -->
   <DamageAmount>1850</DamageAmount>
-  <ProjectileSpeed>1850</ProjectileSpeed>
+  <ProjectileSpeed>2000</ProjectileSpeed>
+  <DelayedIgnition>1</DelayedIgnition>
+  <MirvWeapon>CPMissileMirv</MirvWeapon>
+  <MirvWarheads>3</MirvWarheads>
+  <MirvSeparationDistance>4000</MirvSeparationDistance>    
   <explodes>true</explodes>
   <DamageRadius>90</DamageRadius>
   <Light>Red</Light>
-  <ModelPath>torpedo</ModelPath>
-  <ProjectileTexturePath>missile_d</ProjectileTexturePath>
+  <ModelPath>LRM</ModelPath>
+  <ProjectileTexturePath>LRM_d</ProjectileTexturePath>
   <WeaponEffectType>RocketTrail</WeaponEffectType>
   <WeaponType>Missile</WeaponType>
   <ProjectileRadius>10</ProjectileRadius>
-  <Scale>2</Scale>
+  <Scale>3</Scale>
   <CanCollideProjectiles>true</CanCollideProjectiles>
 </Weapon>
