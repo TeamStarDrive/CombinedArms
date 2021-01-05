@@ -27,7 +27,7 @@
   <ProjectileCount>1</ProjectileCount>  
   <DamageAmount>40</DamageAmount>
   <ProjectileSpeed>2500</ProjectileSpeed>
-  <DamageRadius>40</DamageRadius>
+  <DamageRadius>100</DamageRadius>
   <explodes>true</explodes>
   <ProjectileTexturePath>missile_d</ProjectileTexturePath>
   <ModelPath>missile</ModelPath>
@@ -36,5 +36,6 @@
   <FireCone>0</FireCone>
   <ProjectileRadius>40</ProjectileRadius>
   <CanCollideProjectiles>true</CanCollideProjectiles>
+  <RotationRadsPerSecond>6</RotationRadsPerSecond>
   <Scale>0.6</Scale>
 </Weapon>

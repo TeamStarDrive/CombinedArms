@@ -1,29 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <UID>Phased Ordnance</UID>
+  <UID>SmartMissiles</UID>
   <TechnologyType>ShipWeapons</TechnologyType>
-  <Cost>5400</Cost>
+  <Cost>3000</Cost>
   <RootNode>0</RootNode>
-  <Name>Phased Ordnance</Name>
-  <NameIndex>2007</NameIndex>
-  <DescriptionIndex>2008</DescriptionIndex>
+  <Name>SmartMissiles</Name>
+  <NameIndex>18072</NameIndex>
+  <DescriptionIndex>18073</DescriptionIndex>
   <LongDescription>See localization file</LongDescription>
   <LeadsTo>
-	<LeadsToTech>
-		<UID>Armor Piercing2</UID>
-	</LeadsToTech>   
+   <LeadsToTech>
+      <UID>ECM v2</UID>
+    </LeadsToTech>  
   </LeadsTo>
   <ModulesUnlocked />
   <BuildingsUnlocked />
   <BonusUnlocked>
     <UnlockedBonus>
-      <Name>Phased Ordnance</Name>
-      <BonusType>Weapon_ShieldPenetration</BonusType>
-      <Tags>
-        <string>Kinetic</string>
-      </Tags>
-      <Bonus>0.25</Bonus>
-      <BonusIndex>2009</BonusIndex>
+      <Name>Smart Missiles</Name>
+      <BonusIndex>18074</BonusIndex>
     </UnlockedBonus>
   </BonusUnlocked>
   <TroopsUnlocked />

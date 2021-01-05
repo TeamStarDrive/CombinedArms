@@ -25,7 +25,7 @@
   <TargetChangeTimer>0.9</TargetChangeTimer>
   <DamageAmount>60</DamageAmount>
   <ProjectileSpeed>2000</ProjectileSpeed>
-  <DamageRadius>80</DamageRadius>
+  <DamageRadius>120</DamageRadius>
   <explodes>false</explodes>
   <ProjectileTexturePath>missile_d</ProjectileTexturePath>
   <ModelPath>missile</ModelPath>
@@ -33,5 +33,6 @@
   <WeaponType>Missile</WeaponType>
   <ProjectileRadius>60</ProjectileRadius>
   <CanCollideProjectiles>true</CanCollideProjectiles>
+  <RotationRadsPerSecond>5</RotationRadsPerSecond>
   <Scale>0.8</Scale>
 </Weapon>
