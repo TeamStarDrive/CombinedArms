@@ -22,7 +22,7 @@
 
 <UID>Fighter ATCSM</UID>
 
-  <HitPoints>50</HitPoints>
+  <HitPoints>30</HitPoints>
   <fireDelay>5</fireDelay>
   <Range>3000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
@@ -30,18 +30,16 @@
   
 <!-- Projectile stats -->
   <ProjectileCount>1</ProjectileCount>
-  <FireArc>5</FireArc>             <!--for shotgun effect-->
   <DamageAmount>670</DamageAmount>
+  <ArmorPen>1</ArmorPen>
   <ProjectileSpeed>1200</ProjectileSpeed>
   <DamageRadius>36</DamageRadius>
   <SalvoCount>2</SalvoCount>
   <SalvoTimer>0.7</SalvoTimer>
-  <FireCone>5</FireCone>               <!--for salvos-->
   
   <ProjectileRadius>8</ProjectileRadius>
   <RotationRadsPerSecond>1</RotationRadsPerSecond>
 <!--Projectile atributes-->
-  <ArmourPen>0</ArmourPen>
   <ShieldPenChance>0</ShieldPenChance>
   <EffectVSShields>1</EffectVSShields>
   <EffectVsArmor>1.4</EffectVsArmor>

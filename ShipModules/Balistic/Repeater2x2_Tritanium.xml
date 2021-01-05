@@ -1,28 +1,28 @@
 ﻿<?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <Cost>8</Cost>
-  <TechLevel>1</TechLevel>
+  <Cost>29</Cost>
+  <TechLevel>7</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Turret</ModuleType>
   <XSIZE>2</XSIZE>
   <YSIZE>2</YSIZE>
-  <Name>Chaingun</Name>
+  <Name>Chaingun6</Name>
   <Restrictions>xO</Restrictions>
-  <UID>Repeater2x2</UID>
-  <IconTexturePath>Modules/Repeater_v2</IconTexturePath>
-  <Mass>75</Mass>
-  <Health>3060</Health>
-  <HealthMax>3060</HealthMax>
-  <RepairDifficulty>1</RepairDifficulty>
+  <UID>Repeater2x2_Tritanium</UID>
+  <IconTexturePath>Modules/Repeater_V2_Tritanium</IconTexturePath>
+  <Mass>56</Mass>
+  <Health>10800</Health>
+  <HealthMax>10800</HealthMax>
+  <RepairDifficulty>2.5</RepairDifficulty>
   <energyreq>0</energyreq>
   <Description>Chaingun</Description>
   <CrewRequired>12</CrewRequired>
   <CrewSupplied>0</CrewSupplied>
   <PowerDraw>4</PowerDraw>
 
-  <NameIndex>12001</NameIndex>
-  <DescriptionIndex>12002</DescriptionIndex>
+  <NameIndex>18075</NameIndex>
+  <DescriptionIndex>18076</DescriptionIndex>
 
 
   <!-- for shield items -->
@@ -33,20 +33,24 @@
   <shield_radius>0</shield_radius>
   <radius>0</radius>
 
+  <!-- Armor resistance -->
+  <KineticResist>0.45</KineticResist>
+  <BeamResist>0.45</BeamResist>  
+  <EnergyResist>0.35</EnergyResist>  
+  <ExplosiveResist>0.25</ExplosiveResist>	      
+  <HybridResist>0.9</HybridResist>
+  <DamageThreshold>225</DamageThreshold>
   <!-- for PowerPlant Items -->
   <explodes>false</explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
-  <DamageThreshold>23</DamageThreshold>
-  <HybridResist>0.05</HybridResist>
+  
   <!-- for Weapons -->
-  <WeaponType>Repeater</WeaponType>
+  <WeaponType>RepeaterTritanium</WeaponType>
   <FieldOfFire>120</FieldOfFire>
   <OrdinanceCapacity>4</OrdinanceCapacity>
   
   <!-- for Engines -->
   <thrust>0</thrust>
-  
-  
-
+  <APResist>3</APResist>  
 </ShipModule>

@@ -22,27 +22,19 @@
 
   <HitPoints>70</HitPoints>
   <fireDelay>7</fireDelay>
-  <Range>4000</Range>
+  <Range>1200</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>7</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
-  <ProjectileCount>1</ProjectileCount>
-  <FireArc>15</FireArc>             <!--for shotgun effect-->
   <DamageAmount>800</DamageAmount>
-  <ProjectileSpeed>950</ProjectileSpeed>
+  <ProjectileSpeed>900</ProjectileSpeed>
   <DamageRadius>40</DamageRadius>
-  <SalvoCount>1</SalvoCount>
-  <SalvoTimer>0</SalvoTimer>
-  <FireCone>15</FireCone>               <!--for salvos-->
   
   <ProjectileRadius>10</ProjectileRadius>
   <RotationRadsPerSecond>0.8</RotationRadsPerSecond>
 <!--Projectile atributes-->
-  <ArmourPen>0</ArmourPen>
-  <ShieldPenChance>0</ShieldPenChance>
-  <EffectVSShields>1</EffectVSShields>
-  <EffectVsArmor>1</EffectVsArmor>
+  <ArmorPen>1</ArmorPen>
   <Scale>0.6</Scale>
   <explodes>true</explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>

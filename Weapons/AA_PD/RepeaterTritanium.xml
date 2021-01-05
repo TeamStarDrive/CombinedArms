@@ -3,7 +3,7 @@
   <Tag_Kinetic>true</Tag_Kinetic>
   <Tag_PD>true</Tag_PD>  
   
-  <UID>RepeaterComposite</UID>
+  <UID>RepeaterTritanium</UID>
   <fireDelay>1</fireDelay>
   <Range>1600</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
@@ -17,16 +17,16 @@
   <!--<PlaySoundOncePerSalvo>true</PlaySoundOncePerSalvo> -->
   <dieCue></dieCue>
   <!-- Projectile Information -->
-  <DamageAmount>45</DamageAmount>
+  <DamageAmount>60</DamageAmount>
   <Scale>.6</Scale>
   <MuzzleFlash>Yes</MuzzleFlash>
-  <ProjectileSpeed>2300</ProjectileSpeed>
+  <ProjectileSpeed>2500</ProjectileSpeed>
   <DamageRadius>0</DamageRadius>
-  <ProjectileRadius>16</ProjectileRadius>   
+  <ProjectileRadius>20</ProjectileRadius>   
 
   <explodes>false</explodes>
   <ProjectileTexturePath>projLong_01_red</ProjectileTexturePath>
   <ModelPath>projLong</ModelPath>
   <WeaponType>Armored Defense</WeaponType>
-  <FireCone>3</FireCone>
+  <FireCone>2</FireCone>
 </Weapon>

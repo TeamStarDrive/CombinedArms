@@ -8,7 +8,7 @@
   <Tag_Hybrid>false</Tag_Hybrid>
   <Tag_Beam>false</Tag_Beam>
   <Tag_Intercept>true</Tag_Intercept>
-  <Tag_Explosive>true</Tag_Explosive>
+  <Tag_Explosive>true</Tag_Explosive>	
   <Tag_Bomb>false</Tag_Bomb>
   <Tag_BioWeapon>false</Tag_BioWeapon>
   <Tag_Warp>false</Tag_Warp>
@@ -29,18 +29,13 @@
   
 <!-- Projectile stats -->
   <ProjectileCount>1</ProjectileCount>
-  <FireArc>15</FireArc>             <!--for shotgun effect-->
   <DamageAmount>7000</DamageAmount>
   <ProjectileSpeed>950</ProjectileSpeed>
   <DamageRadius>110</DamageRadius>
-  <SalvoCount>1</SalvoCount>
-  <SalvoTimer>0</SalvoTimer>
-  <FireCone>15</FireCone>               <!--for salvos-->
-  
   <ProjectileRadius>15</ProjectileRadius>
   <RotationRadsPerSecond>0.7</RotationRadsPerSecond>
 <!--Projectile atributes-->
-  <ArmourPen>0</ArmourPen>
+  <ArmorPen>2</ArmorPen>
   <ShieldPenChance>0</ShieldPenChance>
   <EffectVSShields>1</EffectVSShields>
   <EffectVsArmor>1</EffectVsArmor>

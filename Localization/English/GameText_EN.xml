@@ -1806,7 +1806,7 @@
 		</Token>
 		<Token>
 			<Index>5354</Index>
-			<Text>We can now modify our Gauss Cannon projectile to use armor piercing components while maintaining almost the same accuracy and speed.</Text>
+			<Text>We can now modify our Gauss Cannon projectile to use armor penetrating components while maintaining almost the same accuracy and speed.</Text>
 		</Token>
 		<Token>
 			<Index>5355</Index>
@@ -2050,7 +2050,7 @@
 		</Token>
 		<Token>
 			<Index>5425</Index>
-			<Text>The Repeater shotgun is a close combat weapon, and a close cousin to the Flechette shotgun. It fires non-stop until it either runs out of ammo or destroys its target.</Text>
+			<Text>The Repeater shotgun is a close combat weapon, and a close cousin to the Flechette shotgun. It fires non-stop until it either runs out of ammo or destroys its target. It also has Light Armor Penetration ability, though not so good vs. armor it cannot penatrate.</Text>
 		</Token>
 		<Token>
 			<Index>5426</Index>
@@ -2231,7 +2231,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>5470</Index>
-			<Text>The Magnetic Accelerator Cannon is an immensely powerful weapon, capable of destroying small vessels in one shot, whether they have shields or not. Because it is so large, heavy, and power hungry, only Titan class ships should use these.</Text>
+			<Text>The Magnetic Accelerator Cannon is an immensely powerful weapon, capable of destroying small vessels in one shot, whether they have shields or not. It also features high Armor Penetration ability.</Text>
 		</Token>
 		<Token>
 			<Index>5471</Index>
@@ -4226,7 +4226,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8208</Index>
-			<Text>This torpedo tube launches slow-moving but devastating torpedoes, packed to the hilt with explosives.  They require substantial ordnance to fire and can be intercepted by point defense weapons.</Text>
+			<Text>This torpedo tube launches slow-moving but devastating torpedoes, packed to the hilt with explosives. They require substantial ordnance to fire and can be intercepted by point defense weapons.</Text>
 		</Token>
 		<Token>
 			<Index>8209</Index>
@@ -6837,11 +6837,11 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>		
 		<Token>
 			<Index>17830</Index>
-			<Text>Ballistic and Missile weapons will pass through the first Medium sized armor (or 2 small) module encountered. The armor will take no damage.</Text>
+			<Text>Kinetic projectiles will pass through the first Medium sized armor (or 2 small) module encountered. The armor will take no damage.</Text>
 		</Token>		
 		<Token>
 			<Index>17831</Index>
-			<Text>Ballistic and Missile weapons will pass through the first Large sized armor (or 3 small) module encountered. The armor will take no damage.</Text>
+			<Text>Kinetic projectiles will pass through the first Large sized armor (or 3 small) module encountered. The armor will take no damage.</Text>
 		</Token>		
 		<!-- fighter Rockets -->
 		<Token>
@@ -7196,11 +7196,11 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 		  <Index>17916</Index> <!-- Secret -->
-		  <Text>An Energy gatling weapon. Designed to continuously rotate massive barrel heads to prevent overheating from rapid fire.</Text>
+		  <Text>An Energy gatling weapon. Designed to continuously rotate massive barrel heads to prevent overheating due to rapid fire.</Text>
 		</Token>
 		<Token>
 		  <Index>17917</Index> <!-- Secret -->
-		  <Text>R.A.D. can shoot in rapid succession, so long as the ship can provide the needed power.</Text>
+		  <Text>R.A.D. can shoot Armor Penetating rounds in rapid succession, so long as the ship can provide the needed power.</Text>
 		</Token>
         <!-- ScrappyBeam --> 
 		<Token>
@@ -7762,5 +7762,14 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 			<Index>18074</Index> 
 			<Text>Our missiles will now  seek new targets if their original target is not valid.</Text>
 		</Token>						
+		<!-- Tratanium HMG -->
+		<Token>
+			<Index>18075</Index>
+			<Text>Tritanium HMG Defense Turret</Text>
+		</Token>
+		<Token>
+			<Index>18076</Index>
+			<Text>A Heavy Machine Gun turret mounted on a Tritanium Armor plate for added durability. An effective weapon against fighters and missiles. It has 60% of the strength and 75% Deflection of the non weapon Armor plate.</Text>
+		</Token>								
 	</TokenList>
 </LocalizationFile>
