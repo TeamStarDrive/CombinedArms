@@ -12,14 +12,14 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
 
-  <Cost>188</Cost>
+  <Cost>60</Cost>
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
   <Name>Cruisers VOB</Name>
   <XSIZE>2</XSIZE>
-  <YSIZE>5</YSIZE>
-  <Restrictions>O</Restrictions>
+  <YSIZE>4</YSIZE>
+  <Restrictions>OE</Restrictions>
   <UID>Cruisers VOB</UID>
   <IconTexturePath>Modules/Cruisers VOB</IconTexturePath>
   <Mass>63</Mass>
@@ -38,25 +38,25 @@
   <DescriptionIndex>8068</DescriptionIndex>
 
   <!-- for shield items -->
-  <shield_power>2904</shield_power>
-  <shield_power_max>2904</shield_power_max>
+  <shield_power>3000</shield_power>
+  <shield_power_max>3000</shield_power_max>
   <shield_recharge_delay>5</shield_recharge_delay>
   <shield_recharge_rate>12</shield_recharge_rate>
   <shield_radius>28</shield_radius>
 
   <!-- for PowerPlant Items -->
   <explodes>true</explodes>
-  <ExplosionDamage>1500</ExplosionDamage>
-  <ExplosionRadius>64</ExplosionRadius>
+  <ExplosionDamage>1000</ExplosionDamage>
+  <ExplosionRadius>48</ExplosionRadius>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
 
   <!-- for Engines -->
-  <thrust>40702</thrust>
-  <WarpThrust>107111</WarpThrust>
+  <thrust>45000</thrust>
+  <WarpThrust>110000</WarpThrust>
   <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>40702</TurnThrust>
+  <TurnThrust>20000</TurnThrust>
 
 </ShipModule>

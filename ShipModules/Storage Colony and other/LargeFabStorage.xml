@@ -12,7 +12,7 @@
   <!-- common traits shared by all ship modules -->
   <XSIZE>3</XSIZE>
   <YSIZE>3</YSIZE>
-  <ModuleType>Storage</ModuleType>
+  <ModuleType>Ordnance</ModuleType>
   <Name>Large Fabricator and Storage</Name>
   <Restrictions>I</Restrictions>
   <UID>LargeFabStorage</UID>
@@ -35,7 +35,7 @@
 
 
   <OrdnanceAddedPerSecond>5</OrdnanceAddedPerSecond>
-  <OrdinanceCapacity>8</OrdinanceCapacity>
+  <!-- Do not add Ordnance Capacity if this mmodule has the ModulyType is Ordnance, since ordnance modules reduce mass as ordnance is expended -->
 
   <!-- Crew Reqs -->
   <CrewRequired>0</CrewRequired>

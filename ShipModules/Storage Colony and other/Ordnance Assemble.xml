@@ -10,7 +10,7 @@
   <!-- common traits shared by all ship modules -->
   <XSIZE>4</XSIZE>
   <YSIZE>4</YSIZE>
-  <ModuleType>Storage</ModuleType>
+  <ModuleType>Ordnance</ModuleType>
   <Name>Ordnance Assemble</Name>
   <Restrictions>I</Restrictions>
   <UID>Ordnance Assemble</UID>
@@ -32,7 +32,7 @@
 
 
   <OrdnanceAddedPerSecond>12</OrdnanceAddedPerSecond>
-  <OrdinanceCapacity>24</OrdinanceCapacity>
+  <!-- Do not add Ordnance Capacity if this mmodule has the ModulyType is Ordnance, since ordnance modules reduce mass as ordnance is expended -->
 
   <!-- for shield items -->
   <shield_power>0</shield_power>

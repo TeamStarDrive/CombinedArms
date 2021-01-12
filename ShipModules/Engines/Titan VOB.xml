@@ -11,14 +11,14 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
 
-  <Cost>419</Cost>
+  <Cost>120</Cost>
   <TechLevel>4</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
   <Name>Titan VOB</Name>
   <XSIZE>3</XSIZE>
   <YSIZE>6</YSIZE>
-  <Restrictions>O</Restrictions>
+  <Restrictions>OE</Restrictions>
   <UID>Titan VOB</UID>
   <IconTexturePath>Modules/Titan VOB</IconTexturePath>
   <Mass>140</Mass>
@@ -37,23 +37,20 @@
   <DescriptionIndex>8098</DescriptionIndex>
 
   <!-- for shield items -->
-  <shield_power>7906</shield_power>
-  <shield_power_max>7906</shield_power_max>
+  <shield_power>8000</shield_power>
+  <shield_power_max>8000</shield_power_max>
   <shield_recharge_delay>5</shield_recharge_delay>
   <shield_recharge_rate>32</shield_recharge_rate>
   <shield_radius>46</shield_radius>
 
   <!-- for PowerPlant Items -->
   <explodes>true</explodes>
-  <ExplosionDamage>4000</ExplosionDamage>
-  <ExplosionRadius>96</ExplosionRadius>
+  <ExplosionDamage>3000</ExplosionDamage>
+  <ExplosionRadius>80</ExplosionRadius>
   
   <!-- for Weapons -->
-  
   <!-- for Engines -->
-  <thrust>92495</thrust>
-  <WarpThrust>243409</WarpThrust>
-  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>92495</TurnThrust>
-
+  <thrust>93000</thrust>
+  <WarpThrust>250000</WarpThrust>
+  <TurnThrust>50000</TurnThrust>
 </ShipModule>

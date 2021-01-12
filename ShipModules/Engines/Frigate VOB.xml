@@ -8,14 +8,14 @@
   <CruiserModule>false</CruiserModule>
   <CarrierModule>false</CarrierModule>
   <CapitalModule>false</CapitalModule>
-  <Cost>380</Cost>
+  <Cost>30</Cost>
   <TechLevel>2</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
   <Name>Frigate VOB</Name>
-  <XSIZE>2</XSIZE>
-  <YSIZE>4</YSIZE>
-  <Restrictions>O</Restrictions>
+  <XSIZE>1</XSIZE>
+  <YSIZE>3</YSIZE>
+  <Restrictions>OE</Restrictions>
   <UID>Frigate VOB</UID>
   <IconTexturePath>Modules/Frigate VOB</IconTexturePath>
   <Mass>63</Mass>
@@ -48,12 +48,8 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-
-  
   <!-- for Engines -->
-  <thrust>29694</thrust>
-  <WarpThrust>106050</WarpThrust>
-  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>50904</TurnThrust>
-
+  <thrust>25000</thrust>
+  <WarpThrust>100000</WarpThrust>
+  <TurnThrust>5000</TurnThrust>
 </ShipModule>

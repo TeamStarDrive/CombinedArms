@@ -21,7 +21,7 @@
   <fireDelay>1.5</fireDelay>
   <Range>2700</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0.5</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>0.6</OrdinanceRequiredToFire>
 
   <!-- name of XACT audio cue to play on firing this weapon -->
   <fireCueName>sd_weapon_flakcannon_01</fireCueName>
@@ -29,7 +29,7 @@
   <!-- Projectile Information -->
   <DamageAmount>180</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
-  <ProjectileSpeed>750</ProjectileSpeed>
+  <ProjectileSpeed>800</ProjectileSpeed>
 
 
   <FakeExplode>true</FakeExplode>
@@ -43,6 +43,6 @@
   <SalvoTimer>1.2</SalvoTimer>
   <ProjectileCount>1</ProjectileCount>
   <!--the projectile count is spread over the fire arc-->
-  <FireCone>7</FireCone>
+  <FireCone>5</FireCone>
   <WeaponType>Ballistic Cannon</WeaponType>
 </Weapon>

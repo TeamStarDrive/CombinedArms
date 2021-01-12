@@ -18,12 +18,12 @@
   <Tag_Cannon>true</Tag_Cannon>
   
   <UID>VulcanCannon</UID>
-  <fireDelay>3.5</fireDelay>
+  <fireDelay>4</fireDelay>
   <Range>1150</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0.15</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>0.1</OrdinanceRequiredToFire>
   <SalvoCount>15</SalvoCount>
-  <SalvoTimer>1.5</SalvoTimer>
+  <SalvoTimer>1</SalvoTimer>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
   <fireCueName>sd_weapon_vulcan_alt03_03</fireCueName>
@@ -32,7 +32,7 @@
 
   <!-- Projectile Information -->
   <DamageAmount>20</DamageAmount>
-  <Scale>.7</Scale>
+  <Scale>0.7</Scale>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1100</ProjectileSpeed>
   
@@ -41,6 +41,6 @@
   <ProjectileTexturePath>projPulse_01_yellow_1_small</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <WeaponType>Ballistic Cannon</WeaponType>
-  <FireCone>10</FireCone>
+  <FireCone>7</FireCone>
 
 </Weapon>

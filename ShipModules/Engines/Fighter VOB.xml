@@ -15,15 +15,14 @@
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
   <Name>Fighter VOB</Name>
-  <Restrictions>O</Restrictions>
+  <Restrictions>OE</Restrictions>
   <UID>Fighter VOB</UID>
   <IconTexturePath>Modules/Fighter VOB</IconTexturePath>
   <Mass>8</Mass>
   <Health>200</Health>
   <HealthMax>200</HealthMax>
   <RepairDifficulty>3</RepairDifficulty>
-  <PowerDraw>20</PowerDraw>
-
+  <PowerDraw>15</PowerDraw>
 
   <NameIndex>8131</NameIndex>
   <DescriptionIndex>8132</DescriptionIndex>
@@ -37,20 +36,14 @@
 
   <!-- for PowerPlant Items -->
   <explodes>true</explodes>
-  <ExplosionDamage>400</ExplosionDamage>
+  <ExplosionDamage>200</ExplosionDamage>
   <ExplosionRadius>32</ExplosionRadius>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
-  
+ 
   <!-- for Weapons -->
-
-  
-  
   <!-- for Engines -->
-  <thrust>3675</thrust>
-  <WarpThrust>13125</WarpThrust>
-    <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>6300</TurnThrust>
-  <FightersOnly>true</FightersOnly>
-
+  <thrust>3600</thrust>
+  <WarpThrust>13250</WarpThrust>
+  <TurnThrust>6500</TurnThrust>
 </ShipModule>

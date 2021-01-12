@@ -62,11 +62,11 @@
 		</Token>
 		<Token>
 			<Index>419</Index>
-			<Text>Deep Core Mines are extremely effective at rapidly extracting minerals from deep within a planet's core, but are environmentally disastrous. Adds flat rate production equal to four times a planet's mineral richness but decreases a planet's fertility by 3!</Text>
+			<Text>Deep Core Mines are extremely effective at rapidly extracting minerals from deep within a planet's core, but are environmentally disastrous. Even with the best environmental tech, the planet's fertility would mostly drop to flat zero.</Text>
 		</Token>
 		<Token>
 			<Index>420</Index>
-			<Text> (-3) fertility on build, +production equal to 8 x richness, +50 storage</Text>
+			<Text> (-3) fertility on build, +15 Flat Production, +50 storage</Text>
 		</Token>		
 		<Token>
 			<Index>421</Index>
@@ -86,7 +86,7 @@
 		</Token>
 		<Token>
 			<Index>428</Index>
-			<Text>The Imperial Bank building increases the efficiency of your planetary tax operations by 40% and increases credits per colonist by 0.25.</Text>
+			<Text>The Imperial Bank building increases the efficiency of your planetary tax  and income operations</Text>
 		</Token>
 		<Token>
 			<Index>429</Index>
@@ -98,7 +98,7 @@
 		</Token>		
 		<Token>
 			<Index>431</Index>
-			`<Text>Imperial Offices allow for the direct taxation of the citizenry, granting incomes at a rate of 0.25 credits per colonist and +10% Tax per turn.</Text>
+			`<Text>Imperial Offices allow for the direct taxation of the citizenry, granting extra income per turn.</Text>
 		</Token>		
 		<Token>
 			<Index>432</Index>
@@ -117,12 +117,16 @@
 			<Text>Fires 3 long range missiles into orbit</Text>
 		</Token>		
 		<Token>
+		  <Index>448</Index>
+		  <Text>+20 Storage, +1 Infrastructure, +0.1 Production per Richness</Text>
+		</Token>				
+		<Token>
 			<Index>452</Index>
 			<Text>Research Lab</Text>
 		</Token>
 		<Token>
 			<Index>453</Index>
-			<Text>A dedicated research lab allows colonists to begin in earnest the study of their new home.  Provides a flat +0.5 per turn research bonus to any colony. </Text>
+			<Text>A dedicated research lab allows colonists to begin in earnest the study of their new home.</Text>
 		</Token>
 		<Token>
 			<Index>454</Index>
@@ -134,7 +138,7 @@
 		</Token>
 		<Token>
 			<Index>456</Index>
-			<Text>Manned and automated rovers provide indispensable labor savings to fledgling colonies, increasing the production of the colony with a flat +1 production bonus and some storage.</Text>
+			<Text>Small, automated rovers provide indispensable labor savings to fledgling colonies, slightly increasing the production of the colony regardless of the planet's Mineral Richness and without damaging the environment.</Text>
 		</Token>
 		<Token>
 			<Index>457</Index>
@@ -153,12 +157,16 @@
 			<Text>+50% tax revenues, allows ship construction, aids in ship repairs, adds some storage.</Text>
 		</Token>
 		<Token>
+		  <Index>468</Index>
+		  <Text>A simple building with a simple purpose, the warehouse provides an environmentally controlled facility where extra food and production can be stored.</Text>
+		</Token>		
+		<Token>
 			<Index>470</Index>
 			<Text>Xeno Farm</Text>
 		</Token>
 		<Token>
 			<Index>471</Index>
-			<Text>Xeno Farms are large complexes dedicated to the successful integration of our farming and husbandry techniques with alien soils and nutrients.  The production of this building scales with the number of farmers assigned on this planet. Provides +0.5 food per turn per assigned colonist. </Text>
+			<Text>Xeno Farms are large complexes dedicated to the successful integration of our farming and husbandry techniques with alien soils and nutrients. The production of this building scales with the number of farmers assigned on this planet.</Text>
 		</Token>
 		<Token>
 			<Index>472</Index>
@@ -170,11 +178,11 @@
 		</Token>
 		<Token>
 			<Index>474</Index>
-			<Text>Xeno mines are the first real step toward's exploiting a planet's mineral deposits, creating +.75 production per colonist assigned to industrial tasks.</Text>
+			<Text>Xeno mines are designed to exploit a planet's mineral deposits by mostly manual labor under the extreme conditions of various worlds.</Text>
 		</Token>
 		<Token>
 			<Index>475</Index>
-			<Text>+0.5 production per assigned colonist, +30 storage</Text>
+			<Text>+0.5 production per assigned colonist, +30 storage, +1 Infrastructure</Text>
 		</Token>
 		<Token>
 			<Index>503</Index>
@@ -184,6 +192,26 @@
             <Index>521</Index>
             <Text>Our most massive ships can deploy corvette-sized vessels from these gargantuan berths.  When these "battle raiders" are destroyed, however, there is no respawn until the mothership returns to a shipyard for resupply. </Text>
         </Token>		
+        <Token>
+            <Index>526</Index>
+            <Text>Canopy Shielding I</Text>
+        </Token>			
+		<Token>
+			<Index>552</Index>
+			<Text>Advanced Torpedoes</Text>
+		</Token>		
+		<Token>
+			<Index>553</Index>
+			<Text>Electromagnetic pulse torpedoes deliver a massive shock to the target. If it overcomes the target's EMP defense, the target will be stunned for variable time (depending on it's defense). Dissolver Torpedoes are programmed to launch MIRV missiles which will pass the target, turn around and try to hit it from behind.</Text>
+		</Token>
+		<Token>
+		  <Index>585</Index>
+		  <Text>Corvette Construction</Text>
+		</Token>		
+		<Token>
+		  <Index>587</Index>
+		  <Text>Heavy Shielding I</Text>
+		</Token>		
 		<Token>
 			<Index>599</Index>
 			<Text>Economic Foundations</Text>
@@ -217,6 +245,18 @@
 			<Text>Xeno Computing I</Text>
 		</Token>		 
 		<Token>
+		  <Index>705</Index>
+		  <Text>Xeno Mining I</Text>
+		</Token>		
+		<Token>
+		  <Index>910</Index>
+		  <Text>Small Power Cell</Text>
+		</Token>
+		<Token>
+		  <Index>911</Index>
+		  <Text>Power cells capture and store power from a ship's powerplant, increasing the ship's effective operational range as well as its stamina in combat.</Text>
+		</Token>		
+		<Token>
 			<Index>917</Index>
 			<Text>By creating massive shield projectors, we can envelop entire ships, including escort ships, inside a single shield bubble. The power costs are massive but our military scientists believe that we can create excellent screening ships with this technology.</Text>
 		</Token>
@@ -227,7 +267,11 @@
    		 <Token>
      		 <Index>921</Index>
       		 <Text>The combat information center consolidates all command and control functions into a single module. From here the crew can coordinate sensor data, manage damage control teams, organize shipboard defensive actions, and more. Provides ship wide bonuses to various system and small warp inhibitor bubble.</Text>
-    </Token>		
+        </Token>		
+		<Token>
+			<Index>925</Index>
+			<Text>This module contains all of the equipment, food, and colonists necessary to start a new colony on a distant world, including a small number of colonists as well as 5 food and 5 production to jump start their efforts. Colonizing a planet will consume the ship used to colonize, but if it carries troops, they will land on the planet. Cargo modules will add to the number of colonists the colony ship can load.</Text>
+		</Token>		
 		<Token>
 			<Index>949</Index>
 			<Text>A small shield developed specifically for our fighter and corvette ships. It is weaker than our medium shield generator, but still provides increasingly important protection for small craft. </Text>
@@ -236,6 +280,22 @@
             <Index>951</Index>
             <Text>This hangar bay supports a single fighter-class ship at a time(up to 24 slots).  If the fighter is destroyed in combat, it will respawn from this bay after a cooldown. You may designate which of your fighter designs launches from this bay in the ship design screen. </Text>
         </Token>		
+		<Token>
+		  <Index>958</Index>
+		  <Text>Medium Armored Power Cell</Text>
+		</Token>
+		<Token>	
+		  <Index>960</Index>
+		  <Text>Small Armored Power Cell</Text>
+		</Token>
+		<Token>
+		  <Index>961</Index>
+		  <Text>This armored Power Cell is reinforced in order to withstand more punishment in combat. It stores the same amount of power as basic power cells, but its mass in increased due to the Added reinforcement.</Text>
+		</Token>
+		<Token>		
+		  <Index>992</Index>
+		  <Text>Medium Power Cell</Text>
+		</Token>		
 		<Token>
 			<Index>996</Index>
 			<Text>MRM Mk2</Text>
@@ -250,7 +310,7 @@
 		</Token>
 		<Token>
 			<Index>999</Index>
-			<Text>Medium range multi-rocket launching system. It has a terminal phase system, meaning at a certain range from the target, the missile will disable the guidance system and will greatly accelerate to avoid interception.</Text>
+			<Text>We can improve our Terminal Missiles to pack more punch and speed, mounted on a larget turret which is capable of launching more missiles per salvo.</Text>
 		</Token>
 		<Token>
 			<Index>1000</Index>
@@ -454,7 +514,7 @@
 		</Token>
 		<Token>
 			<Index>2251</Index>
-			<Text>Improved MRM Platforms</Text>
+			<Text>Terminal Missiles II</Text>
 		</Token>
 		<!-- Third wave! to do manually -->
 		<Token>
@@ -1337,11 +1397,11 @@
 		</Token>
 		<Token>
 			<Index>5237</Index>
-			<Text>Large Fabricator and Storage</Text>
+			<Text>Large Fabricator</Text>
 		</Token>
 		<Token>
 			<Index>5238</Index>
-			<Text>This Facility is a large ordnance storage which has a dedicated fabricator module. It is very power hungry.</Text>
+			<Text>This Facility is a large, dedicated fabricator module. It is very power hungry, but can supply a lot of Ordnance.</Text>
 		</Token>
 		<Token>
 			<Index>5239</Index>
@@ -1530,27 +1590,27 @@
 		</Token>
 		<Token>
 			<Index>5285</Index>
-			<Text>Advanced LRM Platforms</Text>
+			<Text>MIRV III</Text>
 		</Token>
 		<Token>
 			<Index>5286</Index>
-			<Text>Better thrusters, faster missile engines, better targeting sensors, and increased payloads allow us to develop new LRM platforms.</Text>
+			<Text>Better thrusters, faster missile engines, better targeting sensors, and increased payloads allow us to develop new LRM platforms which will.</Text>
 		</Token>
 		<Token>
 			<Index>5287</Index>
-			<Text>Advanced MRM Systems</Text>
+			<Text>Terminal Missiles III</Text>
 		</Token>
 		<Token>
 			<Index>5288</Index>
-			<Text>We can focus our efforts on improving our medium range missiles arsenal. </Text>
+			<Text>We can develop a better and bigger Terminal Missile System which will saturate any Point Defense with large salvos.</Text>
 		</Token>
 		<Token>
 			<Index>5289</Index>
-			<Text>Improved LRM Platforms</Text>
+			<Text>MIRV II</Text>
 		</Token>
 		<Token>
 			<Index>5290</Index>
-			<Text>Better thrusters and improved targeting sensors allow us to develop new LRM systems.</Text>
+			<Text>We can develop a bigger and better MIRV system which will launch more missiles at the target.</Text>
 		</Token>
 		<Token>
 			<Index>5291</Index>
@@ -1578,7 +1638,7 @@
 		</Token>
 		<Token>
 			<Index>5297</Index>
-			<Text>Heavy Plasma Weapons</Text>
+			<Text>Plasma Weapons</Text>
 		</Token>
 		<Token>
 			<Index>5298</Index>
@@ -1786,7 +1846,7 @@
 		</Token>
 		<Token>
 			<Index>5349</Index>
-			<Text>Anti-fighter Missiles</Text>
+			<Text>Anti-Fighter Missiles I</Text>
 		</Token>
 		<Token>
 			<Index>5350</Index>
@@ -1866,7 +1926,7 @@
 		</Token>
 		<Token>
 			<Index>5374</Index>
-			<Text>Use this module in combination with the normal colonization module. This module contains a small manufacturing plant, providing a +0.5 bonus to production on the newly colonized planet.</Text>
+			<Text>Use this module in combination with the normal colonization module. This module contains a small manufacturing plant, providing a +0.25 bonus to production per richness of the newly colonized planet.</Text>
 		</Token>
 		<Token>
 			<Index>5375</Index>
@@ -1930,7 +1990,7 @@
 		</Token>
 		<Token>
 			<Index>5390</Index>
-			<Text>+0.5 flat production, +30 Storage</Text>
+			<Text>+0.25 Rroduction per Richness, +30 Storage</Text>
 		</Token>
 		<Token>
 			<Index>5391</Index>
@@ -2178,28 +2238,27 @@
 		</Token>
 		<Token>
 			<Index>5457</Index>
-			<Text>Velocity Stimulance I</Text>
+			<Text>Velocity Package I</Text>
 		</Token>
 		<Token>
 			<Index>5458</Index>
-			<Text>Velocity Stimulance II</Text>
+			<Text>Velocity Package II</Text>
 		</Token>
 		<Token>
 			<Index>5459</Index>
-			<Text>Velocity Stimulance III</Text>
+			<Text>Velocity Package III</Text>
 		</Token>
 		<Token>
 			<Index>5460</Index>
-			<Text>Velocity Stimulance IV</Text>
+			<Text>Velocity Package IV</Text>
 		</Token>
 		<Token>
 			<Index>5461</Index>
-			<Text>Velocity Stimulance V</Text>
+			<Text>Velocity PackageV</Text>
 		</Token>
 		<Token>
 			<Index>5462</Index>
-			<Text>As our control over the galaxy grows, we must improve our hyperspace and subspace travel times. 
-We are focusing on external thrusters and more integrated systems for fighter/corvettes.</Text>
+			<Text>As our control over the galaxy grows, we must improve our hyperspace and subspace travel times. We are focusing on external thrusters and more integrated systems for fighter/corvettes.</Text>
 		</Token>
 		<Token>
 			<Index>5463</Index>
@@ -2303,19 +2362,19 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>5488</Index>
-			<Text>Medium Range Missiles</Text>
+			<Text>Terminal Missiles I</Text>
 		</Token>
 		<Token>
 			<Index>5489</Index>
-			<Text>Multi purpose missiles are a military standard in space combat, they were created for trading fire with any ship.</Text>
+			<Text>Terminal Missiles use extra speed at the expense of guidance when they enter final phase, in order to overcome missiles defense systems. We can create a medium range missile which will take advantage of this technology.</Text>
 		</Token>
 		<Token>
 			<Index>5490</Index>
-			<Text>Long Range Support Missile.</Text>
+			<Text>MIRV I</Text>
 		</Token>
 		<Token>
 			<Index>5491</Index>
-			<Text>Long Range Support Missile turrets were created for vessels that can't go toe to toe with enemy heavy hitters. Ideal for Carriers so they can stay out of enemy range and contirbute to the battle.</Text>
+			<Text> Multiple Independent Reentry Vehicle. The term is taken from old planetary ballistic missiles. We can create a Long Range Missile (LRM) which will contain multiple missiles launched near the target in order to saturate the battlezone with smaller missiles and avoid Point Defense System.</Text>
 		</Token>
 		<!-- all new armor med and large description -->
 		<Token>
@@ -2938,7 +2997,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>6519</Index>
-			<Text>Tactical Nuke</Text>
+			<Text>Tactical Nukes</Text>
 		</Token>
 		<Token>
 			<Index>6520</Index>
@@ -3218,7 +3277,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>6589</Index>
-			<Text>ShapeMemory Alloys</Text>
+			<Text>Shape Memory Alloys</Text>
 		</Token>
 		<Token>
 			<Index>6590</Index>
@@ -3666,7 +3725,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8065</Index>
-			<Text>The Vanguard Over Boost (VOB) is a massive auxiliary high-speed booster, designed to be installed on the exterior of a ship. It provides massive forward thrust and small warp thrust, but no turn thrust. It also features an integrated shield for self defense.</Text>
+			<Text>The Vanguard Over Boost (VOB) is a massive auxiliary high-speed booster, designed to be installed on the exterior of a ship. It provides forward thrust, warp thrust and small amount of turn thrust. It also features an integrated shield for self defense.</Text>
 		</Token>
 		<Token>
 			<Index>8066</Index>
@@ -3678,11 +3737,11 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8068</Index>
-			<Text>The Vanguard Over Boost (VOB) is a massive auxiliary high-speed booster, designed to be installed on the exterior of a ship. It provides massive forward thrust and small warp thrust, but no turn thrust. It also features an integrated shield for self defense.</Text>
+			<Text>The Vanguard Over Boost (VOB) is a massive auxiliary high-speed booster, designed to be installed on the exterior of a ship. It provides forward thrust, warp thrust and small amount of turn thrust. It also features an integrated shield for self defense.</Text>
 		</Token>
 		<Token>
 			<Index>8069</Index>
-			<Text>The Vanguard Over Boost (VOB) is a massive auxiliary high-speed booster. A fast recharge shield has been installed for self protection. Can only be placed on the outside layer of the ship. Due to the high power draw and integrated systems, this module explodes when destroyed.</Text>
+			<Text>The Vanguard Over Boost (VOB) is a massive auxiliary high-speed booster, designed to be installed on the exterior of a ship. It provides forward thrust, warp thrust and small amount of turn thrust. It also features an integrated shield for self defense.</Text>
 		</Token>
 		<Token>
 			<Index>8070</Index>
@@ -3690,7 +3749,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8071</Index>
-			<Text>Industrial I</Text>
+			<Text>Xeno Mining II</Text>
 		</Token>
 		<Token>
 			<Index>8072</Index>
@@ -3702,15 +3761,15 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8074</Index>
-			<Text>Upgraded Xeno Mines exploit more of the planet's mineral deposits. Their byproducts can be sold in local markets, yielding income.</Text>
+			<Text>These mines are equipped with better technology for exploiting more of the planet's mineral deposits. Their byproducts can be sold in local markets, yielding small income.</Text>
 		</Token>
 		<Token>
 			<Index>8075</Index>
-			<Text>Industrial II</Text>
+			<Text>Invasive Mining</Text>
 		</Token>
 		<Token>
 			<Index>8076</Index>
-			<Text>Developing efficient automation is a crucial step required to push a higher production output from our colonies.</Text>
+			<Text>Developing efficient automation is a crucial step required to push a higher production output from our colonies, at a cost of environmental damage.</Text>
 		</Token>
 		<Token>
 			<Index>8077</Index>
@@ -3718,11 +3777,11 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8078</Index>
-			<Text>A Robotic Factory. A great technological marvel. These factories use robots for production, and are almost fully automated. They require very little sentient intervention. Products from these factories contribute to the farming industry, providing extra food. Assembled devices allow extra leisure time for the colonists, leading to increased revenue. Unfortunately, byproducts of the huge production lines affect the planet's climate. The factory also aids a little with the ship repair capacity of orbiting ships.</Text>
+			<Text>A Robotic Factory. A great technological marvel. These factories use robots for production and are fully automated. These factories exploit minerals without relation to the Planet's Mineral Richness, but this comes at a cost of putting major strain on the planet's environment.</Text>
 		</Token>
 		<Token>
 			<Index>8079</Index>
-			<Text> (-0.75) Fertility On Build, +4 production per turn, +1 food per turn, +15% tax, +100 storage, +1 Infrastructure</Text>
+			<Text> (-0.8) Fertility On Build, +3 production per Richness, +1 food per turn, +15% tax, +100 storage, +1 Infrastructure</Text>
 		</Token>
 		<Token>
 			<Index>8080</Index>
@@ -3730,11 +3789,11 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8081</Index>
-			<Text>Advanced Miniature Nanobots will automatically spread out underground, bringing minerals to the surface. Due to environmental effects, they are recommended to be built on mining colonies.</Text>
+			<Text>Advanced Nanobots will automatically spread out underground, bringing minerals to the surface. This has slight effect in the planet's environment, so caution is  advised before building it.</Text>
 		</Token>
 		<Token>
 			<Index>8082</Index>
-			<Text> (-0.3) Fertility On Build, +4 production per richness, +30 storage</Text>
+			<Text> (-0.2) Fertility On Build, +4 production per richness</Text>
 		</Token>
 		<Token>
 			<Index>8083</Index>
@@ -3754,7 +3813,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8087</Index>
-			<Text> (-0.2) Fertility On Build, +5 production per turn, +0.25 research per turn, +10% tax, +2 Infrastructure</Text>
+			<Text> (-0.2) Fertility On Build, +5 production per Turn, +0.25 research per turn, +10% tax, +2 Infrastructure</Text>
 		</Token>
 		<Token>
 			<Index>8091</Index>
@@ -3770,7 +3829,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8094</Index>
-			<Text>Upgraded Xeno Farms use even more advanced farming and husbandry techniques on alien soil. Byproducts of Upgraded Xeno Farms can be sold, adding taxable income to the colony.</Text>
+			<Text>Upgraded Xeno Farms use even more advanced farming and husbandry techniques on alien soil.</Text>
 		</Token>
 		<Token>
 			<Index>8095</Index>
@@ -3778,7 +3837,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8096</Index>
-			<Text>The Vanguard Over Boost (VOB) is a massive auxiliary high-speed booster, designed to be installed on the exterior of a ship. It provides massive forward thrust and small warp thrust, but no turn thrust. It also features an integrated shield for self defense.</Text>
+			<Text>The Vanguard Over Boost (VOB) is a massive auxiliary high-speed booster, designed to be installed on the exterior of a ship. It provides forward thrust, warp thrust and small amount of turn thrust. It also features an integrated shield for self defense.</Text>
 		</Token>
 		<Token>
 			<Index>8097</Index>
@@ -3786,7 +3845,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8098</Index>
-			<Text>The Vanguard Over Boost (VOB) is a massive auxiliary high-speed booster, designed to be installed on the exterior of a ship. It provides massive forward thrust and small warp thrust, but no turn thrust. It also features an integrated shield for self defense.</Text>
+			<Text>The Vanguard Over Boost (VOB) is a massive auxiliary high-speed booster, designed to be installed on the exterior of a ship. It provides forward thrust, warp thrust and small amount of turn thrust. It also features an integrated shield for self defense.</Text>
 		</Token>
 		<Token>
 			<Index>8099</Index>
@@ -4014,7 +4073,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8155</Index>
-			<Text>Light Torpedo</Text>
+			<Text>Light Torpedoes</Text>
 		</Token>
 		<Token>
 			<Index>8156</Index>
@@ -4186,7 +4245,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>8198</Index>
-			<Text>Advanced Xeno Farms expand upon the Upgraded Xeno Farm technology, enabling the construction of massive farms that produce more food, and less byproducts. A drawback is less income from byproduct market sales.</Text>
+			<Text>Advanced Xeno Farms expand upon the Upgraded Xeno Farm technology, enabling the construction of massive farms that produce more food, some without sentient intervention.</Text>
 		</Token>
 		<Token>
 			<Index>8199</Index>
@@ -4371,7 +4430,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>10004</Index>
-			<Text>The Automated Factory is a marvel of engineering, working almost completely without sentient intervention, and remaining environmentally friendly. It also adds storage to the colony, and doubles the ship repair capacity of the colony for orbiting ships.</Text>
+			<Text>The Automated Factory is a marvel of engineering, working almost completely without sentient intervention, and remaining environmentally friendly.</Text>
 		</Token>
 		<Token>
 			<Index>10005</Index>
@@ -4427,7 +4486,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>10018</Index>
-			<Text>A luxurious resort for the very-well-off. Provides a significant boost to planetary commerce.</Text>
+			<Text>A luxurious resort for the very-well-off. Provides a significant boost to planetary commerce without maintenance costs.</Text>
 		</Token>
 		<Token>
 			<Index>10019</Index>
@@ -4435,7 +4494,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>10020</Index>
-			<Text>A particle accelerator, as the name implies, accelerates particles to nearly the speed of light, smashing them together at relativistic speeds to find new information about the makeup of the universe. Provides 0.25 points of research per scientist. Rumors of the potential for an irreversible black hole consumption event caused by this device are likely greatly exaggerated.</Text>
+			<Text>A particle accelerator, as the name implies, accelerates particles to nearly the speed of light, smashing them together at relativistic speeds to find new information about the makeup of the universe. Rumors of the potential for an irreversible black hole consumption event caused by this device are likely greatly exaggerated.</Text>
 		</Token>
 		<Token>
 			<Index>10021</Index>
@@ -4491,7 +4550,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>10036</Index>
-			<Text>Certain advanced alloys cannot be produced under conditions of gravity. Orbital production plants allow fabrication in zero gravity, increasing productivity, and aiding the repair capacity of orbiting ships.</Text>
+			<Text>Certain advanced alloys cannot be produced under conditions of gravity. Orbital production plants allow fabrication in zero gravity, increasing productivity.</Text>
 		</Token>
 		<Token>
 			<Index>10037</Index>
@@ -4635,7 +4694,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>10072</Index>
-			<Text>+2 credits per colonist</Text>
+			<Text>+1.75 credits per colonist</Text>
 		</Token>
 		<Token>
 			<Index>10073</Index>
@@ -4647,7 +4706,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>10075</Index>
-			<Text>+6 Production per turn, +100 Storage, aids in ship repair, +2 Infrastructure</Text>
+			<Text>+3 Production per Richness, +100 Storage, aids in ship repair, +1 Infrastructure</Text>
 		</Token>
 		<Token>
 			<Index>10076</Index>
@@ -4659,7 +4718,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>		
 		<Token>
 			<Index>10078</Index>
-			<Text>+3 production per richness</Text>
+			<Text>+2 production per richness</Text>
 		</Token>
 		<Token>
 			<Index>10079</Index>
@@ -5001,7 +5060,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>12999</Index>
-			<Text>Armored Heavy Shielding I</Text>
+			<Text>Heavy Shielding II</Text>
 		</Token>
 		<Token>
 			<Index>13000</Index>
@@ -5009,7 +5068,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>13001</Index>
-			<Text>Improved Canopy Shields</Text>
+			<Text>Canopy Shields II</Text>
 		</Token>
 		<Token>
 			<Index>17402</Index>
@@ -5045,7 +5104,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>17410</Index>
-			<Text> +1 production per assigned colonist, +50 storage</Text>
+			<Text> +1 production per assigned colonist,+0.1 Credits per Colonist, +50 storage, +2 Infrastructure</Text>
 		</Token>
 		<!-- Advanced Missile Armor -->
 		<Token>
@@ -6265,7 +6324,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>17692</Index>
-			<Text>This Small Power Cell can store 50% more power than the basic one.</Text>
+			<Text>This Small Power Cell can store 50% more power than the basic one and has better, lighter armor than the Small Power Cell.</Text>
 		</Token>	
 		<Token>
 			<Index>17693</Index>
@@ -6273,12 +6332,12 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>17694</Index>
-			<Text>This Medium Power Cell can store 50% more power than the basic one.</Text>
+			<Text>This Medium Power Cell can store 50% more power than the basic one and has better, lighter armor than the Medium Power Cell.</Text>
 		</Token>	
 		<!-- Improved SRMs -->
 		<Token>
 			<Index>17695</Index>
-			<Text>Improved SRM Systems</Text>
+			<Text>Anti-Fighter Missiles II</Text>
 		</Token>
 		<Token>
 			<Index>17696</Index>
@@ -6932,7 +6991,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>17853</Index>
-			<Text>Armored Heavy Shielding II</Text>
+			<Text>Heavy Shielding III</Text>
 		</Token>				
 		<Token>
 			<Index>17854</Index>
@@ -6948,7 +7007,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>17857</Index>
-			<Text>Advanced Canopy Shields</Text>
+			<Text>Canopy Shielding III</Text>
 		</Token>		
 		<Token>
 			<Index>17858</Index>
@@ -7039,7 +7098,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 	    <!-- money description -->
 		<Token>
 			<Index>17879</Index>
-			<Text>+1.25 credit per colonist</Text>
+			<Text>+1 Credit per Colonist</Text>
 		</Token>
 		<!-- Laser Beams -->
 		<Token>
@@ -7395,7 +7454,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
 		<Token>
 			<Index>17962</Index>
-			<Text>Having slaves is such an convenient labour force, sadly we need to feed them as well.</Text>
+			<Text>+0.4 Max Population, +2 Production per Richness</Text>
 		</Token>		
 		<Token>
 			<Index>17963</Index>
@@ -7451,7 +7510,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>		
 		<Token>
 			<Index>17999</Index>
-			<Text>+0.5 credits per colonist</Text>
+			<Text>+0.75 credits per colonist</Text>
 		</Token>				
 		<!-- hulls tech description -->		
 		<Token>
@@ -7577,7 +7636,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>
         <Token>
 		  <Index>18030</Index>
-		  <Text>Advanced SRM Systems</Text>
+		  <Text>Anti-Fighter Missiles III</Text>
 		</Token>
         <Token>
 		  <Index>18031</Index>
@@ -7727,7 +7786,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		<!-- Orbital Missiles -->
 		<Token>
 			<Index>18066</Index> 
-			<Text>Orbital Missile I</Text>
+			<Text>Orbital Missiles I</Text>
 		</Token>				
 		<Token>
 			<Index>18067</Index> 
@@ -7735,7 +7794,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>						
 		<Token>
 			<Index>18068</Index> 
-			<Text>Orbital Missile II</Text>
+			<Text>Orbital Missiles II</Text>
 		</Token>				
 		<Token>
 			<Index>18069</Index> 
@@ -7743,7 +7802,7 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 		</Token>								
 		<Token>
 			<Index>18070</Index> 
-			<Text>Orbital Missile III</Text>
+			<Text>Orbital Missiles III</Text>
 		</Token>				
 		<Token>
 			<Index>18071</Index> 
@@ -7771,5 +7830,17 @@ We are focusing on external thrusters and more integrated systems for fighter/co
 			<Index>18076</Index>
 			<Text>A Heavy Machine Gun turret mounted on a Tritanium Armor plate for added durability. An effective weapon against fighters and missiles. It has 60% of the strength and 75% Deflection of the non weapon Armor plate.</Text>
 		</Token>								
+		<Token>
+			<Index>18077</Index>
+			<Text>Canopy Shielding II</Text>
+		</Token>		
+		<Token>
+			<Index>18078</Index>
+			<Text>Anti Capital Missiles III</Text>
+		</Token>		
+		<Token>
+			<Index>18079</Index>
+			<Text>We can attempt to create a very large missile system which will launch better Anti Capital Missiles at a high rate.</Text>
+		</Token>
 	</TokenList>
 </LocalizationFile>
