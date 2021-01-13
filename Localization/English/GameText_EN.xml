@@ -1,12 +1,20 @@
 <LocalizationFile>
 	<TokenList>
+		<Token>
+		  <Index>33</Index>
+		  <Text>Races with highly efficient metabolisms require 20% less food each turn</Text>
+		</Token>
+		<Token>
+		  <Index>35</Index>
+		  <Text>Gluttonous races will gorge themselves at every opportunity, eating 20% more food every turn</Text>
+		</Token>	
         <Token>
             <Index>52</Index>
             <Text>Battle-Sense</Text>
         </Token>
         <Token>
             <Index>53</Index>
-            <Text>Heightened senses and an awareness of their surroundings have allowed this race to focus during combat. Projectiles fired by their weapons are reliably able to inflict 20% more damage.</Text>
+            <Text>Heightened senses and an awareness of their surroundings have allowed this race to focus during combat. Projectiles fired by their weapons have 20% less targeting error.</Text>
         </Token>
         <Token>
             <Index>54</Index>
@@ -14,7 +22,7 @@
         </Token>
         <Token>
             <Index>55</Index>
-            <Text>Races that evolve weak sensory organs suffer a penalty in space combat. Projectiles fired by their weapons inflict 20% less damage.</Text>
+            <Text>Races that evolve weak sensory organs suffer a penalty in space combat. Projectiles fired by their weapons have their targeting increased by 20%</Text>
         </Token>
         <Token>
             <Index>71</Index>
@@ -98,7 +106,7 @@
 		</Token>		
 		<Token>
 			<Index>431</Index>
-			`<Text>Imperial Offices allow for the direct taxation of the citizenry, granting extra income per turn.</Text>
+			<Text>Imperial Offices allow for the direct taxation of the citizenry, granting extra income per turn.</Text>
 		</Token>		
 		<Token>
 			<Index>432</Index>
@@ -492,6 +500,10 @@
 			<Index>2116</Index>
 			<Text>The schematics for this building were found in the ruins on the Remnant homeworld. We believe that this device will allow us to transcend our physical forms. We won't know until we build it and turn it on.</Text>
 		</Token>
+		<Token>
+		  <Index>2039</Index>
+		  <Text>Troops are an investment and we should protect that investment by providing medical facilities. These sickbay facilities can be placed on stations or larger ships, along with 2 troops, and will slowly heal any troops stationed there. Multiple sickbays will have cumulative results. </Text>
+		</Token>		
 		<Token>
 			<Index>2290</Index>
 			<Text>Vertical Farm</Text>
@@ -1594,7 +1606,7 @@
 		</Token>
 		<Token>
 			<Index>5286</Index>
-			<Text>Better thrusters, faster missile engines, better targeting sensors, and increased payloads allow us to develop new LRM platforms which will.</Text>
+			<Text>Better thrusters, faster missile engines, better targeting sensors, and increased payloads allow us to develop new LRM platforms which can launch more missiles with more warheads.</Text>
 		</Token>
 		<Token>
 			<Index>5287</Index>
@@ -1990,7 +2002,7 @@
 		</Token>
 		<Token>
 			<Index>5390</Index>
-			<Text>+0.25 Rroduction per Richness, +30 Storage</Text>
+			<Text>+0.25 Production per Richness, +30 Storage</Text>
 		</Token>
 		<Token>
 			<Index>5391</Index>
@@ -2254,7 +2266,7 @@
 		</Token>
 		<Token>
 			<Index>5461</Index>
-			<Text>Velocity PackageV</Text>
+			<Text>Velocity Package V</Text>
 		</Token>
 		<Token>
 			<Index>5462</Index>
@@ -3781,7 +3793,7 @@
 		</Token>
 		<Token>
 			<Index>8079</Index>
-			<Text> (-0.8) Fertility On Build, +3 production per Richness, +1 food per turn, +15% tax, +100 storage, +1 Infrastructure</Text>
+			<Text> (-0.5) Fertility On Build, +6 flat production per turn, +1 food per turn, +15% tax, +100 storage, +1 Infrastructure</Text>
 		</Token>
 		<Token>
 			<Index>8080</Index>
@@ -3977,11 +3989,11 @@
 		</Token>
 		<Token>
 			<Index>8131</Index>
-			<Text>VOB Fighter</Text>
+			<Text>Vanguard Over Boost</Text>
 		</Token>
 		<Token>
 			<Index>8132</Index>
-			<Text>Fighter VOB provides high warp power in combination with a small shield. Due to the high power draw and integrated systems, this module will explode if destroyed. </Text>
+			<Text>VOB provides high warp power in combination with a small shield. Due to the high power draw and integrated systems.It can be installed on our frigates and smaller crafts.</Text>
 		</Token>
 		<Token>
 			<Index>8133</Index>
@@ -6654,19 +6666,19 @@
 		<!-- Xenocide tech  description -->				
 		<Token>
 			<Index>17772</Index>
-			<Text>Xenocide I</Text>
+			<Text>Biologic Warfare</Text>
 		</Token>
 		<Token>
 			<Index>17773</Index>
-			<Text>Utilizing our knowledge of Xeno Genetics, along with our highly advanced computer networks, we can design a fearsome biological weapon.</Text>
+			<Text>Utilizing our knowledge of biospheres and Xeno-Environments, we can design a fearsome biological weapon.</Text>
 		</Token>		
 		<Token>
 			<Index>17774</Index>
-			<Text>Xenocide II</Text>
+			<Text>Xenocide</Text>
 		</Token>
 		<Token>
 			<Index>17775</Index>
-			<Text>We can create an even deadlier biological bomb. Assuming we dont mind some... Experimenting. Retaining ethical treatment, we can conduct non life-threatening, temporary trials on test subjects. Be them prisoners of war... Volunteers... Or our own, unsuspecting citizens.</Text>
+			<Text>We can create a deady biological bomb. Assuming we dont mind some... Experimenting. Retaining ethical treatment, we can conduct non life-threatening, temporary trials on test subjects. Be them prisoners of war... Volunteers... Or our own, unsuspecting citizens.</Text>
 		</Token>						
 		<!-- Mega cities and HD housing -->
 		<Token>
@@ -7842,5 +7854,37 @@
 			<Index>18079</Index>
 			<Text>We can attempt to create a very large missile system which will launch better Anti Capital Missiles at a high rate.</Text>
 		</Token>
+		<Token>
+			<Index>18080</Index>
+			<Text>Solar Arrays V1</Text>
+		</Token>		
+		<Token>
+			<Index>18081</Index>
+			<Text>Our Cybernetic Citizens can be upgraded with Solar Arrays to reduce their production consumption when they are in a colony.</Text>
+		</Token>				
+		<Token>
+			<Index>18082</Index>
+			<Text>Reduces each colony's production consumption by 10%</Text>
+		</Token>						
+		<Token>
+			<Index>18083</Index>
+			<Text>Upgading our citizen's solar arrays will further reduce their production consumption.</Text>
+		</Token>
+		<Token>
+			<Index>18084</Index>
+			<Text>Solar Arrays V2</Text>
+		</Token>		
+		<Token>
+			<Index>18085</Index>
+			<Text>Solar Arrays V3</Text>
+		</Token>		
+				<Token>
+			<Index>18086</Index>
+			<Text>Solar Arrays V4</Text>
+		</Token>		
+		<Token>
+			<Index>18087</Index>
+			<Text>Solar Arrays V5</Text>
+		</Token>				
 	</TokenList>
 </LocalizationFile>

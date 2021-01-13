@@ -5,14 +5,14 @@
   <FighterModule>false</FighterModule>
   <CorvetteModule>false</CorvetteModule>
   
-  <Cost>50</Cost>
+  <Cost>125</Cost>
   <!-- Tech Level -->
   <TechLevel>3</TechLevel>
   <TechBranch>Command</TechBranch>
   
   <!-- common traits shared by all ship modules -->
-  <XSIZE>4</XSIZE>
-  <YSIZE>4</YSIZE>
+  <XSIZE>3</XSIZE>
+  <YSIZE>3</YSIZE>
   <ModuleType>Troop</ModuleType>
   <Name>Sickbay</Name>
   <Restrictions>I</Restrictions>
@@ -31,7 +31,8 @@
   <DescriptionIndex>2039</DescriptionIndex>
 
   <HealPerTurn>1</HealPerTurn>
-
+  <TroopCapacity>2</TroopCapacity>
+  <TroopsSupplied>2</TroopsSupplied>
 
   <!-- for shield items -->
   <shield_power>0</shield_power>
