@@ -19,8 +19,8 @@ Panel: background
   DrawDepth: Background
 
 Panel: stardrive_animated_logo
-  Size: [0.4, 0]
-  Pos: [-100, 80]
+  Size: [0.3, 0]
+  Pos: [-0.06, 60]
   AxisAlign: TopRight
   DrawDepth: Foreground
   SpriteAnim: ../MainMenu/Stardrive logo
@@ -29,8 +29,8 @@ Panel: stardrive_animated_logo
     FreezeAtLastFrame: true
 
 Panel: blacbox_animated_logo
-  Size: [0.3, 0]
-  Pos: [-154, 218]
+  Size: [0.25, 0]
+  Pos: [-0.06, 170]
   Color: [0.8,0.8,0.8,0.0] # start with alpha 0.0
   AxisAlign: TopRight
   DrawDepth: Foreground
@@ -42,6 +42,15 @@ Panel: blacbox_animated_logo
     FreezeAtLastFrame: false
     VisibleBeforeDelay: true
   Animation: [1, 2, 0, 2, 0] # delay, duration, end-time, fadein, fadeout
+    Alpha: [0, 1]
+
+Panel: blackvox_sub_version
+  Texture: MMenu/subver.png
+  Size: [0, 0.035] # 0.03
+  Pos: [-335, 213] #  [-360, 213] -510, 140]
+  AxisAlign: TopRight
+  DrawDepth: Foreground
+  Animation: [3, 2, 0, 2, 0] # delay, duration, end-time, fadein, fadeout
     Alpha: [0, 1]
 
 Panel: Ca_logo
