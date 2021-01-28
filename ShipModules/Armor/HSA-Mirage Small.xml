@@ -1,18 +1,6 @@
 <?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Cost>10</Cost>
-	  <DroneModule>true</DroneModule>
-	  <FighterModule>true</FighterModule>
-	  <CorvetteModule>true</CorvetteModule>
-	  <FrigateModule>true</FrigateModule>
-	  <DestroyerModule>true</DestroyerModule>
-	  <CruiserModule>true</CruiserModule>
-	  <CarrierModule>true</CarrierModule>
-	  <CapitalModule>true</CapitalModule>
-	  
-	  <FreighterModule>true</FreighterModule>
-	  <PlatformModule>true</PlatformModule>
-	  <StationModule>true</StationModule>	
 	<!-- Tech Level -->
 	<TechLevel>6</TechLevel>
 	<TechBranch>Armor</TechBranch>
@@ -27,6 +15,7 @@
 	<IconTexturePath>Modules/Mirage_Armor_Small</IconTexturePath>
 	<NameIndex>8213</NameIndex>
 	<DescriptionIndex>8214</DescriptionIndex>
+	<IsPowerArmor>true</IsPowerArmor>
 	<!-- Mass and Health -->
 	<Mass>15</Mass>
 	<Health>1280</Health>

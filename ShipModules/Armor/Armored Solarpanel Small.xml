@@ -2,18 +2,6 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <Cost>1</Cost>
-  <DroneModule>true</DroneModule>
-  <FighterModule>true</FighterModule>
-  <CorvetteModule>true</CorvetteModule>
-  <FrigateModule>true</FrigateModule>
-  <DestroyerModule>true</DestroyerModule>
-  <CruiserModule>true</CruiserModule>
-  <CarrierModule>true</CarrierModule>
-  <CapitalModule>true</CapitalModule>
-  
-  <FreighterModule>true</FreighterModule>
-  <PlatformModule>true</PlatformModule>
-  <StationModule>true</StationModule>  
   <!-- Tech Level -->
   <TechLevel>1</TechLevel>
   <TechBranch>Armor</TechBranch>
@@ -31,7 +19,7 @@
 
   <NameIndex>6610</NameIndex>
   <DescriptionIndex>6608</DescriptionIndex>
-
+  <IsPowerArmor>true</IsPowerArmor>
 
   <!-- Mass and Health -->
   <Mass>10</Mass>

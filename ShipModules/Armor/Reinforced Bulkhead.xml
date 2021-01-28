@@ -5,17 +5,7 @@
 <!-- The Doctor, StarDrive Turbo: these are boolean values that configure precisely which ship hull classes are able to mount your module. Like the old 'FightersOnly' tag, except comprehensive in the control provided -->
 
   <DroneModule>false</DroneModule>
-  <FighterModule>true</FighterModule>
-  <CorvetteModule>true</CorvetteModule>
-  <FrigateModule>true</FrigateModule>
-  <DestroyerModule>true</DestroyerModule>
-  <CruiserModule>true</CruiserModule>
-  <CarrierModule>true</CarrierModule>
-  <CapitalModule>true</CapitalModule>
-  
-  <FreighterModule>true</FreighterModule>
-  <PlatformModule>true</PlatformModule>
-  <StationModule>true</StationModule>
+
   
   
   <Cost>2</Cost>
@@ -35,7 +25,7 @@
 
   <NameIndex>2164</NameIndex>
   <DescriptionIndex>2165</DescriptionIndex>
-
+  <IsBulkhead>true</IsBulkhead>
 
   <!-- Mass and Health -->
   <Mass>40</Mass>
