@@ -6,7 +6,7 @@
   <CorvetteModule>false</CorvetteModule>
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
-  <Cost>144</Cost>
+  <Cost>150</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>4</TechLevel>
   
@@ -44,19 +44,13 @@
   <!-- for PowerPlant Items -->
   <explodes>true</explodes>
   <ExplosionDamage>2500</ExplosionDamage>
-  <ExplosionRadius>128</ExplosionRadius>  
+  <ExplosionRadius>112</ExplosionRadius>  
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-
-  
-  
   <!-- for Engines -->
   <thrust>0</thrust>
-  <WarpThrust>515000</WarpThrust>
-  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>0</TurnThrust>
-  
-
+  <TurnThrust>0</TurnThrust>  
+  <WarpThrust>500000</WarpThrust>
 </ShipModule>

@@ -10,7 +10,7 @@
 
   <Cost>21</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
-  <TechLevel>1</TechLevel>
+  <TechLevel>2</TechLevel>
   
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -21,7 +21,7 @@
   <UID>MedOverdrive</UID>
   <TexturePath>Textures/transparent</TexturePath>
   <IconTexturePath>Modules/MedOverdrive_v2</IconTexturePath>
-  <Mass>40</Mass>
+  <Mass>32</Mass>
   <Health>800</Health>
   <HealthMax>800</HealthMax>
   <RepairDifficulty>3.5</RepairDifficulty>
@@ -30,7 +30,7 @@
   <Description>This frigate engine has been pushed to the limit, using twice as much power to deliver an additional 50% thrust.</Description>
   <CrewRequired>5</CrewRequired>
   <CrewSupplied>0</CrewSupplied>
-  <PowerDraw>104</PowerDraw>
+  <PowerDraw>100</PowerDraw>
 
 
   <NameIndex>12009</NameIndex>
@@ -50,14 +50,8 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-
-  
-  
   <!-- for Engines -->
   <thrust>90000</thrust>
-  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>120000</TurnThrust>
+  <TurnThrust>122000</TurnThrust>
   <WarpThrust>160000</WarpThrust>
-  
-
 </ShipModule>

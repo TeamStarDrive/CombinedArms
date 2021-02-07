@@ -11,7 +11,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
 
-  <Cost>50</Cost>
+  <Cost>36</Cost>
   <TechLevel>4</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -21,7 +21,7 @@
   <Restrictions>O</Restrictions>
   <UID>Battleship Turn Thrust</UID>
   <IconTexturePath>Modules/Battleship Turn Thrust</IconTexturePath>
-  <Mass>13</Mass>
+  <Mass>12</Mass>
   <Health>600</Health>
   <HealthMax>600</HealthMax>
   <energyreq>0</energyreq>
@@ -49,11 +49,8 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-
   <!-- for Engines -->
   <thrust>0</thrust>
+  <TurnThrust>75000</TurnThrust>  
   <WarpThrust>0</WarpThrust>
-  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>90000</TurnThrust>
-
 </ShipModule>

@@ -10,7 +10,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
   
-  <Cost>250</Cost>
+  <Cost>280</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>5</TechLevel>
   
@@ -49,20 +49,14 @@
 
   <!-- for PowerPlant Items -->
   <explodes>true</explodes>
-  <ExplosionDamage>100000</ExplosionDamage>
-  <ExplosionRadius>768</ExplosionRadius>  
+  <ExplosionDamage>50000</ExplosionDamage>
+  <ExplosionRadius>480</ExplosionRadius>  
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-
-  
-  
   <!-- for Engines -->
   <thrust>0</thrust>
-  <WarpThrust>8000000</WarpThrust>
-  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>0</TurnThrust>
-  
-
+  <TurnThrust>0</TurnThrust>  
+  <WarpThrust>1200000</WarpThrust>
 </ShipModule>

@@ -20,7 +20,7 @@
   <Restrictions>E</Restrictions>
   <UID>Overdrive Titan Engine</UID>
   <IconTexturePath>Modules/Overdrive_engine_4x4</IconTexturePath>
-  <Mass>155</Mass>
+  <Mass>124</Mass>
   <Health>4000</Health>
   <HealthMax>4000</HealthMax>
   <RepairDifficulty>5</RepairDifficulty>
@@ -29,7 +29,7 @@
   <Description>This titanic engine requires considerable power but provides unparalleled thrust.  </Description>
   <CrewRequired>1</CrewRequired>
   <CrewSupplied>0</CrewSupplied>
-  <PowerDraw>408</PowerDraw>
+  <PowerDraw>400</PowerDraw>
   <DamageThreshold>150</DamageThreshold>
   <NameIndex>17744</NameIndex>
   <DescriptionIndex>17745</DescriptionIndex>
@@ -49,15 +49,8 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-
-  
-  
   <!-- for Engines -->
-  <thrust>500000</thrust>
-  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>380000</TurnThrust>
-  <WarpThrust>600000</WarpThrust>  
-  
-  
-
+  <thrust>425000</thrust>
+  <TurnThrust>575000</TurnThrust>
+  <WarpThrust>760000</WarpThrust>  
 </ShipModule>

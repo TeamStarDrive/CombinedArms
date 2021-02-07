@@ -2,7 +2,7 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <DroneModule>false</DroneModule>
-  <Cost>10</Cost>
+  <Cost>12</Cost>
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -41,12 +41,8 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-  
   <!-- for Engines -->
-  <thrust>24240</thrust>
-  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>24240</TurnThrust>
-  <WarpThrust>303000</WarpThrust>
-  
-
+  <thrust>20000</thrust>
+  <TurnThrust>28000</TurnThrust>
+  <WarpThrust>277000</WarpThrust>
 </ShipModule>

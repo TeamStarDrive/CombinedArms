@@ -14,7 +14,7 @@
   <UID>WarpEngine_2x2</UID>
   <TexturePath>Textures/transparent</TexturePath>
   <IconTexturePath>Modules/warpengine_2x2</IconTexturePath>
-  <Mass>42</Mass>
+  <Mass>40</Mass>
   <Health>900</Health>
   <HealthMax>900</HealthMax>
   <RepairDifficulty>2.5</RepairDifficulty>
@@ -23,7 +23,7 @@
   <Description>This medium-sized warp engine provides greater warp performance at the expense of sublight performance. </Description>
   <CrewRequired>5</CrewRequired>
   <CrewSupplied>0</CrewSupplied>
-  <PowerDraw>75</PowerDraw>
+  <PowerDraw>44</PowerDraw>
 
 
   <NameIndex>1078</NameIndex>
@@ -43,14 +43,10 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-
-  
-  
   <!-- for Engines -->
-  <thrust>32000</thrust>
-  <WarpThrust>380000</WarpThrust>
-  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>32000</TurnThrust>
-  
+  <thrust>27000</thrust>
+  <TurnThrust>36000</TurnThrust>  
+  <WarpThrust>350000</WarpThrust>
+ 
 
 </ShipModule>

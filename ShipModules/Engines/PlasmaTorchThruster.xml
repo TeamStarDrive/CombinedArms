@@ -10,8 +10,8 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
 
-  <Cost>10</Cost>
-  <TechLevel>2</TechLevel>
+  <Cost>15</Cost>
+  <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
   <Name>Small Warp Engine</Name>
@@ -19,8 +19,8 @@
   <UID>PlasmaTorchThruster</UID>
   <IconTexturePath>Modules/PlasmaTorchThrusters</IconTexturePath>
   <Mass>4</Mass>
-  <Health>20</Health>
-  <HealthMax>20</HealthMax>
+  <Health>30</Health>
+  <HealthMax>30</HealthMax>
   <energyreq>0</energyreq>
   <modRadius>4</modRadius>
   <Description>This warp engine provides twice the benefit of a normal engine for warp purposes, but only half the thrust of a normal engine at sublight speeds.   </Description>
@@ -46,15 +46,9 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-
-  
-  
   <!-- for Engines -->
   <thrust>0</thrust>
   <WarpThrust>0</WarpThrust>
   <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>36000</TurnThrust>
-  
-  
-
+  <TurnThrust>30000</TurnThrust>
 </ShipModule>

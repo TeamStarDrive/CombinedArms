@@ -19,7 +19,7 @@
   <Restrictions>E</Restrictions>
   <UID>OverdriveCapEngines</UID>
   <IconTexturePath>Modules/Overdrive_engine_3x3</IconTexturePath>
-  <Mass>88</Mass>
+  <Mass>71</Mass>
   <Health>2250</Health>
   <HealthMax>2250</HealthMax>
   <RepairDifficulty>4</RepairDifficulty>
@@ -28,7 +28,7 @@
   <Description>This massive engine will provide awesome thrust at an awesome power cost.  </Description>
   <CrewRequired>1</CrewRequired>
   <CrewSupplied>0</CrewSupplied>
-  <PowerDraw>232</PowerDraw>
+  <PowerDraw>220</PowerDraw>
   <DamageThreshold>75</DamageThreshold>
 
   <NameIndex>17742</NameIndex>
@@ -39,10 +39,7 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Engines -->
-  <thrust>250000</thrust>
-  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
+  <thrust>220000</thrust>
   <TurnThrust>300000</TurnThrust>
-  <WarpThrust>240000</WarpThrust>
-  
-
+  <WarpThrust>395000</WarpThrust>
 </ShipModule>

@@ -9,8 +9,8 @@
   <CapitalModule>false</CapitalModule>
   <FreighterModule>true</FreighterModule>
 
-  <Cost>10</Cost>
-  <TechLevel>5</TechLevel>
+  <Cost>20</Cost>
+  <TechLevel>4</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
   <Name>Small Warp Engine</Name>
@@ -18,8 +18,8 @@
   <UID>AntimatterThruster</UID>
   <IconTexturePath>Modules/AntimatterThrusters</IconTexturePath>
   <Mass>4</Mass>
-  <Health>20</Health>
-  <HealthMax>20</HealthMax>
+  <Health>50</Health>
+  <HealthMax>50</HealthMax>
   <energyreq>0</energyreq>
   <modRadius>4</modRadius>
   <Description>This warp engine provides twice the benefit of a normal engine for warp purposes, but only half the thrust of a normal engine at sublight speeds.   </Description>
@@ -45,15 +45,8 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
-
-  
-  
   <!-- for Engines -->
   <thrust>0</thrust>
+  <TurnThrust>40000</TurnThrust>  
   <WarpThrust>0</WarpThrust>
-  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>48000</TurnThrust>
-  
-  
-
 </ShipModule>
