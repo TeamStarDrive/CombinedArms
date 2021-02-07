@@ -6,7 +6,7 @@
       <TitleText>Unknown defenders</TitleText>
       <DescriptionText>Before reaching the Crashed Ship, your troops were attacked by unknown enemies and had to fall back, the crashed ship takes off and warps out of the system.</DescriptionText>
       <SelectRandomPlanet>true</SelectRandomPlanet>
-      <SpawnBuildingOnPlanet>Crash Site</SpawnBuildingOnPlanet>
+      <RemoveTrigger>true</RemoveTrigger>
        <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
@@ -29,7 +29,7 @@
     <Outcome>
       <Chance>4</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant defenders.</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant space defenders.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>Energizer3x3</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
@@ -45,7 +45,7 @@
    <Outcome>
       <Chance>8</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant defenders.</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant space defenders.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>RemnantNuker</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
@@ -60,7 +60,7 @@
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Red Alert</TitleText>
-      <DescriptionText>While your troops carefully examined the wreckage and the still intact computer systems, one of them trips an alarm. Your troops manage to deactivate the alarm and salvage the control system which is valuable on the black market, however a fleet of Remnant vessels jump into orbit detecting your presence.</DescriptionText>
+      <DescriptionText>While your troops carefully examine the wreckage and the still intact computer systems, one of them trips an alarm. Your troops manage to deactivate the alarm and salvage the control system which is valuable on the black market, however a fleet of Remnant vessels jumps into orbit detecting your presence.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
