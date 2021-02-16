@@ -24,6 +24,7 @@
   <Health>100</Health>
   <HealthMax>100</HealthMax>
   <PowerDraw>5</PowerDraw>
+  <PowerDrawAtWarp>-5</PowerDrawAtWarp>
   <IsCommandModule>true</IsCommandModule>
   <TargetTracking>1</TargetTracking>
 
@@ -50,7 +51,7 @@
   
   <!-- for Engines -->
   <thrust>12000</thrust>
-  <WarpThrust>0</WarpThrust>
+  <WarpThrust>3000</WarpThrust>
     <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
   <TurnThrust>25000</TurnThrust>
 
