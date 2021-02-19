@@ -22,19 +22,19 @@
 
   <Excludes_Fighters>true</Excludes_Fighters>  
   
-  <fireDelay>2</fireDelay>
+  <fireDelay>6</fireDelay>
   <Range>14000</Range>
   <HitPoints>70</HitPoints>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>10</OrdinanceRequiredToFire>
   <RotationRadsPerSecond>2</RotationRadsPerSecond>
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_missile_heavy_01</fireCueName>
+  <fireCueName>sd_weapon_rocket_flight_01</fireCueName>
   <dieCue>sd_weapon_rocket_explode_01</dieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
   <!-- Projectile Information -->
-  <DamageAmount>300</DamageAmount>
-  <ProjectileSpeed>1600</ProjectileSpeed>
+  <DamageAmount>500</DamageAmount>
+  <ProjectileSpeed>1800</ProjectileSpeed>
   <DamageRadius>60</DamageRadius>
   <explodes>true</explodes>
   <ProjectileTexturePath>missile_d</ProjectileTexturePath>
@@ -43,7 +43,7 @@
   <WeaponType>Missile</WeaponType>
   <ProjectileRadius>6</ProjectileRadius>
   <Scale>2</Scale>
-  <ProjectileCount>3</ProjectileCount>
+  <ProjectileCount>2</ProjectileCount>
   <DelayedIgnition>0.5</DelayedIgnition>
   <FireCone>60</FireCone>  
   <CanCollideProjectiles>true</CanCollideProjectiles>
