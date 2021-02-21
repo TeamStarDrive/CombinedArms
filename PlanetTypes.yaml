@@ -5,7 +5,7 @@ PlanetType: 3 # this is the legacy planet ID
   IconPath: Planets/3
   MeshPath: Model/SpaceObjects/planet_3
   Habitable: true
-  HabitableTileChance: [10, 20]
+  HabitableTileChance: [5, 20]
   PopPerTile: [50, 300]
   BaseFertility: 0
 
@@ -61,7 +61,7 @@ PlanetType: 16
   MeshPath: Model/SpaceObjects/planet_16
   EarthLike: true # Give it earthlike clouds
   Habitable: true
-  HabitableTileChance: 30
+  HabitableTileChance: [15, 30]
   PopPerTile: [50, 300]
   BaseFertility: 0
 

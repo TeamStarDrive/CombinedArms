@@ -28,7 +28,7 @@
     <Category>Physical</Category>
     <Cost>2</Cost>
     <Description>37</Description>
-    <PopGrowthMin>.01</PopGrowthMin>
+    <PopGrowthMin>0.01</PopGrowthMin>
     <Excludes>38</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -36,9 +36,9 @@
     <!-- Less Fertile -->
     <TraitName>38</TraitName>
     <Category>Physical</Category>
-    <Cost>-3</Cost>
+    <Cost>-2</Cost>
     <Description>39</Description>
-    <PopGrowthMax>.02</PopGrowthMax>
+    <PopGrowthMax>0.02</PopGrowthMax>
     <Excludes>36</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -58,7 +58,7 @@
     <Category>Physical</Category>
     <Cost>-2</Cost>
     <Description>43</Description>
-    <GroundCombatModifier>-.30</GroundCombatModifier>
+    <GroundCombatModifier>-0.30</GroundCombatModifier>
     <Excludes>40</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -68,7 +68,7 @@
     <Category>Physical</Category>
     <Cost>3</Cost>
     <Description>45</Description>
-    <DiplomacyMod>.25</DiplomacyMod>
+    <DiplomacyMod>0.2</DiplomacyMod>
     <Excludes>46</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -78,7 +78,7 @@
     <Category>Physical</Category>
     <Cost>-2</Cost>
     <Description>47</Description>
-    <DiplomacyMod>-.50</DiplomacyMod>
+    <DiplomacyMod>-0.2</DiplomacyMod>
     <Excludes>44</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -88,7 +88,7 @@
     <Category>Physical</Category>
     <Cost>3</Cost>
     <Description>49</Description>
-    <ResearchMod>.20</ResearchMod>
+    <ResearchMod>0.2</ResearchMod>
     <Excludes>50</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -98,7 +98,7 @@
     <Category>Physical</Category>
     <Cost>-3</Cost>
     <Description>51</Description>
-    <ResearchMod>-.15</ResearchMod>
+    <ResearchMod>-0.15</ResearchMod>
     <Excludes>48</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -108,7 +108,7 @@
     <Category>Physical</Category>
     <Cost>2</Cost>
     <Description>53</Description>
-    <EnergyDamageMod>.20</EnergyDamageMod>
+    <EnergyDamageMod>0.2</EnergyDamageMod>
     <Excludes>54</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -118,7 +118,7 @@
     <Category>Physical</Category>
     <Cost>-2</Cost>
     <Description>55</Description>
-    <EnergyDamageMod>-.20</EnergyDamageMod>
+    <EnergyDamageMod>-0.2</EnergyDamageMod>
     <Excludes>52</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -128,7 +128,7 @@
     <Category>Physical</Category>
     <Cost>2</Cost>
     <Description>57</Description>
-    <DodgeMod>.25</DodgeMod>
+    <DodgeMod>0.25</DodgeMod>
     <Excludes>58</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -138,7 +138,7 @@
     <Category>Physical</Category>
     <Cost>-2</Cost>
     <Description>59</Description>
-    <DodgeMod>-.25</DodgeMod>
+    <DodgeMod>-0.25</DodgeMod>
     <Excludes>56</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -146,7 +146,7 @@
     <!-- Cybernetic -->
     <TraitName>60</TraitName>
     <Category>Special</Category>
-    <Cost>8</Cost>
+    <Cost>10</Cost>
     <Description>61</Description>
     <Cybernetic>1</Cybernetic>
     <RepairMod>1</RepairMod>
@@ -159,7 +159,7 @@
     <Category>Industry</Category>
     <Cost>3</Cost>
     <Description>63</Description>
-    <ProductionMod>.25</ProductionMod>
+    <ProductionMod>0.25</ProductionMod>
     <Excludes>64</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -169,7 +169,7 @@
     <Category>Industry</Category>
     <Cost>-3</Cost>
     <Description>65</Description>
-    <ProductionMod>-.25</ProductionMod>
+    <ProductionMod>-0.25</ProductionMod>
     <Excludes>62</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -179,7 +179,7 @@
     <Category>Industry</Category>
     <Cost>3</Cost>
     <Description>67</Description>
-    <Mercantile>.5</Mercantile>
+    <Mercantile>0.5</Mercantile>
     <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
@@ -188,7 +188,7 @@
     <Category>Industry</Category>
     <Cost>-4</Cost>
     <Description>69</Description>
-    <MaintMod>.25</MaintMod>
+    <MaintMod>0.25</MaintMod>
     <Excludes>70</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -198,7 +198,7 @@
     <Category>Industry</Category>
     <Cost>4</Cost>
     <Description>71</Description>
-    <MaintMod>-.25</MaintMod>
+    <MaintMod>-0.25</MaintMod>
     <Excludes>68</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -208,7 +208,7 @@
     <Category>Industry</Category>
     <Cost>-1</Cost>
     <Description>73</Description>
-    <TaxMod>-.25</TaxMod>
+    <TaxMod>-0.25</TaxMod>
     <Excludes>74</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -218,7 +218,7 @@
     <Category>Industry</Category>
     <Cost>1</Cost>
     <Description>75</Description>
-    <TaxMod>.25</TaxMod>
+    <TaxMod>0.25</TaxMod>
     <Excludes>72</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -228,7 +228,7 @@
     <Category>Industry</Category>
     <Cost>2</Cost>
     <Description>77</Description>
-    <ModHpModifier>.20</ModHpModifier>
+    <ModHpModifier>0.2</ModHpModifier>
     <Excludes>78</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -238,7 +238,7 @@
     <Category>Industry</Category>
     <Cost>-2</Cost>
     <Description>79</Description>
-    <ModHpModifier>-.20</ModHpModifier>
+    <ModHpModifier>-0.2</ModHpModifier>
     <Excludes>76</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -257,7 +257,7 @@
       <Category>Special</Category>
       <Cost>2</Cost>
       <Description>83</Description>
-      <ShipCostMod>-.35</ShipCostMod>
+      <ShipCostMod>-0.35</ShipCostMod>
       <Excludes>5091</Excludes>
     </RacialTrait>
     <RacialTrait>
@@ -284,7 +284,7 @@
       <Category>Special</Category>
       <Cost>-2</Cost>
       <Description>87</Description>
-      <HomeworldFertMod>-.5</HomeworldFertMod>
+      <HomeworldFertMod>-0.5</HomeworldFertMod>
       <Excludes>5087</Excludes>
       <Excludes>5091</Excludes>
       <Excludes>17997</Excludes>
@@ -293,7 +293,7 @@
       <!-- Industrialized Homeworld -->
       <TraitName>5081</TraitName>
       <Category>Special</Category>
-      <Cost>1</Cost>
+      <Cost>2</Cost>
       <Description>5082</Description>
       <HomeworldFertMod>-1.0</HomeworldFertMod>
       <HomeworldRichMod>1.0</HomeworldRichMod>
@@ -305,9 +305,9 @@
       <!-- Huge Homeworld -->
       <TraitName>88</TraitName>
       <Category>Special</Category>
-      <Cost>4</Cost>
+      <Cost>3</Cost>
       <Description>89</Description>
-      <HomeworldSizeMod>.25</HomeworldSizeMod>
+      <HomeworldSizeMod>0.15</HomeworldSizeMod>
       <Excludes>90</Excludes>
       <Excludes>5091</Excludes>
     </RacialTrait>
@@ -315,9 +315,9 @@
       <!-- Small homeworld -->
       <TraitName>90</TraitName>
       <Category>Special</Category>
-      <Cost>-4</Cost>
+      <Cost>-3</Cost>
       <Description>91</Description>
-      <HomeworldSizeMod>-.15</HomeworldSizeMod>
+      <HomeworldSizeMod>-0.15</HomeworldSizeMod>
       <Excludes>88</Excludes>
       <Excludes>5091</Excludes>
     </RacialTrait>
@@ -366,7 +366,7 @@
       <Category>Special</Category>
       <Cost>1</Cost>
       <Description>1441</Description>
-      <Spiritual>.5</Spiritual>
+      <Spiritual>0.5</Spiritual>
       <Excludes>5091</Excludes>
     </RacialTrait>
     <!--Clean Homeworld-->
