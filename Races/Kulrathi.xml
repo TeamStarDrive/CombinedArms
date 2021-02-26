@@ -60,6 +60,7 @@
     <B>96</B>
     <RaceDescription>The Kulrathi are a noble and proud race who value beauty, honor, and battle. They are fiercely territorial race and they prefer personal, hand-to-hand engagements over modern weaponry. The Kulrathi make great allies and terrible enemies. </RaceDescription>
     <Cost>0</Cost>
+    <PopGrowthMin>0.01</PopGrowthMin>
     <ConsumptionModifier>0</ConsumptionModifier>
     <ReproductionMod>0</ReproductionMod>
     <DiplomacyMod>0</DiplomacyMod>
@@ -74,23 +75,24 @@
     <Spiritual>0</Spiritual>
     <HomeworldFertMod>0</HomeworldFertMod>
     <DodgeMod>0</DodgeMod>
-    <EnergyDamageMod>0</EnergyDamageMod>
-    <ResearchMod>0</ResearchMod>
+    <EnergyDamageMod>-0.2</EnergyDamageMod>
+    <ResearchMod>0.15</ResearchMod>
     <Mercantile>0</Mercantile>
     <Miners>0</Miners>
     <ProductionMod>0</ProductionMod>
     <MaintMod>0</MaintMod>
-    <TaxMod>.25</TaxMod>
-    <ShipCostMod>0</ShipCostMod>
+    <TaxMod>0</TaxMod>
+    <ShipCostMod>-.20</ShipCostMod>
     <ModHpModifier>.20</ModHpModifier>
     <SmallSize>0</SmallSize>
     <HugeSize>0</HugeSize>
     <GroundCombatModifier>.30</GroundCombatModifier>
     <RepairRateMod>0</RepairRateMod>
-    <HomeworldSizeMod>0</HomeworldSizeMod>
+    <HomeworldSizeMod>-0.15</HomeworldSizeMod>
     <Cybernetic>0</Cybernetic>
     <SpyMultiplier>-10</SpyMultiplier>
-    <Prototype>1</Prototype>
+    <Prototype>0</Prototype>
+    <ResearchTaxMultiplier>1</ResearchTaxMultiplier>
   </Traits>
   <Faction>0</Faction>
 </EmpireData>
