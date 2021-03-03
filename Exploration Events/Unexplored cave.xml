@@ -1,0 +1,31 @@
+﻿<ExplorationEvent>
+  <Name>Unexplored cave</Name>
+  <PotentialOutcomes>
+
+    <Outcome>
+      <Chance>80</Chance>
+      <TitleText>It's s alien nest!</TitleText>
+      <DescriptionText>As your troops approach the cave entrance, they hear sounds coming from the cave. After throwing down the cave a flare to illuminate surroundings they spotted movement. Unfortunately, a nest of Antlions has made its home here and your troops was able to throw explosives and collapse the cave before they got overhelmed.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+		<string>Antlion</string>
+		<string>Antlion</string>
+        <string>Antlion</string>
+	</TroopsToSpawn>
+    </Outcome>
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>It's infested!</TitleText>
+      <DescriptionText>As your troops approach the cave entrance, they hear sounds coming from the cave. After throwing down the cave a flare to illuminate surroundings they saw its a massive cave system. Unfortunately, a nest of Antlions has made its home here and your troops were surrounded.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Cave system</ReplaceWith>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+		<string>Antlion</string>
+		<string>Antlion</string>
+        <string>Antlion</string>
+	</TroopsToSpawn>
+    </Outcome>
+  </PotentialOutcomes>
+ </ExplorationEvent>
