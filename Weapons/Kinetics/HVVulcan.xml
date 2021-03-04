@@ -4,7 +4,7 @@
   <Tag_Cannon>true</Tag_Cannon>
   
   <UID>HVVulcan</UID>
-  <fireDelay>2.3</fireDelay>
+  <fireDelay>2.6</fireDelay>
   <Range>1700</Range>
   <PowerRequiredToFire>3</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.2</OrdinanceRequiredToFire>
@@ -12,19 +12,19 @@
   <SalvoTimer>0.7</SalvoTimer>
   
   <fireCueName>sd_weapon_vulcan_alt02_01</fireCueName>  
- 
+  <OffPowerMod>0.75</OffPowerMod>
   <!-- Projectile Information -->
   <DamageAmount>25</DamageAmount>
   <!--<EffectVsArmor>2</EffectVsArmor> -->
   <Scale>3</Scale>
   <MuzzleFlash>Yes</MuzzleFlash>
-  <ProjectileSpeed>4400</ProjectileSpeed>
+  <ProjectileSpeed>4000</ProjectileSpeed>
   <EffectVsArmor>2</EffectVsArmor>  
   <ProjectileRadius>4</ProjectileRadius>
   <explodes>false</explodes>
   <ProjectileTexturePath>superlong_yellow</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <WeaponType>Ballistic Cannon</WeaponType>
-  <FireCone>3</FireCone>
+  <FireCone>4</FireCone>
 
 </Weapon>
