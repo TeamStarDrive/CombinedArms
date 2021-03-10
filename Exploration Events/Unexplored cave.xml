@@ -3,7 +3,7 @@
   <PotentialOutcomes>
 
     <Outcome>
-      <Chance>85</Chance>
+      <Chance>45</Chance>
       <TitleText>It's an alien nest!</TitleText>
       <DescriptionText>As your troops approach the cave, they hear sounds coming from inside. Tossing in a flare to illuminate the depths, they spot movement. Unfortunately, a nest of antlions has made its home here! Following procedure, they quickly detonate explosives at the entrance, sealing the threat within.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -13,6 +13,13 @@
 		<string>Antlion</string>
         <string>Antlion</string>
 	</TroopsToSpawn>
+    </Outcome>
+     <Outcome>
+      <Chance>40</Chance>
+      <TitleText>It's an alien nest!</TitleText>
+      <DescriptionText>As your troops approach the cave, they hear sounds coming from inside. Tossing in a flare to illuminate the depths, they spot movement. Unfortunately, a nest of antlions has made its home here! In a attempt of clearing the alien colony inside, they dropped explosives into the cave. The detonation shook the earth, causing it to collapse even deeper into the planet releasing toxic gasses. Soon after the cave was filled with highly corrosive liquid.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Geothermal spring</ReplaceWith>
     </Outcome>
     <Outcome>
       <Chance>15</Chance>
