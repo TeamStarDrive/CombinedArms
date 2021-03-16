@@ -20,8 +20,8 @@
   <Excludes_Fighters>true</Excludes_Fighters>  
   
   <UID>MassiveLaserTurret</UID>
-  <fireDelay>1.5</fireDelay>
-  <Range>3000</Range>
+  <fireDelay>0.8</fireDelay>
+  <Range>3200</Range>
   <PowerRequiredToFire>200</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   
@@ -29,7 +29,7 @@
   <fireCueName>heavylaser1</fireCueName>
 
   <!-- Projectile Information -->
-  <DamageAmount>465</DamageAmount>
+  <DamageAmount>450</DamageAmount>
   <ProjectileSpeed>2000</ProjectileSpeed>
   <Scale>1.4</Scale>
   <explodes>false</explodes>
@@ -38,8 +38,6 @@
   <ModelPath>projTear</ModelPath>
   <EffectVsArmor>2</EffectVsArmor>
   <FireArc>0</FireArc>
-  <SalvoCount>2</SalvoCount>
-  <SalvoTimer>1</SalvoTimer>
   <WeaponType>Energy Cannon</WeaponType>
   <ProjectileRadius>12</ProjectileRadius>
 </Weapon>
