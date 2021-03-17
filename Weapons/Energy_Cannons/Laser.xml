@@ -17,20 +17,18 @@
   <Tag_Cannon>true</Tag_Cannon>
 
   <UID>Laser</UID>
-  <fireDelay>0.8</fireDelay>
-  <Range>1900</Range>
+  <fireDelay>0.9</fireDelay>
+  <Range>2000</Range>
   <PowerRequiredToFire>22</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
 
-  <SalvoCount>2</SalvoCount>
-  <SalvoTimer>0.8</SalvoTimer>
   <PlaySoundOncePerSalvo>false</PlaySoundOncePerSalvo>
   <!-- name of XACT audio cue to play on firing this weapon -->
   <fireCueName>mining_laser</fireCueName>
 
 
   <!-- Projectile Information -->
-  <DamageAmount>60</DamageAmount>
+  <DamageAmount>100</DamageAmount>
   <ProjectileSpeed>2000</ProjectileSpeed>
   <explodes>false</explodes>
   <Light>Red</Light>
