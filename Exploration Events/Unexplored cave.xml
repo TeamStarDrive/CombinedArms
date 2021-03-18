@@ -1,0 +1,52 @@
+<ExplorationEvent>
+  <Name>Unexplored cave</Name>
+  <PotentialOutcomes>
+
+    <Outcome>
+      <Chance>45</Chance>
+      <TitleText>It's an alien nest!</TitleText>
+      <DescriptionText>As your troops approach the cave, they hear sounds coming from inside. Tossing in a flare to illuminate the depths, they spot movement. Unfortunately, a nest of antlions has made its home here! Following procedure, they quickly detonate explosives at the entrance, sealing the threat within.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+		<string>Antlion</string>
+		<string>Antlion</string>
+        <string>Antlion</string>
+	</TroopsToSpawn>
+    </Outcome>
+     <Outcome>
+      <Chance>40</Chance>
+      <TitleText>It's an alien nest!</TitleText>
+      <DescriptionText>As your troops approach the cave, they hear sounds coming from inside. Tossing in a flare to illuminate the depths, they spot movement. Unfortunately, a nest of antlions has made its home here! In a attempt of clearing the alien colony inside, they dropped explosives into the cave. The detonation shook the earth, causing it to collapse even deeper into the planet releasing toxic gasses. Soon after the cave was filled with highly corrosive liquid.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Evaporative Wastepit</ReplaceWith>
+    </Outcome>
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>It's infested!</TitleText>
+      <DescriptionText>As your troops approach the cave, they hear a faint sound that comes from inside. Tossing in a flare to illuminate the depths, they see nothing. After a few dull moments of silence, a horde of antlions suddenly surges forth! They're surrounded!</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Cave system</ReplaceWith>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+		<string>Antlion</string>
+		<string>Antlion</string>
+        <string>Antlion</string>
+	</TroopsToSpawn>
+    </Outcome>
+     <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Unexpected meeting</TitleText>
+      <DescriptionText>While exploring the cave your troops stumbled upon crates and an aged smuggler. We broke a deal with him to provide our colony with food and equipment in exchange for money in regular intervals. </DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Drop off point</ReplaceWith>
+    </Outcome>
+         <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Updated scans</TitleText>
+      <DescriptionText>While exploring the cave your troops scanned the underground mineral composition, resoults revealed that the planet mantle wasnt as rich as the orbital scans suggested. </DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeRichness>-0.6</ChangeRichness>
+    </Outcome>
+  </PotentialOutcomes>
+ </ExplorationEvent>
