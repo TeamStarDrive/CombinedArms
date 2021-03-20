@@ -5,8 +5,6 @@
       <Chance>20</Chance>
       <TitleText>Unknown defenders</TitleText>
       <DescriptionText>Before reaching the Crashed Ship, your troops were attacked by unknown enemies and had to fall back, the crashed ship takes off and warps out of the system.</DescriptionText>
-      <SelectRandomPlanet>true</SelectRandomPlanet>
-      <RemoveTrigger>true</RemoveTrigger>
        <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
@@ -37,21 +35,6 @@
 		<string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
 		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-      </RemnantShipsToSpawn>	  
-      <TroopsToSpawn>
-      </TroopsToSpawn>	  
-    </Outcome>
-   <Outcome>
-      <Chance>8</Chance>
-      <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant space defenders.</DescriptionText>
-      <MoneyGranted>500</MoneyGranted>
-      <UnlockTech>RemnantNuker</UnlockTech>	  
-      <RemoveTrigger>true</RemoveTrigger>
-      <RemnantShipsToSpawn>
-		<string>Heavy Drone</string>
-		<string>Heavy Drone</string>
 		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
@@ -89,6 +72,14 @@
 		<string>Support Drone</string>
       </FriendlyShipsToSpawn>
       <GrantArtifact>true</GrantArtifact>
+      <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Unstable</TitleText>
+      <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. Even so, scans showed its reactor is still working and by minute emitting more and more antimatter particles. Your forces were evacuated in haste. Soon after the reactor explodes destroying the wreckage and severely damaging the planet</DescriptionText>
+      <NumTilesToMakeUnhabitable>3</NumTilesToMakeUnhabitable>
+      <ChangeBaseFertility>-0.6</ChangeBaseFertility>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
   </PotentialOutcomes>

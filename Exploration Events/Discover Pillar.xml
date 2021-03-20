@@ -18,7 +18,7 @@
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>8</Chance>
       <TitleText>Scientific Discovery</TitleText>
       <DescriptionText>As your troops get closer to the pillar their scans immediately reveal that this structure is much older than most known structures in the galaxy. At the back of this pillar your troops discover an active energy source - they activate it. Upon activation one of your men is targeted by the pillar. A massive beam engulfs the soldier and large amounts of information is downloaded into his brain. Suddenly the pillar deactivates and the energy source is burned out. This discovery grants your empire a 5% bonus to all scientific efforts.</DescriptionText>
       <ScienceBonus>0.05</ScienceBonus>
@@ -26,11 +26,10 @@
       <RemoveTrigger>true</RemoveTrigger>
      </Outcome>
     <Outcome>
-      <Chance>5</Chance>
-      <TitleText>Scientific Discovery</TitleText>
-      <DescriptionText>As your troops get closer to the pillar their scans immediately reveal that this structure is much older than most known structures in the galaxy. At the back of this pillar your troops discover an active energy source - they activate it. Upon activation one of your men is targeted by the pillar. A massive beam engulfs the soldier and large amounts of information is downloaded into his brain. Suddenly the pillar deactivates and the energy source is burned out. This discovery grants your empire a 10% bonus to all scientific efforts.</DescriptionText>
-      <ScienceBonus>0.1</ScienceBonus>
-      <GrantArtifact>true</GrantArtifact>
+      <Chance>10</Chance>
+      <TitleText>Wave</TitleText>
+      <DescriptionText>As your troops get closer to the pillar they noticed that the earth surrounding it is totally barren. They slowly approach it, suddenly they hear a high pitch tone comming from the pillar, that gets more and more unbearable. At some point the pillar disintegrates and sends a deadly radiation wave killing any organic life on the planet</DescriptionText>
+      <ChangeBaseFertility>-1</ChangeBaseFertility>
       <RemoveTrigger>true</RemoveTrigger>
      </Outcome>
      <Outcome>

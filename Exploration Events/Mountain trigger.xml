@@ -1,0 +1,76 @@
+<ExplorationEvent>
+  <Name>Mountain trigger</Name>
+  <PotentialOutcomes>
+    <Outcome>
+      <Chance>25</Chance>
+      <TitleText>Unknown defenders</TitleText>
+      <DescriptionText>Before reaching the unknown power source, your troops were attacked by unknown enemies and had to fall back. From far away they saw something taking off from the pick of the mountain.</DescriptionText>
+     <RemnantShipsToSpawn>
+		<string>Ancient Frigate</string>
+      </RemnantShipsToSpawn>
+       <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+      </TroopsToSpawn>     
+      <RemoveTrigger>false</RemoveTrigger>
+    </Outcome>
+    <Outcome>
+      <Chance>35</Chance>
+      <TitleText>A sad wreck</TitleText>
+      <DescriptionText>Your forces found buried under the snow a wreckage of what is clearly a very old ship. Its reactor was damaged and yet still barely working, that was the source that caused errors in our scans. Order was given to destroy it and proceed with planet scans. Updated scans shown that those mountain chains are way more massive than previously detected</DescriptionText>
+       <ReplaceWith>Massive mountains</ReplaceWith>
+      <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>
+    <Outcome>
+      <Chance>7</Chance>
+      <TitleText>Artifact</TitleText>
+      <DescriptionText>Your troops following the trail of the power source signature were lead to a ancient relic. Without any delay they retrieve it.</DescriptionText>
+      <RemoveTrigger>false</RemoveTrigger>
+      <GrantArtifact>true</GrantArtifact>
+    </Outcome>
+    <Outcome>
+      <Chance>25</Chance>
+      <TitleText>Hidden hangar</TitleText>
+      <DescriptionText>Your troops following the trail of the power source signature were lead to hidden ancient hangar. Inside of it they found several ships in perfect condition that are space worthy .</DescriptionText>
+      <RemoveTrigger>false</RemoveTrigger>
+      <FriendlyShipsToSpawn>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+        <string>Xeno Fighter</string>
+      </FriendlyShipsToSpawn>
+    </Outcome>
+    <Outcome>
+      <Chance>22</Chance>
+      <TitleText>Hidden hangar</TitleText>
+      <DescriptionText>Your troops following the trail of the power source signature were lead to hidden pirate hangar. Inside of it they found frigate class ship in perfect condition.</DescriptionText>
+      <RemoveTrigger>false</RemoveTrigger>
+      <FriendlyShipsToSpawn>
+		<string>Corsair</string>
+      </FriendlyShipsToSpawn>
+    </Outcome>
+    <Outcome>
+      <Chance>5</Chance>
+      <TitleText>Recovered technology</TitleText>
+      <DescriptionText>Your forces found buried under the snow split in half a very old ship. Its damaged reactor was leaking ionized liquid, that was the source that caused errors in our scans. While searching the wreck our troops stumbled upon a weapon schematics. Nothing else was worth taking so an order was given to destroy it the remains.</DescriptionText>
+      <UnlockTech>RemnantNuker</UnlockTech>
+      <ReplaceWith>Mountain</ReplaceWith>
+      <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>
+    <Outcome>
+      <Chance>5</Chance>
+      <TitleText>Recovered technology</TitleText>
+      <DescriptionText>Your forces found buried under the snow split in half a very old ship. Its damaged reactor was leaking ionized liquid, that was the source that caused errors in our scans. While searching the wreck our troops stumbled upon a weapon schematics. Nothing else was worth taking so an order was given to destroy it the remains.</DescriptionText>
+      <UnlockTech>Black matter weaponry</UnlockTech>
+      <ReplaceWith>Mountain</ReplaceWith>
+      <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>  
+    <Outcome>
+      <Chance>7</Chance>
+      <TitleText>Updated scans</TitleText>
+      <DescriptionText>While exploring several caves your troops discovered that the mountain has a unique mineral composition, that reflects most of the frequencies used in orbital scans. After few tests done on site it was clear that most if not whole mountain is rich in exotic minerals. </DescriptionText>
+      <RemoveTrigger>false</RemoveTrigger>
+      <ChangeRichness>0.8</ChangeRichness>
+    </Outcome>
+  </PotentialOutcomes>
+ </ExplorationEvent>

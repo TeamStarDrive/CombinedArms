@@ -3,7 +3,7 @@
   <PotentialOutcomes>
 
     <Outcome>
-      <Chance>45</Chance>
+      <Chance>55</Chance>
       <TitleText>It's an alien nest!</TitleText>
       <DescriptionText>As your troops approach the cave, they hear sounds coming from inside. Tossing in a flare to illuminate the depths, they spot movement. Unfortunately, a nest of antlions has made its home here! Following procedure, they quickly detonate explosives at the entrance, sealing the threat within.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -15,14 +15,14 @@
 	</TroopsToSpawn>
     </Outcome>
      <Outcome>
-      <Chance>40</Chance>
+      <Chance>35</Chance>
       <TitleText>It's an alien nest!</TitleText>
       <DescriptionText>As your troops approach the cave, they hear sounds coming from inside. Tossing in a flare to illuminate the depths, they spot movement. Unfortunately, a nest of antlions has made its home here! In a attempt of clearing the alien colony inside, they dropped explosives into the cave. The detonation shook the earth, causing it to collapse even deeper into the planet releasing toxic gasses. Soon after the cave was filled with highly corrosive liquid.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Evaporative Wastepit</ReplaceWith>
     </Outcome>
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>6</Chance>
       <TitleText>It's infested!</TitleText>
       <DescriptionText>As your troops approach the cave, they hear a faint sound that comes from inside. Tossing in a flare to illuminate the depths, they see nothing. After a few dull moments of silence, a horde of antlions suddenly surges forth! They're surrounded!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -42,11 +42,24 @@
       <ReplaceWith>Drop off point</ReplaceWith>
     </Outcome>
          <Outcome>
-      <Chance>10</Chance>
+      <Chance>7</Chance>
       <TitleText>Updated scans</TitleText>
-      <DescriptionText>While exploring the cave your troops scanned the underground mineral composition, resoults revealed that the planet mantle wasnt as rich as the orbital scans suggested. </DescriptionText>
+      <DescriptionText>While exploring the cave your troops scanned the underground mineral composition, results revealed that the planet mantle wasnt as rich as the orbital scans suggested. </DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-      <ChangeRichness>-0.6</ChangeRichness>
+      <ChangeRichness>-0.4</ChangeRichness>
+    </Outcome><Outcome>
+      <Chance>7</Chance>
+      <TitleText>Updated scans</TitleText>
+      <DescriptionText>While exploring the cave your troops scanned the underground mineral composition, results revealed that the planet mantle is richer as the orbital scans suggested. </DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeRichness>0.4</ChangeRichness>
+    </Outcome>
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Scam</TitleText>
+      <DescriptionText>While exploring the cave your troops encountered  shady character that claimed to be an cave explorer. He gave you offer, money for a map of this cave system that has a secret room with some old military tech. After the successful transaction your troops went straight to the secret room to recover the tech. Sadly It wasnt there, you were scammed by that fat bastard. </DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <MoneyGranted>-250</MoneyGranted>
     </Outcome>
   </PotentialOutcomes>
  </ExplorationEvent>
