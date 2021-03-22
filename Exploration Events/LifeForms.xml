@@ -1,0 +1,79 @@
+<ExplorationEvent>
+  <Name>LifeForms</Name>
+  <PotentialOutcomes>
+
+    <Outcome>
+      <Chance>35</Chance>
+      <TitleText>Ghost town!</TitleText>
+      <DescriptionText>As your troops approach the settlement, they immediately noticed the whole town was in ruin. No signs of its original habitants, only packs of antlions roam this ghost town. Following procedure, they started the extermination of hostiles.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Abandoned Town</ReplaceWith>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+		<string>Antlion</string>
+		<string>Antlion</string>
+        <string>Antlion</string>
+	</TroopsToSpawn>
+    </Outcome>
+     <Outcome>
+      <Chance>35</Chance>
+      <TitleText>Pirates!</TitleText>
+      <DescriptionText>From far away your troops noticed smoke coming from the settlement, as the came closer it became clear that the village was under attack not long time ago. Most building were rubble, all its habitants dead from a gun wounds. Its the work of pirates! They must be still somewhere close.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <PirateShipsToSpawn>
+		<string>Corsair</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+      </PirateShipsToSpawn>
+      <ReplaceWith>Destroyed Village</ReplaceWith>
+    </Outcome>
+    <Outcome>
+      <Chance>25</Chance>
+      <TitleText>Cant communicate</TitleText>
+      <DescriptionText>As your troops approach the settlement, they saw a very primitive structures. When trying to make a first contact the habitants they ran off into their shelters growling and screeching, any form of communication has failed. Better leave them alone.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Native Village</ReplaceWith>
+    </Outcome>
+     <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Primitive tribe!</TitleText>
+      <DescriptionText>As your troops approach the settlement they got noticed by the villagers. We established a way of communication with them in basic form, and mutual agreement was struck that they will provide us with workforce and we provide them with food. </DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Friendly Native Village</ReplaceWith>
+    </Outcome>
+         <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Small primitive town!</TitleText>
+      <DescriptionText>You troops noticed that town was surrounded by a large number of mines, upon entering the settlement were met with quite a uproar and curiosity, they easily established a way of communicating. A bargain was struck with town elder that they will provide us with workforce in exchange for few of our scientists to educate them in new technologies.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Primitive Small town</ReplaceWith>
+      <ChangeRichness>-0.2</ChangeRichness>
+    </Outcome>
+    
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Pirate colony!</TitleText>
+      <DescriptionText>While entering the Town, you troops were met with cold unfazed gazes from its citizens. Town elder approached them and explained that this is a pirate slave colony. If you free them from the pirates they will provide you will a strong backs, but you still need to feed them and provide some basic materials to let the town grow.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Primitive Medium town</ReplaceWith>
+      <PirateShipsToSpawn>
+		<string>Corsair</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+      </PirateShipsToSpawn>
+    </Outcome>
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Large town!</TitleText>
+      <DescriptionText>As your Troops entered the town, it looked abandoned, not a single soul outside. It turns out the habitants of this town are small and very weak species, but highly intelligent. They are wiling work on our research in return of providing them with food,materials and workforce.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Primitive Large town</ReplaceWith>
+    </Outcome>
+  </PotentialOutcomes>
+ </ExplorationEvent>
