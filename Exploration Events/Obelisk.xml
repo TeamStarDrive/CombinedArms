@@ -1,0 +1,86 @@
+﻿<ExplorationEvent>
+  <Name>Obelisk</Name>
+  <PotentialOutcomes>
+   <Outcome>
+      <Chance>30</Chance>
+      <TitleText>Ambush</TitleText>
+      <DescriptionText>Before reaching the Obelisk, you spot a Remnant fleet orbiting the planet that fired on the obelisk destroying it completely. .</DescriptionText>
+       <RemnantShipsToSpawn>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>		
+		<string>Support Drone</string>		
+		<string>Support Drone</string>
+		<string>Support Drone</string>
+		<string>Support Drone</string>
+      </RemnantShipsToSpawn>	      
+      <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>
+    <Outcome>
+      <Chance>4</Chance>
+      <TitleText>A virus</TitleText>
+      <DescriptionText>As your troops start to scan the Obelisk, all devices start to malfunction. I was containing a virus of unknown origin, that rapidly spread over our networks.</DescriptionText>
+      <ScienceBonus>-0.5</ScienceBonus>
+      <RemoveTrigger>true</RemoveTrigger>
+     </Outcome>
+    <Outcome>
+      <Chance>15</Chance>
+      <TitleText>Wave</TitleText>
+      <DescriptionText>As your troops get closer to the Obelisk they noticed that the earth surrounding it is totally barren. They slowly approach it, suddenly they hear a high pitch tone comming from the Obelisk, that gets more and more unbearable. At some point the Obelisk disintegrates and sends a deadly radiation wave killing any organic life on the planet</DescriptionText>
+      <ChangeBaseFertility>-1.5</ChangeBaseFertility>
+      <RemoveTrigger>true</RemoveTrigger>
+     </Outcome>
+     <Outcome>
+      <Chance>15</Chance>
+      <TitleText>Neural Enhancer</TitleText>
+      <DescriptionText>As your troops get closer to the pillar is starting to shake and shatter into rubble and abnormal crystals.</DescriptionText>
+      <ReplaceWith>Neural Enhancer</ReplaceWith>
+      <RemoveTrigger>true</RemoveTrigger>
+     </Outcome>
+    <Outcome>
+     <Chance>10</Chance>
+      <TitleText>Neural Dampener</TitleText>
+      <DescriptionText>As your troops get closer to the pillar is starting to shake and shatter into rubble and abnormal crystals.</DescriptionText>
+      <ReplaceWith>Neural Enhancer</ReplaceWith>
+      <RemoveTrigger>true</RemoveTrigger>
+     </Outcome>
+     <Outcome>
+      <Chance>18</Chance>
+      <TitleText>Fallout</TitleText>
+      <DescriptionText>As your troops approach the ancient Obelisk, they hear a humming noise. As they get closer the noise gets louder. Suddenly a deafening sound is heard and a large bright beam shoots into the sky that breaks apart and bombards the planet surface with a deadly particles.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <NumTilesToMakeUnhabitable>3</NumTilesToMakeUnhabitable>
+    </Outcome>
+    <Chance>18</Chance>
+      <TitleText>Life energy</TitleText>
+      <DescriptionText>As your troops approach the ancient Obelisk, they hear a humming noise. As they get closer the noise gets louder. Suddenly a deafening sound is heard and a large bright beam shoots into the sky that breaks apart and slowly descending to the surface.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <NumTilesToMakeHabitable>3</NumTilesToMakeHabitable>
+    </Outcome>
+    <Outcome>
+      <Chance>5</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After Scouting the area, your troops find the Obelisk, inside of it found a data core with schematics of unknown technology. After removing the data core from the socket, the Obelisk shakes and crumbles to rubble.</DescriptionText>
+      <MoneyGranted>500</MoneyGranted>
+      <UnlockTech>RAD</UnlockTech>	  
+      <RemoveTrigger>true</RemoveTrigger>
+      <RemnantShipsToSpawn>
+		<string>Heavy Drone</string>
+		<string>Heavy Drone</string>		
+		<string>Xeno Fighter</string>
+		<string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>	  
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+		<string>Skeleton</string>
+      </TroopsToSpawn>	  
+    </Outcome>
+    <Outcome>
+      <Chance>5</Chance>
+      <TitleText>Artifact!</TitleText>
+      <DescriptionText>As your troops approach the ancient obelisk, they noticed a strange object inserted into it. They start to dismantle the Obelisk to free the object inside of it.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+	  <GrantArtifact>true</GrantArtifact>
+    </Outcome>
+  </PotentialOutcomes>
+</ExplorationEvent>
