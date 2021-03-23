@@ -1,0 +1,73 @@
+<ExplorationEvent>
+  <Name>Unexplored cave</Name>
+  <PotentialOutcomes>
+
+    <Outcome>
+      <Chance>35</Chance>
+      <TitleText>It's an alien beacon!</TitleText>
+      <DescriptionText>As your troops approach the altar, they trip a security proximity alert, seconds after a remnant fleet jumps into orbit.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+       <RemnantShipsToSpawn>
+        <string>Ancient Frigate</string>
+        <string>Ancient Frigate</string>
+        <string>Light Ancient Bomber</string>
+        <string>Support Drone</string>
+        <string>Support Drone</string>
+       </RemnantShipsToSpawn>
+    </Outcome>
+     <Outcome>
+      <Chance>35</Chance>
+      <TitleText>It's an alien replant!</TitleText>
+      <DescriptionText>As your troops approach the altar, they start to feel its ill effects. Some of ur men fell on the ground, in response to danger your troop start shooting at the altar severely damaging it and permanently disabling it. Troops felt instant relief but soon after they were attacked from all sides by antlions, that were repelled by the altar.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+		<string>Antlion</string>
+		<string>Antlion</string>
+        <string>Antlion</string>
+	</TroopsToSpawn>
+    </Outcome>
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Forcefield!</TitleText>
+      <DescriptionText>While your Troops were securing the the Altar, the lead scientist approached it with a scanner, suddenly the scanner was ripped from his hand and flew straight into the glowing orb located on top of the Altar. As the scanner hit the orb, it released a deadly forcefield that was growing exponentially with time. The scientist was first to feel the effects, as his body was atomized. Rest of you troops start to flee, few didnt make it. The forcefield grew covering a large portion of the landscape, and then stopped. Since then nothing can penetrate it.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <NumTilesToMakeUnhabitable>2</NumTilesToMakeUnhabitable>
+      <ReplaceWith>Forcefield</ReplaceWith>
+    </Outcome>
+    <Outcome>
+      <Chance>30</Chance>
+      <TitleText>Rare materials!</TitleText>
+      <DescriptionText>Upon close inspection and scanning, you troops have discovered that the altar was build on a small but very rare and valuable mineral ore that can be mined.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Exotic Mineral</ReplaceWith>
+    </Outcome>
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>The rich Core!</TitleText>
+      <DescriptionText>Upon close inspection and scanning, you troops have discovered that the altar was drawing its power from the planet core that was very rich in exotic minerals.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeRichness>1<ChangeRichness>
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>The depleted Core!</TitleText>
+      <DescriptionText>Upon close inspection and scanning, you troops have discovered that the altar was drawing its power from the planet core and by doing it for centuries it drained the core.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeRichness>-1<ChangeRichness>
+    </Outcome>
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Pretty gem!</TitleText>
+      <DescriptionText>You troops carefully scanned the altar, the energy signature was coming of the Gem placed on the Altar. Its a decaying power gem, its too weak for any use for us, but we can sell it for some profit .</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <MoneyGranted>250</MoneyGranted>
+    </Outcome>
+    <Outcome>
+      <Chance>5</Chance>
+      <TitleText>Tech schematics!</TitleText>
+      <DescriptionText>You troops carefully scanned the altar, the energy signature was coming of the small forcefield at the top of the Altar. After disabling it, it revealed hidden a data schematics of a weapon.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <UnlockTech>Magnetrom</UnlockTech>
+    </Outcome>
+  </PotentialOutcomes>
+ </ExplorationEvent>

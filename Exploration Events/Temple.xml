@@ -3,7 +3,7 @@
   <PotentialOutcomes>
 
     <Outcome>
-      <Chance>15</Chance>
+      <Chance>10</Chance>
       <TitleText>Transaction</TitleText>
       <DescriptionText>As your troops move to enter the Temple, they met a scavenger named Yuriy who was using very strange dialect that had to be translated, apparently he has found and old relic inside of the temple and is willing to sell it for the right price!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -25,7 +25,7 @@
     <Outcome>
       <Chance>25</Chance>
       <TitleText>Remnant worshipers!</TitleText>
-      <DescriptionText>While mapping interiors of the temple you troops noticed a lot of primitive sculptures and scribbles in the walls worshiping some kind of god's that came to them from heavens. While examining the top level of the temple, they couldnt find a match in any records of ancient pyramids with the oddly large and flat and empty top level, which was resembling and landing pad. Suddenly they hear a sonic boom, and above their heads a remnant ship appeared, hovering for a minute charging its warp drive. Your troop fall back in haste, as soon they left the temple the ship takes off, creating a powerful shock wave destroying the temple. .</DescriptionText>
+      <DescriptionText>While mapping the layout of the temple rooms you troops noticed a lot of primitive sculptures and scribbles in the walls worshiping some kind of god's that came to them from heavens. While examining the roof of the temple, they noticed its oddly big and flat, which was resembling and landing pad for ships. Suddenly above their heads a remnant ship appeared, hovering for a minute charging its warp drive. Your troop fall back in haste, as soon they left the temple the ship takes off, creating a powerful shock wave destroying the temple.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
         <string>Ancient Frigate</string>
@@ -48,7 +48,7 @@
     <Outcome>
       <Chance>6</Chance>
       <TitleText>Rob or Ben?</TitleText>
-      <DescriptionText>While exploring the Temple your troops detected a energy source coming from deep inside of the structure. When they were closing in to the source, they started to hear weird noises, like two individuals arguing. They entered a huge room, there was no one there, at the center of it they saw a pyramid shaped structure that was clearly a high tech, centuries old. Suddenly they heard a voice coming from the structure. The structure was a sentient Ai, sent by ancient Race to guide primitive races. Sadly it was misunderstood by them, taking it for a god. They build a temple around it and isolated it from everyone deep inside. The civilisation perished, but the ai was left behind. After centuries, it developed a split personality to have a company. Now they argue who was the prime, Rob or Ben? The Ai asked if it can tap into our research networks for siphoning new knowledge in return increase the effectiveness of tax. </DescriptionText>
+      <DescriptionText>While exploring the Temple your troops detected a energy source coming from deep inside of the structure. When they were closing in to the source, they started to hear two individuals arguing. They entered a huge room, there was no one there only a structure that was clearly a high tech, centuries old. The structure was a sentient Ai, sent by ancient Race to guide primitive races. Temple was build  around it before the civilisation downfall. After centuries, it developed a split personality. Now they argue who was the prime, Rob or Ben? The Ai asked if it can tap into our research networks for siphoning new knowledge in return increase the effectiveness of tax. </DescriptionText>
       <ReplaceWith>Ai</ReplaceWith>	  
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
@@ -65,6 +65,20 @@
 		<string>Corsair-Fighter-Mk2</string>
       </PirateShipsToSpawn>	 
       <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>World Seed</TitleText>
+      <DescriptionText>While exploring the Temple your troops noticed that resembles a vault or bunker. At the center of the temple they saw a sealed off room with a enormous doors that wont budge. They decided to carefully breach it with laser cutters. Inside they found a World seed, that was hidden from remnants but by opening the vault you exposed its whereabouts, soon after remnant fleet warps in low orbit and starts to bombard the temple. </DescriptionText>
+       <ReplaceWith>WorldSeed</ReplaceWith>	 
+      <RemoveTrigger>true</RemoveTrigger>
+      <RemnantShipsToSpawn>
+        <string>Ancient Frigate</string>
+        <string>Ancient Frigate</string>
+        <string>Light Ancient Bomber</string>
+        <string>Light Ancient Bomber</string>
+        <string>Support Drone</string>
+       </RemnantShipsToSpawn>
     </Outcome>
   </PotentialOutcomes>
  </ExplorationEvent>
