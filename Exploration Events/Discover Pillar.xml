@@ -37,6 +37,13 @@
       <ReplaceWith>Thought Crystal</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
      </Outcome>
+     <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Exotic materials</TitleText>
+      <DescriptionText>As your troops get closer to the pillar they immediately noticed that the pillar was made of rare minerals that can be reused. They placed explosives, and detonated them, pillar become rubble of raw materials.</DescriptionText>
+      <ReplaceWith>Exotic Mineral</ReplaceWith>
+      <RemoveTrigger>true</RemoveTrigger>
+     </Outcome>
     <Outcome>
       <Chance>3</Chance>
       <TitleText>A unique technology!</TitleText>
@@ -88,5 +95,18 @@
         <string>Ancient Frigate</string>
        </RemnantShipsToSpawn>
     </Outcome>
+    <Chance>20</Chance>
+      <TitleText>Minor shock</TitleText>
+      <DescriptionText>From far away your troops see the pillar as its attracts lightning strikes. As your troops get closer to the pillar they detected powerful energy coming from it. The pillar is acting like a lightning rod gathering energy inside itself for a very long time. As your troops tried to decipher the engravings on the pillar, someone must have triggered a releasing mechanism. The energy stored inside the pillar was send deep into planets core with immerse force destroying the pillar in the process, jump starting the core into producing rare elements.</DescriptionText>
+      <ChangeRichness>0.3</ChangeRichness>
+      <RemoveTrigger>true</RemoveTrigger>
+     </Outcome>
+     <Chance>10</Chance>
+      <TitleText>Major shock</TitleText>
+      <DescriptionText>From far away your troops see the pillar as its attracts lightning strikes. As your troops get closer to the pillar they detected powerful energy coming from it. The pillar is acting like a lightning rod gathering energy inside itself for a very long time. As your troops tried to decipher the engravings on the pillar, someone must have triggered a releasing mechanism. The energy stored inside the pillar was send deep into planets core with immerse force destroying the pillar and creating a volcano in the process, jump starting the core into producing rare elements.</DescriptionText>
+      <ReplaceWith>Volcano</ReplaceWith>
+      <ChangeRichness>0.6</ChangeRichness>
+      <RemoveTrigger>true</RemoveTrigger>
+     </Outcome>
   </PotentialOutcomes>
 </ExplorationEvent>
