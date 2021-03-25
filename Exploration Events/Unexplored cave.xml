@@ -12,15 +12,17 @@
 		<string>Antlion</string>
 		<string>Antlion</string>
         <string>Antlion</string>
-	</TroopsToSpawn>
+	  </TroopsToSpawn>
     </Outcome>
-     <Outcome>
+
+    <Outcome>
       <Chance>35</Chance>
       <TitleText>It's an alien nest!</TitleText>
       <DescriptionText>As your troops approach the cave, they hear sounds coming from inside. Tossing in a flare to illuminate the depths, they spot movement. Unfortunately, a nest of antlions has made its home here! In an attempt at clearing the alien colony inside, they decided to drop explosives into the cave. The detonation shook the earth, causing a sinkhole to envelop the terrain even deeper into the planet. This causes the release of a multitude of toxic gasses. Soon after, the cave is filled with highly corrosive liquid. From initial scans, it seems to be a unique third state of hydrogen.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Evaporative Wastepit</ReplaceWith>
     </Outcome>
+
     <Outcome>
       <Chance>6</Chance>
       <TitleText>It's infested!</TitleText>
@@ -32,8 +34,9 @@
 		<string>Antlion</string>
 		<string>Antlion</string>
         <string>Antlion</string>
-	</TroopsToSpawn>
+	  </TroopsToSpawn>
     </Outcome>
+
      <Outcome>
       <Chance>20</Chance>
       <TitleText>Unexpected meeting</TitleText>
@@ -41,19 +44,23 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Drop off point</ReplaceWith>
     </Outcome>
-         <Outcome>
+
+    <Outcome>
       <Chance>7</Chance>
       <TitleText>Updated scans</TitleText>
       <DescriptionText>While exploring the cave, your troops scanned the underground mineral composition. The results revealed that the planet's crust wasnt as rich as the orbital scans initially suggested.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ChangeRichness>-0.4</ChangeRichness>
-    </Outcome><Outcome>
+    </Outcome>
+
+    <Outcome>
       <Chance>7</Chance>
       <TitleText>Updated scans</TitleText>
       <DescriptionText>While exploring the cave, your troops scanned the underground mineral composition. The results revealed that the planet's crust is in fact richer than the orbital scans had initially suggested.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ChangeRichness>0.4</ChangeRichness>
     </Outcome>
+
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Scam</TitleText>
@@ -61,5 +68,6 @@
       <RemoveTrigger>true</RemoveTrigger>
       <MoneyGranted>-250</MoneyGranted>
     </Outcome>
+    
   </PotentialOutcomes>
  </ExplorationEvent>

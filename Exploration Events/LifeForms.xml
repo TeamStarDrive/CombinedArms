@@ -13,9 +13,10 @@
 		<string>Antlion</string>
 		<string>Antlion</string>
         <string>Antlion</string>
-	</TroopsToSpawn>
+	  </TroopsToSpawn>
     </Outcome>
-     <Outcome>
+
+    <Outcome>
       <Chance>35</Chance>
       <TitleText>Pirates!</TitleText>
       <DescriptionText>From far away your troops notice a pillar of smoke coming from the settlement. As they get closer, it becomes clear that the village suffered from an attack not long ago. Most of the buildings were turned to rubble. All inhabitants now dead from gunshot wounds. This was the work of pirates! They must still be somewhere close.</DescriptionText>
@@ -30,6 +31,7 @@
       </PirateShipsToSpawn>
       <ReplaceWith>Destroyed Village</ReplaceWith>
     </Outcome>
+
     <Outcome>
       <Chance>25</Chance>
       <TitleText>Cant communicate</TitleText>
@@ -37,14 +39,16 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Native Village</ReplaceWith>
     </Outcome>
-     <Outcome>
+
+    <Outcome>
       <Chance>20</Chance>
       <TitleText>Primitive tribe!</TitleText>
       <DescriptionText>As your troops approach the settlement, they're noticed by one of the primitive villagers. Through sheer determination and diplomatic trust, they establish a basic way of communication. After negotiating, a mutual agreement was made wherein they will provide us with a workforce so long as we provide them with food.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Friendly Native Village</ReplaceWith>
     </Outcome>
-         <Outcome>
+
+    <Outcome>
       <Chance>20</Chance>
       <TitleText>Small primitive town!</TitleText>
       <DescriptionText>You troops noticed that this town was surrounded by a large number of mines. Going against procedure and navigating the minefield to enter the settlement, they were met with quite the uproar of curiosity. They easily established a way of communicating. A deal was struck with the town elder wherein they will provide us with a workforce in exchange for few of our scientists to educate their people.</DescriptionText>
@@ -68,6 +72,7 @@
 		<string>Corsair-Fighter-Mk2</string>
       </PirateShipsToSpawn>
     </Outcome>
+
     <Outcome>
       <Chance>20</Chance>
       <TitleText>Large town!</TitleText>
@@ -75,5 +80,6 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Primitive Large town</ReplaceWith>
     </Outcome>
+    
   </PotentialOutcomes>
  </ExplorationEvent>

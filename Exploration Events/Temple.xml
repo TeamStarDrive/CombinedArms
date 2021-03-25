@@ -10,7 +10,8 @@
       <MoneyGranted>-250</MoneyGranted>
       <GrantArtifact>true</GrantArtifact>
     </Outcome>
-     <Outcome>
+
+    <Outcome>
       <Chance>30</Chance>
       <TitleText>It's an alien nest!</TitleText>
       <DescriptionText>As your troops approach the temple, they hear sounds coming from inside. Unfortunately, a nest of antlions has made its home here! The troops quickly placed strategic explosives around the main structural components of the temple, causing it to collapse upon detonation.</DescriptionText>
@@ -20,8 +21,9 @@
 		<string>Antlion</string>
 		<string>Antlion</string>
         <string>Antlion</string>
-	</TroopsToSpawn>
+	  </TroopsToSpawn>
     </Outcome>
+
     <Outcome>
       <Chance>25</Chance>
       <TitleText>Remnant worshipers!</TitleText>
@@ -31,13 +33,15 @@
         <string>Ancient Frigate</string>
        </RemnantShipsToSpawn>
     </Outcome>
-     <Outcome>
+
+    <Outcome>
       <Chance>5</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After scouting the interior of the temple, your troops located a hidden chamber. Inside, they found a data core with schematics for an unknown technology. After removing the data core from its socket, the whole structure began to shake, and your troops managed to make it out just as teh whole structure crumbles behind them.</DescriptionText>
       <UnlockTech>AncientArmor</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
+
     <Outcome>
       <Chance>3</Chance>
       <TitleText></TitleText>
@@ -45,6 +49,7 @@
       <ReplaceWith>Ancient megacity</ReplaceWith>	  
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
+
     <Outcome>
       <Chance>6</Chance>
       <TitleText>Rob or Ben?</TitleText>
@@ -52,6 +57,7 @@
       <ReplaceWith>Ai</ReplaceWith>	  
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
+
     <Outcome>
       <Chance>20</Chance>
       <TitleText>Scavenger pirates</TitleText>
@@ -66,6 +72,7 @@
       </PirateShipsToSpawn>	 
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
+
     <Outcome>
       <Chance>10</Chance>
       <TitleText>World Seed</TitleText>
@@ -80,5 +87,6 @@
         <string>Support Drone</string>
        </RemnantShipsToSpawn>
     </Outcome>
+    
   </PotentialOutcomes>
  </ExplorationEvent>

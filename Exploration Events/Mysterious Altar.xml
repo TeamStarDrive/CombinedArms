@@ -15,7 +15,8 @@
         <string>Support Drone</string>
        </RemnantShipsToSpawn>
     </Outcome>
-     <Outcome>
+
+    <Outcome>
       <Chance>35</Chance>
       <TitleText>It's an alien replant!</TitleText>
       <DescriptionText>As your troops approach the altar, they begin to feel its ill effects, causing some of the men fall to the ground. In response to the danger, your troop start firing at the altar, severely damaging it and permanently disabling it in order to save their own lives. The troops feel instant relief, but soon after they were attacked from all sides by antlions who were drawn to the commotion.</DescriptionText>
@@ -25,8 +26,9 @@
 		<string>Antlion</string>
 		<string>Antlion</string>
         <string>Antlion</string>
-	</TroopsToSpawn>
+	  </TroopsToSpawn>
     </Outcome>
+
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Forcefield!</TitleText>
@@ -35,6 +37,7 @@
       <NumTilesToMakeUnhabitable>2</NumTilesToMakeUnhabitable>
       <ReplaceWith>Forcefield</ReplaceWith>
     </Outcome>
+
     <Outcome>
       <Chance>30</Chance>
       <TitleText>Rare materials!</TitleText>
@@ -42,19 +45,23 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Exotic Mineral</ReplaceWith>
     </Outcome>
+
     <Outcome>
       <Chance>10</Chance>
       <TitleText>The rich Core!</TitleText>
       <DescriptionText>Upon close inspection and scanning, your troops have discovered that the altar was drawing its power from the planet's core, which was in fact very rich in exotic minerals.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-      <ChangeRichness>1<ChangeRichness>
+      <ChangeRichness>1</ChangeRichness>
+    </Outcome>
+
     <Outcome>
       <Chance>10</Chance>
       <TitleText>The depleted Core!</TitleText>
       <DescriptionText>Upon close inspection and scanning, your troops have discovered that the altar was drawing its power from the planet's core, and that by doing it for so many centuries, it has drained the core of most of its value.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-      <ChangeRichness>-1<ChangeRichness>
+      <ChangeRichness>-1</ChangeRichness>
     </Outcome>
+
     <Outcome>
       <Chance>20</Chance>
       <TitleText>Pretty gem!</TitleText>
@@ -62,6 +69,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <MoneyGranted>250</MoneyGranted>
     </Outcome>
+
     <Outcome>
       <Chance>5</Chance>
       <TitleText>Tech schematics!</TitleText>
@@ -69,5 +77,6 @@
       <RemoveTrigger>true</RemoveTrigger>
       <UnlockTech>Magnetrom</UnlockTech>
     </Outcome>
+
   </PotentialOutcomes>
  </ExplorationEvent>

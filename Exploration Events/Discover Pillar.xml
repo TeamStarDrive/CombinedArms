@@ -1,7 +1,7 @@
 ﻿<ExplorationEvent>
   <Name>Discover pillar</Name>
   <PotentialOutcomes>
-   <Outcome>
+    <Outcome>
       <Chance>30</Chance>
       <TitleText>Unknown defenders</TitleText>
       <DescriptionText>Before reaching the Pillar, you spot a Remnant fleet orbiting the planet. The pillar disappear before your troops' eyes, leaving big hole in the ground.</DescriptionText>
@@ -15,6 +15,7 @@
       </RemnantShipsToSpawn>	      
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
+
     <Outcome>
       <Chance>8</Chance>
       <TitleText>Scientific Discovery</TitleText>
@@ -22,15 +23,17 @@
       <ScienceBonus>0.05</ScienceBonus>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
-     </Outcome>
+    </Outcome>
+
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Wave</TitleText>
       <DescriptionText>As your troops get closer to the pillar they noticed that the earth surrounding it is totally barren. They slowly approach it, suddenly they hear a high pitch tone comming from the pillar, that gets more and more unbearable. At some point the pillar disintegrates and sends a deadly radiation wave killing any organic life on the planet</DescriptionText>
       <ChangeBaseFertility>-1.5</ChangeBaseFertility>
       <RemoveTrigger>true</RemoveTrigger>
-     </Outcome>
-     <Outcome>
+    </Outcome>
+
+    <Outcome>
       <Chance>10</Chance>
       <TitleText>Shattering</TitleText>
       <DescriptionText>As your troops get closer to the pillar is starting to shake and shatter into rubble and abnormal crystals.</DescriptionText>
@@ -43,7 +46,8 @@
       <DescriptionText>As your troops get closer to the pillar they immediately noticed that the pillar was made of rare minerals that can be reused. They placed explosives, and detonated them, pillar become rubble of raw materials.</DescriptionText>
       <ReplaceWith>Exotic Mineral</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
-     </Outcome>
+    </Outcome>
+
     <Outcome>
       <Chance>3</Chance>
       <TitleText>A unique technology!</TitleText>
@@ -63,6 +67,7 @@
 		<string>Skeleton</string>
       </TroopsToSpawn>	  
     </Outcome>
+
     <Outcome>
       <Chance>10</Chance>
       <TitleText>That's no moon...</TitleText>
@@ -82,6 +87,7 @@
 		<string>Draug-Fighter-Mk2</string>		
       </PirateShipsToSpawn>
     </Outcome>
+
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Intervention</TitleText>
@@ -95,18 +101,23 @@
         <string>Ancient Frigate</string>
        </RemnantShipsToSpawn>
     </Outcome>
-    <Chance>20</Chance>
+
+    <Outcome>
+     <Chance>20</Chance>
       <TitleText>Minor shock</TitleText>
       <DescriptionText>From far away your troops see the pillar as its attracts lightning strikes. As your troops get closer to the pillar they detected powerful energy coming from it. The pillar is acting like a lightning rod gathering energy inside itself for a very long time. As your troops tried to decipher the engravings on the pillar, someone must have triggered a releasing mechanism. The energy stored inside the pillar was send deep into planets core with immerse force destroying the pillar in the process, jump starting the core into producing rare elements.</DescriptionText>
       <ChangeRichness>0.3</ChangeRichness>
       <RemoveTrigger>true</RemoveTrigger>
-     </Outcome>
+    </Outcome>
+
+    <Outcome>
      <Chance>10</Chance>
       <TitleText>Major shock</TitleText>
       <DescriptionText>From far away your troops see the pillar as its attracts lightning strikes. As your troops get closer to the pillar they detected powerful energy coming from it. The pillar is acting like a lightning rod gathering energy inside itself for a very long time. As your troops tried to decipher the engravings on the pillar, someone must have triggered a releasing mechanism. The energy stored inside the pillar was send deep into planets core with immerse force destroying the pillar and creating a volcano in the process, jump starting the core into producing rare elements.</DescriptionText>
       <ReplaceWith>Volcano</ReplaceWith>
       <ChangeRichness>0.6</ChangeRichness>
       <RemoveTrigger>true</RemoveTrigger>
-     </Outcome>
+    </Outcome>
+    
   </PotentialOutcomes>
 </ExplorationEvent>

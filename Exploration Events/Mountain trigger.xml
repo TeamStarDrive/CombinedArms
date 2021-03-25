@@ -14,6 +14,7 @@
       </TroopsToSpawn>     
       <RemoveTrigger>false</RemoveTrigger>
     </Outcome>
+
     <Outcome>
       <Chance>35</Chance>
       <TitleText>A sad wreck</TitleText>
@@ -21,6 +22,7 @@
        <ReplaceWith>Massive mountains</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
+
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Volcano</TitleText>
@@ -28,6 +30,7 @@
        <ReplaceWith>Dormant Volcano</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
+
     <Outcome>
       <Chance>7</Chance>
       <TitleText>Artifact</TitleText>
@@ -35,6 +38,7 @@
       <RemoveTrigger>false</RemoveTrigger>
       <GrantArtifact>true</GrantArtifact>
     </Outcome>
+
     <Outcome>
       <Chance>25</Chance>
       <TitleText>Hidden hangar</TitleText>
@@ -47,6 +51,7 @@
         <string>Xeno Fighter</string>
       </FriendlyShipsToSpawn>
     </Outcome>
+
     <Outcome>
       <Chance>22</Chance>
       <TitleText>Hidden hangar</TitleText>
@@ -56,6 +61,7 @@
 		<string>Corsair</string>
       </FriendlyShipsToSpawn>
     </Outcome>
+
     <Outcome>
       <Chance>5</Chance>
       <TitleText>Recovered technology</TitleText>
@@ -63,7 +69,8 @@
       <UnlockTech>RemnantNuker</UnlockTech>
       <ReplaceWith>Mountain</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
-    </Outcome>  
+    </Outcome>
+
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Updated scans</TitleText>
@@ -71,5 +78,6 @@
       <RemoveTrigger>false</RemoveTrigger>
       <ChangeRichness>0.6</ChangeRichness>
     </Outcome>
+    
   </PotentialOutcomes>
  </ExplorationEvent>

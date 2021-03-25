@@ -10,6 +10,7 @@
       <ChangeBaseFertility>-2</ChangeBaseFertility>
       <NumTilesToMakeUnhabitable>6</NumTilesToMakeUnhabitable>
     </Outcome>
+
      <Outcome>
       <Chance>15</Chance>
       <TitleText>Costly encounter!</TitleText>
@@ -23,6 +24,7 @@
 		<string>Antlion</string>
       </TroopsToSpawn>	 
     </Outcome>
+
     <Outcome>
       <Chance>7</Chance>
       <TitleText>Unwanted Attention</TitleText>
@@ -30,7 +32,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <NumTilesToMakeUnhabitable>4</NumTilesToMakeUnhabitable>
       <ChangeBaseFertility>-1</ChangeBaseFertility>
-      <ChangeBaseMaxFertility>-0.6<ChangeBaseMaxFertility>
+      <ChangeBaseMaxFertility>-0.6</ChangeBaseMaxFertility>
       <RemnantShipsToSpawn>
         <string>Heavy Drone</string>
         <string>Heavy Drone</string>
@@ -42,6 +44,7 @@
         <string>Ancient Frigate</string>
        </RemnantShipsToSpawn>
     </Outcome>
+
     <Outcome>
       <Chance>30</Chance>
       <TitleText>Scrap!</TitleText>
@@ -49,6 +52,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Scrapyard</ReplaceWith>
     </Outcome>
+
     <Outcome>
       <Chance>25</Chance>
       <TitleText>Pirate base</TitleText>
@@ -68,6 +72,7 @@
 		<string>Draug-Fighter-Mk2</string>		
       </PirateShipsToSpawn>
     </Outcome>
+
     <Outcome>
       <Chance>7</Chance>
       <TitleText>The elevator</TitleText>
@@ -75,6 +80,7 @@
       <RemoveTrigger>true</RemoveTrigger>
 	  <ReplaceWith>Space Elevator</ReplaceWith>
     </Outcome>
+
     <Outcome>
       <Chance>5</Chance>
       <TitleText>What a marvel!</TitleText>
@@ -85,5 +91,6 @@
 		<string>Shipyard</string>
       </FriendlyShipsToSpawn>
     </Outcome>
+    
   </PotentialOutcomes>
  </ExplorationEvent>
