@@ -1,0 +1,121 @@
+<ExplorationEvent>
+  <Name>Orb</Name>
+  <PotentialOutcomes>
+
+    <Outcome>
+      <Chance>15</Chance>
+      <TitleText>It's an remnant trap!</TitleText>
+      <DescriptionText>As your troops approach the Orb, they notice a control panel. After Some time translating the alien symbols they managed to access the system. The orb was a some kind of very advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The planet scans were greatly changed of the previous ones. It seems like the orb and the planet is a way to lure advanced races, suddenly a remnant forces jump into orbit, it was a trap after all!</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeRichness>-0.6<ChangeRichness>
+      <ChangeBaseMaxFertility>-0.4</ChangeBaseMaxFertility>
+      <NumTilesToMakeUnhabitable>3</NumTilesToMakeUnhabitable>
+       <RemnantShipsToSpawn>
+        <string>Ancient Frigate</string>
+        <string>Ancient Frigate</string>
+        <string>Light Ancient Bomber</string>
+        <string>Support Drone</string>
+        <string>Support Drone</string>
+        <string>Support Drone</string>
+        <string>Heavy Drone</string>
+        <string>Heavy Drone</string>
+       </RemnantShipsToSpawn>
+    </Outcome>
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>It's an pirate trap!</TitleText>
+      <DescriptionText>As your troops approach the Orb, they notice a control panel. After Some time translating the alien symbols they managed to access the system. The orb was a some kind of very advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The planet scans were greatly changed of the previous ones. It seems like the orb and the planet is a way to lure advanced races, suddenly a pirate forces jump into orbit, it was a trap after all!</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeRichness>-0.3<ChangeRichness>
+      <ChangeBaseMaxFertility>-0.3</ChangeBaseMaxFertility>
+      <NumTilesToMakeUnhabitable>6</NumTilesToMakeUnhabitable>
+       <PirateShipsToSpawn>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+        <string>Corsair-Fighter-Mk2</string>
+        <string>Corsair</string>
+        <string>Corsair</string>
+        <string>Corsair</string>
+      </PirateShipsToSpawn>
+    </Outcome>
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Updates scans!</TitleText>
+      <DescriptionText>As your troops approach the Orb, they notice a control panel. After Some time translating the alien symbols they managed to access the system. The orb was a some kind of very advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The planet scans were greatly changed of the previous ones.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeRichness>0.5<ChangeRichness>
+      <ChangeBaseMaxFertility>-0.5</ChangeBaseMaxFertility>
+    </Outcome>
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Updates scans!</TitleText>
+      <DescriptionText>As your troops approach the Orb, they notice a control panel. After Some time translating the alien symbols they managed to access the system. The orb was a some kind of very advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The planet scans were greatly changed of the previous ones.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeRichness>-0.5<ChangeRichness>
+      <ChangeBaseMaxFertility>0.5</ChangeBaseMaxFertility>
+    </Outcome>
+     <Outcome>
+      <Chance>15</Chance>
+      <TitleText>It's an pirate base!</TitleText>
+      <DescriptionText>As your troops approach the Orb, they notice a control panel. After Some time translating the alien symbols they managed to access the system. The orb was a some kind of very advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The planet scans were greatly changed of the previous ones. It seems like the orb was hiding this marvelous planet from advanced races, but also it was used as a cloaking device for all the pirate forces in orbit!</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeRichness>0.8<ChangeRichness>
+      <ChangeBaseMaxFertility>0.4</ChangeBaseMaxFertility>
+      <NumTilesToMakeUnhabitable>5</NumTilesToMakeUnhabitable>
+       <PirateShipsToSpawn>
+		<string>Corsair Asteroid Base</string>
+		<string>Corsair Station</string>
+		<string>Corsair Station</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+		<string>Corsair-Fighter-Mk2</string>
+        <string>Corsair-Fighter-Mk2</string>
+        <string>Corsair</string>
+        <string>Corsair</string>
+        <string>Corsair</string>
+      </PirateShipsToSpawn>
+    </Outcome>
+     <Outcome>
+      <Chance>25</Chance>
+      <TitleText>Pirate outcast!</TitleText>
+      <DescriptionText>You scientists shifty deducted that the orb is advanced camouflage system. After turning it off, the orb fell to the ground and shattered. It seems like the orb was hiding true potential of this planet from others. But also it was hiding a pirate outcasts base. Their leader named Goldymires has offered his connections to improve our infrastructure for a small fee! As well as his ship as a sign of good faith!</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeRichness>0.2<ChangeRichness>
+      <ChangeBaseMaxFertility>0.2</ChangeBaseMaxFertility>
+      <NumTilesToMakeUnhabitable>2</NumTilesToMakeUnhabitable>
+      <FriendlyShipsToSpawn>
+        <string>Corsair</string>
+      </FriendlyShipsToSpawn>
+    </Outcome>
+     <Outcome>
+      <Chance>25</Chance>
+      <TitleText>It's an alien Incubator!</TitleText>
+      <DescriptionText>As your troops approach the Orb, they notice a control panel. After Some time translating the alien symbols they managed to access the system. Its a Alien incubator, thats is ready to release his creations.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+		<string>Antlion</string>
+		<string>Antlion</string>
+        <string>Antlion</string>
+	</TroopsToSpawn>
+    </Outcome>
+    <Outcome>
+      <Chance>30</Chance>
+      <TitleText>Rare materials!</TitleText>
+      <DescriptionText>Upon close inspection your troops have discovered that the Orb is made of rare mineral giving it strong magnetic properties explaining levitation and scrabbled scans.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Exotic Mineral</ReplaceWith>
+    </Outcome>
+    <Outcome>
+      <Chance>5</Chance>
+      <TitleText>Tech discovery!</TitleText>
+      <DescriptionText>Upon close inspection your troops have discovered that the Orb is made of Black matter suspended in quantum bubble. After taking a sample the quantum bubble has collapsed and black matter dispersed. Furter investigations led to creating new type of weapon .</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <UnlockTech>Black matter weaponry</UnlockTech>
+    </Outcome>
+  </PotentialOutcomes>
+ </ExplorationEvent>
