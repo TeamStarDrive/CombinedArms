@@ -2,7 +2,7 @@
   <Name>Discover Ancient Tomb</Name>
   <PotentialOutcomes>
     <Outcome>
-      <Chance>25</Chance>
+      <Chance>15</Chance>
       <TitleText>Ancient curse</TitleText>
       <DescriptionText>Before reaching the the Tomb, the movement of your troops has woken up the dead, the tomb sinks into the ground.</DescriptionText>
        <TroopsToSpawn>
@@ -14,7 +14,7 @@
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
     <Outcome>
-      <Chance>15</Chance>
+      <Chance>20</Chance>
       <TitleText>Watch your step</TitleText>
       <DescriptionText>Your forces enter the mysterious tomb and quickly find evidence of Remnant activity. As they explore further they discover a still operational hangar bay. Your troops trip the automated security sensors and the entire Remnant fleet that was stationed here powers up and flies into orbit.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -29,32 +29,29 @@
       </RemnantShipsToSpawn>
     </Outcome>
     <Outcome>
-      <Chance>15</Chance>
+      <Chance>20</Chance>
       <TitleText>Tomb Raiders</TitleText>
       <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. The artifacts and other curiousities found there will sell well on the open market.</DescriptionText>
-      <MoneyGranted>1500</MoneyGranted>
+      <MoneyGranted>1200</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
     </Outcome>
+
     <Outcome>
-      <Chance>4</Chance>
-      <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops found an altar, with working holo-chip with schematics of unknown technology. After removing it from altar the Tomb starts to shake and the room fills up with sand, alarming dormant ground and space defenders.</DescriptionText>
-      <MoneyGranted>200</MoneyGranted>
-      <UnlockTech>Black matter weaponry</UnlockTech>	  
+      <Chance>10</Chance>
+      <TitleText>Ancient customs</TitleText>
+      <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. The tomb was littered by insane amounts of degraded materials. It seems that the custom of that race was to bury a dead noble with all his possesions, before it was a treasure now its a scrapyard, eitherway it has still some value.</DescriptionText>
+      <ReplaceWith>Scrapyard</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
-      <RemnantShipsToSpawn>
-        <string>Heavy Drone</string>
-        <string>Heavy Drone</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-      </RemnantShipsToSpawn>	  
-      <TroopsToSpawn>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-      </TroopsToSpawn>	  
     </Outcome>
+   
+   <Outcome>
+      <Chance>15</Chance>
+      <TitleText>Ancient burial</TitleText>
+      <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. Inside the tomb they found exotic minerals, and from what they can gather those were formed from the corpses of ancient race that had a very unique molecular structure physiology.</DescriptionText>
+      <ReplaceWith>Exotic Minerals</ReplaceWith>
+      <RemoveTrigger>true</RemoveTrigger>
+    </Outcome>
+
     <Outcome>
       <Chance>4</Chance>
       <TitleText>A unique technology!</TitleText>
@@ -75,7 +72,7 @@
       </TroopsToSpawn>	  
     </Outcome>
     <Outcome>
-      <Chance>9</Chance>
+      <Chance>6</Chance>
       <TitleText>Secrets of the Ancients</TitleText>
       <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. The complex is incredibly well preserved. Yet even more curious is the fact that this site seems to have been the target of an earlier archaeological expedition by a second alien race -- very likely starfarers based on the evidence found. \n \n The wealth of information presented here will pay dividends to our scientists for years to come. Your race gains a 3% bonus to all scientific efforts for the discovery.</DescriptionText>
       <ScienceBonus>0.03</ScienceBonus>

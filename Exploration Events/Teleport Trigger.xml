@@ -1,0 +1,100 @@
+<ExplorationEvent>
+  <Name>Teleport Trigger</Name>
+  <PotentialOutcomes>
+
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Collapse</TitleText>
+      <DescriptionText>As your troops approached the ring, they noticed that is unpowered and probably damaged to a certain degree. In a attempt to check if its operational they powered it up. The ring started to slightly vibrate and an ustable wormhole was created inside the ring. Suddenly the wormhole collapsed and created a devastating have of destruction and propagated across the planet.!</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeBaseFertility>-1</ChangeBaseFertility>
+      <NumTilesToMakeUnhabitable>5</NumTilesToMakeUnhabitable>
+    </Outcome>
+
+     <Outcome>
+      <Chance>15</Chance>
+      <TitleText>Pests!</TitleText>
+      <DescriptionText>As your troops approached the ring, they noticed that is unpowered and probably damaged to a certain degree. In a attempt to check if its operational they powered it up. The ring started to slightly vibrate and an stable wormhole was created inside the ring, and it seem to be working fine. Unfortunately the vibrations have lured a hordes of antlions that started to attack the ring, destroying it in the process. Only valuable material from the ring were left</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Exotic Mineral</ReplaceWith>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+        <string>Antlion</string>
+		<string>Antlion</string>
+      </TroopsToSpawn>	 
+    </Outcome>
+
+    <Outcome>
+      <Chance>7</Chance>
+      <TitleText>Unwanted Attention.</TitleText>
+      <DescriptionText>As your troops approached the ring, they noticed that its in a really good shape, well preserved. In a attempt to check if its operational they powered it up. The ring started to slightly vibrate and an stable wormhole was created inside the ring, and it seem to be working fine. Unfortunately the unique energy output of the wormhole has draw an attention of a remnant fleet, which soon after warping in started bombarding the planet, destroying the Ring in the process.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <NumTilesToMakeUnhabitable>3</NumTilesToMakeUnhabitable>
+      <ChangeBaseFertility>-0.5</ChangeBaseFertility>
+      <ChangeBaseMaxFertility>-0.8</ChangeBaseMaxFertility>
+      <RemnantShipsToSpawn>
+        <string>Heavy Drone</string>
+        <string>Heavy Drone</string>
+        <string>Heavy Drone</string>
+        <string>Xeno Fighter</string>
+        <string>Xeno Fighter</string>
+        <string>Light Ancient Bomber</string>
+        <string>Light Ancient Bomber</string>
+        <string>Ancient Frigate</string>
+       </RemnantShipsToSpawn>
+    </Outcome>
+
+    <Outcome>
+      <Chance>15</Chance>
+      <TitleText>Just in time.</TitleText>
+      <DescriptionText>As your troops approached the ring, they noticed that its in a really good shape, well preserved. In a attempt to check if its operational they powered it up. The ring started to slightly vibrate and an stable wormhole was created inside the ring, and it seem to be working fine. Unfortunately the unique energy output of the wormhole has draw an attention of a remnant fleet. You troops reacted swiftly by deactivating the teleport, once powered down remnants couldnt pinpoint the location of the ring.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Teleport</ReplaceWith>
+      <RemnantShipsToSpawn>
+        <string>Heavy Drone</string>
+        <string>Heavy Drone</string>
+        <string>Heavy Drone</string>
+        <string>Xeno Fighter</string>
+        <string>Xeno Fighter</string>
+        <string>Light Ancient Bomber</string>
+        <string>Light Ancient Bomber</string>
+        <string>Ancient Frigate</string>
+       </RemnantShipsToSpawn>
+    </Outcome>
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Technomancers.</TitleText>
+      <DescriptionText>As your troops approached the ring, they noticed that its in a really good shape, well preserved. In a attempt to check if its operational they powered it up. The ring started to slightly vibrate and an stable wormhole was created inside the ring, and it seem to be working fine. Suddenly a otherworldly creatures came from the ring..</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Teleport</ReplaceWith>
+      <TroopsToSpawn>
+        <string>Skeleton</string>
+        <string>Skeleton</string>
+		<string>Skeleton</string>
+        <string>Wyvern</string>
+        <string>Wyvern</string>
+        <string>Wyvern</string>
+      </TroopsToSpawn>	 
+    </Outcome>
+
+    <Outcome>
+      <Chance>7</Chance>
+      <TitleText>Grey Goo!</TitleText>
+      <DescriptionText>As your troops approached the ring, they noticed that its in a really good shape, well preserved. In a attempt to check if its operational they powered it up. The ring started to slightly vibrate and an stable wormhole was created inside the ring, and it seem to be working fine. Suddenly a strange grayish mass came pouring out from the ring, enveloping the portal and keep expanding in rapid pace. Your troops retreated.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+	  <ReplaceWith>GreyGoo</ReplaceWith>
+      <ChangeBaseFertility>-2</ChangeBaseFertility>
+      <ChangeBaseMaxFertility>-2</ChangeBaseMaxFertility>
+    </Outcome>
+
+    <Outcome>
+      <Chance>7</Chance>
+      <TitleText>Grey Goo!</TitleText>
+      <DescriptionText>As your troops approached the ring, they noticed that its in a really good shape, well preserved. In a attempt to check if its operational they powered it up. The ring started to slightly vibrate and an stable wormhole was created inside the ring, and it seem to be working fine. Suddenly a strange grayish mass came pouring out from the ring. Your troops put a electromagnetic barrier around it, trapping it inside. After studying it, they realised its a Grey goo, and disposed of it and gaining a valuable knowledge.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+	  <ReplaceWith>Teleport</ReplaceWith>
+      <ScienceBonus>0.05</ScienceBonus>
+    </Outcome>
+
+  </PotentialOutcomes>
+ </ExplorationEvent>
