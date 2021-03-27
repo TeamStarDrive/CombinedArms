@@ -7,9 +7,9 @@
       <TitleText>It's a remnant trap!</TitleText>
       <DescriptionText>As your troops approach the Orb, they notice a control panel. After Some time translating the alien symbols they managed to access the system. The orb was a some kind of very advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The planet scans were greatly changed of the previous ones. It seems like the orb and the planet is a way to lure advanced races, suddenly a remnant forces jump into orbit, it was a trap after all!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-      <ChangeRichness>-0.6</ChangeRichness>
+      <ChangeRichness>-0.5</ChangeRichness>
       <ChangeBaseMaxFertility>-0.4</ChangeBaseMaxFertility>
-      <NumTilesToMakeUnhabitable>3</NumTilesToMakeUnhabitable>
+      <NumTilesToMakeUnhabitable>4</NumTilesToMakeUnhabitable>
        <RemnantShipsToSpawn>
         <string>Ancient Frigate</string>
         <string>Ancient Frigate</string>
@@ -60,6 +60,15 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ChangeRichness>-0.5</ChangeRichness>
       <ChangeBaseMaxFertility>0.5</ChangeBaseMaxFertility>
+    </Outcome>
+
+    <Outcome>
+      <Chance>8</Chance>
+      <TitleText>Updates scans!</TitleText>
+      <DescriptionText>As your troops approach the orb, they notice a control panel. After some time translating the alien symbols, they manage to access the system. Apparently, the orb was being used as some kind of advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The scans of the planet immediately change greatly from previous ones.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeRichness>0.4</ChangeRichness>
+      <ChangeBaseMaxFertility>0.4</ChangeBaseMaxFertility>
     </Outcome>
 
     <Outcome>
@@ -124,6 +133,15 @@
       <DescriptionText>Upon close inspection, your troops have discovered that the orb is made of black matter, suspended in a quantum bubble. After taking a sample, the quantum bubble collapses and the black matter disperses. Followup investigations led us to the creation of a new type of weapon!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <UnlockTech>Black matter weaponry</UnlockTech>
+    </Outcome>
+
+    <Outcome>
+      <Chance>5</Chance>
+      <TitleText>Updates scans!</TitleText>
+      <DescriptionText>As your troops approach the orb, they notice a control panel. After some time translating the alien symbols, they manage to access the system. Apparently, the orb was being used as some kind of advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The scans of the planet immediately change greatly from previous ones.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeRichness>1</ChangeRichness>
+      <ChangeBaseMaxFertility>1</ChangeBaseMaxFertility>
     </Outcome>
 
   </PotentialOutcomes>
