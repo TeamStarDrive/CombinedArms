@@ -5,10 +5,11 @@
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Collapse</TitleText>
-      <DescriptionText>As your troops approach the ring, they notice it is unpowered, and probably damaged to a certain degree. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as an ustable wormhole is created within the ring. Suddenly, the wormhole collapses, creating a devastating wave of destruction that propagates across the planet!</DescriptionText>
+      <DescriptionText>As your troops approach the ring, they notice it is unpowered, and probably damaged to a certain degree. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as an unstable wormhole is created within the ring. Suddenly, the wormhole collapses, creating a devastating wave of destruction that propagates across the planet!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ChangeBaseFertility>-1</ChangeBaseFertility>
       <NumTilesToMakeUnhabitable>5</NumTilesToMakeUnhabitable>
+      <Image>Encounters/PlanetDevastations.png</Image>
     </Outcome>
 
      <Outcome>
@@ -22,6 +23,7 @@
         <string>Antlion</string>
 		<string>Antlion</string>
       </TroopsToSpawn>	 
+      <Image>Encounters/TeleportBad.png</Image>
     </Outcome>
 
     <Outcome>
@@ -42,6 +44,7 @@
         <string>Light Ancient Bomber</string>
         <string>Ancient Frigate</string>
        </RemnantShipsToSpawn>
+       <Image>Encounters/planet devastations2.png</Image>
     </Outcome>
 
     <Outcome>
@@ -60,6 +63,7 @@
         <string>Light Ancient Bomber</string>
         <string>Ancient Frigate</string>
        </RemnantShipsToSpawn>
+       <Image>Encounters/Teleport.png</Image>
     </Outcome>
     <Outcome>
       <Chance>10</Chance>
@@ -75,6 +79,7 @@
         <string>Wyvern</string>
         <string>Wyvern</string>
       </TroopsToSpawn>	 
+      <Image>Encounters/Defenders.png</Image>
     </Outcome>
 
     <Outcome>
@@ -85,6 +90,7 @@
 	  <ReplaceWith>GreyGoo</ReplaceWith>
       <ChangeBaseFertility>-2</ChangeBaseFertility>
       <ChangeBaseMaxFertility>-2</ChangeBaseMaxFertility>
+      <Image>Encounters/TeleportBad.png</Image>
     </Outcome>
 
     <Outcome>
@@ -94,6 +100,7 @@
       <RemoveTrigger>true</RemoveTrigger>
 	  <ReplaceWith>Teleport</ReplaceWith>
       <ScienceBonus>0.05</ScienceBonus>
+      <Image>Encounters/Teleport.png</Image>
     </Outcome>
 
   </PotentialOutcomes>

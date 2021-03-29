@@ -20,6 +20,7 @@
         <string>Heavy Drone</string>
         <string>Heavy Drone</string>
        </RemnantShipsToSpawn>
+       <Image>Encounters/RemnantSpawn.png</Image>
     </Outcome>
 
     <Outcome>
@@ -42,6 +43,7 @@
         <string>Corsair</string>
         <string>Corsair</string>
       </PirateShipsToSpawn>
+      <Image>Encounters/ShipSpawn2.png</Image>
     </Outcome>
 
     <Outcome>
@@ -51,6 +53,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ChangeRichness>0.5</ChangeRichness>
       <ChangeBaseMaxFertility>-0.5</ChangeBaseMaxFertility>
+      <Image>Encounters/Orb.png</Image>
     </Outcome>
 
     <Outcome>
@@ -60,6 +63,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ChangeRichness>-0.5</ChangeRichness>
       <ChangeBaseMaxFertility>0.5</ChangeBaseMaxFertility>
+      <Image>Encounters/Orb.png</Image>
     </Outcome>
 
     <Outcome>
@@ -69,6 +73,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ChangeRichness>0.4</ChangeRichness>
       <ChangeBaseMaxFertility>0.4</ChangeBaseMaxFertility>
+      <Image>Encounters/Orb.png</Image>
     </Outcome>
 
     <Outcome>
@@ -76,7 +81,7 @@
       <TitleText>It's a pirate base!</TitleText>
       <DescriptionText>As your troops approach the orb, they notice a control panel. After some time translating the alien symbols, they manage to access the system. Apparently, the orb was being used as some kind of advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The scans of the planet immediately change greatly from previous ones. It seems like the orb was being used to hide this in fact marvelous planet! But wait... It was also being used as a cloaking device for all of the pirate forces in orbit!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-      <ChangeRichness>0.8</ChangeRichness>
+      <ChangeRichness>1</ChangeRichness>
       <ChangeBaseMaxFertility>0.4</ChangeBaseMaxFertility>
       <NumTilesToMakeUnhabitable>5</NumTilesToMakeUnhabitable>
        <PirateShipsToSpawn>
@@ -91,6 +96,7 @@
         <string>Corsair</string>
         <string>Corsair</string>
       </PirateShipsToSpawn>
+      <Image>Encounters/ShipSpawn2.png</Image>
     </Outcome>
 
      <Outcome>
@@ -104,6 +110,7 @@
       <FriendlyShipsToSpawn>
         <string>Corsair</string>
       </FriendlyShipsToSpawn>
+      <Image>Encounters/Working ship.png</Image>
     </Outcome>
 
     <Outcome>
@@ -117,6 +124,7 @@
 		<string>Antlion</string>
         <string>Antlion</string>
 	  </TroopsToSpawn>
+      <Image>Encounters/Antlions.png</Image>
     </Outcome>
 
     <Outcome>
@@ -125,6 +133,7 @@
       <DescriptionText>Upon close inspection, your troops have discovered that the orb is made of various rare minerals, giving it strong magnetic properties. That must explain its levitation and our scrambled scans...</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Exotic Mineral</ReplaceWith>
+      <Image>Encounters/Orb.png</Image>
     </Outcome>
 
     <Outcome>
@@ -133,6 +142,7 @@
       <DescriptionText>Upon close inspection, your troops have discovered that the orb is made of black matter, suspended in a quantum bubble. After taking a sample, the quantum bubble collapses and the black matter disperses. Followup investigations led us to the creation of a new type of weapon!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <UnlockTech>Black matter weaponry</UnlockTech>
+      <Image>Encounters/Technology.png</Image>
     </Outcome>
 
     <Outcome>
@@ -142,6 +152,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ChangeRichness>1</ChangeRichness>
       <ChangeBaseMaxFertility>1</ChangeBaseMaxFertility>
+      <Image>Encounters/Orb.png</Image>
     </Outcome>
 
   </PotentialOutcomes>

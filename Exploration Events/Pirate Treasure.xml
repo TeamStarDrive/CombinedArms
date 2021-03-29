@@ -12,14 +12,18 @@
 		<string>Skeleton</string>
       </TroopsToSpawn>     
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/fail.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>11</Chance>
       <TitleText>A Treasure</TitleText>
       <DescriptionText>Your forces found recently half cleared out rooms, it seems someone beat us to it, though several things were left behind which are valuable.</DescriptionText>
       <MoneyGranted>1500</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Warehouse.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>11</Chance>
       <TitleText>The Bosses's Conference Call</TitleText>
@@ -29,8 +33,10 @@
       <PirateShipsToSpawn>
 		<string>Draug Flagship</string>
 		<string>Corsair Flagship</string>
-      </PirateShipsToSpawn>	  	  
+      </PirateShipsToSpawn>
+      <Image>Encounters/ShipSpawn2.png</Image>	  	  
     </Outcome>	
+
     <Outcome>
       <Chance>11</Chance>
       <TitleText>Pirate Technology?</TitleText>
@@ -46,7 +52,9 @@
 		<string>Corsair-Fighter-Mk2</string>
 		<string>Corsair-Fighter-Mk2</string>
       </PirateShipsToSpawn>	  
+      <Image>Encounters/Technology.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>11</Chance>
       <TitleText>Interesting Treasure Cache</TitleText>
@@ -60,8 +68,10 @@
 		<string>Skeleton</string>
 		<string>Skeleton</string>
 		<string>Skeleton</string>
-      </TroopsToSpawn>	  
-    </Outcome>		
+      </TroopsToSpawn>
+      <Image>Encounters/Artifact4.png</Image>	  
+    </Outcome>	
+
     <Outcome>
       <Chance>11</Chance>
       <TitleText>It's a trap!</TitleText>
@@ -77,7 +87,9 @@
 		<string>Antlion</string>
         <string>Antlion</string>
       </TroopsToSpawn>
-    </Outcome>					
+      <Image>Encounters/Infested.png</Image>
+    </Outcome>	
+
     <Outcome>
       <Chance>11</Chance>
       <TitleText>Military Salvage</TitleText>
@@ -87,6 +99,8 @@
         <string>Gunboat Ballista Mk1</string>
 		<string>Gunboat Ballista Mk1</string>
       </FriendlyShipsToSpawn>
-    </Outcome>				
+      <Image>Encounters/Working ship.png</Image>
+    </Outcome>	
+
   </PotentialOutcomes>
 </ExplorationEvent>

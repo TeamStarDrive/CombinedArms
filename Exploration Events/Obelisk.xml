@@ -14,6 +14,7 @@
 		<string>Support Drone</string>
       </RemnantShipsToSpawn>	      
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/RemnantSpawn.png</Image>
     </Outcome>
 
     <Outcome>
@@ -22,6 +23,7 @@
       <DescriptionText>As your troops approach to scan the obelisk, all of their devices begin to malfunction. As it turns out, the obelisk was containing a computer virus of unknown origin which rapidly spreads throughout our networks!</DescriptionText>
       <ScienceBonus>-0.5</ScienceBonus>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Obelisk1.png</Image>
     </Outcome>
 
     <Outcome>
@@ -30,6 +32,7 @@
       <DescriptionText>As your troops get closer to the obelisk, they notice that the terrain surrounding it is completely barren. While approaching slowly, they suddenly hear a high pitched tone coming directly from the obelisk, its volume becoming increasingly unbearable! At some point, the obelisk disintegrates and sends forth a massively deadly wave of radiation, killing almost all forms of life on the planet. What have we done?</DescriptionText>
       <ChangeBaseFertility>-1.5</ChangeBaseFertility>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/PlanetDevastations.png</Image>
     </Outcome>
 
     <Outcome>
@@ -38,22 +41,26 @@
       <DescriptionText>As your troops get closer to the pillar, it begins shaking and eventually shatters into a pile of rubble, including various crystals containing abnormal properties.</DescriptionText>
       <ReplaceWith>Neural Enhancer</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Obelisk2.png</Image>
     </Outcome>
 
     <Outcome>
      <Chance>10</Chance>
       <TitleText>Neural Dampener</TitleText>
       <DescriptionText>As your troops get closer to the pillar, it begins shaking and eventually shatters into a pile of rubble, including various crystals containing abnormal properties.</DescriptionText>
-      <ReplaceWith>Neural Enhancer</ReplaceWith>
+      <ReplaceWith>Neural Dampener</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Obelisk1.png</Image>
     </Outcome>
 
     <Outcome>
-      <Chance>18</Chance>
+      <Chance>10</Chance>
       <TitleText>Fallout</TitleText>
       <DescriptionText>As your troops approach the ancient obelisk, they hear a humming sound. The closer they get, the louder the noise becomes. Suddenly, a deafening sound is heard, and an extremely large and bright beam shoots into the sky, eventually breaking apart and falling back down to the planet, spreading deadly particles across the terrain.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-      <NumTilesToMakeUnhabitable>3</NumTilesToMakeUnhabitable>
+      <NumTilesToMakeUnhabitable>5</NumTilesToMakeUnhabitable>
+      <ChangeBaseMaxFertility>-0.4</ChangeBaseMaxFertility>
+      <Image>Encounters/planet devastations2.png</Image>
     </Outcome>
 
     <Outcome>
@@ -61,7 +68,8 @@
          <TitleText>Life energy</TitleText>
          <DescriptionText>As your troops approach the ancient obelisk, they hear a humming sound. The closer they get, the louder the noise becomes. Suddenly, a deafening sound is heard, and an extremely large and bright beam shoots into the sky, eventually breaking apart and slowly descending back down to the surface.</DescriptionText>
          <RemoveTrigger>true</RemoveTrigger>
-         <NumTilesToMakeHabitable>3</NumTilesToMakeHabitable>
+         <NumTilesToMakeHabitable>4</NumTilesToMakeHabitable>
+         <Image>Encounters/Obelisk2.png</Image>
     </Outcome>
 
     <Outcome>
@@ -81,7 +89,8 @@
         <string>Skeleton</string>
         <string>Skeleton</string>
 		<string>Skeleton</string>
-      </TroopsToSpawn>	  
+      </TroopsToSpawn>
+      <Image>Encounters/Technology.png</Image>	  
     </Outcome>
 
     <Outcome>
@@ -90,6 +99,7 @@
       <DescriptionText>As your troops approach the ancient obelisk, they notice a strange object inserted into it. In an attempt to free the object, they decide to dismantle the obelisk.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
 	  <GrantArtifact>true</GrantArtifact>
+      <Image>Encounters/Artifact2.png</Image>
     </Outcome>
 
   </PotentialOutcomes>

@@ -14,6 +14,7 @@
 		<string>Antlion</string>
         <string>Antlion</string>
 	  </TroopsToSpawn>
+      <Image>Encounters/DestroyedVillage.png</Image>
     </Outcome>
 
     <Outcome>
@@ -30,6 +31,7 @@
 		<string>Corsair-Fighter-Mk2</string>
       </PirateShipsToSpawn>
       <ReplaceWith>Destroyed Village</ReplaceWith>
+      <Image>Encounters/ShipSpawn2.png</Image>
     </Outcome>
 
     <Outcome>
@@ -38,6 +40,7 @@
       <DescriptionText>As your troops approach the settlement, they see what appear to be some very primitive structures. Upon trying to make first contact with the inhabitants, the only result was fearful growling and screeching. Any form of communication here has failed. Better leave them alone.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Native Village</ReplaceWith>
+      <Image>Encounters/Defenders.png</Image>
     </Outcome>
 
     <Outcome>
@@ -46,6 +49,7 @@
       <DescriptionText>As your troops approach the settlement, they're noticed by one of the primitive villagers. Through sheer determination and diplomatic trust, they establish a basic way of communication. After negotiating, a mutual agreement was made wherein they will provide us with a workforce so long as we provide them with food.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Friendly Native Village</ReplaceWith>
+      <Image>Encounters/LifeForms.png</Image>
     </Outcome>
 
     <Outcome>
@@ -55,6 +59,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Primitive Small town</ReplaceWith>
       <ChangeRichness>-0.2</ChangeRichness>
+      <Image>Encounters/LifeForms.png</Image>
     </Outcome>
     
     <Outcome>
@@ -71,6 +76,7 @@
 		<string>Corsair-Fighter-Mk2</string>
 		<string>Corsair-Fighter-Mk2</string>
       </PirateShipsToSpawn>
+      <Image>Encounters/Town.png</Image>
     </Outcome>
 
     <Outcome>
@@ -79,6 +85,7 @@
       <DescriptionText>When your troops first entered this town, it looked abandoned, with not a single soul in sight. After investigating for signs of life, it turns out the inhabitants are in fact a very small and weak humanoid species, but they're highly intelligent. They're willing to work on our research projects in return for us providing them food, materials, and a physically larger workforce.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Primitive Large town</ReplaceWith>
+      <Image>Encounters/Town.png</Image>
     </Outcome>
     
   </PotentialOutcomes>

@@ -14,6 +14,7 @@
 		<string>Support Drone</string>
       </RemnantShipsToSpawn>	      
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/RemnantSpawn.png</Image>
     </Outcome>
 
     <Outcome>
@@ -23,6 +24,7 @@
       <ScienceBonus>0.05</ScienceBonus>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Artifact4.png</Image>
     </Outcome>
 
     <Outcome>
@@ -31,6 +33,7 @@
       <DescriptionText>As your troops get closer to the pillar they noticed that the earth surrounding it is totally barren. They slowly approach it, suddenly they hear a high pitch tone comming from the pillar, that gets more and more unbearable. At some point the pillar disintegrates and sends a deadly radiation wave killing any organic life on the planet</DescriptionText>
       <ChangeBaseFertility>-1.5</ChangeBaseFertility>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/PlanetDevastations.png</Image>
     </Outcome>
 
     <Outcome>
@@ -39,13 +42,16 @@
       <DescriptionText>As your troops get closer to the pillar is starting to shake and shatter into rubble and abnormal crystals.</DescriptionText>
       <ReplaceWith>Thought Crystal</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Pilar1.png</Image>
      </Outcome>
+
      <Outcome>
       <Chance>20</Chance>
       <TitleText>Exotic materials</TitleText>
       <DescriptionText>As your troops get closer to the pillar, they immediately discover that it's made of rare minerals that can be reused. They place explosives and detonate them, causing the pillar to become a pile of useful mineral rubble.</DescriptionText>
       <ReplaceWith>Exotic Mineral</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Pilar1.png</Image>
     </Outcome>
 
     <Outcome>
@@ -65,7 +71,8 @@
         <string>Skeleton</string>
         <string>Skeleton</string>
 		<string>Skeleton</string>
-      </TroopsToSpawn>	  
+      </TroopsToSpawn>
+      <Image>Encounters/Technology.png</Image>	  
     </Outcome>
 
     <Outcome>
@@ -86,6 +93,7 @@
 		<string>Draug-Fighter-Mk2</string>		
 		<string>Draug-Fighter-Mk2</string>		
       </PirateShipsToSpawn>
+       <Image>Encounters/ShipSpawn2.png</Image>
     </Outcome>
 
     <Outcome>
@@ -100,6 +108,7 @@
         <string>Xeno Fighter</string>
         <string>Ancient Frigate</string>
        </RemnantShipsToSpawn>
+       <Image>Encounters/RemnantSpawn.png</Image>
     </Outcome>
 
     <Outcome>
@@ -108,6 +117,7 @@
       <DescriptionText>From far away, your troops observe as the pillar attracts strikes of lightning. When the approach closer, they detect a powerful energy signature coming directly from it. The pillar appears to be capable of attracting these strikes, and harnessing the resulting energy inside of itself to be stored. As your troops attempt to decipher the engravings on the pillar, they must have accidentally triggered a release mechanism. The energy stored inside the pillar is sent deep into the planet's core, destroying the pillar, but jump-starting the core into producing rare elements.</DescriptionText>
       <ChangeRichness>0.3</ChangeRichness>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/PilarShock.png</Image>
     </Outcome>
 
     <Outcome>
@@ -117,6 +127,7 @@
       <ReplaceWith>Volcano</ReplaceWith>
       <ChangeRichness>0.6</ChangeRichness>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/PilarShock.png</Image>
     </Outcome>
     
   </PotentialOutcomes>

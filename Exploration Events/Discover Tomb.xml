@@ -12,6 +12,7 @@
       <SelectRandomPlanet>true</SelectRandomPlanet>
       <SpawnBuildingOnPlanet>Mysterious Tomb</SpawnBuildingOnPlanet>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Defenders.png</Image>
     </Outcome>
     <Outcome>
       <Chance>20</Chance>
@@ -27,6 +28,7 @@
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
       </RemnantShipsToSpawn>
+      <Image>Encounters/RemnantSpawn.png</Image>
     </Outcome>
     <Outcome>
       <Chance>20</Chance>
@@ -34,6 +36,7 @@
       <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. The artifacts and other curiousities found there will sell well on the open market.</DescriptionText>
       <MoneyGranted>1200</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/tomb.png</Image>
     </Outcome>
 
     <Outcome>
@@ -42,6 +45,7 @@
       <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. The tomb has been littered with unfathomable amounts of degraded materials. It seems that the customs of said civilization were to bury their dead nobles with all their possessions. These may have been their treasures, but how can we resist using them now? They still have some value.</DescriptionText>
       <ReplaceWith>Scrapyard</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Scrapyard.png</Image>
     </Outcome>
    
    <Outcome>
@@ -50,6 +54,7 @@
       <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. Inside the tomb, they find exotic minerals, and from what they can gather, they were formed from the corpses of an ancient race that had a very unique molecular physiology.</DescriptionText>
       <ReplaceWith>Exotic Minerals</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/tomb.png</Image>
     </Outcome>
 
     <Outcome>
@@ -69,8 +74,10 @@
       <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
+        <Image>Encounters/Technology.png</Image>
       </TroopsToSpawn>	  
     </Outcome>
+
     <Outcome>
       <Chance>6</Chance>
       <TitleText>Secrets of the Ancients</TitleText>
@@ -78,6 +85,7 @@
       <ScienceBonus>0.03</ScienceBonus>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Artifact3.png</Image>
     </Outcome>
   </PotentialOutcomes>
 </ExplorationEvent>

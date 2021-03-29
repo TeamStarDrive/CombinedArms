@@ -13,6 +13,7 @@
 		<string>Antlion</string>
         <string>Antlion</string>
 	  </TroopsToSpawn>
+       <Image>Encounters/Antlions.png</Image>
     </Outcome>
 
     <Outcome>
@@ -21,6 +22,7 @@
       <DescriptionText>As your troops approach the cave, they hear sounds coming from inside. Tossing in a flare to illuminate the depths, they spot movement. Unfortunately, a nest of antlions has made its home here! In an attempt at clearing the alien colony inside, they decided to drop explosives into the cave. The detonation shook the earth, causing a sinkhole to envelop the terrain even deeper into the planet. This causes the release of a multitude of toxic gasses. Soon after, the cave is filled with highly corrosive liquid. From initial scans, it seems to be a unique third state of hydrogen.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Evaporative Wastepit</ReplaceWith>
+       <Image>Encounters/Cave.png</Image>
     </Outcome>
 
     <Outcome>
@@ -35,6 +37,7 @@
 		<string>Antlion</string>
         <string>Antlion</string>
 	  </TroopsToSpawn>
+       <Image>Encounters/Cave.png</Image>
     </Outcome>
 
      <Outcome>
@@ -43,6 +46,7 @@
       <DescriptionText>While exploring the cave, your troops stumble upon some crates and an aged smuggler. They fashioned a deal with him to provide our colony with food and equipment, in exchange for money in regular intervals.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Drop off point</ReplaceWith>
+       <Image>Encounters/Working ship.png</Image>
     </Outcome>
 
     <Outcome>
@@ -51,6 +55,7 @@
       <DescriptionText>While exploring the cave, your troops scanned the underground mineral composition. The results revealed that the planet's crust wasnt as rich as the orbital scans initially suggested.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ChangeRichness>-0.4</ChangeRichness>
+       <Image>Encounters/Cave.png</Image>
     </Outcome>
 
     <Outcome>
@@ -59,6 +64,7 @@
       <DescriptionText>While exploring the cave, your troops scanned the underground mineral composition. The results revealed that the planet's crust is in fact richer than the orbital scans had initially suggested.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ChangeRichness>0.4</ChangeRichness>
+       <Image>Encounters/Cave.png</Image>
     </Outcome>
 
     <Outcome>
@@ -67,6 +73,7 @@
       <DescriptionText>While exploring the cave, your troops encountered a shady-looking character who claimed to be a cave explorer. He presented an offer, our money in exchange for a map of this cave system which apparently contains a secret room with some old military technology. After the successful transaction, the troops went straight for the secret room to recover the tech. Sadly, it wasnt there. They were scammed by that fat bastard.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <MoneyGranted>-250</MoneyGranted>
+       <Image>Encounters/fail.png</Image>
     </Outcome>
     
   </PotentialOutcomes>

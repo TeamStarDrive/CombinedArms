@@ -9,6 +9,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ChangeBaseFertility>-2</ChangeBaseFertility>
       <NumTilesToMakeUnhabitable>6</NumTilesToMakeUnhabitable>
+      <Image>Encounters/planet devastations2.png</Image>
     </Outcome>
 
      <Outcome>
@@ -23,6 +24,7 @@
         <string>Antlion</string>
 		<string>Antlion</string>
       </TroopsToSpawn>	 
+      <Image>Encounters/Antlions.png</Image>
     </Outcome>
 
     <Outcome>
@@ -43,6 +45,7 @@
         <string>Light Ancient Bomber</string>
         <string>Ancient Frigate</string>
        </RemnantShipsToSpawn>
+       <Image>Encounters/planet devastations2.png</Image>
     </Outcome>
 
     <Outcome>
@@ -51,6 +54,7 @@
       <DescriptionText>As your troops land, they notice that the space elevator appears to be very old, likely beyond repair. The best solution was to carefully demolish it in a controlled way, to prevent a catastrophic collapse. They successfully set the charges and watch from far away as the tower crashes down as planned.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Scrapyard</ReplaceWith>
+      <Image>Encounters/Scrapyard.png</Image>
     </Outcome>
 
     <Outcome>
@@ -69,14 +73,16 @@
 		<string>Draug-Fighter</string>		
 		<string>Draug-Fighter</string>		
       </PirateShipsToSpawn>
+      <Image>Encounters/SpaceElevator.png</Image>
     </Outcome>
 
     <Outcome>
-      <Chance>8</Chance>
+      <Chance>10</Chance>
       <TitleText>The elevator</TitleText>
       <DescriptionText>As your troops approach the space elevator, they notice it is fully operational and ready to be used.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
 	  <ReplaceWith>Space Elevator</ReplaceWith>
+      <Image>Encounters/SpaceElevator.png</Image>
     </Outcome>
 
     <Outcome>
@@ -88,6 +94,7 @@
       <FriendlyShipsToSpawn>
 		<string>Shipyard</string>
       </FriendlyShipsToSpawn>
+      <Image>Encounters/SpaceElevator.png</Image>
     </Outcome>
     
   </PotentialOutcomes>

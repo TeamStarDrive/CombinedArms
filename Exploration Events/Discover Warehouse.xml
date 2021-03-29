@@ -11,7 +11,39 @@
         <string>Antlion</string>
         <string>Antlion</string>
       </TroopsToSpawn>
+      <Image>Encounters/Infested.png</Image>
     </Outcome>
+
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Junk!</TitleText>
+      <DescriptionText>After Scouting the area, your troops enter the abandoned warehouse. Inside they find a lot of old rusty equipment.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/fail.png</Image>
+    </Outcome>
+
+     <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Srap!</TitleText>
+      <DescriptionText>After Scouting the area, your troops enter the abandoned warehouse. Inside they find a lot of old rusty equipment.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Scrapyard</ReplaceWith>
+
+      <Image>Encounters/Scrapyard.png</Image>
+    </Outcome>
+
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Ambush!</TitleText>
+      <DescriptionText>As your troops approach the abandoned warehouse they themselves surrounded by foes.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+        <string>Antlion</string>
+      </TroopsToSpawn>
+      <Image>Encounters/Antlions.png</Image>
+    </Outcome>
+
     <Outcome>
       <Chance>3</Chance>
       <TitleText>A unique technology!</TitleText>
@@ -29,8 +61,10 @@
 		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
-      </TroopsToSpawn>	  
+      </TroopsToSpawn>
+      <Image>Encounters/Technology.png</Image>	  
     </Outcome>
+
     <Outcome>
       <Chance>5</Chance>
       <TitleText>A unique technology!</TitleText>
@@ -38,7 +72,9 @@
       <UnlockTech>Experimental Phasors</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Large Warehouse</ReplaceWith>
+      <Image>Encounters/Technology.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>6</Chance>
       <TitleText>Whoops</TitleText>
@@ -53,7 +89,9 @@
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
       </RemnantShipsToSpawn>
+      <Image>Encounters/RemnantSpawn.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>5</Chance>
       <TitleText>Excellent find</TitleText>
@@ -64,9 +102,11 @@
       <ReplaceWith>Large Warehouse</ReplaceWith>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Working ship.png</Image>
     </Outcome>
+
     <Outcome>
-      <Chance>3</Chance>
+      <Chance>6</Chance>
       <TitleText>Abandoned Pirates</TitleText>
       <DescriptionText>When your troops enter the warehouse, they find several bodies which appear to belong Corsair pirates. Seems like they were stationed there on guard duty and a fight broke over some money. Since they are all dead now, your forces recover what was left from their fighter squadron.</DescriptionText>
       <FriendlyShipsToSpawn>
@@ -84,9 +124,11 @@
       <ReplaceWith>Large Warehouse</ReplaceWith>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
-    </Outcome>	
+      <Image>Encounters/ShipSpawn2.png</Image>
+    </Outcome>
+
     <Outcome>
-      <Chance>3</Chance>
+      <Chance>5</Chance>
       <TitleText>Abandoned Pirates</TitleText>
       <DescriptionText>When your troops enter the warehouse, they find several bodies which appear to belong Corsair pirates. Seems like they were stationed there on guard duty and a fight broke over some money. Since they are all dead now, your forces recover what was left from their fighter squadron.</DescriptionText>
       <FriendlyShipsToSpawn>
@@ -102,9 +144,11 @@
       <ReplaceWith>Large Warehouse</ReplaceWith>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
-    </Outcome>		
+      <Image>Encounters/ShipSpawn2.png</Image>
+    </Outcome>
+
     <Outcome>
-      <Chance>3</Chance>
+      <Chance>4</Chance>
       <TitleText>Abandoned Pirates</TitleText>
       <DescriptionText>When your troops enter the warehouse, they find several bodies which appear to belong Corsair pirates. Seems like they were stationed there on guard duty and a fight broke over some money. Since they are all dead now, your forces recover what was left from their fighter squadron.</DescriptionText>
       <FriendlyShipsToSpawn>
@@ -117,6 +161,7 @@
       <ReplaceWith>Large Warehouse</ReplaceWith>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/ShipSpawn2.png</Image>
     </Outcome>			
   </PotentialOutcomes>
 </ExplorationEvent>
