@@ -51,6 +51,15 @@
     </Outcome>
 
     <Outcome>
+      <Chance>30</Chance>
+      <TitleText>World bubble!</TitleText>
+      <DescriptionText>Upon close inspection and scanning, your troops have discovered that the altar is a powerful shield emitter.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>World bubble</ReplaceWith>
+      <Image>Encounters/Altar.png</Image>
+    </Outcome>
+
+    <Outcome>
       <Chance>20</Chance>
       <TitleText>The rich Core!</TitleText>
       <DescriptionText>Upon close inspection and scanning, your troops have discovered that the altar was drawing its power from the planet's core, which was in fact very rich in exotic minerals.</DescriptionText>
@@ -60,7 +69,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>15</Chance>
+      <Chance>7</Chance>
       <TitleText>The super rich Core!</TitleText>
       <DescriptionText>Upon close inspection and scanning, your troops have discovered that the altar was drawing its power from the planet's core, which was in fact very rich in exotic minerals.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -69,7 +78,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>15</Chance>
+      <Chance>20</Chance>
       <TitleText>The depleted Core!</TitleText>
       <DescriptionText>Upon close inspection and scanning, your troops have discovered that the altar was drawing its power from the planet's core, and that by doing it for so many centuries, it has drained the core of most of its value.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
