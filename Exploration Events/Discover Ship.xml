@@ -5,14 +5,15 @@
       <Chance>20</Chance>
       <TitleText>Unknown defenders</TitleText>
       <DescriptionText>Before reaching the Crashed Ship, your troops were attacked by unknown enemies and had to fall back, the crashed ship takes off and warps out of the system.</DescriptionText>
-      <SelectRandomPlanet>true</SelectRandomPlanet>
-      <RemoveTrigger>true</RemoveTrigger>
        <TroopsToSpawn>
+        <string>Skeleton</string>
         <string>Skeleton</string>
         <string>Skeleton</string>
       </TroopsToSpawn>     
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Defenders.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>4</Chance>
       <TitleText>A unique technology and great peril!</TitleText>
@@ -24,10 +25,12 @@
 		<string>Remnant Inhibitor</string>
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
-      </TroopsToSpawn>	  
+      </TroopsToSpawn>	 
+      <Image>Encounters/Technology.png</Image> 
     </Outcome>
+
     <Outcome>
-      <Chance>4</Chance>
+      <Chance>3</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant space defenders.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
@@ -41,22 +44,9 @@
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
       </TroopsToSpawn>	  
+      <Image>Encounters/Technology.png</Image>
     </Outcome>
-   <Outcome>
-      <Chance>8</Chance>
-      <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant space defenders.</DescriptionText>
-      <MoneyGranted>500</MoneyGranted>
-      <UnlockTech>RemnantNuker</UnlockTech>	  
-      <RemoveTrigger>true</RemoveTrigger>
-      <RemnantShipsToSpawn>
-		<string>Heavy Drone</string>
-		<string>Heavy Drone</string>
-		<string>Xeno Fighter</string>
-      </RemnantShipsToSpawn>	  
-      <TroopsToSpawn>
-      </TroopsToSpawn>	  
-    </Outcome>
+
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Red Alert</TitleText>
@@ -71,14 +61,18 @@
         <string>Heavy Drone</string>
         <string>Heavy Drone</string>
       </RemnantShipsToSpawn>
+      <Image>Encounters/RemnantSpawn.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>24</Chance>
       <TitleText>A sad wreck</TitleText>
       <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. Even so, there are some curiosities among the wreckage that will have some value on the open market.</DescriptionText>
       <MoneyGranted>250</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/CrashedShip2.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Excellent find</TitleText>
@@ -90,6 +84,25 @@
       </FriendlyShipsToSpawn>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Working ship.png</Image>
+    </Outcome>
+
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Unstable</TitleText>
+      <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. But even so, scans show its reactor is still functional, leaking more and more antimatter particles by the minute. And, what's that? Oh no. It's about to blow! Your forces quickly evacuate to a safe distance. Soon after, the reactor explodes, destroying the wreckage and severely damaging a large portion of the planet</DescriptionText>
+      <NumTilesToMakeUnhabitable>3</NumTilesToMakeUnhabitable>
+      <ChangeBaseFertility>-0.6</ChangeBaseFertility>
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/CrashedShip3.png</Image>
+    </Outcome>
+
+    <Outcome>
+      <Chance>2</Chance>
+      <TitleText>Space car?</TitleText>
+      <DescriptionText>Your forces examine the wreckage of a small spacecraft that crashed into the planet a long time ago. From the description of the scans, it seems too small for a spaceship. Even more puzzling is that it has wheels. Could this have been an old automobile of some sort? No, those were never designed to be spacecraft.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Car.png</Image>
     </Outcome>
   </PotentialOutcomes>
 </ExplorationEvent>

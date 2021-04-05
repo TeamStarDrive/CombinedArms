@@ -1,12 +1,12 @@
 # Combined Arms
 ### This is an edited version of the original Combomod. BlackBox features are supported where possible.
 
-In order to install and play Combined arms you need a Vanilla copy of StarDrive 1. Once you have that installed, you need to install the alpha version of Blackbox, called Texas. 
-This are not the mod itself, but major code refactoring and new features of StarDrive core game. Once you have the above installed, you can download the latest copy of combined Arms from Bit Bucket.
+In order to install and play Combined arms you need a Vanilla copy of StarDrive 1. 
+See installation guide video here: https://www.youtube.com/watch?v=mhudgmoLATY&ab_channel=Goldymires
 
 * Get a Vanilla copy from Steam. If you have the game already installed, a re-install its recommended, since we saw several early game crashes being solved by re-installation).
 * Install latest build (https://bitbucket.org/codegremlins/stardrive-blackbox/downloads/), make sure to give the installer the exact path of the game if it is not installed on the default steam directory.
-* Download the mod (https://bitbucket.org/codegremlins/combined-arms/downloads/) and extract it into the mods dir of StardDrive
+* Download the mod (https://bitbucket.org/codegremlins/combined-arms/downloads/) and extract it into the mods dir of StardDrive. If you have old Combined Arms mod dir- YOU MUST DELETE it before installing the new one.
 * It is recommended to remove your saved ship designs if you saved designs using the old combo mod. Usually its located in c:\users\[username]\.appdata\roaming\stardrive\saveddesigns
 * Start the game and load the mod from the mod menu.
 * Drop us a note in Discord chat (https://discord.gg/dfvnfH4).
@@ -25,8 +25,6 @@ Some stuff changed in Combined Arms:
 Weapons/modules and race balance might still be a issue but sadly its hard to test this alone.
 
 Anyway try it out and report any issues you might find.
-
-
 
 Credits:
 
