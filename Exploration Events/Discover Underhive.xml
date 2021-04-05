@@ -12,29 +12,37 @@
         <string>Corsair</string>
         <string>Draug-Fighter-Mk2</string>
 		<string>Draug-Fighter-Mk2</string>
-      </FriendlyShipsToSpawn>      
+      </FriendlyShipsToSpawn>
+      <Image>Encounters/ShipSpawn2.png</Image>      
     </Outcome>
+
     <Outcome>
       <Chance>20</Chance>
       <TitleText>Smugglers</TitleText>
       <DescriptionText>Your troops enter the Underhive and quickly make contact with a local group of smugglers. After hours of talking and negotiating, you will allow them to continue their smuggling operation, if they pay taxes on the profits they make.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>The Underhive Smugglers</ReplaceWith>
+      <Image>Encounters/fail.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>20</Chance>
       <TitleText>Assassins</TitleText>
       <DescriptionText>Your troops enter the Underhive and quickly make contact with a local group of assassins. You strike a deal with them which allow them to continue their work in the Underhive. In return they promise to provide help if the planet gets invaded.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>The Underhive Assassins</ReplaceWith>
+      <Image>Encounters/Warehouse.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>20</Chance>
       <TitleText>Pit Slaves</TitleText>
       <DescriptionText>Your troops enter the Underhive and start to look around. They notice a large underground factory. Machines buzzing and whirring, weapons and ammunition being manufactured to supply Corsair ships and bases. As you venture deeper into the underground factory you meet the head of the factory. As it turns out he employs pit slaves as his laborers. Half flesh, half machine, created from slaves, prisoners and Opteris tech. They provide the best workforce he explains and if you let him do his work, he'll provide you with extra production and a small share of the profits. You agree to his terms.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>The Underhive Pit Slaves</ReplaceWith>
+      <Image>Encounters/WorkingMine.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>30</Chance>
       <TitleText>A dangerous escape</TitleText>
@@ -46,6 +54,7 @@
         <string>Support Drone</string>
 		<string>Support Drone</string>
       </PirateShipsToSpawn>
+      <Image>Encounters/fail.png</Image>
     </Outcome>
   </PotentialOutcomes>
 </ExplorationEvent>

@@ -12,14 +12,18 @@
 		<string>Skeleton</string>
       </TroopsToSpawn>     
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/fail.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>11</Chance>
       <TitleText>A Treasure</TitleText>
       <DescriptionText>Your forces found recently half cleared out rooms, it seems someone beat us to it, though several things were left behind which are valuable.</DescriptionText>
       <MoneyGranted>1500</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Warehouse.png</Image>
     </Outcome>
+
     <Outcome>
       <Chance>11</Chance>
       <TitleText>The Bosses's Conference Call</TitleText>
@@ -29,8 +33,10 @@
       <PirateShipsToSpawn>
 		<string>Draug Flagship</string>
 		<string>Corsair Flagship</string>
-      </PirateShipsToSpawn>	  	  
+      </PirateShipsToSpawn>
+      <Image>Encounters/ShipSpawn2.png</Image>	  	  
     </Outcome>	
+
     <Outcome>
       <Chance>11</Chance>
       <TitleText>Pirate Technology?</TitleText>
@@ -46,34 +52,9 @@
 		<string>Corsair-Fighter-Mk2</string>
 		<string>Corsair-Fighter-Mk2</string>
       </PirateShipsToSpawn>	  
+      <Image>Encounters/Technology.png</Image>
     </Outcome>
-    <Outcome>
-      <Chance>11</Chance>
-      <TitleText>Pirate Technology?</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created an untested tech. Unfortunately, it seems that the pirate fleet left here might not let you go unharmed, unless you paid them for protection recently.</DescriptionText>
-      <UnlockTech>Magnetrom</UnlockTech>
-      <RemoveTrigger>true</RemoveTrigger>
-      <PirateShipsToSpawn>
-		<string>Draug</string>
-		<string>Draug</string>
-		<string>Support Drone</string>
-      </PirateShipsToSpawn>	  
-    </Outcome>
-    <Outcome>
-      <Chance>11</Chance>
-      <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created an untested tech. Unfortunately, it seems that a small remnant fleet was drawn to this place as well. The ships are attacking immediately!</DescriptionText>
-      <UnlockTech>AncientArmor</UnlockTech>
-      <RemoveTrigger>true</RemoveTrigger>
-      <RemnantShipsToSpawn>
-		<string>Heavy Drone</string>
-		<string>Heavy Drone</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-      </RemnantShipsToSpawn>	  
-    </Outcome>
+
     <Outcome>
       <Chance>11</Chance>
       <TitleText>Interesting Treasure Cache</TitleText>
@@ -87,11 +68,10 @@
 		<string>Skeleton</string>
 		<string>Skeleton</string>
 		<string>Skeleton</string>
-        <string>Skeleton</string>
-		<string>Skeleton</string>
-		<string>Skeleton</string>
-      </TroopsToSpawn>	  
-    </Outcome>		
+      </TroopsToSpawn>
+      <Image>Encounters/Artifact4.png</Image>	  
+    </Outcome>	
+
     <Outcome>
       <Chance>11</Chance>
       <TitleText>It's a trap!</TitleText>
@@ -106,15 +86,10 @@
         <string>Antlion</string>
 		<string>Antlion</string>
         <string>Antlion</string>
-        <string>Antlion</string>
-        <string>Antlion</string>
-		<string>Antlion</string>
-		<string>Antlion</string>
-        <string>Antlion</string>
-        <string>Antlion</string>
-		<string>Antlion</string>
       </TroopsToSpawn>
-    </Outcome>					
+      <Image>Encounters/Infested.png</Image>
+    </Outcome>	
+
     <Outcome>
       <Chance>11</Chance>
       <TitleText>Military Salvage</TitleText>
@@ -124,6 +99,8 @@
         <string>Gunboat Ballista Mk1</string>
 		<string>Gunboat Ballista Mk1</string>
       </FriendlyShipsToSpawn>
-    </Outcome>				
+      <Image>Encounters/Working ship.png</Image>
+    </Outcome>	
+
   </PotentialOutcomes>
 </ExplorationEvent>

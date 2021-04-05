@@ -7,6 +7,7 @@
       <DescriptionText>As your troops approach the mine entrance, they see clearly that this machinery, while ancient, is still in excellent shape. Unfortunately, a nest of Antlions has made its home here and your troops find themselves surrounded by foes very suddenly.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Nano Mine</ReplaceWith>
+      <Image>Encounters/Infested.png</Image>
       <TroopsToSpawn>
         <string>Antlion</string>
 		<string>Antlion</string>
@@ -14,12 +15,23 @@
         <string>Antlion</string>
 	</TroopsToSpawn>
     </Outcome>
+
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>15</Chance>
+      <TitleText>Its Operational!</TitleText>
+      <DescriptionText>As your troops approach the mine entrance, they see clearly that this machinery, while ancient, is still in excellent shape.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Nano Mine</ReplaceWith>
+      <Image>Encounters/WorkingMine.png</Image>
+    </Outcome>
+
+    <Outcome>
+      <Chance>25</Chance>
       <TitleText>Salvage operation</TitleText>
       <DescriptionText>As your combat engineers try to salvage some of the ancient equipment they soon discover that the mine itself has suffered too much damage to be of any further use. The recovered items however will make a nice profit on the open market.</DescriptionText>
       <MoneyGranted>750</MoneyGranted>      
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/AbandonedMine.png</Image>
     </Outcome>
     <Outcome>
       <Chance>10</Chance>
@@ -27,9 +39,10 @@
       <DescriptionText>As your combat engineers try to salvage some of the ancient equipment they soon discover that in the deepest parts of mineshaft there's some strange artifact.</DescriptionText>
       <GrantArtifact>true</GrantArtifact>      
       <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Artifact2.png</Image>
     </Outcome>
     <Outcome>
-      <Chance>4</Chance>
+      <Chance>3</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that someone was hiding a untested tech. Unfortunately, it seems that a small remnant fleet was dawned to this place as well. The ships are attacking immediately!</DescriptionText>
       <UnlockTech>TritaniumMissiles</UnlockTech>
@@ -42,7 +55,8 @@
 		<string>Xeno Fighter</string>
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
-      </TroopsToSpawn>	  
+      </TroopsToSpawn>
+      <Image>Encounters/Technology.png</Image>	  
     </Outcome>
     <Outcome>
       <Chance>4</Chance>
@@ -60,7 +74,8 @@
 		<string>Draug-Fighter-Mk2</string>
       </PirateShipsToSpawn>	  
       <TroopsToSpawn>
-      </TroopsToSpawn>	  
+      </TroopsToSpawn>
+      <Image>Encounters/Technology.png</Image>	  
     </Outcome>
     <Outcome>
       <Chance>10</Chance>
@@ -75,6 +90,7 @@
 		<string>Corsair-Fighter</string>
 		<string>Corsair-Fighter</string>
       </PirateShipsToSpawn>
+      <Image>Encounters/ShipSpawn2.png</Image>
     </Outcome>
     <Outcome>
       <Chance>6</Chance>
@@ -88,6 +104,7 @@
 		<string>Antlion</string>
 		<string>Antlion</string>
       </TroopsToSpawn>
+      <Image>Encounters/Technology.png</Image>
     </Outcome>
   </PotentialOutcomes>
  </ExplorationEvent>

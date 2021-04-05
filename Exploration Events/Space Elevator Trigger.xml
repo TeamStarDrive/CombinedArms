@@ -1,0 +1,101 @@
+<ExplorationEvent>
+  <Name>Space Elevator Trigger</Name>
+  <PotentialOutcomes>
+
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>The Heavy fall</TitleText>
+      <DescriptionText>As your troops land, they notice the space elevator appears to be very old, likely at risk of crumbling at any moment. Unfortunately, due to the disturbances from their troop shuttles, the elevator begins to slowly tilt and crumble. The enormous structure starts to break apart, raining down balls of fire to the ground! The planet's surface is damaged severely.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeBaseFertility>-2</ChangeBaseFertility>
+      <NumTilesToMakeUnhabitable>6</NumTilesToMakeUnhabitable>
+      <Image>Encounters/planet devastations2.png</Image>
+    </Outcome>
+
+     <Outcome>
+      <Chance>15</Chance>
+      <TitleText>Costly encounter!</TitleText>
+      <DescriptionText>As your troops land, they notice that the space elevator appears to be very old, likely beyond repair. The best solution was to carefully demolish it in a controlled way, to prevent a catastrophic collapse. As your troops begin placing the demolition charges, a horde of antlions crawl out of the structure! A fierce battle rages on, causing more damage to the structure in the process as it begins to collapse.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ChangeBaseFertility>-1</ChangeBaseFertility>
+      <NumTilesToMakeUnhabitable>2</NumTilesToMakeUnhabitable>
+      <TroopsToSpawn>
+        <string>Antlion</string>
+        <string>Antlion</string>
+		<string>Antlion</string>
+      </TroopsToSpawn>	 
+      <Image>Encounters/Antlions.png</Image>
+    </Outcome>
+
+    <Outcome>
+      <Chance>7</Chance>
+      <TitleText>Unwanted Attention</TitleText>
+      <DescriptionText>As your troops approach the space elevator, they realize it is fully operational and ready to be used. Sadly, the elevator hasn't only been noticed by our scanners. A Remnant fleet warps into orbit and begins to bomb the structure.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <NumTilesToMakeUnhabitable>4</NumTilesToMakeUnhabitable>
+      <ChangeBaseFertility>-1</ChangeBaseFertility>
+      <ChangeBaseMaxFertility>-0.6</ChangeBaseMaxFertility>
+      <RemnantShipsToSpawn>
+        <string>Heavy Drone</string>
+        <string>Heavy Drone</string>
+        <string>Heavy Drone</string>
+        <string>Xeno Fighter</string>
+        <string>Xeno Fighter</string>
+        <string>Light Ancient Bomber</string>
+        <string>Light Ancient Bomber</string>
+        <string>Ancient Frigate</string>
+       </RemnantShipsToSpawn>
+       <Image>Encounters/planet devastations2.png</Image>
+    </Outcome>
+
+    <Outcome>
+      <Chance>20</Chance>
+      <TitleText>Scrap!</TitleText>
+      <DescriptionText>As your troops land, they notice that the space elevator appears to be very old, likely beyond repair. The best solution was to carefully demolish it in a controlled way, to prevent a catastrophic collapse. They successfully set the charges and watch from far away as the tower crashes down as planned.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+      <ReplaceWith>Scrapyard</ReplaceWith>
+      <Image>Encounters/Scrapyard.png</Image>
+    </Outcome>
+
+    <Outcome>
+      <Chance>25</Chance>
+      <TitleText>Pirate base</TitleText>
+      <DescriptionText>As your troops approach the Space Elevator, they notice it is fully operational. And furthermore it's being used by pirates!</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+	  <ReplaceWith>Space Elevator</ReplaceWith>
+      <PirateShipsToSpawn>
+        <string>Draug Asteroid Base</string>
+        <string>Draug-Slaver-Mk2</string>
+		<string>Draug</string>
+		<string>Draug-Fighter</string>		
+		<string>Draug-Fighter</string>		
+		<string>Draug-Fighter</string>		
+		<string>Draug-Fighter</string>		
+		<string>Draug-Fighter</string>		
+      </PirateShipsToSpawn>
+      <Image>Encounters/SpaceElevator.png</Image>
+    </Outcome>
+
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>The elevator</TitleText>
+      <DescriptionText>As your troops approach the space elevator, they notice it is fully operational and ready to be used.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+	  <ReplaceWith>Space Elevator</ReplaceWith>
+      <Image>Encounters/SpaceElevator.png</Image>
+    </Outcome>
+
+    <Outcome>
+      <Chance>5</Chance>
+      <TitleText>What a marvel!</TitleText>
+      <DescriptionText>As your troops approach the space elevator, they noticed it is fully operational and ready to be used, along with a functional shipyard orbiting the planet.</DescriptionText>
+      <RemoveTrigger>true</RemoveTrigger>
+	  <ReplaceWith>Space Elevator</ReplaceWith>
+      <FriendlyShipsToSpawn>
+		<string>Shipyard</string>
+      </FriendlyShipsToSpawn>
+      <Image>Encounters/SpaceElevator.png</Image>
+    </Outcome>
+    
+  </PotentialOutcomes>
+ </ExplorationEvent>
