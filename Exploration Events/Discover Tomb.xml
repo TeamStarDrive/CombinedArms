@@ -12,7 +12,8 @@
       <SelectRandomPlanet>true</SelectRandomPlanet>
       <SpawnBuildingOnPlanet>Mysterious Tomb</SpawnBuildingOnPlanet>
       <RemoveTrigger>true</RemoveTrigger>
-      <Image>Encounters/Defenders.png</Image>
+      <Image>Encounters/Skeletons.png</Image>
+      <ConfirmText>How are they even moving?</ConfirmText>
     </Outcome>
     <Outcome>
       <Chance>20</Chance>
@@ -29,14 +30,16 @@
         <string>Xeno Fighter</string>
       </RemnantShipsToSpawn>
       <Image>Encounters/RemnantSpawn.png</Image>
+      <ConfirmText>Oops</ConfirmText>
     </Outcome>
     <Outcome>
       <Chance>20</Chance>
       <TitleText>Tomb Raiders</TitleText>
-      <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. The artifacts and other curiousities found there will sell well on the open market.</DescriptionText>
+      <DescriptionText>Your forces enter the mysterious tomb and find evidence of a long dead civilization. The artifacts and other curiosities found there will sell well on the open market.</DescriptionText>
       <MoneyGranted>1200</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/tomb.png</Image>
+      <ConfirmText>Who's the bad guy now?</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -46,6 +49,7 @@
       <ReplaceWith>Scrapyard</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Scrapyard.png</Image>
+      <ConfirmText>Nothing is sacred anymore.</ConfirmText>
     </Outcome>
    
    <Outcome>
@@ -55,6 +59,7 @@
       <ReplaceWith>Exotic Minerals</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/tomb.png</Image>
+      <ConfirmText>Dig it up.</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -75,7 +80,8 @@
         <string>Skeleton</string>
         <string>Skeleton</string>
       </TroopsToSpawn>
-      <Image>Encounters/Technology.png</Image>	  
+      <Image>Encounters/Technology.png</Image>
+      <ConfirmText>We are trapped on this planet!</ConfirmText>	  
     </Outcome>
 
     <Outcome>
@@ -86,6 +92,7 @@
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Artifact3.png</Image>
+      <ConfirmText>Higher-ups will be pleased!</ConfirmText>
     </Outcome>
   </PotentialOutcomes>
 </ExplorationEvent>

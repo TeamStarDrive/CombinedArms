@@ -15,6 +15,7 @@
       </RemnantShipsToSpawn>	      
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/RemnantSpawn.png</Image>
+      <ConfirmText>Not again..</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -24,6 +25,7 @@
       <ScienceBonus>-0.5</ScienceBonus>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Obelisk1.png</Image>
+      <ConfirmText>Higher-ups wont be pleased!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -33,6 +35,7 @@
       <ChangeBaseFertility>-1.5</ChangeBaseFertility>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/PlanetDevastations.png</Image>
+      <ConfirmText>It doesn't look good...</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -42,6 +45,7 @@
       <ReplaceWith>Neural Enhancer</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Obelisk2.png</Image>
+      <ConfirmText>We feel smarter!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -51,6 +55,7 @@
       <ReplaceWith>Neural Dampener</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Obelisk1.png</Image>
+      <ConfirmText>We dumb?</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -61,6 +66,7 @@
       <NumTilesToMakeUnhabitable>5</NumTilesToMakeUnhabitable>
       <ChangeBaseMaxFertility>-0.4</ChangeBaseMaxFertility>
       <Image>Encounters/planet devastations2.png</Image>
+      <ConfirmText>Oh crap!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -70,12 +76,13 @@
          <RemoveTrigger>true</RemoveTrigger>
          <NumTilesToMakeHabitable>4</NumTilesToMakeHabitable>
          <Image>Encounters/Obelisk2.png</Image>
+         <ConfirmText>Life sprinkler!</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>5</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After scouting the area, your troops find the obelisk. Inside of it, they found a data core with schematics for an unknown technology. Upon removing the data core from its socket, the obelisk shakes and crumbles into a pile of rubble.</DescriptionText>
+      <DescriptionText>After scouting the area, your troops found the obelisk. Inside of it, they found a data core with schematics for an unknown technology. Upon removing the data core from its socket, the obelisk shakes and crumbles into a pile of rubble alerting remnants to your presence.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>RAD</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
@@ -90,7 +97,8 @@
         <string>Skeleton</string>
 		<string>Skeleton</string>
       </TroopsToSpawn>
-      <Image>Encounters/Technology.png</Image>	  
+      <Image>Encounters/Technology.png</Image>
+      <ConfirmText>We need to bring this schematics back!</ConfirmText>
     </Outcome>
 
     <Outcome>

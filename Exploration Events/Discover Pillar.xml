@@ -15,6 +15,7 @@
       </RemnantShipsToSpawn>	      
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/RemnantSpawn.png</Image>
+      <ConfirmText>What was that?</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -25,6 +26,7 @@
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Artifact4.png</Image>
+      <ConfirmText>This is so called rapid evolution.</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -34,6 +36,7 @@
       <ChangeBaseFertility>-1.5</ChangeBaseFertility>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/PlanetDevastations.png</Image>
+      <ConfirmText>RUN!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -43,6 +46,7 @@
       <ReplaceWith>Thought Crystal</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Pilar1.png</Image>
+      <ConfirmText>More delicate than we though.</ConfirmText>
      </Outcome>
 
      <Outcome>
@@ -52,12 +56,13 @@
       <ReplaceWith>Exotic Mineral</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Pilar1.png</Image>
+      <ConfirmText>These could be useful.</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>3</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant ground and space defenders.</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops found the pillar, inside it they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant ground and space defenders.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>RAD</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
@@ -72,7 +77,8 @@
         <string>Skeleton</string>
 		<string>Skeleton</string>
       </TroopsToSpawn>
-      <Image>Encounters/Technology.png</Image>	  
+      <Image>Encounters/Technology.png</Image>
+      <ConfirmText>Blast them!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -94,12 +100,13 @@
 		<string>Draug-Fighter-Mk2</string>		
       </PirateShipsToSpawn>
        <Image>Encounters/ShipSpawn2.png</Image>
+       <ConfirmText>oh no...</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Intervention</TitleText>
-      <DescriptionText>As your troops approach the ancient pillar, they notice that they aren't the first group to discover it. They see lots of electronical equipment, computers and a large Remnant power generator. One of your combat engineers activates the generator and in doing so alerts the owners of these items to your presence. A small Remnant fleet warps into orbit.</DescriptionText>
+      <DescriptionText>As your troops approach the ancient pillar, they notice that they aren't the first group to discover it. They see lots of electronic equipment, computers and a large Remnant power generator. One of your combat engineers activates the generator and in doing so alerts the owners of these items to your presence. A small Remnant fleet warps into orbit.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
         <string>Heavy Drone</string>
@@ -109,6 +116,7 @@
         <string>Ancient Frigate</string>
        </RemnantShipsToSpawn>
        <Image>Encounters/RemnantSpawn.png</Image>
+       <ConfirmText>Take cover!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -118,6 +126,7 @@
       <ChangeRichness>0.3</ChangeRichness>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/PilarShock.png</Image>
+      <ConfirmText>What a shock!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -128,6 +137,7 @@
       <ChangeRichness>0.6</ChangeRichness>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/PilarShock.png</Image>
+      <ConfirmText>Lets not stick around.</ConfirmText>
     </Outcome>
     
   </PotentialOutcomes>

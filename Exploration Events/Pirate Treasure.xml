@@ -12,7 +12,8 @@
 		<string>Skeleton</string>
       </TroopsToSpawn>     
       <RemoveTrigger>true</RemoveTrigger>
-      <Image>Encounters/fail.png</Image>
+      <Image>Encounters/Skeletons.png</Image>
+      <ConfirmText>Why wont they stay dead for once!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -22,6 +23,7 @@
       <MoneyGranted>1500</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Warehouse.png</Image>
+      <ConfirmText>Shiny Things!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -34,11 +36,12 @@
 		<string>Draug Flagship</string>
 		<string>Corsair Flagship</string>
       </PirateShipsToSpawn>
-      <Image>Encounters/ShipSpawn2.png</Image>	  	  
+      <Image>Encounters/ShipSpawn2.png</Image>
+      <ConfirmText>Again the Pirates</ConfirmText>
     </Outcome>	
 
     <Outcome>
-      <Chance>11</Chance>
+      <Chance>5</Chance>
       <TitleText>Pirate Technology?</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created an untested tech. Unfortunately, it seems that the pirate fleet left here might not let you go unharmed, unless you paid them for protection recently.</DescriptionText>
       <MoneyGranted>200</MoneyGranted>
@@ -53,10 +56,11 @@
 		<string>Corsair-Fighter-Mk2</string>
       </PirateShipsToSpawn>	  
       <Image>Encounters/Technology.png</Image>
+      <ConfirmText>This is now ours!</ConfirmText>
     </Outcome>
 
     <Outcome>
-      <Chance>11</Chance>
+      <Chance>5</Chance>
       <TitleText>Interesting Treasure Cache</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find some interesting artifacts which can be sold and also schematics of some sort which are revealed as new technology! Unfortunately, it seems that your troops attracted unwanted attention.</DescriptionText>
       <UnlockTech>Experimental Phasors</UnlockTech>	  
@@ -69,7 +73,8 @@
 		<string>Skeleton</string>
 		<string>Skeleton</string>
       </TroopsToSpawn>
-      <Image>Encounters/Artifact4.png</Image>	  
+      <Image>Encounters/Artifact4.png</Image>
+      <ConfirmText>Arent they supposed to be, i dont know, dead?!</ConfirmText> 
     </Outcome>	
 
     <Outcome>
@@ -88,6 +93,7 @@
         <string>Antlion</string>
       </TroopsToSpawn>
       <Image>Encounters/Infested.png</Image>
+      <ConfirmText>Lets play a game of tag!</ConfirmText>
     </Outcome>	
 
     <Outcome>
@@ -100,6 +106,7 @@
 		<string>Gunboat Ballista Mk1</string>
       </FriendlyShipsToSpawn>
       <Image>Encounters/Working ship.png</Image>
+      <ConfirmText>Stealing from the thiefs!</ConfirmText>
     </Outcome>	
 
   </PotentialOutcomes>

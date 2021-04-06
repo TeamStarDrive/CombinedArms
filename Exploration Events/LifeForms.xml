@@ -15,6 +15,7 @@
         <string>Antlion</string>
 	  </TroopsToSpawn>
       <Image>Encounters/DestroyedVillage.png</Image>
+      <ConfirmText>What happen to this town?</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -32,6 +33,7 @@
       </PirateShipsToSpawn>
       <ReplaceWith>Destroyed Village</ReplaceWith>
       <Image>Encounters/ShipSpawn2.png</Image>
+      <ConfirmText>Take those Pirates down!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -41,6 +43,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Native Village</ReplaceWith>
       <Image>Encounters/Defenders.png</Image>
+      <ConfirmText>We came just to chat..</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -50,6 +53,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Friendly Native Village</ReplaceWith>
       <Image>Encounters/LifeForms.png</Image>
+      <ConfirmText>Promising agreement.</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -60,6 +64,7 @@
       <ReplaceWith>Primitive Small town</ReplaceWith>
       <ChangeRichness>-0.2</ChangeRichness>
       <Image>Encounters/LifeForms.png</Image>
+      <ConfirmText>They really like to dig!</ConfirmText>
     </Outcome>
     
     <Outcome>
@@ -77,6 +82,7 @@
 		<string>Corsair-Fighter-Mk2</string>
       </PirateShipsToSpawn>
       <Image>Encounters/Town.png</Image>
+      <ConfirmText>Freedom for Pirate slaves!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -86,6 +92,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Primitive Large town</ReplaceWith>
       <Image>Encounters/Town.png</Image>
+      <ConfirmText>They better hit the gym!</ConfirmText>
     </Outcome>
     
   </PotentialOutcomes>
