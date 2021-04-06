@@ -10,6 +10,7 @@
       <ChangeBaseFertility>-2</ChangeBaseFertility>
       <NumTilesToMakeUnhabitable>6</NumTilesToMakeUnhabitable>
       <Image>Encounters/planet devastations2.png</Image>
+      <ConfirmText>There she goes!</ConfirmText>
     </Outcome>
 
      <Outcome>
@@ -25,6 +26,7 @@
 		<string>Antlion</string>
       </TroopsToSpawn>	 
       <Image>Encounters/Antlions.png</Image>
+      <ConfirmText>Light them up!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -46,6 +48,7 @@
         <string>Ancient Frigate</string>
        </RemnantShipsToSpawn>
        <Image>Encounters/planet devastations2.png</Image>
+       <ConfirmText>They will play for that!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -55,6 +58,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Scrapyard</ReplaceWith>
       <Image>Encounters/Scrapyard.png</Image>
+      <ConfirmText>Nice job!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -74,19 +78,21 @@
 		<string>Draug-Fighter</string>		
       </PirateShipsToSpawn>
       <Image>Encounters/SpaceElevator.png</Image>
+      <ConfirmText>Now just to get rid of those pirates!</ConfirmText>
     </Outcome>
 
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>20</Chance>
       <TitleText>The elevator</TitleText>
       <DescriptionText>As your troops approach the space elevator, they notice it is fully operational and ready to be used.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
 	  <ReplaceWith>Space Elevator</ReplaceWith>
       <Image>Encounters/SpaceElevator.png</Image>
+      <ConfirmText>Lets use it then!</ConfirmText>
     </Outcome>
 
     <Outcome>
-      <Chance>5</Chance>
+      <Chance>7</Chance>
       <TitleText>What a marvel!</TitleText>
       <DescriptionText>As your troops approach the space elevator, they noticed it is fully operational and ready to be used, along with a functional shipyard orbiting the planet.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -95,6 +101,7 @@
 		<string>Shipyard</string>
       </FriendlyShipsToSpawn>
       <Image>Encounters/SpaceElevator.png</Image>
+      <ConfirmText>Higher-ups will be pleased!</ConfirmText>
     </Outcome>
     
   </PotentialOutcomes>

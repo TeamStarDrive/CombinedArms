@@ -13,7 +13,8 @@
         <string>Draug-Fighter-Mk2</string>
 		<string>Draug-Fighter-Mk2</string>
       </FriendlyShipsToSpawn>
-      <Image>Encounters/ShipSpawn2.png</Image>      
+      <Image>Encounters/ShipSpawn2.png</Image>
+      <ConfirmText>What a champs!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -23,6 +24,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>The Underhive Smugglers</ReplaceWith>
       <Image>Encounters/fail.png</Image>
+      <ConfirmText>Higher-ups will be pleased!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -32,6 +34,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>The Underhive Assassins</ReplaceWith>
       <Image>Encounters/Warehouse.png</Image>
+      <ConfirmText>Ninja warriors!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -41,6 +44,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>The Underhive Pit Slaves</ReplaceWith>
       <Image>Encounters/WorkingMine.png</Image>
+      <ConfirmText>Slavery is good for economy</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -55,6 +59,7 @@
 		<string>Support Drone</string>
       </PirateShipsToSpawn>
       <Image>Encounters/fail.png</Image>
+      <ConfirmText>This isnt over!</ConfirmText>
     </Outcome>
   </PotentialOutcomes>
 </ExplorationEvent>

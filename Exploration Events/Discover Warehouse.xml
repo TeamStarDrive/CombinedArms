@@ -12,6 +12,7 @@
         <string>Antlion</string>
       </TroopsToSpawn>
       <Image>Encounters/Infested.png</Image>
+      <ConfirmText>Damn bug's everywhere!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -20,6 +21,7 @@
       <DescriptionText>After Scouting the area, your troops enter the abandoned warehouse. Inside they find a lot of old rusty equipment.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/fail.png</Image>
+      <ConfirmText>Lets leave.</ConfirmText>
     </Outcome>
 
      <Outcome>
@@ -28,8 +30,8 @@
       <DescriptionText>After Scouting the area, your troops enter the abandoned warehouse. Inside they find a lot of old rusty equipment.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Scrapyard</ReplaceWith>
-
       <Image>Encounters/Scrapyard.png</Image>
+      <ConfirmText>Always something useful.</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -42,6 +44,7 @@
         <string>Antlion</string>
       </TroopsToSpawn>
       <Image>Encounters/Antlions.png</Image>
+      <ConfirmText>To arms!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -62,7 +65,8 @@
       </RemnantShipsToSpawn>	  
       <TroopsToSpawn>
       </TroopsToSpawn>
-      <Image>Encounters/Technology.png</Image>	  
+      <Image>Encounters/Technology.png</Image>
+      <ConfirmText>This could gone better.</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -73,6 +77,7 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Large Warehouse</ReplaceWith>
       <Image>Encounters/Technology.png</Image>
+      <ConfirmText>Oh, we like these!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -90,6 +95,7 @@
         <string>Xeno Fighter</string>
       </RemnantShipsToSpawn>
       <Image>Encounters/RemnantSpawn.png</Image>
+      <ConfirmText>Call reinforcments!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -103,6 +109,7 @@
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Working ship.png</Image>
+      <ConfirmText>All aboard!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -125,6 +132,7 @@
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/ShipSpawn2.png</Image>
+      <ConfirmText>Nice little squadron!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -145,6 +153,7 @@
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/ShipSpawn2.png</Image>
+      <ConfirmText>Silly Pirates.</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -162,6 +171,7 @@
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/ShipSpawn2.png</Image>
+      <ConfirmText>Their loss, our gain.</ConfirmText>
     </Outcome>			
   </PotentialOutcomes>
 </ExplorationEvent>

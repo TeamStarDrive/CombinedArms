@@ -11,13 +11,14 @@
         <string>Skeleton</string>
       </TroopsToSpawn>     
       <RemoveTrigger>true</RemoveTrigger>
-      <Image>Encounters/Defenders.png</Image>
+      <Image>Encounters/Skeletons.png</Image>
+      <ConfirmText>Whats dead should stay dead!</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>4</Chance>
       <TitleText>A unique technology and great peril!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming a dormant Remnant Inhibitor!</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops found a ship, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the ship triggering ship security protocols alarming a dormant Remnant Inhibitor!</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>Cyclone</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
@@ -27,12 +28,13 @@
       <TroopsToSpawn>
       </TroopsToSpawn>	 
       <Image>Encounters/Technology.png</Image> 
+      <ConfirmText>This could gone worse.</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>3</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find the pillar, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant space defenders.</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops found a ship, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the ship triggering ship security protocols alarming dormant space defenders.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>Energizer3x3</UnlockTech>	  
       <RemoveTrigger>true</RemoveTrigger>
@@ -45,6 +47,7 @@
       <TroopsToSpawn>
       </TroopsToSpawn>	  
       <Image>Encounters/Technology.png</Image>
+      <ConfirmText>Next time, don't touch alien tech.</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -62,6 +65,7 @@
         <string>Heavy Drone</string>
       </RemnantShipsToSpawn>
       <Image>Encounters/RemnantSpawn.png</Image>
+      <ConfirmText>Retreat!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -71,6 +75,7 @@
       <MoneyGranted>250</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/CrashedShip2.png</Image>
+      <ConfirmText>Profit!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -85,6 +90,7 @@
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Working ship.png</Image>
+      <ConfirmText>Oh, lets test those bad boys!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -95,6 +101,17 @@
       <ChangeBaseFertility>-0.6</ChangeBaseFertility>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/CrashedShip3.png</Image>
+      <ConfirmText>What a dissaster.</ConfirmText>
+    </Outcome>
+
+    <Outcome>
+      <Chance>10</Chance>
+      <TitleText>Precious cargo</TitleText>
+      <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. But even so, scans show its reactor is still functional and providing power to the storage unit, inside your troops found a very rare seed. This ship was transporting it somewhere.</DescriptionText>
+      <ReplaceWith>WroldSeed</ReplaceWith>
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/fail.png</Image>
+      <ConfirmText>Dont eat it!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -103,6 +120,7 @@
       <DescriptionText>Your forces examine the wreckage of a small spacecraft that crashed into the planet a long time ago. From the description of the scans, it seems too small for a spaceship. Even more puzzling is that it has wheels. Could this have been an old automobile of some sort? No, those were never designed to be spacecraft.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Car.png</Image>
+      <ConfirmText>This one probably broke few speed limits</ConfirmText>
     </Outcome>
   </PotentialOutcomes>
 </ExplorationEvent>
