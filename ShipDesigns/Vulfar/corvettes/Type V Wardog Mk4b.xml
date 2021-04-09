@@ -14,7 +14,7 @@
   <IsShipyard>false</IsShipyard>
   <IsOrbitalDefense>false</IsOrbitalDefense>
   <IconPath>ShipIcons/typeV</IconPath>
-  <CombatState>AttackRuns</CombatState>
+  <CombatState>ShortRange</CombatState>
   <MechanicalBoardingDefense>0</MechanicalBoardingDefense>
   <Hull>Vulfen/Type V</Hull>
   <Role>corvette</Role>
@@ -78,11 +78,11 @@
         <X>200</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>ShotgunDragon</InstalledModuleUID>
+      <InstalledModuleUID>ShotgunHVEmp</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>315.000122</facing>
+      <facing>270</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
@@ -103,11 +103,11 @@
         <X>200</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>ShotgunDragon</InstalledModuleUID>
+      <InstalledModuleUID>ShotgunDragon1x3</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>300.000122</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -128,11 +128,10 @@
         <X>200</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>ShotgunDragon</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>285.000031</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
@@ -141,11 +140,12 @@
         <X>200</X>
         <Y>328</Y>
       </Position>
+      <InstalledModuleUID>thruster1x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>90</facing>
+      <state>Right</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -179,12 +179,12 @@
         <X>216</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>AdvancedFShieldBlue</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>90</facing>
-      <state>Right</state>
+      <facing>0</facing>
+      <state>Normal</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -216,6 +216,7 @@
         <X>216</X>
         <Y>280</Y>
       </Position>
+      <InstalledModuleUID>Railgun1x3V2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -264,7 +265,7 @@
         <X>216</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>Tritanium Armor Small</InstalledModuleUID>
+      <InstalledModuleUID>PowerSolarArm</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -315,6 +316,7 @@
         <X>232</X>
         <Y>232</Y>
       </Position>
+      <InstalledModuleUID>AdvancedFShieldBlue</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -327,7 +329,6 @@
         <X>232</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>AntiMReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -366,7 +367,7 @@
         <X>232</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>AntiMReactorSmall</InstalledModuleUID>
+      <InstalledModuleUID>Advanced Fighter Generator</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -379,7 +380,7 @@
         <X>232</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>Cockpit</InstalledModuleUID>
+      <InstalledModuleUID>Advanced Fighter Generator</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -479,7 +480,7 @@
         <X>248</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>Bridge</InstalledModuleUID>
+      <InstalledModuleUID>Cockpit_Side</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -492,6 +493,7 @@
         <X>248</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -542,7 +544,7 @@
         <X>248</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>Fighter Shield Blue</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -642,6 +644,7 @@
         <X>264</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -690,7 +693,7 @@
         <X>264</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -770,8 +773,8 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>90</facing>
-      <state>Right</state>
+      <facing>0</facing>
+      <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -779,7 +782,6 @@
         <X>280</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>AntiMReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -818,7 +820,7 @@
         <X>280</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>AntiMReactorSmall</InstalledModuleUID>
+      <InstalledModuleUID>Advanced Fighter Generator</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -831,7 +833,7 @@
         <X>280</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>Cockpit</InstalledModuleUID>
+      <InstalledModuleUID>Advanced Fighter Generator</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -906,6 +908,7 @@
         <X>296</X>
         <Y>232</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -918,11 +921,11 @@
         <X>296</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>ShotgunDragon</InstalledModuleUID>
+      <InstalledModuleUID>ShotgunHVEmp</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>45</facing>
+      <facing>90</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -943,11 +946,11 @@
         <X>296</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>ShotgunDragon</InstalledModuleUID>
+      <InstalledModuleUID>Railgun1x3V2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>60.0000076</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -968,11 +971,10 @@
         <X>296</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>ShotgunDragon</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>75.00003</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -981,11 +983,12 @@
         <X>296</X>
         <Y>328</Y>
       </Position>
+      <InstalledModuleUID>thruster1x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>270</facing>
+      <state>Left</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -993,7 +996,7 @@
         <X>296</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>Tritanium Armor Small</InstalledModuleUID>
+      <InstalledModuleUID>PowerSolarArm</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1043,6 +1046,7 @@
         <X>312</X>
         <Y>280</Y>
       </Position>
+      <InstalledModuleUID>ShotgunDragon1x3</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
