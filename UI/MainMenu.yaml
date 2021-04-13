@@ -5,130 +5,153 @@
 # to view changes in real time.
 # Some ID-s have hardcoded default behaviours like the buttons
 #
-Screen: main_menu
+  Name: main_menu
   # virtual size sets up the entire screen coordinate system
   # these coordinates will be translated into actual screen coordinates automatically
   # even if the game is running at 2560x1440 or 1280x720, all coordinates in this file
   # are defined by this. Different aspect ratios get automatically repositioned.
   VirtualSize: [1920,1080]
-  
-Panel: background
-  Texture: MainMenu/HR_nebula_stars_bg.png
-  Size: [1, 1] # fill to width, auto-pick height
-  AxisAlign: TopLeft # Align our Pos and Axis to BottomLeft
-  DrawDepth: Background
+  Elements:
+    - Panel: 
+      Name: background
+      Texture: MainMenu/HR_nebula_stars_bg.png
+      Size: [1, 1] # fill to width, auto-pick height
+      AxisAlign: TopLeft # Align our Pos and Axis to BottomLeft
+      DrawDepth: Background
 
-Panel: stardrive_animated_logo
-  Size: [0.3, 0]
-  Pos: [-0.06, 60]
-  AxisAlign: TopRight
-  DrawDepth: Foreground
-  SpriteAnim: ../MainMenu/Stardrive logo
-    Delay: 0
-    Duration: 3
-    FreezeAtLastFrame: true
+    - Panel:
+      Name: stardrive_animated_logo
+      Size: [0.3, 0]
+      Pos: [-0.06, 60]
+      AxisAlign: TopRight
+      DrawDepth: Foreground
+      SpriteAnim:
+        Path: ../MainMenu/Stardrive logo
+        Delay: 0
+        Duration: 3
+        FreezeAtLastFrame: true
 
-Panel: blacbox_animated_logo
-  Size: [0.25, 0]
-  Pos: [-0.06, 170]
-  Color: [0.8,0.8,0.8,0.0] # start with alpha 0.0
-  AxisAlign: TopRight
-  DrawDepth: Foreground
-  SpriteAnim: MMenu/bb_logo_animated
-    Delay: 0
-    Duration: 7
-    StartAt: 0
-    Looping: true
-    FreezeAtLastFrame: false
-    VisibleBeforeDelay: true
-  Animation: [1, 2, 0, 2, 0] # delay, duration, end-time, fadein, fadeout
-    Alpha: [0, 1]
+    - Panel:
+      Name: blacbox_animated_logo
+      Size: [0.25, 0]
+      Pos: [-0.06, 170]
+      Color: [0.8,0.8,0.8,0.0] # start with alpha 0.0
+      AxisAlign: TopRight
+      DrawDepth: Foreground
+      SpriteAnim:
+        Path: MMenu/bb_logo_animated
+        Delay: 0
+        Duration: 7
+        StartAt: 0
+        Looping: true
+        FreezeAtLastFrame: false
+        VisibleBeforeDelay: true
+      Animation:
+        Params: [1, 2, 0, 2, 0] # delay, duration, end-time, fadein, fadeout
+        Alpha: [0, 1]
 
-Panel: blackvox_sub_version
-  Texture: MMenu/subver.png
-  Size: [0, 0.035] # 0.03
-  Pos: [-335, 213] #  [-360, 213] -510, 140]
-  AxisAlign: TopRight
-  DrawDepth: Foreground
-  Animation: [3, 2, 0, 2, 0] # delay, duration, end-time, fadein, fadeout
-    Alpha: [0, 1]
+    - Panel:
+      Name: blackvox_sub_version
+      Texture: MMenu/subver.png
+      Size: [0, 0.035] # 0.03
+      Pos: [-335, 213] #  [-360, 213] -510, 140]
+      AxisAlign: TopRight
+      DrawDepth: Foreground
+      Animation:
+        Params: [3, 2, 0, 2, 0] # delay, duration, end-time, fadein, fadeout
+        Alpha: [0, 1]
 
-Panel: Ca_logo
-  Texture: MainMenu/ca_logo.png
-  Size: [0.55, 0] # fill to width, auto-pick height
-  Pos: [-1150, 590]
-  AxisAlign: TopRight # Align our Pos and Axis to BottomLeft
-  DrawDepth: Background
+    - Panel:
+      Name: Ca_logo
+      Texture: MainMenu/ca_logo.png
+      Size: [0.55, 0] # fill to width, auto-pick height
+      Pos: [-1150, 590]
+      AxisAlign: TopRight # Align our Pos and Axis to BottomLeft
+      DrawDepth: Background
 
-Panel: hex
-  Texture: MainMenu/planet_grid.png
-  Size: [0.27, 0] # fill to width, auto-pick height
-  Pos: [-700, 0]
-  AxisAlign: TopRight # Align our Pos and Axis to BottomLeft
-  DrawDepth: Background
+    - Panel:
+      Name: hex
+      Texture: MainMenu/planet_grid.png
+      Size: [0.27, 0] # fill to width, auto-pick height
+      Pos: [-700, 0]
+      AxisAlign: TopRight # Align our Pos and Axis to BottomLeft
+      DrawDepth: Background
 
-Panel: planet_flare
-  Texture: MainMenu/moon_1.png
-  Pos: [0, 0]
-  AxisAlign: Center
-  DrawDepth: Background
-  Animation: [0, 3, 3, 1.25, 1.25] # delay, duration, end-time, fadein, fadeout
-    MinColor: [0.85,0.85,0.85,1.0] # vary the color from min
-    MaxColor: [1.0,1.0,1.0,1.0]    # to max
+    - Panel: 
+      Name: planet_flare
+      Texture: MainMenu/moon_1.png
+      Pos: [0, 0]
+      AxisAlign: Center
+      DrawDepth: Background
+      Animation:
+        Params: [0, 3, 3, 1.25, 1.25] # delay, duration, end-time, fadein, fadeout
+        MinColor: [0.85,0.85,0.85,1.0] # vary the color from min
+        MaxColor: [1.0,1.0,1.0,1.0]    # to max
 
-Panel: planet_flare
-  Texture: MainMenu/moon_3.png
-  Pos: [0, 0]
-  AxisAlign: Center
-  DrawDepth: Background
-  Animation: [0, 3, 3, 1.25, 1.25] # delay, duration, end-time, fadein, fadeout
-    MinColor: [0.85,0.85,0.85,1.0] # vary the color from min
-    MaxColor: [1.0,1.0,1.0,1.0]    # to max
+    - Panel:
+      Name: planet_flare
+      Texture: MainMenu/moon_3.png
+      Pos: [0, 0]
+      AxisAlign: Center
+      DrawDepth: Background
+      Animation:
+        Params: [0, 3, 3, 1.25, 1.25] # delay, duration, end-time, fadein, fadeout
+        MinColor: [0.85,0.85,0.85,1.0] # vary the color from min
+        MaxColor: [1.0,1.0,1.0,1.0]    # to max
 
-
-List: buttons
-  Rect: [-20, 0.22, 200, 600]
-  AxisAlign: CenterRight
-  Padding: [5,15]
-  # Fill -- fill to width of the list
-  # Clip -- clip elements to width of the list
-  # Resize -- auto resize list itself
-  ListLayout: ResizeList
-  Children:
-    Button: new_game
-      ButtonStyle: Default
-      Size: [1.0, 0] # aspect fill width
-      Title: "{1}" # "New Game"
-      ClickSfx: sd_ui_tactical_pause
-    Button: tutorials
-      Title: "{3}" # "Tutorials"
-      Size: [1.0, 0]
-      ClickSfx: sd_ui_tactical_pause
-    Button: load_game
-      Title: "{2}" # "Load Game"
-      Size: [1.0, 0]
-      ClickSfx: sd_ui_tactical_pause
-    Button: options
-      Title: "{4}" # "Options"
-      Size: [1.0, 0]
-      ClickSfx: sd_ui_tactical_pause
-    Button: mods
-      Title: "Mods"
-      Size: [1.0, 0]
-      ClickSfx: sd_ui_tactical_pause
-    Button: sandbox
-      Title: "Dev Sandbox"
-      Size: [1.0, 0]
-      ClickSfx: sd_ui_tactical_pause
-    Button: info
-      Title: "BlackBox Info"
-      Size: [1.0, 0]
-      ClickSfx: sd_ui_tactical_pause
-    Button: version
-      Title: "Version Check"
-      Size: [1.0, 0]
-      ClickSfx: sd_ui_tactical_pause
-    Button: exit
-      Title: "{5}" # "Exit"
-      Size: [1.0, 0]
-      ClickSfx: sd_ui_tactical_pause
+    - List: 
+      Name: buttons
+      Rect: [-2 0, 0.22, 200, 600]
+      AxisAlign: CenterRight
+      Padding: [5,15]
+      # Fill -- fill to width of the list
+      # Clip -- clip elements to width of the list
+      # Resize -- auto resize list itself
+      ListLayout: ResizeList
+      Children:
+        - Button:
+            Name: new_game
+            ButtonStyle: Default
+            Size: [1.0, 0] # aspect fill width
+            Title: "{1}" # "New Game"
+            ClickSfx: sd_ui_tactical_pause
+        - Button:
+            Name: tutorials
+            Title: "{3}" # "Tutorials"
+            Size: [1.0, 0]
+            ClickSfx: sd_ui_tactical_pause
+        - Button:
+            Name: load_game
+            Title: "{2}" # "Load Game"
+            Size: [1.0, 0]
+            ClickSfx: sd_ui_tactical_pause
+        - Button:
+            Name: options
+            Title: "{4}" # "Options"
+            Size: [1.0, 0]
+            ClickSfx: sd_ui_tactical_pause
+        - Button:
+            Name: mods
+            Title: "Mods"
+            Size: [1.0, 0]
+            ClickSfx: sd_ui_tactical_pause
+        - Button:
+            Name: sandbox
+            Title: "Dev Sandbox"
+            Size: [1.0, 0]
+            ClickSfx: sd_ui_tactical_pause
+        - Button:
+            Name: info
+            Title: "BlackBox Info"
+            Size: [1.0, 0]
+            ClickSfx: sd_ui_tactical_pause
+        - Button:
+            Name: version
+            Title: "Version Check"
+            Size: [1.0, 0]
+            ClickSfx: sd_ui_tactical_pause
+        - Button:
+            Name:exit
+            Title: "{5}" # "Exit"
+            Size: [1.0, 0]
+            ClickSfx: sd_ui_tactical_pause

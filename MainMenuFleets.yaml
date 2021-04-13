@@ -8,9 +8,8 @@
 #  - [IdlingInDeepSpace, min_delay, max_delay]
 #  - [GoToState,         delay,      state_id]
 
-    
-
-Fleet: WarpingPatrolFleet2
+Fleet:
+  Name: WarpingPatrolFleet2
   Empire: Random
   Rotation: [-60, -20, -30]
   AI:
@@ -21,73 +20,34 @@ Fleet: WarpingPatrolFleet2
     - [IdlingInDeepSpace, 23, 23]    
   Ships:
     # fighter wing 1
-    Ship: fighter
-      Position: [0, 0, 0]
-      Speed: 200
-    Ship: fighter
-      Position: [200, 200, -200]
-      Speed: 200      
-    Ship: fighter
-      Position: [-300, 400, -200]
-      Speed: 200            
-    Ship: fighter
-      Position: [300, -400, 200]
-      Speed: 200                  
+    Ship: { Role: fighter, Speed: 200, Position: [0, 0, 0] }
+    Ship: { Role: fighter, Speed: 200, Position: [200, 200, -200] }
+    Ship: { Role: fighter, Speed: 200, Position: [-300, 400, -200] }
+    Ship: { Role: fighter, Speed: 200, Position: [300, -400, 200] }
     # fighter wing 2
-    Ship: fighter
-      Position: [800, 0, -800]
-      Speed: 220
-    Ship: fighter
-      Position: [1000, 200, -1000]
-      Speed: 220      
-    Ship: fighter
-      Position: [1100, 400, -1000]
-      Speed: 220
-    Ship: fighter
-      Position: [1100, 800, -1000]
-      Speed: 220
+    Ship: { Role: fighter, Speed: 220, Position: [800, 0, -800] }
+    Ship: { Role: fighter, Speed: 220, Position: [1000, 200, -1000] }
+    Ship: { Role: fighter, Speed: 220, Position: [1100, 400, -1000] }
+    Ship: { Role: fighter, Speed: 220, Position: [1100, 800, -1000] }
     # corvette escort
-    Ship: corvette
-      Position: [1600, 1500, -2000]
-      Speed: 220
-    Ship: corvette
-      Position: [1600, 1200, -2500]
-      Speed: 220      
+    Ship: { Role: corvette, Speed: 220, Position: [1600, 1500, -2000] }
+    Ship: { Role: corvette, Speed: 220, Position: [1600, 1200, -2500] }
     # fighter patrol
-    Ship: fighter
-      Position: [6000, 4500, -10000]
-      Speed: 1000            
-    Ship: fighter
-      Position: [6200, 4400, -10000]
-      Speed: 1000              
-    Ship: fighter
-      Position: [6400, 4300, -10000]
-      Speed: 1000            
-    Ship: fighter
-      Position: [5800, 4600, -10000]
-      Speed: 1000         
+    Ship: { Role: fighter, Speed: 1000, Position: [6000, 4500, -10000] }
+    Ship: { Role: fighter, Speed: 1000, Position: [6200, 4400, -10000] }
+    Ship: { Role: fighter, Speed: 1000, Position: [6400, 4300, -10000] }
+    Ship: { Role: fighter, Speed: 1000, Position: [5800, 4600, -10000] }
     # frigate
-    Ship: frigate
-      Position: [700, 700, -1500]
-      Speed: 230      
-    Ship: frigate
-      Position: [1000, 200, -2500]
-      Speed: 200            
-    Ship: frigate
-      Position: [700, 1000, -2200]
-      Speed: 230            
-    Ship: frigate
-      Position: [3000, 1000, -3400]
-      Speed: 200                  
+    Ship: { Role: frigate, Speed: 230, Position: [700, 700, -1500] }
+    Ship: { Role: frigate, Speed: 230, Position: [1000, 200, -2500] }
+    Ship: { Role: frigate, Speed: 230, Position: [700, 1000, -2200] }
+    Ship: { Role: frigate, Speed: 200, Position: [3000, 1000, -3400] }
     # big stuff
-    Ship: cruiser
-      Position: [1000, 400, -1500]
-      Speed: 100            
-    Ship: capital
-      Position: [900, 1000, -2500]
-      Speed: 100         
-
-Fleet: WarpingPatrolFleet1
+    Ship: { Role: cruiser, Speed: 100, Position: [1000, 400, -1500] }
+    Ship: { Role: capital, Speed: 100, Position: [900, 1000, -2500] }
+    
+Fleet: 
+  Name: WarpingPatrolFleet1
   Empire: Random
   Rotation: [-120, 150, -20]
   AI:
@@ -95,47 +55,25 @@ Fleet: WarpingPatrolFleet1
     - [WarpingIn, 1, 1]
     - [CoastWithRotate, 15, 16]
     - [WarpingOut, 1, 1]
-
   Ships:
     # capitals
-    Ship: capital
-      Position: [100, 400, 3000]
-      Speed: 10
-    Ship: capital
-      Position: [-1500, 0, 3500]
-      Speed: 10
+    Ship: { Role: capital, Speed: 10, Position: [100, 400, 3000] }
+    Ship: { Role: capital, Speed: 10, Position: [-1500, 0, 3500] }
     # cruisers
-    Ship: cruiser
-      Position: [800, -600, 2000]
-      Speed: 20
-    Ship: cruiser
-      Position: [-900, 200, 800]
-      Speed: 20      
-    Ship: cruiser
-      Position: [-1000, 1000, 3500]
-      Speed: 20            
+    Ship: { Role: cruiser, Speed: 20, Position: [800, -600, 2000] }
+    Ship: { Role: cruiser, Speed: 20, Position: [-900, 200, 800] }
+    Ship: { Role: cruiser, Speed: 20, Position: [-1000, 1000, 3500] }
     # frigates
-    Ship: frigate
-      Position: [-200, -200, 1500]
-      Speed: 30      
-    Ship: frigate
-      Position: [200, 1000, 3000]
-      Speed: 30
-    Ship: frigate
-      Position: [-800, -1000, 3500]
-      Speed: 30      
-    Ship: frigate
-      Position: [800, -1500, 3500]
-      Speed: 30      
+    Ship: { Role: frigate, Speed: 30, Position: [-200, -200, 1500] }
+    Ship: { Role: frigate, Speed: 30, Position: [200, 1000, 3000] }
+    Ship: { Role: frigate, Speed: 30, Position: [-800, -1000, 3500] }
+    Ship: { Role: frigate, Speed: 30, Position: [800, -1500, 3500] }
     # corvettes
-    Ship: corvette
-      Position: [-1900, -1000, 3500]      
-      Speed: 100            
-    Ship: corvette
-      Position: [-2100, -1200, 3600]      
-      Speed: 100          
+    Ship: { Role: corvette, Speed: 100, Position: [-1900, -1000, 3500] }
+    Ship: { Role: corvette, Speed: 100, Position: [-2100, -1200, 3600] }
       
-Fleet: BackgroundFreighters_LeftToRight
+Fleet: 
+  Name: BackgroundFreighters_LeftToRight
   DiverseShipEmpires: True
   DisableJumpSfx: True
   Rotation: [0, 45, 90]
@@ -149,12 +87,11 @@ Fleet: BackgroundFreighters_LeftToRight
     - [WarpingIn, 1, 1]
     - [GoToState, 0, 0]
   ShipGroups:
-    ShipGroup: freighter
-      Count: 30
-    ShipGroup: fighter
-      Count: 8      
+    ShipGroup: { Role: freighter, Count: 30 }
+    ShipGroup: { Role: fighter, Count: 8 }
 
-Fleet: BackgroundFreighters_RightToLeft
+Fleet: 
+  Name: BackgroundFreighters_RightToLeft
   DiverseShipEmpires: True
   DisableJumpSfx: True
   Rotation: [0, -45, -90]
@@ -168,7 +105,5 @@ Fleet: BackgroundFreighters_RightToLeft
     - [WarpingIn, 1, 1]
     - [GoToState, 0, 0]
   ShipGroups:
-    ShipGroup: freighter
-      Count: 30
-    ShipGroup: fighter
-      Count: 8      
+    ShipGroup: { Role: freighter, Count: 30 }
+    ShipGroup: { Role: fighter, Count: 8 }
