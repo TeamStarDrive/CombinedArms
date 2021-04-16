@@ -1,0 +1,31 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>DroneShotHE</UID>
+  <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Cannon>true</Tag_Cannon>
+  <Tag_Explosive>true</Tag_Explosive>
+  <fireDelay>5</fireDelay>
+  <Range>1000</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>1</OrdinanceRequiredToFire>
+  <SalvoCount>3</SalvoCount>
+  <SalvoTimer>0.75</SalvoTimer>
+  <ProjectileCount>2</ProjectileCount>
+  <FireArc>9</FireArc>
+
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_vulcan_shotgun_01</fireCueName>
+  <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
+  <EffectVsArmor>0.5</EffectVsArmor>
+  <!-- Projectile Information -->
+  <DamageAmount>135</DamageAmount>
+  <explodes>true</explodes>
+  <DamageRadius>28</DamageRadius>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>3200</ProjectileSpeed>
+  <ProjectileRadius>4</ProjectileRadius>
+  <Scale>0.8</Scale>
+  <ProjectileTexturePath>projBall_01_orange</ProjectileTexturePath>
+  <ModelPath>projBall</ModelPath>
+  <WeaponEffectType>RocketTrail</WeaponEffectType>
+  <WeaponType>Shotgun</WeaponType>
+</Weapon>

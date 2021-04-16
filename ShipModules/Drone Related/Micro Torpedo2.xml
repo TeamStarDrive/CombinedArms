@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DroneModule>true</DroneModule>
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <FrigateModule>false</FrigateModule>
+  <DestroyerModule>false</DestroyerModule>
+  <CruiserModule>false</CruiserModule>
+  <BattleshipModule>false</BattleshipModule>
+  <CapitalModule>false</CapitalModule>
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>false</PlatformModule>
+  <StationModule>false</StationModule>
+
+  <Cost>8</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>4</TechLevel>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>1</XSIZE>
+  <YSIZE>1</YSIZE>
+  <ModuleType>MissileLauncher</ModuleType>
+  <Name>Micro Torpedo2</Name>
+  <Restrictions>I</Restrictions>
+  <UID>Micro Torpedo2</UID>
+  <IconTexturePath>Modules/DroneMicroTorp2</IconTexturePath>
+
+  <NameIndex>18250</NameIndex>
+  <DescriptionIndex>18251</DescriptionIndex>
+
+
+  <!-- Mass and Health -->
+  <Mass>5</Mass>
+  <Health>225</Health>
+  <HealthMax>225</HealthMax>
+  <RepairDifficulty>3</RepairDifficulty>
+
+  <!-- Power Drawn -->
+  <PowerDraw>0</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>MicroTorp2</WeaponType>
+  <FieldOfFire>30</FieldOfFire>
+  <OrdinanceCapacity>10</OrdinanceCapacity>
+    
+  <!-- Description -->
+  <Description>Fighter Torpedo</Description>
+
+</ShipModule>

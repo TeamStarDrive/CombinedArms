@@ -1,0 +1,27 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>DroneShotRepeater</UID>
+  <Tag_Cannon>true</Tag_Cannon>
+  <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Explosive>false</Tag_Explosive>
+  <fireDelay>0.33</fireDelay>
+  <Range>1000</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0.1</OrdinanceRequiredToFire>
+  <ProjectileCount>3</ProjectileCount>
+  <FireArc>10</FireArc>
+
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_vulcan_shotgun_01</fireCueName>
+  <EffectVsArmor>0.75</EffectVsArmor>
+  <EffectVSShields>0.85</EffectVSShields>
+  <!-- Projectile Information -->
+  <DamageAmount>14</DamageAmount>
+  <ArmorPen>1</ArmorPen>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>3200</ProjectileSpeed>
+  <ProjectileRadius>4</ProjectileRadius>
+  <Scale>2.5</Scale>
+  <ProjectileTexturePath>superlong_yellow</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <WeaponType>Shotgun</WeaponType>
+</Weapon>
