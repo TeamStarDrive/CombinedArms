@@ -22,8 +22,8 @@
       <TroopsToSpawn>
         <string>Antlion</string>
         <string>Antlion</string>
-		<string>Antlion</string>
-      </TroopsToSpawn>	 
+          <string>Antlion</string>
+      </TroopsToSpawn>      
       <Image>Encounters/TeleportBad.png</Image>
       <ConfirmText>That could went worse!</ConfirmText>
     </Outcome>
@@ -78,11 +78,11 @@
       <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
-		<string>Skeleton</string>
+          <string>Skeleton</string>
         <string>Wyvern</string>
         <string>Wyvern</string>
         <string>Wyvern</string>
-      </TroopsToSpawn>	 
+      </TroopsToSpawn>      
       <Image>Encounters/Defenders.png</Image>
       <ConfirmText>I wonder where they came from.</ConfirmText>
     </Outcome>
@@ -92,7 +92,7 @@
       <TitleText>Grey Goo!</TitleText>
       <DescriptionText>As your troops approach the ring, they notice that it's in remarkable shape, and well preserved. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as a wormhole is created within the ring, which appears to be stable! But suddenly, a strange grayish mass comes pouring out from the ring, enveloping the portal and keep expanding at a rapid pace. Your troops retreat.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-	  <ReplaceWith>GreyGoo</ReplaceWith>
+       <ReplaceWith>GreyGoo</ReplaceWith>
       <ChangeBaseFertility>-2</ChangeBaseFertility>
       <ChangeBaseMaxFertility>-2</ChangeBaseMaxFertility>
       <Image>Encounters/TeleportBad.png</Image>
@@ -104,7 +104,7 @@
       <TitleText>Grey Goo!</TitleText>
       <DescriptionText>As your troops approach the ring, they notice that it's in remarkable shape, and well preserved. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as a wormhole is created within the ring, which appears to be stable! But suddenly, a strange grayish mass comes pouring out from the ring. In a blind stroke of genius, your forces envelop it in an electromagnetic barrier, trapping it inside. After studying it, they discover that it's an approximate manifestion of the infamous idea of grey goo. They unanimously decide to destroy it, the whole process having proven useful to our knowledge.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-	  <ReplaceWith>Teleport</ReplaceWith>
+       <ReplaceWith>Teleport</ReplaceWith>
       <ScienceBonus>0.05</ScienceBonus>
       <Image>Encounters/Teleport.png</Image>
       <ConfirmText>Nice save!</ConfirmText>

@@ -6,13 +6,13 @@
       <TitleText>Ambush</TitleText>
       <DescriptionText>Before reaching the obelisk, we spot a Remnant fleet orbiting the planet that suddenly fires on the obelisk, destroying it completely.</DescriptionText>
        <RemnantShipsToSpawn>
-		<string>Heavy Drone</string>
-		<string>Heavy Drone</string>		
-		<string>Support Drone</string>		
-		<string>Support Drone</string>
-		<string>Support Drone</string>
-		<string>Support Drone</string>
-      </RemnantShipsToSpawn>	      
+          <string>Heavy Drone</string>
+          <string>Heavy Drone</string>
+          <string>Support Drone</string>
+          <string>Support Drone</string>
+          <string>Support Drone</string>
+          <string>Support Drone</string>
+      </RemnantShipsToSpawn>           
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/RemnantSpawn.png</Image>
       <ConfirmText>Not again..</ConfirmText>
@@ -84,18 +84,18 @@
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After scouting the area, your troops found the obelisk. Inside of it, they found a data core with schematics for an unknown technology. Upon removing the data core from its socket, the obelisk shakes and crumbles into a pile of rubble alerting remnants to your presence.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
-      <UnlockTech>RAD</UnlockTech>	  
+      <UnlockTech>RAD</UnlockTech>       
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
-		<string>Heavy Drone</string>
-		<string>Heavy Drone</string>		
-		<string>Xeno Fighter</string>
-		<string>Xeno Fighter</string>
-      </RemnantShipsToSpawn>	  
+          <string>Heavy Drone</string>
+          <string>Heavy Drone</string>          
+          <string>Xeno Fighter</string>
+          <string>Xeno Fighter</string>
+      </RemnantShipsToSpawn>       
       <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
-		<string>Skeleton</string>
+          <string>Skeleton</string>
       </TroopsToSpawn>
       <Image>Encounters/Technology.png</Image>
       <ConfirmText>We need to bring this schematics back!</ConfirmText>
@@ -106,7 +106,7 @@
       <TitleText>Artifact!</TitleText>
       <DescriptionText>As your troops approach the ancient obelisk, they notice a strange object inserted into it. In an attempt to free the object, they decide to dismantle the obelisk.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-	  <GrantArtifact>true</GrantArtifact>
+       <GrantArtifact>true</GrantArtifact>
       <Image>Encounters/Artifact2.png</Image>
     </Outcome>
 
