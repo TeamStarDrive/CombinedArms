@@ -8,8 +8,8 @@
        <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
-		<string>Skeleton</string>
-		<string>Skeleton</string>
+          <string>Skeleton</string>
+          <string>Skeleton</string>
       </TroopsToSpawn>     
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Skeletons.png</Image>
@@ -30,15 +30,15 @@
       <Chance>11</Chance>
       <TitleText>The Bosses's Conference Call</TitleText>
       <DescriptionText>Your troops burst it to a room only to find out that 2 pirate bosses were meeting here for their annual grab and smash plans. They don't seem happy to see you and scramble to their ships. Seems things get hairy as non one knows who will attack who.</DescriptionText>
-	  <MoneyGranted>750</MoneyGranted>
+       <MoneyGranted>750</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
       <PirateShipsToSpawn>
-		<string>Draug Flagship</string>
-		<string>Corsair Flagship</string>
+          <string>Draug Flagship</string>
+          <string>Corsair Flagship</string>
       </PirateShipsToSpawn>
       <Image>Encounters/ShipSpawn2.png</Image>
       <ConfirmText>Again the Pirates</ConfirmText>
-    </Outcome>	
+    </Outcome>     
 
     <Outcome>
       <Chance>5</Chance>
@@ -48,13 +48,13 @@
       <UnlockTech>AtomizingBattery</UnlockTech>
       <RemoveTrigger>true</RemoveTrigger>
       <PirateShipsToSpawn>
-		<string>Corsair-Fighter-Mk2</string>
-		<string>Corsair-Fighter-Mk2</string>
-		<string>Corsair-Fighter-Mk2</string>
-		<string>Corsair-Fighter-Mk2</string>
-		<string>Corsair-Fighter-Mk2</string>
-		<string>Corsair-Fighter-Mk2</string>
-      </PirateShipsToSpawn>	  
+          <string>Corsair-Fighter-Mk2</string>
+          <string>Corsair-Fighter-Mk2</string>
+          <string>Corsair-Fighter-Mk2</string>
+          <string>Corsair-Fighter-Mk2</string>
+          <string>Corsair-Fighter-Mk2</string>
+          <string>Corsair-Fighter-Mk2</string>
+      </PirateShipsToSpawn>       
       <Image>Encounters/Technology.png</Image>
       <ConfirmText>This is now ours!</ConfirmText>
     </Outcome>
@@ -63,51 +63,51 @@
       <Chance>5</Chance>
       <TitleText>Interesting Treasure Cache</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find some interesting artifacts which can be sold and also schematics of some sort which are revealed as new technology! Unfortunately, it seems that your troops attracted unwanted attention.</DescriptionText>
-      <UnlockTech>Experimental Phasors</UnlockTech>	  
-	  <MoneyGranted>300</MoneyGranted>
+      <UnlockTech>Experimental Phasors</UnlockTech>       
+       <MoneyGranted>300</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
       <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
-		<string>Skeleton</string>
-		<string>Skeleton</string>
-		<string>Skeleton</string>
+          <string>Skeleton</string>
+          <string>Skeleton</string>
+          <string>Skeleton</string>
       </TroopsToSpawn>
       <Image>Encounters/Artifact4.png</Image>
       <ConfirmText>Arent they supposed to be, i dont know, dead?!</ConfirmText> 
-    </Outcome>	
+    </Outcome>     
 
     <Outcome>
       <Chance>11</Chance>
       <TitleText>It's a trap!</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it only to find that it is empty. One of the troops find a note that says: "Even in my death i outsmart you. You will never find the treasure. Take 2 credits instead, hahaha!". When your troops exit the cave, they find a big swarm of giant insects!</DescriptionText>
       <MoneyGranted>2</MoneyGranted>
-      <RemoveTrigger>true</RemoveTrigger>	  
+      <RemoveTrigger>true</RemoveTrigger>       
       <SelectRandomPlanet>true</SelectRandomPlanet>
       <SpawnBuildingOnPlanet>Treasure</SpawnBuildingOnPlanet>
       <TroopsToSpawn>
         <string>Antlion</string>
         <string>Antlion</string>
         <string>Antlion</string>
-		<string>Antlion</string>
+          <string>Antlion</string>
         <string>Antlion</string>
       </TroopsToSpawn>
       <Image>Encounters/Infested.png</Image>
       <ConfirmText>Lets play a game of tag!</ConfirmText>
-    </Outcome>	
+    </Outcome>     
 
     <Outcome>
       <Chance>11</Chance>
       <TitleText>Military Salvage</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find 2 stolen Frigates, not even painted with pirate signs. Your Troops bring them into orbit.</DescriptionText>
-      <RemoveTrigger>true</RemoveTrigger>	  
+      <RemoveTrigger>true</RemoveTrigger>       
       <FriendlyShipsToSpawn>
         <string>Gunboat Ballista Mk1</string>
-		<string>Gunboat Ballista Mk1</string>
+          <string>Gunboat Ballista Mk1</string>
       </FriendlyShipsToSpawn>
       <Image>Encounters/Working ship.png</Image>
       <ConfirmText>Stealing from the thiefs!</ConfirmText>
-    </Outcome>	
+    </Outcome>     
 
   </PotentialOutcomes>
 </ExplorationEvent>
