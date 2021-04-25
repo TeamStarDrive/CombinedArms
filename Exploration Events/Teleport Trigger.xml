@@ -5,7 +5,7 @@
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Collapse</TitleText>
-      <DescriptionText>As your troops approach the ring, they notice it is unpowered, and probably damaged to a certain degree. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as an unstable wormhole is created within the ring. Suddenly, the wormhole collapses, creating a devastating wave of destruction that propagates across the planet!</DescriptionText>
+      <DescriptionText>As your troops approach the ring, they notice it is unpowered, and probably damaged to a certain degree. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as an unstable wormhole is created within the ring. Suddenly, the wormhole collapses, creating a devastating wave of destruction that propagates across the planet! Planet scans changed : -5 habitable tiles.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ChangeBaseFertility>-1</ChangeBaseFertility>
       <NumTilesToMakeUnhabitable>5</NumTilesToMakeUnhabitable>
@@ -31,7 +31,7 @@
     <Outcome>
       <Chance>7</Chance>
       <TitleText>Unwanted Attention.</TitleText>
-      <DescriptionText>As your troops approach the ring, they notice that it's in remarkable shape, and well preserved. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as a wormhole is created within the ring, which appears to be stable! Unfortunately, the unique energy output of the wormhole has drawn the attention of a remnant fleet, which after warping in began bombing the planet, destroying the ring in the process.</DescriptionText>
+      <DescriptionText>As your troops approach the ring, they notice that it's in remarkable shape, and well preserved. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as a wormhole is created within the ring, which appears to be stable! Unfortunately, the unique energy output of the wormhole has drawn the attention of a remnant fleet, which after warping in began bombing the planet, destroying the ring in the process. Planet scans changed : -0.8 Fertility, -3 habitable tiles.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <NumTilesToMakeUnhabitable>3</NumTilesToMakeUnhabitable>
       <ChangeBaseFertility>-0.5</ChangeBaseFertility>
@@ -70,7 +70,7 @@
        <ConfirmText>What now?!</ConfirmText>
     </Outcome>
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>15</Chance>
       <TitleText>Technomancers.</TitleText>
       <DescriptionText>As your troops approach the ring, they notice that it's in remarkable shape, and well preserved. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as a wormhole is created within the ring, which appears to be stable! But suddenly, otherworldly creatures come forth from it...</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -90,7 +90,7 @@
     <Outcome>
       <Chance>7</Chance>
       <TitleText>Grey Goo!</TitleText>
-      <DescriptionText>As your troops approach the ring, they notice that it's in remarkable shape, and well preserved. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as a wormhole is created within the ring, which appears to be stable! But suddenly, a strange grayish mass comes pouring out from the ring, enveloping the portal and keep expanding at a rapid pace. Your troops retreat.</DescriptionText>
+      <DescriptionText>As your troops approach the ring, they notice that it's in remarkable shape, and well preserved. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as a wormhole is created within the ring, which appears to be stable! But suddenly, a strange grayish mass comes pouring out from the ring, enveloping the portal and keep expanding at a rapid pace. Your troops retreat. Planet scans changed : -2 Fertility.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
        <ReplaceWith>GreyGoo</ReplaceWith>
       <ChangeBaseFertility>-2</ChangeBaseFertility>
