@@ -298,13 +298,14 @@
         <X>168</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>thruster1x2</InstalledModuleUID>
+      <InstalledModuleUID>DroneBay</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>IO</Restrictions>
+      <SlotOptions>DynamicInterceptor</SlotOptions>
     </ModuleSlotData>
     <ModuleSlotData>
       <Position>
@@ -323,7 +324,6 @@
         <X>168</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>thruster1x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -385,7 +385,7 @@
         <X>168</X>
         <Y>376</Y>
       </Position>
-      <InstalledModuleUID>WarpEngine_3x3</InstalledModuleUID>
+      <InstalledModuleUID>CapEngines</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -536,11 +536,11 @@
         <X>184</X>
         <Y>200</Y>
       </Position>
-      <InstalledModuleUID>MRM mk1</InstalledModuleUID>
+      <InstalledModuleUID>PhasorTurret2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>330.000061</facing>
+      <facing>270</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -561,11 +561,11 @@
         <X>184</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>thruster1x2</InstalledModuleUID>
+      <InstalledModuleUID>MRM mk2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
+      <facing>330.000061</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -586,19 +586,6 @@
         <X>184</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>MRM mk1</InstalledModuleUID>
-      <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
-      <Health>0</Health>
-      <Shield_Power>0</Shield_Power>
-      <facing>330.000061</facing>
-      <state>Normal</state>
-      <Restrictions>IO</Restrictions>
-    </ModuleSlotData>
-    <ModuleSlotData>
-      <Position>
-        <X>184</X>
-        <Y>280</Y>
-      </Position>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -609,13 +596,25 @@
     <ModuleSlotData>
       <Position>
         <X>184</X>
-        <Y>296</Y>
+        <Y>280</Y>
       </Position>
-      <InstalledModuleUID>ShadowStorm</InstalledModuleUID>
+      <InstalledModuleUID>PhasorTurret3x3</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>300.0001</facing>
+      <facing>330.000061</facing>
+      <state>Normal</state>
+      <Restrictions>IO</Restrictions>
+    </ModuleSlotData>
+    <ModuleSlotData>
+      <Position>
+        <X>184</X>
+        <Y>296</Y>
+      </Position>
+      <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
+      <Health>0</Health>
+      <Shield_Power>0</Shield_Power>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -894,11 +893,10 @@
         <X>200</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>MRM mk1</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>330.000061</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -1240,12 +1238,12 @@
         <X>216</X>
         <Y>184</Y>
       </Position>
-      <InstalledModuleUID>Shield_10KW</InstalledModuleUID>
+      <InstalledModuleUID>CanopyShield</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>90</facing>
+      <state>Right</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -1301,7 +1299,6 @@
         <X>216</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1314,7 +1311,6 @@
         <X>216</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1327,7 +1323,6 @@
         <X>216</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1340,7 +1335,6 @@
         <X>216</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>jumpdrive2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1353,6 +1347,7 @@
         <X>216</X>
         <Y>328</Y>
       </Position>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1365,7 +1360,7 @@
         <X>216</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>Ammunition Dump</InstalledModuleUID>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1378,6 +1373,7 @@
         <X>216</X>
         <Y>360</Y>
       </Position>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1390,6 +1386,7 @@
         <X>216</X>
         <Y>376</Y>
       </Position>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1402,6 +1399,7 @@
         <X>216</X>
         <Y>392</Y>
       </Position>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1414,11 +1412,11 @@
         <X>216</X>
         <Y>408</Y>
       </Position>
-      <InstalledModuleUID>MRM mk1</InstalledModuleUID>
+      <InstalledModuleUID>PhasorTurret2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>330.000031</facing>
+      <facing>195.000031</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -1598,7 +1596,7 @@
         <X>232</X>
         <Y>152</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1611,7 +1609,7 @@
         <X>232</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1709,7 +1707,7 @@
         <X>232</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
+      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1722,6 +1720,7 @@
         <X>232</X>
         <Y>312</Y>
       </Position>
+      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1734,6 +1733,7 @@
         <X>232</X>
         <Y>328</Y>
       </Position>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1746,6 +1746,7 @@
         <X>232</X>
         <Y>344</Y>
       </Position>
+      <InstalledModuleUID>QuantumFusionReactor_4x4</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1878,7 +1879,7 @@
         <X>248</X>
         <Y>104</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>LightningStorm</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1891,7 +1892,6 @@
         <X>248</X>
         <Y>120</Y>
       </Position>
-      <InstalledModuleUID>BattleShield2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1904,6 +1904,7 @@
         <X>248</X>
         <Y>136</Y>
       </Position>
+      <InstalledModuleUID>Fabricator</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1916,7 +1917,6 @@
         <X>248</X>
         <Y>152</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2013,7 +2013,7 @@
         <X>248</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>Shield_10KW</InstalledModuleUID>
+      <InstalledModuleUID>Bridge</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2038,6 +2038,7 @@
         <X>248</X>
         <Y>328</Y>
       </Position>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2098,7 +2099,7 @@
         <X>248</X>
         <Y>408</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2198,7 +2199,6 @@
         <X>264</X>
         <Y>104</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2235,7 +2235,6 @@
         <X>264</X>
         <Y>152</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2248,7 +2247,6 @@
         <X>264</X>
         <Y>184</Y>
       </Position>
-      <InstalledModuleUID>Shield_10KW</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2357,6 +2355,7 @@
         <X>264</X>
         <Y>328</Y>
       </Position>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2417,7 +2416,7 @@
         <X>264</X>
         <Y>408</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2615,7 +2614,7 @@
         <X>280</X>
         <Y>152</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2628,7 +2627,7 @@
         <X>280</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2725,6 +2724,7 @@
         <X>280</X>
         <Y>296</Y>
       </Position>
+      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2737,6 +2737,7 @@
         <X>280</X>
         <Y>312</Y>
       </Position>
+      <InstalledModuleUID>BasicFuelCell</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2749,6 +2750,7 @@
         <X>280</X>
         <Y>328</Y>
       </Position>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2761,7 +2763,6 @@
         <X>280</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2774,7 +2775,6 @@
         <X>280</X>
         <Y>360</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2787,7 +2787,6 @@
         <X>280</X>
         <Y>376</Y>
       </Position>
-      <InstalledModuleUID>Bridge</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -2812,11 +2811,11 @@
         <X>280</X>
         <Y>408</Y>
       </Position>
-      <InstalledModuleUID>MRM mk1</InstalledModuleUID>
+      <InstalledModuleUID>PhasorTurret2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>30.0000019</facing>
+      <facing>165.000031</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -3057,7 +3056,7 @@
         <X>296</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>MRM mk1</InstalledModuleUID>
+      <InstalledModuleUID>MRM mk2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3082,7 +3081,6 @@
         <X>296</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3095,11 +3093,11 @@
         <X>296</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>PhasorTurret3x3</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
+      <facing>30.0000038</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -3108,7 +3106,6 @@
         <X>296</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3121,7 +3118,6 @@
         <X>296</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3134,7 +3130,7 @@
         <X>296</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3147,7 +3143,7 @@
         <X>296</X>
         <Y>344</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3160,7 +3156,7 @@
         <X>296</X>
         <Y>360</Y>
       </Position>
-      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3173,6 +3169,7 @@
         <X>296</X>
         <Y>376</Y>
       </Position>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3185,6 +3182,7 @@
         <X>296</X>
         <Y>392</Y>
       </Position>
+      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3409,11 +3407,11 @@
         <X>312</X>
         <Y>200</Y>
       </Position>
-      <InstalledModuleUID>MRM mk1</InstalledModuleUID>
+      <InstalledModuleUID>PhasorTurret2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>30.0000038</facing>
+      <facing>90</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -3458,11 +3456,10 @@
         <X>312</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>MRM mk1</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>30.0000038</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -3483,11 +3480,10 @@
         <X>312</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>ShadowStorm</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>60.0000076</facing>
+      <facing>0</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -3545,7 +3541,7 @@
         <X>312</X>
         <Y>376</Y>
       </Position>
-      <InstalledModuleUID>WarpEngine_3x3</InstalledModuleUID>
+      <InstalledModuleUID>CapEngines</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3756,7 +3752,6 @@
         <X>328</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>thruster1x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -3952,13 +3947,14 @@
         <X>344</X>
         <Y>264</Y>
       </Position>
-      <InstalledModuleUID>thruster1x2</InstalledModuleUID>
+      <InstalledModuleUID>DroneBay</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>IO</Restrictions>
+      <SlotOptions>DynamicInterceptor</SlotOptions>
     </ModuleSlotData>
     <ModuleSlotData>
       <Position>
@@ -3977,7 +3973,6 @@
         <X>344</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>thruster1x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
