@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <UID>Plasma Ordnance</UID>
+  <UID>Ordnance Payload IV</UID>
   <TechnologyType>ShipWeapons</TechnologyType>
   <Cost>720</Cost>
   <RootNode>0</RootNode>
-  <Name>Plasma Ordnance</Name>
-  <NameIndex>2001</NameIndex>
+  <Name>Ordnance Payload IV</Name>
+  <NameIndex>18255</NameIndex>
   <DescriptionIndex>2002</DescriptionIndex>
   <LongDescription>See localization file</LongDescription>
   <LeadsTo>
     <LeadsToTech>
-      <UID>Plasma Vectoring III</UID>
+      <UID>Ordnance Payload V</UID>
     </LeadsToTech>  
-  </LeadsTo>	
+  </LeadsTo>
   <ModulesUnlocked />
   <BuildingsUnlocked />
   <BonusUnlocked>
@@ -21,15 +21,21 @@
       <BonusType>Weapon_Damage</BonusType>
       <Tags>
         <string>Kinetic</string>
-      </Tags>	  
-      <Tags>
-        <string>Missile</string>
       </Tags>
       <Tags>
         <string>Torpedo</string>
       </Tags>	  
-      <Bonus>.25</Bonus>
-      <BonusIndex>2003</BonusIndex>
+      <Bonus>.05</Bonus>
+      <BonusIndex>18257</BonusIndex>
+    </UnlockedBonus>
+    <UnlockedBonus>
+    <Name>Missile Effectiveness</Name>
+      <BonusType>Weapon_Damage</BonusType>  
+      <Tags>
+        <string>Missile</string>
+      </Tags>  
+      <Bonus>.08</Bonus>
+      <BonusIndex>18259</BonusIndex>
     </UnlockedBonus>
     <UnlockedBonus>
       <Name>Ordnance Effectiveness</Name>
@@ -43,8 +49,8 @@
       <Tags>
         <string>Torpedo</string>
       </Tags>	  
-      <Bonus>.25</Bonus>
-	  <BonusIndex>1999</BonusIndex>
+      <Bonus>.05</Bonus>
+	  <BonusIndex>18258</BonusIndex>
     </UnlockedBonus>	
   </BonusUnlocked>
   <TroopsUnlocked />
