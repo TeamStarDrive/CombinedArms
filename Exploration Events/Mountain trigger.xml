@@ -91,5 +91,16 @@
       <ConfirmText>Treasure mountain!</ConfirmText>
     </Outcome>
     
+        <Outcome>
+      <Chance>15</Chance>
+      <TitleText>Recovered technology</TitleText>
+      <DescriptionText>Your forces found an old, completely split in half ship, buried under the snow. Its damaged reactor was leaking ionized liquid, obviously the source that caused the errors in our scans. While searching the wreck, our troops stumbled upon some weapon schematics. Nothing else was worth salvaging, so the order was given to destroy the remains.</DescriptionText>
+      <UnlockTech>Remnant Assembly</UnlockTech>
+      <ReplaceWith>Mountain</ReplaceWith>
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Technology.png</Image>
+      <ConfirmText>A what?!</ConfirmText>
+    </Outcome>
+
   </PotentialOutcomes>
  </ExplorationEvent>
