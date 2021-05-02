@@ -4,7 +4,7 @@
   <experience>0</experience>
   <Level>0</Level>
   <SelectionGraphic />
-  <Name>Dauntless Phoenix Mk3a</Name>
+  <Name>Dauntless Phoenix Mk4</Name>
   <ModName>Combined Arms</ModName>
   <HasFixedCost>false</HasFixedCost>
   <FixedCost>0</FixedCost>
@@ -14,7 +14,7 @@
   <IsShipyard>false</IsShipyard>
   <IsOrbitalDefense>false</IsOrbitalDefense>
   <IconPath>ShipIcons/icon_dauntless</IconPath>
-  <CombatState>AttackRuns</CombatState>
+  <CombatState>Artillery</CombatState>
   <MechanicalBoardingDefense>0</MechanicalBoardingDefense>
   <Hull>Dauntless/ts1</Hull>
   <Role>corvette</Role>
@@ -39,11 +39,11 @@
         <X>216</X>
         <Y>408</Y>
       </Position>
-      <InstalledModuleUID>thruster1x2</InstalledModuleUID>
+      <InstalledModuleUID>PhasorTurret2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
+      <facing>345.000031</facing>
       <state>Normal</state>
       <Restrictions>O</Restrictions>
     </ModuleSlotData>
@@ -64,7 +64,7 @@
         <X>232</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
+      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -77,7 +77,7 @@
         <X>232</X>
         <Y>184</Y>
       </Position>
-      <InstalledModuleUID>Nemesis_Rocket_Pod</InstalledModuleUID>
+      <InstalledModuleUID>Hydra_Rocket_Pod</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -102,6 +102,7 @@
         <X>232</X>
         <Y>216</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -114,7 +115,7 @@
         <X>232</X>
         <Y>376</Y>
       </Position>
-      <InstalledModuleUID>Nemesis_Rocket_Pod</InstalledModuleUID>
+      <InstalledModuleUID>thruster1x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -151,7 +152,6 @@
         <X>232</X>
         <Y>424</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -164,7 +164,7 @@
         <X>232</X>
         <Y>440</Y>
       </Position>
-      <InstalledModuleUID>Cockpit</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -177,7 +177,7 @@
         <X>248</X>
         <Y>152</Y>
       </Position>
-      <InstalledModuleUID>Nemesis_Rocket_Pod</InstalledModuleUID>
+      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -190,10 +190,11 @@
         <X>248</X>
         <Y>168</Y>
       </Position>
+      <InstalledModuleUID>HellStorm</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
+      <facing>180</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -214,7 +215,7 @@
         <X>248</X>
         <Y>200</Y>
       </Position>
-      <InstalledModuleUID>Fighter Shield Blue</InstalledModuleUID>
+      <InstalledModuleUID>Fighter Shield Battle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -314,7 +315,7 @@
         <X>248</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>Nemesis_Rocket_Pod</InstalledModuleUID>
+      <InstalledModuleUID>Fighter Shield Battle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -327,6 +328,7 @@
         <X>248</X>
         <Y>344</Y>
       </Position>
+      <InstalledModuleUID>QuantumFusionReactor_1x1</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -339,6 +341,7 @@
         <X>248</X>
         <Y>360</Y>
       </Position>
+      <InstalledModuleUID>advanced_small_fuelcell</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -351,7 +354,7 @@
         <X>248</X>
         <Y>376</Y>
       </Position>
-      <InstalledModuleUID>Fighter Shield Blue</InstalledModuleUID>
+      <InstalledModuleUID>Cockpit_Side</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -364,7 +367,7 @@
         <X>248</X>
         <Y>392</Y>
       </Position>
-      <InstalledModuleUID>QuantumFusionReactor_1x1</InstalledModuleUID>
+      <InstalledModuleUID>Fighter Shield Battle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -415,7 +418,7 @@
         <X>264</X>
         <Y>152</Y>
       </Position>
-      <InstalledModuleUID>Nemesis_Rocket_Pod</InstalledModuleUID>
+      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -452,7 +455,7 @@
         <X>264</X>
         <Y>200</Y>
       </Position>
-      <InstalledModuleUID>Fighter Shield Blue</InstalledModuleUID>
+      <InstalledModuleUID>Fighter Shield Battle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -552,7 +555,7 @@
         <X>264</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>Nemesis_Rocket_Pod</InstalledModuleUID>
+      <InstalledModuleUID>Fighter Shield Battle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -565,6 +568,7 @@
         <X>264</X>
         <Y>344</Y>
       </Position>
+      <InstalledModuleUID>QuantumFusionReactor_1x1</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -577,6 +581,7 @@
         <X>264</X>
         <Y>360</Y>
       </Position>
+      <InstalledModuleUID>advanced_small_fuelcell</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -589,7 +594,6 @@
         <X>264</X>
         <Y>376</Y>
       </Position>
-      <InstalledModuleUID>QuantumFusionReactor_1x1</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -615,7 +619,7 @@
         <X>264</X>
         <Y>408</Y>
       </Position>
-      <InstalledModuleUID>WarpEngine_1x1</InstalledModuleUID>
+      <InstalledModuleUID>Engine</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -653,7 +657,7 @@
         <X>280</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>thruster1x1</InstalledModuleUID>
+      <InstalledModuleUID>XSGA5Fairy Small</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -666,7 +670,7 @@
         <X>280</X>
         <Y>184</Y>
       </Position>
-      <InstalledModuleUID>Nemesis_Rocket_Pod</InstalledModuleUID>
+      <InstalledModuleUID>Hydra_Rocket_Pod</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -691,6 +695,7 @@
         <X>280</X>
         <Y>216</Y>
       </Position>
+      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -703,7 +708,7 @@
         <X>280</X>
         <Y>376</Y>
       </Position>
-      <InstalledModuleUID>Nemesis_Rocket_Pod</InstalledModuleUID>
+      <InstalledModuleUID>thruster1x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -728,10 +733,11 @@
         <X>280</X>
         <Y>408</Y>
       </Position>
+      <InstalledModuleUID>PhasorTurret2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
+      <facing>15.0000019</facing>
       <state>Normal</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
@@ -740,7 +746,6 @@
         <X>280</X>
         <Y>424</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -753,7 +758,7 @@
         <X>280</X>
         <Y>440</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -766,7 +771,6 @@
         <X>296</X>
         <Y>408</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -779,7 +783,6 @@
         <X>296</X>
         <Y>424</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
