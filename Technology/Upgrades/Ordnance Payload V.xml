@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Ordnance Payload V</UID>
+  <TechnologyType>ShipWeapons</TechnologyType>
+  <Cost>920</Cost>
+  <RootNode>0</RootNode>
+  <Name>Ordnance Payload V</Name>
+  <NameIndex>18256</NameIndex>
+  <DescriptionIndex>2002</DescriptionIndex>
+  <LongDescription>See localization file</LongDescription>
+  <LeadsTo>
+  </LeadsTo>
+  <ModulesUnlocked />
+  <BuildingsUnlocked />
+  <BonusUnlocked>
+    <UnlockedBonus>
+      <Name>Ordnance Effectiveness</Name>
+      <BonusType>Weapon_Damage</BonusType>
+      <Tags>
+        <string>Kinetic</string>
+      </Tags>
+      <Tags>
+        <string>Torpedo</string>
+      </Tags>	  
+      <Bonus>.05</Bonus>
+      <BonusIndex>18257</BonusIndex>
+    </UnlockedBonus>
+    <UnlockedBonus>
+    <Name>Missile Effectiveness</Name>
+      <BonusType>Weapon_Damage</BonusType>  
+      <Tags>
+        <string>Missile</string>
+      </Tags>  
+      <Bonus>.08</Bonus>
+      <BonusIndex>18259</BonusIndex>
+    </UnlockedBonus>
+    <UnlockedBonus>
+      <Name>Ordnance Effectiveness</Name>
+      <BonusType>Weapon_ExplosionRadius</BonusType>
+      <Tags>
+        <string>Kinetic</string>
+      </Tags>	  
+      <Tags>
+        <string>Missile</string>
+      </Tags>
+      <Tags>
+        <string>Torpedo</string>
+      </Tags>	  
+      <Bonus>.05</Bonus>
+	  <BonusIndex>18258</BonusIndex>
+    </UnlockedBonus>	
+  </BonusUnlocked>
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

@@ -31,7 +31,7 @@
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Wave</TitleText>
-      <DescriptionText>As your troops get closer to the obelisk, they notice that the terrain surrounding it is completely barren. While approaching slowly, they suddenly hear a high pitched tone coming directly from the obelisk, its volume becoming increasingly unbearable! At some point, the obelisk disintegrates and sends forth a massively deadly wave of radiation, killing almost all forms of life on the planet. What have we done?</DescriptionText>
+      <DescriptionText>As your troops get closer to the obelisk, they notice that the terrain surrounding it is completely barren. While approaching slowly, they suddenly hear a high pitched tone coming directly from the obelisk, its volume becoming increasingly unbearable! At some point, the obelisk disintegrates and sends forth a massively deadly wave of radiation, killing almost all forms of life on the planet. What have we done? Planet scans changed :-1.5 Fertility.</DescriptionText>
       <ChangeBaseFertility>-1.5</ChangeBaseFertility>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/PlanetDevastations.png</Image>
@@ -61,7 +61,7 @@
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Fallout</TitleText>
-      <DescriptionText>As your troops approach the ancient obelisk, they hear a humming sound. The closer they get, the louder the noise becomes. Suddenly, a deafening sound is heard, and an extremely large and bright beam shoots into the sky, eventually breaking apart and falling back down to the planet, spreading deadly particles across the terrain.</DescriptionText>
+      <DescriptionText>As your troops approach the ancient obelisk, they hear a humming sound. The closer they get, the louder the noise becomes. Suddenly, a deafening sound is heard, and an extremely large and bright beam shoots into the sky, eventually breaking apart and falling back down to the planet, spreading deadly particles across the terrain. Planet scans changed : -0.4 Fertility, -5 habitable tiles.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <NumTilesToMakeUnhabitable>5</NumTilesToMakeUnhabitable>
       <ChangeBaseMaxFertility>-0.4</ChangeBaseMaxFertility>
@@ -72,15 +72,16 @@
     <Outcome>
       <Chance>18</Chance>
          <TitleText>Life energy</TitleText>
-         <DescriptionText>As your troops approach the ancient obelisk, they hear a humming sound. The closer they get, the louder the noise becomes. Suddenly, a deafening sound is heard, and an extremely large and bright beam shoots into the sky, eventually breaking apart and slowly descending back down to the surface.</DescriptionText>
+         <DescriptionText>As your troops approach the ancient obelisk, they hear a humming sound. The closer they get, the louder the noise becomes. Suddenly, a deafening sound is heard, and an extremely large and bright beam shoots into the sky, eventually breaking apart and slowly descending back down to the surface. Planet scans changed : +0.6 Fertility, +8 habitable tiles.</DescriptionText>
          <RemoveTrigger>true</RemoveTrigger>
-         <NumTilesToMakeHabitable>4</NumTilesToMakeHabitable>
+         <NumTilesToMakeHabitable>8</NumTilesToMakeHabitable>
+         <ChangeBaseMaxFertility>0.6</ChangeBaseMaxFertility>
          <Image>Encounters/Obelisk2.png</Image>
          <ConfirmText>Life sprinkler!</ConfirmText>
     </Outcome>
 
     <Outcome>
-      <Chance>5</Chance>
+      <Chance>10</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After scouting the area, your troops found the obelisk. Inside of it, they found a data core with schematics for an unknown technology. Upon removing the data core from its socket, the obelisk shakes and crumbles into a pile of rubble alerting remnants to your presence.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
@@ -102,12 +103,22 @@
     </Outcome>
 
     <Outcome>
-      <Chance>5</Chance>
+      <Chance>15</Chance>
       <TitleText>Artifact!</TitleText>
       <DescriptionText>As your troops approach the ancient obelisk, they notice a strange object inserted into it. In an attempt to free the object, they decide to dismantle the obelisk.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
        <GrantArtifact>true</GrantArtifact>
       <Image>Encounters/Artifact2.png</Image>
+    </Outcome>
+
+    <Outcome>
+      <Chance>15</Chance>
+      <TitleText>A unique technology!</TitleText>
+      <DescriptionText>After scouting the area, your troops found the obelisk. Inside of it, they found a data core with schematics for an unknown technology. Upon removing the data core from its socket, the obelisk shakes and crumbles into a pile of rubble alerting remnants to your presence.</DescriptionText>
+      <UnlockTech>Remnant Metallurgy</UnlockTech>       
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Technology.png</Image>
+      <ConfirmText>We need to bring this schematics back!</ConfirmText>
     </Outcome>
 
   </PotentialOutcomes>

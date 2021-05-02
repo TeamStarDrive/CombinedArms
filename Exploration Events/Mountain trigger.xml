@@ -83,13 +83,24 @@
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Updated scans</TitleText>
-      <DescriptionText>While exploring several caves, your troops discovered that this mountain has a unique mineral composition, capable of reflecting most of the methods used in orbital scans. After a few tests on the site, it became clear that most of, if not whole mountain is rich in exotic minerals. </DescriptionText>
+      <DescriptionText>While exploring several caves, your troops discovered that this mountain has a unique mineral composition, capable of reflecting most of the methods used in orbital scans. After a few tests on the site, it became clear that most of, if not whole mountain is rich in exotic minerals. Planet scans changed : +0.8 Richness.</DescriptionText>
       <ReplaceWith>Mountain</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
-      <ChangeRichness>0.6</ChangeRichness>
+      <ChangeRichness>0.8</ChangeRichness>
       <Image>Encounters/Moutain1.png</Image>
       <ConfirmText>Treasure mountain!</ConfirmText>
     </Outcome>
     
+        <Outcome>
+      <Chance>15</Chance>
+      <TitleText>Recovered technology</TitleText>
+      <DescriptionText>Your forces found an old, completely split in half ship, buried under the snow. Its damaged reactor was leaking ionized liquid, obviously the source that caused the errors in our scans. While searching the wreck, our troops stumbled upon some weapon schematics. Nothing else was worth salvaging, so the order was given to destroy the remains.</DescriptionText>
+      <UnlockTech>Remnant Assembly</UnlockTech>
+      <ReplaceWith>Mountain</ReplaceWith>
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Technology.png</Image>
+      <ConfirmText>A what?!</ConfirmText>
+    </Outcome>
+
   </PotentialOutcomes>
  </ExplorationEvent>
