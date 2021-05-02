@@ -351,12 +351,12 @@ CA_Tech_Logistics_Name:
  ENG: "Logistics"
  RUS: "Логистика"
  SPA: "Sociologística"
-CA_Tech_PlanetaryShielding_Name:
+CA_Tech_ColonyShielding_Name:
  Id: 634
  ENG: "Colony Shielding"
  RUS: "Колониальные щиты"
  SPA: "Escudos planetarios"
-CA_Tech_PlanetaryShielding_Desc:
+CA_Tech_ColonyShielding_Desc:
  Id: 635
  ENG: "Surprisingly, shielding an entire planet is easier than shielding an entire ship because we needn't worry about mass, size, and power restrictions when building on terra firma. The result is a shield that provides some protection from bombardment."
  RUS: "Удивительно, но защитить целую планету проще, чем защитить весь корабль, потому что нам не нужно беспокоиться об ограничениях массы, размера и мощности при строительстве на твердой земле. В результате получается щит, обеспечивающий некоторую защиту от бомбардировки."
@@ -7066,7 +7066,6 @@ CA_Moontalisk:
 CA_ASubterraneanCreatureThatIs:
  Id: 18209
  ENG: "A subterranean creature that is known to be very rare. They find food by detecting vibrations in the ground, and after digesting excrete it as valuable minerals. Sadly, that sometimes includes our transports and structures. Thanks to highly resistant skin to pressure and high temperatures it can dig several kilometers deep into planets surface and be impossible to kill."
-
 CA_FoodPerTurnInfrastructureTo:
  Id: 18210
  ENG: "-1.5 food per turn, -1 infrastructure, +0.5 to planet richness."
@@ -7078,7 +7077,6 @@ CA_Kookrenai:
 CA_ALargeRareAquaticCreature:
  Id: 18212
  ENG: "A large, rare aquatic creature living in the deep lakes and oceans. It is capable of sensing the thoughts of sentient organisms, and agressively lunges for its prey when it detects them. This usually means the loss of our transports. It's capable of rapid regeneration, any detached part of its body is able to grow a fully sized Kookenai on its own. It can hibernate under the bottom of dried water reservoirs for centuries, also wistands huge pressures and temperatures. Best to leave it alone"
-
 CA_FoodPerTurnInfrastructureTo2:
  Id: 18213
  ENG: "-1.5 food per turn, -1 infrastructure, +0.5 to planet richness."
@@ -7102,7 +7100,6 @@ CA_Anemoid:
 CA_InvasiveXenomorphicSpeciesThatReproduces:
  Id: 18220
  ENG: "Invasive none agressive xenomorphic species that reproduces rapidly, its very resilient and extremely hard to eradicate. Due to its fast metabolism it can eat twice its body mass a day."
- 
 CA_EatsFoodPerTurn:
  Id: 18221
  ENG: "Eats -0.8 food per turn."
@@ -7227,90 +7224,69 @@ CA_AnImprovedVersionOfThe2:
  Id: 18251
  ENG: "An improved version of the previous Micro Torpedo. Slightly more damage, and faster."
  RUS: "Улучшенная версия предыдущей микро торпеды.Нам удалось немного поднять урон и скорость полета торпеды."
-CA_OrdnancePayload1:
+CA_Tech_OrdnancePayloadI_Name:
  Id: 18252
  ENG: "Ordnance Payload I"
-
-CA_OrdnancePayload2:
+CA_Tech_OrdnancePayloadII_Name:
  Id: 18253
  ENG: "Ordnance Payload II"
-
-CA_OrdnancePayload3:
+CA_Tech_OrdnancePayloadIII_Name:
  Id: 18254
  ENG: "Ordnance Payload III"
-
-CA_OrdnancePayload4:
+CA_Tech_OrdnancePayloadIV_Name:
  Id: 18255
  ENG: "Ordnance Payload IV"
-
-CA_OrdnancePayload5:
+CA_Tech_OrdnancePayloadV_Name:
  Id: 18256
  ENG: "Ordnance Payload V"
-
-CA_OrndanceWeaponDamage:
+CA_Tech_OrdnancePayloadI_Weapon_Damage_Bonus:
  Id: 18257
  ENG: "Kinetic and Torpedo damage +5%"
-
-CA_ExplosionIncrease:
+CA_Tech_OrdnancePayloadI_Weapon_ExplosionRadius_Bonus:
  Id: 18258
  ENG: "Explosion radius +5%"
-
-CA_MissileDamage:
+CA_Tech_OrdnancePayloadI_Weapon_Damage_Bonus:
  Id: 18259
  ENG: "Missile damage +8%"
-
-CA_SecretPayload:
+CA_Tech_RemnantAssembly_Name:
  Id: 18260
  ENG: "Remnant Assembly"
-
-CA_SecretPayloadDescr:
+CA_Tech_RemnantAssembly_Desc:
  Id: 18261
  ENG: "By introducing a very complex way of assembling weapons in Remnant specifications we were able to increase out weapon damage potential."
-
-CA_SecretPayloadBonuses:
+CA_Tech_RemnantAssembly_Weapon_Damage_Bonus:
  Id: 18262
  ENG: "All weapon types damages increased by 20%"
-
-CA_SecretExploBonuses:
+CA_Tech_RemnantAssembly_Weapon_ExplosionRadius_Bonus:
  Id: 18263
  ENG: "All weapon explosion radius increased by 20%"
-
-CA_RemnantMetallurgy:
+CA_Tech_RemnantMetallurgy_Name:
  Id: 18264
  ENG: "Remnant Metallurgy"
-
-CA_RemnantMetallurgyDescr:
+CA_Tech_RemnantMetallurgy_Desc:
  Id: 18265
  ENG: "By mixing Remnant compounds from their wreckages with currently known materials, resulted in increased durability."
-
-CA_RemnantMetallurgyBonuses:
+CA_Tech_RemnantMetallurgy_Bonus:
  Id: 18266
  ENG: "Provides a 30% hit point bonus to all ship modules"
-
-CA_RemnantShielding:
+CA_Tech_RemnantShielding_Name:
  Id: 18267
  ENG: "Remnant Shielding"
-
-CA_RemnantShieldingDescr:
+CA_Tech_RemnantShielding_Desc:
  Id: 18268
  ENG: "By studying energy signatures and particles emitted by recovered Remnant shield generators we were able to replicate and introduce those advancements to our own shield generators"
-
-CA_RemnantShieldingBonuses:
+CA_Tech_RemnantShielding_Bonus:
  Id: 18269
  ENG: "Provides a 30% shield power"
-
-CA_Slipstream:
+CA_Tech_SlipStreams_Name:
  Id: 18270
  ENG: "Slip Streams"
-
-CA_SlipstreamDescr:
+CA_Tech_SlipStreams_Desc:
  Id: 18271
  ENG: "Using ancient navigation data, our scientists discovered a way to gain access  to slip streams between our subspace projectors"
-
-CA_SlipstreamBonuses:
+CA_Tech_SlipStreams_Bonus:
  Id: 18272
  ENG: "Ships traveling within your own empire's borders gain 40% bonus to their FTL speeds."
- 
 CA_Tech_PlasmaWeaponsI_Name:
  Id: 18273
  ENG: "Plasma Weapons I"
