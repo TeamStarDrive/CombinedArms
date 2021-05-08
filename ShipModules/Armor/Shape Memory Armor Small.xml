@@ -1,0 +1,43 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>3</Cost>
+  <!-- Tech Level -->
+  <TechLevel>2</TechLevel>
+  <TechBranch>Armor</TechBranch>
+
+  <!-- common traits shared by all ship modules -->
+  <XSIZE>1</XSIZE>
+  <YSIZE>1</YSIZE>
+  <ModuleType>Armor</ModuleType>
+  <Name>Memory Armor Small</Name>
+  <Restrictions>O</Restrictions>
+  <UID>Shape Memory Armor Small</UID>
+  <TexturePath>Textures/transparent</TexturePath>
+  <IconTexturePath>Modules/Shape Memory Armor Small</IconTexturePath>
+
+
+  <NameIndex>18276</NameIndex>
+  <DescriptionIndex>18277</DescriptionIndex>
+  <IsPowerArmor>true</IsPowerArmor>
+
+
+  <!-- Mass and Health -->
+  <Mass>15</Mass>
+  <Health>800</Health>
+  <HealthMax>800</HealthMax>
+  <RepairDifficulty>1</RepairDifficulty>
+  <DamageThreshold>10</DamageThreshold>			      
+
+  <PowerDraw>5</PowerDraw>
+  <PowerDrawAtWarp>-2</PowerDrawAtWarp>
+  <Regenerate>20</Regenerate>
+  <modRadius>1</modRadius>
+  <HybridResist>0.15</HybridResist>
+  <!-- Crew Reqs -->
+  <CrewRequired>0</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+  <!-- for Weapons -->
+  <!-- Description -->
+  <Description>Bionic Armor regens when damaged.</Description>
+</ShipModule>
