@@ -14,7 +14,7 @@
   <IsShipyard>false</IsShipyard>
   <IsOrbitalDefense>false</IsOrbitalDefense>
   <IconPath>ShipIcons/icon_Seeker</IconPath>
-  <CombatState>AttackRuns</CombatState>
+  <CombatState>Artillery</CombatState>
   <MechanicalBoardingDefense>0</MechanicalBoardingDefense>
   <Hull>Terran/Seeker</Hull>
   <Role>corvette</Role>
@@ -46,7 +46,7 @@
   </ThrusterList>
   <ModelPath>mod models/Terran/Hunter/Seeker</ModelPath>
   <DefaultAIState>DoNothing</DefaultAIState>
-  <ShipCategory>Unclassified</ShipCategory>
+  <ShipCategory>Conservative</ShipCategory>
   <HangarDesignation>Interceptor</HangarDesignation>
   <CarrierShip>false</CarrierShip>
   <ModuleSlotList>
@@ -98,8 +98,8 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -626,8 +626,8 @@
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>

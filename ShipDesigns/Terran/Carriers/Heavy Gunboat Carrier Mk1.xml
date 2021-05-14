@@ -38,7 +38,7 @@
   </ThrusterList>
   <ModelPath>mod models/Terran/HeavyGunboat/ship10b</ModelPath>
   <DefaultAIState>DoNothing</DefaultAIState>
-  <ShipCategory>Unclassified</ShipCategory>
+  <ShipCategory>Civilian</ShipCategory>
   <HangarDesignation>AntiShip</HangarDesignation>
   <CarrierShip>false</CarrierShip>
   <ModuleSlotList>
@@ -73,7 +73,7 @@
         <X>216</X>
         <Y>184</Y>
       </Position>
-      <InstalledModuleUID>PowerSolarArm</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -86,13 +86,14 @@
         <X>216</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>Railgun2x4</InstalledModuleUID>
+      <InstalledModuleUID>DroneBay</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>O</Restrictions>
+      <SlotOptions>DynamicInterceptor</SlotOptions>
     </ModuleSlotData>
     <ModuleSlotData>
       <Position>
@@ -135,13 +136,14 @@
         <X>216</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>Railgun2x4</InstalledModuleUID>
+      <InstalledModuleUID>DroneBay</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>O</Restrictions>
+      <SlotOptions>DynamicInterceptor</SlotOptions>
     </ModuleSlotData>
     <ModuleSlotData>
       <Position>
@@ -222,14 +224,13 @@
         <X>232</X>
         <Y>168</Y>
       </Position>
-      <InstalledModuleUID>FighterBay</InstalledModuleUID>
+      <InstalledModuleUID>Railgun1x3</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>90</facing>
-      <state>Right</state>
+      <facing>0</facing>
+      <state>Normal</state>
       <Restrictions>O</Restrictions>
-      <SlotOptions>DynamicInterceptor</SlotOptions>
     </ModuleSlotData>
     <ModuleSlotData>
       <Position>
@@ -260,12 +261,14 @@
         <X>232</X>
         <Y>216</Y>
       </Position>
+      <InstalledModuleUID>DroneBay</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>IO</Restrictions>
+      <SlotOptions>DynamicInterceptor</SlotOptions>
     </ModuleSlotData>
     <ModuleSlotData>
       <Position>
@@ -308,7 +311,7 @@
         <X>232</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>HVVulcanCannon</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -321,6 +324,7 @@
         <X>232</X>
         <Y>296</Y>
       </Position>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -333,12 +337,14 @@
         <X>232</X>
         <Y>312</Y>
       </Position>
+      <InstalledModuleUID>DroneBay</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>IO</Restrictions>
+      <SlotOptions>DynamicAntiShip</SlotOptions>
     </ModuleSlotData>
     <ModuleSlotData>
       <Position>
@@ -443,6 +449,7 @@
         <X>248</X>
         <Y>168</Y>
       </Position>
+      <InstalledModuleUID>FastShield2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -467,6 +474,7 @@
         <X>248</X>
         <Y>200</Y>
       </Position>
+      <InstalledModuleUID>Bridge</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -479,7 +487,6 @@
         <X>248</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>FastShield2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -492,6 +499,7 @@
         <X>248</X>
         <Y>232</Y>
       </Position>
+      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -529,7 +537,7 @@
         <X>248</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLocker</InstalledModuleUID>
+      <InstalledModuleUID>Fusion Reactor</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -554,7 +562,7 @@
         <X>248</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>FastShield2x2</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -567,7 +575,6 @@
         <X>248</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>Cockpit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -715,6 +722,7 @@
         <X>264</X>
         <Y>232</Y>
       </Position>
+      <InstalledModuleUID>PowerConduit</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -775,7 +783,6 @@
         <X>264</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -788,7 +795,6 @@
         <X>264</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>NuclearReactorSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -874,6 +880,7 @@
         <X>280</X>
         <Y>168</Y>
       </Position>
+      <InstalledModuleUID>Railgun1x3</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -910,13 +917,14 @@
         <X>280</X>
         <Y>216</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLocker</InstalledModuleUID>
+      <InstalledModuleUID>DroneBay</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>IO</Restrictions>
+      <SlotOptions>DynamicInterceptor</SlotOptions>
     </ModuleSlotData>
     <ModuleSlotData>
       <Position>
@@ -935,7 +943,6 @@
         <X>280</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLocker</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -960,7 +967,7 @@
         <X>280</X>
         <Y>280</Y>
       </Position>
-      <InstalledModuleUID>HVVulcanCannon</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -973,6 +980,7 @@
         <X>280</X>
         <Y>296</Y>
       </Position>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -985,13 +993,14 @@
         <X>280</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>Railgun2x4</InstalledModuleUID>
+      <InstalledModuleUID>DroneBay</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>IO</Restrictions>
+      <SlotOptions>DynamicAntiShip</SlotOptions>
     </ModuleSlotData>
     <ModuleSlotData>
       <Position>
@@ -1084,7 +1093,7 @@
         <X>296</X>
         <Y>184</Y>
       </Position>
-      <InstalledModuleUID>PowerSolarArm</InstalledModuleUID>
+      <InstalledModuleUID>ArmoredStorageSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -1097,12 +1106,14 @@
         <X>296</X>
         <Y>216</Y>
       </Position>
+      <InstalledModuleUID>DroneBay</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>O</Restrictions>
+      <SlotOptions>DynamicInterceptor</SlotOptions>
     </ModuleSlotData>
     <ModuleSlotData>
       <Position>
@@ -1145,12 +1156,14 @@
         <X>296</X>
         <Y>312</Y>
       </Position>
+      <InstalledModuleUID>DroneBay</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>O</Restrictions>
+      <SlotOptions>DynamicInterceptor</SlotOptions>
     </ModuleSlotData>
     <ModuleSlotData>
       <Position>

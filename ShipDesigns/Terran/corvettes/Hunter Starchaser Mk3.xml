@@ -14,7 +14,7 @@
   <IsShipyard>false</IsShipyard>
   <IsOrbitalDefense>false</IsOrbitalDefense>
   <IconPath>ShipIcons/hunter</IconPath>
-  <CombatState>AttackRuns</CombatState>
+  <CombatState>Artillery</CombatState>
   <MechanicalBoardingDefense>0</MechanicalBoardingDefense>
   <Hull>Terran/Hunter</Hull>
   <Role>corvette</Role>
@@ -30,7 +30,7 @@
   </ThrusterList>
   <ModelPath>mod models/Terran/Hunter/Fighter1</ModelPath>
   <DefaultAIState>DoNothing</DefaultAIState>
-  <ShipCategory>Unclassified</ShipCategory>
+  <ShipCategory>Conservative</ShipCategory>
   <HangarDesignation>Interceptor</HangarDesignation>
   <CarrierShip>false</CarrierShip>
   <ModuleSlotList>
@@ -39,7 +39,7 @@
         <X>184</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -91,7 +91,7 @@
         <X>216</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -141,12 +141,12 @@
         <X>232</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>Hydra_Rocket_Pod</InstalledModuleUID>
+      <InstalledModuleUID>HVVulcanCannon</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -203,7 +203,7 @@
         <X>248</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>Cockpit</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -216,7 +216,7 @@
         <X>248</X>
         <Y>248</Y>
       </Position>
-      <InstalledModuleUID>BattleShield2x2</InstalledModuleUID>
+      <InstalledModuleUID>Cockpit_Side</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -229,6 +229,7 @@
         <X>248</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>Fighter Shield Battle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -343,7 +344,7 @@
         <X>264</X>
         <Y>232</Y>
       </Position>
-      <InstalledModuleUID>Advanced Fighter Generator</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -368,6 +369,7 @@
         <X>264</X>
         <Y>264</Y>
       </Position>
+      <InstalledModuleUID>Fighter Shield Battle</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -480,12 +482,12 @@
         <X>280</X>
         <Y>312</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
+      <InstalledModuleUID>HVVulcanCannon</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
-      <facing>0</facing>
-      <state>Normal</state>
+      <facing>180</facing>
+      <state>Rear</state>
       <Restrictions>IO</Restrictions>
     </ModuleSlotData>
     <ModuleSlotData>
@@ -493,7 +495,6 @@
         <X>280</X>
         <Y>328</Y>
       </Position>
-      <InstalledModuleUID>OrdnanceLockerSmall</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -558,7 +559,7 @@
         <X>328</X>
         <Y>296</Y>
       </Position>
-      <InstalledModuleUID>PowerSolar</InstalledModuleUID>
+      <InstalledModuleUID>Structure</InstalledModuleUID>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
