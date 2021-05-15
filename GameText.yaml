@@ -341,9 +341,11 @@ CA_Tech_HeavyShields_Name:
  ENG: "Heavy Shielding I"
  RUS: "Тяжелые щиты I"
  SPA: "Escudos pesados"
-BB_Tech_IonicWeaponry_Desc:
+CA_Tech_IonicWeaponry_Desc:
  Id: 598
  ENG: "Ion stream particle weapons have the unique effect of causing a target ship's capacitors to discharge. The result is a beam weapon that drains a target's power stores as long as its not shielded. Ion Beams are also quite effective in damaging shields."
+ RUS: "Оружие, стреляющее пучками ионов, имеет интересный побочный эффект - разряжает конденсаторы корабля-цели. В итоге получается лучевое оружие, истощающее энергоресурсы цели. Тем не менее, ионное оружие совершенно неэффективно против целей, защищенных щитами."
+ SPA: "Las armas de partículas por flujo de iones tienen un efecto singular: hacen que los condensadores de la nave enemiga se descarguen. El resultado es un arma de rayos que drena las reservas de energía de un objetivo. Sin embargo, las armas de iones no tienen ningún efecto contra blancos blindados."
 CA_Tech_ISGovernment_Name:
  Id: 599
  ENG: "Economic Foundations"
@@ -374,9 +376,11 @@ CA_Tech_PlasmaThrowers_Desc:
  ENG: "If we channeled highly-ionized Plasma directly from a ship reactor through a magnetized, high-pressure system, then we could spray our enemies with super-heated energy to devastating effect. Very effective against Armor but weak against shields. We also can now use similar methods to build a medium plasma cannon"
  RUS: "Если мы направим высокоионизированную плазму прямо из реактора корабля через намагниченную систему высокого давления, то мы сможем распылить на наших врагов перегретую энергию с разрушительным эффектом. Очень эффективено против брони, но почти бесполезно против щитов. Теперь мы можем использовать аналогичные методы для создания средней плазменной пушки."
  SPA: "Si canalizamos el plasma altamente ionizado directamente desde el reactor de una nave a través de un sistema magnetizado a alta presión, podemos rociar a nuestros enemigos de energía supercalentada con efectos devastadores. "
-BB_Tech_SiphonBeam_Desc:
+CA_Tech_SiphonBeam_Desc:
  Id: 657
  ENG: "Siphon beams create a connection between the firing ship and the target ship's energy shields. The beam depletes the shield energy and transfers is into the firing ship's power stores. It's highly effective against shields."
+ RUS: "Этот луч создает связь между энергетическими щитами двух кораблей, понижая энергию щита вражеского корабля и передавая ее на свой корабль. Это единственное применение данного оружия."
+ SPA: "Los rayos de absorción establecen una conexión entre la nave que dispara y los escudos de energía de la nave objetivo. El rayo consume la energía de los escudos y la transfiere a las reservas de la nave atacante. El arma no tiene otra utilidad."
 CA_Tech_TachyonScanning_SensorRangeBonus_Bonus:
  Id: 682
  ENG: "Increases the range of all sensors by 50%."
@@ -387,7 +391,7 @@ CA_Tech_Terraforming_Name:
  ENG: "Terraforming"
  RUS: "Терраформинг"
  SPA: "Terraformación"
-BB_Tech_ThalaronBlaster_Desc:
+CA_Tech_ThalaronBlaster_Desc:
  Id: 686
  ENG: "There's nothing like a good dose of face-melting Thalaron radiation to weaken a space marine's resolve and cellular cohesion. Very useful for pre-boarding volleys. It's also quite effective against shields."
  RUS: "Чтобы поколебать решимость (и клеточные связи) космопехотинца, ударная доза таларонского излучения подойдет как нельзя лучше. Идеальное оружие для подготовки к абордажу.Он также довольно эффективен против щитов."
@@ -490,7 +494,8 @@ LargeMarineBarracks:
 ThisBarracksHousesMarinePlatoons:
  Id: 991
  ENG: "This barracks houses 5 Marine platoons. Marines increase a ship's boarding defense and can also be used offensively if their ship has an assault shuttle. Marines receive any racial ground combat bonuses or penalties. "
- SPA: "Tiene capacidad para 5 pelotones de marines. Los marines aumentan la defensa contra abordajes de una nave y también pueden utilizarse si su nave dispone de una lanzadera de asalto. Los marines son susceptibles a cualquier bonificación o penalización racial de combate. " 
+ SPA: "Tiene capacidad para 5 pelotones de marines. Los marines aumentan la defensa contra abordajes de una nave y también pueden utilizarse si su nave dispone de una lanzadera de asalto. Los marines son susceptibles a cualquier bonificación o penalización racial de combate. "
+ RUS: "В этих казармах может разместиться четыре взвода морпехов. Морпехи усиливают степень защиты корабля при вражеском абордаже и могут осуществлять абордаж вражеских кораблей сами, если их корабль оснащен штурмовыми шаттлами. На морпехов распространяются все расовые бонусы и штрафы расы на наземные бои."
 MediumFuelCell:
  Id: 992
  ENG: "Medium Power Cell"
@@ -6511,11 +6516,11 @@ CA_Tech_ShieldsV5_Name:
 CA_Tech_PlanetaryShielding_Name:
  Id: 18064
  ENG: "Planetary Shielding"
- RUS: "Планетарное экранирование"
+ RUS: "Планетарное экранирование" 
 CA_Tech_PlanetaryShielding_Desc:
  Id: 18065
  ENG: "We can create a bigger shield protecting the planet from bombardment for quite sometime. The down side will be cost and maintenance of the shield."
- RUS: "Мы можем создать более крупный щит, защищающий планету от бомбардировок на долгое время. Обратной стороной будет стоимость и обслуживание щита."
+ RUS: "Мы можем создать более крупный щит, защищающий планету от бомбардировок на долгое время. Обратной стороной будет стоимость и обслуживание щита." 
 CA_Tech_OrbitalMissile1_Name:
  Id: 18066
  ENG: "Orbital Missiles I"
@@ -7270,9 +7275,6 @@ CA_Tech_OrdnancePayloadI_Weapon_Damage_Bonus:
 CA_Tech_OrdnancePayloadI_Weapon_ExplosionRadius_Bonus:
  Id: 18258
  ENG: "Explosion radius +5%"
-CA_Tech_OrdnancePayloadI_Weapon_Damage_Bonus:
- Id: 18259
- ENG: "Missile damage +8%"
 CA_Tech_RemnantAssembly_Name:
  Id: 18260
  ENG: "Remnant Assembly"
