@@ -44,13 +44,14 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>The Underhive Pit Slaves</ReplaceWith>
       <Image>Encounters/WorkingMine.png</Image>
-      <ConfirmText>Slavery is good for economy</ConfirmText>
+      <ConfirmText>Slavery is good for economy?</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>30</Chance>
       <TitleText>A dangerous escape</TitleText>
-      <DescriptionText>Your troops enter the Underhive and notice a large force of Pirate ships warp in. They open fire on the Underhive in an effort to destroy it. You are pinned down for a moment, but eventually manage to flee. As your troops look behind them they see the Underhive being destroyed and detect the Pirate ships orbiting the planet.</DescriptionText>
+      <DescriptionText>
+      As our troops explore the underhive, tensions escalate, things are kicking off. A visiting pirate faction are displeased about something, the underhive is denying them their protection money. This is bad news, it's clearly not going to end well. Your troops decide it is best to execute a swift retreat. As they are leaving a rebel faction is rising up, the pirates are pinned down, perhaps this underhive will not be submitting to the pirates anymore. Your troops escape just as an explosion is heard ripping through the underhive. Several ships manage to take off before the underhive collapses.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <PirateShipsToSpawn>
         <string>Draug-Slaver-Mk3</string>
@@ -59,7 +60,7 @@
           <string>Support Drone</string>
       </PirateShipsToSpawn>
       <Image>Encounters/fail.png</Image>
-      <ConfirmText>This isnt over!</ConfirmText>
+      <ConfirmText>This isn't over!</ConfirmText>
     </Outcome>
   </PotentialOutcomes>
 </ExplorationEvent>
