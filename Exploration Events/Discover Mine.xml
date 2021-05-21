@@ -39,7 +39,7 @@
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Salvage operation</TitleText>
-      <DescriptionText>As your combat engineers try to salvage some of the ancient equipment they soon discover that in the deepest parts of mineshaft there's some strange artifact.</DescriptionText>
+      <DescriptionText>As your combat engineers try to salvage some of the ancient equipment they soon discover that in the deepest parts of mine shaft there's some strange artifact.</DescriptionText>
       <GrantArtifact>true</GrantArtifact>      
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Artifact2.png</Image>
@@ -48,7 +48,7 @@
     <Outcome>
       <Chance>3</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that someone was hiding a untested tech. Unfortunately, it seems that a small remnant fleet was dawned to this place as well. The ships are attacking immediately!</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing. It seems that someone was hiding a untested tech. Unfortunately, it seems that a small remnant fleet was drawn to this place as well. The ships are attacking immediately!</DescriptionText>
       <UnlockTech>TritaniumMissiles</UnlockTech>
       <ReplaceWith>Nano Mine</ReplaceWith>       
       <RemoveTrigger>true</RemoveTrigger>
@@ -66,7 +66,7 @@
     <Outcome>
       <Chance>4</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that someone was hiding a untested tech. Unfortunately, it seems that a pirate forces were lurking around as well, trying to extract the technology.</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing. It seems that someone was hiding a untested tech. Unfortunately, it seems that a pirate forces were lurking around as well, trying to extract the technology.</DescriptionText>
       <UnlockTech>ScrappyBeam2x4</UnlockTech>       
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Nano Mine</ReplaceWith>
@@ -102,14 +102,14 @@
     <Outcome>
       <Chance>6</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that someone was hiding a untested tech. Unfortunately, this mine is also infested with Antilions, maybe this is the reason no one discovered this case, until now.</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that someone was hiding a untested tech. Unfortunately, this mine is also infested with Antilions, maybe this is the reason no one discovered this place, until now.</DescriptionText>
       <UnlockTech>Ancient Ion Technology</UnlockTech>
       <RemoveTrigger>true</RemoveTrigger>
       <TroopsToSpawn>
         <string>Antlion</string>
         <string>Antlion</string>
-          <string>Antlion</string>
-          <string>Antlion</string>
+        <string>Antlion</string>
+        <string>Antlion</string>
       </TroopsToSpawn>
       <Image>Encounters/Technology.png</Image>
       <ConfirmText>These could need some cleaning.</ConfirmText>

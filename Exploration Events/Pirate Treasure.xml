@@ -4,15 +4,14 @@
   <Outcome>
       <Chance>12</Chance>
       <TitleText>It's a Trap!</TitleText>
-      <DescriptionText>There isnt anything worth value here, besides some skeletons, which turn to be animated and attack your forces.</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to bunker with doors blasted wide open. Corridors are littered with dead bodies with torn limbs, there are clear signs of a battle. Sadly there isn't anything worth of value here and what's worse, nest of Antlions that has made its home here.</DescriptionText>
        <TroopsToSpawn>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-          <string>Skeleton</string>
-          <string>Skeleton</string>
+        <string>Antlion</string>
+        <string>Antlion</string>
+        <string>Antlion</string>
       </TroopsToSpawn>     
       <RemoveTrigger>true</RemoveTrigger>
-      <Image>Encounters/Skeletons.png</Image>
+      <Image>Encounters/Antlions.png</Image>
       <ConfirmText>Why wont they stay dead for once!</ConfirmText>
     </Outcome>
 
@@ -27,13 +26,11 @@
     </Outcome>
 
     <Outcome>
-      <Chance>11</Chance>
-      <TitleText>The Bosses's Conference Call</TitleText>
-      <DescriptionText>Your troops burst it to a room only to find out that 2 pirate bosses were meeting here for their annual grab and smash plans. They don't seem happy to see you and scramble to their ships. Seems things get hairy as non one knows who will attack who.</DescriptionText>
-       <MoneyGranted>750</MoneyGranted>
+      <Chance>7</Chance>
+      <TitleText>The Boss arrives</TitleText>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave Before they enter it, long range scanner from shuttle their detects a mighty vessel belonging to pirates warping into the system. It seems that the pirates have returned for their hidden treasure. As you troops fall back, they see pirate shuttle landing and taking the treasure from the cave back to their ship.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <PirateShipsToSpawn>
-          <string>Draug Flagship</string>
           <string>Corsair Flagship</string>
       </PirateShipsToSpawn>
       <Image>Encounters/ShipSpawn2.png</Image>
@@ -41,10 +38,9 @@
     </Outcome>     
 
     <Outcome>
-      <Chance>5</Chance>
+      <Chance>7</Chance>
       <TitleText>Pirate Technology?</TitleText>
-      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that the pirates have found some interesting artifacts and created an untested tech. Unfortunately, it seems that the pirate fleet left here might not let you go unharmed, unless you paid them for protection recently.</DescriptionText>
-      <MoneyGranted>200</MoneyGranted>
+      <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they found is truly astonishing. It seems that the pirates have created an untested tech. Unfortunately, it seems that the pirate fleet left here might not let you go unharmed, unless you paid them for protection recently.</DescriptionText>
       <UnlockTech>AtomizingBattery</UnlockTech>
       <RemoveTrigger>true</RemoveTrigger>
       <PirateShipsToSpawn>
@@ -60,7 +56,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>5</Chance>
+      <Chance>7</Chance>
       <TitleText>Interesting Treasure Cache</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find some interesting artifacts which can be sold and also schematics of some sort which are revealed as new technology! Unfortunately, it seems that your troops attracted unwanted attention.</DescriptionText>
       <UnlockTech>Experimental Phasors</UnlockTech>       
@@ -74,7 +70,7 @@
           <string>Skeleton</string>
       </TroopsToSpawn>
       <Image>Encounters/Artifact4.png</Image>
-      <ConfirmText>Arent they supposed to be, i dont know, dead?!</ConfirmText> 
+      <ConfirmText>Aren't they supposed to be, I don't know, dead?!</ConfirmText> 
     </Outcome>     
 
     <Outcome>
@@ -97,7 +93,7 @@
     </Outcome>     
 
     <Outcome>
-      <Chance>11</Chance>
+      <Chance>18</Chance>
       <TitleText>Military Salvage</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. They find 2 stolen Frigates, not even painted with pirate signs. Your Troops bring them into orbit.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>       
@@ -106,8 +102,27 @@
           <string>Gunboat Ballista Mk1</string>
       </FriendlyShipsToSpawn>
       <Image>Encounters/Working ship.png</Image>
-      <ConfirmText>Stealing from the thiefs!</ConfirmText>
+      <ConfirmText>Stealing from the thieves!</ConfirmText>
     </Outcome>     
 
+      <Outcome>
+      <Chance>11</Chance>
+      <TitleText>A artifact</TitleText>
+      <DescriptionText>Your forces found recently half cleared out rooms, it seems someone beat us to it, but they still might have missed something. After thoroughly scanning the complex, your troops found a hidden room that contains an ancient artifact.</DescriptionText>
+      <GrantArtifact>true</GrantArtifact>
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Warehouse.png</Image>
+      <ConfirmText>Haste is a waste!</ConfirmText>
+    </Outcome>
+
+    <Outcome>
+      <Chance>11</Chance>
+      <TitleText>A seed!</TitleText>
+      <DescriptionText>Upon entering the hidden facility, your forces notice that various rooms have been ransacked, locks broken and packages torn open, their contents spilt over the floor. Someone went through this place in a hurry. \n Checking the facility, one of our technicians remarks that there is a hidden room. It is just barely visible on our recently improved scanning equipment. Had we come here a year before with the older equipment, we would have surely missed it. The technician bypasses the electronic entrance key to the room and discovers a room with a carefully managed humid atmosphere. Inside it, the sapling of an extraordinary tree is being nurtured. \n \n World seed found!.</DescriptionText>
+      <ReplaceWith>WorldSeed</ReplaceWith>
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/fail.png</Image>
+      <ConfirmText>Haste is a waste!</ConfirmText>
+    </Outcome>
   </PotentialOutcomes>
 </ExplorationEvent>

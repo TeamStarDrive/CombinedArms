@@ -12,13 +12,13 @@
       </TroopsToSpawn>     
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Skeletons.png</Image>
-      <ConfirmText>Whats dead should stay dead!</ConfirmText>
+      <ConfirmText>What is dead should stay dead!</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>4</Chance>
       <TitleText>A unique technology and great peril!</TitleText>
-      <DescriptionText>After Scouting the area, your troops found a ship, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the ship triggering ship security protocols alarming a dormant Remnant Inhibitor!</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops found a ship, inside on they found a data core with schematics of unknown technology. While removing the data core from the socket, they triggered ship security protocols alarming a dormant Remnant Inhibitor!</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>Cyclone</UnlockTech>       
       <RemoveTrigger>true</RemoveTrigger>
@@ -34,7 +34,7 @@
     <Outcome>
       <Chance>3</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops found a ship, inside on they found a data core with schematics of unknown technology. After removing the data core from the socket, the ship triggering ship security protocols alarming dormant space defenders.</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops found a ship, inside on they found a data core with schematics of unknown technology. While removing the data core from the socket, they triggered ship security protocols alarming dormant space defenders.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>Energizer3x3</UnlockTech>       
       <RemoveTrigger>true</RemoveTrigger>
@@ -53,7 +53,7 @@
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Red Alert</TitleText>
-      <DescriptionText>While your troops carefully examine the wreckage and the still intact computer systems, one of them trips an alarm. Your troops manage to deactivate the alarm and salvage the control system which is valuable on the black market, however a fleet of Remnant vessels jumps into orbit detecting your presence.</DescriptionText>
+      <DescriptionText>While your troops are examining the wreckage, its computer systems come online and an alarm is tripped by one of your clumsy grunts. Your troops manage to deactivate the alarm and salvage the control system which is valuable on the black market, however a fleet of Remnant vessels jumps into orbit detecting your presence.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
@@ -81,7 +81,7 @@
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Excellent find</TitleText>
-      <DescriptionText>Here you have made an excellent discovery - what appeared from orbit to be a shipwreck was in fact not a wreck at all but a completely intact alien light frigate! What's more, it appears to be space worthy and inside of its cargo there's mysterious artifact.</DescriptionText>
+      <DescriptionText>Here you have made an excellent discovery - what appeared from orbit to be a shipwreck was in fact not a wreck at all, but a completely intact alien light frigate! Further examination reveals that it is space worthy and the cargo hold contains a mysterious artifact.</DescriptionText>
       <FriendlyShipsToSpawn>
           <string>Heavy Drone</string>
           <string>Heavy Drone</string>
@@ -96,7 +96,7 @@
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Unstable</TitleText>
-      <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. But even so, scans show its reactor is still functional, leaking more and more antimatter particles by the minute. And, what's that? Oh no. It's about to blow! Your forces quickly evacuate to a safe distance. Soon after, the reactor explodes, destroying the wreckage and severely damaging a large portion of the planet. Planet scans changed : -3 habitable tiles.</DescriptionText>
+      <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. But even so, scans show its reactor is still functional, leaking more and more antimatter particles by the minute. And, what's that? Oh no. It's about to blow! Your forces quickly evacuate to a safe distance. Soon after, the reactor explodes, destroying the wreckage and severely damaging a large portion of the planet. Planet scans changed : -0.6 Fertility(temporally), -3 habitable tiles.</DescriptionText>
       <NumTilesToMakeUnhabitable>3</NumTilesToMakeUnhabitable>
       <ChangeBaseFertility>-0.6</ChangeBaseFertility>
       <RemoveTrigger>true</RemoveTrigger>
@@ -107,20 +107,20 @@
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Precious cargo</TitleText>
-      <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. But even so, scans show its reactor is still functional and providing power to the storage unit, inside your troops found a very rare seed. This ship was transporting it somewhere.</DescriptionText>
+      <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. But even so, scans show its reactor is still functional and providing power to the storage unit, inside your troops found a very rare seed, that was being transported somewhere.</DescriptionText>
       <ReplaceWith>WorldSeed</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/fail.png</Image>
-      <ConfirmText>Dont eat it!</ConfirmText>
+      <ConfirmText>Don't eat it!</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>2</Chance>
       <TitleText>Space car?</TitleText>
-      <DescriptionText>Your forces examine the wreckage of a small spacecraft that crashed into the planet a long time ago. From the description of the scans, it seems too small for a spaceship. Even more puzzling is that it has wheels. Could this have been an old automobile of some sort? No, those were never designed to be spacecraft.</DescriptionText>
+      <DescriptionText>Your forces examine the wreckage of a small spacecraft that crashed into the planet a long time ago. From the description of the scans, it seems too small for a spaceship. Even more puzzling is that it has wheels. Could this have been an old automobile of some sort? No, those were never designed to be launched into space.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Car.png</Image>
-      <ConfirmText>This one probably broke few speed limits</ConfirmText>
+      <ConfirmText>This one probably broke few speed limits.</ConfirmText>
     </Outcome>
   </PotentialOutcomes>
 </ExplorationEvent>

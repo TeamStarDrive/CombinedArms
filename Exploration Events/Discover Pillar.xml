@@ -4,7 +4,7 @@
     <Outcome>
       <Chance>30</Chance>
       <TitleText>Unknown defenders</TitleText>
-      <DescriptionText>Before reaching the Pillar, you spot a Remnant fleet orbiting the planet. The pillar disappear before your troops' eyes, leaving big hole in the ground.</DescriptionText>
+      <DescriptionText>Before reaching the Pillar, you spot a Remnant fleet orbiting the planet. The pillar disappears before your troops eyes, leaving behind a big hole in the ground.</DescriptionText>
        <RemnantShipsToSpawn>
           <string>Heavy Drone</string>
           <string>Heavy Drone</string>          
@@ -32,7 +32,7 @@
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Wave</TitleText>
-      <DescriptionText>As your troops get closer to the pillar they noticed that the earth surrounding it is totally barren. They slowly approach it, suddenly they hear a high pitch tone comming from the pillar, that gets more and more unbearable. At some point the pillar disintegrates and sends a deadly radiation wave killing any organic life on the planet</DescriptionText>
+      <DescriptionText>As your troops get closer to the pillar they noticed that the earth surrounding it is totally barren. They slowly approach it, suddenly they hear a high pitch tone coming from the pillar, that gets more and more unbearable. At some point the pillar disintegrates and sends a deadly radiation wave killing any organic life on the planet.Planet scans changed :-1.5 Fertility(temporally).</DescriptionText>
       <ChangeBaseFertility>-1.5</ChangeBaseFertility>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/PlanetDevastations.png</Image>
@@ -56,13 +56,13 @@
       <ReplaceWith>Exotic Minerals</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Pilar1.png</Image>
-      <ConfirmText>These could be useful.</ConfirmText>
+      <ConfirmText>These will be useful.</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>3</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area, your troops found the pillar, inside it they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant ground and space defenders.</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops finally encountered the ancient pillar, inside it they found a data core with schematics of unknown technology. After removing the data core from the socket, the pillar shakes and crumbles to rubble alarming dormant ground and space defenders.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>RAD</UnlockTech>       
       <RemoveTrigger>true</RemoveTrigger>
@@ -75,32 +75,32 @@
       <TroopsToSpawn>
         <string>Skeleton</string>
         <string>Skeleton</string>
-          <string>Skeleton</string>
+        <string>Skeleton</string>
       </TroopsToSpawn>
       <Image>Encounters/Technology.png</Image>
       <ConfirmText>Blast them!</ConfirmText>
     </Outcome>
 
     <Outcome>
-      <Chance>15</Chance>
+      <Chance>10</Chance>
       <TitleText>That's no moon...</TitleText>
       <DescriptionText>As your troops approach the ancient pillar, they hear a humming noise. As they get closer the noise gets louder. Suddenly a deafening sound is heard and a large bright beam shoots into the sky. You quickly realize one of your soldiers mistakenly hit a switch which uncovered a Pirate space station orbiting the planet! That soldier spots something and grabs it before fleeing to the surface. Turns out this is a rare Artifact!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-       <GrantArtifact>true</GrantArtifact>
+      <GrantArtifact>true</GrantArtifact>
       <PirateShipsToSpawn>
         <string>Draug Station-Mk2</string>
         <string>Draug-Slaver-Mk2</string>
         <string>Draug-Slaver-Mk2</string>
-          <string>Draug-Mk2</string>
-          <string>Draug-Mk2</string>
-          <string>Draug-Fighter-Mk2</string>          
-          <string>Draug-Fighter-Mk2</string>          
-          <string>Draug-Fighter-Mk2</string>          
-          <string>Draug-Fighter-Mk2</string>          
-          <string>Draug-Fighter-Mk2</string>          
+        <string>Draug-Mk2</string>
+        <string>Draug-Mk2</string>
+        <string>Draug-Fighter-Mk2</string>          
+        <string>Draug-Fighter-Mk2</string>          
+        <string>Draug-Fighter-Mk2</string>          
+        <string>Draug-Fighter-Mk2</string>          
+        <string>Draug-Fighter-Mk2</string>          
       </PirateShipsToSpawn>
        <Image>Encounters/ShipSpawn2.png</Image>
-       <ConfirmText>oh no...</ConfirmText>
+       <ConfirmText>Oh no...</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -120,9 +120,9 @@
     </Outcome>
 
     <Outcome>
-     <Chance>10</Chance>
+     <Chance>15</Chance>
       <TitleText>Minor shock</TitleText>
-      <DescriptionText>From far away, your troops observe as the pillar attracts strikes of lightning. When the approach closer, they detect a powerful energy signature coming directly from it. The pillar appears to be capable of attracting these strikes, and harnessing the resulting energy inside of itself to be stored. As your troops attempt to decipher the engravings on the pillar, they must have accidentally triggered a release mechanism. The energy stored inside the pillar is sent deep into the planet's core, destroying the pillar, but jump-starting the core into producing rare elements. Planet scans changed : +0.6 Richness.</DescriptionText>
+      <DescriptionText>From far away, your troops observe as the pillar attracts strikes of lightning. When they approach closer, they detect a powerful energy signature coming directly from it. The pillar appears to attract and absorb these strikes, harnessing the energy. As your troops attempt to decipher the engravings on the pillar, they must have accidentally triggered a release mechanism. The energy stored inside the pillar is sent deep into the planet's core, destroying the pillar and jump-starting the core into producing rare elements. Planet scans changed : +0.6 Richness.</DescriptionText>
       <ChangeRichness>0.6</ChangeRichness>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/PilarShock.png</Image>
@@ -130,9 +130,9 @@
     </Outcome>
 
     <Outcome>
-     <Chance>8</Chance>
+     <Chance>10</Chance>
       <TitleText>Major shock</TitleText>
-      <DescriptionText>From far away, your troops observe as the pillar attracts strikes of lightning. When the approach closer, they detect a powerful energy signature coming directly from it. The pillar appears to be capable of attracting these strikes, and harnessing the resulting energy inside of itself to be stored. As your troops attempt to decipher the engravings on the pillar, they must have accidentally triggered a release mechanism. The energy stored inside the pillar is sent deep into the planet's core, destroying the pillar, but jump-starting the core into producing rare elements. Planet scans changed : +0.8 Richness.</DescriptionText>
+      <DescriptionText>From far away, your troops observe as the pillar attracts strikes of lightning. When the approach closer, they detect a powerful energy signature coming directly from it. The pillar appears to attract and absorb these strikes, harnessing the energy. As your troops attempt to decipher the engravings on the pillar, they must have accidentally triggered a release mechanism. The energy stored inside the pillar is sent deep into the planet's core, destroying the pillar and jump-starting the core into producing rare elements. Planet scans changed : +0.8 Richness.</DescriptionText>
       <ChangeRichness>0.8</ChangeRichness>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/PilarShock.png</Image>
