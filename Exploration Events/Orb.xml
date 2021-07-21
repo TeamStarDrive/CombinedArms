@@ -3,7 +3,7 @@
   <PotentialOutcomes>
 
     <Outcome>
-      <Chance>15</Chance>
+      <Chance>5</Chance>
       <TitleText>It's a remnant trap!</TitleText>
       <DescriptionText>As your troops approach the Orb, they notice a control panel. After Some time translating the alien symbols they managed to access the system. The orb was a some kind of very advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The planet scans were greatly changed of the previous ones. It seems like the orb and the planet is a way to lure advanced races. Suddenly a remnant forces jump into orbit, it was a trap after all! Planet scans changed : -0.5 Richness, -0.4 Max Fertility, -4 habitable tiles.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -25,13 +25,12 @@
     </Outcome>
 
     <Outcome>
-      <Chance>20</Chance>
+      <Chance>5</Chance>
       <TitleText>It's a pirate trap!</TitleText>
-      <DescriptionText>As your troops approach the orb, they notice a control panel. After some time translating the alien symbols, they manage to access the system. Apparently, the orb was being used as some kind of advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The scans of the planet immediately change greatly from previous ones. It seems like this orb and planet were used as a way to lure us! Suddenly, pirate forces warp into orbit around the planet. It was a trap! Planet scans changed : -0.3 Richness, -0.3 Max Fertility, -6 habitable tiles.</DescriptionText>
+      <DescriptionText>As your troops approach the orb, they notice a control panel. After some time translating the alien symbols, they manage to access the system. Apparently, the orb was being used as some kind of advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The scans of the planet immediately change greatly from previous ones. It seems like this orb and planet were used as a way to lure us! Suddenly, pirate forces warp into orbit around the planet. It was a trap! Planet scans changed : -0.3 Max Fertility, -2 habitable tiles.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-      <ChangeRichness>-0.3</ChangeRichness>
       <ChangeBaseMaxFertility>-0.3</ChangeBaseMaxFertility>
-      <NumTilesToMakeUnhabitable>6</NumTilesToMakeUnhabitable>
+      <NumTilesToMakeUnhabitable>2</NumTilesToMakeUnhabitable>
        <PirateShipsToSpawn>
           <string>Corsair-Fighter-Mk2</string>
           <string>Corsair-Fighter-Mk2</string>
@@ -136,7 +135,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>30</Chance>
+      <Chance>10</Chance>
       <TitleText>Rare materials!</TitleText>
       <DescriptionText>Upon close inspection, your troops have discovered that the orb is made of various rare minerals, giving it strong magnetic properties. That must explain its levitation and our scrambled scans.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -156,7 +155,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>7</Chance>
+      <Chance>5</Chance>
       <TitleText>Updates scans!</TitleText>
       <DescriptionText>As your troops approach the orb, they notice a control panel. After some time translating the alien symbols, they manage to access the system. Apparently, the orb was being used as some kind of advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The scans of the planet immediately change greatly from previous ones. Planet scans changed : +2 Richness, +1 Fertility, +6 habitable tiles.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -168,7 +167,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>15</Chance>
+      <Chance>10</Chance>
       <TitleText>Tech discovery!</TitleText>
       <DescriptionText>Upon close inspection, your troops have discovered that the orb is made of black matter, suspended in a quantum bubble. After taking a sample, the quantum bubble collapses and the black matter disperses. Followup investigations led us to the creation of a new type technology!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>

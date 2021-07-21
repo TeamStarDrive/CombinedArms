@@ -2,7 +2,7 @@
   <Name>Obelisk</Name>
   <PotentialOutcomes>
     <Outcome>
-      <Chance>30</Chance>
+      <Chance>10</Chance>
       <TitleText>Ambush</TitleText>
       <DescriptionText>Before reaching the obelisk, your troops detected a Remnant fleet orbiting the planet that suddenly fires on the obelisk, destroying it completely.</DescriptionText>
        <RemnantShipsToSpawn>
@@ -31,7 +31,7 @@
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Wave</TitleText>
-      <DescriptionText>As your troops get closer to the obelisk, they notice that the terrain surrounding it's completely barren. While approaching slowly, they suddenly hear a high pitched tone coming directly from the obelisk, its volume becoming increasingly unbearable! Your troops decide retreat into the space shuttle and rise the shields. At some point, the obelisk disintegrates and sends forth a massively deadly wave of radiation, killing almost all forms of life on the planet. What have we done? Planet scans changed :-1.5 Fertility(temporally).</DescriptionText>
+      <DescriptionText>As your troops get closer to the obelisk, they notice that the terrain surrounding it's completely barren. While approaching slowly, they suddenly hear a high pitched tone coming directly from the obelisk, its volume becoming increasingly unbearable! Your troops decide retreat into the space shuttle and rise the shields. At some point, the obelisk disintegrates and sends forth a massively deadly wave of radiation, killing almost all forms of life on the planet. What have we done? Planet scans changed :-1.5 Fertility (temporally).</DescriptionText>
       <ChangeBaseFertility>-1.5</ChangeBaseFertility>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/PlanetDevastations.png</Image>
@@ -49,7 +49,7 @@
     </Outcome>
 
     <Outcome>
-     <Chance>10</Chance>
+     <Chance>5</Chance>
       <TitleText>Neural Dampener</TitleText>
       <DescriptionText>As your troops get closer to the pillar, it begins shaking and eventually shatters into a pile of rubble, including various crystals containing abnormal properties.</DescriptionText>
       <ReplaceWith>Neural Dampener</ReplaceWith>
@@ -59,11 +59,11 @@
     </Outcome>
 
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>5</Chance>
       <TitleText>Fallout</TitleText>
-      <DescriptionText>As your troops approach the ancient obelisk, they hear a humming sound. The closer they get, the louder the noise becomes. Suddenly, a deafening sound is heard, and an extremely large and bright beam shoots into the sky, eventually breaking apart and falling back down to the planet, spreading deadly particles across the terrain. Planet scans changed : -0.4 Max Fertility, -5 habitable tiles.</DescriptionText>
+      <DescriptionText>As your troops approach the ancient obelisk, they hear a humming sound. The closer they get, the louder the noise becomes. Suddenly, a deafening sound is heard, and an extremely large and bright beam shoots into the sky, eventually breaking apart and falling back down to the planet, spreading deadly particles across the terrain. Planet scans changed : -0.4 Max Fertility, -2 habitable tiles.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-      <NumTilesToMakeUnhabitable>5</NumTilesToMakeUnhabitable>
+      <NumTilesToMakeUnhabitable>2</NumTilesToMakeUnhabitable>
       <ChangeBaseMaxFertility>-0.4</ChangeBaseMaxFertility>
       <Image>Encounters/planet devastations2.png</Image>
       <ConfirmText>Oh crap!</ConfirmText>

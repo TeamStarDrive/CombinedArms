@@ -2,7 +2,7 @@
   <Name>Discover Ancient Mine</Name>
   <PotentialOutcomes>
     <Outcome>
-      <Chance>40</Chance>
+      <Chance>25</Chance>
       <TitleText>It's infested!</TitleText>
       <DescriptionText>As your troops approach the mine entrance, they see clearly that this machinery, while ancient, is still in excellent shape. Unfortunately, a nest of Antlions has made its home here and your troops find themselves surrounded by foes very suddenly.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -14,7 +14,7 @@
           <string>Antlion</string>
         <string>Antlion</string>
      </TroopsToSpawn>
-    <ConfirmText>It need's some cleaning.</ConfirmText>
+    <ConfirmText>It needs some cleaning.</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -28,7 +28,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>25</Chance>
+      <Chance>20</Chance>
       <TitleText>Salvage operation</TitleText>
       <DescriptionText>As your combat engineers try to salvage some of the ancient equipment they soon discover that the mine itself has suffered too much damage to be of any further use. The recovered items however will make a nice profit on the open market.</DescriptionText>
       <MoneyGranted>750</MoneyGranted>      
@@ -37,7 +37,7 @@
       <ConfirmText>Better than nothing.</ConfirmText>
     </Outcome>
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>20</Chance>
       <TitleText>Salvage operation</TitleText>
       <DescriptionText>As your combat engineers try to salvage some of the ancient equipment they soon discover that in the deepest parts of mine shaft there's some strange artifact.</DescriptionText>
       <GrantArtifact>true</GrantArtifact>      
@@ -46,7 +46,7 @@
       <ConfirmText>Calling in a transport ship.</ConfirmText>
     </Outcome>
     <Outcome>
-      <Chance>3</Chance>
+      <Chance>5</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing. It seems that someone was hiding a untested tech. Unfortunately, it seems that a small remnant fleet was drawn to this place as well. The ships are attacking immediately!</DescriptionText>
       <UnlockTech>TritaniumMissiles</UnlockTech>
@@ -64,7 +64,7 @@
       <ConfirmText>Those will be useful for sure!</ConfirmText>
     </Outcome>
     <Outcome>
-      <Chance>4</Chance>
+      <Chance>5</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing. It seems that someone was hiding a untested tech. Unfortunately, it seems that a pirate forces were lurking around as well, trying to extract the technology.</DescriptionText>
       <UnlockTech>ScrappyBeam2x4</UnlockTech>       
@@ -100,7 +100,7 @@
       <ConfirmText>Damn Pirates!</ConfirmText>
     </Outcome>
     <Outcome>
-      <Chance>6</Chance>
+      <Chance>5</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After Scouting the area, your troops find an entrance to a hidden cave and enter it. What they find is truly astonishing; It seems that someone was hiding a untested tech. Unfortunately, this mine is also infested with Antilions, maybe this is the reason no one discovered this place, until now.</DescriptionText>
       <UnlockTech>Ancient Ion Technology</UnlockTech>
