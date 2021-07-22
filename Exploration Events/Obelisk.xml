@@ -19,14 +19,25 @@
     </Outcome>
 
     <Outcome>
-      <Chance>3</Chance>
-      <TitleText>A virus</TitleText>
-      <DescriptionText>As your troops approach to scan the obelisk, all of their devices begin to malfunction. As it turns out, the obelisk was containing a computer virus of unknown origin which rapidly spreads throughout our networks. All research efforts are reduced by -4%!</DescriptionText>
-      <ScienceBonus>-0.04</ScienceBonus>
+      <Chance>5</Chance>
+      <TitleText>A Virus</TitleText>
+      <DescriptionText>As your troops approach to scan the obelisk, all of their devices begin to malfunction. As it turns out, the obelisk was containing a computer virus of unknown origin which rapidly spreads throughout our networks. We will now constalty be battling this virus, trying to eraticate it while it finds new ways to replicate.</DescriptionText>
+      <ScienceBonus>+0.03</ScienceBonus>
+	  <IndustryBonus>-0.05</IndustryBonus>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Obelisk1.png</Image>
       <ConfirmText>Higher-ups wont be pleased!</ConfirmText>
     </Outcome>
+	
+    <Outcome>
+      <Chance>5</Chance>
+      <TitleText>Improved Schematics</TitleText>
+      <DescriptionText>As your troops approach to scan the obelisk, all of their devices begin to malfunction. As it turns out, the obelisk contains strange new technology which improves blueprints and schematics. It took our techs some time to adjust the technology to our equipement, but from now on, our empire will gain a bonus to production efforts!</DescriptionText>
+	  <IndustryBonus>0.05</IndustryBonus>
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Obelisk1.png</Image>
+      <ConfirmText>Great Stuff</ConfirmText>
+    </Outcome>	
 
     <Outcome>
       <Chance>15</Chance>
