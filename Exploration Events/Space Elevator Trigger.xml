@@ -14,7 +14,7 @@
     </Outcome>
 
      <Outcome>
-      <Chance>10</Chance>
+      <Chance>5</Chance>
       <TitleText>Costly encounter!</TitleText>
       <DescriptionText>As your troops land, they notice that the space elevator appears to be very old, likely beyond repair. The best solution was to carefully demolish it in a controlled way, to prevent a catastrophic collapse. As your troops begin placing the demolition charges, a horde of antlions crawl out of the structure! A fierce battle rages on, causing more damage to the structure in the process as it begins to collapse. Planet scans changed : -1 Fertility(temporally), -2 habitable tiles.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -23,32 +23,10 @@
       <TroopsToSpawn>
         <string>Antlion</string>
         <string>Antlion</string>
-          <string>Antlion</string>
+        <string>Antlion</string>
       </TroopsToSpawn>      
       <Image>Encounters/Antlions.png</Image>
       <ConfirmText>Light them up!</ConfirmText>
-    </Outcome>
-
-    <Outcome>
-      <Chance>5</Chance>
-      <TitleText>Unwanted Attention</TitleText>
-      <DescriptionText>As your troops approach the space elevator, they realize it is fully operational and ready to be used. Sadly, the elevator hasn't only been noticed by our scanners. A Remnant fleet warps into orbit and begins to bomb the structure, destroying it in the process. Planet scans changed : -1 Fertility(temporally), -0.3 Max Fertility, -3 habitable tiles.</DescriptionText>
-      <RemoveTrigger>true</RemoveTrigger>
-      <NumTilesToMakeUnhabitable>3</NumTilesToMakeUnhabitable>
-      <ChangeBaseFertility>-1</ChangeBaseFertility>
-      <ChangeBaseMaxFertility>-0.3</ChangeBaseMaxFertility>
-      <RemnantShipsToSpawn>
-        <string>Heavy Drone</string>
-        <string>Heavy Drone</string>
-        <string>Heavy Drone</string>
-        <string>Xeno Fighter</string>
-        <string>Xeno Fighter</string>
-        <string>Light Ancient Bomber</string>
-        <string>Light Ancient Bomber</string>
-        <string>Ancient Frigate</string>
-       </RemnantShipsToSpawn>
-       <Image>Encounters/planet devastations2.png</Image>
-       <ConfirmText>They will play for that!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -62,7 +40,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>5</Chance>
       <TitleText>Pirate base</TitleText>
       <DescriptionText>As your troops approach the Space Elevator, they notice it is fully operational. And furthermore it's being used by pirates!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -95,7 +73,7 @@
       <TitleText>What a marvel!</TitleText>
       <DescriptionText>As your troops approach the space elevator, they noticed it is fully operational and ready to be used, along with a functional shipyards orbiting the planet.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-       <ReplaceWith>Space Elevator</ReplaceWith>
+      <ReplaceWith>Space Elevator</ReplaceWith>
       <FriendlyShipsToSpawn>
           <string>Shipyard</string>
           <string>Shipyard</string>

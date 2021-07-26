@@ -3,7 +3,7 @@
   <PotentialOutcomes>
 
     <Outcome>
-      <Chance>5</Chance>
+      <Chance>2</Chance>
       <TitleText>It's a remnant trap!</TitleText>
       <DescriptionText>As your troops approach the Orb, they notice a control panel. After Some time translating the alien symbols they managed to access the system. The orb was a some kind of very advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The planet scans were greatly changed of the previous ones. It seems like the orb and the planet is a way to lure advanced races. Suddenly a remnant forces jump into orbit, it was a trap after all! Planet scans changed : -0.5 Richness, -0.4 Max Fertility, -4 habitable tiles.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -25,7 +25,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>5</Chance>
+      <Chance>3</Chance>
       <TitleText>It's a pirate trap!</TitleText>
       <DescriptionText>As your troops approach the orb, they notice a control panel. After some time translating the alien symbols, they manage to access the system. Apparently, the orb was being used as some kind of advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The scans of the planet immediately change greatly from previous ones. It seems like this orb and planet were used as a way to lure us! Suddenly, pirate forces warp into orbit around the planet. It was a trap! Planet scans changed : -0.3 Max Fertility, -2 habitable tiles.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -81,7 +81,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>15</Chance>
+      <Chance>10</Chance>
       <TitleText>It's a pirate base!</TitleText>
       <DescriptionText>As your troops approach the orb, they notice a control panel. After some time translating the alien symbols, they manage to access the system. Apparently, the orb was being used as some kind of advanced camouflage system. After turning it off, the orb drops to the ground and shatters. The scans of the planet immediately change greatly from previous ones. It seems like the orb was being used to hide this in fact marvelous planet! But wait... It was also being used as a cloaking device for all of the pirate forces in orbit! Planet scans changed : +1.2 Richness, +0.4 Fertility, +5 habitable tiles.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -89,12 +89,12 @@
       <ChangeBaseMaxFertility>0.4</ChangeBaseMaxFertility>
       <NumTilesToMakeHabitable>5</NumTilesToMakeHabitable>
        <PirateShipsToSpawn>
-          <string>Corsair Asteroid Base</string>
-          <string>Corsair Station</string>
-          <string>Corsair Station</string>
-          <string>Corsair-Fighter-Mk2</string>
-          <string>Corsair-Fighter-Mk2</string>
-          <string>Corsair-Fighter-Mk2</string>
+        <string>Corsair Asteroid Base</string>
+        <string>Corsair Station</string>
+        <string>Corsair Station</string>
+        <string>Corsair-Fighter-Mk2</string>
+        <string>Corsair-Fighter-Mk2</string>
+        <string>Corsair-Fighter-Mk2</string>
         <string>Corsair-Fighter-Mk2</string>
         <string>Corsair</string>
         <string>Corsair</string>
@@ -120,14 +120,14 @@
     </Outcome>
 
     <Outcome>
-      <Chance>25</Chance>
+      <Chance>5</Chance>
       <TitleText>It's an alien incubator!</TitleText>
       <DescriptionText>As your troops approach the orb, they notice a control panel. After some time translating the alien symbols, they manage to access the system. Its an alien incubator! We're about to be overrun!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <TroopsToSpawn>
         <string>Antlion</string>
-          <string>Antlion</string>
-          <string>Antlion</string>
+        <string>Antlion</string>
+        <string>Antlion</string>
         <string>Antlion</string>
        </TroopsToSpawn>
       <Image>Encounters/Antlions.png</Image>
@@ -147,11 +147,11 @@
     <Outcome>
       <Chance>5</Chance>
       <TitleText>Tech discovery!</TitleText>
-      <DescriptionText>Upon close inspection, your troops have discovered that the orb is made of black matter, suspended in a quantum bubble. After taking a sample, the quantum bubble collapses and the black matter disperses. Followup investigations led us to the creation of a new type of weapon!</DescriptionText>
+      <DescriptionText>Upon close inspection, your troops have discovered that the orb is made of Dark Matter, suspended in a quantum bubble. After taking a sample, the quantum bubble collapses and the Dark Matter disperses. Followup investigations led us to the creation of a new type of weapon!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <UnlockTech>Black matter weaponry</UnlockTech>
       <Image>Encounters/Technology.png</Image>
-      <ConfirmText>Black matter?!</ConfirmText>
+      <ConfirmText>Dark matter?!</ConfirmText>
     </Outcome>
 
     <Outcome>

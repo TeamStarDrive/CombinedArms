@@ -14,7 +14,7 @@
     </Outcome>
 
      <Outcome>
-      <Chance>15</Chance>
+      <Chance>10</Chance>
       <TitleText>Pests!</TitleText>
       <DescriptionText>As your troops approach the ring, they notice it is unpowered, and probably damaged to a certain degree. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as a wormhole is created within the ring, which appears to be stable! Unfortunately, the vibrations lure a horde of antlions that immediately attack the ring, destroying it in the process. Only a few valuable materials from the ring were left intact.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -22,7 +22,7 @@
       <TroopsToSpawn>
         <string>Antlion</string>
         <string>Antlion</string>
-          <string>Antlion</string>
+        <string>Antlion</string>
       </TroopsToSpawn>      
       <Image>Encounters/TeleportBad.png</Image>
       <ConfirmText>That could went worse!</ConfirmText>
@@ -31,13 +31,10 @@
     <Outcome>
       <Chance>5</Chance>
       <TitleText>Unwanted Attention.</TitleText>
-      <DescriptionText>As your troops approach the ring, they notice that it's in remarkable shape, and well preserved. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as a wormhole is created within the ring, which appears to be stable! Unfortunately, the unique energy output of the wormhole has drawn the attention of a remnant fleet, which after warping in began bombing the planet, destroying the ring in the process. Planet scans changed : -0.5 Fertility (temporally) -0.4 Max Fertility, -1 habitable tile.</DescriptionText>
+      <DescriptionText>As your troops approach the ring, they notice that it's in remarkable shape, and well preserved. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as a wormhole is created within the ring, which appears to be stable! Unfortunately, the unique energy output of the wormhole has drawn the attention of a remnant fleet, which after warping in began bombing the planet, destroying the ring in the process. Planet scans changed : -0.1 Max Fertility, -1 habitable tile.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <NumTilesToMakeUnhabitable>1</NumTilesToMakeUnhabitable>
-      <ChangeBaseFertility>-0.5</ChangeBaseFertility>
-      <ChangeBaseMaxFertility>-0.4</ChangeBaseMaxFertility>
       <RemnantShipsToSpawn>
-        <string>Heavy Drone</string>
         <string>Heavy Drone</string>
         <string>Heavy Drone</string>
         <string>Xeno Fighter</string>
@@ -58,17 +55,14 @@
       <ReplaceWith>Teleport</ReplaceWith>
       <RemnantShipsToSpawn>
         <string>Heavy Drone</string>
-        <string>Heavy Drone</string>
-        <string>Heavy Drone</string>
         <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
-        <string>Light Ancient Bomber</string>
-        <string>Light Ancient Bomber</string>
         <string>Ancient Frigate</string>
        </RemnantShipsToSpawn>
        <Image>Encounters/Teleport.png</Image>
        <ConfirmText>What now?!</ConfirmText>
     </Outcome>
+	
     <Outcome>
       <Chance>15</Chance>
       <TitleText>Technomancers.</TitleText>
@@ -76,12 +70,10 @@
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Teleport</ReplaceWith>
       <TroopsToSpawn>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
         <string>Wyvern</string>
         <string>Wyvern</string>
         <string>Wyvern</string>
+		<string>Wyvern</string>
       </TroopsToSpawn>      
       <Image>Encounters/Defenders.png</Image>
       <ConfirmText>I wonder where they came from.</ConfirmText>
@@ -102,7 +94,7 @@
       <TitleText>Grey Goo!</TitleText>
       <DescriptionText>As your troops approach the ring, they notice that it's in remarkable shape, and well preserved. In an attempt to see if it's still operational, they power it up. The ring starts to vibrate slightly, and they watch as a wormhole is created within the ring, which appears to be stable! But suddenly, a strange grayish mass comes pouring out from the ring. In a blind stroke of genius, your forces envelop it in an electromagnetic barrier, trapping it inside. After studying it, they discover that it's an approximate manifestation of the infamous idea of grey goo. They unanimously decide to destroy it, the whole process having proven useful to our knowledge. All research efforts are increased by 4%!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-       <ReplaceWith>Teleport</ReplaceWith>
+      <ReplaceWith>Teleport</ReplaceWith>
       <ScienceBonus>0.04</ScienceBonus>
       <Image>Encounters/Teleport.png</Image>
       <ConfirmText>Nice save!</ConfirmText>

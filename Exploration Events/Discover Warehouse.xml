@@ -35,19 +35,6 @@
     </Outcome>
 
     <Outcome>
-      <Chance>10</Chance>
-      <TitleText>Ambush!</TitleText>
-      <DescriptionText>As your troops approach the abandoned warehouse they themselves surrounded by foes.</DescriptionText>
-      <RemoveTrigger>true</RemoveTrigger>
-      <TroopsToSpawn>
-        <string>Antlion</string>
-        <string>Antlion</string>
-      </TroopsToSpawn>
-      <Image>Encounters/Antlions.png</Image>
-      <ConfirmText>To arms!</ConfirmText>
-    </Outcome>
-
-    <Outcome>
       <Chance>5</Chance>
       <TitleText>A unique technology!</TitleText>
       <DescriptionText>After Scouting the area, your troops enter the abandoned warehouse. Inside they find a old rusty equipment and a well preserved schematics of old tech. Unfortunately, and ancient fleet lurks here as well.</DescriptionText>
@@ -81,24 +68,6 @@
     </Outcome>
 
     <Outcome>
-      <Chance>3</Chance>
-      <TitleText>Whoops</TitleText>
-      <DescriptionText>As your troops approach abandoned warehouse, they notice signs of recent activity. As they explore the warehouse further they accidentally trip a security system which sends out a Remnant distress signal. A detachment of Remnant forces are alerted to your presence and start orbiting the planet.</DescriptionText> 
-      <RemoveTrigger>true</RemoveTrigger>
-      <RemnantShipsToSpawn>
-        <string>Heavy Drone</string>
-        <string>Support Drone</string>
-        <string>Xeno Fighter</string>
-        <string>Xeno Fighter</string>
-        <string>Xeno Fighter</string>
-        <string>Xeno Fighter</string>
-        <string>Xeno Fighter</string>
-      </RemnantShipsToSpawn>
-      <Image>Encounters/RemnantSpawn.png</Image>
-      <ConfirmText>Call reinforcements!</ConfirmText>
-    </Outcome>
-
-    <Outcome>
       <Chance>5</Chance>
       <TitleText>Excellent find</TitleText>
       <DescriptionText>Here you have made an excellent discovery - Inside the warehouse you found completely intact alien light frigate! What's more, it appears to be space worthy and inside of its cargo there is an ancient artifact.</DescriptionText>
@@ -129,7 +98,6 @@
           <string>Corsair-Fighter</string>
       </FriendlyShipsToSpawn>
       <ReplaceWith>Large Warehouse</ReplaceWith>
-      <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/ShipSpawn2.png</Image>
       <ConfirmText>Nice little squadron!</ConfirmText>
@@ -146,11 +114,8 @@
           <string>Corsair-Fighter-Mk2</string>
           <string>Corsair-Fighter-Mk2</string>
           <string>Corsair-Fighter-Mk2</string>
-          <string>Corsair-Fighter-Mk2</string>
-          <string>Corsair-Fighter-Mk2</string>
       </FriendlyShipsToSpawn>
       <ReplaceWith>Large Warehouse</ReplaceWith>
-      <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/ShipSpawn2.png</Image>
       <ConfirmText>Silly Pirates.</ConfirmText>
@@ -168,7 +133,6 @@
           <string>Corsair-Fighter-Mk3</string>
       </FriendlyShipsToSpawn>
       <ReplaceWith>Large Warehouse</ReplaceWith>
-      <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/ShipSpawn2.png</Image>
       <ConfirmText>Their loss, our gain.</ConfirmText>

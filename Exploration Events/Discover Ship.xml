@@ -2,7 +2,7 @@
   <Name>Discover Crashed Ship</Name>
   <PotentialOutcomes>
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>5</Chance>
       <TitleText>Unknown defenders</TitleText>
       <DescriptionText>Before reaching the Crashed Ship, your troops were attacked by unknown enemies and had to fall back, the crashed ship takes off and warps out of the system.</DescriptionText>
        <TroopsToSpawn>
@@ -51,24 +51,6 @@
     </Outcome>
 
     <Outcome>
-      <Chance>10</Chance>
-      <TitleText>Red Alert</TitleText>
-      <DescriptionText>While your troops are examining the wreckage, its computer systems come online and an alarm is tripped by one of your clumsy grunts. Your troops manage to deactivate the alarm and salvage the control system which is valuable on the black market, however a fleet of Remnant vessels jumps into orbit detecting your presence.</DescriptionText>
-      <MoneyGranted>500</MoneyGranted>
-      <RemoveTrigger>true</RemoveTrigger>
-      <RemnantShipsToSpawn>
-        <string>Xeno Fighter</string>
-        <string>Xeno Fighter</string>
-        <string>Xeno Fighter</string>
-        <string>Xeno Fighter</string>
-        <string>Heavy Drone</string>
-        <string>Heavy Drone</string>
-      </RemnantShipsToSpawn>
-      <Image>Encounters/RemnantSpawn.png</Image>
-      <ConfirmText>Retreat!</ConfirmText>
-    </Outcome>
-
-    <Outcome>
       <Chance>25</Chance>
       <TitleText>A sad wreck</TitleText>
       <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. Even so, there are some curiosities among the wreckage that will have some value on the open market.</DescriptionText>
@@ -84,14 +66,57 @@
       <DescriptionText>Here you have made an excellent discovery - what appeared from orbit to be a shipwreck was in fact not a wreck at all, but a completely intact alien light frigate! Further examination reveals that it is space worthy and the cargo hold contains a mysterious artifact.</DescriptionText>
       <FriendlyShipsToSpawn>
           <string>Heavy Drone</string>
-          <string>Heavy Drone</string>
-          <string>Support Drone</string>
       </FriendlyShipsToSpawn>
       <GrantArtifact>true</GrantArtifact>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Working ship.png</Image>
-      <ConfirmText>Oh, lets test those bad boys!</ConfirmText>
+      <ConfirmText>Good Stuff!</ConfirmText>
     </Outcome>
+
+    <Outcome>
+      <Chance>15</Chance>
+      <TitleText>Nice find</TitleText>
+      <DescriptionText>Here you have made a nice discovery - what appeared from orbit to be a shipwreck was in fact not a wreck at all, but a small, completely intact alien ship squardron!</DescriptionText>
+      <FriendlyShipsToSpawn>
+          <string>Heavy Drone</string>
+          <string>Heavy Drone</string>
+          <string>Support Drone</string>
+      </FriendlyShipsToSpawn>
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Working ship.png</Image>
+      <ConfirmText>Oh, lets test those bad boys!</ConfirmText>
+    </Outcome>	
+	
+    <Outcome>
+      <Chance>15</Chance>
+      <TitleText>Nice find</TitleText>
+      <DescriptionText>Here you have made a nice discovery - what appeared from orbit to be a shipwreck was in fact not a wreck at all, but a small, completely intact alien ship squardron!</DescriptionText>
+      <FriendlyShipsToSpawn>
+          <string>Xeno Fighter</string>
+          <string>Xeno Fighter</string>
+		  <string>Xeno Fighter</string>
+		  <string>Xeno Fighter</string>
+		  <string>Xeno Fighter</string>
+		  <string>Xeno Fighter</string>
+          <string>Support Drone</string>
+      </FriendlyShipsToSpawn>
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Working ship.png</Image>
+      <ConfirmText>Oh, lets test those bad boys!</ConfirmText>
+    </Outcome>		
+	
+    <Outcome>
+      <Chance>15</Chance>
+      <TitleText>Dead Pirates</TitleText>
+      <DescriptionText>Here you have made an interesting discovery - what appeared from orbit to be a shipwreck was in fact two Cosrair frigates. Further examination reveals the crew perished by unknown reasons.</DescriptionText>
+      <FriendlyShipsToSpawn>
+          <string>Corsair</string>
+		  <string>Corsair</string>
+      </FriendlyShipsToSpawn>
+      <RemoveTrigger>true</RemoveTrigger>
+      <Image>Encounters/Working ship.png</Image>
+      <ConfirmText>Hopefully the they do not contain a virus...</ConfirmText>
+    </Outcome>			
 
     <Outcome>
       <Chance>5</Chance>

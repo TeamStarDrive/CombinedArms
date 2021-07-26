@@ -2,7 +2,7 @@
   <Name>Discover Ancient Tomb</Name>
   <PotentialOutcomes>
     <Outcome>
-      <Chance>15</Chance>
+      <Chance>10</Chance>
       <TitleText>Ancient curse</TitleText>
       <DescriptionText>On the approach your troops notice that there is no sign of any life for miles. Everything is dead. Closer to the tomb there are signs of battle, aged weapons and armor littering the ground. As they are almost at the tomb, skeletons begin pouring out. The platoon immediately fire several rockets. The shots hit the intended target. The tomb explodes and collapses into itself, most of the skeletons are crushed under the debris. A couple have survived, your troops engage them.</DescriptionText>
        <TroopsToSpawn>
@@ -13,10 +13,10 @@
       <SpawnBuildingOnPlanet>Mysterious Tomb</SpawnBuildingOnPlanet>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Skeletons.png</Image>
-      <ConfirmText>How are they even moving?</ConfirmText>
+      <ConfirmText>How they are even moving?</ConfirmText>
     </Outcome>
     <Outcome>
-      <Chance>10</Chance>
+      <Chance>5</Chance>
       <TitleText>Watch your step</TitleText>
       <DescriptionText>Your forces enter the mysterious tomb and quickly find evidence of Remnant activity. As they explore further they discover a still operational hangar bay. Your troops trip the automated security sensors and the entire Remnant fleet that was stationed here powers up and flies into orbit.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
@@ -65,21 +65,10 @@
     <Outcome>
       <Chance>5</Chance>
       <TitleText>A unique technology!</TitleText>
-      <DescriptionText>After Scouting the area inside the tomb, your troops found an altar, with working holo-chip containing schematics of unknown technology. After removing it from altar the Tomb starts to shake and the room fills up with sand, alarming dormant ground and space defenders.</DescriptionText>
+      <DescriptionText>After Scouting the area inside the tomb, your troops found an altar, with working holo-chip containing schematics of unknown technology. After removing it from altar the Tomb starts to shake and the room fills up with sand.</DescriptionText>
       <MoneyGranted>200</MoneyGranted>
       <UnlockTech>Enforcer</UnlockTech>       
       <RemoveTrigger>true</RemoveTrigger>
-      <RemnantShipsToSpawn>
-        <string>Heavy Drone</string>
-        <string>Heavy Drone</string>
-          <string>Support Drone</string>
-          <string>Support Drone</string>
-          <string>Xeno Fighter</string>
-      </RemnantShipsToSpawn>       
-      <TroopsToSpawn>
-        <string>Skeleton</string>
-        <string>Skeleton</string>
-      </TroopsToSpawn>
       <Image>Encounters/Technology.png</Image>
       <ConfirmText>We are trapped on this planet!</ConfirmText>       
     </Outcome>

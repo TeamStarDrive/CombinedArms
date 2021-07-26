@@ -3,7 +3,7 @@
   <PotentialOutcomes>
 
     <Outcome>
-      <Chance>20</Chance>
+      <Chance>5</Chance>
       <TitleText>Unknown defenders</TitleText>
       <DescriptionText>Before reaching the power source, your troops were attacked by unknown enemies and had to fall back. From far away they saw something taking off from the peak of the mountain.</DescriptionText>
      <RemnantShipsToSpawn>
@@ -20,7 +20,7 @@
     </Outcome>
 
     <Outcome>
-      <Chance>20</Chance>
+      <Chance>10</Chance>
       <TitleText>A sad wreck</TitleText>
       <DescriptionText>Under the snow, your forces found the buried wreckage of what is clearly a very old ship. Its reactor was damaged, yet still barely working, its likely causing errors in our scans. The order was given to destroy it and proceed with scanning the rest of the planet. As it turns out, those snowy mountains were far larger than expected.</DescriptionText>
        <ReplaceWith>Massive mountains</ReplaceWith>
@@ -47,9 +47,9 @@
       <ReplaceWith>Mountain</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <FriendlyShipsToSpawn>
-          <string>Xeno Fighter</string>
-          <string>Xeno Fighter</string>
-          <string>Xeno Fighter</string>
+        <string>Xeno Fighter</string>
+        <string>Xeno Fighter</string>
+        <string>Xeno Fighter</string>
         <string>Xeno Fighter</string>
       </FriendlyShipsToSpawn>
       <Image>Encounters/ShipSpawn2.png</Image>
@@ -91,10 +91,10 @@
       <ConfirmText>Mountain worth of treasure!</ConfirmText>
     </Outcome>
     
-        <Outcome>
+	<Outcome>
       <Chance>10</Chance>
       <TitleText>Recovered technology</TitleText>
-      <DescriptionText>Your forces found an old, completely split in half ship, buried under the snow. Its damaged reactor was leaking ionized liquid, obviously the source that caused the errors in our scans. While searching the wreck, our troops stumbled upon some weapon schematics. Nothing else was worth salvaging, so the order was given to destroy the remains.</DescriptionText>
+      <DescriptionText>Your forces found an old, completely split in half ship, buried under the snow. Its damaged reactor was leaking ionized liquid, obviously the source that caused the errors in our scans. While searching the wreck, our troops stumbled upon some technology schematics. Nothing else was worth salvaging, so the order was given to destroy the remains.</DescriptionText>
       <UnlockTech>Remnant Assembly</UnlockTech>
       <ReplaceWith>Mountain</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
