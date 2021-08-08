@@ -10,8 +10,11 @@
   <LongDescription>For a fleet on extended deployment, running out of ammunition can be a major problem. Supply ships have therefore been an integral part of large fleet actions since the dawn of the naval age.</LongDescription>
   <LeadsTo>
     <LeadsToTech>
-      <UID>SustainedSupport</UID>
+      <UID>Fleet Repair</UID>
     </LeadsToTech>
+    <LeadsToTech>
+      <UID>CombatReadiness</UID>
+    </LeadsToTech>	
   </LeadsTo>
   <ModulesUnlocked>
     <UnlockedMod>
@@ -19,9 +22,6 @@
     </UnlockedMod>
     <UnlockedMod>
       <ModuleUID>Fabricator</ModuleUID>
-    </UnlockedMod>
-    <UnlockedMod>
-      <ModuleUID>RepairDrone</ModuleUID>
     </UnlockedMod>
   </ModulesUnlocked>
   <BuildingsUnlocked />

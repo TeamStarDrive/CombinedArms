@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Fleet Repair</UID>
+  <TechnologyType>ShipGeneral</TechnologyType>
+  <Cost>450</Cost>
+  <RootNode>0</RootNode>
+  <Name>Fleet Repair</Name>
+  <NameIndex>18288</NameIndex>
+  <DescriptionIndex>18289</DescriptionIndex>
+  <LongDescription>A starship is a complicated web of interdependent systems, and the bigger they are the harder they are to control. This technology brings command and engineering functions in to the next generation.  </LongDescription>
+  <LeadsTo>
+    <LeadsToTech>
+      <UID>SustainedSupport</UID>
+    </LeadsToTech>
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>RepairDrone</ModuleUID>
+    </UnlockedMod>	
+    <UnlockedMod>
+      <ModuleUID>RepairBay</ModuleUID>
+    </UnlockedMod>
+  </ModulesUnlocked>
+  <BuildingsUnlocked />
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>
