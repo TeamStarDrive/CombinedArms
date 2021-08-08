@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ShipData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Name>Payara Ignis Mk3</Name>
+  <Hull>Dauntless/Payara</Hull>
   <ModName>Combined Arms</ModName>
   <ShipStyle>Dauntless</ShipStyle>
-  <Hull>Dauntless/Payara</Hull>
   <IconPath>ShipIcons/icon_Payara</IconPath>
   <ModelPath>mod models/Dauntless/Payara</ModelPath>
   <Level>0</Level>
@@ -12,8 +12,6 @@
   <MechanicalBoardingDefense>0</MechanicalBoardingDefense>
   <FixedUpkeep>0</FixedUpkeep>
   <FixedCost>0</FixedCost>
-  <HasFixedCost>false</HasFixedCost>
-  <HasFixedUpkeep>false</HasFixedUpkeep>
   <Animated>false</Animated>
   <IsShipyard>false</IsShipyard>
   <IsOrbitalDefense>false</IsOrbitalDefense>
@@ -752,8 +750,8 @@
         <Y>104</Y>
       </Position>
       <Restrictions>IO</Restrictions>
-      <InstalledModuleUID>MRM mk2</InstalledModuleUID>
-      <facing>360</facing>
+      <InstalledModuleUID>Fabricator</InstalledModuleUID>
+      <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -777,6 +775,7 @@
         <Y>104</Y>
       </Position>
       <Restrictions>IO</Restrictions>
+      <InstalledModuleUID>ArmCanopyShield1</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -789,7 +788,6 @@
         <Y>104</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>Fabricator</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -814,7 +812,7 @@
         <Y>104</Y>
       </Position>
       <Restrictions>IO</Restrictions>
-      <InstalledModuleUID>MRM mk2</InstalledModuleUID>
+      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -827,6 +825,7 @@
         <Y>104</Y>
       </Position>
       <Restrictions>IO</Restrictions>
+      <InstalledModuleUID>Fabricator</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1010,6 +1009,7 @@
         <Y>120</Y>
       </Position>
       <Restrictions>IO</Restrictions>
+      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1146,6 +1146,7 @@
         <Y>136</Y>
       </Position>
       <Restrictions>IO</Restrictions>
+      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1158,6 +1159,7 @@
         <Y>136</Y>
       </Position>
       <Restrictions>IO</Restrictions>
+      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1182,7 +1184,6 @@
         <Y>136</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>Fabricator</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1207,6 +1208,7 @@
         <Y>136</Y>
       </Position>
       <Restrictions>IO</Restrictions>
+      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1219,6 +1221,7 @@
         <Y>136</Y>
       </Position>
       <Restrictions>IO</Restrictions>
+      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1231,6 +1234,7 @@
         <Y>136</Y>
       </Position>
       <Restrictions>IO</Restrictions>
+      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1367,7 +1371,6 @@
         <Y>152</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1564,7 +1567,6 @@
         <Y>168</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1577,7 +1579,6 @@
         <Y>168</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>Bridge</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1762,7 +1763,6 @@
         <Y>184</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1959,7 +1959,7 @@
         <Y>200</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
+      <InstalledModuleUID>Bridge</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1972,7 +1972,6 @@
         <Y>200</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1985,7 +1984,7 @@
         <Y>200</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
+      <InstalledModuleUID>Bridge</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -1998,7 +1997,6 @@
         <Y>200</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>Internal Bulkhead</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -2159,7 +2157,6 @@
         <Y>216</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -2172,7 +2169,6 @@
         <Y>216</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -2185,7 +2181,6 @@
         <Y>216</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -2198,7 +2193,6 @@
         <Y>216</Y>
       </Position>
       <Restrictions>I</Restrictions>
-      <InstalledModuleUID>OrdnanceLockerNano</InstalledModuleUID>
       <facing>0</facing>
       <state>Normal</state>
       <Health>0</Health>
@@ -3648,9 +3642,9 @@
         <Y>344</Y>
       </Position>
       <Restrictions>IO</Restrictions>
-      <InstalledModuleUID>ArmCanopyShield1</InstalledModuleUID>
-      <facing>90</facing>
-      <state>Right</state>
+      <InstalledModuleUID>MRM mk2</InstalledModuleUID>
+      <facing>330.000031</facing>
+      <state>Normal</state>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
       <HangarshipGuid>00000000-0000-0000-0000-000000000000</HangarshipGuid>
@@ -3685,7 +3679,8 @@
         <Y>344</Y>
       </Position>
       <Restrictions>IO</Restrictions>
-      <facing>0</facing>
+      <InstalledModuleUID>MRM mk2</InstalledModuleUID>
+      <facing>30.0000019</facing>
       <state>Normal</state>
       <Health>0</Health>
       <Shield_Power>0</Shield_Power>
@@ -4821,42 +4816,42 @@
     </ModuleSlotData>
   </ModuleSlotList>
   <techsNeeded>
-    <string>Cruiser Hulls II</string>
-    <string>Cruiser Hulls I</string>
-    <string>Cruisers</string>
-    <string>FrigateConstruction</string>
-    <string>CorvetteHulls</string>
     <string>HSA-Frontier</string>
     <string>Shield Armor</string>
     <string>XSGA5Fairy</string>
     <string>AdvArmored Solar collector</string>
     <string>ElectronicArmors</string>
+    <string>Nano Storage</string>
+    <string>LargeFreighters</string>
+    <string>MediumFreighters</string>
+    <string>SubSpaceProjectors</string>
+    <string>Improved MRM Platforms</string>
+    <string>Medium Range Missiles</string>
+    <string>BasicMissileTheory</string>
+    <string>Fleet Supply</string>
+    <string>StarshipConstruction</string>
     <string>Gravitons</string>
     <string>Linked Quantum Fusion</string>
     <string>Armored Quantum Fusion</string>
     <string>Quantum Fusion</string>
     <string>Cold Fusion</string>
     <string>Fusion Reactor</string>
-    <string>Improved MRM Platforms</string>
-    <string>Medium Range Missiles</string>
-    <string>BasicMissileTheory</string>
-    <string>Advanced SRM Systems</string>
-    <string>Improved SRM Systems</string>
-    <string>Anti-fighter Missiles</string>
-    <string>StarshipConstruction</string>
-    <string>Nano Storage</string>
-    <string>LargeFreighters</string>
-    <string>MediumFreighters</string>
-    <string>SubSpaceProjectors</string>
     <string>Phasors</string>
     <string>Fusion Beam</string>
     <string>Laser Beams</string>
     <string>Energy Weapons</string>
+    <string>FrigateConstruction</string>
+    <string>CorvetteHulls</string>
+    <string>Advanced SRM Systems</string>
+    <string>Improved SRM Systems</string>
+    <string>Anti-fighter Missiles</string>
+    <string>Energy</string>
     <string>ArmCanopyShield</string>
     <string>CanopyShields</string>
     <string>HeavyShields</string>
     <string>EnergyShielding</string>
-    <string>Fleet Supply</string>
-    <string>Energy</string>
+    <string>Cruisers</string>
+    <string>Cruiser Hulls II</string>
+    <string>Cruiser Hulls I</string>
   </techsNeeded>
 </ShipData>
