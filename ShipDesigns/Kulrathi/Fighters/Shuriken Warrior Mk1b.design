@@ -1,0 +1,27 @@
+﻿Version=1
+Name=Shuriken Warrior Mk1b
+Hull=Kulrathi/Shuriken
+Role=fighter
+ModName=Combined Arms
+Style=Kulrathi
+Size=6,5
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=LightAC;OrdnanceLockerSmall;Fighter Shield Fast;Fighter HASG Turret;Ceramic Armor Small;Advanced Fighter Generator;Engine;Cockpit
+Modules=14
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,3;0;2,2
+1,0;1
+1,1;2
+1,2;3
+2,1;4
+2,2;5
+2,3;6
+3,1;4
+3,2;5
+3,3;6
+4,0;1
+4,1;2
+4,2;7
+4,3;0;2,2

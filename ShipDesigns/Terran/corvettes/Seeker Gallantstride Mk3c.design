@@ -1,0 +1,41 @@
+﻿Version=1
+Name=Seeker Gallantstride Mk3c
+Hull=Terran/Seeker
+Role=corvette
+ModName=Combined Arms
+Style=Terran
+Size=8,12
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=thruster1x2;Venom_Rocket_Pod;PowerSolar;2x1Twinengines;OrdnanceLockerNano;Fighter Shield Blue;Cockpit_Side;AntiMReactorSmall
+Modules=28
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,10;0;1,2
+1,8;1;1,3;180;3
+1,11;2
+2,5;1;1,3
+2,8;1;1,3
+2,11;3;2,1
+3,0;4
+3,1;1;1,3
+3,4;5
+3,5;5
+3,6;6;2,1
+3,7;7
+3,8;5
+3,9;7
+3,10;3;2,1
+4,0;4
+4,1;1;1,3
+4,4;5
+4,5;5
+4,7;7
+4,8;7
+4,9;7
+4,11;3;2,1
+5,5;1;1,3
+5,8;1;1,3
+6,8;1;1,3;180;3
+6,11;4
+7,10;0;1,2

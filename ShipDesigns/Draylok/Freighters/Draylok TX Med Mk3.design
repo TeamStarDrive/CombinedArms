@@ -1,0 +1,37 @@
+﻿Version=1
+Name=Draylok TX Med Mk3
+Hull=Draylok/Draylok Tx Med
+Role=freighter
+ModName=Combined Arms
+Style=Draylok
+Size=4,14
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Fighter VOB;ContainerDeck;BasicCargoHold;NuclearThermalThruster;PowerSolar;NuclearReactorSmall;jumpdrive2x2;Fusion Reactor;WarpEngine_1x1;engine_fighter_1x1;Cockpit
+Modules=24
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+0,2;1;4,3;90;2
+0,5;1;4,3;270;1
+0,8;2
+0,9;2
+0,10;2
+0,11;2
+0,12;3
+1,0;4
+1,1;5
+1,8;6;2,2
+1,10;7;2,2
+1,12;8
+1,13;9
+2,0;4
+2,1;5
+2,12;9
+2,13;9
+3,1;0
+3,8;10
+3,9;2
+3,10;2
+3,11;2
+3,12;3

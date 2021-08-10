@@ -1,0 +1,69 @@
+﻿Version=1
+Name=Dolphin Troop Mk1a
+Hull=Dauntless/Dolphin
+Role=frigate
+ModName=Combined Arms
+Style=Dauntless
+Size=12,19
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Shield Armor Med;XSGA5Fairy Med;Shield Armor Small;OrdnanceLockerSmall;BattleShield2x2;XSGA5Fairy Small;MarineBarracks2x2;QuantumFusionReactor_2x2;FuelCellSmallArmored;ArmoredStorageSmall;PhasorTurret2x2;RocketLauncher;TroopAssaultBay;Bridge;NuclearReactorSmall;PowerConduit;LightningStorm;MedOverdrive;WarpEngine_2x2
+Modules=56
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+5,0;0;2,2
+4,2;1;2,2
+6,2;1;2,2
+3,4;2
+4,4;3
+5,4;4;2,2
+7,4;3
+8,4;2
+3,5;5
+4,5;3
+7,5;3
+8,5;5
+2,6;5
+3,6;6;2,2
+5,6;7;2,2
+7,6;6;2,2
+9,6;5
+2,7;5
+9,7;5
+2,8;5
+3,8;8
+4,8;9
+5,8;6;2,2
+7,8;9
+8,8;8
+9,8;5
+1,9;5
+2,9;10;2,2;345
+4,9;9
+7,9;9
+8,9;10;2,2;15
+10,9;5
+0,10;1;2,2
+4,10;11;;360
+5,10;4;2,2
+7,10;11
+10,10;1;2,2
+2,11;12;3,4;;;Dauntless Assault Shuttle
+7,11;12;3,4;;;Dauntless Assault Shuttle
+1,12;5
+5,12;13;2,2
+10,12;5
+1,13;5
+10,13;5
+5,14;14
+6,14;15
+2,15;5
+3,15;16;2,2;270
+5,15;4;2,2
+7,15;16;2,2;90
+9,15;5
+2,16;5
+9,16;5
+3,17;17;2,2
+5,17;18;2,2
+7,17;17;2,2

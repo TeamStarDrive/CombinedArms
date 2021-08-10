@@ -1,0 +1,37 @@
+﻿Version=1
+Name=Crescent Energy Strafer Mk0
+Hull=Draylok/Crescent
+Role=corvette
+ModName=Combined Arms
+Style=Draylok
+Size=10,6
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Beam1x2;LaserCannon;LaserGreen;Fighter Shield;Advanced Fighter Generator;Engine;PlaSteelArmorSmall;BasicFuelCell;Cockpit_Side;2x1Twinengines;engine_fighter_1x1
+Modules=24
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,2;0;1,2
+0,4;1;;195
+1,3;0;1,2
+2,4;2;;330
+3,3;3
+3,4;4
+3,5;5
+4,0;6
+4,1;7
+4,2;8;2,1
+4,3;4
+4,4;9;2,1
+4,5;10
+5,0;6
+5,1;2
+5,3;4
+5,5;10
+6,3;3
+6,4;4
+6,5;5
+7,4;2;;30
+8,3;0;1,2
+9,2;0;1,2
+9,4;1;;165

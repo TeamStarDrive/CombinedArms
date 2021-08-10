@@ -1,0 +1,33 @@
+﻿Version=1
+Name=Kulrathi Shredder Mk2b
+Hull=Kulrathi/Razor
+Role=corvette
+ModName=Combined Arms
+Style=Kulrathi
+Size=10,7
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=OrdnanceLockerSmall;PowerSolarArm;Railgun1x3;Fighter ATCSM;Engine;Fighter Shield Battle;QuantumFusionReactor_1x1;Cockpit
+Modules=20
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,5;0
+0,6;1
+1,4;2;1,3
+2,3;3;2,2
+2,5;4
+3,0;2;1,3
+4,2;5
+4,3;6
+4,4;7
+4,5;4
+5,2;0
+5,3;5
+5,4;6
+5,5;4
+6,0;2;1,3
+6,3;3;2,2
+7,5;4
+8,4;2;1,3
+9,5;0
+9,6;1

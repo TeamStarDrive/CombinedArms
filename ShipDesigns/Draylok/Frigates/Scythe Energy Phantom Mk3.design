@@ -1,0 +1,59 @@
+﻿Version=1
+Name=Scythe Energy Phantom Mk3
+Hull=Draylok/Scythe
+Role=frigate
+ModName=Combined Arms
+Style=Draylok
+Size=14,10
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Organic Armor Small;PolaronTurret2x2;XSGA5Fairy Small;NuclearReactorSmall;BattleShield2x2;advanced_small_fuelcell;LaserCannon;AntimatterReactor2x2;Engine;MedOverdrive;Organic Armor Med;Bridge;PowerConduit
+Modules=46
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+0,2;1;2,2
+0,4;0
+0,5;1;2,2;345
+1,0;0
+1,1;2
+1,4;3
+1,7;1;2,2;225
+2,5;4;2,2
+2,9;5
+3,7;5
+3,8;6;;195
+4,5;0
+4,6;7;2,2
+4,8;8
+5,3;0
+5,4;0
+5,5;6;;270
+5,8;9;2,2
+6,1;10;2,2
+6,3;6;;330
+6,4;11;2,2
+6,6;12
+6,7;5
+7,3;6;;30
+7,6;12
+7,7;5
+7,8;9;2,2
+8,3;0
+8,4;0
+8,5;6;;90
+8,6;7;2,2
+9,5;0
+9,8;8
+10,5;4;2,2
+10,7;5
+10,8;6;;165
+11,7;1;2,2;135
+11,9;5
+12,0;0
+12,1;2
+12,2;1;2,2
+12,4;3
+12,5;1;2,2;15
+13,1;0
+13,4;0

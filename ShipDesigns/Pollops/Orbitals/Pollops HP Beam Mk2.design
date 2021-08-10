@@ -1,0 +1,51 @@
+﻿Version=1
+Name=Pollops HP Beam Mk2
+Hull=Pollops/Pollops_Heavy_Platform
+Role=platform
+ModName=Combined Arms
+Style=Pollops
+Size=12,8
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Organic Armor Small;FusionTurret2x2;QuantumFusionReactor_1x1;advanced_small_fuelcell;AdvancedFShield;Bridge
+Modules=38
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+0,2;0
+0,5;0
+0,6;0
+1,1;1;2,2;315
+1,3;1;2,2;270
+1,5;1;2,2;225
+3,0;1;2,2;345
+3,2;2
+3,3;3
+3,4;3
+3,5;2
+3,6;1;2,2;195
+4,2;3
+4,3;4;1,2
+4,5;3
+5,1;0
+5,2;5;2,2
+5,4;5;2,2
+5,6;0
+6,1;0
+6,6;0
+7,0;1;2,2;15
+7,2;3
+7,3;4;1,2
+7,5;3
+7,6;1;2,2;165
+8,2;2
+8,3;3
+8,4;3
+8,5;2
+9,1;1;2,2;45
+9,3;1;2,2;90
+9,5;1;2,2;135
+11,1;0
+11,2;0
+11,5;0
+11,6;0

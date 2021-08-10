@@ -1,0 +1,35 @@
+﻿Version=1
+Name=Type IV Carrier Mk1a
+Hull=Vulfen/Type IV
+Role=corvette
+ModName=Combined Arms
+Style=Vulfen
+Size=6,10
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Railgun1x3;OrdnanceLocker;DroneBay;PowerSolarArm;Cockpit;Advanced Fighter Generator;2x1Twinengines;engine_fighter_1x1;Engine;Fighter Shield Fast;WarpEngine_1x1
+Modules=22
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,4;0;1,3
+0,7;1;2,2
+1,1;2;4,1;270;1;DynamicInterceptor
+1,2;2;4,1;270;1;DynamicInterceptor
+1,3;2;4,1;270;1;DynamicInterceptor
+1,4;0;1,3
+2,0;3
+2,4;4
+2,5;5
+2,6;5
+2,7;6;2,1
+2,8;7
+2,9;8
+3,0;3
+3,4;9
+3,5;5
+3,6;5
+3,8;7
+3,9;10
+4,4;0;1,3
+4,7;1;2,2
+5,4;0;1,3

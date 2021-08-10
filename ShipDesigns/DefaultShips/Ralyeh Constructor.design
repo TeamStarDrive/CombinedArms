@@ -1,0 +1,25 @@
+﻿Version=1
+Name=Ralyeh Constructor
+Hull=Ralyeh/Vessel S
+Role=construction
+ModName=Combined Arms
+Style=Ralyeh
+Size=4,9
+DefaultAIState=DoNothing
+DefaultCombatState=Evade
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Structure;ConstructionArray;Cockpit;NuclearReactorMed;WarpEngine_1x1;Engine
+Modules=12
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+1,0;0
+1,1;1;2,3
+1,4;2
+1,5;3;2,2
+1,7;4
+1,8;5
+2,0;0
+2,4;2
+2,7;4
+2,8;5
+3,1;0

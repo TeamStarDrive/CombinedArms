@@ -1,0 +1,41 @@
+﻿Version=1
+Name=Worker01 Consumer Mk3a
+Hull=Opteris/Worker01
+Role=corvette
+ModName=Combined Arms
+Style=Opteris
+Size=10,8
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=XSGA5Fairy Small;BlueLaser1x2;Advanced Fighter Generator;FusionTurret2x2;BattleShield2x2;advanced_small_fuelcell;Cockpit_Side;2x1Twinengines;WarpEngine_1x1;Engine
+Modules=28
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,4;0
+1,2;1;1,2
+1,4;1;1,2
+2,1;0
+2,3;0
+2,4;1;1,2
+3,2;1;1,2
+3,4;2
+3,5;2
+3,6;0
+4,0;3;2,2
+4,2;4;2,2
+4,4;5
+4,5;6;2,1
+4,6;7;2,1
+4,7;8
+5,4;5
+5,7;9
+6,2;1;1,2
+6,4;2
+6,5;2
+6,6;0
+7,1;0
+7,3;0
+7,4;1;1,2
+8,2;1;1,2
+8,4;1;1,2
+9,4;0

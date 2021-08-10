@@ -1,0 +1,31 @@
+﻿Version=1
+Name=Kuma Colony Mk3
+Hull=Kulrathi/Kuma Sukoshi
+Role=freighter
+ModName=Combined Arms
+Style=Kulrathi
+Size=6,8
+DefaultAIState=DoNothing
+DefaultCombatState=Evade
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=ColonyModuleProduction;Structure;Sensor1x2;Cockpit_Side;NuclearReactorMed;2x1Twinengines;WarpEngine_1x1;ColonyModuleFood
+Modules=18
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,3;0;2,3
+1,2;1
+1,6;1
+1,7;1
+2,0;1
+2,1;1
+2,2;2;2,1
+2,3;3;2,1
+2,4;4;2,2
+2,6;5;2,1
+2,7;6
+3,0;1
+3,1;1
+3,7;6
+4,2;1
+4,3;7;2,3
+4,6;1
+4,7;1

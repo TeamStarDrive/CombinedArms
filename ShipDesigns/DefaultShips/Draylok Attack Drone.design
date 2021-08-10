@@ -1,0 +1,16 @@
+﻿Version=1
+Name=Draylok Attack Drone
+Hull=Draylok/Arikara
+Role=drone
+Style=Draylok
+Size=3,2
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=CommandModule_I;DroneEngine_I;DroneCannon1x1
+Modules=4
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+1,0;0
+1,1;1
+0,0;2
+2,0;2

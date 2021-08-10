@@ -1,0 +1,45 @@
+﻿Version=1
+Name=Medium Transport Mk3
+Hull=Misc/CargoMedium
+Role=freighter
+ModName=Combined Arms
+Style=Misc
+Size=6,21
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=BasicCargoHold;MediumCargoHold;CombatEngine_2x2;PlaSteelArmorSmall;NuclearReactorSmall;Cockpit_Side;jumpdrive2x3;Fusion Reactor
+Modules=32
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,18;0
+1,5;1;2,2
+1,7;0
+1,9;1;2,2
+1,11;0
+1,14;0
+1,15;0
+1,16;0
+1,18;0
+1,19;2;2,2
+2,0;3
+2,1;1;2,2
+2,3;1;2,2
+2,7;1;2,2
+2,11;0
+2,12;4
+2,13;5;2,1
+2,14;6;2,3
+2,17;7;2,2
+3,0;3
+3,5;1;2,2
+3,9;1;2,2
+3,11;0
+3,12;4
+3,19;2;2,2
+4,7;0
+4,11;0
+4,14;0
+4,15;0
+4,16;0
+4,18;0
+5,18;0

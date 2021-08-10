@@ -1,0 +1,59 @@
+﻿Version=1
+Name=Fern Fireblossom Mk2a
+Hull=Pollops/Fern
+Role=frigate
+ModName=Combined Arms
+Style=Pollops
+Size=16,8
+DefaultAIState=DoNothing
+DefaultCombatState=ShortRange
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=ArmoredStorageSmall;AdvArmored Solar collector Small;thruster1x2;Shape Memory Armor Small;OrdnanceLockerSmall;Plasma_Thrower_Red;FastShield2x2;Cold Fusion Reactor;Cockpit;WarpEngine_2x2;OrdnanceLocker;MedOverdrive
+Modules=46
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,3;0
+1,0;1
+1,1;1
+1,3;0
+1,4;0
+2,1;1
+2,2;1
+2,3;2;1,2
+3,2;3
+3,3;4
+3,4;5;2,2
+4,0;1
+4,1;3
+4,2;6;2,2
+4,6;2;2,1;90;2
+5,4;7;2,2
+6,1;3
+6,2;4
+6,3;8
+6,6;9;2,2
+7,0;1
+7,1;5;2,2
+7,3;4
+7,4;10;2,2
+8,0;1
+8,3;4
+8,6;11;2,2
+9,1;3
+9,2;4
+9,3;8
+9,4;7;2,2
+10,2;6;2,2
+10,6;2;2,1;270;1
+11,0;1
+11,1;3
+11,4;5;2,2
+12,2;3
+12,3;4
+13,1;1
+13,2;1
+13,3;2;1,2
+14,0;1
+14,1;1
+14,3;0
+14,4;0
+15,3;0

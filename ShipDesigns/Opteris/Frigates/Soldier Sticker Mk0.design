@@ -1,0 +1,62 @@
+﻿Version=1
+Name=Soldier Sticker Mk0
+Hull=Opteris/Soldier
+Role=frigate
+ModName=Combined Arms
+Style=Opteris
+Size=10,17
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=AdvArmored Solar collector Med;AdvArmored Solar collector Small;LaserBeamTurret2x2;Shield_1KW;Beam1x2;OrdnanceLockerSmall;BasicFuelCell;LaserTurret;Bridge;Overload Fusion Reactor;MissileLauncher1x3;PowerConduit;RocketLauncher;Engine;WarpEngine_1x1;FrigateEngine
+Modules=49
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+4,0;0;2,2
+3,1;1
+6,1;1
+3,2;1
+4,2;2;2,2;180
+6,2;1
+3,3;1
+6,3;1
+2,4;0;2,2
+4,4;3;2,2
+6,4;0;2,2
+2,6;1
+3,6;4;1,2
+4,6;5
+5,6;5
+6,6;4;1,2
+7,6;1
+1,7;1
+2,7;5
+4,7;6
+5,7;6
+7,7;5
+8,7;1
+0,8;1
+2,8;7;2,2;330
+4,8;8;2,2
+6,8;7;2,2;30
+9,8;1
+2,10;1
+3,10;6
+4,10;9;2,2
+6,10;6
+7,10;1
+2,11;10;1,3
+3,11;11
+6,11;11
+7,11;10;1,3
+3,12;12
+4,12;3;2,2
+6,12;12
+3,13;12;;180;3
+6,13;12;;180;3
+3,14;13
+4,14;14
+5,14;14
+6,14;13
+3,15;13
+4,15;15;2,2
+6,15;13

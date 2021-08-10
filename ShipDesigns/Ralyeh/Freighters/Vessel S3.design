@@ -1,0 +1,23 @@
+﻿Version=1
+Name=Vessel S3
+Hull=Ralyeh/Vessel S
+Role=freighter
+ModName=Combined Arms
+Style=Ralyeh
+Size=4,9
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=BasicCargoHold;MediumCargoHold;NuclearReactorSmall;MedCapacitor;WarpEngine_1x1;2x1Twinengines;Cockpit
+Modules=10
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+1,0;1;2,2
+1,2;1;2,2
+1,4;2
+1,5;3;2,2
+1,7;4
+1,8;5;2,1
+2,4;6
+2,7;4
+3,1;0

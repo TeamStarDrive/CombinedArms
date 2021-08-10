@@ -1,0 +1,23 @@
+﻿Version=1
+Name=Drone Scavenger Mk4
+Hull=Opteris/Drone
+Role=fighter
+ModName=Combined Arms
+Style=Opteris
+Size=4,4
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=BlueLaser1x3;BasicFuelCell;Advanced Fighter Generator;Engine;Fighter Shield Fast;Cockpit
+Modules=10
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0;1,3
+1,0;1
+1,1;2
+1,2;2
+1,3;3
+2,0;1
+2,1;4
+2,2;5
+2,3;3
+3,1;0;1,3

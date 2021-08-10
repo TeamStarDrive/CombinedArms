@@ -1,0 +1,29 @@
+﻿Version=1
+Name=Type III Mk1
+Hull=Vulfen/Type III
+Role=corvette
+ModName=Combined Arms
+Style=Vulfen
+Size=6,6
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=OrdnanceLockerSmall;Flechette AF Turret;Fighter Shield Fast;Advanced Fighter Generator;2x1Twinengines;engine_fighter_1x1;Cockpit;Engine
+Modules=16
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,2;0
+0,3;1;2,2;315
+1,1;0
+1,2;0
+2,0;1;2,2
+2,2;2
+2,3;3
+2,4;4;2,1
+2,5;5
+3,2;6
+3,3;3
+3,5;7
+4,1;0
+4,2;0
+4,3;1;2,2;45
+5,2;0

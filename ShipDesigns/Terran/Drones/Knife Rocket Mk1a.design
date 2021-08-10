@@ -1,0 +1,17 @@
+﻿Version=1
+Name=Knife Rocket Mk1a
+Hull=Terran/Knife
+Role=drone
+ModName=Combined Arms
+Style=Terran
+Size=2,3
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=CommandModule_I;DroneRocketLauncher;DroneEngine_II
+Modules=4
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,0;0
+0,1;1
+1,1;1
+0,2;2

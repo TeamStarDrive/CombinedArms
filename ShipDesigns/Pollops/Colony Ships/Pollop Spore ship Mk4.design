@@ -1,0 +1,46 @@
+﻿Version=1
+Name=Pollop Spore ship Mk4
+Hull=Pollops/Sower
+Role=freighter
+ModName=Combined Arms
+Style=Pollops
+Size=8,13
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Structure;Sensor1x2;Advance ColonyModule;ColonyModuleResearch;WarpEngine_2x2;Cockpit_Side;MedCapacitor;NuclearReactorSmall;ColonyModuleProduction;ColonyModuleFood;CombatEngine_2x2
+Modules=33
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,12;0
+1,0;0
+1,3;0
+1,4;0
+1,8;1;2,1
+1,11;0
+2,0;0
+2,1;2;2,3
+2,4;3;2,3
+2,7;0
+2,9;0
+2,10;0
+2,11;4;2,2
+3,0;0
+3,7;5;2,1
+3,8;6;2,2
+3,10;7
+4,0;0
+4,1;8;2,3
+4,4;9;2,3
+4,10;7
+4,11;10;2,2
+5,0;0
+5,7;0
+5,8;7
+5,9;0
+5,10;0
+6,0;0
+6,3;0
+6,4;0
+6,8;0
+6,11;0
+7,12;0

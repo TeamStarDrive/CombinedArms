@@ -1,0 +1,21 @@
+﻿Version=1
+Name=Dyalok-Supply
+Hull=Draylok/Wisp
+Role=supply
+Style=Draylok
+Size=6,2
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=OrdnanceLockerSmall;NuclearReactorSmall;BasicFuelCell;2x1Twinengines;Cockpit
+Modules=9
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+1,0;0
+1,1;1
+2,0;2
+2,1;3;2,1
+3,0;4
+4,0;0
+4,1;1
+5,1;0

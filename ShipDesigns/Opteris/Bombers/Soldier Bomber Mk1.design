@@ -1,0 +1,47 @@
+﻿Version=1
+Name=Soldier Bomber Mk1
+Hull=Opteris/Soldier
+Role=frigate
+ModName=Combined Arms
+Style=Opteris
+Size=10,17
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Armored Solarpanel Small;Armored Solarpanel Med;NuclearBombBay2x2;LaserTurret;FrigateEngine;Bridge;Magshield;NuclearReactorMed;NuclearReactorSmall;OrdnanceLockerSmall;WarpEngine_1x1;Engine
+Modules=34
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,8;0
+1,7;0
+2,4;1;2,2
+2,6;2;2,2
+2,8;2;2,2
+2,10;3;2,2;330
+2,12;3;2,2;225
+3,1;0
+3,2;0
+3,3;0
+3,14;4;2,2
+4,0;1;2,2
+4,2;3;2,2
+4,4;5;2,2
+4,6;6;2,2
+4,8;7;2,2
+4,10;8
+4,11;9
+4,12;7;2,2
+4,16;10
+5,10;9
+5,11;9
+5,14;4;2,2
+5,16;11
+6,1;0
+6,2;0
+6,3;0
+6,4;1;2,2
+6,6;2;2,2
+6,8;2;2,2
+6,10;3;2,2;30
+6,12;3;2,2;135
+8,7;0
+9,8;0

@@ -1,0 +1,27 @@
+﻿Version=1
+Name=Draylok Colonizer Mk4
+Hull=Draylok/Draylok Tx Small
+Role=freighter
+ModName=Combined Arms
+Style=Draylok
+Size=4,8
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=ColonyModuleFood;Structure;NuclearReactorMed;WarpEngine_1x1;Engine;ColonyModuleProduction;Cockpit;Sensor1x2
+Modules=14
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0;2,3
+0,4;1
+0,5;1
+0,6;1
+1,0;1
+1,4;2;2,2
+1,6;3
+1,7;4
+2,0;1
+2,1;5;2,3
+2,6;3
+2,7;4
+3,4;6
+3,5;7;1,2;270;1

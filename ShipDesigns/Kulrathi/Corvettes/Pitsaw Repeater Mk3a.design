@@ -1,0 +1,47 @@
+﻿Version=1
+Name=Pitsaw Repeater Mk3a
+Hull=Kulrathi/Pitsaw
+Role=corvette
+ModName=Combined Arms
+Style=Kulrathi
+Size=12,8
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=advanced_small_fuelcell;Fighter VOB;LightACHEAP;AdvancedFShieldBattle;WarpEngine_1x1;LaserPurple;PowerSolarArm;OrdnanceLockerSmall;QuantumFusionReactor_1x1;engine_fighter_1x1;Cockpit_Side;2x1Twinengines
+Modules=34
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,5;0
+1,5;1
+1,6;2;2,2;210
+2,3;2;2,2;315
+2,5;3;2,1;90;2
+3,6;4
+3,7;5;;330
+4,0;6
+4,1;2;2,2;330
+4,3;7
+4,4;7
+4,5;8
+4,6;9
+4,7;5;;210
+5,3;7
+5,4;10;2,1
+5,5;8
+5,6;11;2,1
+6,1;2;2,2;30
+6,3;7
+6,5;8
+7,0;6
+7,3;7
+7,4;7
+7,5;8
+7,6;9
+7,7;5;;150
+8,3;2;2,2;45
+8,5;3;2,1;270;1
+8,6;4
+8,7;5;;30
+9,6;2;2,2;150
+10,5;1
+11,5;0

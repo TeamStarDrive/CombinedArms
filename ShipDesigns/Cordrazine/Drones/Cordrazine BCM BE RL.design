@@ -1,0 +1,17 @@
+﻿Version=1
+Name=Cordrazine BCM BE RL
+Hull=Cordrazine/Kitving
+Role=drone
+ModName=Combined Arms
+Style=Cordrazine
+Size=2,3
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=DroneRocketLauncher;CommandModule_I;DroneEngine_I
+Modules=4
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,0;0
+1,0;0
+0,1;1
+0,2;2

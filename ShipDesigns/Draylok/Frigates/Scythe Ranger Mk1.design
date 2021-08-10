@@ -1,0 +1,63 @@
+﻿Version=1
+Name=Scythe Ranger Mk1
+Hull=Draylok/Scythe
+Role=frigate
+ModName=Combined Arms
+Style=Draylok
+Size=14,10
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=PlaSteelArmorSmall;OrdnanceLockerSmall;Railgun1x3;ArmoredStorageSmall;PowerSolarArm;Fusion Reactor;thruster1x1;engine_fighter_1x1;HVVulcanCannon;Shield_1KW;WarpEngine_2x2;PlaSteelArmorMed;Bridge;FrigateEngine
+Modules=50
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+0,2;0
+0,3;0
+0,4;0
+0,5;0
+0,6;0
+1,0;0
+1,1;0
+1,2;1
+1,3;2;1,3
+1,6;2;1,3
+2,5;3
+2,6;2;1,3
+2,9;4
+3,5;0
+3,6;5;2,2
+3,8;6
+4,5;0
+4,8;7
+5,3;0
+5,4;8;1,2
+5,6;9;2,2
+5,8;10;2,2
+6,1;11;2,2
+6,3;1
+6,4;12;2,2
+7,3;1
+7,6;9;2,2
+7,8;13;2,2
+8,3;0
+8,4;8;1,2
+9,5;0
+9,6;5;2,2
+9,8;7
+10,5;0
+10,8;6
+11,5;3
+11,6;2;1,3
+11,9;4
+12,0;0
+12,1;0
+12,2;1
+12,3;2;1,3
+12,6;2;1,3
+13,1;0
+13,2;0
+13,3;0
+13,4;0
+13,5;0
+13,6;0

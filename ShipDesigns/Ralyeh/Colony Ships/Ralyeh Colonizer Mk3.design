@@ -1,0 +1,39 @@
+﻿Version=1
+Name=Ralyeh Colonizer Mk3
+Hull=Ralyeh/Vessel M
+Role=freighter
+ModName=Combined Arms
+Style=Ralyeh
+Size=6,16
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Structure;PowerSolar;ColonyModuleFood;Advance ColonyModule;Cockpit_Side;Sensor1x2;NuclearReactorMed;mwdsmall;ColonyModuleProduction
+Modules=26
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,2;0
+0,3;0
+1,0;1
+1,1;0
+1,2;0
+1,3;0
+1,4;2;2,3
+2,0;0
+2,1;3;2,3
+2,7;0
+2,8;4;2,1
+2,9;5;2,1
+2,10;0
+2,11;6;2,2
+2,13;7;1,3
+3,0;0
+3,4;8;2,3
+3,7;0
+3,10;0
+3,13;7;1,3
+4,0;1
+4,1;0
+4,2;0
+4,3;0
+5,2;0
+5,3;0

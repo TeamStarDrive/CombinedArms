@@ -1,0 +1,38 @@
+﻿Version=1
+Name=Kuma Small Mk2
+Hull=Kulrathi/Kuma Sukoshi
+Role=freighter
+ModName=Combined Arms
+Style=Kulrathi
+Size=6,8
+DefaultAIState=DoNothing
+DefaultCombatState=Evade
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=PowerSolar;MediumCargoHold;BasicCargoHold;NuclearReactorSmall;WarpEngine_1x1;Cockpit;Engine
+Modules=25
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,3;0
+0,4;0
+0,5;0
+1,2;1;2,2
+1,4;2
+1,5;2
+1,6;2
+1,7;0
+2,0;1;2,2
+2,4;2
+2,5;3
+2,6;4
+2,7;4
+3,2;1;2,2
+3,4;5
+3,5;3
+3,6;6
+3,7;4
+4,4;2
+4,5;2
+4,6;2
+4,7;0
+5,3;0
+5,4;0
+5,5;0

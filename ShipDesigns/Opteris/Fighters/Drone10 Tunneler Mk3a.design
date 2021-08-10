@@ -1,0 +1,28 @@
+﻿Version=1
+Name=Drone10 Tunneler Mk3a
+Hull=Opteris/Drone10
+Role=fighter
+ModName=Combined Arms
+Style=Opteris
+Size=8,4
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=BlueLaser1x4;BlueLaser1x1;AntiMReactorSmall;advanced_small_fuelcell;Fighter Shield Blue;2x1Twinengines;Cockpit;BlueLaser1x2
+Modules=15
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,0;0;1,4
+1,2;1
+2,1;2
+2,2;3
+2,3;1
+3,0;4
+3,1;2
+3,2;5;2,1
+3,3;5;2,1
+4,0;4
+4,1;2
+5,1;6
+5,2;7;1,2
+6,2;1
+7,0;0;1,4

@@ -1,0 +1,25 @@
+﻿Version=1
+Name=Fanatic Invoker Mk1a
+Hull=Ralyeh/Fanatic
+Role=fighter
+ModName=Combined Arms
+Style=Ralyeh
+Size=4,4
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=VulcanCannon;OrdnanceLockerSmall;Advanced Fighter Generator;Cockpit;Engine;PowerSolar;Fighter Shield
+Modules=12
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+0,2;1
+1,0;0
+1,1;2
+1,2;3
+1,3;4
+2,0;0
+2,1;5
+2,2;6
+2,3;4
+3,1;0
+3,2;1

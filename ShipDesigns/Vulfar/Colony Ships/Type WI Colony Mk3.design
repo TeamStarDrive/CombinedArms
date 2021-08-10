@@ -1,0 +1,26 @@
+﻿Version=1
+Name=Type WI Colony Mk3
+Hull=Vulfen/Type WI
+Role=freighter
+ModName=Combined Arms
+Style=Vulfen
+Size=6,7
+DefaultAIState=DoNothing
+DefaultCombatState=Evade
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=ColonyModuleProduction;Structure;Sensor1x2;Cockpit_Side;MedCapacitor;engine_fighter_1x1;WarpEngine_1x1;ColonyModuleFood
+Modules=13
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,3;0;2,3
+1,6;1
+2,0;1
+2,1;2;2,1
+2,2;3;2,1
+2,3;4;2,2
+2,5;5
+2,6;6
+3,0;1
+3,5;5
+3,6;6
+4,3;7;2,3
+4,6;1

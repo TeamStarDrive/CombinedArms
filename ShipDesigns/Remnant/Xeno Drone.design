@@ -1,0 +1,17 @@
+﻿Version=1
+Name=Xeno Drone
+Hull=Remnant/Xeno Drone
+Role=drone
+ModName=Combined Arms
+Style=Remnant
+Size=2,2
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=LaserPurple;DroneCannon1x1;DroneEngine_I;CommandModule_I
+Modules=4
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,0;0
+1,0;1
+0,1;2
+1,1;3

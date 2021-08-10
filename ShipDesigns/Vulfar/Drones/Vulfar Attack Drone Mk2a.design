@@ -1,0 +1,18 @@
+﻿Version=1
+Name=Vulfar Attack Drone Mk2a
+Hull=Vulfen/Nulla
+Role=drone
+ModName=Combined Arms
+Style=Vulfen
+Size=2,4
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=DroneShotgunHVEmp;CommandModule_II;DroneClusterBomb1x1;DroneCannon1x1;DroneEngine_I
+Modules=5
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,0;0
+0,1;1
+0,2;2
+1,2;3
+0,3;4

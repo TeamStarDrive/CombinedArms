@@ -1,0 +1,28 @@
+﻿Version=1
+Name=Type WI Transport Mk3
+Hull=Vulfen/Type WI
+Role=freighter
+ModName=Combined Arms
+Style=Vulfen
+Size=6,7
+DefaultAIState=DoNothing
+DefaultCombatState=Evade
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=MediumCargoHold;Fighter VOB;Cockpit;Structure;NuclearReactorMed;2x1Twinengines;WarpEngine_1x1
+Modules=15
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,3;0;2,2
+0,5;1
+1,5;2
+1,6;3
+2,0;3
+2,1;0;2,2
+2,3;4;2,2
+2,5;5;2,1
+2,6;6
+3,0;3
+3,6;6
+4,3;0;2,2
+4,5;2
+4,6;3
+5,5;1
