@@ -1,0 +1,49 @@
+﻿Version=1
+Name=Pitsaw Repeater Mk1
+Hull=Kulrathi/Pitsaw
+Role=corvette
+ModName=Combined Arms
+Style=Kulrathi
+Size=12,8
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=OrdnanceLockerSmall;LightAC;Fighter Shield;Advanced Fighter Generator;WarpEngine_1x1;Fighter HASG Turret;Cockpit_Side;2x1Twinengines;engine_fighter_1x1
+Modules=36
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,5;0
+1,5;0
+1,6;1;2,2;255
+2,3;1;2,2;315
+2,5;2
+3,5;3
+3,6;4
+3,7;5;;255
+4,0;0
+4,1;1;2,2;315
+4,3;2
+4,4;3
+4,5;3
+4,6;4
+4,7;5;;285
+5,3;2
+5,4;2
+5,5;6;2,1
+5,6;7;2,1
+6,1;1;2,2;45
+6,3;2
+6,4;2
+7,0;0
+7,3;5;;360
+7,4;3
+7,5;3
+7,6;8
+7,7;5;;75
+8,3;1;2,2;45
+8,5;3
+8,6;8
+8,7;5;;105
+9,5;2
+9,6;1;2,2;105
+10,5;0
+11,5;0

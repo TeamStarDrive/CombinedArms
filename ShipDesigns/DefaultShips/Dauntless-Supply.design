@@ -1,0 +1,25 @@
+﻿Version=1
+Name=Dauntless-Supply
+Hull=Dauntless/ts2_modE2
+Role=supply
+Style=Dauntless
+Size=4,5
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=OrdnanceLockerSmall;NuclearReactorSmall;Defshield;Cockpit;2x1Twinengines;PowerSolar
+Modules=13
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,0;0
+0,1;0
+1,0;0
+1,1;1
+1,2;2
+1,3;3
+1,4;4;2,1
+2,0;5
+2,1;2
+2,2;1
+2,3;0
+3,0;0
+3,1;0

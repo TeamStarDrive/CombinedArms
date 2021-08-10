@@ -1,0 +1,61 @@
+﻿Version=1
+Name=Kulrathi HP Missile Mk2
+Hull=Kulrathi/Kulrathi_Heavy_Platform
+Role=platform
+ModName=Combined Arms
+Style=Kulrathi
+Size=12,8
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Ceramic Armor Small;BroadSide_SRM_2x3;Gatling Turret;Fighter Shield;Advanced Fighter Generator;ArmoredStorageSmall;Cockpit_Side
+Modules=48
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+0,2;0
+0,5;0
+0,6;0
+1,1;1;3,2;270;1
+1,3;0
+1,4;0
+1,5;1;3,2;270;1
+2,3;2;2,2;270
+3,0;0
+3,7;0
+4,0;0
+4,1;3
+4,2;3
+4,3;4
+4,4;4
+4,5;3
+4,6;3
+4,7;0
+5,1;0
+5,2;5
+5,3;6;2,1
+5,4;6;2,1;180;3
+5,5;5
+5,6;0
+6,1;0
+6,2;5
+6,5;5
+6,6;0
+7,0;0
+7,1;3
+7,2;3
+7,3;5
+7,4;4
+7,5;3
+7,6;3
+7,7;0
+8,0;0
+8,1;1;3,2;90;2
+8,3;2;2,2;90
+8,5;1;3,2;90;2
+8,7;0
+10,3;0
+10,4;0
+11,1;0
+11,2;0
+11,5;0
+11,6;0

@@ -1,0 +1,26 @@
+﻿Version=1
+Name=Opteris Assault Shuttle
+Hull=Opteris/Drone
+Role=troop
+Style=Opteris
+Size=4,4
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=PowerSolar;OrdnanceLockerSmall;Internal Bulkhead;Cockpit;NuclearReactorSmall;Engine;Defshield
+Modules=14
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+0,2;1
+0,3;2
+1,0;0
+1,1;3
+1,2;4
+1,3;5
+2,0;0
+2,1;6
+2,2;4
+2,3;5
+3,1;0
+3,2;1
+3,3;2

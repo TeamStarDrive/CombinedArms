@@ -1,0 +1,42 @@
+﻿Version=1
+Name=Blade Tsunami Mk0
+Hull=Kulrathi/Blade
+Role=corvette
+ModName=Combined Arms
+Style=Kulrathi
+Size=10,8
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Railgun1x3;PowerSolar;OrdnanceLockerSmall;HVVulcanCannon;engine_fighter_1x1;PowerSolarArm;Cockpit;Internal Bulkhead;Fighter Shield;Advanced Fighter Generator;2x1Twinengines;WarpEngine_1x1
+Modules=29
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,5;0;1,3
+1,3;1
+1,4;0;1,3
+1,7;2
+2,4;3;1,2
+2,6;4
+3,0;5
+3,1;0;1,3
+3,4;2
+3,5;6
+3,6;7
+4,3;7
+4,4;8
+4,5;9
+4,6;10;2,1
+5,3;7
+5,4;8
+5,5;9
+6,0;5
+6,1;0;1,3
+6,4;8
+6,5;9
+6,6;7
+7,4;3;1,2
+7,6;11
+8,3;1
+8,4;0;1,3
+8,7;2
+9,5;0;1,3

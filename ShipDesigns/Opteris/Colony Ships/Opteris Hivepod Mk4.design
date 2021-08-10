@@ -1,0 +1,40 @@
+﻿Version=1
+Name=Opteris Hivepod Mk4
+Hull=Opteris/Crawler
+Role=freighter
+ModName=Combined Arms
+Style=Opteris
+Size=4,14
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Structure;Advance ColonyModule;thruster1x1;Fighter VOB;Sensor1x2;NuclearReactorSmall;ColonyModuleResearch;Cockpit_Side;MedCapacitor;WarpEngine_2x2;ColonyModuleProduction
+Modules=27
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+0,2;1;2,3
+0,5;0
+0,6;0
+0,7;0
+0,8;0
+0,9;2
+0,10;3
+0,11;3
+1,0;4;2,1
+1,1;5
+1,5;6;2,3
+1,8;7;2,1
+1,9;8;2,2
+1,11;5
+1,12;9;2,2
+2,1;5
+2,2;10;2,3
+2,11;5
+3,1;0
+3,5;0
+3,6;0
+3,7;0
+3,8;0
+3,9;2
+3,10;3
+3,11;3

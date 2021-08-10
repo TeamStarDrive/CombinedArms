@@ -1,0 +1,72 @@
+﻿Version=1
+Name=Type V Carrier Mk1c
+Hull=Vulfen/Type V
+Role=corvette
+ModName=Combined Arms
+Style=Vulfen
+Size=12,13
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=CompositeAlloys Small;DroneBay;ShotgunHVEmp;thruster1x2;Fighter ASG Turret;Railgun1x3;Fighter Shield Battle;OrdnanceLocker;AntiMReactorSmall;NuclearReactorSmall;mwdsmall;OrdnanceLockerSmall;Cockpit_Side;AdvancedFShieldFast;2x1Twinengines;engine_fighter_1x1;Engine
+Modules=59
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,7;0
+0,8;0
+1,5;0
+1,6;0
+1,7;1;1,4;180;3;DynamicInterceptor
+2,4;0
+2,5;2;2,2;270
+2,7;1;1,4;180;3;DynamicAntiShip
+2,11;3;2,1;90;2
+3,1;0
+3,2;0
+3,3;0
+3,4;4;;210
+3,7;1;1,4;180;3;DynamicInterceptor
+4,0;0
+4,1;5;1,3
+4,4;6
+4,5;7;2,2
+4,7;8
+4,8;9
+4,9;8
+4,10;10;1,3
+5,0;0
+5,1;5;1,3
+5,4;11
+5,7;8
+5,8;12;2,1
+5,9;13;2,1;90;2
+5,10;14;2,1
+5,11;15
+5,12;16
+6,0;0
+6,1;5;1,3
+6,4;11
+6,5;7;2,2
+6,7;8
+6,11;15
+6,12;16
+7,0;0
+7,1;5;1,3
+7,4;6
+7,7;8
+7,8;11
+7,9;8
+7,10;10;1,3
+8,1;0
+8,2;0
+8,3;0
+8,4;4;;150
+8,5;2;2,2;90
+8,7;1;1,4;180;3;DynamicInterceptor
+8,11;3;2,1;270;1
+9,4;0
+9,7;1;1,4;180;3;DynamicAntiShip
+10,5;0
+10,6;0
+10,7;1;1,4;180;3;DynamicInterceptor
+11,7;0
+11,8;0

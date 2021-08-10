@@ -1,0 +1,36 @@
+﻿Version=1
+Name=Light Ancient Bomber
+Hull=Remnant/XenoGunship
+Role=corvette
+ModName=Combined Arms
+Style=Remnant
+Size=8,8
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=RENuclearBombBay2x2;CompositeAlloys Small;REPD;OrdnanceLockerSmall;AncientReactorMed;RELaserGreen;FrigateEngine;AncientShield2kw;RemnantSmallReactor;Fabricator;Cockpit
+Modules=23
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,2;0;2,2
+1,1;1
+1,4;2
+1,6;1
+2,1;1
+2,2;3
+2,3;4;2,2
+2,5;5;;240
+2,6;6;2,2
+3,0;5;;330
+3,1;7;2,2
+3,5;8
+4,0;5;;30
+4,3;9;2,2
+4,5;8
+4,6;6;2,2
+5,1;1
+5,2;10
+5,5;5;;120
+6,1;1
+6,2;0;2,2
+6,4;2;;180
+6,6;1

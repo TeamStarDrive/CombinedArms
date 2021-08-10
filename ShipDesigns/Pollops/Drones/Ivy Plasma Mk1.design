@@ -1,0 +1,17 @@
+﻿Version=1
+Name=Ivy Plasma Mk1
+Hull=Pollops/Ivy
+Role=drone
+ModName=Combined Arms
+Style=Pollops
+Size=3,3
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=CommandModule_I;Drone PlasmaBomb1x1;DroneEngine_I
+Modules=4
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+1,0;0
+2,1;1
+0,1;1
+1,2;2

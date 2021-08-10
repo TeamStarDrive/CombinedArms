@@ -1,0 +1,64 @@
+﻿Version=1
+Name=Heavy Gunboat Bomber Mk1
+Hull=Terran/HeavyGunboat
+Role=frigate
+ModName=Combined Arms
+Style=Terran
+Size=6,18
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=DepletedUraniumArmor small;ArmoredStorageSmall;WarpEngine_1x1;Railgun1x3;NuclearBombBay2x2;OrdnanceLocker;Fusion Reactor;FrigateEngine;MissilePD_2x2;Shield_1KW;NuclearReactorSmall;Bridge;PowerConduit;PowerSolarArm
+Modules=51
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,2;0
+0,3;0
+0,4;0
+0,6;0
+0,7;0
+0,8;0
+0,9;0
+0,12;1
+0,13;1
+0,14;1
+0,15;1
+0,16;2
+1,1;0
+1,2;3;1,3
+1,5;0
+1,6;4;2,2
+1,8;4;2,2
+1,10;0
+1,11;1
+1,12;5;2,2
+1,14;6;2,2
+1,16;7;2,2
+2,0;0
+2,1;8;2,2
+2,3;9;2,2
+2,5;10
+2,10;11;2,2
+3,0;0
+3,5;12
+3,6;4;2,2
+3,8;4;2,2
+3,12;9;2,2
+3,14;6;2,2
+3,16;7;2,2
+4,1;0
+4,2;3;1,3
+4,5;0
+4,10;13
+4,11;1
+5,2;0
+5,3;0
+5,4;0
+5,6;0
+5,7;0
+5,8;0
+5,9;0
+5,12;1
+5,13;1
+5,14;1
+5,15;1
+5,16;2

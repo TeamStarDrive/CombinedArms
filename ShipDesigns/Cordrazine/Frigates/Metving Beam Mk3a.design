@@ -1,0 +1,54 @@
+﻿Version=1
+Name=Metving Beam Mk3a
+Hull=Cordrazine/Metving
+Role=frigate
+ModName=Combined Arms
+Style=Cordrazine
+Size=12,14
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=XSGA5Fairy Small;Xraylaser;LaserCannon;BattleShield2x2;QuantumFusionReactor_2x2;Cockpit;advanced_small_fuelcell;CombatEngine_2x2;WarpEngine_2x2;FuelCellSmallArmored;HSA-Frontier Small
+Modules=41
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,5;0
+0,6;0
+1,4;1;2,2;270
+2,9;0
+3,2;1;2,2;285
+3,4;2
+3,5;2;;300
+3,6;2;;270
+3,7;2;;225
+3,8;2;;180
+3,9;0
+4,4;3;2,2
+4,6;4;2,2
+4,8;5
+4,9;0
+5,0;0
+5,1;1;2,2
+5,3;6
+5,8;7;2,2
+5,10;8;2,2
+5,12;9
+5,13;0
+6,0;10
+6,3;6
+6,4;3;2,2
+6,6;4;2,2
+6,12;9
+6,13;0
+7,2;1;2,2;75
+7,8;5
+7,9;0
+8,4;2
+8,5;2;;60
+8,6;2;;90
+8,7;2;;135
+8,8;2;;180
+8,9;0
+9,4;1;2,2;90
+9,9;0
+11,5;0
+11,6;0

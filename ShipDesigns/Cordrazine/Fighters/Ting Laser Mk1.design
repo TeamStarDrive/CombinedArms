@@ -1,0 +1,34 @@
+﻿Version=1
+Name=Ting Laser Mk1
+Hull=Cordrazine/Ting
+Role=fighter
+ModName=Combined Arms
+Style=Cordrazine
+Size=8,6
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=LaserPurple;LaserGreen;LaserCannon;BasicFuelCell;Advanced Fighter Generator;Cockpit_Side;2x1Twinengines;Fighter Shield
+Modules=21
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,5;0;;225
+1,4;1
+1,5;0;;195
+2,0;2;;315
+2,2;3
+2,3;4
+2,4;1
+3,0;2;;330
+3,1;5;2,1
+3,2;3
+3,3;6;2,1
+3,4;6;2,1
+4,0;2;;30
+4,2;7
+5,0;2;;45
+5,2;3
+5,3;4
+5,4;1
+6,4;1
+6,5;0;;165
+7,5;0;;135

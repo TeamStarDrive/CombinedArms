@@ -1,0 +1,44 @@
+﻿Version=1
+Name=Worker10 Molder Mk2a
+Hull=Opteris/Worker10
+Role=corvette
+ModName=Combined Arms
+Style=Opteris
+Size=12,11
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=BasicFuelCell;BlueLaser1x1;PhotonTurret3x3;HSA-Mirage Small;BlueLaser1x4;Fighter Shield Blue;PhasorTurret2x2;AntiMReactorSmall;Cockpit_Side;FrigateEngine
+Modules=31
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,6;0
+1,6;1
+2,4;1
+2,5;2;3,3;315
+2,10;0
+3,3;3
+3,8;3
+3,9;0
+4,0;4;1,4
+4,4;5
+4,8;3
+5,2;3
+5,3;6;2,2
+5,5;7
+5,6;7
+5,7;8;2,1
+5,8;9;2,2
+6,2;3
+6,5;7
+6,6;7
+7,0;4;1,4
+7,4;5
+7,5;2;3,3;45
+7,8;3
+8,3;3
+8,8;3
+8,9;0
+9,4;1
+9,10;0
+10,6;1
+11,6;0

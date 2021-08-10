@@ -1,0 +1,31 @@
+﻿Version=1
+Name=Specter Starstream Mk1a
+Hull=Terran/Specter
+Role=fighter
+ModName=Combined Arms
+Style=Terran
+Size=8,7
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=OrdnanceLockerSmall;HVVulcanCannon;PowerConduit;Advanced Fighter Generator;Engine;Cockpit;Fighter Shield
+Modules=18
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,6;0
+1,5;1;1,2
+2,0;0
+2,5;1;1,2
+3,1;1;1,2
+3,3;2
+3,4;3
+3,5;4
+3,6;4
+4,1;1;1,2
+4,3;5
+4,4;6
+4,5;3
+4,6;4
+5,0;0
+5,5;1;1,2
+6,5;1;1,2
+7,6;0

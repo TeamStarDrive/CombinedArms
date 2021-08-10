@@ -1,0 +1,61 @@
+﻿Version=1
+Name=Scythe Carrier Mk1a
+Hull=Draylok/Scythe
+Role=frigate
+ModName=Combined Arms
+Style=Draylok
+Size=14,10
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=AdvArmored Solar collector Small;Shape Memory Armor Small;DroneBay;ArmoredStorageSmall;FastShield2x2;thruster1x1;engine_fighter_1x1;Railgun1x3;Overload Fusion Reactor;WarpEngine_2x2;Shape Memory Armor Med;OrdnanceLockerSmall;Bridge;FrigateEngine
+Modules=48
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+0,2;0
+0,3;1
+0,4;0
+0,5;1
+0,6;1
+1,0;0
+1,1;1
+1,2;2;1,4;;;DynamicInterceptor
+1,6;0
+1,7;3
+1,8;3
+2,5;3
+2,6;2;1,4;180;3;DynamicInterceptor
+3,5;1
+3,6;4;2,2
+3,8;5
+4,5;1
+4,8;6
+5,3;7;1,3
+5,6;8;2,2
+5,8;9;2,2
+6,1;10;2,2
+6,3;11
+6,4;12;2,2
+7,3;11
+7,6;8;2,2
+7,8;13;2,2
+8,3;7;1,3
+9,5;1
+9,6;4;2,2
+9,8;6
+10,5;1
+10,8;5
+11,5;3
+11,6;2;1,4;180;3;DynamicInterceptor
+12,0;0
+12,1;1
+12,2;2;1,4;;;DynamicInterceptor
+12,6;0
+12,7;3
+12,8;3
+13,1;0
+13,2;0
+13,3;1
+13,4;0
+13,5;1
+13,6;1

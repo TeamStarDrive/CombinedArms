@@ -1,0 +1,22 @@
+﻿Version=1
+Name=Wisp Energy Pulser Mk1a
+Hull=Draylok/Wisp
+Role=fighter
+ModName=Combined Arms
+Style=Draylok
+Size=6,2
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=BasicFuelCell;LaserGreen;Advanced Fighter Generator;2x1Twinengines;Fighter Shield;Cockpit
+Modules=9
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+1,0;1
+1,1;1
+2,0;2
+2,1;3;2,1
+3,0;4
+4,0;1
+4,1;5
+5,1;0

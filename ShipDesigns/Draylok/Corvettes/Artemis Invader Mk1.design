@@ -1,0 +1,41 @@
+﻿Version=1
+Name=Artemis Invader Mk1
+Hull=Draylok/Artemis
+Role=corvette
+ModName=Combined Arms
+Style=Draylok
+Size=10,8
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=BasicFuelCell;BlueLaser1x2;Fighter VOB;Advanced Fighter Generator;WarpEngine_1x1;AdvancedFShield;2x1Twinengines;engine_fighter_1x1;Cockpit;Engine
+Modules=28
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,4;0
+0,5;1;1,2
+1,5;1;1,2
+2,6;2
+2,7;0
+3,3;1;1,2
+3,5;3
+3,6;3
+3,7;4
+4,0;1;1,2
+4,2;1;1,2
+4,4;3
+4,5;5;2,1;90;2
+4,6;6;2,1
+4,7;7
+5,0;1;1,2
+5,2;1;1,2
+5,4;8
+5,7;7
+6,3;1;1,2
+6,5;3
+6,6;3
+6,7;9
+7,6;2
+7,7;0
+8,5;1;1,2
+9,4;0
+9,5;1;1,2

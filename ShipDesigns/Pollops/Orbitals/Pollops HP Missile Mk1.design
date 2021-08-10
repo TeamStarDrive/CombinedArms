@@ -1,0 +1,63 @@
+﻿Version=1
+Name=Pollops HP Missile Mk1
+Hull=Pollops/Pollops_Heavy_Platform
+Role=platform
+ModName=Combined Arms
+Style=Pollops
+Size=12,8
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Bionic Armor Small;BroadSide_SRM_2x3;OrdnanceLockerSmall;Advanced Fighter Generator;Fighter Shield;Bridge
+Modules=50
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,1;0
+0,2;0
+0,5;0
+0,6;0
+1,1;1;2,3
+1,4;1;2,3;180;3
+3,0;0
+3,1;2
+3,2;3
+3,3;2
+3,4;2
+3,5;3
+3,6;2
+3,7;0
+4,0;0
+4,1;2
+4,2;3
+4,3;4
+4,4;4
+4,5;2
+4,6;2
+4,7;0
+5,1;0
+5,2;5;2,2
+5,4;5;2,2
+5,6;0
+6,1;0
+6,6;0
+7,0;0
+7,1;2
+7,2;2
+7,3;4
+7,4;4
+7,5;2
+7,6;2
+7,7;0
+8,0;0
+8,1;2
+8,2;3
+8,3;2
+8,4;2
+8,5;3
+8,6;2
+8,7;0
+9,1;1;2,3
+9,4;1;2,3;180;3
+11,1;0
+11,2;0
+11,5;0
+11,6;0

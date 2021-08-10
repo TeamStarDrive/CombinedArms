@@ -1,0 +1,61 @@
+﻿Version=1
+Name=Dragon Sweeper Mk1a
+Hull=Dauntless/ts2
+Role=corvette
+ModName=Combined Arms
+Style=Dauntless
+Size=12,16
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Engine;2x1Twinengines;Advanced Fighter Generator;thruster1x1;RocketLauncher;AdvArmored Solar collector Small;Fighter Shield Fast;ArmoredStorageSmall;Cockpit_Side;OrdnanceLocker;PowerConduit
+Modules=48
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,12;0
+0,13;1;1,2;90;2
+1,13;2
+2,13;3
+3,12;4
+3,13;4;;270
+3,14;4;;180
+4,1;5
+4,12;4
+4,13;6
+4,14;4;;180
+5,0;7
+5,1;5
+5,2;4
+5,3;4
+5,4;6
+5,5;2
+5,6;7
+5,7;4
+5,8;4
+5,9;8;2,1
+5,10;9;2,2
+5,12;2
+5,13;2
+5,14;1;2,1
+5,15;1;2,1
+6,0;7
+6,1;5
+6,2;4
+6,3;4
+6,4;6
+6,5;10
+6,6;7
+6,7;6
+6,8;4
+6,12;2
+6,13;2
+7,1;5
+7,12;4
+7,13;6
+7,14;4;;180
+8,12;4
+8,13;4;;90
+8,14;4;;180
+9,13;3
+10,13;2
+11,12;0
+11,13;1;1,2;270;1

@@ -1,0 +1,51 @@
+﻿Version=1
+Name=Gunboat Bomber Mk1a
+Hull=Terran/Gunboat
+Role=frigate
+ModName=Combined Arms
+Style=Terran
+Size=6,16
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=NuclearBombBay2x2;ArmoredStorageSmall;PowerSolarArm;HVVulcanCannon;NuclearReactorSmall;FrigateEngine;MissilePD_2x2;Shield_1KW;PowerConduit;Fusion Reactor;Bridge;OrdnanceLockerSmall
+Modules=38
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,11;0;2,2
+0,13;1
+0,14;1
+1,1;2
+1,2;3;1,2
+1,4;1
+1,5;1
+1,6;1
+1,7;2
+1,8;2
+1,9;1
+1,10;1
+1,13;4
+1,14;5;2,2
+2,0;6;2,2
+2,2;0;2,2
+2,4;7;2,2
+2,6;8
+2,7;9;2,2
+2,9;8
+2,10;7;2,2
+2,12;10;2,2
+3,6;4
+3,9;11
+3,14;5;2,2
+4,1;2
+4,2;3;1,2
+4,4;1
+4,5;1
+4,6;2
+4,7;2
+4,8;2
+4,9;1
+4,10;1
+4,11;0;2,2
+4,13;4
+5,13;1
+5,14;1

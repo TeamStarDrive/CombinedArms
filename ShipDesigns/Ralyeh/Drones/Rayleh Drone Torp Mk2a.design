@@ -1,0 +1,19 @@
+﻿Version=1
+Name=Rayleh Drone Torp Mk2a
+Hull=Ralyeh/Monk
+Role=drone
+ModName=Combined Arms
+Style=Ralyeh
+Size=3,4
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=CommandModule_III;Micro Torpedo1;DroneClusterBomb1x1;DroneRocketLauncher;DroneEngine_III
+Modules=6
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+1,0;0
+1,1;1
+0,1;2
+1,2;0
+2,1;3
+1,3;4

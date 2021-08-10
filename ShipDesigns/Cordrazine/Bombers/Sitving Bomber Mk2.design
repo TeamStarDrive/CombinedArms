@@ -1,0 +1,44 @@
+﻿Version=1
+Name=Sitving Bomber Mk2
+Hull=Cordrazine/Sitving
+Role=corvette
+ModName=Combined Arms
+Style=Cordrazine
+Size=10,8
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=NuclearBombBay2x2;AdvArmored Solar collector Small;OrdnanceLockerSmall;LaserCannon;Fighter Shield;Engine;BlueLaser1x1;Cockpit_Side;Advanced Fighter Generator;2x1Twinengines
+Modules=31
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,6;0;2,2
+2,1;0;2,2
+2,5;1
+2,6;2
+2,7;1
+3,0;1
+3,3;3;;225
+3,4;1
+3,5;4
+3,6;5
+4,0;1
+4,1;6
+4,2;7;2,1
+4,3;4
+4,4;8
+4,5;9;2,1
+4,6;9;2,1
+5,0;1
+5,1;6
+5,3;4
+5,4;8
+6,0;1
+6,1;0;2,2
+6,3;3;;135
+6,4;1
+6,5;4
+6,6;5
+7,5;1
+7,6;2
+7,7;1
+8,6;0;2,2

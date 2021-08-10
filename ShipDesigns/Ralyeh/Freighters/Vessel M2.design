@@ -1,0 +1,35 @@
+﻿Version=1
+Name=Vessel M2
+Hull=Ralyeh/Vessel M
+Role=freighter
+ModName=Combined Arms
+Style=Ralyeh
+Size=6,16
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=MediumCargoHold;Fighter VOB;BasicCargoHold;NuclearReactorSmall;Cockpit_Side;MedCapacitor;engine_fighter_1x1;WarpEngine_2x2
+Modules=22
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,2;0;2,2
+1,0;1
+1,1;2
+1,4;0;2,2
+1,6;2
+2,0;2
+2,1;3
+2,2;0;2,2
+2,6;0;2,2
+2,8;4;2,1
+2,9;5;2,2
+2,11;5;2,2
+2,13;6
+2,14;7;2,2
+3,0;2
+3,1;3
+3,4;0;2,2
+3,13;6
+4,0;1
+4,1;2
+4,2;0;2,2
+4,6;2

@@ -1,0 +1,71 @@
+﻿Version=1
+Name=Cycad Troop Mk2a
+Hull=Pollops/Cycad
+Role=frigate
+ModName=Combined Arms
+Style=Pollops
+Size=18,15
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Organic Armor Small;XSGA5Fairy Small;Organic Armor Med;ArmoredStorageSmall;LightACHEAP;XSGA5Fairy Med;TroopAssaultBay;Cockpit_Side;MarineBarracks2x2;BattleShield2x2;QuantumFusionReactor_2x2;thruster1x2;engine_fighter_1x1;mwdsmall;MedOverdrive;WarpEngine_1x1
+Modules=58
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+6,0;0
+11,0;0
+6,1;1
+11,1;1
+5,2;2;2,2
+11,2;2;2,2
+2,4;0
+5,4;1
+6,4;3
+11,4;3
+12,4;1
+15,4;0
+2,5;1
+5,5;4;2,2;315
+8,5;5;2,2
+11,5;4;2,2;45
+15,5;1
+2,6;1
+3,6;0
+7,6;0
+10,6;0
+14,6;0
+15,6;1
+2,7;6;4,3;90;2;Pollops Assault Shuttle
+6,7;3
+7,7;3
+8,7;7;2,1
+10,7;3
+11,7;3
+12,7;6;4,3;270;1;Pollops Assault Shuttle
+1,8;1
+6,8;8;2,2
+8,8;9;2,2
+10,8;8;2,2
+16,8;1
+3,10;1
+4,10;9;2,2
+6,10;10;2,2
+8,10;10;2,2
+10,10;10;2,2
+12,10;9;2,2
+14,10;1
+1,12;4;2,2;225
+3,12;11;1,2
+4,12;11;1,2
+5,12;12
+6,12;13;3,1;90;2
+9,12;13;3,1;90;2
+12,12;12
+13,12;11;1,2
+14,12;11;1,2
+15,12;4;2,2;135
+0,13;1
+5,13;14;2,2
+7,13;15
+10,13;15
+11,13;14;2,2
+17,13;1
