@@ -4,7 +4,7 @@
   <DroneModule>false</DroneModule>
   <FighterModule>false</FighterModule>
  
-  <UID>Pirate Inhibitor</UID>
+  <UID>REInhibitor</UID>
   <Cost>10</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>4</TechLevel>
@@ -16,16 +16,16 @@
   <Name>Warp Inhibitor</Name>
   <Restrictions>I</Restrictions>
 
-  <IconTexturePath>Modules/Inhibitor_5x5</IconTexturePath>3
+  <IconTexturePath>Modules/ReInhibitor_2x2</IconTexturePath>3
   <NameIndex>1084</NameIndex>
   <DescriptionIndex>1085</DescriptionIndex>
   <!-- Mass and Health -->
   <Mass>20</Mass>
-  <Health>1000</Health>
-  <HealthMax>1000</HealthMax>
+  <Health>10000</Health>
+  <HealthMax>10000</HealthMax>
   <RepairDifficulty>6</RepairDifficulty>
 
-  <InhibitionRadius>7500</InhibitionRadius>
+  <InhibitionRadius>40000</InhibitionRadius>
   <!-- Power Drawn -->
   <PowerDraw>100</PowerDraw>
 </ShipModule>

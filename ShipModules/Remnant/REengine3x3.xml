@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <DestroyerModule>false</DestroyerModule>
+  <FreighterModule>true</FreighterModule>
+  <PlatformModule>false</PlatformModule>
+  <StationModule>false</StationModule>
+
+  <Cost>26</Cost>
+  <TechLevel>3</TechLevel>
+  <!-- common traits shared by all ship modules -->
+  <ModuleType>Engine</ModuleType>
+  <Name>Capital Engine</Name>
+  <XSIZE>3</XSIZE>
+  <YSIZE>3</YSIZE>
+  <Restrictions>E</Restrictions>
+  <UID>REengine3x3</UID>
+  <IconTexturePath>Modules/REengine_3x3</IconTexturePath>
+  <Mass>71</Mass>
+  <Health>22500</Health>
+  <HealthMax>22500</HealthMax>
+  <RepairDifficulty>2.5</RepairDifficulty>
+  <energyreq>0</energyreq>
+  <modRadius>4</modRadius>
+  <Description>This massive engine will provide awesome thrust at an awesome power cost.  </Description>
+  <CrewRequired>1</CrewRequired>
+  <CrewSupplied>0</CrewSupplied>
+  <PowerDraw>120</PowerDraw>
+  <DamageThreshold>600</DamageThreshold>
+
+  <NameIndex>918</NameIndex>
+  <DescriptionIndex>919</DescriptionIndex>
+
+  <!-- for PowerPlant Items -->
+  <explodes>false</explodes>
+  <PowerFlowMax>0</PowerFlowMax>
+  <PowerStoreMax>0</PowerStoreMax>
+  
+  <!-- for Weapons -->
+
+  
+  
+  <!-- for Engines -->
+  <thrust>170000</thrust>
+  <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
+  <TurnThrust>280000</TurnThrust>
+  <WarpThrust>500000</WarpThrust>
+  
+
+</ShipModule>
