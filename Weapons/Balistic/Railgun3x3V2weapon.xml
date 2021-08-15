@@ -1,0 +1,25 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Railgun>true</Tag_Railgun>
+  <Tag_Cannon>true</Tag_Cannon>
+ 
+  <UID>Railgun3x3V2weapon</UID>
+  <fireDelay>1</fireDelay>
+  <Range>5000</Range>
+  <OrdinanceRequiredToFire>1.5</OrdinanceRequiredToFire>
+  <ProjectileRadius>8</ProjectileRadius>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <fireCueName>sd_weapon_torpedo_01</fireCueName>
+  <DamageRadius>36</DamageRadius>
+  <explodes>true</explodes>
+  <Scale>1.3</Scale>
+  <!-- Projectile Information -->
+  <DamageAmount>420</DamageAmount>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>1500</ProjectileSpeed>
+  <ProjectileTexturePath>projLong_02_cyan_dual</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <WeaponType>Ballistic Cannon</WeaponType>
+  <WeaponEffectType>MuzzleSmoke</WeaponEffectType>  
+</Weapon>
