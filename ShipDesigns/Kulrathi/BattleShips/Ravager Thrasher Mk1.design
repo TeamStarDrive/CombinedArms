@@ -2,15 +2,15 @@
 Name=Ravager Thrasher Mk1
 Hull=Kulrathi/Ravager
 Role=capital
-ModName=Combined Arms
 Style=Kulrathi
 Size=32,50
 GridCenter=16,24
+DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=Ceramic Armor Small;Ceramic Armor Large;ArmoredStorageSmall;OrdnanceLocker;Ceramic Armor Med;thruster1x3;ArmHeavyShield1;PowerConduit;NuclearReactorSmall;Reinforced Bulkhead Impoved;Repeater2x2_Ceramic;Dual ATCSM;OrdnanceSupplyBay;QuantumFusionReactor_2x2;Cockpit;MissilePD_2x2;Ammunition Dump;Railgun2x6;QuantumFusionReactor_4x4;OrdnanceLockerLarge;OrdnanceLockerSmall;thruster1x2;MissilePD_3x3;Internal Bulkhead Improved;Fabricator;QuantumFusionReactor_3x3;AutoCannonAP;jumpdrive2x2;MarineBarracks2x2;CIC;CapEngines;Engine;mwdsmall
-Modules=257
+Modules=256
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 13,0;0
 14,0;0
@@ -96,7 +96,6 @@ Modules=257
 11,23;6;3,3
 18,23;6;3,3
 21,23;15;2,2
-23,23;6;3,3
 25,23;0
 5,24;4;2,2
 7,24;11;2,3

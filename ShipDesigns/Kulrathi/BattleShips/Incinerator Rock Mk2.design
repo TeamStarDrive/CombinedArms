@@ -2,15 +2,15 @@
 Name=Incinerator Rock Mk2
 Hull=Kulrathi/Incinerator
 Role=battleship
-ModName=Combined Arms
 Style=Kulrathi
 Size=38,60
 GridCenter=19,29
+DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=Crystal Armor Med;Crystal Armor Large;Crystal Armor Small;EMPTurret3x3;Repeater2x2_Crystal;Assault Cannon Type20;ArmoredStorageSmall;PowerConduit;Armored Quantum Fusion Reactor;Cockpit_Side;SubspaceSensors;ArmHeavyShield2;RepairDrone;Assault Cannon Type10;Gatling Turret;BomberBay;Pulse Capacitor Small;CIC;MarineBarracks2x2;AMX50 Revolver;Ordnance Assemble;Reinforced Bulkhead Advanced;Linked Dark Matter Reactor Set;Internal Bulkhead Advanced;NuclearReactorSmall;Fabricator;jumpdrive2x3;OrdnanceLockerNano;thruster1x3;Armored Dark Matter Reactor;jumpdrive2x2;OrdnanceSupplyBay;Main Engineering;LightACHEAP;OrdnanceLocker;mwdsmall;MedOverdrive;OverdriveCapEngines
-Modules=275
+Modules=274
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 17,0;0;2,2
 19,0;0;2,2
@@ -221,7 +221,6 @@ Modules=275
 7,48;4;2,2;195
 9,48;4;2,2;180
 11,48;4;2,2;180
-12,48;11;3,3
 13,48;26;2,3
 23,48;26;2,3
 25,48;4;2,2;180
