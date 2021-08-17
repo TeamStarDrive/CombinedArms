@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Draylok
 Size=3,2
 GridCenter=1,1
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Reckless
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=CommandModule_II;DroneEngine_II;Drone PlasmaBomb1x1
 Modules=4

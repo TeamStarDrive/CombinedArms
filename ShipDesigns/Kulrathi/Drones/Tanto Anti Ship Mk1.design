@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Kulrathi
 Size=3,2
 GridCenter=1,1
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Kamikaze
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=CommandModule_I;DroneEngine_I;DroneCannon1x1AP
 Modules=4

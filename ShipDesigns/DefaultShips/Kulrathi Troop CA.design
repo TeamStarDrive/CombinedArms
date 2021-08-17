@@ -5,7 +5,13 @@ Role=troop
 Style=Kulrathi
 Size=6,8
 GridCenter=3,4
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
+ShipCategory=Unclassified
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=PowerSolar;BasicFuelCell;BasicCargoHold;Cockpit;NuclearReactorMed;Engine;WarpEngine_1x1
 Modules=31

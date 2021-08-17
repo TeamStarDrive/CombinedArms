@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Draylok
 Size=18,14
 GridCenter=9,8
+DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=XSGA5Fairy Small;Shape Memory Armor Small;ArmoredStorageSmall;DroneBay;thruster1x1;DisruptorTurret2x2;FastShield2x2;engine_fighter_1x1;Engine;Sniper1x6AP;Overload Fusion Reactor;WarpEngine_2x2;Bridge;BasicFuelCell
 Modules=76

@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Draylok
 Size=8,3
 GridCenter=4,2
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=BasicFuelCell;LaserGreen;Advanced Fighter Generator;Defshield;2x1Twinengines;Cockpit
 Modules=15

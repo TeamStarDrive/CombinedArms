@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Cordrazine
 Size=14,18
 GridCenter=7,9
+DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=HSA-Mirage Med;XSGA5Fairy Small;HSA-Mirage Small;PhasorTurret3x3;HeavyLaserCannon;LaserPurple;PhasorTurret2x2;Cockpit_Side;DarkMatterReactor_2x2;advanced_small_fuelcell;BlueShield2x2;CombatEngine_2x2;mwdsmall
 Modules=66

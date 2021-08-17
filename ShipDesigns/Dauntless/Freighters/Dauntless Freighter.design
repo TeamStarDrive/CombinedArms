@@ -5,7 +5,13 @@ Role=freighter
 Style=Dauntless
 Size=10,19
 GridCenter=5,7
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
+ShipCategory=Unclassified
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=BasicCargoHold;WarpEngine_2x2;Bridge;NuclearReactorMed;CombatEngine_2x2
 Modules=82

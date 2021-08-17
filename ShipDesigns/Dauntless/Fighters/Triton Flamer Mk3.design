@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Dauntless
 Size=8,7
 GridCenter=4,4
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=OrdnanceLockerSmall;Venom_Rocket_Pod;Engine;Fighter Shield Battle;QuantumFusionReactor_1x1;Advanced Fighter Generator;Cockpit
 Modules=22

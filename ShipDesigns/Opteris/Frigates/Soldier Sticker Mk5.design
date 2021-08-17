@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Opteris
 Size=10,17
 GridCenter=5,9
+DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=XSGA5Fairy Small;XSGA5Fairy Med;PhasorTurret2x2;PolaronTurret2x2;LRMmk1;FuelCellSmallArmored;PowerConduit;Engine;BattleShield2x2;ArmoredStorageSmall;advanced_small_fuelcell;Bridge;AntimatterReactor2x2;WarpEngine_1x1;MedOverdrive
 Modules=43

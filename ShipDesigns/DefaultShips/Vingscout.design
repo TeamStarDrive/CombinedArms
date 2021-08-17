@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Cordrazine
 Size=6,3
 GridCenter=3,2
+DefaultAIState=DoNothing
 DefaultCombatState=Evade
 ShipCategory=Recon
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=Structure;Defshield;Sensor1x2;Cockpit;WarpEngine_1x1;NuclearReactorSmall;Engine
 Modules=9

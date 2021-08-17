@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Terran
 Size=10,11
 GridCenter=5,5
+DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=Structure;HVVulcanCannon;OrdnanceLockerSmall;NuclearReactorSmall;Magshield;Cockpit;2x1Twinengines
 Modules=29

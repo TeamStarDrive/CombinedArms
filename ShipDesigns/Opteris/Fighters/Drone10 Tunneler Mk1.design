@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Opteris
 Size=8,4
 GridCenter=4,2
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=BlueLaser1x2;BasicFuelCell;Advanced Fighter Generator;Fighter Shield Battle;Engine;Cockpit
 Modules=19

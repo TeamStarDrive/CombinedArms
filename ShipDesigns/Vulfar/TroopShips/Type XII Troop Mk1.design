@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Vulfen
 Size=16,41
 GridCenter=8,21
+DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=CompositeAlloys Med;Repeater2x2_Composite;CompositeAlloys Small;Gatling Turret;NuclearReactorSmall;PowerConduit;CompositeAlloys Large;AutoTurret Type62;ShotgunHVEmp;Cockpit_Side;Fabricator;MarineBarracks2x2;AntimatterReactor2x2;TroopAssaultBay;FastShield3x3;Internal Bulkhead Improved;AutoTurret Type54;CIC;ArmoredStorageSmall;OrdnanceLockerSmall;AntimatterReactor4x4;OverdriveCapEngines;ShotgunHE;WarpEngine_3x3
 Modules=126

@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Dauntless
 Size=1,4
 GridCenter=0,2
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Kamikaze
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=DroneRocketLauncher;CommandModule_III;DroneEngine_II
 Modules=4

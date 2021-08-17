@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Cordrazine
 Size=8,6
 GridCenter=4,3
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=LaserPurple;LaserGreen;LaserCannon;BasicFuelCell;Advanced Fighter Generator;Cockpit_Side;Fighter Shield;engine_fighter_1x1;WarpEngine_1x1
 Modules=23

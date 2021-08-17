@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Terran
 Size=4,4
 GridCenter=2,2
+DefaultAIState=DoNothing
 DefaultCombatState=Evade
 ShipCategory=Recon
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=Structure;Sensor1x2;Cockpit;NuclearReactorSmall;Engine;Defshield
 Modules=9

@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Terran
 Size=6,18
 GridCenter=3,9
+DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Civilian
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=CompositeAlloys Small;ArmoredStorageSmall;DroneBay;Engine;Railgun1x3V2;FrigateEngine;LightningStorm;BattleShield2x2;Bridge;NuclearReactorSmall;Fusion Reactor;PowerConduit;WarpEngine_2x2
 Modules=39

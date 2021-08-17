@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Ralyeh
 Size=3,4
 GridCenter=1,2
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Kamikaze
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=CommandModule_III;Micro Torpedo2;DroneClusterBomb1x1;DroneRocketLauncher;DroneEngine_III
 Modules=6

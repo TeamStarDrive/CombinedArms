@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Terran
 Size=18,30
 GridCenter=9,15
+DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=ArmoredStorageSmall;Railgun2x4;DepletedUraniumArmor small;Shield_10KW;DepletedUraniumArmor Med;MissilePD_2x2;ShadowStorm;Cockpit;PowerConduit;MedOverdrive;WarpEngine_3x3;Internal Bulkhead;OrdnanceLocker;Bridge;Fusion Reactor;FastShield2x2;NuclearReactorSmall;Reinforced Bulkhead
 Modules=114

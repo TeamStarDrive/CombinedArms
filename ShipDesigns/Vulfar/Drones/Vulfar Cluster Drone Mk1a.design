@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Vulfen
 Size=2,4
 GridCenter=1,2
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Kamikaze
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=DroneCannon1x1;CommandModule_II;DroneClusterBomb1x1;DroneEngine_II
 Modules=5

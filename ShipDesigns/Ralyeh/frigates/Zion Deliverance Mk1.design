@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Ralyeh
 Size=8,9
 GridCenter=4,5
+DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Neutral
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=PlaSteelArmorSmall;RocketLauncher;Railgun2x4;Shield_1KW;Bridge;Flechette AF Turret;NuclearReactorSmall;Fusion Reactor;thruster1x1;OrdnanceLockerSmall;engine_fighter_1x1;Engine;FrigateEngine
 Modules=27

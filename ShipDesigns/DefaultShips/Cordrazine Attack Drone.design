@@ -5,8 +5,13 @@ Role=drone
 Style=Cordrazine
 Size=2,3
 GridCenter=1,1
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Kamikaze
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=DroneCannon1x1;CommandModule_I;DroneEngine_I
 Modules=4

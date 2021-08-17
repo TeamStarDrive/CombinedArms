@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Pollops
 Size=8,6
 GridCenter=4,4
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=OrdnanceLockerSmall;Plasma_Thrower_Purple;thruster1x1;OrdnanceLocker;Fighter Shield Battle;Cockpit;Advanced Fighter Generator;2x1Twinengines;ArmoredStorageSmall;BasicFuelCell
 Modules=22

@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Kulrathi
 Size=10,7
 GridCenter=5,4
+DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=OrdnanceLockerSmall;Railgun1x3;HVVulcanCannon;Engine;VulcanCannon;Fighter Shield;Advanced Fighter Generator;Cockpit
 Modules=24

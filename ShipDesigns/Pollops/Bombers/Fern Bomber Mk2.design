@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Pollops
 Size=16,8
 GridCenter=8,4
+DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=OrdnanceLockerSmall;NuclearBombBay2x2;Shape Memory Armor Small;LaserTurret;LaserCannon;Shield_1KW;PowerConduit;thruster1x1;Cold Fusion Reactor;WarpEngine_2x2;Cockpit_Side;NuclearReactorSmall;FrigateEngine
 Modules=43

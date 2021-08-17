@@ -6,8 +6,13 @@ ModName=Combined Arms
 Style=Vulfen
 Size=6,10
 GridCenter=3,5
+DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=OrdnanceLocker;ShotgunHVEmp1x3;Fighter ASG Turret;HVVulcanCannon;PowerSolar;Fighter Shield;Advanced Fighter Generator;Cockpit_Side;2x1Twinengines;engine_fighter_1x1;Engine
 Modules=26
