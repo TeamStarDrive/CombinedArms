@@ -643,5 +643,24 @@
       <DL_Pac>Nice. But next time, work with our allies, not our enemies.</DL_Pac>
       <DL_Hon>We will not tolerate this! Relations off, war on.</DL_Hon>
     </DialogLine>	
+	
+	<!-- Merge and Surrender -->
+	
+    <DialogLine>
+      <DialogType>SURRENDER</DialogType>
+      <Default>It seems we have lost in this war of ours. We surrender.</Default>
+    </DialogLine>	
+    <DialogLine>
+      <DialogType>OFFER_MERGE</DialogType>
+      <Default>We are losing wars. We offer merging into youyr empires. You get everything for our lives.</Default>
+    </DialogLine>		
+    <DialogLine>
+      <DialogType>OFFER_MERGE_ACCEPTED</DialogType>
+      <Default>Glad, I am going for a nap. Here is everything you need in order to run our empire. Good luck.</Default>
+    </DialogLine>			
+    <DialogLine>
+      <DialogType>OFFER_MERGE_REJECTED</DialogType>
+      <Default>You slugs! You are leaving us to die!</Default>
+    </DialogLine>								
   </Dialogs>
 </DiplomacyDialog>
