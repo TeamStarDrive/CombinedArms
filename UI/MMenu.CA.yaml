@@ -99,11 +99,11 @@ Elements:
   - Panel:
     Name: stardrive_animated_logo
     RelSize: [0.3, 0] # auto-detect height from aspect ratio
-    LocalPos: [-60, 60]
+    LocalPos: [-30, 10]
     AxisAlign: TopRight
     DrawDepth: Foreground
     SpriteAnim:
-      Path: ../MainMenu/Stardrive logo
+      Path: MMenu/stardrive_logo
       Delay: 0
       Duration: 3
       FreezeAtLastFrame: true
@@ -131,7 +131,7 @@ Elements:
             Name: blackbox_subver
             Texture: MMenu/subver.png
             RelSize: [0, 0.75]
-            RelPos: [0.015, -0.25]
+            RelPos: [0.013, -0.27]
             ParentAlign: BottomLeft
             DrawDepth: Foreground
             Animation:
@@ -163,7 +163,7 @@ Elements:
     DrawDepth: Background
     Animation:
       Params: [0, 8, 8, 2, 2] # delay, duration, end-time, fadein, fadeout
-      MinColor: [0.75,0.95,0.95,1.0] # vary the color from min
+      MinColor: [0.95,0.95,0.75,1.0] # vary the color from min
       MaxColor: [1.0,1.0,1.0,1.0]    # to max
 
   - List:
