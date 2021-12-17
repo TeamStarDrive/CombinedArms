@@ -108,6 +108,6 @@ Groups:
       - [WarpingIn, [1, 1]]
       - [GoToState, 0, 0]
     ObjectGroups:
-      - { Type: freighter,  Count: 40, Speed: [70, 110],  MinPos: [-15000,700,14000], MaxPos: [15000,1500,10000], Rotation: [0, 80, -90] }
-      - { Type: battleship, Count: 2 , Speed: [70, 100],  MinPos: [-15000,700,14000], MaxPos: [15000,1500,10000], Rotation: [0, 80, -90] }
-      - { Type: capital,    Count: 2 , Speed: [60, 120],  MinPos: [-15000,700,14000], MaxPos: [15000,1500,10000], Rotation: [0, 80, -90] }
+      - { Type: freighter,  Count: 40, Speed: [70, 110],  MinPos: [-15000,700,14000], MaxPos: [15000,1500,10000], Rotation: [0, -80, -90] }
+      - { Type: battleship, Count: 2 , Speed: [70, 100],  MinPos: [-15000,700,14000], MaxPos: [15000,1500,10000], Rotation: [0, -80, -90] }
+      - { Type: capital,    Count: 2 , Speed: [60, 120],  MinPos: [-15000,700,14000], MaxPos: [15000,1500,10000], Rotation: [0, -80, -90] }
