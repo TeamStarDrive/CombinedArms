@@ -19,19 +19,19 @@
   
   
   <UID>HeavyLaser</UID>
-  <fireDelay>2</fireDelay>
+  <FireDelay>2</FireDelay>
   <Range>2400</Range>
   <PowerRequiredToFire>150</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>mining_laser</fireCueName>
+  <FireCueName>mining_laser</FireCueName>
 
   <!-- Projectile Information -->
   <DamageAmount>120</DamageAmount>
   <ProjectileSpeed>2200</ProjectileSpeed>
   <DamageRadius>5</DamageRadius>
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <Light>Red</Light>
   <ProjectileTexturePath>projPulse_01_red_1</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>

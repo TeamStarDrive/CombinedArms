@@ -5,8 +5,8 @@
 	<TechLevel>6</TechLevel>
 	<TechBranch>Armor</TechBranch>
 	<!-- common traits shared by all ship modules -->
-	<XSIZE>2</XSIZE>
-	<YSIZE>2</YSIZE>
+	<XSize>2</XSize>
+	<YSize>2</YSize>
 	<ModuleType>Armor</ModuleType>
 	<Name>HSA-Mirage Med</Name>
 	<Restrictions>O</Restrictions>
@@ -25,7 +25,7 @@
 	<!-- for PowerPlant Items -->
 	<PowerDraw>24</PowerDraw>
 	<PowerDrawAtWarp>-12</PowerDrawAtWarp>		
-	<explodes>false</explodes>
+	<Explodes>false</Explodes>
 	<AmplifyShields>4500</AmplifyShields>
 	<!-- Armor Resistance -->
 	<BeamResist>0.35</BeamResist>  
@@ -36,7 +36,7 @@
 	<CrewSupplied>0</CrewSupplied>
 	<!-- for Weapons -->
 	<!-- for Engines -->
-	<thrust>0</thrust>
+	<Thrust>0</Thrust>
 	<!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
 	<TurnThrust>0</TurnThrust>
 	<WarpThrust>45000</WarpThrust>

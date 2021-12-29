@@ -17,22 +17,22 @@
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>true</Tag_Cannon>
   
-  <Excludes_Fighters>true</Excludes_Fighters>  
+  <ExcludesFighters>true</ExcludesFighters>  
   
   <UID>MassiveLaserTurret</UID>
-  <fireDelay>1.6</fireDelay>
+  <FireDelay>1.6</FireDelay>
   <Range>3200</Range>
   <PowerRequiredToFire>400</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>heavylaser1</fireCueName>
+  <FireCueName>heavylaser1</FireCueName>
 
   <!-- Projectile Information -->
   <DamageAmount>450</DamageAmount>
   <ProjectileSpeed>2000</ProjectileSpeed>
   <Scale>1.4</Scale>
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <Light>Red</Light>
   <ProjectileTexturePath>projPulse_01_red_dual</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>

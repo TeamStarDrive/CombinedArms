@@ -16,18 +16,18 @@
   <Tag_Drone>false</Tag_Drone>
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>false</Tag_Cannon>
-  <Excludes_Fighters>true</Excludes_Fighters>  
-  <Excludes_Corvettes>true</Excludes_Corvettes>  
+  <ExcludesFighters>true</ExcludesFighters>  
+  <ExcludesCorvettes>true</ExcludesCorvettes>  
   
   <UID>MassDriver_dual_heavy</UID>
-  <fireDelay>6.0</fireDelay>
+  <FireDelay>6.0</FireDelay>
   <Range>6500</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>6</OrdinanceRequiredToFire>
 
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_railgun_massive_01</fireCueName>
-  <dieCue>sd_explosion_ship_det_small</dieCue>
+  <FireCueName>sd_weapon_railgun_massive_01</FireCueName>
+  <DieCue>sd_explosion_ship_det_small</DieCue>
   <WeaponEffectType>SmokeTrail</WeaponEffectType>
   <ProjectileRadius>10</ProjectileRadius>
   <Scale>1.7</Scale>
@@ -38,7 +38,7 @@
   <ProjectileSpeed>2200</ProjectileSpeed>
   <DamageRadius>55</DamageRadius>
   <Light>Orange</Light>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ProjectileTexturePath>projLong_02_red_dual</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <WeaponType>Ballistic Cannon</WeaponType>

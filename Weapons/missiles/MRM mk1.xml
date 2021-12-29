@@ -20,9 +20,9 @@
 
   <UID>MRM mk1</UID>
   
-  <Excludes_Fighters>true</Excludes_Fighters>  
+  <ExcludesFighters>true</ExcludesFighters>  
   <HitPoints>30</HitPoints>
-  <fireDelay>7.5</fireDelay>
+  <FireDelay>7.5</FireDelay>
   <Range>5800</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>3</OrdinanceRequiredToFire>
@@ -40,7 +40,7 @@
   <RotationRadsPerSecond>2</RotationRadsPerSecond>
 <!--Projectile atributes-->
   <Scale>0.5</Scale>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
    <ProjectileTexturePath>MRM_d</ProjectileTexturePath>
@@ -48,7 +48,7 @@
   <WeaponEffectType>RocketTrail</WeaponEffectType>
   <WeaponType>Missile</WeaponType>
 <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_flame_start_01</fireCueName>
-  <dieCue>sd_weapon_rocket_explode_01</dieCue>
+  <FireCueName>sd_weapon_flame_start_01</FireCueName>
+  <DieCue>sd_weapon_rocket_explode_01</DieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
 </Weapon>

@@ -4,28 +4,28 @@
   <Tag_Explosive>true</Tag_Explosive>  
 
   <UID>PlanetPhoton</UID>
-  <fireDelay>2</fireDelay>
+  <FireDelay>2</FireDelay>
   <Range>4800</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.9</OrdinanceRequiredToFire>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_pulse_alt2_01</fireCueName>
-  <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
+  <FireCueName>sd_weapon_pulse_alt2_01</FireCueName>
+  <DieCue>sd_weapon_flakcannon_explode_01</DieCue>
   <InFlightCue>sd_weapon_photon_flight_01</InFlightCue>
 
  <!-- <ToggleSoundName>sd_weapon_vulcan_spinloop_01</ToggleSoundName> -->
   <MuzzleFlash>Yes</MuzzleFlash>
   <!-- Projectile Information -->
-  <Excludes_Fighters>true</Excludes_Fighters>    
+  <ExcludesFighters>true</ExcludesFighters>    
   <DamageAmount>400</DamageAmount>  
   <Scale>1.4</Scale>
   <ProjectileSpeed>3000</ProjectileSpeed>
   <ProjectileRadius>8</ProjectileRadius> 
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ExplosionType>Photon</ExplosionType>
   <DamageRadius>25</DamageRadius>
-  <Excludes_Fighters>true</Excludes_Fighters>  
+  <ExcludesFighters>true</ExcludesFighters>  
   
   <Animated>1</Animated>
   <Light>Blue</Light>

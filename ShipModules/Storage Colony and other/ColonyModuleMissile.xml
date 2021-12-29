@@ -16,8 +16,8 @@
   <TechLevel>5</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Colony</ModuleType>
-  <XSIZE>2</XSIZE>
-  <YSIZE>3</YSIZE>
+  <XSize>2</XSize>
+  <YSize>3</YSize>
   <UID>ColonyModuleMissile</UID>
   <Restrictions>IO</Restrictions>
   <Name>Colonization Module</Name>
@@ -32,23 +32,23 @@
   <Description>This module contains all of the equipment, food, and colonists neccessary to start a new colony on a distant world.  It contains: 2000 colonists packed like sardines in stasis, 2 Food, and 2 Equipment.</Description>
   <PowerDraw>0</PowerDraw>
   <DeployBuildingOnColonize>Missile Silo</DeployBuildingOnColonize>
-  <numberOfEquipment>20</numberOfEquipment>
-  <numberOfFood>20</numberOfFood>
-  <numberOfColonists>15</numberOfColonists>
+  <NumberOfEquipment>20</NumberOfEquipment>
+  <NumberOfFood>20</NumberOfFood>
+  <NumberOfColonists>15</NumberOfColonists>
   <NameIndex>5396</NameIndex>
   <DescriptionIndex>5397</DescriptionIndex>
   <RepairDifficulty>5</RepairDifficulty>  
 
   <!-- for shield items -->
-  <shield_power>0</shield_power>
-  <shield_power_max>0</shield_power_max>
-  <shield_recharge_delay>0</shield_recharge_delay>
-  <shield_recharge_rate>0</shield_recharge_rate>
-  <shield_radius>0</shield_radius>
+  <ShieldPower>0</ShieldPower>
+  <ShieldPowerMax>0</ShieldPowerMax>
+  <ShieldRechargeDelay>0</ShieldRechargeDelay>
+  <ShieldRechargeRate>0</ShieldRechargeRate>
+  <ShieldRadius>0</ShieldRadius>
 
 
   <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
@@ -56,7 +56,7 @@
   
   
   <!-- for Engines -->
-  <thrust>0</thrust>
+  <Thrust>0</Thrust>
   
   
 

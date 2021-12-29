@@ -13,8 +13,8 @@
 	<!-- Tech Level Used by AI for Upgrading Ships -->
 	<TechLevel>5</TechLevel>
 	<!-- common traits shared by all ship modules -->
-	<XSIZE>4</XSIZE>
-	<YSIZE>6</YSIZE>
+	<XSize>4</XSize>
+	<YSize>6</YSize>
 	<ModuleType>PowerPlant</ModuleType>
 	<Name>Linked Quantum Fusion Reactors</Name>
 	<Restrictions>I</Restrictions>
@@ -35,13 +35,13 @@
 	<NameIndex>8051</NameIndex>
 	<DescriptionIndex>8052</DescriptionIndex>
 	<!-- for shield items -->
-	<shield_power>2000</shield_power>
-	<shield_power_max>2000</shield_power_max>
-	<shield_recharge_delay>5</shield_recharge_delay>
-	<shield_recharge_rate>25</shield_recharge_rate>
-	<shield_radius>65</shield_radius>
+	<ShieldPower>2000</ShieldPower>
+	<ShieldPowerMax>2000</ShieldPowerMax>
+	<ShieldRechargeDelay>5</ShieldRechargeDelay>
+	<ShieldRechargeRate>25</ShieldRechargeRate>
+	<ShieldRadius>65</ShieldRadius>
 	<!-- for PowerPlant Items -->
-	<explodes>true</explodes>
+	<Explodes>true</Explodes>
     <ExplosionDamage>4000</ExplosionDamage>
     <ExplosionRadius>192</ExplosionRadius>	
 	<PowerFlowMax>5000</PowerFlowMax>
@@ -49,5 +49,5 @@
 	<PowerRadius>8</PowerRadius>
 	<!-- for Weapons -->
 	<!-- for Engines -->
-	<thrust>0</thrust>
+	<Thrust>0</Thrust>
 </ShipModule>

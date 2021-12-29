@@ -8,8 +8,8 @@
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Shield</ModuleType>
-  <XSIZE>3</XSIZE>
-  <YSIZE>3</YSIZE>
+  <XSize>3</XSize>
+  <YSize>3</YSize>
   <UID>FastShield3x3</UID>
   <Restrictions>IO</Restrictions>
   <Name>FastShield3x3</Name>
@@ -33,15 +33,15 @@
 
 
   <!-- for shield items -->
-  <shield_power>6250</shield_power>
-  <shield_power_max>6250</shield_power_max>
-  <shield_recharge_delay>10</shield_recharge_delay>
-  <shield_recharge_rate>1250</shield_recharge_rate>
-  <shield_radius>140</shield_radius>
-  <shield_recharge_combat_rate>0</shield_recharge_combat_rate>
+  <ShieldPower>6250</ShieldPower>
+  <ShieldPowerMax>6250</ShieldPowerMax>
+  <ShieldRechargeDelay>10</ShieldRechargeDelay>
+  <ShieldRechargeRate>1250</ShieldRechargeRate>
+  <ShieldRadius>140</ShieldRadius>
+  <ShieldRechargeCombatRate>0</ShieldRechargeCombatRate>
 
   <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
@@ -49,7 +49,7 @@
   
   
   <!-- for Engines -->
-  <thrust>0</thrust>
+  <Thrust>0</Thrust>
   
   
 

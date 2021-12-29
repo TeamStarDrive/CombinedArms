@@ -10,8 +10,8 @@
 	<TechLevel>4</TechLevel>
 	<!-- common traits shared by all ship modules -->
 	<ModuleType>Shield</ModuleType>
-	<XSIZE>3</XSIZE>
-	<YSIZE>6</YSIZE>
+	<XSize>3</XSize>
+	<YSize>6</YSize>
 	<UID>ArmCanopyShield1</UID>
 	<Restrictions>I</Restrictions>
 	<Name>Armored Canopy Shield</Name>
@@ -30,16 +30,16 @@
 	<NameIndex>18077</NameIndex>
 	<DescriptionIndex>13000</DescriptionIndex>
 	<!-- for shield items -->
-	<shield_power>30000</shield_power>
-	<shield_power_max>30000</shield_power_max>
-	<shield_recharge_delay>9</shield_recharge_delay>
-	<shield_recharge_rate>300</shield_recharge_rate>
-	<shield_radius>500</shield_radius>
-	<shield_recharge_combat_rate>0</shield_recharge_combat_rate>
-    <shield_threshold>100</shield_threshold>	
+	<ShieldPower>30000</ShieldPower>
+	<ShieldPowerMax>30000</ShieldPowerMax>
+	<ShieldRechargeDelay>9</ShieldRechargeDelay>
+	<ShieldRechargeRate>300</ShieldRechargeRate>
+	<ShieldRadius>500</ShieldRadius>
+	<ShieldRechargeCombatRate>0</ShieldRechargeCombatRate>
+    <ShieldThreshold>100</ShieldThreshold>	
 	<!-- for Weapons -->
-	<EMP_Protection>300</EMP_Protection>
+	<EMPProtection>300</EMPProtection>
 	<!-- Armor resistance -->	
-	<shield_hybrid_resist>0.25</shield_hybrid_resist>
-	<shield_kinetic_resist>0.2</shield_kinetic_resist>
+	<ShieldHybridResist>0.25</ShieldHybridResist>
+	<ShieldKineticResist>0.2</ShieldKineticResist>
 </ShipModule>

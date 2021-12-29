@@ -10,8 +10,8 @@
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Shield</ModuleType>
-  <XSIZE>3</XSIZE>
-  <YSIZE>6</YSIZE>
+  <XSize>3</XSize>
+  <YSize>6</YSize>
   <UID>RECanopyShield</UID>
   <Restrictions>IO</Restrictions>
   <Name>Canopy Shield</Name>
@@ -36,17 +36,17 @@
 
 
   <!-- for shield items -->
-  <shield_power>37500</shield_power>
-  <shield_power_max>37500</shield_power_max>
-  <shield_recharge_delay>3.5</shield_recharge_delay>
-  <shield_recharge_rate>375</shield_recharge_rate>
-  <shield_radius>400</shield_radius>
-  <shield_recharge_combat_rate>0</shield_recharge_combat_rate>
-  <shield_threshold>400</shield_threshold>
-  <shield_hybrid_resist>0.75</shield_hybrid_resist>
-  <shield_beam_resist>0.5</shield_beam_resist>
+  <ShieldPower>37500</ShieldPower>
+  <ShieldPowerMax>37500</ShieldPowerMax>
+  <ShieldRechargeDelay>3.5</ShieldRechargeDelay>
+  <ShieldRechargeRate>375</ShieldRechargeRate>
+  <ShieldRadius>400</ShieldRadius>
+  <ShieldRechargeCombatRate>0</ShieldRechargeCombatRate>
+  <ShieldThreshold>400</ShieldThreshold>
+  <ShieldHybridResist>0.75</ShieldHybridResist>
+  <ShieldBeamResist>0.5</ShieldBeamResist>
   <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
@@ -54,7 +54,7 @@
   
   
   <!-- for Engines -->
-  <thrust>0</thrust>
+  <Thrust>0</Thrust>
   
   
 

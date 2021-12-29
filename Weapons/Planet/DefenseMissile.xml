@@ -20,23 +20,23 @@
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>false</Tag_Cannon>
 
-  <Excludes_Fighters>true</Excludes_Fighters>  
+  <ExcludesFighters>true</ExcludesFighters>  
   
-  <fireDelay>6</fireDelay>
+  <FireDelay>6</FireDelay>
   <Range>14000</Range>
   <HitPoints>50</HitPoints>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>10</OrdinanceRequiredToFire>
   <RotationRadsPerSecond>2</RotationRadsPerSecond>
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_rocket_flight_01</fireCueName>
-  <dieCue>sd_weapon_rocket_explode_01</dieCue>
+  <FireCueName>sd_weapon_rocket_flight_01</FireCueName>
+  <DieCue>sd_weapon_rocket_explode_01</DieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
   <!-- Projectile Information -->
   <DamageAmount>500</DamageAmount>
   <ProjectileSpeed>1800</ProjectileSpeed>
   <DamageRadius>60</DamageRadius>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ProjectileTexturePath>missile_d</ProjectileTexturePath>
   <ModelPath>missile</ModelPath>
   <WeaponEffectType>RocketTrail</WeaponEffectType>

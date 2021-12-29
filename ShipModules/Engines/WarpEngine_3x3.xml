@@ -13,8 +13,8 @@
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
   <Name>Capital Warp Engine</Name>
-  <XSIZE>3</XSIZE>
-  <YSIZE>3</YSIZE>
+  <XSize>3</XSize>
+  <YSize>3</YSize>
   <Restrictions>E</Restrictions>
   <UID>WarpEngine_3x3</UID>
   <IconTexturePath>Modules/warpengine_3x3</IconTexturePath>
@@ -33,13 +33,13 @@
   <NameIndex>1080</NameIndex>
   <DescriptionIndex>1081</DescriptionIndex>
   <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
   <!-- for Engines -->
-  <thrust>65000</thrust>
+  <Thrust>65000</Thrust>
   <TurnThrust>72000</TurnThrust>  
   <WarpThrust>865000</WarpThrust>
   <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->

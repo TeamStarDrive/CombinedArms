@@ -2,14 +2,14 @@
   <Tag_Cannon>true</Tag_Cannon>
   <Tag_Kinetic>true</Tag_Kinetic>
   <UID>RevAC</UID>
-  <fireDelay>4.8</fireDelay>
+  <FireDelay>4.8</FireDelay>
   <Range>5600</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.5</OrdinanceRequiredToFire>
-  <Excludes_Fighters>true</Excludes_Fighters>  
-  <Excludes_Corvettes>true</Excludes_Corvettes>   
+  <ExcludesFighters>true</ExcludesFighters>  
+  <ExcludesCorvettes>true</ExcludesCorvettes>   
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_railgun_01</fireCueName>
+  <FireCueName>sd_weapon_railgun_01</FireCueName>
 
   <!-- Projectile Information -->
   <DamageAmount>500</DamageAmount>
@@ -17,7 +17,7 @@
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1250</ProjectileSpeed>
   
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <WeaponType>Ballistic Cannon</WeaponType>

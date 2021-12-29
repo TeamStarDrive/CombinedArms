@@ -34,14 +34,14 @@
 
 
   <!-- for shield items -->
-  <shield_power>150</shield_power>
-  <shield_power_max>150</shield_power_max>
-  <shield_recharge_delay>0</shield_recharge_delay>
-  <shield_recharge_rate>30</shield_recharge_rate>
-  <shield_radius>30</shield_radius>
+  <ShieldPower>150</ShieldPower>
+  <ShieldPowerMax>150</ShieldPowerMax>
+  <ShieldRechargeDelay>0</ShieldRechargeDelay>
+  <ShieldRechargeRate>30</ShieldRechargeRate>
+  <ShieldRadius>30</ShieldRadius>
 
   <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>100</PowerStoreMax>
   
@@ -50,7 +50,7 @@
   
   
   <!-- for Engines -->
-  <thrust>13000</thrust>
+  <Thrust>13000</Thrust>
   <WarpThrust>3000</WarpThrust>
     <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
   <TurnThrust>26000</TurnThrust>

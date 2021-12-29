@@ -6,19 +6,19 @@
   <Tag_Explosive>true</Tag_Explosive>
     
   <UID>platformkineticW2</UID>
-  <fireDelay>8.5</fireDelay>
+  <FireDelay>8.5</FireDelay>
   <Range>8000</Range>
   <OrdinanceRequiredToFire>3</OrdinanceRequiredToFire>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_flakcannon_01</fireCueName>
-  <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
+  <FireCueName>sd_weapon_flakcannon_01</FireCueName>
+  <DieCue>sd_weapon_flakcannon_explode_01</DieCue>
 
   <!-- Projectile Information -->
   <DamageAmount>210</DamageAmount>
   <ProjectileSpeed>2500</ProjectileSpeed>
   <ProjectileRadius>4</ProjectileRadius>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <DamageRadius>24</DamageRadius>
   <Light>Blue</Light>
   <ProjectileTexturePath>projLong_02_blue</ProjectileTexturePath>

@@ -3,19 +3,19 @@
 
   <Tag_Beam>true</Tag_Beam>
 
-  <Excludes_Fighters>true</Excludes_Fighters>  
-  <Excludes_Corvettes>true</Excludes_Corvettes>  
+  <ExcludesFighters>true</ExcludesFighters>  
+  <ExcludesCorvettes>true</ExcludesCorvettes>  
 
   <UID>Disintegrator_large</UID>
-  <isBeam>true</isBeam>
-  <fireDelay>7</fireDelay>
+  <IsBeam>true</IsBeam>
+  <FireDelay>7</FireDelay>
   <Range>6000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
 
-  <fireCueName>sd_weapon_flame_start_01</fireCueName>
+  <FireCueName>sd_weapon_flame_start_01</FireCueName>
   <ToggleSoundName>sd_weapon_phasor_01</ToggleSoundName>
   <BeamTexture>beam_greenM</BeamTexture>
   

@@ -19,7 +19,7 @@
   
   <Tag_PD>true</Tag_PD>  
   <UID>Fighter ASG Turret</UID>
-  <fireDelay>7.6</fireDelay>
+  <FireDelay>7.6</FireDelay>
   <Range>1250</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.15</OrdinanceRequiredToFire>
@@ -27,7 +27,7 @@
   <SalvoTimer>1</SalvoTimer>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_vulcan_burst_01</fireCueName>
+  <FireCueName>sd_weapon_vulcan_burst_01</FireCueName>
   <PlaySoundOncePerSalvo>true</PlaySoundOncePerSalvo>
  <!-- <ToggleSoundName>sd_weapon_vulcan_spinloop_01</ToggleSoundName> -->
 
@@ -38,7 +38,7 @@
   <ProjectileSpeed>1200</ProjectileSpeed>
   
   
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <ProjectileTexturePath>projPulse_01_yellow_1_small</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <WeaponType>Ballistic Cannon</WeaponType>

@@ -18,19 +18,19 @@
   <Tag_Cannon>true</Tag_Cannon>
   
   <UID>HeavyLaserTurret</UID>
-  <fireDelay>1.6</fireDelay>
+  <FireDelay>1.6</FireDelay>
   <Range>2800</Range>
   <PowerRequiredToFire>200</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>mining_laser</fireCueName>
+  <FireCueName>mining_laser</FireCueName>
 
   <!-- Projectile Information -->
   <DamageAmount>200</DamageAmount>
   <ProjectileSpeed>2000</ProjectileSpeed>
   <Scale>1.2</Scale>
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <Light>Red</Light>
   <ProjectileTexturePath>projPulse_01_red_dual</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>

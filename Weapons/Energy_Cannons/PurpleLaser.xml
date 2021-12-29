@@ -18,20 +18,20 @@
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>true</Tag_Cannon>
   <UID>PurpleLaser</UID>
-  <fireDelay>0.6</fireDelay>
+  <FireDelay>0.6</FireDelay>
   <Range>1400</Range>
   <PowerRequiredToFire>24</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   
-  <Excludes_Capitals>true</Excludes_Capitals>  
+  <ExcludesCapitals>true</ExcludesCapitals>  
   
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_laser_small_alt5_01</fireCueName>
+  <FireCueName>sd_weapon_laser_small_alt5_01</FireCueName>
 
   <!-- Projectile Information -->
   <DamageAmount>13</DamageAmount>
   <ProjectileSpeed>1850</ProjectileSpeed>
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <Scale>.75</Scale>
   <ProjectileTexturePath>projPulse_01_purple_1</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>

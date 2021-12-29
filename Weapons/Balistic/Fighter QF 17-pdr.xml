@@ -18,22 +18,22 @@
   <Tag_Cannon>true</Tag_Cannon>
   
   <UID>Fighter QF 17-pdr</UID>
-  <fireDelay>1.2</fireDelay>
+  <FireDelay>1.2</FireDelay>
   <Range>2100</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.5</OrdinanceRequiredToFire>
 
 
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_flakcannon_01</fireCueName>
-  <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
+  <FireCueName>sd_weapon_flakcannon_01</FireCueName>
+  <DieCue>sd_weapon_flakcannon_explode_01</DieCue>
   <!-- Projectile Information -->
   <DamageAmount>140</DamageAmount>
   <Scale>.7</Scale>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>2000</ProjectileSpeed>
   <DamageRadius>30</DamageRadius>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <ProjectileCount>1</ProjectileCount>

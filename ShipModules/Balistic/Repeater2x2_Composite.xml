@@ -5,8 +5,8 @@
   <TechLevel>4</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Turret</ModuleType>
-  <XSIZE>2</XSIZE>
-  <YSIZE>2</YSIZE>
+  <XSize>2</XSize>
+  <YSize>2</YSize>
   <Name>Chaingun4</Name>
   <Restrictions>xO</Restrictions>
   <UID>Repeater2x2_Composite</UID>
@@ -26,11 +26,11 @@
 
 
   <!-- for shield items -->
-  <shield_power>0</shield_power>
-  <shield_power_max>0</shield_power_max>
-  <shield_recharge_delay>0</shield_recharge_delay>
-  <shield_recharge_rate>0</shield_recharge_rate>
-  <shield_radius>0</shield_radius>
+  <ShieldPower>0</ShieldPower>
+  <ShieldPowerMax>0</ShieldPowerMax>
+  <ShieldRechargeDelay>0</ShieldRechargeDelay>
+  <ShieldRechargeRate>0</ShieldRechargeRate>
+  <ShieldRadius>0</ShieldRadius>
   <radius>0</radius>
 
   <!-- Armor resistance -->
@@ -40,7 +40,7 @@
   <HybridResist>0.5</HybridResist>
   
   <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   <DamageThreshold>135</DamageThreshold>
@@ -50,6 +50,6 @@
   <OrdinanceCapacity>4</OrdinanceCapacity>
   
   <!-- for Engines -->
-  <thrust>0</thrust>
+  <Thrust>0</Thrust>
   <APResist>1</APResist>
 </ShipModule>

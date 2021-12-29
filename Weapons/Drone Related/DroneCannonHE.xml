@@ -5,22 +5,22 @@
   <Tag_Kinetic>true</Tag_Kinetic>
   <Tag_Cannon>true</Tag_Cannon>  
   
-  <fireDelay>2</fireDelay>
+  <FireDelay>2</FireDelay>
   <Range>1300</Range>
   <PowerRequiredToFire>1</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.2</OrdinanceRequiredToFire>
 
 
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_vulcan_alt02_01</fireCueName>
-  <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
+  <FireCueName>sd_weapon_vulcan_alt02_01</FireCueName>
+  <DieCue>sd_weapon_flakcannon_explode_01</DieCue>
   <!-- Projectile Information -->
   <DamageAmount>50</DamageAmount>
   <Scale>0.6</Scale>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1800</ProjectileSpeed>
   <EffectVsArmor>3</EffectVsArmor>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <DamageRadius>32</DamageRadius>
   <ProjectileTexturePath>projTear_03_red</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>

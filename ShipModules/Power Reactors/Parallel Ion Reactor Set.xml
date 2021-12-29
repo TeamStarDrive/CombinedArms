@@ -13,8 +13,8 @@
 	<!-- Tech Level Used by AI for Upgrading Ships -->
 	<TechLevel>6</TechLevel>
 	<!-- common traits shared by all ship modules -->
-	<XSIZE>4</XSIZE>
-	<YSIZE>6</YSIZE>
+	<XSize>4</XSize>
+	<YSize>6</YSize>
 	<ModuleType>PowerPlant</ModuleType>
 	<Name>Linked Anti-Matter Reactors</Name>
 	<Restrictions>I</Restrictions>
@@ -35,13 +35,13 @@
 	<NameIndex>8053</NameIndex>
 	<DescriptionIndex>8054</DescriptionIndex>
 	<!-- for shield items -->
-	<shield_power>2250</shield_power>
-	<shield_power_max>2250</shield_power_max>
-	<shield_recharge_delay>5</shield_recharge_delay>
-	<shield_recharge_rate>25</shield_recharge_rate>
-	<shield_radius>80</shield_radius>
+	<ShieldPower>2250</ShieldPower>
+	<ShieldPowerMax>2250</ShieldPowerMax>
+	<ShieldRechargeDelay>5</ShieldRechargeDelay>
+	<ShieldRechargeRate>25</ShieldRechargeRate>
+	<ShieldRadius>80</ShieldRadius>
 	<!-- for PowerPlant Items -->
-	<explodes>true</explodes>
+	<Explodes>true</Explodes>
     <ExplosionDamage>40000</ExplosionDamage>
     <ExplosionRadius>720</ExplosionRadius>	
 	<PowerFlowMax>5500</PowerFlowMax>
@@ -49,5 +49,5 @@
 	<PowerRadius>9</PowerRadius>
 	<!-- for Weapons -->
 	<!-- for Engines -->
-	<thrust>0</thrust>
+	<Thrust>0</Thrust>
 </ShipModule>

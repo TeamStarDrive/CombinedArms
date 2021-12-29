@@ -18,14 +18,14 @@
   <Tag_Cannon>true</Tag_Cannon>
 
   <UID>DualEmpCannon</UID>
-  <fireDelay>1</fireDelay>
+  <FireDelay>1</FireDelay>
   <Range>4500</Range>
   <PowerRequiredToFire>400</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   <ProjectileRadius>8</ProjectileRadius>
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_emptorpedo</fireCueName>
-  <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
+  <FireCueName>sd_weapon_emptorpedo</FireCueName>
+  <DieCue>sd_weapon_flakcannon_explode_01</DieCue>
   <InFlightCue>sd_weapon_photon_flight_01</InFlightCue>
 
   <!-- Projectile Information -->
@@ -41,7 +41,7 @@
   <AnimationPath>projBall_01_plasma_1/projBall_01_plasma_1_cc_</AnimationPath>
   <LoopAnimation>1</LoopAnimation>
   
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>
   

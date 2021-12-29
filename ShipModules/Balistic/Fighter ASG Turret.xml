@@ -13,8 +13,8 @@
 	<!-- common traits shared by all ship modules -->
 	<ModuleType>Turret</ModuleType>
 	<Name>Fighter ASG Turret</Name>
-	<XSIZE>1</XSIZE>
-	<YSIZE>1</YSIZE>
+	<XSize>1</XSize>
+	<YSize>1</YSize>
 	<Restrictions>O</Restrictions>
 	<UID>Fighter ASG Turret</UID>
 	<IconTexturePath>Modules/Fighter ASG Turret</IconTexturePath>
@@ -27,14 +27,14 @@
 	<NameIndex>8133</NameIndex>
 	<DescriptionIndex>17430</DescriptionIndex>
 	<!-- for shield items -->
-	<shield_power>0</shield_power>
-	<shield_power_max>0</shield_power_max>
-	<shield_recharge_delay>0</shield_recharge_delay>
-	<shield_recharge_rate>0</shield_recharge_rate>
-	<shield_radius>0</shield_radius>
+	<ShieldPower>0</ShieldPower>
+	<ShieldPowerMax>0</ShieldPowerMax>
+	<ShieldRechargeDelay>0</ShieldRechargeDelay>
+	<ShieldRechargeRate>0</ShieldRechargeRate>
+	<ShieldRadius>0</ShieldRadius>
 	<radius>0</radius>
 	<!-- for PowerPlant Items -->
-	<explodes>false</explodes>
+	<Explodes>false</Explodes>
 	<PowerFlowMax>0</PowerFlowMax>
 	<PowerStoreMax>0</PowerStoreMax>
 	<!-- for Weapons -->
@@ -42,5 +42,5 @@
 	<FieldOfFire>90</FieldOfFire>
 	<OrdinanceCapacity>10</OrdinanceCapacity>
 	<!-- for Engines -->
-	<thrust>0</thrust>
+	<Thrust>0</Thrust>
 </ShipModule>

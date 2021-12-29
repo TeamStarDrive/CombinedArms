@@ -14,8 +14,8 @@
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
   <Name>Capital Engine</Name>
-  <XSIZE>3</XSIZE>
-  <YSIZE>3</YSIZE>
+  <XSize>3</XSize>
+  <YSize>3</YSize>
   <Restrictions>E</Restrictions>
   <UID>CapEngines</UID>
   <IconTexturePath>Modules/engine_3x3</IconTexturePath>
@@ -35,7 +35,7 @@
   <DescriptionIndex>919</DescriptionIndex>
 
   <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
@@ -44,7 +44,7 @@
   
   
   <!-- for Engines -->
-  <thrust>140000</thrust>
+  <Thrust>140000</Thrust>
   <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
   <TurnThrust>260000</TurnThrust>
   <WarpThrust>432000</WarpThrust>

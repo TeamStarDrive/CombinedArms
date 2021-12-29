@@ -15,8 +15,8 @@
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
   <Name>Overdrive Titan Engine</Name>
-  <XSIZE>4</XSIZE>
-  <YSIZE>4</YSIZE>
+  <XSize>4</XSize>
+  <YSize>4</YSize>
   <Restrictions>E</Restrictions>
   <UID>Overdrive Titan Engine</UID>
   <IconTexturePath>Modules/Overdrive_engine_4x4</IconTexturePath>
@@ -37,20 +37,20 @@
 
 
   <!-- for shield items -->
-  <shield_power>0</shield_power>
-  <shield_power_max>0</shield_power_max>
-  <shield_recharge_delay>0</shield_recharge_delay>
-  <shield_recharge_rate>0</shield_recharge_rate>
-  <shield_radius>0</shield_radius>
+  <ShieldPower>0</ShieldPower>
+  <ShieldPowerMax>0</ShieldPowerMax>
+  <ShieldRechargeDelay>0</ShieldRechargeDelay>
+  <ShieldRechargeRate>0</ShieldRechargeRate>
+  <ShieldRadius>0</ShieldRadius>
 
   <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Weapons -->
   <!-- for Engines -->
-  <thrust>425000</thrust>
+  <Thrust>425000</Thrust>
   <TurnThrust>575000</TurnThrust>
   <WarpThrust>760000</WarpThrust>  
 </ShipModule>

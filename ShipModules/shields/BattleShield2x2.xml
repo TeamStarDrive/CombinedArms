@@ -11,8 +11,8 @@
 
   <!-- common traits shared by all ship modules -->
   <ModuleType>Shield</ModuleType>
-  <XSIZE>2</XSIZE>
-  <YSIZE>2</YSIZE>
+  <XSize>2</XSize>
+  <YSize>2</YSize>
   <Name>BattleShield2x2</Name>
   <Restrictions>IO</Restrictions>
   <UID>BattleShield2x2</UID>
@@ -37,15 +37,15 @@
 
 
   <!-- for shield items -->
-  <shield_power>1500</shield_power>
-  <shield_power_max>1500</shield_power_max>
-  <shield_recharge_delay>10</shield_recharge_delay>
-  <shield_recharge_rate>200</shield_recharge_rate>
-  <shield_radius>90</shield_radius>
-  <shield_recharge_combat_rate>25</shield_recharge_combat_rate>
-  <shield_threshold>30</shield_threshold>
+  <ShieldPower>1500</ShieldPower>
+  <ShieldPowerMax>1500</ShieldPowerMax>
+  <ShieldRechargeDelay>10</ShieldRechargeDelay>
+  <ShieldRechargeRate>200</ShieldRechargeRate>
+  <ShieldRadius>90</ShieldRadius>
+  <ShieldRechargeCombatRate>25</ShieldRechargeCombatRate>
+  <ShieldThreshold>30</ShieldThreshold>
   <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
@@ -53,7 +53,7 @@
   
   
   <!-- for Engines -->
-  <thrust>0</thrust>
+  <Thrust>0</Thrust>
   
   
 

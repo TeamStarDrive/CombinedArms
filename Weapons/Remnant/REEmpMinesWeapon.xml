@@ -6,15 +6,15 @@
   <Tag_Intercept>true</Tag_Intercept>
   
   <UID>EmpMinesWeapons</UID>
-  <fireDelay>8</fireDelay>
+  <FireDelay>8</FireDelay>
 
   <Range>5000</Range>
   <HitPoints>75</HitPoints>
   <PowerRequiredToFire>10</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.5</OrdinanceRequiredToFire>
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_torpedo_01</fireCueName>
-  <dieCue>Explo1</dieCue>
+  <FireCueName>sd_weapon_torpedo_01</FireCueName>
+  <DieCue>Explo1</DieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
   <!-- Projectile Information -->
   <DamageAmount>500</DamageAmount>
@@ -23,7 +23,7 @@
 
   <Scale>1</Scale>
   <DamageRadius>40</DamageRadius>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ProjectileTexturePath>spacemine_s</ProjectileTexturePath>
   <ModelPath>spacemine</ModelPath>
   <WeaponType>Missile</WeaponType>

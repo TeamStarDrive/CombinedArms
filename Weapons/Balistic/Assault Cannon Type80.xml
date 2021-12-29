@@ -17,19 +17,19 @@
   <Tag_Cannon>true</Tag_Cannon>
   <Tag_Railgun>false</Tag_Railgun>
   
-  <Excludes_Fighters>true</Excludes_Fighters>  
-  <Excludes_Corvettes>true</Excludes_Corvettes>    
+  <ExcludesFighters>true</ExcludesFighters>  
+  <ExcludesCorvettes>true</ExcludesCorvettes>    
   
   <UID>Assault Cannon Type80</UID>
-  <fireDelay>8</fireDelay>
+  <FireDelay>8</FireDelay>
   <Range>9200</Range>
   <PowerRequiredToFire>20</PowerRequiredToFire>
   <OrdinanceRequiredToFire>10</OrdinanceRequiredToFire>
 
 
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_railgun_massive_01</fireCueName>
-  <dieCue>explosionMedium</dieCue>
+  <FireCueName>sd_weapon_railgun_massive_01</FireCueName>
+  <DieCue>explosionMedium</DieCue>
   <!-- Projectile Information -->
   <DamageAmount>1400</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
@@ -45,7 +45,7 @@
   <AnimationPath>Kinetic_Blue_Green_Blue/Kinetic_Blue_Green_Blue_cc_</AnimationPath>
   <LoopAnimation>1</LoopAnimation>         
 
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <ProjectileTexturePath>projLong_01_green</ProjectileTexturePath>
   <ModelPath>projLong</ModelPath>
   <ProjectileCount>1</ProjectileCount>

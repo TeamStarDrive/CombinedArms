@@ -15,18 +15,18 @@
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>true</Tag_Cannon>
   <Tag_Railgun>false</Tag_Railgun>
-  <Excludes_Fighters>true</Excludes_Fighters>  
-  <Excludes_Corvettes>true</Excludes_Corvettes>  
+  <ExcludesFighters>true</ExcludesFighters>  
+  <ExcludesCorvettes>true</ExcludesCorvettes>  
   
   <UID>Assault Cannon Type81</UID>
-  <fireDelay>8.8</fireDelay>
+  <FireDelay>8.8</FireDelay>
   <Range>7500</Range>
   <OrdinanceRequiredToFire>10</OrdinanceRequiredToFire>
 
 
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_railgun_massive_01</fireCueName>
-  <dieCue>explosionMedium</dieCue>
+  <FireCueName>sd_weapon_railgun_massive_01</FireCueName>
+  <DieCue>explosionMedium</DieCue>
   <!-- Projectile Information -->
   <DamageAmount>3250</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
@@ -43,7 +43,7 @@
   <AnimationPath>Kinetic_Red/Kinetic_Red_cc_</AnimationPath>
   <LoopAnimation>1</LoopAnimation>          
 
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ModelPath>projBall</ModelPath>
   <ProjectileCount>1</ProjectileCount>
   <WeaponEffectType>SmokeTrail</WeaponEffectType>

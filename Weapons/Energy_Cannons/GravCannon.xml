@@ -18,15 +18,15 @@
   <Tag_Cannon>true</Tag_Cannon>
   <Tag_PD>false</Tag_PD>
 
-  <Excludes_Fighters>true</Excludes_Fighters>  
+  <ExcludesFighters>true</ExcludesFighters>  
 
-  <fireDelay>5</fireDelay>
+  <FireDelay>5</FireDelay>
   <Range>6500</Range>
   <PowerRequiredToFire>1000</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
 
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_mech_attack_03</fireCueName>
+  <FireCueName>sd_mech_attack_03</FireCueName>
   
   <!-- Animation Information -->
   <!--  will use single texture till the issue with aspect ratio of anims be resolved
@@ -41,7 +41,7 @@
   <!-- Projectile Information -->
   <DamageAmount>3250</DamageAmount>
   <ProjectileSpeed>3300</ProjectileSpeed>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <DamageRadius>40</DamageRadius>
   <Light>Blue</Light>
   <ProjectileTexturePath>projLong_02_red</ProjectileTexturePath>

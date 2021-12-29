@@ -10,8 +10,8 @@
 
   <!-- common traits shared by all ship modules -->
   <ModuleType>Shield</ModuleType>
-  <XSIZE>2</XSIZE>
-  <YSIZE>2</YSIZE>
+  <XSize>2</XSize>
+  <YSize>2</YSize>
   <Name>BlueShield2x2</Name>
   <Restrictions>IO</Restrictions>
   <UID>BlueShield2x2</UID>
@@ -36,18 +36,18 @@
 
 
   <!-- for shield items -->
-  <shield_power>2000</shield_power>
-  <shield_power_max>2000</shield_power_max>
-  <shield_recharge_delay>8</shield_recharge_delay>
-  <shield_recharge_rate>300</shield_recharge_rate>
-  <shield_radius>100</shield_radius>
-  <shield_recharge_combat_rate>15</shield_recharge_combat_rate>
-  <shield_energy_resist>0.35</shield_energy_resist>
-  <shield_beam_resist>0.7</shield_beam_resist>  
-  <shield_hybrid_resist>0.5</shield_hybrid_resist>
-  <shield_threshold>30</shield_threshold>
+  <ShieldPower>2000</ShieldPower>
+  <ShieldPowerMax>2000</ShieldPowerMax>
+  <ShieldRechargeDelay>8</ShieldRechargeDelay>
+  <ShieldRechargeRate>300</ShieldRechargeRate>
+  <ShieldRadius>100</ShieldRadius>
+  <ShieldRechargeCombatRate>15</ShieldRechargeCombatRate>
+  <ShieldEnergyResist>0.35</ShieldEnergyResist>
+  <ShieldBeamResist>0.7</ShieldBeamResist>  
+  <ShieldHybridResist>0.5</ShieldHybridResist>
+  <ShieldThreshold>30</ShieldThreshold>
   <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
@@ -55,7 +55,7 @@
   
   
   <!-- for Engines -->
-  <thrust>0</thrust>
+  <Thrust>0</Thrust>
   
   
 

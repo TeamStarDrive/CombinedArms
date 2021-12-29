@@ -18,11 +18,11 @@
   <Tag_Cannon>false</Tag_Cannon>
 
   
-  <Excludes_Capitals>true</Excludes_Capitals>     
-  <Excludes_Stations>true</Excludes_Stations>     
+  <ExcludesCapitals>true</ExcludesCapitals>     
+  <ExcludesStations>true</ExcludesStations>     
   <UID>HellStormMiss</UID>
   <HitPoints>15</HitPoints>
-  <fireDelay>3</fireDelay>
+  <FireDelay>3</FireDelay>
   <Range>4000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.8</OrdinanceRequiredToFire>
@@ -45,7 +45,7 @@
   <EffectVSShields>1</EffectVSShields>
   <EffectVsArmor>1</EffectVsArmor>
   <Scale>0.9</Scale>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
   <ModelPath>Nuke</ModelPath>
@@ -54,7 +54,7 @@
   <WeaponEffectType>RocketTrail</WeaponEffectType>
   <WeaponType>Missile</WeaponType>
 <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_rocket_01</fireCueName>
-  <dieCue>sd_weapon_rocket_explode_01</dieCue>
+  <FireCueName>sd_weapon_rocket_01</FireCueName>
+  <DieCue>sd_weapon_rocket_explode_01</DieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
 </Weapon>

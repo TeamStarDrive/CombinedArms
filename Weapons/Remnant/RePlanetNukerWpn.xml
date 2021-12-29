@@ -1,15 +1,15 @@
 <Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
  <Tag_Bomb>true</Tag_Bomb>
   <UID>RePlanetNukerWpn</UID>
-  <fireDelay>3.5</fireDelay>
+  <FireDelay>3.5</FireDelay>
   <Range>9500</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.2</OrdinanceRequiredToFire>
   
   
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_bigcannon_01</fireCueName>
-  <dieCue>Explo1</dieCue>
+  <FireCueName>sd_weapon_bigcannon_01</FireCueName>
+  <DieCue>Explo1</DieCue>
 
 
   <!-- Projectile Information -->
@@ -18,14 +18,14 @@
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>2700</ProjectileSpeed>
   <DamageRadius>75</DamageRadius>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ProjectileTexturePath>projBall_01_green</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>
   <WeaponType>Ballistic Cannon</WeaponType>
 
   <BombPopulationKillPerHit>.1</BombPopulationKillPerHit>
-  <BombTroopDamage_Max>2</BombTroopDamage_Max>
-  <BombTroopDamage_Min>2</BombTroopDamage_Min>
+  <BombTroopDamageMax>2</BombTroopDamageMax>
+  <BombTroopDamageMin>2</BombTroopDamageMin>
   <BombHardDamageMin>2</BombHardDamageMin>
   <BombHardDamageMax>2</BombHardDamageMax>
 

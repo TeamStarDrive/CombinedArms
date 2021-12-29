@@ -5,7 +5,7 @@
   <Tag_Explosive>true</Tag_Explosive>
 
 
-  <fireDelay>7.5</fireDelay>
+  <FireDelay>7.5</FireDelay>
   <Range>6500</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>2.5</OrdinanceRequiredToFire>
@@ -13,8 +13,8 @@
   
 
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_flakcannon_01</fireCueName>
-  <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
+  <FireCueName>sd_weapon_flakcannon_01</FireCueName>
+  <DieCue>sd_weapon_flakcannon_explode_01</DieCue>
   <!-- Projectile Information -->
   <DamageAmount>150</DamageAmount>
   <Scale>0.7</Scale>
@@ -23,7 +23,7 @@
   <ProjectileRadius>4</ProjectileRadius>
   <DamageRadius>24</DamageRadius>
 
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ProjectileTexturePath>projLong_01_orange</ProjectileTexturePath>
   <ModelPath>projLong</ModelPath>
   <SalvoCount>2</SalvoCount>

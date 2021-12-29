@@ -12,8 +12,8 @@
   <TechLevel>4</TechLevel>
 
   <!-- common traits shared by all ship modules -->
-  <XSIZE>4</XSIZE>
-  <YSIZE>4</YSIZE>
+  <XSize>4</XSize>
+  <YSize>4</YSize>
   <ModuleType>PowerPlant</ModuleType>
   <Name>Main Engineering</Name>
   <Restrictions>I</Restrictions>
@@ -35,15 +35,15 @@
   <PowerDraw>0</PowerDraw>
   <BonusRepairRate>600</BonusRepairRate>
   <!-- for shield items -->
-  <shield_power>4000</shield_power>
-  <shield_power_max>4000</shield_power_max>
-  <shield_recharge_delay>4.5</shield_recharge_delay>
-  <shield_recharge_rate>55</shield_recharge_rate>
-  <shield_radius>40</shield_radius>
+  <ShieldPower>4000</ShieldPower>
+  <ShieldPowerMax>4000</ShieldPowerMax>
+  <ShieldRechargeDelay>4.5</ShieldRechargeDelay>
+  <ShieldRechargeRate>55</ShieldRechargeRate>
+  <ShieldRadius>40</ShieldRadius>
 
 
   <!-- for PowerPlant Items -->
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ExplosionDamage>3000</ExplosionDamage>
   <ExplosionRadius>256</ExplosionRadius>  
   <PowerFlowMax>2000</PowerFlowMax>
@@ -55,7 +55,7 @@
 
 
   <!-- for Engines -->
-  <thrust>120000</thrust>
+  <Thrust>120000</Thrust>
   <WarpThrust>200000</WarpThrust>
   <TurnThrust>150000</TurnThrust>
 

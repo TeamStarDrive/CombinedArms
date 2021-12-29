@@ -11,8 +11,8 @@
   <TechLevel>0</TechLevel>
 
   <!-- common traits shared by all ship modules -->
-  <XSIZE>2</XSIZE>
-  <YSIZE>2</YSIZE>
+  <XSize>2</XSize>
+  <YSize>2</YSize>
   <ModuleType>PowerPlant</ModuleType>
   <TechBranch>Power</TechBranch>
   <Name>Med. Nuclear Reactor</Name>
@@ -38,15 +38,15 @@
   <PowerDraw>0</PowerDraw>
 
   <!-- for shield items -->
-  <shield_power>0</shield_power>
-  <shield_power_max>0</shield_power_max>
-  <shield_recharge_delay>0</shield_recharge_delay>
-  <shield_recharge_rate>0</shield_recharge_rate>
-  <shield_radius>0</shield_radius>
+  <ShieldPower>0</ShieldPower>
+  <ShieldPowerMax>0</ShieldPowerMax>
+  <ShieldRechargeDelay>0</ShieldRechargeDelay>
+  <ShieldRechargeRate>0</ShieldRechargeRate>
+  <ShieldRadius>0</ShieldRadius>
 
 
   <!-- for PowerPlant Items -->
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ExplosionDamage>3750</ExplosionDamage>
   <ExplosionRadius>192</ExplosionRadius>  
   <PowerFlowMax>225</PowerFlowMax>
@@ -58,7 +58,7 @@
 
 
   <!-- for Engines -->
-  <thrust>0</thrust>
+  <Thrust>0</Thrust>
 
 
 

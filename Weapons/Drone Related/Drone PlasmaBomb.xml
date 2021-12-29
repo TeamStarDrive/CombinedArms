@@ -18,18 +18,18 @@
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>false</Tag_Cannon>
   
-  <Excludes_Fighters>true</Excludes_Fighters>  
-  <Excludes_Corvettes>true</Excludes_Corvettes>  
+  <ExcludesFighters>true</ExcludesFighters>  
+  <ExcludesCorvettes>true</ExcludesCorvettes>  
 
   <UID>Drone PlasmaBomb</UID>
-  <fireDelay>4</fireDelay>
+  <FireDelay>4</FireDelay>
   <Range>2000</Range>
   <HitPoints>15</HitPoints>
   <PowerRequiredToFire>2</PowerRequiredToFire>
   <OrdinanceRequiredToFire>1</OrdinanceRequiredToFire>
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_emptorpedo</fireCueName>
-  <dieCue>Explo1</dieCue>
+  <FireCueName>sd_weapon_emptorpedo</FireCueName>
+  <DieCue>Explo1</DieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
   <!-- Projectile Information -->
   <DamageAmount>200</DamageAmount>
@@ -38,7 +38,7 @@
 
   <Scale>0.6</Scale>
   <DamageRadius>20</DamageRadius>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ProjectileTexturePath>spacemine_g</ProjectileTexturePath>
   <ModelPath>spacemine</ModelPath>
 

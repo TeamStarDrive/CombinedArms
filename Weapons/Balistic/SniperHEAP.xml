@@ -4,21 +4,21 @@
   <Tag_Kinetic>true</Tag_Kinetic>
   <Tag_Explosive>true</Tag_Explosive>  
 
-  <fireDelay>6</fireDelay>
+  <FireDelay>6</FireDelay>
   <Range>8000</Range>
   <PowerRequiredToFire>80</PowerRequiredToFire>
   <OrdinanceRequiredToFire>2</OrdinanceRequiredToFire>
 
   
-  <Excludes_Fighters>true</Excludes_Fighters>    
+  <ExcludesFighters>true</ExcludesFighters>    
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_ground_cordrazine_01</fireCueName>
+  <FireCueName>sd_ground_cordrazine_01</FireCueName>
  
   <!-- Projectile Information -->
   <DamageAmount>600</DamageAmount>
   <ArmorPen>1</ArmorPen>
   <DamageRadius>33</DamageRadius>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>5000</ProjectileSpeed>
   <ProjectileRadius>4</ProjectileRadius>

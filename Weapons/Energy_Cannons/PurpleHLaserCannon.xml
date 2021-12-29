@@ -18,18 +18,18 @@
 
 
   <UID>PurpleHLaserCannon</UID>
-  <fireDelay>0.8</fireDelay>
+  <FireDelay>0.8</FireDelay>
   <Range>1800</Range>
   <PowerRequiredToFire>100</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>mining_laser</fireCueName>
+  <FireCueName>mining_laser</FireCueName>
 
   <!-- Projectile Information -->
   <DamageAmount>55</DamageAmount>
   <ProjectileSpeed>2500</ProjectileSpeed>
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <Light>Purple</Light>
   <ProjectileTexturePath>projPulse_01_purple_1</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>

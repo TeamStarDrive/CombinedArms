@@ -5,25 +5,25 @@
   <Tag_PD>true</Tag_PD>
   <Tag_Flak>true</Tag_Flak>
 
-  <Excludes_Capitals>true</Excludes_Capitals>
-  <Excludes_Stations>true</Excludes_Stations>
+  <ExcludesCapitals>true</ExcludesCapitals>
+  <ExcludesStations>true</ExcludesStations>
   
   <UID>Advanced FlakAA Cannon</UID>
-  <fireDelay>1.5</fireDelay>
+  <FireDelay>1.5</FireDelay>
   <Range>3000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.15</OrdinanceRequiredToFire>
   <TruePD>false</TruePD>
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_flakcannon_01</fireCueName>
+  <FireCueName>sd_weapon_flakcannon_01</FireCueName>
   <PlaySoundOncePerSalvo>false</PlaySoundOncePerSalvo>
-  <dieCue>sd_weapon_flakcannon_explode_01</dieCue>
+  <DieCue>sd_weapon_flakcannon_explode_01</DieCue>
   <DamageAmount>50</DamageAmount>
   <Scale>0.75</Scale>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1700</ProjectileSpeed>
   <DamageRadius>20</DamageRadius>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <ProjectileCount>1</ProjectileCount>

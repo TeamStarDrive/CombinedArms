@@ -19,8 +19,8 @@
   <!-- common traits shared by all ship modules -->
   <TechLevel>2</TechLevel>
   <ModuleType>Shield</ModuleType>
-  <XSIZE>1</XSIZE>
-  <YSIZE>1</YSIZE>
+  <XSize>1</XSize>
+  <YSize>1</YSize>
   <Name>Fighter Shield</Name>
   <Restrictions>IO</Restrictions>
   <UID>Fighter Shield</UID>
@@ -45,15 +45,14 @@
 
 
   <!-- for shield items -->
-  <shield_power>300</shield_power>
-  <shield_power_max>300</shield_power_max>
-  <shield_recharge_delay>3.2</shield_recharge_delay>
-  <shield_recharge_rate>5</shield_recharge_rate>
-  <shield_recharge_combat_rate>0</shield_recharge_combat_rate>
-  <shield_radius>70</shield_radius>
+  <ShieldPowerMax>300</ShieldPowerMax>
+  <ShieldRechargeDelay>3.2</ShieldRechargeDelay>
+  <ShieldRechargeRate>5</ShieldRechargeRate>
+  <ShieldRechargeCombatRate>0</ShieldRechargeCombatRate>
+  <ShieldRadius>70</ShieldRadius>
 
   <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
@@ -61,7 +60,7 @@
   
   
   <!-- for Engines -->
-  <thrust>0</thrust>
+  <Thrust>0</Thrust>
   
   
 

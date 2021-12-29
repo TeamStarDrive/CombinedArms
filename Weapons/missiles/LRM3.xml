@@ -19,8 +19,8 @@
 
    <UID>LRM3</UID> 
 
-  <Excludes_Fighters>true</Excludes_Fighters>  
-  <Excludes_Corvettes>true</Excludes_Corvettes>   
+  <ExcludesFighters>true</ExcludesFighters>  
+  <ExcludesCorvettes>true</ExcludesCorvettes>   
 
   <TerminalPhaseAttack>true</TerminalPhaseAttack>      
   <TerminalPhaseDistance>3050</TerminalPhaseDistance>      
@@ -29,7 +29,7 @@
   <MirvWarheads>4</MirvWarheads>
   <MirvSeparationDistance>3000</MirvSeparationDistance>  
   <HitPoints>50</HitPoints>
-  <fireDelay>10</fireDelay>
+  <FireDelay>10</FireDelay>
   <Range>15000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>12</OrdinanceRequiredToFire>
@@ -46,7 +46,7 @@
   <RotationRadsPerSecond>0.6</RotationRadsPerSecond>
 <!--Projectile atributes-->
   <Scale>1.4</Scale>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
   <ProjectileTexturePath>LRM_d</ProjectileTexturePath>
@@ -54,7 +54,7 @@
   <WeaponEffectType>RocketTrail</WeaponEffectType>
   <WeaponType>Missile</WeaponType>
 <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_missile_heavy_01</fireCueName>
-  <dieCue>Explo1</dieCue>
+  <FireCueName>sd_weapon_missile_heavy_01</FireCueName>
+  <DieCue>Explo1</DieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
 </Weapon>

@@ -19,7 +19,7 @@
   
   <UID>Venom_Rocket_Pod</UID>
   <HitPoints>12</HitPoints>
-  <fireDelay>11</fireDelay>
+  <FireDelay>11</FireDelay>
   <Range>3500</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>2</OrdinanceRequiredToFire>
@@ -38,7 +38,7 @@
   <ShieldPenChance>20</ShieldPenChance>
   <ArmorPen>1</ArmorPen>
   <Scale>0.5</Scale>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
    <ProjectileTexturePath>Rocket2_d</ProjectileTexturePath>
@@ -46,7 +46,7 @@
   <WeaponEffectType>RocketTrail</WeaponEffectType>
   <WeaponType>Missile</WeaponType>
 <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_flame_start_01</fireCueName>
-  <dieCue>sd_weapon_rocket_explode_01</dieCue>
+  <FireCueName>sd_weapon_flame_start_01</FireCueName>
+  <DieCue>sd_weapon_rocket_explode_01</DieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
 </Weapon>

@@ -16,19 +16,19 @@
   <Tag_Drone>false</Tag_Drone>
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>true</Tag_Cannon>
-  <Excludes_Fighters>true</Excludes_Fighters>  
-  <Excludes_Corvettes>true</Excludes_Corvettes>  
+  <ExcludesFighters>true</ExcludesFighters>  
+  <ExcludesCorvettes>true</ExcludesCorvettes>  
   
   <UID>QTCannon</UID>
-  <fireDelay>8</fireDelay>
+  <FireDelay>8</FireDelay>
   <Range>8000</Range>
   <PowerRequiredToFire>3000</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   <HitPoints>250</HitPoints>  
   
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_pulse_alt15_01</fireCueName>
-  <dieCue>Explo1</dieCue>
+  <FireCueName>sd_weapon_pulse_alt15_01</FireCueName>
+  <DieCue>Explo1</DieCue>
  <!-- <ToggleSoundName>sd_weapon_vulcan_spinloop_01</ToggleSoundName> -->
 
   <!-- Projectile Information -->
@@ -42,7 +42,7 @@
   <Frames>16</Frames>
   <AnimationPath>QT_Torpedo/QT_Torpedo_cc_</AnimationPath>
   <LoopAnimation>1</LoopAnimation>      
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <Light>Blue</Light>
   <ProjectileTexturePath>projBall_03_purple</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>

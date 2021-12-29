@@ -18,18 +18,18 @@
   <Tag_Cannon>true</Tag_Cannon>
 
   <UID>BlueLaser1x2</UID>
-  <fireDelay>5.4</fireDelay>
+  <FireDelay>5.4</FireDelay>
   <Range>2000</Range>
   <PowerRequiredToFire>37</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
-   <fireCueName>sd_weapon_laser_burst_01</fireCueName>
+   <FireCueName>sd_weapon_laser_burst_01</FireCueName>
   <PlaySoundOncePerSalvo>true</PlaySoundOncePerSalvo>
   <!-- Projectile Information -->
   <DamageAmount>54</DamageAmount>
   <ProjectileSpeed>2500</ProjectileSpeed>
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <Scale>.9</Scale>
   <Light>Blue</Light>
   <ProjectileTexturePath>projPulse_01_blue_1</ProjectileTexturePath>

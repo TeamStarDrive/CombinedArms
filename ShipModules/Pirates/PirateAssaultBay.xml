@@ -21,8 +21,8 @@
   <Cost>25</Cost>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Hangar</ModuleType>
-  <XSIZE>2</XSIZE>
-  <YSIZE>3</YSIZE>
+  <XSize>2</XSize>
+  <YSize>3</YSize>
   <CanRotate>true</CanRotate>
   <UID>PirateAssaultBay</UID>
   <Restrictions>O</Restrictions>
@@ -45,22 +45,22 @@
 
   <!-- for Hangar items -->
   <hangarShipUID>Vulcan Scout</hangarShipUID>
-  <hangarTimerConstant>30</hangarTimerConstant>
+  <HangarTimerConstant>30</HangarTimerConstant>
   <IsTroopBay>true</IsTroopBay>
   <TroopCapacity>1</TroopCapacity>
   <TroopsSupplied>1</TroopsSupplied>
   <OrdinanceCapacity>75</OrdinanceCapacity>
 
   <!-- for shield items -->
-  <shield_power>0</shield_power>
-  <shield_power_max>0</shield_power_max>
-  <shield_recharge_delay>0</shield_recharge_delay>
-  <shield_recharge_rate>0</shield_recharge_rate>
-  <shield_radius>0</shield_radius>
+  <ShieldPower>0</ShieldPower>
+  <ShieldPowerMax>0</ShieldPowerMax>
+  <ShieldRechargeDelay>0</ShieldRechargeDelay>
+  <ShieldRechargeRate>0</ShieldRechargeRate>
+  <ShieldRadius>0</ShieldRadius>
 
 
   <!-- for PowerPlant Items -->
-  <explodes>false</explodes>
+  <Explodes>false</Explodes>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
@@ -68,7 +68,7 @@
   
   
   <!-- for Engines -->
-  <thrust>0</thrust>
+  <Thrust>0</Thrust>
   
   
 

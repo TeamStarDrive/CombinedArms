@@ -2,21 +2,21 @@
 <Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 <Tag_Flak>true</Tag_Flak>
   <UID>APMines</UID>
-  <fireDelay>4.1</fireDelay>
+  <FireDelay>4.1</FireDelay>
   <Range>8500</Range>
   <HitPoints>40</HitPoints>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.7</OrdinanceRequiredToFire>
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_torpedo_01</fireCueName>
-  <dieCue>Explo1</dieCue>
+  <FireCueName>sd_weapon_torpedo_01</FireCueName>
+  <DieCue>Explo1</DieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
   <!-- Projectile Information -->
   <DamageAmount>400</DamageAmount>
   <ProjectileSpeed>150</ProjectileSpeed>
   <Scale>1.5</Scale>
   <DamageRadius>50</DamageRadius>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ProjectileTexturePath>spacemine_s</ProjectileTexturePath>
   <ModelPath>spacemine</ModelPath>
   <WeaponType>Missile</WeaponType>

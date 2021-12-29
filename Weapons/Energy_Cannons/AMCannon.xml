@@ -17,22 +17,22 @@
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>true</Tag_Cannon>
 
-  <Excludes_Fighters>true</Excludes_Fighters>  
-  <Excludes_Corvettes>true</Excludes_Corvettes> 
+  <ExcludesFighters>true</ExcludesFighters>  
+  <ExcludesCorvettes>true</ExcludesCorvettes> 
 
   <UID>AMCannon</UID>
-  <fireDelay>6</fireDelay>
+  <FireDelay>6</FireDelay>
   <Range>7600</Range>
   <PowerRequiredToFire>2400</PowerRequiredToFire>
   <OrdinanceRequiredToFire>3.5</OrdinanceRequiredToFire>
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_pulse_alt2_01</fireCueName>
+  <FireCueName>sd_weapon_pulse_alt2_01</FireCueName>
 
   <InFlightCue>sd_weapon_photon_flight_01</InFlightCue>
 
   <!-- Projectile Information -->
   <DamageAmount>2550</DamageAmount>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <DamageRadius>50</DamageRadius>
   <EffectVSShields>1.5</EffectVSShields>
   <EffectVsArmor>1.5</EffectVsArmor>
@@ -45,7 +45,7 @@
   <Frames>16</Frames>
   <AnimationPath>AM_Cannon/AM_Cannon_cc_</AnimationPath>
   <LoopAnimation>1</LoopAnimation>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <ProjectileTexturePath>projTear_03_red</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>
   <WeaponType>Anti-Matter</WeaponType>

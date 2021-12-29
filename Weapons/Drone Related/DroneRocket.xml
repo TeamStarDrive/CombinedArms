@@ -20,13 +20,13 @@
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>false</Tag_Cannon>
   
-  <fireDelay>2.5</fireDelay>
+  <FireDelay>2.5</FireDelay>
   <Range>2500</Range>
   <HitPoints>5</HitPoints>
   <OrdinanceRequiredToFire>0.5</OrdinanceRequiredToFire>
   <!-- name of XACT audio cue to play on firing this weapon -->
-  <fireCueName>sd_weapon_rocket_01</fireCueName>
-  <dieCue>sd_weapon_rocket_explode_01</dieCue>
+  <FireCueName>sd_weapon_rocket_01</FireCueName>
+  <DieCue>sd_weapon_rocket_explode_01</DieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
   <!-- Projectile Information -->
   <SalvoCount>2</SalvoCount>
@@ -35,7 +35,7 @@
   <DamageAmount>32</DamageAmount>
   <ProjectileSpeed>1000</ProjectileSpeed>
   <DamageRadius>16</DamageRadius>
-  <explodes>true</explodes>
+  <Explodes>true</Explodes>
   <RotationRadsPerSecond>6</RotationRadsPerSecond>
   <Scale>.5</Scale>
   <ProjectileTexturePath>missile_d</ProjectileTexturePath>
