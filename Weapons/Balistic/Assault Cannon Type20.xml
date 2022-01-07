@@ -31,7 +31,7 @@
   <DamageAmount>3250</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>2100</ProjectileSpeed>
-  <DamageRadius>96</DamageRadius>
+  <DamageRadius>96</DamageRadius> <!-- This projectile explodes -->
   <ShieldPenChance>40</ShieldPenChance>
   <EffectVsArmor>1.4</EffectVsArmor>
   <EffectVSShields>0.85</EffectVSShields>
@@ -43,7 +43,6 @@
   <AnimationPath>Kinetic_Red/Kinetic_Red_cc_</AnimationPath>
   <LoopAnimation>1</LoopAnimation>          
 
-  <Explodes>true</Explodes>
   <ModelPath>projBall</ModelPath>
   <ProjectileCount>1</ProjectileCount>
   <WeaponEffectType>SmokeTrail</WeaponEffectType>

@@ -32,8 +32,8 @@
 
   <!-- Projectile Information -->
   <DamageAmount>2550</DamageAmount>
-  <Explodes>true</Explodes>
-  <DamageRadius>50</DamageRadius>
+  
+  <DamageRadius>50</DamageRadius> <!-- This projectile explodes -->
   <EffectVSShields>1.5</EffectVSShields>
   <EffectVsArmor>1.5</EffectVsArmor>
   <ShieldPenChance>35</ShieldPenChance>
@@ -45,7 +45,7 @@
   <Frames>16</Frames>
   <AnimationPath>AM_Cannon/AM_Cannon_cc_</AnimationPath>
   <LoopAnimation>1</LoopAnimation>
-  <Explodes>true</Explodes>
+  
   <ProjectileTexturePath>projTear_03_red</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>
   <WeaponType>Anti-Matter</WeaponType>

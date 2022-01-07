@@ -33,14 +33,14 @@
 <!-- Projectile stats -->
   <DamageAmount>390</DamageAmount>
   <ProjectileSpeed>1200</ProjectileSpeed>
-  <DamageRadius>40</DamageRadius>
+  <DamageRadius>40</DamageRadius> <!-- This projectile explodes -->
   <SalvoCount>2</SalvoCount>
   <SalvoTimer>0.5</SalvoTimer>
   <ProjectileRadius>4</ProjectileRadius>
   <RotationRadsPerSecond>2</RotationRadsPerSecond>
 <!--Projectile atributes-->
   <Scale>0.5</Scale>
-  <Explodes>true</Explodes>
+  
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
    <ProjectileTexturePath>MRM_d</ProjectileTexturePath>

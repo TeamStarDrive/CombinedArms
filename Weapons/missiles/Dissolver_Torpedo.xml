@@ -37,12 +37,12 @@
 <!-- Projectile stats -->
   <DamageAmount>500</DamageAmount>
   <ProjectileSpeed>1050</ProjectileSpeed>
-  <DamageRadius>1</DamageRadius>
+  <DamageRadius>32</DamageRadius> <!-- This projectile explodes -->
   <ProjectileRadius>15</ProjectileRadius>
   <RotationRadsPerSecond>0.6</RotationRadsPerSecond>
 <!--Projectile atributes-->
   <Scale>3</Scale>
-  <Explodes>true</Explodes>
+  
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
   <WeaponEffectType>RocketTrail</WeaponEffectType>

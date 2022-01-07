@@ -29,7 +29,7 @@
   <DamageAmount>100</DamageAmount>
   <ProjectileSpeed>1500</ProjectileSpeed>
   <ProjectileRadius>4</ProjectileRadius>
-  <DamageRadius>14</DamageRadius>
+  <DamageRadius>14</DamageRadius> <!-- This projectile explodes -->
   <SalvoCount>7</SalvoCount>
   <SalvoTimer>1</SalvoTimer>
   <FireCone>10</FireCone>               <!--for salvos-->
@@ -38,7 +38,7 @@
 <!--Projectile atributes-->
   <EffectVsArmor>1.2</EffectVsArmor>
   <Scale>0.5</Scale>
-  <Explodes>true</Explodes>
+  
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
     <ProjectileTexturePath>Rocket_d</ProjectileTexturePath>

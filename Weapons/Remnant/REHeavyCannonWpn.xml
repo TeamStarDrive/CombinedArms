@@ -17,8 +17,8 @@
   <ExcludesCorvettes>true</ExcludesCorvettes>  
   <!-- Projectile Information -->
   <DamageAmount>2250</DamageAmount>
-  <Explodes>true</Explodes>
-  <DamageRadius>40</DamageRadius>
+  
+  <DamageRadius>40</DamageRadius> <!-- This projectile explodes -->
   <ProjectileSpeed>2500</ProjectileSpeed>
   <ProjectileRadius>8</ProjectileRadius>
   <Animated>1</Animated>
@@ -26,7 +26,7 @@
   <Frames>31</Frames>
   <AnimationPath>projBall_01_plasma_1/projBall_01_plasma_1_cc_</AnimationPath>
   <LoopAnimation>1</LoopAnimation>
-  <Explodes>false</Explodes>
+  
   <OffPowerMod>0.6</OffPowerMod>
   <ProjectileTexturePath>projTear_03_red</ProjectileTexturePath>
   <ModelPath>projBall</ModelPath>

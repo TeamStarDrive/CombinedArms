@@ -33,7 +33,7 @@
 <!-- Projectile stats -->
   <DamageAmount>800</DamageAmount>
   <ProjectileSpeed>1800</ProjectileSpeed>
-  <DamageRadius>60</DamageRadius>
+  <DamageRadius>60</DamageRadius> <!-- This projectile explodes -->
   <SalvoCount>4</SalvoCount>
   <SalvoTimer>2</SalvoTimer>
   <DelayedIgnition>0.35</DelayedIgnition>
@@ -42,7 +42,7 @@
   <RotationRadsPerSecond>0.6</RotationRadsPerSecond>
 <!--Projectile atributes-->
   <Scale>1.5</Scale>
-  <Explodes>true</Explodes>
+  
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
   <WeaponEffectType>RocketTrail</WeaponEffectType>

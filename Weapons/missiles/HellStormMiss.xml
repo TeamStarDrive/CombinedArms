@@ -32,7 +32,7 @@
   <FireArc>15</FireArc>             <!--for shotgun effect-->
   <DamageAmount>160</DamageAmount>
   <ProjectileSpeed>2150</ProjectileSpeed>
-  <DamageRadius>30</DamageRadius>
+  <DamageRadius>30</DamageRadius> <!-- This projectile explodes -->
   <SalvoCount>6</SalvoCount>
   <SalvoTimer>1.2</SalvoTimer>
   <FireCone>30</FireCone>               <!--for salvos-->
@@ -45,7 +45,7 @@
   <EffectVSShields>1</EffectVSShields>
   <EffectVsArmor>1</EffectVsArmor>
   <Scale>0.9</Scale>
-  <Explodes>true</Explodes>
+  
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
   <ModelPath>Nuke</ModelPath>
