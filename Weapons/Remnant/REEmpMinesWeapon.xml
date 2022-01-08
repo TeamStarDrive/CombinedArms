@@ -2,7 +2,7 @@
 <Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <Tag_Torpedo>true</Tag_Torpedo>
-  <Tag_Explosive>true</Tag_Explosive>
+  
   <Tag_Intercept>true</Tag_Intercept>
   
   <UID>EmpMinesWeapons</UID>
@@ -22,7 +22,7 @@
   <ProjectileSpeed>50</ProjectileSpeed>
 
   <Scale>1</Scale>
-  <DamageRadius>40</DamageRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>40</ExplosionRadius> <!-- This projectile explodes -->
   
   <ProjectileTexturePath>spacemine_s</ProjectileTexturePath>
   <ModelPath>spacemine</ModelPath>

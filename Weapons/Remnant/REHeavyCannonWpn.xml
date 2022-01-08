@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Tag_Kinetic>true</Tag_Kinetic>
-  <Tag_Explosive>true</Tag_Explosive>
+  
   <Tag_Cannon>true</Tag_Cannon>
   
   <UID>REHeavyCannonWpn</UID>
@@ -18,7 +18,7 @@
   <!-- Projectile Information -->
   <DamageAmount>2250</DamageAmount>
   
-  <DamageRadius>40</DamageRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>40</ExplosionRadius> <!-- This projectile explodes -->
   <ProjectileSpeed>2500</ProjectileSpeed>
   <ProjectileRadius>8</ProjectileRadius>
   <Animated>1</Animated>

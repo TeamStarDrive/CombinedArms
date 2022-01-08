@@ -2,7 +2,7 @@
 <Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <Tag_Missile>true</Tag_Missile>
-  <Tag_Explosive>true</Tag_Explosive>
+  
   
   <ExcludesFighters>true</ExcludesFighters>  
   <ExcludesCorvettes>true</ExcludesCorvettes>  
@@ -24,7 +24,7 @@
   <Light>Blue</Light>
   <EffectVsArmor>0.5</EffectVsArmor>
   <Scale>1.2</Scale>
-  <DamageRadius>20</DamageRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>20</ExplosionRadius> <!-- This projectile explodes -->
   
   <ProjectileTexturePath>spacemine_g</ProjectileTexturePath>
   <ModelPath>spacemine</ModelPath>

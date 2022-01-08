@@ -1,7 +1,7 @@
 ﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <Tag_Cannon>true</Tag_Cannon>
   <Tag_Energy>true</Tag_Energy>
-  <Tag_Explosive>true</Tag_Explosive>  
+    
 
   <UID>PlanetPhoton</UID>
   <FireDelay>2</FireDelay>
@@ -24,7 +24,7 @@
   <ProjectileRadius>8</ProjectileRadius> 
   
   <ExplosionType>Photon</ExplosionType>
-  <DamageRadius>25</DamageRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>25</ExplosionRadius> <!-- This projectile explodes -->
   <ExcludesFighters>true</ExcludesFighters>  
   
   <Animated>1</Animated>

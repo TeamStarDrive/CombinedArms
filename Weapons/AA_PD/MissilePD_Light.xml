@@ -6,7 +6,7 @@
   <Tag_Guided>true</Tag_Guided>
   <Tag_Missile>true</Tag_Missile>
   <Tag_Intercept>true</Tag_Intercept>
-  <Tag_Explosive>true</Tag_Explosive>
+  
   <Tag_PD>true</Tag_PD>   
   <TruePD>true</TruePD>
 
@@ -27,7 +27,7 @@
   <ProjectileCount>1</ProjectileCount>  
   <DamageAmount>40</DamageAmount>
   <ProjectileSpeed>2500</ProjectileSpeed>
-  <DamageRadius>40</DamageRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>40</ExplosionRadius> <!-- This projectile explodes -->
   <ProjectileTexturePath>missile_d</ProjectileTexturePath>
   <ModelPath>missile</ModelPath>
   <WeaponEffectType>RocketTrail</WeaponEffectType>
