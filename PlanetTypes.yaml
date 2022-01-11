@@ -9,6 +9,7 @@ PlanetType:
   HabitableTileChance: [5, 20]
   PopPerTile: [50, 400]
   BaseFertility: 0
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 4
@@ -20,6 +21,7 @@ PlanetType:
   HabitableTileChance: [10, 40]
   PopPerTile: [75, 400]
   BaseFertility: 0
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 5 # Venus
@@ -33,6 +35,7 @@ PlanetType:
   HabitableTileChance: [10, 30]
   PopPerTile: [50, 450]
   BaseFertility: 0
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 7 # Mercury
@@ -45,6 +48,7 @@ PlanetType:
   HabitableTileChance: [4, 25]
   PopPerTile: [75, 400]
   BaseFertility: 0
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 8 # Mars
@@ -57,6 +61,7 @@ PlanetType:
   HabitableTileChance: [4, 40]
   PopPerTile: [100, 350]
   BaseFertility: 0
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # Barren Planet with some chance for habitable tiles
 PlanetType:
@@ -70,6 +75,7 @@ PlanetType:
   HabitableTileChance: [10, 40]
   PopPerTile: [50, 400]
   BaseFertility: 0
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 24
@@ -81,6 +87,7 @@ PlanetType:
   HabitableTileChance: [10, 25]
   PopPerTile: [75, 450]
   BaseFertility: 0
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 20 # Moon, rocky barren
@@ -92,6 +99,7 @@ PlanetType:
   HabitableTileChance: [2, 25]
   PopPerTile: [50, 250]
   BaseFertility: [-0.1, 0.1]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # Volcanic
 PlanetType:
@@ -101,6 +109,7 @@ PlanetType:
   IconPath: Planets/9
   MeshPath: Model/SpaceObjects/planet_9
   Glow: Red
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 23 # Kahless
@@ -109,6 +118,7 @@ PlanetType:
   IconPath: Planets/23
   MeshPath: Model/SpaceObjects/planet_23
   Glow: Red
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # Ice
 PlanetType:
@@ -122,6 +132,7 @@ PlanetType:
   HabitableTileChance: [35, 75]
   PopPerTile: [250, 400]
   BaseFertility: [0.15, 1.0]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
   
 
 # Ice, better pop but less tiles
@@ -136,6 +147,7 @@ PlanetType:
   HabitableTileChance: [25, 60]
   PopPerTile: [150, 250]
   BaseFertility: [-0.15, 1.5]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # Ice, almost barren
 PlanetType:
@@ -149,6 +161,7 @@ PlanetType:
   HabitableTileChance: [20, 50]
   PopPerTile: [100, 200]
   BaseFertility: [-0.2, 0.5]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # Swamp
 PlanetType:
@@ -164,6 +177,7 @@ PlanetType:
   PopPerTile: [250, 400]
   BaseFertility: [0.25, 1.5]
   MinBaseFertility: 0.75
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # Swamp, slightly harsher
 PlanetType:
@@ -178,6 +192,7 @@ PlanetType:
   HabitableTileChance: [15, 45]
   PopPerTile: [100, 200]
   BaseFertility: [-0.2, 1]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
   
 # Swamp, wider magrins on this planet
 PlanetType:
@@ -192,6 +207,7 @@ PlanetType:
   HabitableTileChance: 40
   PopPerTile: [100, 400]
   BaseFertility: [-1, 2]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
     
 # Oceanic 
 PlanetType:
@@ -207,6 +223,7 @@ PlanetType:
   PopPerTile: [150, 400]
   BaseFertility: [-0.3, 2.5]
   MinBaseFertility: 0.2
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
   
 # Oceanic, more oceans so less tiles 
 PlanetType:
@@ -222,6 +239,7 @@ PlanetType:
   PopPerTile: [200, 350]
   BaseFertility: [-0.6, 2]
   MinBaseFertility: 0.2  
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
   
 # Oceanic, many isle, so more tiles but less pop 
 PlanetType:
@@ -236,6 +254,7 @@ PlanetType:
   HabitableTileChance: [50, 85]
   PopPerTile: [150, 250]
   BaseFertility: [0.2, 1.5]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # Desert
 PlanetType:
@@ -250,6 +269,7 @@ PlanetType:
   PopPerTile: [100, 400]
   BaseFertility: [-0.8, 1]
   MinBaseFertility: 0.2
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
   
 # Desert
 PlanetType:
@@ -263,6 +283,7 @@ PlanetType:
   HabitableTileChance: [45, 75]
   PopPerTile: [75, 300]
   BaseFertility: [-0.2, 1.2]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
     
 # Desert, big (tatooine style)
 PlanetType:
@@ -277,6 +298,7 @@ PlanetType:
   PopPerTile: [50, 400]
   BaseFertility: [-0.2, 0.5]
   Scale: 1.8
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
   
 # Tundra
 PlanetType:
@@ -291,6 +313,7 @@ PlanetType:
   HabitableTileChance: [15, 45]
   PopPerTile: [200, 400]
   BaseFertility: [0.25, 0.75]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # Tundra, harsg
 PlanetType:
@@ -305,6 +328,7 @@ PlanetType:
   HabitableTileChance: [20, 45]
   PopPerTile: [100, 400]
   BaseFertility: [0.1, 1]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # Tundra, dense
 PlanetType:
@@ -319,6 +343,7 @@ PlanetType:
   HabitableTileChance: [35, 55]
   PopPerTile: [125, 250]
   BaseFertility: [-0.2, 1.5]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
   
 # Steppe
 PlanetType:
@@ -333,6 +358,7 @@ PlanetType:
   HabitableTileChance: [15, 45]
   PopPerTile: [100, 300]
   BaseFertility: [-0.4, 1.5]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
   
 # Steppe
 PlanetType:
@@ -347,6 +373,7 @@ PlanetType:
   HabitableTileChance: [15, 45]
   PopPerTile: [200, 400]
   BaseFertility: [-0.2, 1.3]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # Steppe
 PlanetType:
@@ -361,6 +388,7 @@ PlanetType:
   HabitableTileChance: [35, 70]
   PopPerTile: [250, 400]
   BaseFertility: [0.1, 1.1]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # Terran
 PlanetType:
@@ -375,6 +403,7 @@ PlanetType:
   HabitableTileChance: 10
   PopPerTile: [175, 400]
   BaseFertility: [0.2, 0.75]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 13
@@ -389,6 +418,7 @@ PlanetType:
   HabitableTileChance: 75
   PopPerTile: [250, 425]
   BaseFertility: [0.1, 1]
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 22 # Kholin:Adolin
@@ -404,6 +434,7 @@ PlanetType:
   PopPerTile: [140, 400]
   BaseFertility: [0, 1.5]
   MinBaseFertility: 0.25
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 25
@@ -418,6 +449,7 @@ PlanetType:
   PopPerTile: [150, 375]
   BaseFertility: [-0.25, 1.5]
   MinBaseFertility: 0.1
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 27 
@@ -432,6 +464,7 @@ PlanetType:
   PopPerTile: [150, 425]
   BaseFertility: [-1.8, 3.0]
   MinBaseFertility: 0.2
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 29
@@ -446,6 +479,7 @@ PlanetType:
   PopPerTile: [150, 250]
   BaseFertility: [-0.2, 1.2]
   MinBaseFertility: 0.25
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # GasGiants
 PlanetType:
@@ -455,6 +489,7 @@ PlanetType:
   IconPath: Planets/2
   MeshPath: Model/SpaceObjects/planet_2
   Scale: 2.5
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 6 # Blood Red Giant
@@ -463,6 +498,7 @@ PlanetType:
   IconPath: Planets/6
   MeshPath: Model/SpaceObjects/planet_6
   Scale: 2.5
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 10 # Yellow Giant
@@ -471,6 +507,7 @@ PlanetType:
   IconPath: Planets/10
   MeshPath: Model/SpaceObjects/planet_10
   Scale: 2.5
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 12 # Pink Giant
@@ -479,6 +516,7 @@ PlanetType:
   IconPath: Planets/12
   MeshPath: Model/SpaceObjects/planet_12
   Scale: 2.5
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
   
 PlanetType:
   Id: 15 # Polyphemus, Uranus, Cyan/LightBlue giant
@@ -487,6 +525,7 @@ PlanetType:
   IconPath: Planets/15
   MeshPath: Model/SpaceObjects/planet_15
   Scale: 2.5
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 26 # Neptune, Blue giant
@@ -495,6 +534,7 @@ PlanetType:
   IconPath: Planets/26
   MeshPath: Model/SpaceObjects/planet_26
   Scale: 2.5
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
   Id: 28 # Jupiter, striped beige giant
@@ -502,4 +542,5 @@ PlanetType:
   Composition: 1710
   IconPath: Planets/28
   MeshPath: Model/SpaceObjects/planet_28
-    Scale: 2.5
+  Scale: 2.5
+  MoonTypes: [Barren,Desert,Volcanic,Ice]
