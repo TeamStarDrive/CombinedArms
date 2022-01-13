@@ -4,7 +4,11 @@ PlanetType:
   Category: Barren
   Composition: 1702
   IconPath: Planets/3
-  MeshPath: Model/SpaceObjects/planet_3
+  DiffuseMap:    Model/SpaceObjects/planet_tex3_2048x1024.dds
+  SpecularMap:   
+  NormalMap:     Model/SpaceObjects/planet_tex3_normal.dds
+  EmissiveMap:   
+  SpecularPower: 0.5
   Habitable: true
   HabitableTileChance: [5, 20]
   PopPerTile: [50, 400]
@@ -16,7 +20,11 @@ PlanetType:
   Category: Barren
   Composition: 1702
   IconPath: Planets/4
-  MeshPath: Model/SpaceObjects/planet_4
+  DiffuseMap:    Model/SpaceObjects/planet_tex4_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex4_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex4_normal.dds
+  EmissiveMap:   Model/SpaceObjects/planet_tex4_emis.dds
+  SpecularPower: 0.5
   Habitable: true
   HabitableTileChance: [10, 40]
   PopPerTile: [75, 400]
@@ -28,9 +36,14 @@ PlanetType:
   Category: Barren
   Composition: 1703
   IconPath: Planets/5
-  MeshPath: Model/SpaceObjects/planet_5
-  Glow: Red
-  EarthLike: true # Give it earthlike clouds
+  DiffuseMap:    Model/SpaceObjects/planet_tex5_2048x1024.dds
+  SpecularMap:   
+  NormalMap:     Model/SpaceObjects/planet_tex5_normal.dds
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [152,29,5,128] # Red
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer  
   Habitable: true
   HabitableTileChance: [10, 30]
   PopPerTile: [50, 450]
@@ -42,8 +55,12 @@ PlanetType:
   Category: Barren
   Composition: 1704
   IconPath: Planets/7
-  MeshPath: Model/SpaceObjects/planet_7
-  Glow: Red
+  DiffuseMap:    Model/SpaceObjects/mercurymap.dds
+  SpecularMap:   
+  NormalMap:     Model/SpaceObjects/mercurynormal.dds
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [152,29,5,128] # Red  
   Habitable: true
   HabitableTileChance: [4, 25]
   PopPerTile: [75, 400]
@@ -55,8 +72,12 @@ PlanetType:
   Category: Barren
   Composition: 1703
   IconPath: Planets/8
-  MeshPath: Model/SpaceObjects/planet_8
-  Glow: Red
+  DiffuseMap:    Model/SpaceObjects/Mars8k-modified.dds
+  SpecularMap:   
+  NormalMap:     Model/SpaceObjects/MarsNormal.dds
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [152,29,5,128] # Red  
   Habitable: true
   HabitableTileChance: [4, 40]
   PopPerTile: [100, 350]
@@ -69,8 +90,13 @@ PlanetType:
   Category: Barren
   Composition: 1712
   IconPath: Planets/16
-  MeshPath: Model/SpaceObjects/planet_16
-  EarthLike: true # Give it earthlike clouds
+  DiffuseMap:    Model/SpaceObjects/planet_tex16_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex16_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex16_normal.dds
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [10, 40]
   PopPerTile: [50, 400]
@@ -82,7 +108,11 @@ PlanetType:
   Category: Barren
   Composition: 1719
   IconPath: Planets/24
-  MeshPath: Model/SpaceObjects/planet_24
+  DiffuseMap:    Model/SpaceObjects/planet_tex24_2048x1024.dds
+  SpecularMap:   
+  NormalMap:     
+  EmissiveMap:   
+  SpecularPower: 0.5  
   Habitable: true
   HabitableTileChance: [10, 25]
   PopPerTile: [75, 450]
@@ -94,7 +124,11 @@ PlanetType:
   Category: Barren
   Composition: 1711
   IconPath: Planets/20
-  MeshPath: Model/SpaceObjects/planet_20
+  DiffuseMap:    Model/SpaceObjects/new_moon_d.dds
+  SpecularMap:   
+  NormalMap:     
+  EmissiveMap:   
+  SpecularPower: 0.5  
   Habitable: true
   HabitableTileChance: [2, 25]
   PopPerTile: [50, 250]
@@ -107,8 +141,12 @@ PlanetType:
   Category: Volcanic
   Composition: 1705
   IconPath: Planets/9
-  MeshPath: Model/SpaceObjects/planet_9
-  Glow: Red
+  DiffuseMap:    Model/SpaceObjects/planet_tex9_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_9spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex9_normal.dds
+  EmissiveMap:   Model/SpaceObjects/planet_9emiss.dds
+  SpecularPower: 4
+  Glow: [152,29,5,128] # Red
   MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 PlanetType:
@@ -116,8 +154,12 @@ PlanetType:
   Category: Volcanic
   Composition: 1718
   IconPath: Planets/23
-  MeshPath: Model/SpaceObjects/planet_23
-  Glow: Red
+  DiffuseMap:    Model/SpaceObjects/planet_tex23_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_23spec.dds
+  NormalMap:     Model/SpaceObjects/planet_23normalalt.dds
+  EmissiveMap:   Model/SpaceObjects/planet_23emis.dds
+  SpecularPower: 4
+  Glow: [152,29,5,128] # Red
   MoonTypes: [Barren,Desert,Volcanic,Ice]
 
 # Ice
@@ -126,8 +168,12 @@ PlanetType:
   Category: Ice
   Composition: 1713
   IconPath: Planets/17
-  MeshPath: Model/SpaceObjects/planet_17
-  Glow: White
+  DiffuseMap:    Model/SpaceObjects/icemars.dds
+  SpecularMap:   
+  NormalMap:     Model/SpaceObjects/planet_tex17_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [255,255,255,80] # White
   Habitable: true
   HabitableTileChance: [35, 75]
   PopPerTile: [250, 400]
@@ -141,8 +187,12 @@ PlanetType:
   Category: Ice
   Composition: 1713
   IconPath: Planets/17
-  MeshPath: Model/SpaceObjects/planet_17
-  Glow: White
+  DiffuseMap:    Model/SpaceObjects/icemars.dds
+  SpecularMap:   
+  NormalMap:     Model/SpaceObjects/planet_tex17_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [255,255,255,80] # White
   Habitable: true
   HabitableTileChance: [25, 60]
   PopPerTile: [150, 250]
@@ -155,8 +205,12 @@ PlanetType:
   Category: Ice
   Composition: 1713
   IconPath: Planets/17
-  MeshPath: Model/SpaceObjects/planet_17
-  Glow: White
+  DiffuseMap:    Model/SpaceObjects/icemars.dds
+  SpecularMap:   
+  NormalMap:     Model/SpaceObjects/planet_tex17_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [255,255,255,80] # White
   Habitable: true
   HabitableTileChance: [20, 50]
   PopPerTile: [100, 200]
@@ -169,9 +223,14 @@ PlanetType:
   Category: Swamp
   Composition: 1715
   IconPath: Planets/19
-  MeshPath: Model/SpaceObjects/planet_19
-  Glow: Aqua
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex19_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex19_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex19_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [44,204,149,128] # Aqua
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [35, 70]
   PopPerTile: [250, 400]
@@ -185,9 +244,14 @@ PlanetType:
   Category: Swamp
   Composition: 1715
   IconPath: Planets/19
-  MeshPath: Model/SpaceObjects/planet_19
-  Glow: Aqua
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex19_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex19_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex19_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [44,204,149,128] # Aqua
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [15, 45]
   PopPerTile: [100, 200]
@@ -200,9 +264,14 @@ PlanetType:
   Category: Swamp
   Composition: 1715
   IconPath: Planets/19
-  MeshPath: Model/SpaceObjects/planet_19
-  Glow: Aqua
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex19_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex19_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex19_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [44,204,149,128] # Aqua
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: 40
   PopPerTile: [100, 400]
@@ -215,9 +284,14 @@ PlanetType:
   Category: Oceanic
   Composition: 1716
   IconPath: Planets/21
-  MeshPath: Model/SpaceObjects/planet_21
-  Glow: Terran
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex21_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex21_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex21_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [57,146,215,128] # Terran Blue
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [40, 60]
   PopPerTile: [150, 400]
@@ -231,9 +305,14 @@ PlanetType:
   Category: Oceanic
   Composition: 1716
   IconPath: Planets/21
-  MeshPath: Model/SpaceObjects/planet_21
-  Glow: Terran
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex21_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex21_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex21_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [57,146,215,128] # Terran Blue
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [15, 45]
   PopPerTile: [200, 350]
@@ -247,9 +326,14 @@ PlanetType:
   Category: Oceanic
   Composition: 1716
   IconPath: Planets/21
-  MeshPath: Model/SpaceObjects/planet_21
-  Glow: Terran
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex21_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex21_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex21_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [57,146,215,128] # Terran Blue
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [50, 85]
   PopPerTile: [150, 250]
@@ -262,8 +346,12 @@ PlanetType:
   Category: Desert
   Composition: 1710
   IconPath: Planets/14
-  MeshPath: Model/SpaceObjects/planet_14
-  Glow: Orange
+  DiffuseMap:    Model/SpaceObjects/planet_tex14_2048x1024.dds
+  SpecularMap:   
+  NormalMap:     Model/SpaceObjects/planet_tex14_normal.dds
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [249,229,91,128] # Orange
   Habitable: true
   HabitableTileChance: [10, 45]
   PopPerTile: [100, 400]
@@ -277,8 +365,12 @@ PlanetType:
   Category: Desert
   Composition: 1710
   IconPath: Planets/14
-  MeshPath: Model/SpaceObjects/planet_14
-  Glow: Orange
+  DiffuseMap:    Model/SpaceObjects/planet_tex14_2048x1024.dds
+  SpecularMap:   
+  NormalMap:     Model/SpaceObjects/planet_tex14_normal.dds
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [249,229,91,128] # Orange
   Habitable: true
   HabitableTileChance: [45, 75]
   PopPerTile: [75, 300]
@@ -291,8 +383,12 @@ PlanetType:
   Category: Desert
   Composition: 1710
   IconPath: Planets/14
-  MeshPath: Model/SpaceObjects/planet_14
-  Glow: Orange
+  DiffuseMap:    Model/SpaceObjects/planet_tex14_2048x1024.dds
+  SpecularMap:   
+  NormalMap:     Model/SpaceObjects/planet_tex14_normal.dds
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [249,229,91,128] # Orange
   Habitable: true
   HabitableTileChance: [5, 40]
   PopPerTile: [50, 400]
@@ -306,9 +402,14 @@ PlanetType:
   Category: Tundra
   Composition: 1707
   IconPath: Planets/11
-  MeshPath: Model/SpaceObjects/planet_11
-  Glow: Terran
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex11_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex11_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex11_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [57,146,215,128] # Terran Blue
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [15, 45]
   PopPerTile: [200, 400]
@@ -321,9 +422,14 @@ PlanetType:
   Category: Tundra
   Composition: 1707
   IconPath: Planets/11
-  MeshPath: Model/SpaceObjects/planet_11
-  Glow: Terran
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex11_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex11_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex11_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [57,146,215,128] # Terran Blue
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [20, 45]
   PopPerTile: [100, 400]
@@ -336,9 +442,14 @@ PlanetType:
   Category: Tundra
   Composition: 1707
   IconPath: Planets/11
-  MeshPath: Model/SpaceObjects/planet_11
-  Glow: Terran
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex11_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex11_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex11_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [57,146,215,128] # Terran Blue
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [35, 55]
   PopPerTile: [125, 250]
@@ -351,9 +462,14 @@ PlanetType:
   Category: Steppe
   Composition: 1714
   IconPath: Planets/18
-  MeshPath: Model/SpaceObjects/planet_18
-  Glow: Orange
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex18_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex19_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex19_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [249,229,91,128] # Orange
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [15, 45]
   PopPerTile: [100, 300]
@@ -366,9 +482,14 @@ PlanetType:
   Category: Steppe
   Composition: 1714
   IconPath: Planets/18
-  MeshPath: Model/SpaceObjects/planet_18
-  Glow: Orange
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex18_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex19_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex19_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [249,229,91,128] # Orange
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [15, 45]
   PopPerTile: [200, 400]
@@ -381,9 +502,14 @@ PlanetType:
   Category: Steppe
   Composition: 1714
   IconPath: Planets/18
-  MeshPath: Model/SpaceObjects/planet_18
-  Glow: Orange
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex18_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex19_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex19_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [249,229,91,128] # Orange
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [35, 70]
   PopPerTile: [250, 400]
@@ -396,9 +522,14 @@ PlanetType:
   Category: Terran
   Composition: 1700
   IconPath: Planets/1
-  MeshPath: Model/SpaceObjects/planet_1
-  Glow: Terran
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/planet_tex1_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet1_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex1_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [57,146,215,128] # Terran Blue
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: 10
   PopPerTile: [175, 400]
@@ -410,10 +541,15 @@ PlanetType:
   Category: Terran
   Composition: 1709
   IconPath: Planets/13
-  MeshPath: Model/SpaceObjects/planet_13
-  Glow: Terran
+  DiffuseMap:    Model/SpaceObjects/planet_tex13_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_13spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex13_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [57,146,215,128] # Terran Blue
   PlanetTile: Terran_2
-  EarthLike: true
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: 75
   PopPerTile: [250, 425]
@@ -425,10 +561,15 @@ PlanetType:
   Category: Terran
   Composition: 1717
   IconPath: Planets/22
-  MeshPath: Model/SpaceObjects/planet_22
-  Glow: Terran
+  DiffuseMap:    Model/SpaceObjects/planet_tex22_2048x1024.dds
+  SpecularMap:   Model/SpaceObjects/planet_tex22_spec.dds
+  NormalMap:     Model/SpaceObjects/planet_tex22_normal.dds
+  EmissiveMap:   
+  SpecularPower: 4
+  Glow: [57,146,215,128] # Terran Blue
   PlanetTile: Terran_3
-  EarthLike: true
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [60, 90]
   PopPerTile: [140, 400]
@@ -441,9 +582,14 @@ PlanetType:
   Category: Terran
   Composition: 1720
   IconPath: Planets/25
-  MeshPath: Model/SpaceObjects/planet_25
-  Glow: Terran
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/earthmap1k.dds
+  SpecularMap:   Model/SpaceObjects/earthspec1k.dds
+  NormalMap:     Model/SpaceObjects/earthnormal.dds
+  EmissiveMap:   Model/SpaceObjects/earthlights1k.dds
+  SpecularPower: 4
+  Glow: [57,146,215,128] # Terran Blue
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [60, 80]
   PopPerTile: [150, 375]
@@ -456,9 +602,14 @@ PlanetType:
   Category: Terran
   Composition: 1721
   IconPath: Planets/27
-  MeshPath: Model/SpaceObjects/planet_27
-  Glow: Terran
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/arazius3.dds
+  SpecularMap:   Model/SpaceObjects/arazius3spec.dds
+  NormalMap:     Model/SpaceObjects/arazius3normal.dds
+  EmissiveMap:   Model/SpaceObjects/arazius3night.dds
+  SpecularPower: 4
+  Glow: [57,146,215,128] # Terran Blue
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [50, 80]
   PopPerTile: [150, 425]
@@ -471,9 +622,14 @@ PlanetType:
   Category: Terran
   Composition: 1722
   IconPath: Planets/29
-  MeshPath: Model/SpaceObjects/planet_29
-  Glow: Terran
-  EarthLike: true
+  DiffuseMap:    Model/SpaceObjects/NovaTerra_diffuse.dds
+  SpecularMap:   Model/SpaceObjects/NovaTerra_specular.dds
+  NormalMap:     Model/SpaceObjects/NovaTerra_normal.dds
+  EmissiveMap:   Model/SpaceObjects/NovaTerra_emissive.dds
+  SpecularPower: 4
+  Glow: [57,146,215,128] # Terran Blue
+  Clouds: true # give it earthlike clouds layer
+  Atmosphere: true # give it earthlike atmosphere layer
   Habitable: true
   HabitableTileChance: [60, 90]
   PopPerTile: [150, 250]
@@ -483,11 +639,16 @@ PlanetType:
 
 # GasGiants
 PlanetType:
-  Id: 2 # Less Stripey Light Beige Giant
+  Id: 2 # Less Stripey Light Beige Giant, Saturn?
   Category: GasGiant
   Composition: 1701
   IconPath: Planets/2
-  MeshPath: Model/SpaceObjects/planet_2
+  DiffuseMap:    Model/SpaceObjects/planet_tex2_2048x1024.dds
+  SpecularMap:   
+  NormalMap:     
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [249,229,91,100] # Yellow with alpha
   Scale: 2.5
   MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -496,7 +657,12 @@ PlanetType:
   Category: GasGiant
   Composition: 1701
   IconPath: Planets/6
-  MeshPath: Model/SpaceObjects/planet_6
+  DiffuseMap:    Model/SpaceObjects/planet_tex6_2048x1024.dds
+  SpecularMap:   
+  NormalMap:     
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [172,79,25,100] # DarkOrange with alpha
   Scale: 2.5
   MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -505,7 +671,12 @@ PlanetType:
   Category: GasGiant
   Composition: 1706
   IconPath: Planets/10
-  MeshPath: Model/SpaceObjects/planet_10
+  DiffuseMap:    Model/SpaceObjects/planet_tex10_2048x1024.dds
+  SpecularMap:   
+  NormalMap:     
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [249,229,91,100] # Yellow with alpha
   Scale: 2.5
   MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -514,7 +685,12 @@ PlanetType:
   Category: GasGiant
   Composition: 1708
   IconPath: Planets/12
-  MeshPath: Model/SpaceObjects/planet_12
+  DiffuseMap:    Model/SpaceObjects/planet_tex12_2048x1024.dds
+  SpecularMap:   
+  NormalMap:     
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [172,79,25,100] # DarkOrange with alpha
   Scale: 2.5
   MoonTypes: [Barren,Desert,Volcanic,Ice]
   
@@ -523,7 +699,12 @@ PlanetType:
   Category: GasGiant
   Composition: 1711
   IconPath: Planets/15
-  MeshPath: Model/SpaceObjects/planet_15
+  DiffuseMap:    Model/SpaceObjects/planet_tex15_2048x1024.dds
+  SpecularMap:   
+  NormalMap:     
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [44,204,149,100] # Aqua with alpha
   Scale: 2.5
   MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -532,7 +713,12 @@ PlanetType:
   Category: GasGiant
   Composition: 1711
   IconPath: Planets/26
-  MeshPath: Model/SpaceObjects/planet_26
+  DiffuseMap:    Model/SpaceObjects/perun2.dds
+  SpecularMap:   
+  NormalMap:     
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [57,146,215,100] # Blue with alpha
   Scale: 2.5
   MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -541,6 +727,11 @@ PlanetType:
   Category: GasGiant
   Composition: 1710
   IconPath: Planets/28
-  MeshPath: Model/SpaceObjects/planet_28
+  DiffuseMap:    Model/SpaceObjects/jupiter.dds
+  SpecularMap:   
+  NormalMap:     
+  EmissiveMap:   
+  SpecularPower: 0.5
+  Glow: [249,229,91,100] # Yellow with alpha
   Scale: 2.5
   MoonTypes: [Barren,Desert,Volcanic,Ice]
