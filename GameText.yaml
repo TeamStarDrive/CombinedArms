@@ -652,9 +652,9 @@ SmallPlasteelArmor:
  SPA: "Blindaje de plastiacero pequeño"
 PlasteelArmorProvidesApproximatelyLess3:
  Id: 1027
- ENG: "Plasteel armor provides approximately 25% less protection than steel armor but does so with half of the mass."
- RUS: "Броня из пластстали обеспечивает примерно на 25% меньшую защиту, чем стальная броня,но и весит в половину меньше."
- SPA: "El blindaje de plastiacero proporciona aproximadamente un 25% menos de protección que el de acero, pero tiene la mitad de masa"
+ ENG: "Plasteel armor provides approximately 25% less protection than steel armor but does so with half of the mass. It also has some EMP protection due to the composition of the armor."
+ RUS: "Пластальная броня обеспечивает примерно на 25% меньшую защиту, чем стальная броня, но при этом имеет вдвое меньшую массу. Он также имеет некоторую защиту от ЭМИ из-за состава брони."
+ SPA: "La armadura de plastiacero proporciona aproximadamente un 25 % menos de protección que la armadura de acero, pero lo hace con la mitad de la masa. También tiene algo de protección EMP debido a la composición de la armadura."
 PolaronCannonTurret:
  Id: 1028
  ENG: "Polaron Cannon Turret"
@@ -897,14 +897,6 @@ CA_ThisFacilityIsALarge:
  Id: 5238
  ENG: "This Facility is a large, dedicated fabricator module. It is very power hungry, but can supply a lot of Ordnance."
  RUS: "Этот объект представляет собой большой специализированный модуль. Он очень энергоемкий, но производит много боеприпасов."
-CA_ArmoredOrdnanceLocker:
- Id: 5239
- ENG: "Armored Ordnance Locker"
- RUS: "Бронированный склад боеприпасов"
-CA_SmallArmoredOrdnanceLockersProvide:
- Id: 5240
- ENG: "Small armored ordnance lockers provide storage and defense"
- RUS: "Маленькие бронированные ящики для боеприпасов обеспечивают хранение и защиту"
 CA_Tech_SustainedSupport_Name:
  Id: 5241
  ENG: "Sustained Support"
@@ -2110,7 +2102,7 @@ CA_Tech_ElectronicArmors_Name:
  RUS: "Электро-броня"
 CA_Tech_ElectronicArmors_Desc:
  Id: 6560
- ENG: "This is a combination of early stage Metal armor, with the addition of solar collectors. These collectors, though providing less power flow than simple and armored solar panels, do also store a small amount of power within. Drawbacks are higher cost, and lower rigidity (even lower than Internal Bulkheads). As a bonus, they have some resistance to beam weapons, since the collectors need heat in order to provide power."
+ ENG: "This is a combination of early stage Metal armor, with the addition of solar collectors. These collectors, though providing less power flow than simple and armored solar panels, do also store a small amount of power within. Drawbacks are higher cost, and lower rigidity. As a bonus, they have some resistance to beam weapons, since the collectors need heat in order to provide power."
  RUS: "Это комбинация металлической брони ранней стадии с добавлением солнечных коллекторов. Эти коллекторы, хотя и обеспечивают меньший приток энергии, чем простые и бронированные солнечные панели,а также накапливают небольшое количество энергии внутри. Недостатки - более высокая стоимость и меньшая прочность (даже ниже, чем у внутренних переборок). В качестве бонуса у них есть некоторая устойчивость к лучевому оружию, поскольку коллекторы нуждаются в тепле для обеспечения энергией."
 CA_Tech_DepletedUraniumArmor_Name:
  Id: 6561
@@ -2210,8 +2202,8 @@ CA_BionicArmorRegensWhenDamaged:
  RUS: "Бионическая броня восстанавливается при повреждении."
 CA_BionicArmorIsInstalledExternally:
  Id: 6585
- ENG: "Bionic armor is installed externally on ships for protection. It can regenrate itself, repair the ship, and provide turn thrust. It Consumes power and weighs a lot. It also nullifies the effect of Armor Piercing I"
- RUS: "Бионическая броня устанавливается снаружи корабля для защиты. Она может восстанавливать себя, ремонтировать корабль и обеспечивать дополнительную поворотную тягу. Потребляет электроэнергию и много весит. Также аннулирует эффект \"Пробитие брони I\""
+ ENG: "Bionic armor is installed externally on ships for protection. It can regenrate itself, protect from EMP discharge, and provide turn thrust. It Consumes power and weighs a lot. It also nullifies the effect of Armor Piercing I"
+ RUS: "Бионическая броня устанавливается снаружи на корабли для защиты. Он может восстанавливать себя, защищать от разряда ЭМИ и обеспечивать поворотную тягу. Он потребляет энергию и много весит. Он также сводит на нет эффект пробивания брони I."
 CA_BionicArmorSmall:
  Id: 6586
  ENG: "Bionic Armor Small"
@@ -2302,8 +2294,8 @@ CA_ArmoredSolarpanel:
  RUS: "Бронированная солнечная панель"
 CA_ArmoredSolarpanelsProvidesSomePower:
  Id: 6608
- ENG: "Armored Solarpanels. Provides some power flow to space ships, at a lower rigidity and slightly higher price. This armor also has an interesting ability to slightly amplify installed shields in ships. Since The armor also generates energy, it tends to yield a small explosion when destroyed."
- RUS: "Бронированные солнечные панели. Обеспечивает некоторый приток энергии,сложна в производстве. У этой брони есть интересная способность немного усиливать установленные на кораблях щиты. Поскольку броня генерирует энергию, при разрушении она имеет тенденцию давать небольшой взрыв."
+ ENG: "Armored Solarpanels. Provides some power flow to space ships, at a lower rigidity and slightly higher price. This armor also has an interesting ability to slightly amplify installed shields in ships and streamline travel at warp. Since The armor also generates energy, it tends to yield a small explosion when destroyed."
+ RUS: "некоторый поток энергии для космических кораблей с меньшей жесткостью и немного более высокой ценой. У этой брони также есть интересная способность немного усиливать установленные на кораблях щиты и упрощать перемещение в варпе. Поскольку броня также генерирует энергию, при разрушении она имеет тенденцию вызывать небольшой взрыв."
 CA_ArmoredSolarpanelsProvideSomeTo:
  Id: 6609
  ENG: "Armored Solarpanels, provide some to spaceship"
@@ -2374,8 +2366,8 @@ CA_Tech_ShieldArmor_Name:
  RUS: "Щитовая броня"
 CA_ThisArmorHasMuchMore:
  Id: 6626
- ENG: "This Armor has much more improved Shield Amplification Technology. It is stronger than Steel Armor, but it costs more, weighs more, and needs power as well. It also nullifies the effect of Armor Piercing I"
- RUS: "Эта броня имеет улучшенную технологию уплотнения щита. Она прочнее, чем стальная броня, стоит дороже, больше весит и потребляет энергию. Также аннулирует эффект \"Пробитие брони I\""
+ ENG: "This Armor has much more improved Shield Amplification Technology. It is stronger than Steel Armor, but it costs more, weighs more, but generates more power for the ship. It also nullifies the effect of Armor Piercing I"
+ RUS: "Эта броня имеет гораздо более совершенную технологию усиления щита. Он прочнее Стальной брони, но стоит дороже, весит больше, но дает больше мощности для корабля. Он также сводит на нет эффект пробивания брони I."
 CA_TheMassproducedVersionOfExperimental:
  Id: 6627
  ENG: "The mass-produced version of Experimental Electronic Armor-5 Fairy(XSGA5). Greatly reduces energy comsuption and also improves power storage, range, and Shield Amplification."
@@ -3890,8 +3882,8 @@ CA_SteelHmgDefense:
  RUS: "Стальной ККП"
 CA_AHeavyMachineGunTurret:
  Id: 12002
- ENG: "A Heavy Machine Gun turret mounted on a Steel Armor plate for added durability. An effective weapon against fighters and missiles. It has 60% strength and 75% Deflection of the non weapon Armor plate"
- RUS: "Турель крупнокалиберного пулемета вмонтирована в стальную броню, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони."
+ ENG: "A Heavy Machine Gun turret mounted on a Steel Armor plate for added durability. An effective weapon against fighters and missiles. It has 75% strength Deflection of the non weapon Armor plate"
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в стальную броню, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
 CA_KineticTurret:
  Id: 12003
  ENG: "Kinetic Turret"
@@ -3948,14 +3940,6 @@ CA_ThisExternalEngineChannelsEnergy:
  Id: 12018
  ENG: "This external engine channels energy directly from the central warp core and is able to boost a ships speed a significant amount, at both warp and sublight speeds. Unfortunately, safety standards require that this engine design cannot be used for maneuvering; this is to avoid the unfortunate possibility of the ship tearing itself to pieces."
  RUS: "Этот внешний двигатель направляет энергию непосредственно из центрального варп-ядра и может значительно увеличить скорость корабля как на варп, так и на субсветовых скоростях. К сожалению, стандарты безопасности требуют, чтобы двигатель этой конструкции нельзя было использовать для маневрирования; это делается для того, чтобы избежать досадной возможности разорвать корабль на части."
-CA_SolarPlate:
- Id: 12019
- ENG: "Solar Plate"
- RUS: "Солнечная пластина"
-CA_SolarPanelsHarvestEnergyFrom2:
- Id: 12020
- ENG: "Solar Panels harvest energy from stars to supplement a ships main power core. This variant is mounted on a Steel armor Plate to maximize ship defense. "
- RUS: "Солнечные панели собирают энергию звезд, чтобы дополнить основной источник питания корабля. Этот вариант устанавливается на стальную бронеплиту для лучшей защиты корабля."
 CA_StaticBarrier:
  Id: 12021
  ENG: "Static Barrier"
@@ -4126,8 +4110,8 @@ CA_Tech_NanoMining_Desc:
  RUS: "Используя наши знания в области нано-машин, мы можем создавать ботов для нано-добычи. Эти крошечные машины сэкономят много времени и усилий, которые обычно тратятся на транспортировку и бурение при обычных горных работах."
 CA_ProvidesPowerFlowAndPower:
  Id: 17433
- ENG: "Provides power flow and power radius. Not as strong as steel armor, and much more expensive. It also has an improved Shield Amplification technology. Since The armor also generates energy, it tends to yield a small explosion when destroyed."
- RUS: "Обеспечивает приток энергии и радиус мощности. Не такая прочная как стальная броня, стоит намного дороже. Также имеет улучшенную технологию усиления щита. Поскольку броня генерирует энергию, при разрушении она имеет тенденцию давать небольшой взрыв."
+ ENG: "Provides power flow and power radius. Not as strong as steel armor, and much more expensive. It also has an improved Shield Amplification and Warp streamlining technologies. Since The armor also generates energy, it tends to yield a small explosion when destroyed."
+ RUS: "Обеспечивает поток мощности и радиус мощности. Не такая прочная, как стальная броня, и намного дороже. Он также имеет улучшенное усиление щита и технологии оптимизации деформации. Поскольку броня также генерирует энергию, при разрушении она имеет тенденцию вызывать небольшой взрыв."
 CA_Tech_CeramicArmor_Desc:
  Id: 17434
  ENG: "Ceramic Armor can withstand a little more punishment than Reactive Armor, but the true benefit is the decrease in mass. Ceramic Armor is very effective vs. Beams and Energy projectiles, and somewhat effective vs. Energy Projectiles. It is also more expensive than Reactive Armor."
@@ -5744,40 +5728,40 @@ CA_ReactiveHmgDefense:
  RUS: "Реактивный ККП"
 CA_AHeavyMachineGunTurret2:
  Id: 17841
- ENG: "A Heavy Machine Gun turret mounted on a Reactive Armor plate for added durability. It has 60% of the strength and 75% Deflection of the non weapon Armor plate."
- RUS: "Турель крупнокалиберного пулемета вмонтирована в реактивную броню, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони."
+ ENG: "A Heavy Machine Gun turret mounted on a Reactive Armor plate for added durability. It has 75% strength and Deflection of the non weapon Armor plate."
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в реактивную броню, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
 CA_CeramicHmgDefense:
  Id: 17842
  ENG: "Ceramic HMG Defense"
  RUS: "Керамический ККП"
 CA_AHeavyMachineGunTurret3:
  Id: 17843
- ENG: "A Heavy Machine Gun turret mounted on a Ceramic Armor plate for added durability. It has 60% of the strength and 75% Deflection of the non weapon Armor plate."
- RUS: "Турель крупнокалиберного пулемета вмонтирована в керамическую броню, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони ."
+ ENG: "A Heavy Machine Gun turret mounted on a Ceramic Armor plate for added durability. It has 75% strength and Deflection of the non weapon Armor plate."
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в керамическую броню, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони ."
 CA_CompositeHmgDefense:
  Id: 17844
  ENG: "Composite HMG Defense"
  RUS: "Композитный ККП"
 CA_AHeavyMachineGunTurret4:
  Id: 17845
- ENG: "A Heavy Machine Gun turret mounted on a Composite Alloys Armor plate for added durability. It has 60% of the strength and 75% Deflection of the non weapon Armor plate."
- RUS: "Турель крупнокалиберного пулемета вмонтирована в композитную броню, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони."
+ ENG: "A Heavy Machine Gun turret mounted on a Composite Alloys Armor plate for added durability. It has 75% strength and Deflection of the non weapon Armor plate."
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в композитную броню, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
 CA_CrystalHmgDefense:
  Id: 17846
  ENG: "Crystal HMG Defense"
  RUS: "Кристалический ККП"
 CA_AHeavyMachineGunTurret5:
  Id: 17847
- ENG: "A Heavy Machine Gun turret mounted on a Crystal Armor plate for added durability. An effective weapon against fighters and missiles. It has 60% of the strength and 75% Deflection of the non weapon Armor plate."
- RUS: "Турель крупнокалиберного пулемета вмонтирована в кристалическую броню, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони."
+ ENG: "A Heavy Machine Gun turret mounted on a Crystal Armor plate for added durability. An effective weapon against fighters and missiles. It has 75% strength and Deflection of the non weapon Armor plate."
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в кристалическую броню, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
 CA_HyperActiveHmgDefense:
  Id: 17848
  ENG: "Hyper Active HMG Defense"
  RUS: "Гиперактивный ККП"
 CA_AHeavyMachineGunTurret6:
  Id: 17849
- ENG: "A Heavy Machine Gun turret mounted on a Hyper Active Armor plate for added durability. An effective weapon against fighters and missiles. It has 60% of the strength and 75% Deflection of the non weapon Armor plate."
- RUS: "Турель крупнокалиберного пулемета вмонтирована в гиперактивную броню, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони."
+ ENG: "A Heavy Machine Gun turret mounted on a Hyper Active Armor plate for added durability. An effective weapon against fighters and missiles. It has 75% strength and Deflection of the non weapon Armor plate."
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в гиперактивную броню, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
 CA_ClassVShield:
  Id: 17850
  ENG: "Class V Shield"
@@ -6560,8 +6544,8 @@ CA_TritaniumHmgDefense:
  RUS: "Тритановый ККП"
 CA_AHeavyMachineGunTurret7:
  Id: 18076
- ENG: "A Heavy Machine Gun turret mounted on a Tritanium Armor plate for added durability. An effective weapon against fighters and missiles. It has 60% of the strength and 75% Deflection of the non weapon Armor plate."
- RUS: "Турель крупнокалиберного пулемета вмонтирована в тритановую плиту, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони."
+ ENG: "A Heavy Machine Gun turret mounted on a Tritanium Armor plate for added durability. An effective weapon against fighters and missiles. 18076"
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в тритановую плиту, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
 CA_CanopyShieldingIi:
  Id: 18077
  ENG: "Canopy Shielding II"
@@ -7321,7 +7305,7 @@ CA_Tech_PlasmaWeaponsI_Desc:
  ENG: "We are now able to build plasma cannons by using ionized reactor Plasma with higher pressure. The magnetized pressure system requires, however, more constant power and even extra reactor power to fire."
 CA_Mod_ShapeMemoryArmor_Desc:
  Id: 18275
- ENG: "Shapememory armor is installed externally on ships for protection. It can regenrate itself but it consumes power and weighs much more than Plasteel."
+ ENG: "Shapememory armor is installed externally on ships for protection. It can regenrate itself but it consumes power and weighs much more than Plasteel.It has better EMP protection, though."
 CA_Mod_ShapeMemoryArmorSmall_Name:
  Id: 18276
  ENG: "Shapememory Armor Small"
