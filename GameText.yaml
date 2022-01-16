@@ -3902,11 +3902,10 @@ CA_SolarPanelsHarvestEnergyFrom:
  RUS: "Солнечные панели собирают энергию звезд, чтобы дополнить основной источник питания корабля."
 CA_ClassIMagshield:
  Id: 12007
- ENG: "Class I MagShield"
- RUS: "Магнитный щит I Класса"
+ ENG: "Magnetic Shield"
 CA_WhilstOnlyCapableOfWithstanding:
  Id: 12008
- ENG: "Whilst only capable of withstanding a few hits, Magnetic fields are able to cover a wide area and are restored rapidly. This makes them ideal for drawn out skirmishes with smaller ships."
+ ENG: "First attampt at energy shielding, the Magnetic Shield is a crude device. Able to withstand only a few hits, it does feature recharge during combat."
  RUS: "Несмотря на то, что магнитные поля способны выдержать лишь несколько ударов, они способны охватывать большую площадь и быстро восстанавливаются. Это делает их идеальными для затяжных стычек с небольшими кораблями."
 CA_MediumOverdriveEngine:
  Id: 12009
@@ -3942,12 +3941,10 @@ CA_ThisExternalEngineChannelsEnergy:
  RUS: "Этот внешний двигатель направляет энергию непосредственно из центрального варп-ядра и может значительно увеличить скорость корабля как на варп, так и на субсветовых скоростях. К сожалению, стандарты безопасности требуют, чтобы двигатель этой конструкции нельзя было использовать для маневрирования; это делается для того, чтобы избежать досадной возможности разорвать корабль на части."
 CA_StaticBarrier:
  Id: 12021
- ENG: "Static Barrier"
- RUS: "Статический барьер"
+ ENG: "Class I Deflector Shield"
 CA_PlacedOnTheOutsideOf:
  Id: 12022
- ENG: "Placed on the outside of a ship's hull, these units are charged slowly until they form a powerful, albeit highly localized electromagnetic shield."
- RUS: "Размещенные снаружи корпуса корабля, эти устройства заряжаются медленно, пока не образуют мощный, хотя и сильно локализованный электромагнитный щит."
+ ENG: "The Class I Deflector Shield has low strength, but high deflection rate, able to deflect low powered projectiles and it has some resistance to beam weapons. Unfortunately, it has low coverage and slow recharge rate."
 CA_JumpDrive:
  Id: 12023
  ENG: "Jump Drive"
@@ -7354,3 +7351,9 @@ CA_RailgunTurretV2:
 CA_TwoRailgunsMountedOnAV2:
  Id: 18291
  ENG: "An upgrade for the older rail gun turret, with higher damage and range."
+CA_Tech_Shields_Name:
+  Id: 18292
+  ENG: "Shields"
+CA_Tech_Shields_Desc:
+  Id: 18293
+  ENG: "Our first step into shielding our ships with energy emmitters"

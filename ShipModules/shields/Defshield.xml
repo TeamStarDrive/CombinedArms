@@ -2,30 +2,40 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <DroneModule>false</DroneModule>
+  <FighterModule>true</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <FrigateModule>false</FrigateModule>
+  <DestroyerModule>false</DestroyerModule>
+  <CruiserModule>false</CruiserModule>
+  <BattleshipModule>false</BattleshipModule>
+  <CapitalModule>false</CapitalModule>
+  
+  <FreighterModule>true</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>false</StationModule>
+  
   <Cost>8</Cost>
 
   <!-- Tech Level Used by AI for Upgrading Ships -->
-  <TechLevel>0</TechLevel>
+  <TechLevel>1</TechLevel>
 
   <!-- common traits shared by all ship modules -->
   <ModuleType>Shield</ModuleType>
   <XSize>1</XSize>
   <YSize>1</YSize>
   <Name>Static Barrier</Name>
-  <Restrictions>IO</Restrictions>
+  <Restrictions>I</Restrictions>
   <UID>Defshield</UID>
   <IconTexturePath>Modules/defshield</IconTexturePath>
-  <Mass>2</Mass>
-  <Health>100</Health>
+  <Mass>5</Mass>
   <HealthMax>100</HealthMax>
-  <energyreq>0</energyreq>
+
   
-  <Description>Static Barrier
-  </Description>
+  <Description>Static Barrier</Description>
     
   
-  <PowerDraw>12</PowerDraw>
-  <PowerDrawAtWarp>-8</PowerDrawAtWarp>
+  <PowerDraw>20</PowerDraw>
+  <PowerDrawAtWarp>-5</PowerDrawAtWarp>
 
   <NameIndex>12021</NameIndex>
   <DescriptionIndex>12022</DescriptionIndex>
@@ -33,10 +43,10 @@
 
   <!-- for shield items -->
   <ShieldPowerMax>100</ShieldPowerMax>
-  <ShieldRechargeDelay>10</ShieldRechargeDelay>
-  <ShieldRechargeRate>2</ShieldRechargeRate>
-  <ShieldRadius>25</ShieldRadius>
-  <ShieldKineticResist>0.5</ShieldKineticResist>
+  <ShieldRechargeDelay>3</ShieldRechargeDelay>
+  <ShieldRechargeRate>5</ShieldRechargeRate>
+  <ShieldRadius>32</ShieldRadius>
+  <ShieldDeflection>50</ShieldDeflection>
   <!-- for PowerPlant Items -->
   
   <PowerFlowMax>0</PowerFlowMax>
