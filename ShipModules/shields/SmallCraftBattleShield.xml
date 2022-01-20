@@ -14,42 +14,41 @@
   <PlatformModule>true</PlatformModule>
   <StationModule>false</StationModule>
   
-  <Cost>20</Cost>
+  
+  <Cost>17</Cost>
   <!-- common traits shared by all ship modules -->
-  <TechLevel>3</TechLevel>
+  <TechLevel>4</TechLevel>
   <ModuleType>Shield</ModuleType>
   <XSize>1</XSize>
-  <YSize>2</YSize>
-  <Name>AdvancedFShieldBattle</Name>
+  <YSize>1</YSize>
+  <Name>SmallCraftBattleShield</Name>
   <Restrictions>IO</Restrictions>
-  <UID>AdvancedFShieldFast</UID>
-  <IconTexturePath>Modules/AdvancedFShieldFast</IconTexturePath>
-  <Mass>6</Mass>
-  <Health>200</Health>
-  <HealthMax>200</HealthMax>
-  <RepairDifficulty>3</RepairDifficulty>
+  <UID>SmallCraftBattleShield</UID>
+  <IconTexturePath>Modules/SmallCraftBattleShield</IconTexturePath>
+  <Mass>4</Mass>
+  <Health>75</Health>
+  <HealthMax>75</HealthMax>
+  <RepairDifficulty>2.5</RepairDifficulty>
   <energyreq>0</energyreq>
+  
   <Description>This shield has a decent sized protection radius but is only capable of taking a few hits. However it does have a quick recharge rate.</Description>
   
   
-  <PowerDraw>70</PowerDraw>
-  <PowerDrawAtWarp>-35</PowerDrawAtWarp>  
-  <ShieldBubbleColor>Yellow</ShieldBubbleColor>
+  <PowerDraw>40</PowerDraw>
+  <ShieldBubbleColor>Red</ShieldBubbleColor>
 
-
-
-  <NameIndex>17886</NameIndex>
-  <DescriptionIndex>17887</DescriptionIndex>
+  <NameIndex>17764</NameIndex>
+  <DescriptionIndex>17765</DescriptionIndex>
 
 
 
 
   <!-- for shield items -->
-  <ShieldPowerMax>875</ShieldPowerMax>
-  <ShieldRechargeDelay>5</ShieldRechargeDelay>
-  <ShieldRechargeRate>90</ShieldRechargeRate>
-  <ShieldRechargeCombatRate>0</ShieldRechargeCombatRate>
-  <ShieldRadius>120</ShieldRadius>
+  <ShieldPowerMax>450</ShieldPowerMax>
+  <ShieldRechargeDelay>4</ShieldRechargeDelay>
+  <ShieldRechargeRate>50</ShieldRechargeRate>
+  <ShieldRechargeCombatRate>15</ShieldRechargeCombatRate>
+  <ShieldRadius>80</ShieldRadius>
 
   <!-- for PowerPlant Items -->
   

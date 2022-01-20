@@ -9,46 +9,43 @@
   <CruiserModule>false</CruiserModule>
   <BattleshipModule>false</BattleshipModule>
   <CapitalModule>false</CapitalModule>
+  
   <FreighterModule>false</FreighterModule>
   <PlatformModule>true</PlatformModule>
   <StationModule>false</StationModule>
   
-  <Cost>24</Cost>
+  
+  <Cost>15</Cost>
   <!-- common traits shared by all ship modules -->
-  <TechLevel>4</TechLevel>
+  <TechLevel>3</TechLevel>
   <ModuleType>Shield</ModuleType>
   <XSize>1</XSize>
-  <YSize>2</YSize>
-  <Name>AdvancedFShieldBattle</Name>
+  <YSize>1</YSize>
+  <Name>SmallCraftDeflector</Name>
   <Restrictions>IO</Restrictions>
-  <UID>AdvancedFShieldBattle</UID>
-  <IconTexturePath>Modules/AdvancedFShieldBattle</IconTexturePath>
-  <Mass>8</Mass>
-  <Health>250</Health>
-  <HealthMax>250</HealthMax>
-  <RepairDifficulty>5</RepairDifficulty>
+  <UID>SmallCraftDeflector</UID>
+  <IconTexturePath>Modules/SmallCraftDeflector</IconTexturePath>
+  <Mass>3</Mass>
+  <Health>70</Health>
+  <HealthMax>70</HealthMax>
+  <RepairDifficulty>2</RepairDifficulty>
   <energyreq>0</energyreq>
-  <Description>This shield has a decent sized protection radius but is only capable of taking a few hits. However it does have a quick recharge rate.</Description>
-   
   
-  <PowerDraw>100</PowerDraw>
-  <PowerDrawAtWarp>-40</PowerDrawAtWarp>
-  <ShieldBubbleColor>Red</ShieldBubbleColor>
+  <Description>This shield has a decent sized protection radius but is only capable of taking a few hits. However it does have a quick recharge rate.</Description>
+  
+  
+  <PowerDraw>30</PowerDraw>
+  <ShieldBubbleColor>Yellow</ShieldBubbleColor>
 
-
-
-  <NameIndex>17768</NameIndex>
-  <DescriptionIndex>17769</DescriptionIndex>
-
-
-
+  <NameIndex>17884</NameIndex>
+  <DescriptionIndex>17885</DescriptionIndex>
 
   <!-- for shield items -->
-  <ShieldPowerMax>1125</ShieldPowerMax>
+  <ShieldPowerMax>350</ShieldPowerMax>
   <ShieldRechargeDelay>4.5</ShieldRechargeDelay>
-  <ShieldRechargeRate>115</ShieldRechargeRate>
-  <ShieldRechargeCombatRate>35</ShieldRechargeCombatRate>
-  <ShieldRadius>130</ShieldRadius>
+  <ShieldRechargeRate>50</ShieldRechargeRate>
+  <ShieldRechargeCombatRate>0</ShieldRechargeCombatRate>
+  <ShieldRadius>75</ShieldRadius>
 
   <!-- for PowerPlant Items -->
   
