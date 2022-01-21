@@ -15,7 +15,7 @@
   <StationModule>false</StationModule>
   
   
-  <Cost>10</Cost>
+  <Cost>12</Cost>
   <!-- common traits shared by all ship modules -->
   <TechLevel>2</TechLevel>
   <ModuleType>Shield</ModuleType>
@@ -25,14 +25,10 @@
   <Restrictions>IO</Restrictions>
   <UID>Fighter Shield</UID>
   <IconTexturePath>Modules/Fighter Shield</IconTexturePath>
-  <Mass>3</Mass>
-  <Health>50</Health>
-  <HealthMax>50</HealthMax>
-  <RepairDifficulty>1.5</RepairDifficulty>
-  <energyreq>0</energyreq>
-  
-  <Description>This shield has a decent sized protection radius but is only capable of taking a few hits. However it does have a quick recharge rate.</Description>
-   
+  <Mass>10</Mass>
+  <HealthMax>75</HealthMax>
+  <RepairDifficulty>2</RepairDifficulty>
+
   
   <PowerDraw>20</PowerDraw>
   <PowerDrawAtWarp>-10</PowerDrawAtWarp>
@@ -41,15 +37,12 @@
   <NameIndex>948</NameIndex>
   <DescriptionIndex>949</DescriptionIndex>
 
-
-
-
   <!-- for shield items -->
-  <ShieldPowerMax>300</ShieldPowerMax>
-  <ShieldRechargeDelay>3.2</ShieldRechargeDelay>
-  <ShieldRechargeRate>5</ShieldRechargeRate>
+  <ShieldPowerMax>600</ShieldPowerMax>
+  <ShieldRechargeDelay>5</ShieldRechargeDelay>
+  <ShieldRechargeRate>30</ShieldRechargeRate>
   <ShieldRechargeCombatRate>0</ShieldRechargeCombatRate>
-  <ShieldRadius>70</ShieldRadius>
+  <ShieldRadius>72</ShieldRadius>
 
   <!-- for PowerPlant Items -->
   

@@ -4,7 +4,7 @@
   <DroneModule>false</DroneModule>
   <FighterModule>true</FighterModule>
   <CorvetteModule>true</CorvetteModule>
-  <FrigateModule>false</FrigateModule>
+  <FrigateModule>true</FrigateModule>
   <DestroyerModule>false</DestroyerModule>
   <CruiserModule>false</CruiserModule>
   <BattleshipModule>false</BattleshipModule>
@@ -15,9 +15,9 @@
   <StationModule>false</StationModule>
   
   
-  <Cost>17</Cost>
+  <Cost>16</Cost>
   <!-- common traits shared by all ship modules -->
-  <TechLevel>4</TechLevel>
+  <TechLevel>3</TechLevel>
   <ModuleType>Shield</ModuleType>
   <XSize>1</XSize>
   <YSize>1</YSize>
@@ -25,14 +25,9 @@
   <Restrictions>IO</Restrictions>
   <UID>SmallCraftBattleShield</UID>
   <IconTexturePath>Modules/SmallCraftBattleShield</IconTexturePath>
-  <Mass>4</Mass>
-  <Health>75</Health>
-  <HealthMax>75</HealthMax>
-  <RepairDifficulty>2.5</RepairDifficulty>
-  <energyreq>0</energyreq>
-  
-  <Description>This shield has a decent sized protection radius but is only capable of taking a few hits. However it does have a quick recharge rate.</Description>
-  
+  <Mass>10</Mass>
+  <HealthMax>100</HealthMax>
+  <RepairDifficulty>3</RepairDifficulty>
   
   <PowerDraw>40</PowerDraw>
   <ShieldBubbleColor>Red</ShieldBubbleColor>
@@ -44,9 +39,9 @@
 
 
   <!-- for shield items -->
-  <ShieldPowerMax>450</ShieldPowerMax>
+  <ShieldPowerMax>900</ShieldPowerMax>
   <ShieldRechargeDelay>4</ShieldRechargeDelay>
-  <ShieldRechargeRate>50</ShieldRechargeRate>
+  <ShieldRechargeRate>60</ShieldRechargeRate>
   <ShieldRechargeCombatRate>15</ShieldRechargeCombatRate>
   <ShieldRadius>80</ShieldRadius>
 

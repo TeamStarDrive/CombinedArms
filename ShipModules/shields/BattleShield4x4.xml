@@ -1,10 +1,7 @@
 ﻿<?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <FighterModule>false</FighterModule>
-  <CorvetteModule>false</CorvetteModule>
-  
-  <Cost>72</Cost>
+  <Cost>140</Cost>
   <TechLevel>5</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Shield</ModuleType>
@@ -14,32 +11,27 @@
   <Restrictions>I</Restrictions>
   <Name>BattleShield4x4</Name>
   <IconTexturePath>Modules/BattleShield4x4</IconTexturePath>
-  <Mass>60</Mass>
-  <Health>1800</Health>
-  <HealthMax>1800</HealthMax>
-  <RepairDifficulty>5</RepairDifficulty>
-  <energyreq>0</energyreq>
-  
-  <Description>This is a large shield that provides heavy protection at a heavy power cost</Description>
-  
-  
-  <PowerDraw>400</PowerDraw>
-  <PowerDrawAtWarp>-160</PowerDrawAtWarp>  
+  <Mass>400</Mass>
+  <HealthMax>4000</HealthMax>
+  <RepairDifficulty>6</RepairDifficulty>
+
+  <PowerDraw>800</PowerDraw>
+  <PowerDrawAtWarp>-320</PowerDrawAtWarp>  
   <ShieldBubbleColor>Red</ShieldBubbleColor>
 
 
-  <NameIndex>17593</NameIndex>
-  <DescriptionIndex>17594</DescriptionIndex>
+  <NameIndex>18296</NameIndex>
+  <DescriptionIndex>18297</DescriptionIndex>
 
 
 
   <!-- for shield items -->
-  <ShieldPowerMax>7500</ShieldPowerMax>
+  <ShieldPowerMax>24000</ShieldPowerMax>
   <ShieldRechargeDelay>10</ShieldRechargeDelay>
-  <ShieldRechargeRate>1000</ShieldRechargeRate>
-  <ShieldRadius>160</ShieldRadius>
-  <ShieldRechargeCombatRate>150</ShieldRechargeCombatRate>
-  <ShieldDeflection>30</ShieldDeflection>
+  <ShieldRechargeRate>800</ShieldRechargeRate>
+  <ShieldRadius>250</ShieldRadius>
+  <ShieldRechargeCombatRate>200</ShieldRechargeCombatRate>
+  <ShieldDeflection>60</ShieldDeflection>
   <!-- for PowerPlant Items -->
   
   <PowerFlowMax>0</PowerFlowMax>

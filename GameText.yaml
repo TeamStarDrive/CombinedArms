@@ -311,11 +311,12 @@ CA_Tech_BattleRaiders_Desc:
  ENG: "Our most massive ships can deploy corvette-sized vessels from these gargantuan berths.  When these \"battle raiders\" are destroyed, however, there is no respawn until the mothership returns to a shipyard for resupply. "
  RUS: "Наши самые массивные корабли могут принимать суда размером с корвет в эти гигантские ангары. Однако, когда эти \"боевые налетчики\" уничтожены, они не возрождаются до тех пор, пока базовый корабль не вернется на верфь для пополнения запасов."
  SPA: "Nuestras naves más grandes pueden desplegar naves de clase corbeta y pequeñas fragatas desde sus gigantescos atracaderos.  Sin embargo, cuando estos \"buques corsarios\" son destruidos, no reaparecen hasta que la nave nodriza regresa a un astillero para reabastecerse. "
-CA_Tech_CanopyShields_Name:
+CA_Tech_Force_Fields_I_Name:
  Id: 526
- ENG: "Canopy Shielding I"
- RUS: "Купольный щит I"
- SPA: "Protección de cubierta"
+ ENG: "Force Fields I"
+CA_Tech_Force_Fields_I_Desc:
+ Id: 527
+ ENG: "We can create Force Field Emitters, which have very large radius of protection around our ships." 
 CA_Tech_ECM_MissileDodgeChangeBonus_Bonus:
  Id: 549
  ENG: "Grants missile weapon (such as rockets, guided missiles, and torpedoes) a 16% chance to dodge intercepting fire."
@@ -447,7 +448,7 @@ TwinEmpCannons:
  SPA: "Cañones PEM dobles"
 ThisSmallShieldIsCapable:
  Id: 949
- ENG: "A small shield developed specifically for our fighter and corvette ships. It is weaker than our medium shield generator, but still provides increasingly important protection for small craft. "
+ ENG: "A small shield developed specifically for our fighter and corvette ships. It cannot regenerate in combat, but still provides increasingly important protection for small craft. "
  RUS: "Небольшой щит, разработанный специально для наших истребителей и корветов. Он слабее, чем наш средний генератор щита, но все же обеспечивает важную защиту для малых судов."
  SPA: "Este pequeño escudo absorbe hasta 500 puntos de daño en un radio de 50 metros. Su rapidez de recarga hace que sea ideal para pequeños cazas. "
 ThisHangarBaySupportsA:
@@ -710,11 +711,12 @@ ThisShieldProvidesHpWorth:
  ENG: "This large shielding generator will provide substantial protection for our ships over a much wider area than previous shields. It was designed to be used effectively on larger ships."
  RUS: "Этот большой защитный генератор обеспечит существенную защиту наших кораблей на гораздо большей площади, чем предыдущие щиты. Он был разработан для эффективного использования на более крупных кораблях."
  SPA: "Este escudo proporciona una protección de 10 000 puntos de vida en un radio de 120 metros. Su consumo de energía es alto.  "
-ThisParticularShieldModelProvides:
+EnergyShield_Name:
+ Id: 1050
+ ENG: "Energy Shield" 
+EnergyShield_Desc:
  Id: 1051
- ENG: "This medium shield generator was developed in response to the need for stronger, less energy dependant shielding module for our ships. It requires less power than our Class I Magshields and provides much more protection, but has a slightly smaller range. "
- RUS: "Этот средний генератор щита был разработан в ответ на потребность в более мощном, менее энергозависимом защитном модуле для наших кораблей. Он требует меньше энергии, чем наши магнитные щиты I класса, и обеспечивает гораздо большую защиту, но имеет немного меньший радиус действия."
- SPA: "Este modelo de escudo en concreto proporciona una defensa de 1250 puntos de vida en un radio de 75 metros. "
+ ENG: "A medium sized shield with higher output, which can be installed on larger hulls. It recharges in combat and have larger covreage radius."
 PdVulcanCannon:
  Id: 1074
  ENG: "PD Vulcan Cannon"
@@ -3941,10 +3943,10 @@ CA_ThisExternalEngineChannelsEnergy:
  RUS: "Этот внешний двигатель направляет энергию непосредственно из центрального варп-ядра и может значительно увеличить скорость корабля как на варп, так и на субсветовых скоростях. К сожалению, стандарты безопасности требуют, чтобы двигатель этой конструкции нельзя было использовать для маневрирования; это делается для того, чтобы избежать досадной возможности разорвать корабль на части."
 CA_StaticBarrier:
  Id: 12021
- ENG: "Class I Deflector Shield"
+ ENG: "Basic Deflector Shield"
 CA_PlacedOnTheOutsideOf:
  Id: 12022
- ENG: "The Class I Deflector Shield has low strength, but high deflection rate, able to deflect low powered projectiles and it has some resistance to beam weapons. Unfortunately, it has low coverage and slow recharge rate."
+ ENG: "The Basic Deflector Shield has low strength, but high deflection rate, able to deflect low powered projectiles and it has some resistance to beam weapons. Unfortunately, it has low coverage and slow recharge rate."
 CA_JumpDrive:
  Id: 12023
  ENG: "Jump Drive"
@@ -3977,10 +3979,9 @@ CA_ThisIsABetterArmored:
  Id: 13000
  ENG: "This is a better armored and more powerful canopy generator. Its power draw is exceptionally high."
  RUS: "Это лучше бронированный и более мощный генератор щита. Его потребляемая мощность исключительно высока."
-CA_Tech_ArmCanopyShield_Name:
+CA_Tech_Force_Fields_II_Name:
  Id: 13001
- ENG: "Canopy Shields II"
- RUS: "Купольный щит II"
+ ENG: "Force Fields II"
 CA_Gunboat:
  Id: 17402
  ENG: "Gunboat"
@@ -4180,9 +4181,9 @@ CA_Tech_FusionReactor_Desc:
 CA_Tech_ArmHeavyShield_Desc:
  Id: 17451
  ENG: "It is now possible to improve our Class III shields' output and add more protection around them. as well as some projectile deflection."
-CA_Tech_ArmCanopyShield_Desc:
+CA_Tech_Force_Fields_II_Desc:
  Id: 17452
- ENG: "It is now possible to improve our Canopy shields' output and add armor plates to protect them, as well as Projectile Deflection. "
+ ENG: "We can create larger and more efficient Force Field Emitters."
 CA_FighterTorpedoes:
  Id: 17453
  ENG: "Fighter Torpedoes"
@@ -4687,22 +4688,18 @@ CA_EnemyCommandersWillQuakeIn:
  Id: 17578
  ENG: "Enemy commanders will quake in fear at the sight of our new large Disintegrator arrays. These hulking weapons can only be fitted on Battleships or Titans, however."
  RUS: "Командиры противника будут дрожать от страха при виде наших новых больших массивов дезинтеграторов.  Однако это громоздкое оружие можно установить только на линкоры или титаны."
-CA_Tech_Fast_Shielding_I_Name:
+CA_Tech_Deflectors_I_Name:
  Id: 17579
- ENG: "Fast Shielding I"
- RUS: "Быстрое экранирование I"
-CA_Tech_Fast_Shielding_I_Desc:
+ ENG: "Deflectors I"
+CA_Tech_Deflectors_I_Desc:
  Id: 17580
- ENG: "Since the recharge rate of our Class I Shields is rather low, we can invest research into a slightly stronger medium and small shield with a faster recharge rate."
- RUS: "Поскольку скорость перезарядки наших щитов I класса довольно низкая, мы можем инвестировать исследования в чуть более сильный средний и малый щит с более быстрой скоростью перезарядки."
-CA_Tech_Fast_Shielding_II_Name:
+ ENG: "Expending our knowledge of basic deflector technology, we can create specialized low yield deflection emitters which have increased deflection rate."
+CA_Tech_Deflectors_II_Name:
  Id: 17581
- ENG: "Fast Shielding II"
- RUS: "Быстрое экранирование II"
-CA_Tech_Fast_Shielding_II_Desc:
+ ENG: "Deflectors II"
+CA_Tech_Deflectors_II_Desc:
  Id: 17582
- ENG: "Since the recharge rate of our Class III Shields is rather low, we can attempt to research a slightly stronger large shield with a faster recharge rate."
- RUS: "Поскольку скорость перезарядки наших щитов III класса довольно низкая, мы можем попытаться исследовать более сильный большой щит с более высокой скоростью перезарядки."
+ ENG: "Increase in hull sizes will require better deflector technology. We can great larger Deflectors and advanced small crafts Deflectors."
 CA_ClassIFastShield:
  Id: 17583
  ENG: "Class I Fast Shield"
@@ -4735,22 +4732,20 @@ CA_Tech_Battle_Shielding_II_Desc:
  Id: 17590
  ENG: "We believe it would be possible to further improve our quickly recharging Class III Fast shields by making them a little stronger, and adding the ability to recharge during combat."
  RUS: "Мы считаем, что можно было бы еще больше улучшить наши быстро перезаряжаемые щиты III класса, сделав их немного сильнее и добавив возможность перезарядки во время боя."
-CA_ClassIBattleShield:
+CA_Module_Class_I_BattleShield_Name:
  Id: 17591
  ENG: "Class I Battle Shield"
  RUS: "Боевой щит I класса"
-CA_ThisShieldHasAVery:
+CA_Module_Class_I_BattleShield_Desc:
  Id: 17592
- ENG: "This shield has a very fast recharge rate, which takes some time to kick in after combat. It can also recharge during combat, and it is stronger than a regular Class I Fast shield. Unfortunately, it draws more power."
- RUS: "У этого щита ускоренная перезарядка, поэтому после боя нужно не много времени, для накопления щита.  Он также может перезаряжаться во время боя и сильнее обычного быстрого щита I класса.  К сожалению, он потребляет больше энергии."
-CA_ClassIiiBattleShield:
+ ENG: "This shield has better power output and combat recharge range. It also has slight projectile deflection."
+CA_Module_Class_II_BattleShield_Name:
  Id: 17593
- ENG: "Class III Battle Shield"
- RUS: "Боевой щит III класса"
-CA_ThisShieldHasAVery2:
+ ENG: "Class II Battle Shield"
+ RUS: "Боевой щит II класса"
+CA_Module_Class_II_BattleShield_Desc:
  Id: 17594
- ENG: "This shield has a very fast recharge rate, which takes some time to kick in after combat. It can also recharge during combat, and it is stronger than a regular Class III Fast shield. Unfortunately, it draws more power."
- RUS: "У этого щита ускоренная перезарядка, поэтому после боя нужно не много времени, чтобы зарядится.  Он также может перезаряжаться во время боя и сильнее обычного быстрого щита III класса.  К сожалению, он потребляет больше энергии."
+ ENG: "This shield is bigger and heavier, but can produce stonger and larger shield, with some Shield Deflection."
 CA_Tech_SmallStations_Name:
  Id: 17595
  ENG: "Small Stations"
@@ -5417,12 +5412,10 @@ CA_WithTheAbilityToRecharge:
  RUS: "Благодаря способности перезаряжаться во время боя, наряду с устойчивостью к лучевому вооружению, эти щиты должны заметно улучшить боевые возможности наших малых кораблей."
 CA_FighterBattleShield:
  Id: 17764
- ENG: "Fighter Battle Shield"
- RUS: "Боевой щит истребителя"
+ ENG: "Small Craft Battle Shield"
 CA_ThisIsAnImprovedVersion2:
  Id: 17765
- ENG: "This is an improved version of the Fast Fighter Shield. It can recharge during combat, but it demands more power."
- RUS: "Это улучшенная версия быстрого щита истребителя. Он может перезаряжаться во время боя, но требует большей мощности."
+ ENG: "A Battle shield suitable for Frigates, Corvettes and Fighters. It has higher output and recharge than the older Fighter Shield."
 CA_FighterBlueShield:
  Id: 17766
  ENG: "Fighter Blue Shield"
@@ -5433,12 +5426,10 @@ CA_ThisFighterShieldVersionIs:
  RUS: "Эта версия щита истребителя похожа на боевой щит истребителя, но с высокой устойчивостью к энергетическому и лучевому оружию."
 CA_AdvancedFighterBattleShield:
  Id: 17768
- ENG: "Advanced Fighter Battle Shield"
- RUS: "Прод.боевой щит истребителя"
+ ENG: "Advanced Small Craft Battle Shield"
 CA_ThisIsAnImprovedVersion3:
  Id: 17769
- ENG: "This is an improved version of the Advanced Fighter Fast Shield. It can recharge during combat, but it demands more power."
- RUS: "Это улучшенная версия продвинутого быстрого щита истребителя. Он может перезаряжаться во время боя, но требует большей мощности."
+ ENG: "This is an improved version of the Small Craft Battle Shield. it is less cost effective, but can fit in tight places."
 CA_AdvancedFighterBlueShield:
  Id: 17770
  ENG: "Advanced Fighter Blue Shield"
@@ -5787,14 +5778,12 @@ CA_TheBestCanopyShieldGenerator:
  Id: 17856
  ENG: "The best Canopy Shield Generator we can safely install on a starship."
  RUS: "Лучший генератор купольного типа, который мы можем безопасно установить на космический корабль."
-CA_Tech_ArmCanopyShield2_Name:
+CA_Tech_Force_Fields_III_Name:
  Id: 17857
- ENG: "Canopy Shielding III"
- RUS: "Купольный щит III"
-CA_Tech_ArmCanopyShield2_Desc:
+ ENG: "Force Fields III"
+CA_Tech_Force_Fields_III_Desc:
  Id: 17858
- ENG: "It is now possible to improve the output of our Canopy shields, and add more protection for the shields, as well as higer Projectile Deflection."
- RUS: "Теперь можно улучшить производительность наших купольных щитов, а также добавить вокруг них пластины активной брони для большей защиты."
+ ENG: "It is now possible to improve the output of our Force Fields, suited for our big ship hulls."
 CA_NanoOrdnanceLocker:
  Id: 17859
  ENG: "Nano Ordnance Locker"
@@ -7353,7 +7342,20 @@ CA_TwoRailgunsMountedOnAV2:
  ENG: "An upgrade for the older rail gun turret, with higher damage and range."
 CA_Tech_Shields_Name:
   Id: 18292
-  ENG: "Shields"
+  ENG: "Basic Shielding"
 CA_Tech_Shields_Desc:
   Id: 18293
   ENG: "Our first step into shielding our ships with energy emmitters"
+CA_Tech_Deflectors_III_Name:
+ Id: 18294
+ ENG: "Deflectors III"
+CA_Tech_Deflectors_III_Desc:
+ Id: 18295
+ ENG: "We can create very large Deflector emitters, suited for our largest hulls."
+CA_Module_Class_III_BattleShield_Name:
+ Id: 18296
+ ENG: "Class II Battle Shield"
+ RUS: "Боевой щит III класса"
+CA_Module_Class_III_BattleShield_Desc:
+ Id: 18297
+ ENG: "The best battle shield we can produce. It has decent deflection as well" 
