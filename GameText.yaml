@@ -416,11 +416,12 @@ FuelCellsCaptureAndStore:
  ENG: "Power cells capture and store power from a ship's powerplant. They are mainly needed for ships which use energy weapons, as they consume a lot of energy."
  RUS: "Ячейки собирают и накапливают энергию от силовой установки корабля. В основном они нужны для кораблей, которые используют энергетическое оружие, так как оно потребляют много энергии."
  SPA: "Las celdas de combustible captan y almacenan energía del generador de una nave aumentando el alcance operativo de esta, así como su aguante en combate."
-ThisShieldProvidesHpOf:
+CA_Module_LightForceField_Name:
+ Id: 916
+ ENG: "Light Force Field"
+CA_Module_LightForceField_Desc:
  Id: 917
- ENG: "By creating massive shield projectors, we can envelop entire ships, including escort ships, inside a single shield bubble. The power costs are massive but our military scientists believe that we can create excellent screening ships with this technology."
- RUS: "Создавая массивные проекторы щитов, мы можем окружить целые корабли, включая корабли сопровождения, одним пузырем щита. Затраты на электроэнергию огромны, но наши военные ученые считают, что с помощью этой технологии мы можем создать отличные экранирующие корабли."
- SPA: "Este escudo ofrece una protección de 25 000 puntos de vida en un radio de 400; su consumo energético es elevadísimo. "
+ ENG: "The Light Force Field generates a good coverage and regenerate very fast, when not in combat. It also has some plasma and kinetic resistance."
 CombatInformationCenter:
  Id: 920
  ENG: "Combat Information Center"
@@ -3975,10 +3976,9 @@ CA_Tech_ArmHeavyShield_Name:
  Id: 12999
  ENG: "Heavy Shielding II"
  RUS: "Тяжелые щиты II"
-CA_ThisIsABetterArmored:
+CA_Module_Medium_Force_Field_Desc:
  Id: 13000
- ENG: "This is a better armored and more powerful canopy generator. Its power draw is exceptionally high."
- RUS: "Это лучше бронированный и более мощный генератор щита. Его потребляемая мощность исключительно высока."
+ ENG: "This is a better armored and more powerful Force Field. Its power draw is exceptionally high."
 CA_Tech_Force_Fields_II_Name:
  Id: 13001
  ENG: "Force Fields II"
@@ -4700,22 +4700,18 @@ CA_Tech_Deflectors_II_Name:
 CA_Tech_Deflectors_II_Desc:
  Id: 17582
  ENG: "Increase in hull sizes will require better deflector technology. We can great larger Deflectors and advanced small crafts Deflectors."
-CA_ClassIFastShield:
+CA_Module_Class_I_Deflector_Name:
  Id: 17583
- ENG: "Class I Fast Shield"
- RUS: "Быстрый щит I класса"
-CA_ThisMediumShieldHasA:
+ ENG: "Class I Deflector"
+CA_Module_Class_I_Deflector_Desc:
  Id: 17584
- ENG: "This medium shield has a very fast recharge rate, which takes some time to kick in after combat. It is also stronger than a regular class I medium shield. Unfortunately, it draws more power in hyperspace."
- RUS: "Этот средний щит имеет очень быструю перезарядку, поэтому после боя требуется некоторое время, чтобы зарядится.  Он также сильнее обычного среднего щита I класса.  К сожалению, в гиперпространстве он потребляет больше энергии."
-CA_ClassIiiFastShield:
+ ENG: "The Class I deflector has a low coverage radius, but better deflection than the Basic Deflector Shield, along with beam resistence."
+CA_Module_Class_II_Deflector_Name:
  Id: 17585
- ENG: "Class III Fast Shield"
- RUS: "Быстрый щит III класса"
-CA_ThisLargeShieldHasA:
+ ENG: "Class II Deflector"
+CA_Module_Class_II_Deflector_Desc:
  Id: 17586
- ENG: "This large shield has a very fast recharge rate, which takes some time to kick in after combat. It is also stronger than a regular class III large shield. Unfortunately, it draws more power in hyperspace."
- RUS: "Этот большой щит имеет очень быструю перезарядку, поэтому после боя требуется некоторое время, чтобы зарядится.  Он также прочнее обычного большого щита III класса.  К сожалению, в гиперпространстве он потребляет больше энергии."
+ ENG: "A larger deflector with more coverage and better deflection."
 CA_Tech_Battle_Shielding_I_Name:
  Id: 17587
  ENG: "Battle Shielding I"
@@ -5354,14 +5350,12 @@ CA_ThisCockpitAllowsForTwo:
  Id: 17747
  ENG: "This Cockpit allows for two pilots to control the craft, with more integration between systems. It's slightly better than 2 separate cockpits."
  RUS: "Эта кабина позволяет управлять кораблем с большей интеграцией между системами и большим количеством экипажа. Это немного лучше, чем две отдельные кабины."
-CA_AdvancedFighterShieldGenerator:
+CA_Module_SmallCraftForceField_Name:
  Id: 17750
- ENG: "Advanced Fighter Shield Generator"
- RUS: "Прод.щит истребителя"
-CA_ALargerModuleWithLinked:
+ ENG: "Small Craft Force Field"
+CA_Module_SmallCraftForceField_Desc:
  Id: 17751
- ENG: "A larger module with 2 linked shield generators provides heavy shield support for small craft, probably the best we can ever get. However, the recharge rate is very slow."
- RUS: "Модуль большего размера с двумя связанными генераторами щита обеспечивает прочную поддержку щита для малых судов, вероятно, лучшее, что мы когда-либо могли получить. Однако скорость перезарядки очень низкая."
+ ENG: "A smaller version of the Light Force Field which can be fitted on small craft. It has good coverage and regeneartion."
 CA_DroneAntifighterCannonMk:
  Id: 17752
  ENG: "Drone Anti-Fighter Cannon Mk1"
@@ -5426,7 +5420,7 @@ CA_ThisFighterShieldVersionIs:
  RUS: "Эта версия щита истребителя похожа на боевой щит истребителя, но с высокой устойчивостью к энергетическому и лучевому оружию."
 CA_AdvancedFighterBattleShield:
  Id: 17768
- ENG: "Advanced Small Craft Battle Shield"
+ ENG: "Adv. Small Craft Battle Shield"
 CA_ThisIsAnImprovedVersion3:
  Id: 17769
  ENG: "This is an improved version of the Small Craft Battle Shield. it is less cost effective, but can fit in tight places."
@@ -5770,14 +5764,12 @@ CA_Tech_ArmHeavyShield2_Desc:
  Id: 17854
  ENG: "It is now possible to improve the output of our Class V shields, along with more protection for the shields themselves and even better Projectile Deflection"
  RUS: "Теперь можно улучшить мощность наших щитов класса V, а также добавить вокруг них броневые пластины из композитного сплава для большей защиты."
-CA_AdvancedCanopyShield:
+CA_Module_Heavy_Force_Field_Name:
  Id: 17855
- ENG: "Advanced Canopy Shield"
- RUS: "Продвинутый купольный щит"
-CA_TheBestCanopyShieldGenerator:
+ ENG: "Heavy Force Field"
+CA_Module_Heavy_Force_Field_Desc:
  Id: 17856
- ENG: "The best Canopy Shield Generator we can safely install on a starship."
- RUS: "Лучший генератор купольного типа, который мы можем безопасно установить на космический корабль."
+ ENG: "The best force field we can create. It draws a lot of energy and have a very large coverage."
 CA_Tech_Force_Fields_III_Name:
  Id: 17857
  ENG: "Force Fields III"
@@ -5884,22 +5876,18 @@ CA_AnAdvancedShieldUsedBy:
  Id: 17883
  ENG: "An Advanced shield used by Remnant Fighters."
  RUS: "Продвинутый щит, используемый истребителями Предтечь."
-CA_FighterFastShield:
+CA_Module_Small_Craft_Deflector_Name:
  Id: 17884
- ENG: "Fighter Fast Shield"
- RUS: "Быстрый щит истребителя"
-CA_ThisIsAnImprovedVersion6:
+ ENG: "Small Craft Deflector"
+CA_Module_Small_Craft_Deflector_Desc:
  Id: 17885
- ENG: "This is an improved version of the Standard Fighter Shield. It has a much faster recharge rate, but it needs more time before recharge starts."
- RUS: "Это улучшенная версия щита истребителя. Скорость перезарядки намного выше, но до начала перезарядки требуется больше времени."
-CA_AdvancedFighterFastShield:
+ ENG: "A small sized deflector which can be mounted on small craft."
+CA_Module_Small_Craft_Deflector_Adv_Name:
  Id: 17886
- ENG: "Advanced Fighter Fast Shield"
- RUS: "Прод.быстрый щит истребителя"
-CA_ThisIsAnImprovedAnd:
+ ENG: "Advanced Small Craft Deflector"
+CA_Module_Small_Craft_Deflector_Adv_Desc:
  Id: 17887
- ENG: "This is an improved and somwhat larger version of the Fast Fighter Shield. After a decently long cool down, it can recharge very quickly."
- RUS: "Это улучшенная и немного увеличенная версия быстрого щита истребителя. После прилично длительного остывания он может очень быстро перезарядиться."
+ ENG: "This is an improved and somewhat larger version of the Small Craft Deflector."
 CA_Tech_NanoweaveMetallurgy_Bonus:
  Id: 17888
  ENG: "Provides a 10% hit point bonus to all ship modules."
@@ -6532,10 +6520,9 @@ CA_AHeavyMachineGunTurret7:
  Id: 18076
  ENG: "A Heavy Machine Gun turret mounted on a Tritanium Armor plate for added durability. An effective weapon against fighters and missiles. 18076"
  RUS: "Турель крупнокалиберного пулемета вмонтирована в тритановую плиту, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
-CA_CanopyShieldingIi:
+CA_Module_Medium_Force_Field_Name:
  Id: 18077
- ENG: "Canopy Shielding II"
- RUS: "Улучшенный купольный щит"
+ ENG: "Medium Force Field
 CA_Tech_AMX50Revolver_Name:
  Id: 18078
  ENG: "Anti Capital Missiles III"
@@ -7359,3 +7346,9 @@ CA_Module_Class_III_BattleShield_Name:
 CA_Module_Class_III_BattleShield_Desc:
  Id: 18297
  ENG: "The best battle shield we can produce. It has decent deflection as well" 
+CA_Module_Class_III_Deflector_Name:
+ Id: 18298
+ ENG: "Class III Deflector"
+CA_Module_Class_III_Deflector_Desc:
+ Id: 18299
+ ENG: "Am immensely larger deflector with more coverage and better deflection." 

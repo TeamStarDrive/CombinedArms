@@ -3,10 +3,9 @@
 
   <FighterModule>false</FighterModule>
   <CorvetteModule>false</CorvetteModule>
-  <DestroyerModule>false</DestroyerModule>
 
   
-  <Cost>120</Cost>
+  <Cost>150</Cost>
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Shield</ModuleType>
@@ -16,17 +15,12 @@
   <Restrictions>I</Restrictions>
   <Name>LightForceField</Name>
   <IconTexturePath>Modules/ForceFieldLight</IconTexturePath>
-  <Mass>200</Mass>
-  <Health>2200</Health>
-  <HealthMax>2200</HealthMax>
-  <RepairDifficulty>3</RepairDifficulty>
-  <energyreq>0</energyreq>
-  
-  <Description>This is a monstrous shield with the a high resistance and a massive protection radius, making it ideal for capital ships or specialized shield ships.  The power costs are enormous.</Description>
-  
-  
-  <PowerDraw>2000</PowerDraw>
-  <PowerDrawAtWarp>-1000</PowerDrawAtWarp>
+  <Mass>90</Mass>
+  <HealthMax>600</HealthMax>
+  <RepairDifficulty>4</RepairDifficulty>
+ 
+  <PowerDraw>250</PowerDraw>
+  <PowerDrawAtWarp>-175</PowerDrawAtWarp>
 
 
 
@@ -35,13 +29,14 @@
 
 
   <!-- for shield items -->
-  <ShieldPowerMax>15000</ShieldPowerMax>
-  <ShieldRechargeDelay>8</ShieldRechargeDelay>
-  <ShieldRechargeRate>150</ShieldRechargeRate>
-  <ShieldRadius>400</ShieldRadius>
+  <ShieldPowerMax>2500</ShieldPowerMax>
+  <ShieldRechargeDelay>10</ShieldRechargeDelay>
+  <ShieldRechargeRate>250</ShieldRechargeRate>
+  <ShieldRadius>200</ShieldRadius>
   <ShieldRechargeCombatRate>0</ShieldRechargeCombatRate>
-  <ShieldDeflection>50</ShieldDeflection>
-  <ShieldPlasmaResist>0.1</ShieldPlasmaResist>
+  <ShieldBubbleColor>Blue</ShieldBubbleColor>
+  <ShieldKineticResist>0.15</ShieldKineticResist>
+  <ShieldPlasmaResist>0.3</ShieldPlasmaResist>
   <!-- for PowerPlant Items -->
   
   <PowerFlowMax>0</PowerFlowMax>

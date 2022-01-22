@@ -2,13 +2,11 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <DroneModule>false</DroneModule>
-  <FighterModule>false</FighterModule>
- 
   
-  <Cost>24</Cost>
+  <Cost>20</Cost>
 
   <!-- Tech Level Used by AI for Upgrading Ships -->
-  <TechLevel>2</TechLevel>
+  <TechLevel>3</TechLevel>
 
   <!-- common traits shared by all ship modules -->
   <ModuleType>Shield</ModuleType>
@@ -18,17 +16,13 @@
   <Restrictions>I</Restrictions>
   <UID>Deflector2x2</UID>
   <IconTexturePath>Modules/Deflector2x2</IconTexturePath>
-  <Mass>12</Mass>
-  <Health>200</Health>
-  <HealthMax>200</HealthMax>
-  <RepairDifficulty>2</RepairDifficulty>
-  <energyreq>0</energyreq>
-  
-  <Description> This particular model is a very basic 1 KW shieid (2000 hp) with a 75 meter protective radius and a low recharge speed.</Description>
+  <Mass>48</Mass>
+  <HealthMax>300</HealthMax>
+  <RepairDifficulty>3</RepairDifficulty>
     
   
-  <PowerDraw>100</PowerDraw>
-  <PowerDrawAtWarp>-50</PowerDrawAtWarp>
+  <PowerDraw>125</PowerDraw>
+  <PowerDrawAtWarp>-25</PowerDrawAtWarp>
   <ShieldBubbleColor>Yellow</ShieldBubbleColor>
 
   <NameIndex>17583</NameIndex>
@@ -36,11 +30,13 @@
 
 
   <!-- for shield items -->
-  <ShieldPowerMax>1250</ShieldPowerMax>
-  <ShieldRechargeDelay>10</ShieldRechargeDelay>
-  <ShieldRechargeRate>250</ShieldRechargeRate>
+  <ShieldPowerMax>2000</ShieldPowerMax>
+  <ShieldRechargeDelay>4</ShieldRechargeDelay>
+  <ShieldRechargeRate>20</ShieldRechargeRate>
   <ShieldRadius>80</ShieldRadius>
   <ShieldRechargeCombatRate>0</ShieldRechargeCombatRate>
+  <ShieldDeflection>100</ShieldDeflection>  
+  <ShieldBeamResist>0.5</ShieldBeamResist>
 
   <!-- for PowerPlant Items -->
   
