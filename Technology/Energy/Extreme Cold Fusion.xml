@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<UID>Armored Quantum Fusion</UID>
+	<UID>Armored Cold Fusion</UID>
 	<TechnologyType>ShipGeneral</TechnologyType>
-	<Cost>4800</Cost>
+	<Cost>750</Cost>
 	<RootNode>0</RootNode>
-	<Name>Armored Quantum Fusion</Name>
-	<NameIndex>17521</NameIndex>
-	<DescriptionIndex>17522</DescriptionIndex>
-	<LongDescription>Armored Quantum Fusion</LongDescription>
+	<Name>Extreme Cold Fusion</Name>
+	<NameIndex>17520</NameIndex>
+	<DescriptionIndex>17448</DescriptionIndex>
+	<LongDescription>Extreme Fusion Reactor</LongDescription>
 	<LeadsTo>
-		<LeadsToTech>
-			<UID>Linked Quantum Fusion</UID>
-		</LeadsToTech>
 	</LeadsTo>
 	<ModulesUnlocked>
 		<UnlockedMod>
-			<ModuleUID>Armored Quantum Fusion Reactor</ModuleUID>
+			<ModuleUID>LargeColdFusionReactor</ModuleUID>
 		</UnlockedMod>
 	</ModulesUnlocked>
+	<BuildingsUnlocked/>
   <BonusUnlocked>
     <UnlockedBonus>
       <Name>Fuel Cell Upgrade</Name>
@@ -26,7 +24,6 @@
       <BonusIndex>18045</BonusIndex>
     </UnlockedBonus>
   </BonusUnlocked>
-	<BonusUnlocked/>
 	<TroopsUnlocked/>
 	<HullsUnlocked/>
 </Technology>

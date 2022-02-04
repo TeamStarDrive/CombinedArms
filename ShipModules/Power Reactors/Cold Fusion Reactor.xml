@@ -16,10 +16,9 @@
   <TechBranch>Power</TechBranch>
   <IconTexturePath>Modules/Cold Fusion Reactor</IconTexturePath>
   
-  <Mass>30</Mass>
-  <Health>375</Health>
+  <Mass>50</Mass>
   <HealthMax>375</HealthMax>
-  <RepairDifficulty>3</RepairDifficulty>
+  <RepairDifficulty>5</RepairDifficulty>
   <energyreq>0</energyreq>
   
   <Description>Cold Fusion Reactor, very stable and won't callapse violently, to achieve this we have lowered its output power. The addition of sealed shell allows for safer power output distance.</Description>
@@ -41,10 +40,10 @@
 
   <!-- for PowerPlant Items -->
   
-  <ExplosionDamage>375</ExplosionDamage>
-  <ExplosionRadius>144</ExplosionRadius>  
+  <ExplosionDamage>1000</ExplosionDamage>
+  <ExplosionRadius>64</ExplosionRadius>  
   <PowerFlowMax>300</PowerFlowMax>
-  <PowerStoreMax>150</PowerStoreMax>
+  <PowerStoreMax>50</PowerStoreMax>
   <PowerRadius>3</PowerRadius>
 
   <!-- for Weapons -->

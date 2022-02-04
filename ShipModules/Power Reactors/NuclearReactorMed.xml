@@ -17,6 +17,7 @@
   <TechBranch>Power</TechBranch>
   <Name>Med. Nuclear Reactor</Name>
   <Restrictions>I</Restrictions>
+  <RepairDifficulty>3</RepairDifficulty>
   <UID>NuclearReactorMed</UID>
   <TexturePath>Textures/transparent</TexturePath>
   <IconTexturePath>Modules/NuclearReactorMedium</IconTexturePath>
@@ -28,7 +29,6 @@
 
 
   <Mass>25</Mass>
-  <Health>200</Health>
   <HealthMax>200</HealthMax>
   <energyreq>0</energyreq>
   
@@ -48,7 +48,7 @@
   <!-- for PowerPlant Items -->
   
   <ExplosionDamage>3750</ExplosionDamage>
-  <ExplosionRadius>192</ExplosionRadius>  
+  <ExplosionRadius>64</ExplosionRadius>  
   <PowerFlowMax>225</PowerFlowMax>
   <PowerStoreMax>40</PowerStoreMax>
   <PowerRadius>3</PowerRadius>

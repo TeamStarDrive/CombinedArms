@@ -3,9 +3,6 @@
 
   <FighterModule>false</FighterModule>
   <CorvetteModule>false</CorvetteModule>
-  <DestroyerModule>false</DestroyerModule>
-  <FrigateModule>false</FrigateModule>
-  <FreighterModule>false</FreighterModule>
   <PlatformModule>false</PlatformModule>
 
 	<Cost>400</Cost>
@@ -19,12 +16,10 @@
 	<Restrictions>I</Restrictions>
 	<UID>Linked Dark Matter Reactor Set</UID>
 	<IconTexturePath>Modules/Linked Dark Matter Reactor Set</IconTexturePath>
-	<Mass>600</Mass>
-	<Health>3000</Health>
+	<Mass>800</Mass>
 	<HealthMax>3000</HealthMax>
-	<RepairDifficulty>7</RepairDifficulty>
+	<RepairDifficulty>12</RepairDifficulty>
 	<Deflection>30</Deflection>
-	<energyreq>0</energyreq>
 	
 	<Description>Parallel Dark Matter Reactor Set.</Description>
 	
@@ -35,15 +30,15 @@
 	<DescriptionIndex>17552</DescriptionIndex>
 	<!-- for shield items -->
 	<ShieldPowerMax>5000</ShieldPowerMax>
-	<ShieldRechargeDelay>5</ShieldRechargeDelay>
-	<ShieldRechargeRate>50</ShieldRechargeRate>
+	<ShieldRechargeDelay>3</ShieldRechargeDelay>
+	<ShieldRechargeRate>100</ShieldRechargeRate>
 	<ShieldRadius>90</ShieldRadius>
 	<!-- for PowerPlant Items -->
 	
     <ExplosionDamage>3000</ExplosionDamage>
-    <ExplosionRadius>320</ExplosionRadius>	
-	<PowerFlowMax>4800</PowerFlowMax>
-	<PowerStoreMax>1500</PowerStoreMax>
+    <ExplosionRadius>128</ExplosionRadius>	
+	<PowerFlowMax>6000</PowerFlowMax>
+	<PowerStoreMax>1000</PowerStoreMax>
 	<PowerRadius>8</PowerRadius>
 	<!-- for Weapons -->
 	<!-- for Engines -->

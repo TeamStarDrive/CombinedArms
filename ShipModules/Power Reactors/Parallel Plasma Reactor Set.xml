@@ -4,9 +4,6 @@
   <DroneModule>false</DroneModule>
   <FighterModule>false</FighterModule>
   <CorvetteModule>false</CorvetteModule>
-  <DestroyerModule>false</DestroyerModule>
-  <FrigateModule>false</FrigateModule>
-  <FreighterModule>false</FreighterModule>
   <PlatformModule>false</PlatformModule>
 
 	<Cost>350</Cost>
@@ -20,12 +17,10 @@
 	<Restrictions>I</Restrictions>
 	<UID>Parallel Plasma Reactor Set</UID>
 	<IconTexturePath>Modules/Parallel Quantum Fusion Reactor Set</IconTexturePath>
-	<Mass>400</Mass>
-	<Health>2500</Health>
+	<Mass>600</Mass>
 	<HealthMax>2500</HealthMax>
-	<RepairDifficulty>6</RepairDifficulty>
+	<RepairDifficulty>11</RepairDifficulty>
 	<Deflection>30</Deflection>
-	<energyreq>0</energyreq>
 	
 	<Description>Parallel Plasma Reactor Set. Connected with 6 Plasma Reactors, huge power out put. The reactor hanger also equip with a small emergency shield and damage control team allow it self repair. Note however a HUGE explosion blastwave occurs when destroyed!  </Description>
 	
@@ -37,14 +32,14 @@
 	<!-- for shield items -->
 	<ShieldPowerMax>2000</ShieldPowerMax>
 	<ShieldRechargeDelay>5</ShieldRechargeDelay>
-	<ShieldRechargeRate>25</ShieldRechargeRate>
+	<ShieldRechargeRate>100</ShieldRechargeRate>
 	<ShieldRadius>65</ShieldRadius>
 	<!-- for PowerPlant Items -->
 	
     <ExplosionDamage>4000</ExplosionDamage>
-    <ExplosionRadius>192</ExplosionRadius>	
+    <ExplosionRadius>160</ExplosionRadius>	
 	<PowerFlowMax>5000</PowerFlowMax>
-	<PowerStoreMax>2000</PowerStoreMax>
+	<PowerStoreMax>1000</PowerStoreMax>
 	<PowerRadius>8</PowerRadius>
 	<!-- for Weapons -->
 	<!-- for Engines -->

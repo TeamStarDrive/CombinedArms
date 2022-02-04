@@ -2,9 +2,8 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<DroneModule>false</DroneModule>
 	<FighterModule>false</FighterModule>
-	<FreighterModule>false</FreighterModule>
 
-	<Cost>120</Cost>
+	<Cost>100</Cost>
 	<!-- Tech Level Used by AI for Upgrading Ships -->
 	<TechLevel>3</TechLevel>
 	<!-- common traits shared by all ship modules -->
@@ -13,18 +12,19 @@
 	<ModuleType>PowerPlant</ModuleType>
 	<Name>Quantum Fusion Reactor</Name>
 	<Restrictions>I</Restrictions>
-	<UID>QuantumFusionReactor_3x3</UID>
-	<IconTexturePath>Modules/QuantumFusionReactor_3x3</IconTexturePath>
-	<Mass>200</Mass>
-	<HealthMax>1500</HealthMax>
-	<RepairDifficulty>9</RepairDifficulty>
+	<UID>LargeColdFusionReactor</UID>
+	<IconTexturePath>Modules/LargeColdFusionReactor</IconTexturePath>
+	<Mass>135</Mass>
+	<HealthMax>1000</HealthMax>
+	<RepairDifficulty>6</RepairDifficulty>
+	<energyreq>0</energyreq>
 	
 	<Description>Quantum Fusion Reactor</Description>
 	
 	
 	<PowerDraw>0</PowerDraw>
-	<NameIndex>17514</NameIndex>
-	<DescriptionIndex>17515</DescriptionIndex>
+	<NameIndex>8059</NameIndex>
+	<DescriptionIndex>8060</DescriptionIndex>
 	<!-- for shield items -->
 	
 	<ShieldPowerMax>0</ShieldPowerMax>
@@ -33,9 +33,9 @@
 	<ShieldRadius>0</ShieldRadius>
 	<!-- for PowerPlant Items -->
 	
-    <ExplosionDamage>2000</ExplosionDamage>
+    <ExplosionDamage>2500</ExplosionDamage>
     <ExplosionRadius>80</ExplosionRadius>	
-	<PowerFlowMax>900</PowerFlowMax>
+	<PowerFlowMax>750</PowerFlowMax>
 	<PowerStoreMax>100</PowerStoreMax>
 	<PowerRadius>4</PowerRadius>
 	<!-- for Weapons -->
