@@ -2,8 +2,8 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<DroneModule>false</DroneModule>
 	<FighterModule>true</FighterModule>
-	<CorvetteModule>false</CorvetteModule>
-	<FrigateModule>false</FrigateModule>
+	<CorvetteModule>true</CorvetteModule>
+	<FrigateModule>true</FrigateModule>
 	<DestroyerModule>false</DestroyerModule>
 	<CruiserModule>false</CruiserModule>
 	<BattleshipModule>false</BattleshipModule>
@@ -11,28 +11,26 @@
 	<FreighterModule>false</FreighterModule>
 	<PlatformModule>false</PlatformModule>
 	<StationModule>false</StationModule>
-	<Cost>16</Cost>
-	<TechLevel>2</TechLevel>
+	<Cost>40</Cost>
+	<TechLevel>4</TechLevel>
 	<!-- common traits shared by all ship modules -->
 	<ModuleType>MainGun</ModuleType>
-	<XSize>3</XSize>
+	<XSize>1</XSize>
 	<YSize>2</YSize>
-	<Name>Fighter PlasmaBomb3x2</Name>
+	<Name>MeltBomb1x2</Name>
 	<Restrictions>I</Restrictions>
-	<UID>Fighter PlasmaBomb3x2</UID>
-	<IconTexturePath>Modules/Fighter PlasmaBomb6</IconTexturePath>
-	<Mass>20</Mass>
-	<Health>30</Health>
-	<HealthMax>30</HealthMax>
-	<RepairDifficulty>2</RepairDifficulty>
-	<energyreq>0</energyreq>
+	<UID>MeltBomb1x2</UID>
+	<IconTexturePath>Modules/MeltBomb1x2</IconTexturePath>
+	<Mass>30</Mass>
+	<HealthMax>100</HealthMax>
+	<RepairDifficulty>4</RepairDifficulty>
 	<Description>Fighter PlasmaBomb</Description>
 	
 	
 	<PowerDraw>15</PowerDraw>
-	<OrdinanceCapacity>15</OrdinanceCapacity>
-	<NameIndex>17623</NameIndex>
-	<DescriptionIndex>17624</DescriptionIndex>
+	<OrdinanceCapacity>4</OrdinanceCapacity>
+	<NameIndex>17606</NameIndex>
+	<DescriptionIndex>17607</DescriptionIndex>
 	<!-- for shield items -->
 	
 	<ShieldPowerMax>0</ShieldPowerMax>
@@ -45,8 +43,8 @@
 	<PowerFlowMax>0</PowerFlowMax>
 	<PowerStoreMax>0</PowerStoreMax>
 	<!-- for Weapons -->
-	<WeaponType>Fighter PlasmaBomb6</WeaponType>
-	<FieldOfFire>50</FieldOfFire>
+	<WeaponType>MeltBomb1</WeaponType>
+	<FieldOfFire>45</FieldOfFire>
 	<!-- for Engines -->
 	<Thrust>0</Thrust>
 </ShipModule>

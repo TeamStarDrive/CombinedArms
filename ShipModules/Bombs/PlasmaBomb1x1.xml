@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<DroneModule>false</DroneModule>
+	<DroneModule>true</DroneModule>
 	<FighterModule>true</FighterModule>
-	<CorvetteModule>false</CorvetteModule>
-	<FrigateModule>false</FrigateModule>
+	<CorvetteModule>true</CorvetteModule>
+	<FrigateModule>true</FrigateModule>
 	<DestroyerModule>false</DestroyerModule>
 	<CruiserModule>false</CruiserModule>
 	<BattleshipModule>false</BattleshipModule>
@@ -11,26 +11,24 @@
 	<FreighterModule>false</FreighterModule>
 	<PlatformModule>false</PlatformModule>
 	<StationModule>false</StationModule>
-	<Cost>14</Cost>
+	<Cost>7</Cost>
 	<TechLevel>2</TechLevel>
+	<RepairDifficulty>2</RepairDifficulty>
 	<!-- common traits shared by all ship modules -->
 	<ModuleType>MainGun</ModuleType>
-	<XSize>4</XSize>
+	<XSize>1</XSize>
 	<YSize>1</YSize>
-	<Name>Fighter PlasmaBomb4x1</Name>
+	<Name>PlasmaBomb1x1</Name>
 	<Restrictions>I</Restrictions>
-	<UID>Fighter PlasmaBomb4x1</UID>
-	<IconTexturePath>Modules/Fighter PlasmaBomb4</IconTexturePath>
-	<Mass>14</Mass>
-	<Health>20</Health>
+	<UID>PlasmaBomb1x1</UID>
+	<IconTexturePath>Modules/PlasmaBomb1x1</IconTexturePath>
+	<Mass>7</Mass>
 	<HealthMax>20</HealthMax>
-	<RepairDifficulty>2</RepairDifficulty>
-	<energyreq>0</energyreq>
-	<Description>Fighter PlasmaBomb</Description>
+	<Description>PlasmaBomb1x1</Description>
 	
 	
-	<PowerDraw>15</PowerDraw>
-	<OrdinanceCapacity>10</OrdinanceCapacity>
+	<PowerDraw>10</PowerDraw>
+	<OrdinanceCapacity>1</OrdinanceCapacity>
 	<NameIndex>17622</NameIndex>
 	<DescriptionIndex>17443</DescriptionIndex>
 	<!-- for shield items -->
@@ -45,8 +43,8 @@
 	<PowerFlowMax>0</PowerFlowMax>
 	<PowerStoreMax>0</PowerStoreMax>
 	<!-- for Weapons -->
-	<WeaponType>Fighter PlasmaBomb4</WeaponType>
-	<FieldOfFire>45</FieldOfFire>
+	<WeaponType>PlasmaBomb</WeaponType>
+	<FieldOfFire>90</FieldOfFire>
 	<!-- for Engines -->
 	<Thrust>0</Thrust>
 </ShipModule>

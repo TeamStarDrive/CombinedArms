@@ -4,35 +4,35 @@
   <Tag_Missile>true</Tag_Missile>
   
 
+
   <ExcludesFighters>true</ExcludesFighters>  
   <ExcludesCorvettes>true</ExcludesCorvettes>  
 
-  <UID>Fighter AntiMatter Bomb8</UID>
-  <FireDelay>8</FireDelay>
+  <UID>ShieldBomb1</UID>
+  <FireDelay>6</FireDelay>
   <Range>3000</Range>
-  <HitPoints>30</HitPoints>
-  <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>2.5</OrdinanceRequiredToFire>
+  <HitPoints>50</HitPoints>
+  <PowerRequiredToFire>50</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>4</OrdinanceRequiredToFire>
   <!-- name of XACT audio cue to play on firing this weapon -->
   <FireCueName>sd_bomb_release</FireCueName>
   <DieCue>Explo1</DieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
   <!-- Projectile Information -->
-  <DamageAmount>350</DamageAmount>
+  <DamageAmount>400</DamageAmount>
+  <EMPDamage>150</EMPDamage>
   <ProjectileSpeed>600</ProjectileSpeed>
-  <Light>Purple</Light>
-
-  <Scale>0.7</Scale>
-  <ExplosionRadius>10</ExplosionRadius> <!-- This projectile explodes -->
+  <Light>Blue</Light>
+  <EffectVsArmor>0.75</EffectVsArmor>
+  <Scale>1.2</Scale>
+  <ExplosionRadius>20</ExplosionRadius> <!-- This projectile explodes -->
   
   <ProjectileTexturePath>spacemine_g</ProjectileTexturePath>
   <ModelPath>spacemine</ModelPath>
-
+  <ShieldPenChance>75</ShieldPenChance>
   <WeaponType>Missile</WeaponType>
-  <SalvoCount>8</SalvoCount>
-  <SalvoTimer>1</SalvoTimer>
-  <FireCone>15</FireCone>
-  <ProjectileRadius>1</ProjectileRadius>
+  <FireCone>10</FireCone>
+  <ProjectileRadius>6</ProjectileRadius>
   <CanCollideProjectiles>true</CanCollideProjectiles>
 
 </Weapon>

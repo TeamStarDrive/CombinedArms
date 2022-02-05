@@ -6,41 +6,41 @@
   <CorvetteModule>false</CorvetteModule>
   <PlatformModule>false</PlatformModule>
 
-	<Cost>350</Cost>
+	<Cost>250</Cost>
 	<!-- Tech Level Used by AI for Upgrading Ships -->
-	<TechLevel>5</TechLevel>
+	<TechLevel>6</TechLevel>
 	<!-- common traits shared by all ship modules -->
 	<XSize>4</XSize>
 	<YSize>6</YSize>
 	<ModuleType>PowerPlant</ModuleType>
-	<Name>Linked Quantum Fusion Reactors</Name>
+	<Name>Linked AntiMatter Reactor Set</Name>
 	<Restrictions>I</Restrictions>
-	<UID>Parallel Plasma Reactor Set</UID>
-	<IconTexturePath>Modules/Parallel Quantum Fusion Reactor Set</IconTexturePath>
+	<UID>Linked AntiMatter Reactor Set</UID>
+	<IconTexturePath>Modules/Parallel Anti-Matter Reactor Set</IconTexturePath>
 	<Mass>600</Mass>
-	<HealthMax>2500</HealthMax>
+	<HealthMax>2000</HealthMax>
 	<RepairDifficulty>11</RepairDifficulty>
 	<Deflection>30</Deflection>
 	
-	<Description>Parallel Plasma Reactor Set. Connected with 6 Plasma Reactors, huge power out put. The reactor hanger also equip with a small emergency shield and damage control team allow it self repair. Note however a HUGE explosion blastwave occurs when destroyed!  </Description>
+	<Description>Parallel Ion Reactor Set. Connected with 6 Plasma Reactors, huge power out put. The reactor hanger also equip with a small emergency shield and damage control team allow it self repair. Note however a HUGE explosion blastwave occurs when destroyed!  </Description>
 	
 	
 	<PowerDraw>0</PowerDraw>
 	<BonusRepairRate>50</BonusRepairRate>
-	<NameIndex>8051</NameIndex>
-	<DescriptionIndex>8052</DescriptionIndex>
+	<NameIndex>8053</NameIndex>
+	<DescriptionIndex>8054</DescriptionIndex>
 	<!-- for shield items -->
-	<ShieldPowerMax>2000</ShieldPowerMax>
+	<ShieldPowerMax>2250</ShieldPowerMax>
 	<ShieldRechargeDelay>5</ShieldRechargeDelay>
-	<ShieldRechargeRate>100</ShieldRechargeRate>
-	<ShieldRadius>65</ShieldRadius>
+	<ShieldRechargeRate>75</ShieldRechargeRate>
+	<ShieldRadius>80</ShieldRadius>
 	<!-- for PowerPlant Items -->
 	
-    <ExplosionDamage>4000</ExplosionDamage>
+    <ExplosionDamage>40000</ExplosionDamage>
     <ExplosionRadius>160</ExplosionRadius>	
-	<PowerFlowMax>5000</PowerFlowMax>
-	<PowerStoreMax>1000</PowerStoreMax>
-	<PowerRadius>8</PowerRadius>
+	<PowerFlowMax>6000</PowerFlowMax>
+	<PowerStoreMax>0</PowerStoreMax>
+	<PowerRadius>9</PowerRadius>
 	<!-- for Weapons -->
 	<!-- for Engines -->
 	<Thrust>0</Thrust>
