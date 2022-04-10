@@ -1,7 +1,7 @@
 ﻿Version=1
 Name=Opteris-Prototype
 Hull=Opteris/Chitin
-Role=prototype
+Role=cruiser
 ModName=Combined Arms
 Style=Opteris
 Size=20,31
@@ -14,8 +14,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Armored Solarpanel Small;Armored Solarpanel Large;Armored Solarpanel Med;PurpleHLaserCannon;RocketLauncher;FuelCellSmallArmored;Shield_1KW;OrdnanceLockerSmall;FusionTurret2x2;FighterBay;LaserBeamTurret2x2;PowerConduit;MarineBarracks2x2;EMPTurret2x2;Bridge;OrdnanceLocker;Internal Bulkhead;NuclearReactorMed;CapEngines;mwdsmall;MedOverdrive
-Modules=169
+ModuleUIDs=Armored Solarpanel Small;Armored Solarpanel Large;Armored Solarpanel Med;PurpleHLaserCannon;RocketLauncher;FuelCellSmallArmored;OrdnanceLockerSmall;Shield_1KW;FusionTurret2x2;FighterBay;LaserBeamTurret2x2;PowerConduit;MarineBarracks2x2;EMPTurret2x2;Bridge;MediumFuelCell;Internal Bulkhead;NuclearReactorMed;CapEngines;mwdsmall;MedOverdrive
+Modules=172
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 8,0;0
 11,0;0
@@ -32,27 +32,30 @@ Modules=169
 4,4;4;;270
 6,4;5
 7,4;5
-8,4;2;2,2
-10,4;2;2,2
+8,4;6
+9,4;7;2,2
+11,4;6
 12,4;5
 13,4;5
 15,4;4;;90
 16,4;0
 2,5;0
-3,5;6;2,2
-15,5;6;2,2
+3,5;2;2,2
+8,5;6
+11,5;6
+15,5;2;2,2
 17,5;0
 2,6;0
-8,6;5
-9,6;7
-10,6;7
-11,6;5
+8,6;6
+9,6;6
+10,6;6
+11,6;6
 17,6;0
 2,7;0
 3,7;4;;225
 5,7;8;2,2
-7,7;9;3,4;;;DynamicLaunch
-10,7;9;3,4;;;DynamicLaunch
+7,7;9;3,4;;;DynamicInterceptor
+10,7;9;3,4;;;DynamicInterceptor
 13,7;8;2,2
 16,7;4;;135
 17,7;0
@@ -66,13 +69,13 @@ Modules=169
 18,9;0
 1,10;0
 18,10;0
-5,11;6;2,2
+5,11;7;2,2
 7,11;5
 8,11;11
 9,11;12;2,2
 11,11;11
 12,11;5
-13,11;6;2,2
+13,11;7;2,2
 7,12;5
 8,12;11
 11,12;11
@@ -114,19 +117,19 @@ Modules=169
 16,16;0
 17,16;0
 2,17;0
-3,17;6;2,2
+3,17;7;2,2
 5,17;4;;270
 6,17;16
 13,17;16
 14,17;4;;90
-15,17;6;2,2
+15,17;7;2,2
 17,17;0
 1,18;0
 2,18;4;;180
 5,18;4;;270
 6,18;16
 7,18;17;2,2
-9,18;6;2,2
+9,18;15;2,2
 11,18;17;2,2
 13,18;16
 14,18;4;;90
@@ -152,9 +155,9 @@ Modules=169
 14,21;10;2,2;150
 18,21;2;2,2
 6,22;16
-7,22;6;2,2
+7,22;7;2,2
 9,22;17;2,2
-11,22;6;2,2
+11,22;7;2,2
 13,22;16
 0,23;2;2,2
 4,23;10;2,2;180
