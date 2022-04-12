@@ -10,7 +10,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
   
-  <Cost>82</Cost>
+  <Cost>124</Cost>
   <TechLevel>5</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -21,15 +21,14 @@
   <UID>Overdrive Titan Engine</UID>
   <IconTexturePath>Modules/Overdrive_engine_4x4</IconTexturePath>
   <Mass>124</Mass>
-  <Health>2000</Health>
   <HealthMax>2000</HealthMax>
   <RepairDifficulty>5</RepairDifficulty>
-  <energyreq>0</energyreq>
   
   <Description>This titanic engine requires considerable power but provides unparalleled thrust.  </Description>
   
   
   <PowerDraw>400</PowerDraw>
+  <PowerDrawAtWarp>-150</PowerDrawAtWarp>
   <Deflection>150</Deflection>
   <NameIndex>17744</NameIndex>
   <DescriptionIndex>17745</DescriptionIndex>
@@ -50,7 +49,7 @@
   
   <!-- for Weapons -->
   <!-- for Engines -->
-  <Thrust>425000</Thrust>
-  <TurnThrust>575000</TurnThrust>
-  <WarpThrust>760000</WarpThrust>  
+  <Thrust>480000</Thrust>
+  <TurnThrust>800000</TurnThrust>
+  <WarpThrust>560000</WarpThrust>  
 </ShipModule>

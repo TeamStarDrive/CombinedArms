@@ -10,7 +10,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
 
-  <Cost>30</Cost>
+  <Cost>15</Cost>
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -21,15 +21,14 @@
   <UID>Cruiser Turn Thrust</UID>
   <IconTexturePath>Modules/Cruiser Turn Thrust</IconTexturePath>
   <Mass>8</Mass>
-  <Health>250</Health>
   <HealthMax>250</HealthMax>
-  <energyreq>0</energyreq>
   
   <Description>This massive engine will provide awesome thrust at an awesome power cost.  </Description>
   
   
-  <PowerDraw>16</PowerDraw>
-
+  <PowerDraw>18</PowerDraw>
+  <PowerDrawAtWarp>-18</PowerDrawAtWarp>
+  
   <NameIndex>8107</NameIndex>
   <DescriptionIndex>8108</DescriptionIndex>
 
@@ -48,6 +47,6 @@
   <!-- for Weapons -->
   <!-- for Engines -->
   <Thrust>0</Thrust>
-  <TurnThrust>62500</TurnThrust>
+  <TurnThrust>65000</TurnThrust>
   <WarpThrust>0</WarpThrust>
 </ShipModule>

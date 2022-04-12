@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <Cost>8</Cost>
+  <Cost>16</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>2</TechLevel>
   
@@ -14,16 +14,14 @@
   <UID>WarpEngine_2x2</UID>
   <TexturePath>Textures/transparent</TexturePath>
   <IconTexturePath>Modules/warpengine_2x2</IconTexturePath>
-  <Mass>40</Mass>
-  <Health>450</Health>
-  <HealthMax>450</HealthMax>
+  <Mass>30</Mass>
+  <HealthMax>500</HealthMax>
   <RepairDifficulty>2.5</RepairDifficulty>
-  <energyreq>0</energyreq>
   
   <Description>This medium-sized warp engine provides greater warp performance at the expense of sublight performance. </Description>
   
   
-  <PowerDraw>44</PowerDraw>
+  <PowerDraw>50</PowerDraw>
 
 
   <NameIndex>1078</NameIndex>
@@ -44,9 +42,9 @@
   
   <!-- for Weapons -->
   <!-- for Engines -->
-  <Thrust>27000</Thrust>
-  <TurnThrust>36000</TurnThrust>  
-  <WarpThrust>350000</WarpThrust>
+  <Thrust>10000</Thrust>
+  <TurnThrust>10000</TurnThrust>  
+  <WarpThrust>530000</WarpThrust>
  
 
 </ShipModule>

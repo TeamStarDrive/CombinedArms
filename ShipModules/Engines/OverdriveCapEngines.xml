@@ -9,7 +9,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
 
-  <Cost>46</Cost>
+  <Cost>60</Cost>
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -19,16 +19,15 @@
   <Restrictions>E</Restrictions>
   <UID>OverdriveCapEngines</UID>
   <IconTexturePath>Modules/Overdrive_engine_3x3</IconTexturePath>
-  <Mass>71</Mass>
-  <Health>1125</Health>
+  <Mass>60</Mass>
   <HealthMax>1125</HealthMax>
   <RepairDifficulty>4</RepairDifficulty>
-  <energyreq>0</energyreq>
   
   <Description>This massive engine will provide awesome thrust at an awesome power cost.  </Description>
   
   
-  <PowerDraw>220</PowerDraw>
+  <PowerDraw>225</PowerDraw>
+  <PowerDrawAtWarp>-68</PowerDrawAtWarp>
   <Deflection>75</Deflection>
 
   <NameIndex>17742</NameIndex>
@@ -39,7 +38,7 @@
   <PowerStoreMax>0</PowerStoreMax>
   
   <!-- for Engines -->
-  <Thrust>220000</Thrust>
-  <TurnThrust>300000</TurnThrust>
-  <WarpThrust>395000</WarpThrust>
+  <Thrust>247500</Thrust>
+  <TurnThrust>405000</TurnThrust>
+  <WarpThrust>270000</WarpThrust>
 </ShipModule>

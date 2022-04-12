@@ -9,7 +9,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
 
-  <Cost>26</Cost>
+  <Cost>32</Cost>
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -19,16 +19,15 @@
   <Restrictions>E</Restrictions>
   <UID>CapEngines</UID>
   <IconTexturePath>Modules/engine_3x3</IconTexturePath>
-  <Mass>71</Mass>
-  <Health>1000</Health>
+  <Mass>81</Mass>
   <HealthMax>1000</HealthMax>
   <RepairDifficulty>2.5</RepairDifficulty>
-  <energyreq>0</energyreq>
   
   <Description>This massive engine will provide awesome thrust at an awesome power cost.  </Description>
   
   
-  <PowerDraw>120</PowerDraw>
+  <PowerDraw>153</PowerDraw>
+  <PowerDrawAtWarp>-107</PowerDrawAtWarp>
   <Deflection>50</Deflection>
 
   <NameIndex>918</NameIndex>
@@ -44,10 +43,10 @@
   
   
   <!-- for Engines -->
-  <Thrust>140000</Thrust>
+  <Thrust>198000</Thrust>
   <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>260000</TurnThrust>
-  <WarpThrust>432000</WarpThrust>
+  <TurnThrust>337500</TurnThrust>
+  <WarpThrust>135000</WarpThrust>
   
 
 </ShipModule>

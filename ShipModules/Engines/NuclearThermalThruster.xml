@@ -19,15 +19,13 @@
   <UID>NuclearThermalThruster</UID>
   <IconTexturePath>Modules/NuclearThermalThrusters</IconTexturePath>
   <Mass>4</Mass>
-  <Health>20</Health>
-  <HealthMax>20</HealthMax>
-  <energyreq>0</energyreq>
+  <HealthMax>50</HealthMax>
   
   <Description>This warp engine provides twice the benefit of a normal engine for warp purposes, but only half the thrust of a normal engine at sublight speeds.   </Description>
   
   
   <PowerDraw>10</PowerDraw>
-
+  <PowerDrawAtWarp>-6</PowerDrawAtWarp>
 
   <NameIndex>10113</NameIndex>
   <DescriptionIndex>10110</DescriptionIndex>

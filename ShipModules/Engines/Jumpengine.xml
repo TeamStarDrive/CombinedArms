@@ -10,7 +10,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
   
-  <Cost>280</Cost>
+  <Cost>240</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>5</TechLevel>
   
@@ -24,16 +24,14 @@
   <TexturePath>Textures/transparent</TexturePath>
   <IconTexturePath>Modules/jumpdrive</IconTexturePath>
   <Mass>100</Mass>
-  <Health>150</Health>
   <HealthMax>150</HealthMax>
   <RepairDifficulty>10</RepairDifficulty>
-  <energyreq>0</energyreq>
   
   <Description>Putting recent innovations in warp theory to work, this drive is capable of traversing systems in mere seconds. Whilst its speed puts conventional drives to shame, it is incredibly power hungry and must be recharged in-between jumps. </Description>
   
   
-  <PowerDraw>200</PowerDraw>
-  <PowerDrawAtWarp>1000</PowerDrawAtWarp>
+  <PowerDraw>180</PowerDraw>
+  <PowerDrawAtWarp>540</PowerDrawAtWarp>
 
 
   <NameIndex>12023</NameIndex>
@@ -49,8 +47,8 @@
 
   <!-- for PowerPlant Items -->
   
-  <ExplosionDamage>25000</ExplosionDamage>
-  <ExplosionRadius>480</ExplosionRadius>  
+  <ExplosionDamage>10000</ExplosionDamage>
+  <ExplosionRadius>200</ExplosionRadius>  
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
@@ -58,5 +56,5 @@
   <!-- for Engines -->
   <Thrust>0</Thrust>
   <TurnThrust>0</TurnThrust>  
-  <WarpThrust>1500000</WarpThrust>
+  <WarpThrust>2000000</WarpThrust>
 </ShipModule>

@@ -11,7 +11,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
   
-  <Cost>60</Cost>
+  <Cost>30</Cost>
   <TechLevel>4</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -22,14 +22,13 @@
   <UID>Titan Turn Thrust</UID>
   <IconTexturePath>Modules/Titan Turn Thrust</IconTexturePath>
   <Mass>20</Mass>
-  <Health>350</Health>
   <HealthMax>350</HealthMax>
-  <energyreq>0</energyreq>
   
   <Description>Titan Turn Thrust</Description>
   
   
-  <PowerDraw>24</PowerDraw>
+  <PowerDraw>28</PowerDraw>
+  <PowerDrawAtWarp>-28</PowerDrawAtWarp>
 
 
   <NameIndex>8111</NameIndex>
@@ -53,6 +52,6 @@
   <Thrust>0</Thrust>
   <WarpThrust>0</WarpThrust>
   <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>150000</TurnThrust>
+  <TurnThrust>180000</TurnThrust>
 
 </ShipModule>

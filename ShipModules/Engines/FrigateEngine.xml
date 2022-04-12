@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <Cost>12</Cost>
+  <Cost>13</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>2</TechLevel>
   
@@ -15,15 +15,14 @@
   <TexturePath>Textures/transparent</TexturePath>
   <IconTexturePath>Modules/EngineMedium</IconTexturePath>
   <Mass>32</Mass>
-  <Health>450</Health>
-  <HealthMax>450</HealthMax>
+  <HealthMax>500</HealthMax>
   <RepairDifficulty>2</RepairDifficulty>
-  <energyreq>0</energyreq>
   
   <Description>This is a medium-sized engine.  It is more efficient than using four smaller engines in every way. </Description>
   
   
   <PowerDraw>55</PowerDraw>
+  <PowerDrawAtWarp>-41</PowerDrawAtWarp>
 
 
   <NameIndex>956</NameIndex>
@@ -47,10 +46,10 @@
   
   
   <!-- for Engines -->
-  <Thrust>57000</Thrust>
+  <Thrust>80000</Thrust>
   <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>107000</TurnThrust>
-  <WarpThrust>175000</WarpThrust>
+  <TurnThrust>135000</TurnThrust>
+  <WarpThrust>50000</WarpThrust>
   
 
 </ShipModule>

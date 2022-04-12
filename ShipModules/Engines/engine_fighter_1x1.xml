@@ -8,7 +8,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
   
-  <Cost>4</Cost>
+  <Cost>5</Cost>
   <TechLevel>1</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -17,11 +17,10 @@
   <UID>engine_fighter_1x1</UID>
   <IconTexturePath>Modules/engine_fighter_1x1</IconTexturePath>
   <Mass>5</Mass>
-  <Health>100</Health>
   <HealthMax>100</HealthMax>
   <RepairDifficulty>1.5</RepairDifficulty>
-  <PowerDraw>10</PowerDraw>
-  <PowerDrawAtWarp>-10</PowerDrawAtWarp>
+  <PowerDraw>15</PowerDraw>
+  <PowerDrawAtWarp>-15</PowerDrawAtWarp>
 
   <NameIndex>2241</NameIndex>
   <DescriptionIndex>2242</DescriptionIndex>
@@ -42,6 +41,6 @@
   <!-- for Weapons -->
   <!-- for Engines -->
   <Thrust>20000</Thrust>
-  <TurnThrust>40000</TurnThrust>
+  <TurnThrust>50000</TurnThrust>
   <WarpThrust>0</WarpThrust>
 </ShipModule>

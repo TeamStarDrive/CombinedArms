@@ -6,7 +6,7 @@
   <CorvetteModule>false</CorvetteModule>
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
-  <Cost>150</Cost>
+  <Cost>135</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>4</TechLevel>
   
@@ -20,15 +20,13 @@
   <TexturePath>Textures/transparent</TexturePath>
   <IconTexturePath>Modules/jumpdrive2x3</IconTexturePath>
   <Mass>60</Mass>
-  <Health>450</Health>
   <HealthMax>450</HealthMax>
   <RepairDifficulty>4</RepairDifficulty>
-  <energyreq>0</energyreq>
   
   <Description>This medium-sized warp engine provides greater warp performance at the expense of sublight performance. </Description>
   
   
-  <PowerDraw>40</PowerDraw>
+  <PowerDraw>36</PowerDraw>
 
   <NameIndex>5453</NameIndex>
   <DescriptionIndex>5454</DescriptionIndex>
@@ -52,5 +50,5 @@
   <!-- for Engines -->
   <Thrust>0</Thrust>
   <TurnThrust>0</TurnThrust>  
-  <WarpThrust>520000</WarpThrust>
+  <WarpThrust>660000</WarpThrust>
 </ShipModule>

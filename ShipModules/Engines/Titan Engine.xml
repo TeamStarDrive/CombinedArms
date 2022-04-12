@@ -9,7 +9,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
   
-  <Cost>47</Cost>
+  <Cost>60</Cost>
   <TechLevel>5</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -20,15 +20,14 @@
   <UID>Titan Engine</UID>
   <IconTexturePath>Modules/engine_4x4</IconTexturePath>
   <Mass>124</Mass>
-  <Health>1800</Health>
   <HealthMax>1800</HealthMax>
   <RepairDifficulty>3.5</RepairDifficulty>
-  <energyreq>0</energyreq>
   
   <Description>This titanic engine requires considerable power but provides unparalleled thrust.  </Description>
   
   
   <PowerDraw>210</PowerDraw>
+  <PowerDrawAtWarp>-136</PowerDrawAtWarp>
   <Deflection>100</Deflection>
   <NameIndex>1066</NameIndex>
   <DescriptionIndex>1067</DescriptionIndex>
@@ -51,10 +50,10 @@
   
   
   <!-- for Engines -->
-  <Thrust>270000</Thrust>
+  <Thrust>384000</Thrust>
   <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
-  <TurnThrust>500000</TurnThrust>  
-  <WarpThrust>830000</WarpThrust>
+  <TurnThrust>660000</TurnThrust>  
+  <WarpThrust>280000</WarpThrust>
 
   
   

@@ -22,13 +22,11 @@
   <TexturePath>Textures/transparent</TexturePath>
   <IconTexturePath>Modules/2x1twinengine</IconTexturePath>
   <Mass>14</Mass>
-  <Health>150</Health>
   <HealthMax>150</HealthMax>
-  <energyreq>0</energyreq>
   
   <Description>This basic engine provides ample thrust for a moderate energy cost.  The maximum speed and maneuverability of a ship is directly related to a ship's thrust to mass ratio</Description>
-  <PowerDraw>28</PowerDraw>
-  <PowerDrawAtWarp>-20</PowerDrawAtWarp>
+  <PowerDraw>18</PowerDraw>
+  <PowerDrawAtWarp>-6</PowerDrawAtWarp>
   <NameIndex>12013</NameIndex>
   <DescriptionIndex>12014</DescriptionIndex>
 
@@ -50,9 +48,9 @@
   
   
   <!-- for Engines -->
-  <Thrust>27000</Thrust>
-  <TurnThrust>50000</TurnThrust>
-  <WarpThrust>85000</WarpThrust>
+  <Thrust>30000</Thrust>
+  <TurnThrust>45000</TurnThrust>
+  <WarpThrust>90000</WarpThrust>
   
 
 </ShipModule>

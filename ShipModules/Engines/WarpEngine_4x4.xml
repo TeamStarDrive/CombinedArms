@@ -8,7 +8,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
 
-  <Cost>32</Cost>
+  <Cost>96</Cost>
   <TechLevel>5</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -18,16 +18,14 @@
   <Restrictions>E</Restrictions>
   <UID>WarpEngine_4x4</UID>
   <IconTexturePath>Modules/warpengine_4x4</IconTexturePath>
-  <Mass>160</Mass>
-  <Health>1750</Health>
+  <Mass>104</Mass>
   <HealthMax>1750</HealthMax>
   <RepairDifficulty>4</RepairDifficulty>
-  <energyreq>0</energyreq>
   
   <Description>A massive warp engine for a massive ship. </Description>
   
   
-  <PowerDraw>180</PowerDraw>
+  <PowerDraw>280</PowerDraw>
   <Deflection>100</Deflection>
   <NameIndex>1082</NameIndex>
   <DescriptionIndex>1083</DescriptionIndex>
@@ -51,9 +49,9 @@
   
   
   <!-- for Engines -->
-  <Thrust>125000</Thrust>
-  <TurnThrust>128000</TurnThrust>  
-  <WarpThrust>1665000</WarpThrust>
+  <Thrust>56000</Thrust>
+  <TurnThrust>56000</TurnThrust>  
+  <WarpThrust>2700000</WarpThrust>
   <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
 
 </ShipModule>
