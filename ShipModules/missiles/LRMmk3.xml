@@ -5,7 +5,7 @@
   <CorvetteModule>false</CorvetteModule>
   <FreighterModule>false</FreighterModule>
   
-  <Cost>35</Cost>
+  <Cost>56</Cost>
   <!-- common traits shared by all ship modules -->
   <TechLevel>4</TechLevel>
   <ModuleType>Turret</ModuleType>
@@ -16,16 +16,14 @@
   <UID>LRMmk3</UID>
   <IconTexturePath>Modules/LRMmk3</IconTexturePath>
 
-  <Mass>20</Mass>
-  <Health>1000</Health>
+  <Mass>80</Mass>
   <HealthMax>1000</HealthMax>
   <RepairDifficulty>2.5</RepairDifficulty>
-  <energyreq>10</energyreq>
   <Description>This is a long range multiple rocket launching system.</Description>
 
   
   
-  <PowerDraw>10</PowerDraw>
+  <PowerDraw>16</PowerDraw>
 
   <NameIndex>5227</NameIndex>
   <DescriptionIndex>5228</DescriptionIndex>
@@ -45,7 +43,7 @@
   
   <!-- for Weapons -->
   <WeaponType>LRM3</WeaponType>
-  <OrdinanceCapacity>72</OrdinanceCapacity>
+  <OrdinanceCapacity>100</OrdinanceCapacity>
   <FieldOfFire>120</FieldOfFire>
   
   <!-- for Engines -->

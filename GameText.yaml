@@ -522,17 +522,24 @@ MediumFuelCell:
  ENG: "Medium Power Cell"
  RUS: "Средняя энерго-ячейка"
  SPA: "Celda de combustible mediana"
+MissileLauncher:
+ Id: 994
+ ENG: "Missile Launcher"
+ RUS: "Ракетная установка"
+ SPA: "Lanzamisiles"
+ThisLongRangeAntishipMissile:
+ Id: 995
+ ENG: "This long range anti-ship missile is bulky and slow, but can make short work of ships with poor point defense systems."
 DualMissileTurret:
  Id: 996
  ENG: "MRM Mk2"
  RUS: "MRM II "
- SPA: "Torreta de dos misiles"
 ATwinMissileLauncherOn:
  Id: 997
- ENG: "A medium range missile launcher on a swivel turret shooting 4 missiles per salvo. It also has the Terminal Phase system."
+ ENG: "A medium range missile launcher on a swivel turret shooting 4 missiles per salvo. It also has the Terminal Phase system and increased shield bypass chances."
  RUS: "Ракетная установка средней дальности на поворотной башне, выпускающая 4 ракеты за залп. Она также имеет систему конечной фазы."
  SPA: "Se trata de un lanzamisiles doble sobre una torreta que permite a los cruceros dominar los campos de batalla con abrumadoras andanadas de misiles."
-Mrls:
+CA_Module_MRM1_Name:
  Id: 998
  ENG: "MRM Mk1"
  RUS: "MRM I"
@@ -1126,8 +1133,7 @@ CA_ShadowStorm:
  RUS: "\"Шторм теней\""
 CA_ARapidFireShortRange:
  Id: 5292
- ENG: "A rapid fire, short range burst missile platform. Especially deadly against smaller fast moving ships, it functions most practically as an anti fighter/corvette weapon. It features a wide targeting angle, and a slight chance to penetrate enemy shields."
- RUS: "Скорострельная ракетная платформа с короткими очередями. Особенно смертоносен против небольших быстро движущихся кораблей, он наиболее эффективен как средство борьбы с истребителями и корветами. Он имеет широкий угол наведения и небольшой шанс пробить вражеские щиты."
+ ENG: "A rapid fire, short range burst missile platform. Especially deadly against smaller fast moving ships, it functions most practically as an anti fighter/corvette weapon. It features a wide targeting angle, slight chance to penetrate enemy shields and features high explosion radius. It is less efficient vs. Armor."
 CA_ShadowStorm2:
  Id: 5293
  ENG: "Shadow Storm"
@@ -1317,7 +1323,7 @@ CA_MrmMk:
  RUS: "MRM III"
 CA_ThisMrmPlatformLaunchesA:
  Id: 5340
- ENG: "This MRM platform launches a salvo of 8 missiles at unsuspecting targets. This weapon can easily overwhelm even the most potent point defense systems with its Terminal Phase system."
+ ENG: "This MRM platform launches a salvo of 8 missiles at unsuspecting targets. This weapon can easily overwhelm even the most potent point defense systems with its Terminal Phase system and ability to sometimes penetrate shields."
  RUS: "Эта платформа MRM запускает залп из 8 ракет по ничего не подозревающим целям. Это оружие может легко сокрушить даже самые мощные системы точечной защиты с его системой конечной фазы."
 CA_RailgunTurret:
  Id: 5341
@@ -7411,3 +7417,6 @@ CA_Module_BosonTrasmitter_Name:
 CA_Module_BosonTrasmitter_Desc:
  Id: 18313
  ENG: "This small device will transmit power across limited area in wireless faction."
+CA_Module_MRM1_Desc:
+ Id: 18314
+ ENG: "Medium Range Missile with a terminal velocity system. It also has a small chance to bypass shields."

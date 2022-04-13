@@ -20,7 +20,7 @@
   <ExcludesCapitals>true</ExcludesCapitals>     
   <ExcludesStations>true</ExcludesStations>     
   <UID>ShadowStormMiss</UID>
-  <HitPoints>10</HitPoints>
+  <HitPoints>8</HitPoints>
   <FireDelay>3</FireDelay>
   <Range>3400</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
@@ -31,17 +31,17 @@
   <FireArc>15</FireArc>             <!--for shotgun effect-->
   <DamageAmount>100</DamageAmount>
   <ProjectileSpeed>2150</ProjectileSpeed>
-  <ExplosionRadius>24</ExplosionRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>30</ExplosionRadius> <!-- This projectile explodes -->
   <SalvoCount>6</SalvoCount>
   <SalvoTimer>1</SalvoTimer>
   <FireCone>45</FireCone>               <!--for salvos-->
   
   <ProjectileRadius>4</ProjectileRadius>
-  <RotationRadsPerSecond>6</RotationRadsPerSecond>
+  <RotationRadsPerSecond>3</RotationRadsPerSecond>
 <!--Projectile atributes-->
   <ArmorPen>0</ArmorPen>
-  <ShieldPenChance>20</ShieldPenChance>
-  <EffectVSShields>1</EffectVSShields>
+  <ShieldPenChance>5</ShieldPenChance>
+  <EffectVSShields>0.25</EffectVSShields>
   <EffectVsArmor>1</EffectVsArmor>
   <Scale>0.8</Scale>
   

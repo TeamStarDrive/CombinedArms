@@ -27,7 +27,7 @@
   <Range>6000</Range>
   <HitPoints>90</HitPoints>
   <PowerRequiredToFire>500</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>14</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>15</OrdinanceRequiredToFire>
   <ProjectileCount>1</ProjectileCount>
 
   <!-- name of XACT audio cue to play on firing this weapon -->
@@ -39,7 +39,8 @@
   <!-- Projectile Information -->
   <DamageAmount>2680</DamageAmount>
   <ArmorPen>2</ArmorPen>
-  <ExplosionRadius>50</ExplosionRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>40</ExplosionRadius> <!-- This projectile explodes -->
+  <RotationRadsPerSecond>0.9</RotationRadsPerSecond>
   
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>2000</ProjectileSpeed>
