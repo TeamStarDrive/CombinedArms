@@ -2,26 +2,19 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <DroneModule>false</DroneModule>
-  <FighterModule>false</FighterModule>
-  <CorvetteModule>false</CorvetteModule>
-  <DestroyerModule>false</DestroyerModule>
-  <CruiserModule>false</CruiserModule>
-  <BattleshipModule>false</BattleshipModule>
-  <CapitalModule>false</CapitalModule>
-  <FreighterModule>false</FreighterModule>
 
   <Cost>10</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
-  <TechLevel>3</TechLevel>
+  <TechLevel>4</TechLevel>
   
   <!-- common traits shared by all ship modules -->
   <XSize>2</XSize>
   <YSize>2</YSize>
   <ModuleType>Turret</ModuleType>
-  <Name>X-Ray Laser</Name>
+  <Name>BeamPD</Name>
   <Restrictions>O</Restrictions>
-  <UID>Xraylaser</UID>
-  <IconTexturePath>Modules/PulseCannon_2x2</IconTexturePath>3
+  <UID>BeamPD</UID>
+  <IconTexturePath>Modules/BeamPD</IconTexturePath>
 
 
   <NameIndex>5249</NameIndex>
@@ -45,8 +38,8 @@
 
  
   <!-- for Weapons -->
-  <WeaponType>BlueLaser</WeaponType>
-  <FieldOfFire>360</FieldOfFire>
+  <WeaponType>BeamPDWeapon</WeaponType>
+  <FieldOfFire>180</FieldOfFire>
   <!-- Description -->
   <Description>X-Ray laser cannons do a lot of extra damage to armor, but easily dissipate against shields.</Description>
   

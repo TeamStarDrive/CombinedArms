@@ -1,0 +1,41 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DroneModule>false</DroneModule>
+
+  <Cost>10</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>4</TechLevel>
+  
+  <!-- common traits shared by all ship modules -->
+  <XSize>3</XSize>
+  <YSize>3</YSize>
+  <ModuleType>Turret</ModuleType>
+  <Name>BeamPD</Name>
+  <Restrictions>O</Restrictions>
+  <UID>BeamPDSuite</UID>
+  <IconTexturePath>Modules/BeamPDSuite</IconTexturePath>
+
+
+  <NameIndex>18319</NameIndex>
+  <DescriptionIndex>18320</DescriptionIndex>
+  <RepairDifficulty>5</RepairDifficulty>
+
+
+  <!-- Mass and Health -->
+  <Mass>20</Mass>
+  <Health>1000</Health>
+  <HealthMax>1000</HealthMax>
+
+  <!-- Power Drawn -->
+  <PowerDraw>30</PowerDraw>
+
+ 
+  <!-- for Weapons -->
+  <WeaponType>BeamPDSuiteWeapon</WeaponType>
+  <FieldOfFire>360</FieldOfFire>
+  <!-- Description -->
+  <Description>X-Ray laser cannons do a lot of extra damage to armor, but easily dissipate against shields.</Description>
+  
+  <AccuracyPercent>1</AccuracyPercent>
+</ShipModule>

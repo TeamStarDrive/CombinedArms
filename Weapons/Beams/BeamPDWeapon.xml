@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Beam>true</Tag_Beam>
+  <Tag_PD>true</Tag_PD>
+  <TruePD>true</TruePD>
+  
+  <UID>BeamPDWeapon</UID>
+  <IsBeam>true</IsBeam>
+  <FireDelay>0.2</FireDelay>
+  <Range>2300</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
+  
+  <!-- name of XACT audio cue to play on firing this weapon -->
+
+  <FireCueName>sd_weapon_flame_start_01</FireCueName>
+  <ToggleSoundName>sd_weapon_beam_electric_med</ToggleSoundName>
+
+  <BeamTexture>beam_blue</BeamTexture>
+  <BeamDuration>0.1</BeamDuration>
+
+  <!-- Projectile Information -->
+  <DamageAmount>3</DamageAmount>
+  <BeamThickness>22</BeamThickness>
+  <BeamPowerCostPerSecond>480</BeamPowerCostPerSecond>
+  <WeaponType>Energy Beam</WeaponType>
+</Weapon>

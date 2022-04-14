@@ -2,13 +2,13 @@
 <Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <Tag_Beam>true</Tag_Beam>
-  <Tag_PD>true</Tag_PD>    <!--this is so the pulse beam wont be affected by acc nerf -->
+  <Tag_PD>true</Tag_PD>
   <TruePD>true</TruePD>
   
-  <UID>BlueLaser</UID>
+  <UID>BeamPDSuiteWeapon</UID>
   <IsBeam>true</IsBeam>
   <FireDelay>0.1</FireDelay>
-  <Range>2300</Range>
+  <Range>3400</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   
@@ -17,12 +17,12 @@
   <FireCueName>sd_weapon_flame_start_01</FireCueName>
   <ToggleSoundName>sd_weapon_beam_electric_med</ToggleSoundName>
 
-  <BeamTexture>beam_blue</BeamTexture>
+  <BeamTexture>beam_red_pd</BeamTexture>
   <BeamDuration>0.1</BeamDuration>
 
   <!-- Projectile Information -->
-  <DamageAmount>2</DamageAmount>
+  <DamageAmount>4</DamageAmount>
   <BeamThickness>22</BeamThickness>
-  <BeamPowerCostPerSecond>480</BeamPowerCostPerSecond>
-<WeaponType>Energy Beam</WeaponType>
+  <BeamPowerCostPerSecond>800</BeamPowerCostPerSecond>
+  <WeaponType>Energy Beam</WeaponType>
 </Weapon>
