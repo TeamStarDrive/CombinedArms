@@ -2,32 +2,24 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <DroneModule>false</DroneModule>
-
-  <Cost>8</Cost>
-  <TechLevel>3</TechLevel>
+  
+  <Cost>10</Cost>
+  <TechLevel>0</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>FuelCell</ModuleType>
-  <XSize>2</XSize>
-  <YSize>2</YSize>
-  <UID>FuelCellMediumArmored</UID>
+  <XSize>3</XSize>
+  <YSize>3</YSize>
+  <UID>LargeFuelCell</UID>
   <Restrictions>IO</Restrictions>
-  <Name>Medium Fuel Cell</Name>
-  <IconTexturePath>Modules/med_fuelcell_armored</IconTexturePath>
-  <Mass>30</Mass>
-  <Health>1500</Health>
-  <HealthMax>1500</HealthMax>
-  <energyreq>1</energyreq>
-  
-  
-  
-  <Description>This medium-sized fuel cell is heavily armored, with triple hitpoints but an increased cost and reduced fuel capacity.</Description>
+  <Name>Large Fuel Cell</Name>
+  <IconTexturePath>Modules/PowerCell3x3</IconTexturePath>
+  <Mass>45</Mass>
+  <Health>1250</Health>
+  <HealthMax>1250</HealthMax>
   <PowerDraw>0</PowerDraw>
 
-
-
-  <NameIndex>958</NameIndex>
-  <DescriptionIndex>961</DescriptionIndex>
-
+  <NameIndex>992</NameIndex>
+  <DescriptionIndex>911</DescriptionIndex>
 
 
   <!-- for shield items -->
@@ -41,14 +33,14 @@
   <!-- for PowerPlant Items -->
   
   <PowerFlowMax>0</PowerFlowMax>
-  <PowerStoreMax>1200</PowerStoreMax>
-
+  <PowerStoreMax>5100</PowerStoreMax>
+  
   <!-- for Weapons -->
-
-
+  
+  
   <!-- for Engines -->
   <Thrust>0</Thrust>
-
-
+  
+  
 
 </ShipModule>
