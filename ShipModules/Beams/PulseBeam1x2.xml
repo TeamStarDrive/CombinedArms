@@ -2,6 +2,7 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   
   <DroneModule>false</DroneModule>
+  <FrigateModule>false</FrigateModule>
   <CruiserModule>false</CruiserModule>
   <BattleshipModule>false</BattleshipModule>
   <CapitalModule>false</CapitalModule>
@@ -12,7 +13,7 @@
   <UID>PulseBeam1x2</UID>
   <Cost>8</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
-  <TechLevel>4</TechLevel>
+  <TechLevel>3</TechLevel>
 
   <!-- common traits shared by all ship modules -->
   <XSize>1</XSize>
@@ -23,8 +24,8 @@
 
   <IconTexturePath>Modules/PulseBeam1x2</IconTexturePath>
 
-  <NameIndex>17901</NameIndex>
-  <DescriptionIndex>17902</DescriptionIndex>
+  <NameIndex>18321</NameIndex>
+  <DescriptionIndex>18322</DescriptionIndex>
 
 
   <!-- Mass and Health -->
@@ -38,10 +39,10 @@
   <!-- for Weapons -->
   <WeaponType>PulseBeam1x2Weapon</WeaponType>
   <FieldOfFire>30</FieldOfFire>
-  <RepairDifficulty>4</RepairDifficulty>
+  <RepairDifficulty>3</RepairDifficulty>
 
   <!-- Description -->
   <Description>This heavy laser beam has a fixed field of fire and is relatively inefficient.</Description>
-  <AccuracyPercent>0.9</AccuracyPercent>
+  <AccuracyPercent>0.8</AccuracyPercent>
 
 </ShipModule>
