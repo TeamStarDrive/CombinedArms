@@ -3,7 +3,7 @@
 
   <DroneModule>false</DroneModule>
 
-  <Cost>8</Cost>
+  <Cost>16</Cost>
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>FuelCell</ModuleType>
@@ -13,11 +13,9 @@
   <Restrictions>IO</Restrictions>
   <Name>Medium Fuel Cell</Name>
   <IconTexturePath>Modules/med_fuelcell_armored</IconTexturePath>
-  <Mass>30</Mass>
-  <Health>1500</Health>
-  <HealthMax>1500</HealthMax>
-  <energyreq>1</energyreq>
-  
+  <Mass>32</Mass>
+  <HealthMax>2000</HealthMax>
+ 
   
   
   <Description>This medium-sized fuel cell is heavily armored, with triple hitpoints but an increased cost and reduced fuel capacity.</Description>
@@ -41,7 +39,7 @@
   <!-- for PowerPlant Items -->
   
   <PowerFlowMax>0</PowerFlowMax>
-  <PowerStoreMax>1200</PowerStoreMax>
+  <PowerStoreMax>1600</PowerStoreMax>
 
   <!-- for Weapons -->
 
