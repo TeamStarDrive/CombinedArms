@@ -1,5 +1,5 @@
-﻿Version=1
-Name=Ving Laser Mk1c
+Version=1
+Name=Ving Laser Mk3
 Hull=Cordrazine/Ving
 Role=fighter
 ModName=Combined Arms
@@ -10,20 +10,22 @@ DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Conservative
 HangarDesignation=Interceptor
-IsShipyard=false
-IsOrbitalDefense=false
-IsCarrierOnly=false
+IsShipyard==false
+
+IsOrbitalDefense==false
+
+IsCarrierOnly==false
+
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=LaserCannon;LaserGreen;Cockpit;Advanced Fighter Generator;WarpEngine_1x1;BasicFuelCell;Fighter Shield;engine_fighter_1x1
-Modules=10
+ModuleUIDs=Cockpit;RocketLauncher;BlueLaser1x1;Fighter Shield;Advanced Fighter Generator;OrdnanceLockerSmall;2x1Twinengines;BasicFuelCell
+Modules=9
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,2;0
-1,1;1
-2,0;2
+2,0;0
+3,0;1
+1,1;2
 2,1;3
-2,2;4
-3,0;5
-3,1;6
-3,2;7
-4,1;1
-5,2;0
+3,1;4
+4,1;2
+0,2;5
+2,2;6;2,1
+5,2;7
