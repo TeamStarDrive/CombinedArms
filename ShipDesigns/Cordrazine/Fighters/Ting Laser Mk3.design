@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Ting Laser Mk3
 Hull=Cordrazine/Ting
 Role=fighter
@@ -10,30 +10,32 @@ DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Conservative
 HangarDesignation=Interceptor
-IsShipyard=false
-IsOrbitalDefense=false
-IsCarrierOnly=false
+IsShipyard==false
+
+IsOrbitalDefense==false
+
+IsCarrierOnly==false
+
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=LaserPurple;Fighter Shield;BasicFuelCell;BlueLaser1x2;Advanced Fighter Generator;Cockpit;WarpEngine_1x1;engine_fighter_1x1
-Modules=20
+ModuleUIDs=RocketLauncher;BasicFuelCell;Cockpit_Side;BlueLaser1x2;SmallCraftForceField;Engine;OrdnanceLockerSmall;Advanced Fighter Generator;2x1Twinengines;LaserPurple
+Modules=19
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,5;0;;225
-1,4;1
-1,5;0;;195
-2,0;2
+2,0;0
+3,0;1
+4,0;1
+5,0;0
+3,1;2;2,1
 2,2;3;1,2
-2,4;4
-3,0;3;1,2
-3,2;5
-3,3;6
-3,4;7
-4,0;3;1,2
-4,2;2
-4,3;4
-4,4;7
-5,0;2
+3,2;4;2,1;90;2
 5,2;3;1,2
-5,4;4
-6,4;1
-6,5;0;;165
-7,5;0;;135
+3,3;5
+4,3;6
+1,4;7
+2,4;7
+3,4;8;2,1
+5,4;7
+6,4;7
+0,5;9;;225
+1,5;9;;195
+6,5;9;;165
+7,5;9;;135
