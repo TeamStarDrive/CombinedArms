@@ -1,0 +1,56 @@
+Version=1
+Name=Larving Anti-Ship Mk3
+Hull=Cordrazine/Larving
+Role=corvette
+ModName=Combined Arms
+Style=Cordrazine
+Size=8,9
+GridCenter=4,5
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=AntiShip
+IsShipyard==false
+
+IsOrbitalDefense==false
+
+IsCarrierOnly==false
+
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Shield Armor Small;LightACHEAP;LaserCannon;OrdnanceLocker;Cockpit_Side;AmplifierMk1;Light Torpedo;QuantumFusionReactor_1x1;FuelCellSmallArmored;SmallCraftForceField;2x1Twinengines
+Modules=34
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+3,0;0
+4,0;0
+0,1;0
+1,1;0
+2,1;0
+3,1;1;2,2
+5,1;0
+6,1;0
+7,1;0
+0,2;0
+1,2;2;;210
+2,2;2;;345
+5,2;2;;15
+6,2;2;;150
+7,2;0
+0,3;0
+1,3;3;2,2
+3,3;4;2,1
+5,3;3;2,2
+7,3;0
+3,4;5
+4,4;5
+1,5;6;2,3
+3,5;7
+4,5;5
+5,5;6;2,3
+0,6;8
+3,6;9;2,1;90;2
+7,6;8
+3,7;10;2,1
+1,8;0
+2,8;10;2,1
+4,8;10;2,1
+6,8;0
