@@ -7,17 +7,13 @@
   <Tag_Plasma>false</Tag_Plasma>
   <Tag_Beam>false</Tag_Beam>
   <Tag_Intercept>true</Tag_Intercept>
-  
   <Tag_Bomb>false</Tag_Bomb>
-  
   <Tag_BioWeapon>false</Tag_BioWeapon>
-  
-  
   <Tag_Drone>false</Tag_Drone>
   <Tag_Torpedo>false</Tag_Torpedo>
   <Tag_Cannon>false</Tag_Cannon>
 
-   <UID>Dissolver_TorpedoMirv</UID> 
+  <UID>Dissolver_TorpedoMirv</UID> 
 
   <ExcludesFighters>true</ExcludesFighters>  
   <ExcludesCorvettes>true</ExcludesCorvettes>   
@@ -25,10 +21,8 @@
   <FireDelay>6</FireDelay>
 
   <HitPoints>30</HitPoints>
-  <Range>2500</Range>
+  <Range>5000</Range>
   <TerminalPhaseAttack>true</TerminalPhaseAttack>      
-  <TerminalPhaseDistance>1500</TerminalPhaseDistance>      
-  <TerminalPhaseSpeedMod>0.5</TerminalPhaseSpeedMod>
   <DelayedIgnition>1.6</DelayedIgnition>
 
 <!-- Projectile stats -->
@@ -39,7 +33,7 @@
   <ExplosionRadius>32</ExplosionRadius> <!-- This projectile explodes -->
   <OrdinanceRequiredToFire>32</OrdinanceRequiredToFire>
   <ProjectileRadius>10</ProjectileRadius>
-  <RotationRadsPerSecond>1.2</RotationRadsPerSecond>
+  <RotationRadsPerSecond>3</RotationRadsPerSecond>
  
 <!--Projectile atributes-->
   <Scale>1.2</Scale>
