@@ -1,0 +1,26 @@
+Version=1
+Name=Cordrazine PlasmaB Drone
+Hull=Cordrazine/Kitving
+Role=drone
+ModName=Combined Arms
+Style=Cordrazine
+Size=2,3
+GridCenter=1,1
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+ShipCategory=Kamikaze
+HangarDesignation=AntiShip
+IsShipyard==false
+
+IsOrbitalDefense==false
+
+IsCarrierOnly==true
+
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=PlasmaBomb1x1;CommandModule_II;DroneEngine_I
+Modules=4
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,0;0
+1,0;0
+0,1;1
+0,2;2
