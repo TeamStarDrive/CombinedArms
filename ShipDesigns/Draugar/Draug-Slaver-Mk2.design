@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Draug-Slaver-Mk2
 Hull=Draugar/DraugSlaver2
 Role=troopShip
@@ -10,71 +10,74 @@ DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Unclassified
 HangarDesignation=General
-IsShipyard=false
-IsOrbitalDefense=false
-IsCarrierOnly=false
+IsShipyard==false
+
+IsOrbitalDefense==false
+
+IsCarrierOnly==false
+
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=PowerSolar;PirateAssaultBay;Ceramic Armor Small;thruster1x1;Deflector2x2;TractorBeam2x3;QuantumFusionReactor_2x2;PowerConduit;NuclearReactorSmall;WarpEngine_2x2;engine_fighter_1x1;Ceramic Armor Med;Pirate Inhibitor;Bridge;CombatEngine_2x2
+ModuleUIDs=Ceramic Armor Small;TractorBeam2x3;Bionic Armor Small;SmallCraftDeflector;PirateAssaultBay;FuelCellSmallArmored;BosonTransmiter;Pirate Inhibitor;TractorBeamTurret2x2;Bridge;AmplifierMk2;QuantumFusionReactor_3x3;thruster1x1;jumpdrive2x2;PowerConduit;CombatEngine_2x2;WarpEngine_1x1
 Modules=61
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,14;0
-1,13;1;2,3;;;Kulrathi Assault Shuttle
-2,12;2
-2,16;0
-3,11;2
-3,12;3
-3,13;1;2,3;;;Kulrathi Assault Shuttle
-3,16;0
+6,0;0
+11,0;0
+6,1;1;2,3
+10,1;1;2,3
+8,2;2
+9,2;2
+8,3;3
+9,3;3
+6,4;4;2,3;;;Terran Assault Shuttle
+8,4;5
+9,4;6
+10,4;4;2,3;;;Terran Assault Shuttle
+8,5;7;2,2
+5,7;8;2,2
+7,7;9;2,2
+9,7;10;2,2
+11,7;8;2,2
 4,8;2
-4,9;2
-4,10;2
-4,11;4;2,2
-5,7;5;2,3
-5,10;3
-5,13;3
-5,14;2
-6,0;2
-6,1;5;2,3
-6,4;1;2,3;;;Kulrathi Assault Shuttle
-6,10;6;2,2
-6,12;7
-6,13;2
-7,7;8
-7,8;7
-7,9;8
-7,12;9;2,2
-7,14;10
-8,2;11;2,2
-8,4;4;2,2
-8,6;12;2,2
-8,8;13;2,2
-8,10;6;2,2
-8,14;10
-9,12;14;2,2
-9,14;10
-10,1;5;2,3
-10,4;1;2,3;;;Kulrathi Assault Shuttle
-10,7;8
-10,8;7
-10,9;8
-10,10;6;2,2
-10,14;10
-11,0;2
-11,7;5;2,3
-11,12;7
-11,13;2
-12,10;3
-12,11;4;2,2
-12,13;3
-12,14;2
 13,8;2
+4,9;2
+5,9;3
+6,9;11;3,3
+9,9;11;3,3
+12,9;3
 13,9;2
+4,10;2
+5,10;12
+12,10;12
 13,10;2
-13,13;1;2,3;;;Kulrathi Assault Shuttle
+3,11;2
+4,11;13;2,2
+12,11;13;2,2
 14,11;2
+2,12;2
+3,12;3
+6,12;14
+7,12;15;2,2
+9,12;15;2,2
+11,12;14
 14,12;3
-14,16;0
 15,12;2
-15,13;1;2,3;;;Kulrathi Assault Shuttle
-15,16;0
+1,13;4;2,3;;;Terran Assault Shuttle
+3,13;4;2,3;;;Terran Assault Shuttle
+5,13;12
+6,13;2
+11,13;2
+12,13;12
+13,13;4;2,3;;;Terran Assault Shuttle
+15,13;4;2,3;;;Terran Assault Shuttle
+0,14;0
+5,14;2
+7,14;16
+8,14;16
+9,14;16
+10,14;16
+12,14;2
 17,14;0
+2,16;0
+3,16;0
+14,16;0
+15,16;0
