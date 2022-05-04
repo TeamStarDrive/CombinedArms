@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Terran Attack Drone
 Hull=Terran/Knife
 Role=drone
@@ -10,9 +10,12 @@ DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Kamikaze
 HangarDesignation=General
-IsShipyard=false
-IsOrbitalDefense=false
-IsCarrierOnly=true
+IsShipyard==false
+
+IsOrbitalDefense==false
+
+IsCarrierOnly==true
+
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=DroneCannon1x1;CommandModule_I;DroneEngine_I
 Modules=4
