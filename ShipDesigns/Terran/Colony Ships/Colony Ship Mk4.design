@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Colony Ship Mk4
 Hull=Misc/HaulerSmall
 Role=colony
@@ -14,21 +14,22 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Structure;ColonyModuleFood;ColonyModuleProduction;Cockpit;NuclearReactorSmall;2x1Twinengines;WarpEngine_1x1
-Modules=15
+ModuleUIDs=ColonyModuleFood;ColonyModuleProduction;PowerSolar;BasicCargoHold;thruster1x1;Cockpit;VernierThruster;NuclearReactorSmall;WarpEngine_1x1;Engine
+Modules=16
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,4;0
-0,5;0
-0,6;0
-1,0;1;2,3
-1,3;2;2,3
-1,6;3
-1,7;4
-1,8;5;2,1
-1,9;6
-2,6;4
-2,7;4
-2,9;6
-3,4;0
-3,5;0
-3,6;0
+1,0;0;2,3
+1,3;1;2,3
+0,4;2
+3,4;3
+0,5;3
+3,5;3
+0,6;4
+1,6;5
+2,6;6
+3,6;4
+1,7;7
+2,7;7
+1,8;8
+2,8;9
+1,9;8
+2,9;8
