@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Vulfar-Supply
 Hull=Vulfen/Type I
 Role=supply
@@ -14,16 +14,16 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=OrdnanceLockerSmall;Defshield;NuclearReactorSmall;Cockpit;WarpEngine_1x1;engine_fighter_1x1
+ModuleUIDs=OrdnanceLockerSmall;NuclearReactorSmall;Cockpit;Engine
 Modules=10
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 1,0;0
 2,0;0
-1,1;1
+1,1;0
 2,1;0
 0,2;0
-1,2;2
-2,2;3
+1,2;1
+2,2;2
 3,2;0
-1,3;4
-2,3;5
+1,3;3
+2,3;3

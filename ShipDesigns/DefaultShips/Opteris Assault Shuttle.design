@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Opteris Assault Shuttle
 Hull=Opteris/Drone
 Role=troop
@@ -8,26 +8,26 @@ Size=4,4
 GridCenter=2,3
 DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
-ShipCategory=Unclassified
+ShipCategory=Conservative
 HangarDesignation=General
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=PowerSolar;OrdnanceLockerSmall;Internal Bulkhead;Cockpit;NuclearReactorSmall;Engine;Defshield
+ModuleUIDs=Structure;Cockpit;Internal Bulkhead;NuclearReactorSmall;Engine
 Modules=14
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,1;0
-0,2;1
-0,3;2
 1,0;0
-1,1;3
-1,2;4
-1,3;5
 2,0;0
-2,1;6
-2,2;4
-2,3;5
+0,1;0
+1,1;1
+2,1;2
 3,1;0
-3,2;1
+0,2;0
+1,2;0
+2,2;3
+3,2;0
+0,3;2
+1,3;4
+2,3;4
 3,3;2
