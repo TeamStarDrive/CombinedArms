@@ -377,7 +377,15 @@ CA_Tech_Logistics_Name:
  ENG: "Logistics"
  RUS: "Логистика"
  SPA: "Sociologística"
-BB_Tech_MissileArmor_Weapon_HP_Bonus:
+CA_Tech_MagneticArtillery_Name:
+ Id: 606
+ ENG: "Magnetic Artillery"
+ RUS: "Магнитная артиллерия"
+ SPA: "Artillería magnética"
+CA_Tech_MagneticArtillery_Desc:
+ Id: 607
+ ENG: "Firing weapons using powder charges alone is inefficient. By adding a magnetic push to our projectiles we can put more ordnance on target in a more efficient manner."
+CA_Tech_MissileArmor_Weapon_HP_Bonus:
  Id: 617
  ENG: "Increases the hitpoints of missile-based weaponry by 25%."
  RUS: "Увеличивает очки прочности всего ракетного оружия на 25%."
@@ -397,11 +405,19 @@ CA_Tech_PlasmaThrowers_Desc:
  ENG: "If we channeled highly-ionized Plasma directly from a ship reactor through a magnetized, high-pressure system, then we could spray our enemies with super-heated energy to devastating effect. Very effective against Armor but weak against shields. We also can now use similar methods to build a medium plasma cannon"
  RUS: "Если мы направим высокоионизированную плазму прямо из реактора корабля через намагниченную систему высокого давления, то мы сможем распылить на наших врагов перегретую энергию с разрушительным эффектом. Очень эффективено против брони, но почти бесполезно против щитов. Теперь мы можем использовать аналогичные методы для создания средней плазменной пушки."
  SPA: "Si canalizamos el plasma altamente ionizado directamente desde el reactor de una nave a través de un sistema magnetizado a alta presión, podemos rociar a nuestros enemigos de energía supercalentada con efectos devastadores. "
+CA_Tech_SiphonBeam_Name:
+ Id: 656
+ ENG: "Siphon Beam"
 CA_Tech_SiphonBeam_Desc:
  Id: 657
  ENG: "Siphon beams create a connection between the firing ship and the target ship's energy shields. The beam depletes the shield energy and transfers is into the firing ship's power stores. It's highly effective against shields."
  RUS: "Этот луч создает связь между энергетическими щитами двух кораблей, понижая энергию щита вражеского корабля и передавая ее на свой корабль. Это единственное применение данного оружия."
  SPA: "Los rayos de absorción establecen una conexión entre la nave que dispara y los escudos de energía de la nave objetivo. El rayo consume la energía de los escudos y la transfiere a las reservas de la nave atacante. El arma no tiene otra utilidad."
+CA_Tech_SubspaceArtillery_Name:
+ Id: 665
+ ENG: "Subspace Artillery I"
+ RUS: "Космическая артиллерия"
+ SPA: "Artillería subespacial" 
 CA_Tech_TachyonScanning_SensorRangeBonus_Bonus:
  Id: 682
  ENG: "Increases the range of all sensors by 25%."
@@ -757,9 +773,9 @@ TheVulcanCannonIsA:
  SPA: "El cañón vulcano es pequeño pero de disparo rápido, capaz de despedazar pequeños objetivos blindados con un aluvión de proyectiles con punta de uranio. Las armas de defensa puntual (DP) disparan automáticamente contra misiles atacantes y tienen una bonificación de daño frente a este tipo de armas. "
 CA_Tech_PhasedOrdnance_Weapon_ShieldPenetration_Bonus:
  Id: 2009
- ENG: "Provides a 20% shield penetration chance to projectiles fired from Ballistic Cannons"
- RUS: "Балистические орудия имеют 20% шанс пробить щит."
- SPA: "Los disparos de los cañones balísticos tienen un 20% más de posibilidades de penetrar los escudos"
+ ENG: "Provides a 10% shield penetration chance to projectiles fired from Ballistic Cannons"
+ RUS: "Балистические орудия имеют 10% шанс пробить щит."
+ SPA: "Los disparos de los cañones balísticos tienen un 10% más de posibilidades de penetrar los escudos"
 AllThoseWhoEnterThis:
  Id: 2116
  ENG: "The schematics for this building were found in the ruins on the Remnant homeworld. We believe that this device will allow us to transcend our physical forms. We won't know until we build it and turn it on."
@@ -7475,3 +7491,27 @@ CA_Tech_PowerMgmt2_Name:
 CA_Tech_PowerMgmt2_Desc:
  Id: 18333
  ENG: "Improvements in power management technology can lead to a larger type of advanced power cells."  
+CA_Module_Needler_Name:
+ Id: 18334
+ ENG: "Needler"
+CA_Module_Needler_Desc:
+ Id: 18335
+ ENG: "The Needler is a Small Craft Cannon which utilizes advancement in magnetic acceleration in order to fire even deadlier projectiles than the Hyper Velocity Vulcan Cannon."
+CA_Module_NeedlerAP_Name:
+ Id: 18336
+ ENG: "Needler AP"
+CA_Module_NeedlerAP_Desc:
+ Id: 18337
+ ENG: "The Needler AP uses special Armor Piercing projectiles and is a better version of the Basic Needler."
+CA_Module_NeedlerHEAP_Name:
+ Id: 18338
+ ENG: "Needler HEAP"
+CA_Module_NeedlerHEAP_Desc:
+ Id: 18339
+ ENG: "This ultimate Small Craft weapon incorporates a High Explosive payload along with Armor Piercing Projectile with the Magnetic Acceleration infrastructure."
+CA_Tech_MassDrivers_Name:
+ Id: 18340
+ ENG: "Mass Drivers" 
+CA_Tech_MassDrivers_Desc:
+ Id: 18341
+ ENG: "Utilization of the low yield magnetic acceleration can lead to creation of bigger cannons with more range and payload to combat heavier ships."
