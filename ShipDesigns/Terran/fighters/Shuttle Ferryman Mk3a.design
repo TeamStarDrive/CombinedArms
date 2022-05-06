@@ -1,11 +1,11 @@
 Version=1
-Name=Lightning Striker Mk4
-Hull=Terran/Lightning
+Name=Shuttle Ferryman Mk3a
+Hull=Terran/Shuttle
 Role=fighter
 ModName=Combined Arms
 Style=Terran
-Size=4,5
-GridCenter=2,3
+Size=4,4
+GridCenter=2,2
 DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Neutral
@@ -14,17 +14,15 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=HVVulcanCannon;OrdnanceLockerSmall;Cockpit;SmallCraftDeflector;AntiMReactorSmall;Engine;Fighter ASG Turret;2x1Twinengines;RocketLauncher
-Modules=11
+ModuleUIDs=RocketLauncher;Cockpit;NuclearReactorSmall;Fighter ASG Turret;Advanced Fighter Generator;SmallCraftDeflector;OrdnanceLockerSmall;2x1Twinengines
+Modules=9
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-1,0;0;1,2
-2,0;0;1,2
-1,2;1
-2,2;2
-0,3;3
-1,3;4
-2,3;5
-3,3;1
-0,4;6
-1,4;7;2,1
-3,4;8
+1,0;0
+2,0;0
+1,1;1
+2,1;2
+0,2;3
+1,2;4
+2,2;5
+3,2;6
+1,3;7;2,1
