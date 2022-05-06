@@ -1,5 +1,5 @@
 Version=1
-Name=Heavy Gunboat Exemplar Mk2
+Name=Heavy Gunboat Exemplar Mk2b
 Hull=Terran/HeavyGunboat
 Role=frigate
 ModName=Combined Arms
@@ -14,8 +14,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=DepletedUraniumArmor Med;DepletedUraniumArmor small;OrdnanceLockerSmall;Railgun1x3V2;Deflector2x2;Railgun2x4;Overload Fusion Reactor;Bridge;NuclearReactorSmall;PowerSolar;thruster1x1;PowerConduit;OrdnanceLocker;RocketLauncher;Engine;MedOverdrive;WarpEngine_2x2
-Modules=45
+ModuleUIDs=Ceramic Armor Med;Ceramic Armor Small;OrdnanceLockerSmall;Railgun1x3V2;Deflector2x2;Railgun2x4;AntimatterReactor2x2;Bridge;thruster1x2;PowerConduit;OrdnanceLocker;RocketLauncher;Engine;MedOverdrive;WarpEngine_2x2
+Modules=43
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 2,0;0;2,2
 1,1;1
@@ -43,22 +43,20 @@ Modules=45
 2,11;6;2,2
 4,11;1
 0,12;1
-1,12;8
-4,12;8
+1,12;8;1,2
+4,12;8;1,2
 5,12;1
-0,13;9
-1,13;10
-2,13;11
-3,13;11
-4,13;10
+0,13;1
+2,13;9
+3,13;9
 5,13;1
-0,14;12;2,2
+0,14;10;2,2
 2,14;4;2,2
-4,14;13;;180;3
-5,14;13
-4,15;13;;270;1
-5,15;13;;90;2
-0,16;14
-1,16;15;2,2
-3,16;16;2,2
-5,16;14
+4,14;11;;180;3
+5,14;11
+4,15;11;;270;1
+5,15;11;;90;2
+0,16;12
+1,16;13;2,2
+3,16;14;2,2
+5,16;12
