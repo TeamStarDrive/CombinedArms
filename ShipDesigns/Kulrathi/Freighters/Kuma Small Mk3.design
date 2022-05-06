@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Kuma Small Mk3
 Hull=Kulrathi/Kuma Sukoshi
 Role=freighter
@@ -14,25 +14,25 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=PowerSolar;BasicCargoHold;MediumCargoHold;Cockpit;BosonTransmiter;Fusion Reactor;WarpEngine_1x1;Engine
+ModuleUIDs=MediumCargoHold;Structure;Cockpit;Magshield;NuclearReactorSmall;Engine;WarpEngine_1x1
 Modules=19
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,3;0
-0,4;1
-0,5;1
-1,2;2;2,2
-1,4;3
-1,5;1
-1,6;4
-1,7;0
-2,0;2;2,2
-2,4;5;2,2
-2,6;6
+2,0;0;2,2
+1,2;0;2,2
+3,2;0;2,2
+0,3;1
+5,3;1
+0,4;0;2,2
+2,4;2
+3,4;3
+4,4;0;2,2
+2,5;4
+3,5;4
+1,6;1
+2,6;5
+3,6;5
+4,6;1
+1,7;1
 2,7;6
-3,2;2;2,2
-3,6;7
 3,7;6
-4,4;2;2,2
-4,6;4
-4,7;0
-5,3;0
+4,7;1

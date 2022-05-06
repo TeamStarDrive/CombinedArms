@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Kuma Medium Mk2
 Hull=Kulrathi/Kuma Naka
 Role=freighter
@@ -14,32 +14,32 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=LargeCargoHold;PowerSolar;VernierThruster;MediumCargoHold;NuclearReactorSmall;BasicCargoHold;BosonTransmiter;Bridge;WarpEngine_1x1;WarpEngine_2x2
+ModuleUIDs=MediumCargoHold;LargeCargoHold;PowerSolar;NuclearReactorSmall;Bridge;Structure;jumpdrive2x2;Magshield;WarpEngine_1x1;VernierThruster;FrigateEngine;thruster1x1
 Modules=26
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,2;0;3,3
-0,5;1
-0,7;1
-0,10;2
-1,0;3;2,2
-1,5;4
+1,0;0;2,2
+3,0;0;2,2
+0,2;1;3,3
+3,2;1;3,3
+0,5;2
+1,5;3
+2,5;4;2,2
+4,5;3
+5,5;2
 1,6;5
-1,7;3;2,2
-1,9;4
-1,10;4
-1,11;6
-2,5;7;2,2
-2,9;8
-2,10;9;2,2
-3,0;3;2,2
-3,2;0;3,3
-3,7;3;2,2
-3,9;8
-4,5;4
 4,6;5
-4,9;4
-4,10;4
-4,11;6
-5,5;1
-5,7;1
-5,10;2
+0,7;2
+1,7;6;2,2
+3,7;0;2,2
+5,7;2
+1,9;7
+2,9;8
+3,9;8
+4,9;7
+0,10;9
+1,10;3
+2,10;10;2,2
+4,10;3
+5,10;9
+1,11;11
+4,11;11
