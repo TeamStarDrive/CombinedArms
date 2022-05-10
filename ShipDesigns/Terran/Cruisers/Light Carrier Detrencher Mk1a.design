@@ -1,5 +1,5 @@
 Version=1
-Name=Light Carrier Detrencher Mk1
+Name=Light Carrier Detrencher Mk1a
 Hull=Terran/LightCarrier
 Role=cruiser
 ModName=Combined Arms
@@ -14,8 +14,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Ceramic Armor Small;Ceramic Armor Large;OrdnanceLocker;LargeFabStorage;OrdnanceLockerSmall;Railgun1x3V2;Deflector3x3;DualMassDriver_2x7;AntimatterReactor2x2;Reinforced Bulkhead Impoved;LightningStorm;Fabricator;MarineBarracks2x2;thruster1x2;CIC;Repeater2x2_Ceramic;Dual Gatling Turret;BigCannon;BosonTransmiter;Internal Bulkhead Improved;jumpdrive2x2;Cockpit;Overload AntiMatter Reactor;MedOverdrive;WarpEngine_2x2;WarpEngine_1x1;OverdriveCapEngines;mwdsmall
-Modules=149
+ModuleUIDs=CompositeAlloys Small;CompositeAlloys Large;OrdnanceLocker;LargeFabStorage;OrdnanceLockerSmall;Railgun1x3V2;Deflector3x3;Tactical_cannon;AntimatterReactor2x2;Reinforced Bulkhead Impoved;LightningStorm;Fabricator;MarineBarracks2x2;thruster1x2;CIC;Repeater2x2_Composite;Dual Gatling Turret;BigCannon;BosonTransmiter;Internal Bulkhead Improved;jumpdrive2x2;Cockpit;Overload AntiMatter Reactor;MedOverdrive;WarpEngine_2x2;WarpEngine_1x1;OverdriveCapEngines;mwdsmall
+Modules=153
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 8,0;0
 11,0;0
@@ -52,12 +52,16 @@ Modules=149
 6,10;0
 8,10;4
 13,10;0
-6,11;7;2,7
+6,11;0
+7,11;0
 8,11;4
-12,11;7;2,7
+12,11;0
+13,11;0
 5,12;0
+6,12;7;2,6
 8,12;8;2,2
 10,12;8;2,2
+12,12;7;2,6
 14,12;0
 5,13;0
 14,13;0

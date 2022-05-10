@@ -1,5 +1,5 @@
 Version=1
-Name=Terran Heavy Platform Mk4
+Name=Terran Heavy Platform Mk8
 Hull=Terran/Terran_Heavy_Platform
 Role=platform
 ModName=Combined Arms
@@ -14,7 +14,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Ceramic Armor Small;AdvancedDualFlak;RocketLauncher;Advanced Fighter Generator;AmplifierMk1;Fighter Shield;Bridge
+ModuleUIDs=Crystal Armor Small;BroadSide_SRM_2x3;RocketLauncher;AmplifierMk1;AntiMReactorSmall;SmallCraftDeflectorAdv;Bridge
 Modules=41
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 3,0;0
@@ -22,31 +22,31 @@ Modules=41
 7,0;0
 8,0;0
 0,1;0
-1,1;1;3,3;315
+1,1;1;3,2;270;1
 4,1;2
 5,1;0
 6,1;0
 7,1;2;;90;2
-8,1;1;3,3;45
+8,1;1;3,2;90;2
 11,1;0
 0,2;0
 4,2;3
 5,2;4
-6,2;3
-7,2;4
+6,2;4
+7,2;3
 11,2;0
-4,3;5
+1,3;1;3,2;270;1
+4,3;5;1,2
 5,3;6;2,2
-7,3;5
-1,4;1;3,3;225
-4,4;5
-7,4;5
-8,4;1;3,3;135
+7,3;5;1,2
+8,3;1;3,2;90;2
 0,5;0
-4,5;4
-5,5;3
-6,5;4
+1,5;1;3,2;270;1
+4,5;3
+5,5;4
+6,5;3
 7,5;3
+8,5;1;3,2;90;2
 11,5;0
 0,6;0
 4,6;2;;270;1
