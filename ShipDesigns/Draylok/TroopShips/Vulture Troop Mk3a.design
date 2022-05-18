@@ -1,5 +1,5 @@
 Version=1
-Name=Vulture Troop Mk1
+Name=Vulture Troop Mk3a
 Hull=Draylok/Vulture
 Role=troopShip
 ModName=Combined Arms
@@ -14,8 +14,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=XSGA5Fairy Small;Organic Armor Med;Organic Armor Small;BosonTransmiter2;Organic Armor Large;BosonTransmiter;XSGA5Fairy Med;EnergyPD2x2;OrdnanceLocker;Sniper1x6AP;PowerConduit;Deflector3x3;OrdnanceLockerSmall;NuclearReactorSmall;MarineBarracks2x2;Bridge;Deflector2x2;Shapememory_Alloys_small2;thruster1x2;Overload AntiMatter Reactor;PolaronTurret2x2;TroopAssaultBay;RocketLauncher;MarineBarracks6x3;Pulse Capacitor Small;OverdriveCapEngines;WarpEngine_1x1;mwdsmall;WarpEngine_3x3
-Modules=236
+ModuleUIDs=XSGA5Fairy Small;Advanced Bionic Armor Med;Advanced Bionic Armor Small;BosonTransmiter2;Advanced Bionic Armor Large;BosonTransmiter;XSGA5Fairy Med;EnergyPD2x2;OrdnanceLocker;Sniper1x6HEAP;PowerConduit;Deflector3x3;OrdnanceLockerSmall;NuclearReactorSmall;MarineBarracks2x2;Bridge;Deflector2x2;Shapememory_Alloys_small3;thruster1x2;Overload AntiMatter Reactor;PhotonTurret;TroopAssaultBay;RocketLauncher;Dark Energy Reactor;MarineBarracks6x3;AntimatterReactor2x2;Pulse Capacitor Small;OverdriveCapEngines;WarpEngine_1x1;mwdsmall;WarpEngine_3x3
+Modules=234
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 13,0;0
 14,0;0
@@ -125,14 +125,17 @@ Modules=236
 1,24;2
 2,24;21;3,4;;;Draylok Assault Shuttle
 5,24;22
-11,24;19;3,3
-14,24;19;3,3
+11,24;17
+12,24;23;4,4
+16,24;17
 22,24;22;;360
 23,24;21;3,4;;;Draylok Assault Shuttle
 26,24;2
 0,25;2
 1,25;0
 5,25;22;;345
+11,25;17
+16,25;17
 22,25;22;;15
 26,25;0
 27,25;2
@@ -140,6 +143,8 @@ Modules=236
 1,26;22;;270
 5,26;0
 6,26;18;1,2
+11,26;17
+16,26;17
 21,26;18;1,2
 22,26;0
 26,26;22;;90
@@ -148,11 +153,7 @@ Modules=236
 1,27;3
 5,27;22;;315
 10,27;12
-11,27;13
-12,27;17
-13,27;17
-14,27;17
-15,27;17
+11,27;17
 16,27;17
 17,27;12
 22,27;22;;45
@@ -160,31 +161,28 @@ Modules=236
 27,27;2
 0,28;2
 1,28;9;1,6
-2,28;23;3,6;90;2
+2,28;24;3,6;90;2
 5,28;20;2,2;225
 7,28;12
 8,28;20;2,2;315
 10,28;12
 11,28;17
-12,28;12
-13,28;15;2,2
-15,28;12
+12,28;25;2,2
+14,28;15;2,2
 16,28;17
 17,28;12
 18,28;20;2,2;45
 20,28;12
 21,28;20;2,2;135
-23,28;23;3,6;270;1
+23,28;24;3,6;270;1
 26,28;9;1,6
 27,28;2
 0,29;2
 7,29;12
-10,29;24
+10,29;26
 11,29;17
-12,29;12
-15,29;12
 16,29;17
-17,29;24
+17,29;26
 20,29;12
 27,29;2
 0,30;2
@@ -204,10 +202,10 @@ Modules=236
 20,30;11;3,3
 27,30;2
 0,31;0
-8,31;25;3,3
-11,31;25;3,3
-14,31;25;3,3
-17,31;25;3,3
+8,31;27;3,3
+11,31;27;3,3
+14,31;27;3,3
+17,31;27;3,3
 27,31;0
 0,32;0
 27,32;0
@@ -223,14 +221,14 @@ Modules=236
 1,34;21;3,4;;;Draylok Assault Shuttle
 4,34;22;;180
 5,34;2
-8,34;26
-9,34;26
-10,34;27;1,3
-11,34;28;3,3
-14,34;28;3,3
-17,34;27;1,3
-18,34;26
-19,34;26
+8,34;28
+9,34;28
+10,34;29;1,3
+11,34;30;3,3
+14,34;30;3,3
+17,34;29;1,3
+18,34;28
+19,34;28
 22,34;2
 23,34;22;;180
 24,34;21;3,4;;;Draylok Assault Shuttle
