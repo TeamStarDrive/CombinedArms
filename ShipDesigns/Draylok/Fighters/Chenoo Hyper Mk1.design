@@ -1,0 +1,30 @@
+Version=1
+Name=Chenoo Hyper Mk1
+Hull=Draylok/Chenoo
+Role=fighter
+ModName=Combined Arms
+Style=Draylok
+Size=8,3
+GridCenter=4,2
+DefaultAIState=AwaitingOrders
+DefaultCombatState=AttackRuns
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=HVVulcanCannon;Fighter Shield;Cockpit;OrdnanceLockerSmall;Advanced Fighter Generator;2x1Twinengines
+Modules=11
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0;1,2
+5,0;0;1,2
+1,1;0;1,2
+3,1;1
+4,1;2
+6,1;0;1,2
+0,2;3
+2,2;4
+3,2;5;2,1
+5,2;4
+7,2;3
