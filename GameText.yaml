@@ -4058,8 +4058,8 @@ CA_ProductionPerAssignedColonistCredits:
  RUS: "+1 продукции за задействованного колиниста,+0.1 кредитов за колониста, +50 места на складе, +2 к инфраструктуре"
 CA_Tech_MissileArmorv2_Name:
  Id: 17411
- ENG: "Advanced Missile Armor"
- RUS: "Продвинутая броня ракет"
+ ENG: "Missile Armor II"
+ RUS: "броня ракет II"
 CA_Tech_MissileArmorv2_Desc:
  Id: 17412
  ENG: "We have perfected a new technology to further increase the survivability of our missile-based weaponry by protecting them with advanced armor plating."
@@ -6487,8 +6487,8 @@ CA_Tech_ShieldsV1_Desc:
  RUS: "Усовершенствованные технологии инженерии, увеличивают силу наших щитов на 10% за каждый уровень технологии (включая силу планетарных щитов)."
 CA_Tech_ShieldsV1_Bonus:
  Id: 18059
- ENG: "Increase Shields Strength by 15%"
- RUS: "Увеличивает силу щитов на 15%"
+ ENG: "Increase Shields Strength by 10%"
+ RUS: "Увеличивает силу щитов на 10%"
 CA_Tech_ShieldsV2_Name:
  Id: 18060
  ENG: "Shields Efficiency V2"
@@ -7262,9 +7262,9 @@ CA_Tech_OrdnancePayloadV_Name:
 CA_Tech_OrdnancePayloadI_Weapon_Damage_Bonus:
  Id: 18257
  ENG: "Kinetic and Torpedo damage +3%"
-CA_Tech_OrdnancePayloadI_Weapon_ExplosionRadius_Bonus:
+CA_Tech_OrdnancePayloadMulti_Weapon_ExplosionRadius_Bonus:
  Id: 18258
- ENG: "Explosion radius +3%"
+ ENG: "Missile and Torpedo Explosion radius +3%"
 CA_Tech_OrdnancePayloadI_missile_Bonus:
  Id: 18259
  ENG: "Missile damage +3%"
@@ -7536,3 +7536,69 @@ CA_Tech_WirelessPowerIII_Name:
 CA_Tech_WirelessPowerIII_Desc:
  Id: 18348
  ENG: "While studying Bosons particles our scientists discovered that they can wirelessly transmit power on limited area. This breakthrough will hugely improve ergonomy in ship designing."  
+CA_Tech_Velocity_Name:
+ Id: 18349
+ ENG: "Velocity Development"
+CA_Tech_Velocity_Desc:
+ Id: 18350
+ ENG: "Invest in Sublight Engine technology."   
+CA_Bonus_Velocity_Desc:
+ Id: 18351
+ ENG: "Increase Sublight engine performance by 4%"    
+CA_Tech_MaterialDev_Name:
+ Id: 18352
+ ENG: "Material Development"
+CA_Tech_MaterialDev_Desc:
+ Id: 18353
+ ENG: "Invest in Advanced Material technology."   
+CA_Bonus_MaterialDev_Desc:
+ Id: 18354
+ ENG: "Reduce the mass of each ship module by further 2%" 
+CA_Tech_ShieldDev_Name:
+ Id: 18355
+ ENG: "Shield Development"
+CA_Tech_Shield_Desc:
+ Id: 18356
+ ENG: "Invest in Shield Emmission technology."    
+CA_Tech_NanoweaveDev_Name:
+ Id: 18357
+ ENG: "Nanoweave Development"
+CA_Tech_Nanoweave_Desc:
+ Id: 18358
+ ENG: "Invest in Nanoweave technology."     
+CA_Tech_ComponentsDev_Name:
+ Id: 18359
+ ENG: "Components Development"
+CA_Tech_ComponentsDev_Desc:
+ Id: 18360
+ ENG: "Invest in Reinforced Components technology."   
+CA_Bonus_ComponentsDev_Desc:
+ Id: 18361
+ ENG: "Reduce the the effective Explosion Radius of enemy projectiles and missiles by 3%"  
+CA_Tech_ExplosivesDev_Name:
+ Id: 18362
+ ENG: "Explosives Development"
+CA_Tech_ExplosivesDev_Desc:
+ Id: 18363
+ ENG: "Invest in Explosives technology."   
+CA_Bonus_ExplosivesDev_Desc:
+ Id: 18364
+ ENG: "Increase the explosion radius of Missiles and Torpedos by 2%"   
+CA_Tech_PowerCellDev_Name:
+ Id: 18365
+ ENG: "Power Cells Development"
+CA_Tech_PowerCellDev_Desc:
+ Id: 18366
+ ENG: "Invest in Power Cells Storage technology."   
+CA_Bonus_PowerCellDev_Desc:
+ Id: 18367
+ ENG: "Increase Power Cells Energy Storage by 5%"
+CA_Tech_OrdnancePayloadDev_Name:
+ Id: 18368
+ ENG: "Payload Development"
+CA_Tech_OrdnancePayloadDev_Desc:
+ Id: 18369
+ ENG: "Invest in Ordnance Payload technology."   
+CA_Bonus_OrdnancePayloadDev_Desc:
+ Id: 18370
+ ENG: "Kinetics and Torpedo damage +2%" 

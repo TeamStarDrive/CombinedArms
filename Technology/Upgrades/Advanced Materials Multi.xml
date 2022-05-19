@@ -1,26 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <UID>Advanced Materials v5</UID>
-  <TechnologyType>ShipGeneral</TechnologyType> <!-- ShipGeneral as designed -->
-  <Cost>24300</Cost>
-  <LowPriorityCostMultiplier>1.1</LowPriorityCostMultiplier>    
+  <UID>Advanced Materials Multi</UID>
+  <TechnologyType>ShipGeneral</TechnologyType>
+  <Cost>30000</Cost>
+  <MaxLevel>5</MaxLevel>
+  <MultiLevelCostMultiplier>1.5</MultiLevelCostMultiplier>  
   <RootNode>0</RootNode>
-  <Name>Advanced Materials v5</Name>
-  <NameIndex>18096</NameIndex>
-  <DescriptionIndex>18092</DescriptionIndex>
+  <Name>Advanced Materials</Name>
+  <NameIndex>18352</NameIndex>
+  <DescriptionIndex>18353</DescriptionIndex>
   <LongDescription>Although steel armor is inexpensive, it is extremely heavy and reduces the maneuverability of our ships significantly. By focusing our research efforts on developing new construction materials, we can reduce the mass of all of our ship components across the board.</LongDescription>
   <LeadsTo>
-    <LeadsToTech>
-      <UID>Advanced Materials Multi</UID>
-    </LeadsToTech>
   </LeadsTo>
   <BuildingsUnlocked />
   <BonusUnlocked>
     <UnlockedBonus>
       <Name>Mass Reduction</Name>
-      <Bonus>-0.04</Bonus>
-      <Description>New materials reduce effective ship mass by 20% across the board. </Description>
-      <BonusIndex>18092</BonusIndex>
+      <Bonus>-0.02</Bonus>
+      <BonusIndex>18354</BonusIndex>
     </UnlockedBonus>
   </BonusUnlocked>
   <TroopsUnlocked />

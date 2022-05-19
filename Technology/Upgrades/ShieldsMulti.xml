@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <UID>ShieldsV2</UID>
-  <TechnologyType>General</TechnologyType>
-  <Cost>900</Cost>
-  <LowPriorityCostMultiplier>2</LowPriorityCostMultiplier>  
+  <UID>ShieldsMulti</UID>
+  <TechnologyType>ShipGeneral</TechnologyType>
+  <Cost>30000</Cost>
+  <MaxLevel>5</MaxLevel>
+  <MultiLevelCostMultiplier>1.5</MultiLevelCostMultiplier>    
   <RootNode>0</RootNode>
-  <Name>Shield Power Bonus</Name>
-  <NameIndex>18060</NameIndex>
-  <DescriptionIndex>18058</DescriptionIndex>
+  <Name>ShieldsMulti</Name>
+  <NameIndex>18355</NameIndex>
+  <DescriptionIndex>18356</DescriptionIndex>
   <LongDescription>shields</LongDescription>
-  <LeadsTo>
-    <LeadsToTech>
-      <UID>ShieldsV3</UID>
-    </LeadsToTech>
-  </LeadsTo>
   <BuildingsUnlocked />
   <BonusUnlocked>
     <UnlockedBonus>

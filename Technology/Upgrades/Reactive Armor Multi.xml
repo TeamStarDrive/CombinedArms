@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <UID>Reactive Armor</UID>
+  <UID>Reactive Armor Multi</UID>
   <TechnologyType>ShipGeneral</TechnologyType>
-  <Cost>900</Cost>
+  <Cost>45000</Cost>
+  <MaxLevel>5</MaxLevel>
+  <MultiLevelCostMultiplier>1.25</MultiLevelCostMultiplier>    
   <RootNode>0</RootNode>
   <Name>Reactive Armor</Name>
-  <NameIndex>2004</NameIndex>
-  <DescriptionIndex>2005</DescriptionIndex>
+  <NameIndex>18359</NameIndex>
+  <DescriptionIndex>18360</DescriptionIndex>
   <LongDescription>See localization file</LongDescription>
   <LeadsTo>
-    <LeadsToTech>
-      <UID>Armor Piercing</UID>
-    </LeadsToTech>
   </LeadsTo>
   <ModulesUnlocked />
   <BuildingsUnlocked />
   <BonusUnlocked>
     <UnlockedBonus>
-      <Name>Reactive Armor</Name>
+      <Name>Reinforced Components</Name>
       <BonusType>Armor Explosion Reduction</BonusType> <!-- reduces radius of explosions across the line-->	  
-      <Bonus>0.25</Bonus>
-      <BonusIndex>2006</BonusIndex>
+      <Bonus>0.03</Bonus>
+      <BonusIndex>18361</BonusIndex>
     </UnlockedBonus>
   </BonusUnlocked>
   <TroopsUnlocked />
