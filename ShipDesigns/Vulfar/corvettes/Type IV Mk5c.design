@@ -1,5 +1,5 @@
 Version=1
-Name=Type IV Mk1
+Name=Type IV Mk5c
 Hull=Vulfen/Type IV
 Role=corvette
 ModName=Combined Arms
@@ -8,14 +8,14 @@ Size=6,10
 GridCenter=3,5
 DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
-ShipCategory=Conservative
+ShipCategory=Neutral
 HangarDesignation=Interceptor
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=DepletedUraniumArmor small;Fighter ASG Turret;HVVulcanCannon;OrdnanceLockerSmall;thruster1x1;Advanced Fighter Generator;PowerSolar;SmallCraftBattleShield;Cockpit_Side;ShotgunHVEmp1x3;2x1Twinengines;WarpEngine_1x1
-Modules=31
+ModuleUIDs=Tritanium Armor Small;Fighter ASG Turret;Fighter QF 17-pdr;AntiMReactorSmall;thruster1x1;Cockpit_Side;OrdnanceLockerNano;AmplifierMk1;SmallCraftBattleShieldAdv;ShotgunDragon1x3;2x1Twinengines;WarpEngine_1x1
+Modules=30
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 2,0;0
 3,0;0
@@ -29,19 +29,18 @@ Modules=31
 3,3;3
 0,4;1;;315
 1,4;4
-2,4;5
-3,4;5
+2,4;5;2,1
 4,4;4
 5,4;1;;45
 0,5;6
 1,5;7
-2,5;8;2,1
+2,5;8;2,1;90;2
 4,5;7
 5,5;6
 0,6;9;1,3
 1,6;9;1,3
-2,6;5
-3,6;5
+2,6;6
+3,6;3
 4,6;9;1,3
 5,6;9;1,3
 2,7;10;2,1

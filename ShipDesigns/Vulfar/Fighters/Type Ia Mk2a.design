@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Type Ia Mk2a
 Hull=Vulfen/Type Ia
 Role=fighter
@@ -14,19 +14,20 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=OrdnanceLockerSmall;SmallCraftBattleShield;NuclearReactorSmall;ShotgunHVEmp1x3;Advanced Fighter Generator;2x1Twinengines;Fighter ASG Turret;HVVulcanCannon;Cockpit
-Modules=13
+ModuleUIDs=HVVulcanCannon;Advanced Fighter Generator;Cockpit;PowerSolar;Fighter ASG Turret;RocketLauncher;SmallCraftBattleShield;2x1Twinengines;OrdnanceLockerSmall
+Modules=14
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,4;0
-1,3;1
-1,4;2
-2,0;3;1,3
-2,3;4
-2,4;5;2,1
-2,5;5;2,1
-3,0;6
-3,1;7;1,2
-3,3;4
-4,3;1
-4,4;8
-5,4;0
+2,0;0;1,2
+3,0;0;1,2
+2,2;1
+3,2;2
+1,3;3
+2,3;1
+3,3;1
+4,3;4
+0,4;5
+1,4;6
+2,4;7;2,1
+4,4;6
+5,4;8
+2,5;7;2,1
