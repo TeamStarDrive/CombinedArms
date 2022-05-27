@@ -100,12 +100,12 @@ AeroponicsIsTheUseOf:
  Id: 404
  ENG: "Aeroponics is the use of a hydro-atomized spray to deliver nutrients to plants suspended in the air. This technique offers excellent plant growth and eliminates the need for soil while at the same time minimizing pathogen risks."
  RUS: "Аэропоника - это использование атомизированного водяного спрея для доставки питательных веществ растениям, подвешенным в воздухе. Использование этой технологии позволяет растениям расти очень быстро, устраняет необходимость в почве и минимизирует риски заражения микроорганизмами."
- SPA: "La aeroponia es el cultivo en un entorno aéreo de plantas a las que se transmiten los nutrientes por hidroatomización. Con esta técnica, las plantas crecen a un ritmo excelente y se elimina la necesidad de tierra a la vez que se reducen al mínimo los riesgos patógenos. Bonificación única de +1 a la producción de comida."
+ SPA: "La aeroponia es el cultivo en un entorno aéreo de plantas a las que se transmiten los nutrientes por hidroatomización. Con esta técnica, las plantas crecen a un ritmo excelente y se elimina la necesidad de tierra a la vez que se reducen al mínimo los riesgos patógenos. Bonificación única de +1.5 a la producción de comida."
 FoodPerTurn2:
  Id: 405
  ENG: "+1.5 food per turn, 10 storage"
- RUS: "+2 еды за ход,10 места в складе."
- SPA: "+1 comida por turno"
+ RUS: "+1.5 еды за ход,10 места в складе."
+ SPA: "+1.5 comida por turno"
 Biospheres:
  Id: 406
  ENG: "Biospheres"
@@ -2763,8 +2763,7 @@ CA_ARoboticFactoryAGreat:
  RUS: "Робототехническая фабрика. Великое технологическое чудо. Эти заводы используют роботов для производства и полностью автоматизированы. Эти фабрики эксплуатируют полезные ископаемые, не зависящие от минерального богатства планеты, но это происходит за счет серьезной нагрузки на окружающую среду планеты."
 CA_FertilityOnBuildFlatProduction:
  Id: 8079
- ENG: " (-0.5) Fertility On Build, +6 flat production per turn, +1 food per turn, +15% tax, +100 storage, +1 Infrastructure"
- RUS: " (-0.5) плодородия за постройку, +6 продукции за ход, +1 еды за ход, +15% налоговой доходности, +100 места на складе, +1 к инфраструтуре."
+ ENG: " (-0.5) Fertility On Build, +6 flat production per turn, +1 food per turn, +15% tax, +100 storage, +1 Infrastructure, adds ship repair"
 CA_Tech_NanoMining_Name:
  Id: 8080
  ENG: "Nano Mining"
@@ -3683,8 +3682,7 @@ CA_FlatResearchResearchAndCredits:
  RUS: "+0.75 к исследованиям, +0.2 к науке и кредам за колониста."
 CA_ProductionPerRichness:
  Id: 10078
- ENG: "+2 production per richness"
- RUS: "+2 продукции за богатство"
+ ENG: "+2 production per richness, plis 30,000 sensor range"
 CA_FertilityOnBuild:
  Id: 10079
  ENG: " (+0.3) fertility on build"
@@ -4078,8 +4076,8 @@ CA_MostAdvancedPlanetaryShieldingTechnology:
  RUS: "Мы можем укрепить территорию на колонизированных планетах, что затруднит наземное вторжение и орбитальные бомбардировки"
 CA_DefensiveBuildingPlanetaryShieldsInjuries:
  Id: 17416
- ENG: "Defensive Building; +1000 Planetary Shields, 2 injuries to each invading troop"
- RUS: "Оборонительное здание; +1000 планетарных щитов, 2 ранения каждому вторгающемуся отряду"
+ ENG: "Defensive Building; +750 Planetary Shields, 2 injuries to each invading troop"
+ RUS: "Оборонительное здание; +750 планетарных щитов, 2 ранения каждому вторгающемуся отряду"
 CA_EnergyPointDefenseTurret:
  Id: 17417
  ENG: "Energy Point Defense Turret"
@@ -4929,8 +4927,7 @@ CA_TheseAreTrulyHighFire:
  RUS: "Это действительно высокотехнологичное лазерное оружие. Наносит много урона и требует большой мощности."
 CA_MaximumGoodsStorage4:
  Id: 17633
- ENG: "+600 maximum goods storage"
- RUS: "+600 места на складе"
+ ENG: "+600 maximum goods storage, +1 infrastructure"
 CA_AdvancedPulseCapacitor:
  Id: 17634
  ENG: "Advanced Pulse Capacitor"
@@ -7601,4 +7598,4 @@ CA_Bonus_OrdnancePayloadDev_Desc:
 CA_Tech_SmallStations_Name:
  Id: 18371
  ENG: "Small Stations"
- RUS: "Малые станции" 
+ RUS: "Малые станции"

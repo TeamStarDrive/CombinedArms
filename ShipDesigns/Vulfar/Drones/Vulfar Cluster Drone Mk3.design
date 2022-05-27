@@ -1,5 +1,5 @@
-﻿Version=1
-Name=Vulfar AM Bomb
+Version=1
+Name=Vulfar Cluster Drone Mk3
 Hull=Vulfen/Nulla
 Role=drone
 ModName=Combined Arms
@@ -14,11 +14,11 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=true
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=CompositeAlloys Small;CommandModule_II;Drone AntiMatterBomb1x1;DroneEngine_III
+ModuleUIDs=CommandModule_II;AntiMatterBomb1x1;DroneEngine_III
 Modules=5
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 0,0;0
-0,1;1
-0,2;2
-1,2;2
-0,3;3
+0,1;0
+0,2;1
+1,2;1
+0,3;2
