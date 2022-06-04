@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Lightning Striker Mk2a
 Hull=Terran/Lightning
 Role=fighter
@@ -14,17 +14,18 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=HVVulcanCannon;Advanced Fighter Generator;Fighter Shield;Engine;Cockpit;NuclearReactorSmall;OrdnanceLockerSmall
-Modules=11
+ModuleUIDs=HVVulcanCannon;Advanced Fighter Generator;Cockpit;Fighter Shield;NuclearReactorSmall;WarpEngine_1x1;OrdnanceLockerSmall;RocketLauncher;Engine
+Modules=12
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,3;0;1,2
 1,0;0;1,2
-1,2;1
-1,3;2
-1,4;3
 2,0;0;1,2
-2,2;4
+1,2;1
+2,2;2
+0,3;3
+1,3;4
 2,3;5
-2,4;3
 3,3;6
-3,4;6
+0,4;7
+1,4;8
+2,4;8
+3,4;7

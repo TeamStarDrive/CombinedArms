@@ -1,0 +1,24 @@
+Version=1
+Name=Vulfar Cluster Drone Mk3
+Hull=Vulfen/Nulla
+Role=drone
+ModName=Combined Arms
+Style=Vulfen
+Size=2,4
+GridCenter=1,2
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+ShipCategory=Kamikaze
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=CommandModule_II;AntiMatterBomb1x1;DroneEngine_III
+Modules=5
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,0;0
+0,1;0
+0,2;1
+1,2;1
+0,3;2

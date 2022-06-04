@@ -3,8 +3,6 @@
 
   <DroneModule>false</DroneModule>
   <FighterModule>false</FighterModule>
-  <CorvetteModule>false</CorvetteModule>
-  <DestroyerModule>false</DestroyerModule>
  
   <Cost>180</Cost>
 
@@ -23,11 +21,9 @@
   <NameIndex>986</NameIndex>
   <DescriptionIndex>987</DescriptionIndex>
 
-  <Mass>160</Mass>
-  <Health>1000</Health>
-  <HealthMax>1000</HealthMax>
-  <RepairDifficulty>5</RepairDifficulty>
-  <energyreq>0</energyreq>
+  <Mass>200</Mass>
+  <HealthMax>2000</HealthMax>
+  <RepairDifficulty>8</RepairDifficulty>
   
   <Description>If the bridge is the brain of a starship then Main Engineering is its beating heart. This module provides advanced, integrated power systems, damage control, and a boost to ship speed while at warp. However, if the main reactor is destroyed then a massive explosion will undoubtedly claim the ship. </Description>
   
@@ -37,16 +33,16 @@
   <!-- for shield items -->
   <ShieldPowerMax>4000</ShieldPowerMax>
   <ShieldRechargeDelay>4.5</ShieldRechargeDelay>
-  <ShieldRechargeRate>55</ShieldRechargeRate>
-  <ShieldRadius>40</ShieldRadius>
+  <ShieldRechargeRate>100</ShieldRechargeRate>
+  <ShieldRadius>50</ShieldRadius>
 
 
   <!-- for PowerPlant Items -->
   
   <ExplosionDamage>3000</ExplosionDamage>
-  <ExplosionRadius>256</ExplosionRadius>  
-  <PowerFlowMax>2000</PowerFlowMax>
-  <PowerStoreMax>1000</PowerStoreMax>
+  <ExplosionRadius>96</ExplosionRadius>  
+  <PowerFlowMax>2400</PowerFlowMax>
+  <PowerStoreMax>2400</PowerStoreMax>
   <PowerRadius>8</PowerRadius>
 
   <!-- for Weapons -->

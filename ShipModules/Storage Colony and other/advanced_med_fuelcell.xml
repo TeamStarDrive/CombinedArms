@@ -3,7 +3,7 @@
 
   <DroneModule>false</DroneModule>
   
-  <Cost>10</Cost>
+  <Cost>24</Cost>
   <TechLevel>0</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>FuelCell</ModuleType>
@@ -13,9 +13,8 @@
   <Restrictions>IO</Restrictions>
   <Name>Medium Fuel Cell</Name>
   <IconTexturePath>Modules/advanced_med_fuelcell</IconTexturePath>
-  <Mass>20</Mass>
-  <Health>1000</Health>
-  <HealthMax>1000</HealthMax>
+  <Mass>16</Mass>
+  <HealthMax>1500</HealthMax>
   <RepairDifficulty>3</RepairDifficulty>
   <PowerDraw>0</PowerDraw>
 
@@ -34,7 +33,9 @@
   <!-- for PowerPlant Items -->
   
   <PowerFlowMax>0</PowerFlowMax>
-  <PowerStoreMax>1875</PowerStoreMax>
+  <PowerStoreMax>3000</PowerStoreMax>
+  <ExplosionDamage>400</ExplosionDamage>
+  <ExplosionRadius>16</ExplosionRadius>    
   
   <!-- for Weapons -->
   

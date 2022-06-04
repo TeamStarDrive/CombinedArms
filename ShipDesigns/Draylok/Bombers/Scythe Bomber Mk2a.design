@@ -1,0 +1,59 @@
+Version=1
+Name=Scythe Bomber Mk2a
+Hull=Draylok/Scythe
+Role=bomber
+ModName=Combined Arms
+Style=Draylok
+Size=14,10
+GridCenter=7,5
+DefaultAIState=DoNothing
+DefaultCombatState=ShortRange
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=OrdnanceLockerSmall;OrdnanceLocker;Bionic Armor Med;DisruptorTurret2x2;Bionic Armor Small;Bridge;RocketLauncher;NuclearBombBay2x2;Deflector2x2;PowerConduit;Overload Fusion Reactor;FuelCellSmallArmored;Engine;CombatEngine_2x2;WarpEngine_2x2;WarpEngine_1x1;PowerSolar
+Modules=40
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+1,0;0
+12,0;0
+0,1;1;2,2
+6,1;2;2,2
+12,1;1;2,2
+0,3;3;2,2
+5,3;4
+6,3;5;2,2
+8,3;4
+12,3;3;2,2
+5,4;6;;270;1
+8,4;6;;90;2
+0,5;7;2,2
+2,5;0
+3,5;8;2,2
+5,5;6;;180;3
+6,5;9
+7,5;9
+8,5;6;;180;3
+9,5;8;2,2
+11,5;0
+12,5;7;2,2
+2,6;6
+5,6;10;2,2
+7,6;10;2,2
+11,6;6
+1,7;7;2,2
+3,7;9
+4,7;9
+9,7;9
+10,7;9
+11,7;7;2,2
+3,8;11
+4,8;12
+5,8;13;2,2
+7,8;14;2,2
+9,8;15
+10,8;11
+2,9;16
+11,9;16

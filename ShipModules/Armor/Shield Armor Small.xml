@@ -18,14 +18,17 @@
 	
 	<!-- Mass and Health -->
 	<Mass>18</Mass>
-	<Health>600</Health>
 	<HealthMax>600</HealthMax>
 	<RepairDifficulty>1</RepairDifficulty>
     <Deflection>60</Deflection>			      				
 	<!-- for PowerPlant Items -->
-	<PowerDraw>10</PowerDraw>
+    <PowerFlowMax>30</PowerFlowMax>	
+    <ExplosionDamage>60</ExplosionDamage>
+    <ExplosionRadius>24</ExplosionRadius>    
+	<PowerRadius>0</PowerRadius>	
+
 	
-    <AmplifyShields>400</AmplifyShields>
+    <AmplifyShields>200</AmplifyShields>
 
 	<!-- Armor Resistance -->
 	<BeamResist>0.25</BeamResist>  
@@ -33,7 +36,7 @@
 	<PlasmaResist>0.4</PlasmaResist>
 	
 	
-	
+	<WarpThrust>6000</WarpThrust>
 	<!-- for Weapons -->
 	<!-- Description -->
 	<Description>The massproduction version of Experimental Shield-Generator Armor-5 Fairy(XSGA5) . Greatly reduce energy comsuption also improved in shield power,range and recharge speed.</Description>

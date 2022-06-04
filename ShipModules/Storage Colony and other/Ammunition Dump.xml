@@ -4,7 +4,7 @@
   <FighterModule>false</FighterModule>
   <CorvetteModule>false</CorvetteModule>
 
-  <Cost>16</Cost>
+  <Cost>32</Cost>
   <TechLevel>2</TechLevel>
   <!-- common traits shared by all ship modules -->
   <XSize>4</XSize>
@@ -14,11 +14,9 @@
   <Restrictions>I</Restrictions>
   <UID>Ammunition Dump</UID>
   <IconTexturePath>Modules/Ammunition Dump</IconTexturePath>
-  <Mass>144</Mass>
-  <Health>800</Health>
+  <Mass>384</Mass>
   <HealthMax>800</HealthMax>
   <RepairDifficulty>1.5</RepairDifficulty>
-  <energyreq>0</energyreq>
   <Description>Ammunition Dump </Description>
   
   
@@ -44,7 +42,7 @@
   <PowerStoreMax>0</PowerStoreMax>
 
   <!-- for Weapons -->
-  <OrdinanceCapacity>300</OrdinanceCapacity>
+  <OrdinanceCapacity>768</OrdinanceCapacity>
 
   <!-- for Engines -->
   <Thrust>0</Thrust>

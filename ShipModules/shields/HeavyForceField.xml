@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<Cost>480</Cost>
+	<TechLevel>5</TechLevel>
+	<!-- common traits shared by all ship modules -->
+	<ModuleType>Shield</ModuleType>
+	<XSize>4</XSize>
+	<YSize>8</YSize>
+	<UID>HeavyForceField</UID>
+	<Restrictions>I</Restrictions>
+	<Name>HeavyForceField</Name>
+	<IconTexturePath>Modules/ForceFieldHeavy</IconTexturePath>
+	<Mass>600</Mass>
+	<HealthMax>10000</HealthMax>
+	<RepairDifficulty>6</RepairDifficulty>
+	
+	<PowerDraw>6000</PowerDraw>
+	<PowerDrawAtWarp>-3000</PowerDrawAtWarp>
+	<NameIndex>17855</NameIndex>
+	<DescriptionIndex>17856</DescriptionIndex>
+	<!-- for shield items -->
+	<ShieldPowerMax>64000</ShieldPowerMax>
+	<ShieldRechargeDelay>10</ShieldRechargeDelay>
+	<ShieldRechargeRate>6400</ShieldRechargeRate>
+	<ShieldRadius>600</ShieldRadius>
+	<ShieldRechargeCombatRate>0</ShieldRechargeCombatRate>
+	<ShieldBubbleColor>Blue</ShieldBubbleColor>
+	<!-- for Weapons -->
+	<EMPProtection>600</EMPProtection>
+	<!-- Armor resistance -->
+    <ShieldKineticResist>0.6</ShieldKineticResist>
+    <ShieldPlasmaResist>0.9</ShieldPlasmaResist>	
+
+</ShipModule>

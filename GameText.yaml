@@ -100,12 +100,12 @@ AeroponicsIsTheUseOf:
  Id: 404
  ENG: "Aeroponics is the use of a hydro-atomized spray to deliver nutrients to plants suspended in the air. This technique offers excellent plant growth and eliminates the need for soil while at the same time minimizing pathogen risks."
  RUS: "Аэропоника - это использование атомизированного водяного спрея для доставки питательных веществ растениям, подвешенным в воздухе. Использование этой технологии позволяет растениям расти очень быстро, устраняет необходимость в почве и минимизирует риски заражения микроорганизмами."
- SPA: "La aeroponia es el cultivo en un entorno aéreo de plantas a las que se transmiten los nutrientes por hidroatomización. Con esta técnica, las plantas crecen a un ritmo excelente y se elimina la necesidad de tierra a la vez que se reducen al mínimo los riesgos patógenos. Bonificación única de +1 a la producción de comida."
+ SPA: "La aeroponia es el cultivo en un entorno aéreo de plantas a las que se transmiten los nutrientes por hidroatomización. Con esta técnica, las plantas crecen a un ritmo excelente y se elimina la necesidad de tierra a la vez que se reducen al mínimo los riesgos patógenos. Bonificación única de +1.5 a la producción de comida."
 FoodPerTurn2:
  Id: 405
  ENG: "+1.5 food per turn, 10 storage"
- RUS: "+2 еды за ход,10 места в складе."
- SPA: "+1 comida por turno"
+ RUS: "+1.5 еды за ход,10 места в складе."
+ SPA: "+1.5 comida por turno"
 Biospheres:
  Id: 406
  ENG: "Biospheres"
@@ -311,11 +311,12 @@ CA_Tech_BattleRaiders_Desc:
  ENG: "Our most massive ships can deploy corvette-sized vessels from these gargantuan berths.  When these \"battle raiders\" are destroyed, however, there is no respawn until the mothership returns to a shipyard for resupply. "
  RUS: "Наши самые массивные корабли могут принимать суда размером с корвет в эти гигантские ангары. Однако, когда эти \"боевые налетчики\" уничтожены, они не возрождаются до тех пор, пока базовый корабль не вернется на верфь для пополнения запасов."
  SPA: "Nuestras naves más grandes pueden desplegar naves de clase corbeta y pequeñas fragatas desde sus gigantescos atracaderos.  Sin embargo, cuando estos \"buques corsarios\" son destruidos, no reaparecen hasta que la nave nodriza regresa a un astillero para reabastecerse. "
-CA_Tech_CanopyShields_Name:
+CA_Tech_Force_Fields_I_Name:
  Id: 526
- ENG: "Canopy Shielding I"
- RUS: "Купольный щит I"
- SPA: "Protección de cubierta"
+ ENG: "Force Fields I"
+CA_Tech_Force_Fields_I_Desc:
+ Id: 527
+ ENG: "We can create Force Field Emitters, which have very large radius of protection around our ships." 
 CA_Tech_ECM_MissileDodgeChangeBonus_Bonus:
  Id: 549
  ENG: "Grants missile weapon (such as rockets, guided missiles, and torpedoes) a 16% chance to dodge intercepting fire."
@@ -331,6 +332,26 @@ CA_Tech_EMPTorpedo_Desc:
  ENG: "Electromagnetic pulse torpedoes deliver a massive shock to the target. If it overcomes the target's EMP defense, the target will be stunned for variable time (depending on it's defense). Dissolver Torpedoes are programmed to launch MIRV missiles which will pass the target, turn around and try to hit it from behind."
  RUS: "Электромагнитные импульсные торпеды наносят мощный удар по цели. Если они преодолеют ЭМИ-защиту цели, цель будет выведена из строя на разное время (в зависимости от ее защиты). Диссольверные торпеды запрограммированы на запуск ракет MIRV, которые пройдут мимо цели, развернутся и попытаются поразить ее сзади."
  SPA: "Los torpedos de impulsos electromagnéticos generan una descarga tremenda en un radio que puede afectar también a objetivos aliados. Si dicha descarga acaba con las defensas PEM de una nave, quedará paralizada 3 segundos. "
+CA_Tech_FuelCell1_Desc:
+ Id: 571
+ ENG: "This technology will switch all of your ships' dedicated power cells over to the newer Deuterium standard.  Deuterium cells can hold 20% more power than a standard cell, which translates into longer effective range for ships as well as greater energy pools available for combat systems. "
+ RUS: "Эта технология позволяет переоборудовать все корабли под использование более современных дейтериевых энергоблоков. Дейтериевые блоки позволяют запасать на 15% больше энергии по сравнению со стандартными, что позволяет кораблям путешествовать на большие расстояния, а также предоставить больше энергии боевым системам."
+ SPA: "Esta tecnología cambiará todas las celdas de energía de tus naves por otras nuevas de deuterio,  que pueden contener 15% más de energía que una celda normal. Esto se traduce en un alcance efectivo mayor para las naves y en más reservas de energía para los sistemas de combate. "
+CA_Tech_FuelCell1_FuelCellBonus_Bonus:
+ Id: 572
+ ENG: "Gain an empire-wide 20% bonus to the amount of power that is stored in dedicated power cells"
+ RUS: "Дает по всей империи 20% бонус к запасу энергии, накопленной в энергоблоках"
+ SPA: "Añade una bonificación del 20% a la cantidad de energía almacenada en celdas de combustible" 
+CA_Tech_FuelCell2_Desc:
+ Id: 574
+ ENG: "Iridium has proven itself the superior element for power storage purposes.  This technology switches all of your empire's dedicated power cells to the Iridium standard, increasing dedicated power cell efficiency by a total of 50%."
+ RUS: "Иридий - оптимальный элемент для использования в энергетической промышленности. Переводит все корабли в империи на иридиевые энергоблоки, увеличивая их ресурс в сумме на 50%."
+ SPA: "El iridio ha demostrado ser lo mejor para el almacenamiento de energía.  Esta tecnología cambia todas las celdas de combustible de tu imperio por otras de iridio, aumentando su eficiencia en un 50%. "
+CA_Tech_FuelCell2_FuelCellBonus_Bonus:
+ Id: 575
+ ENG: "Gain an empire-wide 50% bonus to the amount of power that is stored in fuel cells"
+ RUS: "Дает по всей империи 50% бонус к энергии, запасаемой топливными блоками"
+ SPA: "Añade una bonificación del 50% a la cantidad de energía almacenada en celdas de combustible" 
 CA_Tech_HeavyFighterHull_Name:
  Id: 585
  ENG: "Corvette Construction"
@@ -356,7 +377,15 @@ CA_Tech_Logistics_Name:
  ENG: "Logistics"
  RUS: "Логистика"
  SPA: "Sociologística"
-BB_Tech_MissileArmor_Weapon_HP_Bonus:
+CA_Tech_MagneticArtillery_Name:
+ Id: 606
+ ENG: "Magnetic Artillery"
+ RUS: "Магнитная артиллерия"
+ SPA: "Artillería magnética"
+CA_Tech_MagneticArtillery_Desc:
+ Id: 607
+ ENG: "Firing weapons using powder charges alone is inefficient. By adding a magnetic push to our projectiles we can put more ordnance on target in a more efficient manner."
+CA_Tech_MissileArmor_Weapon_HP_Bonus:
  Id: 617
  ENG: "Increases the hitpoints of missile-based weaponry by 25%."
  RUS: "Увеличивает очки прочности всего ракетного оружия на 25%."
@@ -376,11 +405,19 @@ CA_Tech_PlasmaThrowers_Desc:
  ENG: "If we channeled highly-ionized Plasma directly from a ship reactor through a magnetized, high-pressure system, then we could spray our enemies with super-heated energy to devastating effect. Very effective against Armor but weak against shields. We also can now use similar methods to build a medium plasma cannon"
  RUS: "Если мы направим высокоионизированную плазму прямо из реактора корабля через намагниченную систему высокого давления, то мы сможем распылить на наших врагов перегретую энергию с разрушительным эффектом. Очень эффективено против брони, но почти бесполезно против щитов. Теперь мы можем использовать аналогичные методы для создания средней плазменной пушки."
  SPA: "Si canalizamos el plasma altamente ionizado directamente desde el reactor de una nave a través de un sistema magnetizado a alta presión, podemos rociar a nuestros enemigos de energía supercalentada con efectos devastadores. "
+CA_Tech_SiphonBeam_Name:
+ Id: 656
+ ENG: "Siphon Beam"
 CA_Tech_SiphonBeam_Desc:
  Id: 657
  ENG: "Siphon beams create a connection between the firing ship and the target ship's energy shields. The beam depletes the shield energy and transfers is into the firing ship's power stores. It's highly effective against shields."
  RUS: "Этот луч создает связь между энергетическими щитами двух кораблей, понижая энергию щита вражеского корабля и передавая ее на свой корабль. Это единственное применение данного оружия."
  SPA: "Los rayos de absorción establecen una conexión entre la nave que dispara y los escudos de energía de la nave objetivo. El rayo consume la energía de los escudos y la transfiere a las reservas de la nave atacante. El arma no tiene otra utilidad."
+CA_Tech_SubspaceArtillery_Name:
+ Id: 665
+ ENG: "Subspace Artillery I"
+ RUS: "Космическая артиллерия"
+ SPA: "Artillería subespacial" 
 CA_Tech_TachyonScanning_SensorRangeBonus_Bonus:
  Id: 682
  ENG: "Increases the range of all sensors by 25%."
@@ -415,11 +452,12 @@ FuelCellsCaptureAndStore:
  ENG: "Power cells capture and store power from a ship's powerplant. They are mainly needed for ships which use energy weapons, as they consume a lot of energy."
  RUS: "Ячейки собирают и накапливают энергию от силовой установки корабля. В основном они нужны для кораблей, которые используют энергетическое оружие, так как оно потребляют много энергии."
  SPA: "Las celdas de combustible captan y almacenan energía del generador de una nave aumentando el alcance operativo de esta, así como su aguante en combate."
-ThisShieldProvidesHpOf:
+CA_Module_LightForceField_Name:
+ Id: 916
+ ENG: "Light Force Field"
+CA_Module_LightForceField_Desc:
  Id: 917
- ENG: "By creating massive shield projectors, we can envelop entire ships, including escort ships, inside a single shield bubble. The power costs are massive but our military scientists believe that we can create excellent screening ships with this technology."
- RUS: "Создавая массивные проекторы щитов, мы можем окружить целые корабли, включая корабли сопровождения, одним пузырем щита. Затраты на электроэнергию огромны, но наши военные ученые считают, что с помощью этой технологии мы можем создать отличные экранирующие корабли."
- SPA: "Este escudo ofrece una protección de 25 000 puntos de vida en un radio de 400; su consumo energético es elevadísimo. "
+ ENG: "The Light Force Field generates a good coverage and regenerate very fast, when not in combat. It also has some plasma and kinetic resistance."
 CombatInformationCenter:
  Id: 920
  ENG: "Combat Information Center"
@@ -447,7 +485,7 @@ TwinEmpCannons:
  SPA: "Cañones PEM dobles"
 ThisSmallShieldIsCapable:
  Id: 949
- ENG: "A small shield developed specifically for our fighter and corvette ships. It is weaker than our medium shield generator, but still provides increasingly important protection for small craft. "
+ ENG: "A small shield developed specifically for our fighter and corvette ships. It cannot regenerate in combat, but still provides increasingly important protection for small craft. "
  RUS: "Небольшой щит, разработанный специально для наших истребителей и корветов. Он слабее, чем наш средний генератор щита, но все же обеспечивает важную защиту для малых судов."
  SPA: "Este pequeño escudo absorbe hasta 500 puntos de daño en un radio de 50 metros. Su rapidez de recarga hace que sea ideal para pequeños cazas. "
 ThisHangarBaySupportsA:
@@ -467,7 +505,7 @@ SmallArmoredFuelCell:
  SPA: "Celda de combustible blindada pequeña"
 ThisArmoredFuelCellIs:
  Id: 961
- ENG: "This armored Power Cell is reinforced in order to withstand more punishment in combat. It stores the same amount of power as basic power cells, but its mass in increased due to the Added reinforcement."
+ ENG: "This armored Power Cell is reinforced in order to withstand more punishment in combat. It stores somewhat less amount of power than Basic Power Cells, but its mass in increased due to the Added reinforcement."
  RUS: "Эта бронированная энерго-ячейка усилена, чтобы выдерживать больше боевых действий. Она сохраняет то же количество энергии, что и базовые элементы питания, но ее масса увеличивается за счет добавленного усиления."
  SPA: "Celda reforzada con el triple de puntos de vida, pero a costa de una mayor masa y una capacidad de combustible algo menor; su coste también es más alto."
 PdLaserCannon:
@@ -500,17 +538,24 @@ MediumFuelCell:
  ENG: "Medium Power Cell"
  RUS: "Средняя энерго-ячейка"
  SPA: "Celda de combustible mediana"
+MissileLauncher:
+ Id: 994
+ ENG: "Missile Launcher"
+ RUS: "Ракетная установка"
+ SPA: "Lanzamisiles"
+ThisLongRangeAntishipMissile:
+ Id: 995
+ ENG: "This long range anti-ship missile is bulky and slow, but can make short work of ships with poor point defense systems."
 DualMissileTurret:
  Id: 996
  ENG: "MRM Mk2"
  RUS: "MRM II "
- SPA: "Torreta de dos misiles"
 ATwinMissileLauncherOn:
  Id: 997
- ENG: "A medium range missile launcher on a swivel turret shooting 4 missiles per salvo. It also has the Terminal Phase system."
+ ENG: "A medium range missile launcher on a swivel turret shooting 4 missiles per salvo. It also has the Terminal Phase system and increased shield bypass chances."
  RUS: "Ракетная установка средней дальности на поворотной башне, выпускающая 4 ракеты за залп. Она также имеет систему конечной фазы."
  SPA: "Se trata de un lanzamisiles doble sobre una torreta que permite a los cruceros dominar los campos de batalla con abrumadoras andanadas de misiles."
-Mrls:
+CA_Module_MRM1_Name:
  Id: 998
  ENG: "MRM Mk1"
  RUS: "MRM I"
@@ -652,9 +697,9 @@ SmallPlasteelArmor:
  SPA: "Blindaje de plastiacero pequeño"
 PlasteelArmorProvidesApproximatelyLess3:
  Id: 1027
- ENG: "Plasteel armor provides approximately 25% less protection than steel armor but does so with half of the mass."
- RUS: "Броня из пластстали обеспечивает примерно на 25% меньшую защиту, чем стальная броня,но и весит в половину меньше."
- SPA: "El blindaje de plastiacero proporciona aproximadamente un 25% menos de protección que el de acero, pero tiene la mitad de masa"
+ ENG: "Plasteel armor provides approximately 25% less protection than steel armor but does so with half of the mass. It also has some EMP protection due to the composition of the armor."
+ RUS: "Пластальная броня обеспечивает примерно на 25% меньшую защиту, чем стальная броня, но при этом имеет вдвое меньшую массу. Он также имеет некоторую защиту от ЭМИ из-за состава брони."
+ SPA: "La armadura de plastiacero proporciona aproximadamente un 25 % menos de protección que la armadura de acero, pero lo hace con la mitad de la masa. También tiene algo de protección EMP debido a la composición de la armadura."
 PolaronCannonTurret:
  Id: 1028
  ENG: "Polaron Cannon Turret"
@@ -710,11 +755,12 @@ ThisShieldProvidesHpWorth:
  ENG: "This large shielding generator will provide substantial protection for our ships over a much wider area than previous shields. It was designed to be used effectively on larger ships."
  RUS: "Этот большой защитный генератор обеспечит существенную защиту наших кораблей на гораздо большей площади, чем предыдущие щиты. Он был разработан для эффективного использования на более крупных кораблях."
  SPA: "Este escudo proporciona una protección de 10 000 puntos de vida en un radio de 120 metros. Su consumo de energía es alto.  "
-ThisParticularShieldModelProvides:
+EnergyShield_Name:
+ Id: 1050
+ ENG: "Energy Shield" 
+EnergyShield_Desc:
  Id: 1051
- ENG: "This medium shield generator was developed in response to the need for stronger, less energy dependant shielding module for our ships. It requires less power than our Class I Magshields and provides much more protection, but has a slightly smaller range. "
- RUS: "Этот средний генератор щита был разработан в ответ на потребность в более мощном, менее энергозависимом защитном модуле для наших кораблей. Он требует меньше энергии, чем наши магнитные щиты I класса, и обеспечивает гораздо большую защиту, но имеет немного меньший радиус действия."
- SPA: "Este modelo de escudo en concreto proporciona una defensa de 1250 puntos de vida en un radio de 75 metros. "
+ ENG: "A medium sized shield with higher output, which can be installed on larger hulls. It recharges in combat and have larger covreage radius."
 PdVulcanCannon:
  Id: 1074
  ENG: "PD Vulcan Cannon"
@@ -727,9 +773,9 @@ TheVulcanCannonIsA:
  SPA: "El cañón vulcano es pequeño pero de disparo rápido, capaz de despedazar pequeños objetivos blindados con un aluvión de proyectiles con punta de uranio. Las armas de defensa puntual (DP) disparan automáticamente contra misiles atacantes y tienen una bonificación de daño frente a este tipo de armas. "
 CA_Tech_PhasedOrdnance_Weapon_ShieldPenetration_Bonus:
  Id: 2009
- ENG: "Provides a 20% shield penetration chance to projectiles fired from Ballistic Cannons"
- RUS: "Балистические орудия имеют 20% шанс пробить щит."
- SPA: "Los disparos de los cañones balísticos tienen un 20% más de posibilidades de penetrar los escudos"
+ ENG: "Provides a 10% shield penetration chance to projectiles fired from Ballistic Cannons"
+ RUS: "Балистические орудия имеют 10% шанс пробить щит."
+ SPA: "Los disparos de los cañones balísticos tienen un 10% más de posibilidades de penetrar los escudos"
 AllThoseWhoEnterThis:
  Id: 2116
  ENG: "The schematics for this building were found in the ruins on the Remnant homeworld. We believe that this device will allow us to transcend our physical forms. We won't know until we build it and turn it on."
@@ -897,14 +943,6 @@ CA_ThisFacilityIsALarge:
  Id: 5238
  ENG: "This Facility is a large, dedicated fabricator module. It is very power hungry, but can supply a lot of Ordnance."
  RUS: "Этот объект представляет собой большой специализированный модуль. Он очень энергоемкий, но производит много боеприпасов."
-CA_ArmoredOrdnanceLocker:
- Id: 5239
- ENG: "Armored Ordnance Locker"
- RUS: "Бронированный склад боеприпасов"
-CA_SmallArmoredOrdnanceLockersProvide:
- Id: 5240
- ENG: "Small armored ordnance lockers provide storage and defense"
- RUS: "Маленькие бронированные ящики для боеприпасов обеспечивают хранение и защиту"
 CA_Tech_SustainedSupport_Name:
  Id: 5241
  ENG: "Sustained Support"
@@ -937,14 +975,12 @@ CA_MaximumGoodsStorage2:
  Id: 5248
  ENG: "+150 maximum goods storage"
  RUS: "+150 места на складах"
-CA_XrayPulseBeam:
+CA_Module_Beam_PD_Name:
  Id: 5249
- ENG: "X-Ray Pulse Beam"
- RUS: "Рентген. импульсный луч"
-CA_XrayPulseBeamTurretFires:
+ ENG: "Beam Point Defense"
+CA_Module_Beam_PD_Desc:
  Id: 5250
- ENG: "X-Ray Pulse Beam turret fires rays of deadly X-Ray lasers in quick succession. It has near perfect accuracy and short to medium range, which makes it a good anti-fighter weapon."
- RUS: "Рентгеновский импульсный луч-турель стреляет смертельными лучами рентгеновских лазеров в быстрой последовательности. Он имеет почти идеальную точность и среднюю дальность, что делает его хорошим оружием для борьбы с истребителями."
+ ENG: "Beam point defense system can intercept incomming missiles using short pulse beams. It has wide effecting coverage, but small range."
 CA_HeavyAntimatterCannon:
  Id: 5251
  ENG: "Heavy Anti-Matter Cannon"
@@ -1111,8 +1147,7 @@ CA_ShadowStorm:
  RUS: "\"Шторм теней\""
 CA_ARapidFireShortRange:
  Id: 5292
- ENG: "A rapid fire, short range burst missile platform. Especially deadly against smaller fast moving ships, it functions most practically as an anti fighter/corvette weapon. It features a wide targeting angle, and a slight chance to penetrate enemy shields."
- RUS: "Скорострельная ракетная платформа с короткими очередями. Особенно смертоносен против небольших быстро движущихся кораблей, он наиболее эффективен как средство борьбы с истребителями и корветами. Он имеет широкий угол наведения и небольшой шанс пробить вражеские щиты."
+ ENG: "A rapid fire, short range burst missile platform. Especially deadly against smaller fast moving ships, it functions most practically as an anti fighter/corvette weapon. It features a wide targeting angle, slight chance to penetrate enemy shields and features high explosion radius. It is less efficient vs. Armor."
 CA_ShadowStorm2:
  Id: 5293
  ENG: "Shadow Storm"
@@ -1302,7 +1337,7 @@ CA_MrmMk:
  RUS: "MRM III"
 CA_ThisMrmPlatformLaunchesA:
  Id: 5340
- ENG: "This MRM platform launches a salvo of 8 missiles at unsuspecting targets. This weapon can easily overwhelm even the most potent point defense systems with its Terminal Phase system."
+ ENG: "This MRM platform launches a salvo of 8 missiles at unsuspecting targets. This weapon can easily overwhelm even the most potent point defense systems with its Terminal Phase system and ability to sometimes penetrate shields."
  RUS: "Эта платформа MRM запускает залп из 8 ракет по ничего не подозревающим целям. Это оружие может легко сокрушить даже самые мощные системы точечной защиты с его системой конечной фазы."
 CA_RailgunTurret:
  Id: 5341
@@ -2110,7 +2145,7 @@ CA_Tech_ElectronicArmors_Name:
  RUS: "Электро-броня"
 CA_Tech_ElectronicArmors_Desc:
  Id: 6560
- ENG: "This is a combination of early stage Metal armor, with the addition of solar collectors. These collectors, though providing less power flow than simple and armored solar panels, do also store a small amount of power within. Drawbacks are higher cost, and lower rigidity (even lower than Internal Bulkheads). As a bonus, they have some resistance to beam weapons, since the collectors need heat in order to provide power."
+ ENG: "This is a combination of early stage Metal armor, with the addition of solar collectors. These collectors, though providing less power flow than simple and armored solar panels, do also store a small amount of power within. Drawbacks are higher cost, and lower rigidity. As a bonus, they have some resistance to beam weapons, since the collectors need heat in order to provide power."
  RUS: "Это комбинация металлической брони ранней стадии с добавлением солнечных коллекторов. Эти коллекторы, хотя и обеспечивают меньший приток энергии, чем простые и бронированные солнечные панели,а также накапливают небольшое количество энергии внутри. Недостатки - более высокая стоимость и меньшая прочность (даже ниже, чем у внутренних переборок). В качестве бонуса у них есть некоторая устойчивость к лучевому оружию, поскольку коллекторы нуждаются в тепле для обеспечения энергией."
 CA_Tech_DepletedUraniumArmor_Name:
  Id: 6561
@@ -2210,8 +2245,8 @@ CA_BionicArmorRegensWhenDamaged:
  RUS: "Бионическая броня восстанавливается при повреждении."
 CA_BionicArmorIsInstalledExternally:
  Id: 6585
- ENG: "Bionic armor is installed externally on ships for protection. It can regenrate itself, repair the ship, and provide turn thrust. It Consumes power and weighs a lot. It also nullifies the effect of Armor Piercing I"
- RUS: "Бионическая броня устанавливается снаружи корабля для защиты. Она может восстанавливать себя, ремонтировать корабль и обеспечивать дополнительную поворотную тягу. Потребляет электроэнергию и много весит. Также аннулирует эффект \"Пробитие брони I\""
+ ENG: "Bionic armor is installed externally on ships for protection. It can regenrate itself, protect from EMP discharge, and provide turn thrust. It Consumes power and weighs a lot. It also nullifies the effect of Armor Piercing I"
+ RUS: "Бионическая броня устанавливается снаружи на корабли для защиты. Он может восстанавливать себя, защищать от разряда ЭМИ и обеспечивать поворотную тягу. Он потребляет энергию и много весит. Он также сводит на нет эффект пробивания брони I."
 CA_BionicArmorSmall:
  Id: 6586
  ENG: "Bionic Armor Small"
@@ -2302,8 +2337,8 @@ CA_ArmoredSolarpanel:
  RUS: "Бронированная солнечная панель"
 CA_ArmoredSolarpanelsProvidesSomePower:
  Id: 6608
- ENG: "Armored Solarpanels. Provides some power flow to space ships, at a lower rigidity and slightly higher price. This armor also has an interesting ability to slightly amplify installed shields in ships. Since The armor also generates energy, it tends to yield a small explosion when destroyed."
- RUS: "Бронированные солнечные панели. Обеспечивает некоторый приток энергии,сложна в производстве. У этой брони есть интересная способность немного усиливать установленные на кораблях щиты. Поскольку броня генерирует энергию, при разрушении она имеет тенденцию давать небольшой взрыв."
+ ENG: "Armored Solarpanels. Provides some power flow to space ships, at a lower rigidity and slightly higher price. This armor also has an interesting ability to slightly amplify installed shields in ships and streamline travel at warp. Since The armor also generates energy, it tends to yield a small explosion when destroyed."
+ RUS: "некоторый поток энергии для космических кораблей с меньшей жесткостью и немного более высокой ценой. У этой брони также есть интересная способность немного усиливать установленные на кораблях щиты и упрощать перемещение в варпе. Поскольку броня также генерирует энергию, при разрушении она имеет тенденцию вызывать небольшой взрыв."
 CA_ArmoredSolarpanelsProvideSomeTo:
  Id: 6609
  ENG: "Armored Solarpanels, provide some to spaceship"
@@ -2374,8 +2409,8 @@ CA_Tech_ShieldArmor_Name:
  RUS: "Щитовая броня"
 CA_ThisArmorHasMuchMore:
  Id: 6626
- ENG: "This Armor has much more improved Shield Amplification Technology. It is stronger than Steel Armor, but it costs more, weighs more, and needs power as well. It also nullifies the effect of Armor Piercing I"
- RUS: "Эта броня имеет улучшенную технологию уплотнения щита. Она прочнее, чем стальная броня, стоит дороже, больше весит и потребляет энергию. Также аннулирует эффект \"Пробитие брони I\""
+ ENG: "This Armor has much more improved Shield Amplification Technology. It is stronger than Steel Armor, but it costs more, weighs more, but generates more power for the ship. It also nullifies the effect of Armor Piercing I"
+ RUS: "Эта броня имеет гораздо более совершенную технологию усиления щита. Он прочнее Стальной брони, но стоит дороже, весит больше, но дает больше мощности для корабля. Он также сводит на нет эффект пробивания брони I."
 CA_TheMassproducedVersionOfExperimental:
  Id: 6627
  ENG: "The mass-produced version of Experimental Electronic Armor-5 Fairy(XSGA5). Greatly reduces energy comsuption and also improves power storage, range, and Shield Amplification."
@@ -2650,12 +2685,10 @@ CA_AColdFusionReactorVery:
  RUS: "Этот реактор очень стабильный и не взрывается с большим ущербом. Чтобы достичь этого, нам пришлось снизить выходную мощность, она соотвествует предыдущему термоядерному реактору."
 CA_ArmoredColdFusionReactor:
  Id: 8059
- ENG: "Armored Cold Fusion Reactor"
- RUS: "Брон.реактор холодного синтеза"
+ ENG: "Large Fusion Reactor"
 CA_BySacrificingASmallAmount:
  Id: 8060
- ENG: "By sacrificing a small amount of power, we were able to surround this Cold Fusion Reactor in protective armor plates, heavily increasing its durability and almost completely containing the explosion in the case of a structural collapse."
- RUS: "Пожертвовав небольшим количеством энергии, мы смогли окружить этот реактор холодного синтеза защитными пластинами, значительно увеличив его долговечность и почти полностью сдерживая взрыв в случае обрушения конструкции."
+ ENG: "Larger and more efficient Cold Fusion Reactor"
 CA_ArmoredAntimatterReactor:
  Id: 8061
  ENG: "Armored Anti-Matter Reactor"
@@ -2730,8 +2763,7 @@ CA_ARoboticFactoryAGreat:
  RUS: "Робототехническая фабрика. Великое технологическое чудо. Эти заводы используют роботов для производства и полностью автоматизированы. Эти фабрики эксплуатируют полезные ископаемые, не зависящие от минерального богатства планеты, но это происходит за счет серьезной нагрузки на окружающую среду планеты."
 CA_FertilityOnBuildFlatProduction:
  Id: 8079
- ENG: " (-0.5) Fertility On Build, +6 flat production per turn, +1 food per turn, +15% tax, +100 storage, +1 Infrastructure"
- RUS: " (-0.5) плодородия за постройку, +6 продукции за ход, +1 еды за ход, +15% налоговой доходности, +100 места на складе, +1 к инфраструтуре."
+ ENG: " (-0.5) Fertility On Build, +6 flat production per turn, +1 food per turn, +15% tax, +100 storage, +1 Infrastructure, adds ship repair"
 CA_Tech_NanoMining_Name:
  Id: 8080
  ENG: "Nano Mining"
@@ -3650,8 +3682,7 @@ CA_FlatResearchResearchAndCredits:
  RUS: "+0.75 к исследованиям, +0.2 к науке и кредам за колониста."
 CA_ProductionPerRichness:
  Id: 10078
- ENG: "+2 production per richness"
- RUS: "+2 продукции за богатство"
+ ENG: "+2 production per richness, plis 30,000 sensor range"
 CA_FertilityOnBuild:
  Id: 10079
  ENG: " (+0.3) fertility on build"
@@ -3890,8 +3921,8 @@ CA_SteelHmgDefense:
  RUS: "Стальной ККП"
 CA_AHeavyMachineGunTurret:
  Id: 12002
- ENG: "A Heavy Machine Gun turret mounted on a Steel Armor plate for added durability. An effective weapon against fighters and missiles. It has 60% strength and 75% Deflection of the non weapon Armor plate"
- RUS: "Турель крупнокалиберного пулемета вмонтирована в стальную броню, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони."
+ ENG: "A Heavy Machine Gun turret mounted on a Steel Armor plate for added durability. An effective weapon against fighters and missiles. It has 75% strength Deflection of the non weapon Armor plate"
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в стальную броню, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
 CA_KineticTurret:
  Id: 12003
  ENG: "Kinetic Turret"
@@ -3910,11 +3941,10 @@ CA_SolarPanelsHarvestEnergyFrom:
  RUS: "Солнечные панели собирают энергию звезд, чтобы дополнить основной источник питания корабля."
 CA_ClassIMagshield:
  Id: 12007
- ENG: "Class I MagShield"
- RUS: "Магнитный щит I Класса"
+ ENG: "Magnetic Shield"
 CA_WhilstOnlyCapableOfWithstanding:
  Id: 12008
- ENG: "Whilst only capable of withstanding a few hits, Magnetic fields are able to cover a wide area and are restored rapidly. This makes them ideal for drawn out skirmishes with smaller ships."
+ ENG: "First attampt at energy shielding, the Magnetic Shield is a crude device. Able to withstand only a few hits, it does feature recharge during combat."
  RUS: "Несмотря на то, что магнитные поля способны выдержать лишь несколько ударов, они способны охватывать большую площадь и быстро восстанавливаются. Это делает их идеальными для затяжных стычек с небольшими кораблями."
 CA_MediumOverdriveEngine:
  Id: 12009
@@ -3948,22 +3978,12 @@ CA_ThisExternalEngineChannelsEnergy:
  Id: 12018
  ENG: "This external engine channels energy directly from the central warp core and is able to boost a ships speed a significant amount, at both warp and sublight speeds. Unfortunately, safety standards require that this engine design cannot be used for maneuvering; this is to avoid the unfortunate possibility of the ship tearing itself to pieces."
  RUS: "Этот внешний двигатель направляет энергию непосредственно из центрального варп-ядра и может значительно увеличить скорость корабля как на варп, так и на субсветовых скоростях. К сожалению, стандарты безопасности требуют, чтобы двигатель этой конструкции нельзя было использовать для маневрирования; это делается для того, чтобы избежать досадной возможности разорвать корабль на части."
-CA_SolarPlate:
- Id: 12019
- ENG: "Solar Plate"
- RUS: "Солнечная пластина"
-CA_SolarPanelsHarvestEnergyFrom2:
- Id: 12020
- ENG: "Solar Panels harvest energy from stars to supplement a ships main power core. This variant is mounted on a Steel armor Plate to maximize ship defense. "
- RUS: "Солнечные панели собирают энергию звезд, чтобы дополнить основной источник питания корабля. Этот вариант устанавливается на стальную бронеплиту для лучшей защиты корабля."
 CA_StaticBarrier:
  Id: 12021
- ENG: "Static Barrier"
- RUS: "Статический барьер"
+ ENG: "Basic Deflector Shield"
 CA_PlacedOnTheOutsideOf:
  Id: 12022
- ENG: "Placed on the outside of a ship's hull, these units are charged slowly until they form a powerful, albeit highly localized electromagnetic shield."
- RUS: "Размещенные снаружи корпуса корабля, эти устройства заряжаются медленно, пока не образуют мощный, хотя и сильно локализованный электромагнитный щит."
+ ENG: "The Basic Deflector Shield has low strength, but high deflection rate, able to deflect low powered projectiles and it has some resistance to beam weapons. Unfortunately, it has low coverage and slow recharge rate."
 CA_JumpDrive:
  Id: 12023
  ENG: "Jump Drive"
@@ -3992,14 +4012,12 @@ CA_Tech_ArmHeavyShield_Name:
  Id: 12999
  ENG: "Heavy Shielding II"
  RUS: "Тяжелые щиты II"
-CA_ThisIsABetterArmored:
+CA_Module_Medium_Force_Field_Desc:
  Id: 13000
- ENG: "This is a better armored and more powerful canopy generator. Its power draw is exceptionally high."
- RUS: "Это лучше бронированный и более мощный генератор щита. Его потребляемая мощность исключительно высока."
-CA_Tech_ArmCanopyShield_Name:
+ ENG: "This is a better armored and more powerful Force Field. Its power draw is exceptionally high."
+CA_Tech_Force_Fields_II_Name:
  Id: 13001
- ENG: "Canopy Shields II"
- RUS: "Купольный щит II"
+ ENG: "Force Fields II"
 CA_Gunboat:
  Id: 17402
  ENG: "Gunboat"
@@ -4038,8 +4056,8 @@ CA_ProductionPerAssignedColonistCredits:
  RUS: "+1 продукции за задействованного колиниста,+0.1 кредитов за колониста, +50 места на складе, +2 к инфраструктуре"
 CA_Tech_MissileArmorv2_Name:
  Id: 17411
- ENG: "Advanced Missile Armor"
- RUS: "Продвинутая броня ракет"
+ ENG: "Missile Armor II"
+ RUS: "броня ракет II"
 CA_Tech_MissileArmorv2_Desc:
  Id: 17412
  ENG: "We have perfected a new technology to further increase the survivability of our missile-based weaponry by protecting them with advanced armor plating."
@@ -4058,8 +4076,8 @@ CA_MostAdvancedPlanetaryShieldingTechnology:
  RUS: "Мы можем укрепить территорию на колонизированных планетах, что затруднит наземное вторжение и орбитальные бомбардировки"
 CA_DefensiveBuildingPlanetaryShieldsInjuries:
  Id: 17416
- ENG: "Defensive Building; +1000 Planetary Shields, 2 injuries to each invading troop"
- RUS: "Оборонительное здание; +1000 планетарных щитов, 2 ранения каждому вторгающемуся отряду"
+ ENG: "Defensive Building; +750 Planetary Shields, 2 injuries to each invading troop"
+ RUS: "Оборонительное здание; +750 планетарных щитов, 2 ранения каждому вторгающемуся отряду"
 CA_EnergyPointDefenseTurret:
  Id: 17417
  ENG: "Energy Point Defense Turret"
@@ -4126,8 +4144,8 @@ CA_Tech_NanoMining_Desc:
  RUS: "Используя наши знания в области нано-машин, мы можем создавать ботов для нано-добычи. Эти крошечные машины сэкономят много времени и усилий, которые обычно тратятся на транспортировку и бурение при обычных горных работах."
 CA_ProvidesPowerFlowAndPower:
  Id: 17433
- ENG: "Provides power flow and power radius. Not as strong as steel armor, and much more expensive. It also has an improved Shield Amplification technology. Since The armor also generates energy, it tends to yield a small explosion when destroyed."
- RUS: "Обеспечивает приток энергии и радиус мощности. Не такая прочная как стальная броня, стоит намного дороже. Также имеет улучшенную технологию усиления щита. Поскольку броня генерирует энергию, при разрушении она имеет тенденцию давать небольшой взрыв."
+ ENG: "Provides power flow and power radius. Not as strong as steel armor, and much more expensive. It also has an improved Shield Amplification and Warp streamlining technologies. Since The armor also generates energy, it tends to yield a small explosion when destroyed."
+ RUS: "Обеспечивает поток мощности и радиус мощности. Не такая прочная, как стальная броня, и намного дороже. Он также имеет улучшенное усиление щита и технологии оптимизации деформации. Поскольку броня также генерирует энергию, при разрушении она имеет тенденцию вызывать небольшой взрыв."
 CA_Tech_CeramicArmor_Desc:
  Id: 17434
  ENG: "Ceramic Armor can withstand a little more punishment than Reactive Armor, but the true benefit is the decrease in mass. Ceramic Armor is very effective vs. Beams and Energy projectiles, and somewhat effective vs. Energy Projectiles. It is also more expensive than Reactive Armor."
@@ -4162,12 +4180,12 @@ CA_Tech_AssultRaiders_Desc:
  RUS: "Мы можем построить ангары еще большего размера, чтобы запускать более быстрые и большие корабли размером с корвет."
 CA_ThisDedicatedBomberModuleLaunches:
  Id: 17442
- ENG: "This dedicated bomber module launches a barrage of unguided, low accuracy space bombs. The bombs cause EMP damage, and are slightly more effective versus shields, but less effective versus armor. Launches 4 bombs per salvo."
- RUS: "Этот специальный модуль бомбардировщика запускает шквал неуправляемых космических бомб низкой точности. Бомбы наносят урон ЭМИ и более эффективны против щитов, но менее эффективны против брони. Выпускает 4 бомбы за залп."
+ ENG: "This dedicated bomber module launches a barrage of unguided, low accuracy space bombs. The bombs cause EMP damage, and are slightly more effective versus shields, but less effective versus armor."
+ RUS: "Этот специальный модуль бомбардировщика запускает шквал неуправляемых космических бомб низкой точности. Бомбы наносят урон ЭМИ и более эффективны против щитов, но менее эффективны против брони."
 CA_ThisModuleLaunchesABarrage:
  Id: 17443
- ENG: "This module launches a barrage of unguided, low accuracy space bombs. The hot plasma is highly effective versus armor. This module fires 4 bomb per salvo."
- RUS: "Этот модуль запускает шквал неуправляемых космических бомб низкой точности. Горячая плазма очень эффективна против брони. Этот модуль выпускает 4 бомбы за залп."
+ ENG: "This module launches a barrage of unguided, low accuracy space bombs. The hot plasma is highly effective versus armor."
+ RUS: "Этот модуль запускает шквал неуправляемых космических бомб низкой точности. Горячая плазма очень эффективна против брони."
 CA_Tech_LinkedAnti-Matter_Name:
  Id: 17444
  ENG: "Linked Anti-Matter"
@@ -4186,8 +4204,7 @@ CA_SinceFightersOfferLimitedSpace:
  RUS: "Поскольку истребители предлагают ограниченное пространство для систем, наши ученые рекомендуют инвестировать в исследования создания высокопроизводительного термоядерного генератора, специально разработанного для боевых действий истребителей."
 CA_Tech_ArmoredColdFusion_Desc:
  Id: 17448
- ENG: "We are able to envelop our Cold Fusion Reactors with decent armor, while still occupying the same space as a normal Cold Fusion Reactor. We are also able to upgrade our dedicated power cell's storage due to this advancement."
- RUS: "Мы можем покрыть наши реакторы холодного синтеза приличной броней, при этом занимая то же пространство, что и обычный реактор холодного синтеза. Благодаря этому усовершенствованию мы можем модернизировать хранилище специальных энерго-ячеек."
+ ENG: "We are able to develop our Cold Fusion Tech into larger, more efficient Reactors. We are also able to upgrade our dedicated power cell's storage due to this advancement."
 CA_Tech_ArmoredAnti-Matter_Desc:
  Id: 17449
  ENG: "We are able to envelop our Anti-Matter Reactors with decent armor, while still occupying the same space as a normal Plasma Reactor. We are also able to upgrade our dedicated power cell's storage due to this advancement."
@@ -4199,9 +4216,9 @@ CA_Tech_FusionReactor_Desc:
 CA_Tech_ArmHeavyShield_Desc:
  Id: 17451
  ENG: "It is now possible to improve our Class III shields' output and add more protection around them. as well as some projectile deflection."
-CA_Tech_ArmCanopyShield_Desc:
+CA_Tech_Force_Fields_II_Desc:
  Id: 17452
- ENG: "It is now possible to improve our Canopy shields' output and add armor plates to protect them, as well as Projectile Deflection. "
+ ENG: "We can create larger and more efficient Force Field Emitters."
 CA_FighterTorpedoes:
  Id: 17453
  ENG: "Fighter Torpedoes"
@@ -4472,7 +4489,7 @@ CA_Tech_MassiveAnti-Matter_Desc:
  RUS: "Теперь мы можем построить невероятно мощный и очень большой реактор антиматерии.  Количество хранящегося в нем антиматерии чрезвычайно изменчиво, и если реактор будет разрушен, несомненно, произойдет мощный взрыв."
 CA_Tech_ArmoredColdFusion_Name:
  Id: 17520
- ENG: "Armored Cold Fusion"
+ ENG: "Extreme Cold Fusion"
  RUS: "Холодный синтез в оболочке"
 CA_Tech_ArmoredQuantumFusion_Name:
  Id: 17521
@@ -4706,38 +4723,30 @@ CA_EnemyCommandersWillQuakeIn:
  Id: 17578
  ENG: "Enemy commanders will quake in fear at the sight of our new large Disintegrator arrays. These hulking weapons can only be fitted on Battleships or Titans, however."
  RUS: "Командиры противника будут дрожать от страха при виде наших новых больших массивов дезинтеграторов.  Однако это громоздкое оружие можно установить только на линкоры или титаны."
-CA_Tech_Fast_Shielding_I_Name:
+CA_Tech_Deflectors_I_Name:
  Id: 17579
- ENG: "Fast Shielding I"
- RUS: "Быстрое экранирование I"
-CA_Tech_Fast_Shielding_I_Desc:
+ ENG: "Deflectors I"
+CA_Tech_Deflectors_I_Desc:
  Id: 17580
- ENG: "Since the recharge rate of our Class I Shields is rather low, we can invest research into a slightly stronger medium and small shield with a faster recharge rate."
- RUS: "Поскольку скорость перезарядки наших щитов I класса довольно низкая, мы можем инвестировать исследования в чуть более сильный средний и малый щит с более быстрой скоростью перезарядки."
-CA_Tech_Fast_Shielding_II_Name:
+ ENG: "Expending our knowledge of basic deflector technology, we can create specialized low yield deflection emitters which have increased deflection rate."
+CA_Tech_Deflectors_II_Name:
  Id: 17581
- ENG: "Fast Shielding II"
- RUS: "Быстрое экранирование II"
-CA_Tech_Fast_Shielding_II_Desc:
+ ENG: "Deflectors II"
+CA_Tech_Deflectors_II_Desc:
  Id: 17582
- ENG: "Since the recharge rate of our Class III Shields is rather low, we can attempt to research a slightly stronger large shield with a faster recharge rate."
- RUS: "Поскольку скорость перезарядки наших щитов III класса довольно низкая, мы можем попытаться исследовать более сильный большой щит с более высокой скоростью перезарядки."
-CA_ClassIFastShield:
+ ENG: "Increase in hull sizes will require better deflector technology. We can great larger Deflectors and advanced small crafts Deflectors."
+CA_Module_Class_I_Deflector_Name:
  Id: 17583
- ENG: "Class I Fast Shield"
- RUS: "Быстрый щит I класса"
-CA_ThisMediumShieldHasA:
+ ENG: "Class I Deflector"
+CA_Module_Class_I_Deflector_Desc:
  Id: 17584
- ENG: "This medium shield has a very fast recharge rate, which takes some time to kick in after combat. It is also stronger than a regular class I medium shield. Unfortunately, it draws more power in hyperspace."
- RUS: "Этот средний щит имеет очень быструю перезарядку, поэтому после боя требуется некоторое время, чтобы зарядится.  Он также сильнее обычного среднего щита I класса.  К сожалению, в гиперпространстве он потребляет больше энергии."
-CA_ClassIiiFastShield:
+ ENG: "The Class I deflector has a low coverage radius, but better deflection than the Basic Deflector Shield, along with beam resistence."
+CA_Module_Class_II_Deflector_Name:
  Id: 17585
- ENG: "Class III Fast Shield"
- RUS: "Быстрый щит III класса"
-CA_ThisLargeShieldHasA:
+ ENG: "Class II Deflector"
+CA_Module_Class_II_Deflector_Desc:
  Id: 17586
- ENG: "This large shield has a very fast recharge rate, which takes some time to kick in after combat. It is also stronger than a regular class III large shield. Unfortunately, it draws more power in hyperspace."
- RUS: "Этот большой щит имеет очень быструю перезарядку, поэтому после боя требуется некоторое время, чтобы зарядится.  Он также прочнее обычного большого щита III класса.  К сожалению, в гиперпространстве он потребляет больше энергии."
+ ENG: "A larger deflector with more coverage and better deflection."
 CA_Tech_Battle_Shielding_I_Name:
  Id: 17587
  ENG: "Battle Shielding I"
@@ -4754,26 +4763,20 @@ CA_Tech_Battle_Shielding_II_Desc:
  Id: 17590
  ENG: "We believe it would be possible to further improve our quickly recharging Class III Fast shields by making them a little stronger, and adding the ability to recharge during combat."
  RUS: "Мы считаем, что можно было бы еще больше улучшить наши быстро перезаряжаемые щиты III класса, сделав их немного сильнее и добавив возможность перезарядки во время боя."
-CA_ClassIBattleShield:
+CA_Module_Class_I_BattleShield_Name:
  Id: 17591
  ENG: "Class I Battle Shield"
  RUS: "Боевой щит I класса"
-CA_ThisShieldHasAVery:
+CA_Module_Class_I_BattleShield_Desc:
  Id: 17592
- ENG: "This shield has a very fast recharge rate, which takes some time to kick in after combat. It can also recharge during combat, and it is stronger than a regular Class I Fast shield. Unfortunately, it draws more power."
- RUS: "У этого щита ускоренная перезарядка, поэтому после боя нужно не много времени, для накопления щита.  Он также может перезаряжаться во время боя и сильнее обычного быстрого щита I класса.  К сожалению, он потребляет больше энергии."
-CA_ClassIiiBattleShield:
+ ENG: "This shield has better power output and combat recharge range. It also has slight projectile deflection."
+CA_Module_Class_II_BattleShield_Name:
  Id: 17593
- ENG: "Class III Battle Shield"
- RUS: "Боевой щит III класса"
-CA_ThisShieldHasAVery2:
+ ENG: "Class II Battle Shield"
+ RUS: "Боевой щит II класса"
+CA_Module_Class_II_BattleShield_Desc:
  Id: 17594
- ENG: "This shield has a very fast recharge rate, which takes some time to kick in after combat. It can also recharge during combat, and it is stronger than a regular Class III Fast shield. Unfortunately, it draws more power."
- RUS: "У этого щита ускоренная перезарядка, поэтому после боя нужно не много времени, чтобы зарядится.  Он также может перезаряжаться во время боя и сильнее обычного быстрого щита III класса.  К сожалению, он потребляет больше энергии."
-CA_Tech_SmallStations_Name:
- Id: 17595
- ENG: "Small Stations"
- RUS: "Малые станции"
+ ENG: "This shield is bigger and heavier, but can produce stonger and larger shield, with some Shield Deflection."
 CA_Tech_SmallStations_Desc:
  Id: 17596
  ENG: "In order to defend our colonies from the growing danger of enemy fleets, we have recently devised blueprints to construct our first orbital station, a new type of structure that is larger than our small and heavy platforms."
@@ -4804,8 +4807,8 @@ CA_Tech_FighterTheoryII_Desc:
  RUS: "Мы можем разработать истребительный отсек, который сможет удерживать наши более крупные корпуса истребителей, а также бомбардировщики."
 CA_ThisIsABomberDedicated:
  Id: 17603
- ENG: "This is a bomber dedicated Anti-Matter bomb bay. The bombs will inflict heavy, pure damage to slower moving enemy capital ships. This module fires 4 bombs per salvo."
- RUS: "Этот отсек предназначенный для антиматериальных бомб.Его можно установить на наши бомбардировщики. Бомбы нанесут тяжелый чистый урон медленно движущимся крупным кораблям противника. Производится 4 спуска бомб за залп."
+ ENG: "This is a bomber dedicated Anti-Matter bomb bay. The bombs will inflict heavy, pure damage to slower moving enemy capital ships."
+ RUS: "Этот отсек предназначенный для антиматериальных бомб.Его можно установить на наши бомбардировщики. Бомбы нанесут тяжелый чистый урон медленно движущимся крупным кораблям противника."
 CA_MeltBombBays:
  Id: 17604
  ENG: "Melt Bomb Bays"
@@ -4816,12 +4819,12 @@ CA_WeCanDevelopInternalMelt:
  RUS: "Мы можем разработать внутренние отсеки бомб плавления для наших бомбардировщиков, которые будут очень хорошо боротся со щитами противника, а также наносить некоторый урон ЭМИ."
 CA_MeltBombBays2:
  Id: 17606
- ENG: "Melt Bomb Bays 3"
- RUS: "Отсеки для бомб плавления 3"
+ ENG: "Melt Bomb Bays"
+ RUS: "Отсеки для бомб плавления"
 CA_MeltBombsDealHighDamage:
  Id: 17607
- ENG: "Melt bombs deal high damage, are effective against shields, and cause some EMP damage. They are slightly more accurate and robust in comparison to other fighter bombs, but they are also slower. This module fires 3 bombs per salvo."
- RUS: "Бомбы плавления наносят большой урон, эффективны против щитов и вызывают некоторый урон ЭМИ.  Они более точны и надежны по сравнению с другими бомбами истребителей, но они также медленнее.  Этот модуль выпускает 3 бомбы за залп."
+ ENG: "Melt bombs deal high damage, are effective against shields, and cause some EMP damage. They are slightly more accurate and robust in comparison to other fighter bombs, but they are also slower."
+ RUS: "Бомбы плавления наносят большой урон, эффективны против щитов и вызывают некоторый урон ЭМИ.  Они более точны и надежны по сравнению с другими бомбами истребителей, но они также медленнее."
 CA_FighterShieldBomb:
  Id: 17608
  ENG: "Fighter Shield Bomb"
@@ -4832,16 +4835,16 @@ CA_WeCanDevelopInternalShieldbomb:
  RUS: "Мы можем разработать внутренние отсеки щитовых бомб для бомбардировщиков.  Эти бомбы были разработаны для борьбы с кораблями, которые используют щиты как единственное средство защиты."
 CA_ShieldbombBay:
  Id: 17610
- ENG: "Shield-Bomb Bay 3"
- RUS: "Отсек щитовых бомб 3"
+ ENG: "Shield-Bomb Bay"
+ RUS: "Отсек щитовых бомб"
 CA_ShieldBombsAreSpecificallyDesigned:
  Id: 17611
- ENG: "Shield Bombs are specifically designed to counter enemies who only use shields to defend their ships. These bombs have a 75% chance to bypass shields and damage ship components, while delivering a small amount of EMP damage. They are not very effective against armor, however. This module fires 3 bombs per salvo."
- RUS: "Щитовые бомбы специально разработаны для борьбы с врагами, которые используют щиты как единственную защиту своих кораблей.  Эти бомбы имеют 75% шанс обойти щиты и повредить компоненты корабля, нанося при этом небольшой урон ЭМИ.  Однако они не очень эффективны против брони.  Этот модуль выпускает 3 бомбы за залп."
+ ENG: "Shield Bombs are specifically designed to counter enemies who only use shields to defend their ships. These bombs have a 75% chance to bypass shields and damage ship components, while delivering a small amount of EMP damage. They are not very effective against armor, however."
+ RUS: "Щитовые бомбы специально разработаны для борьбы с врагами, которые используют щиты как единственную защиту своих кораблей.  Эти бомбы имеют 75% шанс обойти щиты и повредить компоненты корабля, нанося при этом небольшой урон ЭМИ.  Однако они не очень эффективны против брони."
 CA_IonBombBay:
  Id: 17612
- ENG: "Ion Bomb Bay 4"
- RUS: "Отсек ионных бомб 4"
+ ENG: "Ion Bomb Bay"
+ RUS: "Отсек ионных бомб"
 CA_IonBombBay2:
  Id: 17613
  ENG: "Ion Bomb Bay 6"
@@ -4860,8 +4863,8 @@ CA_ThisIsABiggerVersion3:
  RUS: "Это увеличенная версия отсека ионных бомб 6. Она выпускает 8 бомб за залп."
 CA_AntimatterBombBay2:
  Id: 17617
- ENG: "Anti-Matter Bomb Bay 4"
- RUS: "Отсек антиматериальных бомб 4"
+ ENG: "Anti-Matter Bomb Bay"
+ RUS: "Отсек антиматериальных бомб"
 CA_AntimatterBombBay3:
  Id: 17618
  ENG: "Anti-Matter Bomb Bay 6"
@@ -4880,8 +4883,8 @@ CA_ThisIsABiggerVersion5:
  RUS: "Это увеличенная версия отсека антиматериальных бомб 6. Она выпускает 8 бомб за залп."
 CA_PlasmaBombBay:
  Id: 17622
- ENG: "Plasma Bomb Bay 4"
- RUS: "Отсек плазменных бомб 4"
+ ENG: "Plasma Bomb Bay"
+ RUS: "Отсек плазменных бомб"
 CA_PlasmaBombBay2:
  Id: 17623
  ENG: "Plasma Bomb Bay 6"
@@ -4900,8 +4903,8 @@ CA_ThisIsABiggerVersion7:
  RUS: "Это увеличенная версия отсека плазменных бомб 6. Она выпускает 8 бомб за залп."
 CA_MeltBombBay:
  Id: 17627
- ENG: "Melt Bomb Bay 4"
- RUS: "Отсек бомб плавления 4"
+ ENG: "Melt Bomb Bay"
+ RUS: "Отсек бомб плавления"
 CA_ThisIsABiggerVersion8:
  Id: 17628
  ENG: "This is a bigger version of the Melt Bomb Bay 3. It fires 4 bombs per salvo."
@@ -4924,8 +4927,7 @@ CA_TheseAreTrulyHighFire:
  RUS: "Это действительно высокотехнологичное лазерное оружие. Наносит много урона и требует большой мощности."
 CA_MaximumGoodsStorage4:
  Id: 17633
- ENG: "+600 maximum goods storage"
- RUS: "+600 места на складе"
+ ENG: "+600 maximum goods storage, +1 infrastructure"
 CA_AdvancedPulseCapacitor:
  Id: 17634
  ENG: "Advanced Pulse Capacitor"
@@ -5152,7 +5154,7 @@ CA_Tech_Advanced_Powercells_Name:
  RUS: "Продвинутые энерго-ячейки"
 CA_Tech_Advanced_Powercells_Desc:
  Id: 17690
- ENG: "Advancements into new types battery technology allow us to manufacture higher capacity Power Cells."
+ ENG: "Advancements into new types battery technology allow us to manufacture higher capacity Power Cells. They are somewhat unstable and explode when destroyed."
  RUS: "Достижения в области технологий батарей нового типа, позволяют нам производить элементы питания большей емкости."
 CA_SmallAdvancedPowerCell:
  Id: 17691
@@ -5378,14 +5380,12 @@ CA_ThisCockpitAllowsForTwo:
  Id: 17747
  ENG: "This Cockpit allows for two pilots to control the craft, with more integration between systems. It's slightly better than 2 separate cockpits."
  RUS: "Эта кабина позволяет управлять кораблем с большей интеграцией между системами и большим количеством экипажа. Это немного лучше, чем две отдельные кабины."
-CA_AdvancedFighterShieldGenerator:
+CA_Module_SmallCraftForceField_Name:
  Id: 17750
- ENG: "Advanced Fighter Shield Generator"
- RUS: "Прод.щит истребителя"
-CA_ALargerModuleWithLinked:
+ ENG: "Small Craft Force Field"
+CA_Module_SmallCraftForceField_Desc:
  Id: 17751
- ENG: "A larger module with 2 linked shield generators provides heavy shield support for small craft, probably the best we can ever get. However, the recharge rate is very slow."
- RUS: "Модуль большего размера с двумя связанными генераторами щита обеспечивает прочную поддержку щита для малых судов, вероятно, лучшее, что мы когда-либо могли получить. Однако скорость перезарядки очень низкая."
+ ENG: "A smaller version of the Light Force Field which can be fitted on small craft. It has good coverage and regeneartion."
 CA_DroneAntifighterCannonMk:
  Id: 17752
  ENG: "Drone Anti-Fighter Cannon Mk1"
@@ -5436,12 +5436,10 @@ CA_WithTheAbilityToRecharge:
  RUS: "Благодаря способности перезаряжаться во время боя, наряду с устойчивостью к лучевому вооружению, эти щиты должны заметно улучшить боевые возможности наших малых кораблей."
 CA_FighterBattleShield:
  Id: 17764
- ENG: "Fighter Battle Shield"
- RUS: "Боевой щит истребителя"
+ ENG: "Small Craft Battle Shield"
 CA_ThisIsAnImprovedVersion2:
  Id: 17765
- ENG: "This is an improved version of the Fast Fighter Shield. It can recharge during combat, but it demands more power."
- RUS: "Это улучшенная версия быстрого щита истребителя. Он может перезаряжаться во время боя, но требует большей мощности."
+ ENG: "A Battle shield suitable for Frigates, Corvettes and Fighters. It has higher output and recharge than the older Fighter Shield."
 CA_FighterBlueShield:
  Id: 17766
  ENG: "Fighter Blue Shield"
@@ -5452,12 +5450,10 @@ CA_ThisFighterShieldVersionIs:
  RUS: "Эта версия щита истребителя похожа на боевой щит истребителя, но с высокой устойчивостью к энергетическому и лучевому оружию."
 CA_AdvancedFighterBattleShield:
  Id: 17768
- ENG: "Advanced Fighter Battle Shield"
- RUS: "Прод.боевой щит истребителя"
+ ENG: "Adv. Small Craft Battle Shield"
 CA_ThisIsAnImprovedVersion3:
  Id: 17769
- ENG: "This is an improved version of the Advanced Fighter Fast Shield. It can recharge during combat, but it demands more power."
- RUS: "Это улучшенная версия продвинутого быстрого щита истребителя. Он может перезаряжаться во время боя, но требует большей мощности."
+ ENG: "This is an improved version of the Small Craft Battle Shield. it is less cost effective, but can fit in tight places."
 CA_AdvancedFighterBlueShield:
  Id: 17770
  ENG: "Advanced Fighter Blue Shield"
@@ -5744,40 +5740,40 @@ CA_ReactiveHmgDefense:
  RUS: "Реактивный ККП"
 CA_AHeavyMachineGunTurret2:
  Id: 17841
- ENG: "A Heavy Machine Gun turret mounted on a Reactive Armor plate for added durability. It has 60% of the strength and 75% Deflection of the non weapon Armor plate."
- RUS: "Турель крупнокалиберного пулемета вмонтирована в реактивную броню, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони."
+ ENG: "A Heavy Machine Gun turret mounted on a Reactive Armor plate for added durability. It has 75% strength and Deflection of the non weapon Armor plate."
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в реактивную броню, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
 CA_CeramicHmgDefense:
  Id: 17842
  ENG: "Ceramic HMG Defense"
  RUS: "Керамический ККП"
 CA_AHeavyMachineGunTurret3:
  Id: 17843
- ENG: "A Heavy Machine Gun turret mounted on a Ceramic Armor plate for added durability. It has 60% of the strength and 75% Deflection of the non weapon Armor plate."
- RUS: "Турель крупнокалиберного пулемета вмонтирована в керамическую броню, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони ."
+ ENG: "A Heavy Machine Gun turret mounted on a Ceramic Armor plate for added durability. It has 75% strength and Deflection of the non weapon Armor plate."
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в керамическую броню, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони ."
 CA_CompositeHmgDefense:
  Id: 17844
  ENG: "Composite HMG Defense"
  RUS: "Композитный ККП"
 CA_AHeavyMachineGunTurret4:
  Id: 17845
- ENG: "A Heavy Machine Gun turret mounted on a Composite Alloys Armor plate for added durability. It has 60% of the strength and 75% Deflection of the non weapon Armor plate."
- RUS: "Турель крупнокалиберного пулемета вмонтирована в композитную броню, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони."
+ ENG: "A Heavy Machine Gun turret mounted on a Composite Alloys Armor plate for added durability. It has 75% strength and Deflection of the non weapon Armor plate."
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в композитную броню, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
 CA_CrystalHmgDefense:
  Id: 17846
  ENG: "Crystal HMG Defense"
  RUS: "Кристалический ККП"
 CA_AHeavyMachineGunTurret5:
  Id: 17847
- ENG: "A Heavy Machine Gun turret mounted on a Crystal Armor plate for added durability. An effective weapon against fighters and missiles. It has 60% of the strength and 75% Deflection of the non weapon Armor plate."
- RUS: "Турель крупнокалиберного пулемета вмонтирована в кристалическую броню, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони."
+ ENG: "A Heavy Machine Gun turret mounted on a Crystal Armor plate for added durability. An effective weapon against fighters and missiles. It has 75% strength and Deflection of the non weapon Armor plate."
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в кристалическую броню, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
 CA_HyperActiveHmgDefense:
  Id: 17848
  ENG: "Hyper Active HMG Defense"
  RUS: "Гиперактивный ККП"
 CA_AHeavyMachineGunTurret6:
  Id: 17849
- ENG: "A Heavy Machine Gun turret mounted on a Hyper Active Armor plate for added durability. An effective weapon against fighters and missiles. It has 60% of the strength and 75% Deflection of the non weapon Armor plate."
- RUS: "Турель крупнокалиберного пулемета вмонтирована в гиперактивную броню, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони."
+ ENG: "A Heavy Machine Gun turret mounted on a Hyper Active Armor plate for added durability. An effective weapon against fighters and missiles. It has 75% strength and Deflection of the non weapon Armor plate."
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в гиперактивную броню, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
 CA_ClassVShield:
  Id: 17850
  ENG: "Class V Shield"
@@ -5798,22 +5794,18 @@ CA_Tech_ArmHeavyShield2_Desc:
  Id: 17854
  ENG: "It is now possible to improve the output of our Class V shields, along with more protection for the shields themselves and even better Projectile Deflection"
  RUS: "Теперь можно улучшить мощность наших щитов класса V, а также добавить вокруг них броневые пластины из композитного сплава для большей защиты."
-CA_AdvancedCanopyShield:
+CA_Module_Heavy_Force_Field_Name:
  Id: 17855
- ENG: "Advanced Canopy Shield"
- RUS: "Продвинутый купольный щит"
-CA_TheBestCanopyShieldGenerator:
+ ENG: "Heavy Force Field"
+CA_Module_Heavy_Force_Field_Desc:
  Id: 17856
- ENG: "The best Canopy Shield Generator we can safely install on a starship."
- RUS: "Лучший генератор купольного типа, который мы можем безопасно установить на космический корабль."
-CA_Tech_ArmCanopyShield2_Name:
+ ENG: "The best force field we can create. It draws a lot of energy and have a very large coverage."
+CA_Tech_Force_Fields_III_Name:
  Id: 17857
- ENG: "Canopy Shielding III"
- RUS: "Купольный щит III"
-CA_Tech_ArmCanopyShield2_Desc:
+ ENG: "Force Fields III"
+CA_Tech_Force_Fields_III_Desc:
  Id: 17858
- ENG: "It is now possible to improve the output of our Canopy shields, and add more protection for the shields, as well as higer Projectile Deflection."
- RUS: "Теперь можно улучшить производительность наших купольных щитов, а также добавить вокруг них пластины активной брони для большей защиты."
+ ENG: "It is now possible to improve the output of our Force Fields, suited for our big ship hulls."
 CA_NanoOrdnanceLocker:
  Id: 17859
  ENG: "Nano Ordnance Locker"
@@ -5914,22 +5906,18 @@ CA_AnAdvancedShieldUsedBy:
  Id: 17883
  ENG: "An Advanced shield used by Remnant Fighters."
  RUS: "Продвинутый щит, используемый истребителями Предтечь."
-CA_FighterFastShield:
+CA_Module_Small_Craft_Deflector_Name:
  Id: 17884
- ENG: "Fighter Fast Shield"
- RUS: "Быстрый щит истребителя"
-CA_ThisIsAnImprovedVersion6:
+ ENG: "Small Craft Deflector"
+CA_Module_Small_Craft_Deflector_Desc:
  Id: 17885
- ENG: "This is an improved version of the Standard Fighter Shield. It has a much faster recharge rate, but it needs more time before recharge starts."
- RUS: "Это улучшенная версия щита истребителя. Скорость перезарядки намного выше, но до начала перезарядки требуется больше времени."
-CA_AdvancedFighterFastShield:
+ ENG: "A small sized deflector which can be mounted on small craft."
+CA_Module_Small_Craft_Deflector_Adv_Name:
  Id: 17886
- ENG: "Advanced Fighter Fast Shield"
- RUS: "Прод.быстрый щит истребителя"
-CA_ThisIsAnImprovedAnd:
+ ENG: "Advanced Small Craft Deflector"
+CA_Module_Small_Craft_Deflector_Adv_Desc:
  Id: 17887
- ENG: "This is an improved and somwhat larger version of the Fast Fighter Shield. After a decently long cool down, it can recharge very quickly."
- RUS: "Это улучшенная и немного увеличенная версия быстрого щита истребителя. После прилично длительного остывания он может очень быстро перезарядиться."
+ ENG: "This is an improved and somewhat larger version of the Small Craft Deflector."
 CA_Tech_NanoweaveMetallurgy_Bonus:
  Id: 17888
  ENG: "Provides a 10% hit point bonus to all ship modules."
@@ -6492,8 +6480,8 @@ CA_Tech_ShieldsV1_Desc:
  RUS: "Усовершенствованные технологии инженерии, увеличивают силу наших щитов на 10% за каждый уровень технологии (включая силу планетарных щитов)."
 CA_Tech_ShieldsV1_Bonus:
  Id: 18059
- ENG: "Increase Shields Strength by 15%"
- RUS: "Увеличивает силу щитов на 15%"
+ ENG: "Increase Shields Strength by 10%"
+ RUS: "Увеличивает силу щитов на 10%"
 CA_Tech_ShieldsV2_Name:
  Id: 18060
  ENG: "Shields Efficiency V2"
@@ -6560,12 +6548,11 @@ CA_TritaniumHmgDefense:
  RUS: "Тритановый ККП"
 CA_AHeavyMachineGunTurret7:
  Id: 18076
- ENG: "A Heavy Machine Gun turret mounted on a Tritanium Armor plate for added durability. An effective weapon against fighters and missiles. It has 60% of the strength and 75% Deflection of the non weapon Armor plate."
- RUS: "Турель крупнокалиберного пулемета вмонтирована в тритановую плиту, эффективное оружие против ракет и истребителей. Броня имеет 60% прочности и 75% отражения брони."
-CA_CanopyShieldingIi:
+ ENG: "A Heavy Machine Gun turret mounted on a Tritanium Armor plate for added durability. An effective weapon against fighters and missiles. 18076"
+ RUS: "Турель крупнокалиберного пулемета вмонтирована в тритановую плиту, эффективное оружие против ракет и истребителей. Броня имеет 75% прочности и 75% отражения брони."
+CA_Module_Medium_Force_Field_Name:
  Id: 18077
- ENG: "Canopy Shielding II"
- RUS: "Улучшенный купольный щит"
+ ENG: "Medium Force Field
 CA_Tech_AMX50Revolver_Name:
  Id: 18078
  ENG: "Anti Capital Missiles III"
@@ -7267,13 +7254,13 @@ CA_Tech_OrdnancePayloadV_Name:
  ENG: "Ordnance Payload V"
 CA_Tech_OrdnancePayloadI_Weapon_Damage_Bonus:
  Id: 18257
- ENG: "Kinetic and Torpedo damage +5%"
-CA_Tech_OrdnancePayloadI_Weapon_ExplosionRadius_Bonus:
+ ENG: "Kinetic and Torpedo damage +3%"
+CA_Tech_OrdnancePayloadMulti_Weapon_ExplosionRadius_Bonus:
  Id: 18258
- ENG: "Explosion radius +5%"
+ ENG: "Missile and Torpedo Explosion radius +3%"
 CA_Tech_OrdnancePayloadI_missile_Bonus:
  Id: 18259
- ENG: "Missile damage +8%"
+ ENG: "Missile damage +3%"
 CA_Tech_RemnantAssembly_Name:
  Id: 18260
  ENG: "Remnant Assembly"
@@ -7321,7 +7308,7 @@ CA_Tech_PlasmaWeaponsI_Desc:
  ENG: "We are now able to build plasma cannons by using ionized reactor Plasma with higher pressure. The magnetized pressure system requires, however, more constant power and even extra reactor power to fire."
 CA_Mod_ShapeMemoryArmor_Desc:
  Id: 18275
- ENG: "Shapememory armor is installed externally on ships for protection. It can regenrate itself but it consumes power and weighs much more than Plasteel."
+ ENG: "Shapememory armor is installed externally on ships for protection. It can regenrate itself but it consumes power and weighs much more than Plasteel.It has better EMP protection, though."
 CA_Mod_ShapeMemoryArmorSmall_Name:
  Id: 18276
  ENG: "Shapememory Armor Small"
@@ -7370,3 +7357,245 @@ CA_RailgunTurretV2:
 CA_TwoRailgunsMountedOnAV2:
  Id: 18291
  ENG: "An upgrade for the older rail gun turret, with higher damage and range."
+CA_Tech_Shields_Name:
+ Id: 18292
+ ENG: "Basic Shielding"
+CA_Tech_Shields_Desc:
+ Id: 18293
+ ENG: "Our first step into shielding our ships with energy emmitters"
+CA_Tech_Deflectors_III_Name:
+ Id: 18294
+ ENG: "Deflectors III"
+CA_Tech_Deflectors_III_Desc:
+ Id: 18295
+ ENG: "We can create very large Deflector emitters, suited for our largest hulls."
+CA_Module_Class_III_BattleShield_Name:
+ Id: 18296
+ ENG: "Class II Battle Shield"
+ RUS: "Боевой щит III класса"
+CA_Module_Class_III_BattleShield_Desc:
+ Id: 18297
+ ENG: "The best battle shield we can produce. It has decent deflection as well" 
+CA_Module_Class_III_Deflector_Name:
+ Id: 18298
+ ENG: "Class III Deflector"
+CA_Module_Class_III_Deflector_Desc:
+ Id: 18299
+ ENG: "Am immensely larger deflector with more coverage and better deflection." 
+CA_Tech_Aplifiers_I_Name:
+ Id: 18300
+ ENG: "Shield Amplifiers I"
+CA_Tech_Aplifiers_I_Desc:
+ Id: 18301
+ ENG: "Shield Amplifier technology was developed to amplify strength of energy shield emitters with combination of greatly reduced power consumption."
+CA_Tech_Aplifiers_II_Name:
+ Id: 18302
+ ENG: "Shield Amplifiers II"
+CA_Tech_Aplifiers_II_Desc:
+ Id: 18303
+ ENG: "Considerable advancement in shielding technologies lead into developing bigger and more advanced Amplifier to save energy consumption of the bigger shield emitters." 
+CA_Tech_Aplifiers_III_Name:
+ Id: 18304
+ ENG: "Shield Amplifiers III"
+CA_Tech_Aplifiers_III_Desc:
+ Id: 18305
+ ENG: "The ultimate Shield Aplifiers. They are big, but cost effective."   
+CA_Module_AplifierMk1_Name:
+ Id: 18306
+ ENG: "Amplifier Mk1"
+CA_Module_Aplifiers_Desc:
+ Id: 18307
+ ENG: "Increases the strength of all primary shields. The amplification is divided by the number of main shields installed on the ship." 
+CA_Module_AplifierMk2_Name:
+ Id: 18308
+ ENG: "Amplifier Mk2"
+CA_Module_AplifierMk3_Name:
+ Id: 18309
+ ENG: "Amplifier Mk3"
+CA_Tech_WirelessPowerI_Name:
+ Id: 18310
+ ENG: "Wireless Power I"
+CA_Tech_WirelessPowerI_Desc:
+ Id: 18311
+ ENG: "Improvements in Microwave Rectennas can enable wireless power transmission in a limited area on spaceships. This breakthrough will hugely improve ergonomy in ship designing."
+CA_Module_MicrowaveTrasmitter_Name:
+ Id: 18312
+ ENG: "Microwave Transmitter"
+CA_Module_MicrowaveTrasmitter_Desc:
+ Id: 18313
+ ENG: "This small device will transmit power across limited area in wireless faction."
+CA_Module_MRM1_Desc:
+ Id: 18314
+ ENG: "Medium Range Missile with a terminal velocity system. It also has a small chance to bypass shields."
+CA_Tech_BeamPD1_Name:
+ Id: 18315
+ ENG: "Beam PD"
+CA_Tech_BeamPD1_Desc:
+ Id: 18316
+ ENG: "Representatives within The Energy Research branch believe they can now use current beam military knowledge to construct fast-tracking beam Point Defense weapons, useful for intercepting incoming anti-ship enemy missiles."
+CA_Tech_BeamPD2_Name:
+ Id: 18317
+ ENG: "Advanced Beam PD"
+CA_Tech_BeamPD2_Desc:
+ Id: 18318
+ ENG: "We can research a better beam PD system, which will have more coverage and range."
+CA_Module_Beam_PD_Suite_Name:
+ Id: 18319
+ ENG: "Beam Point Defense Suite"
+CA_Module_Beam_PD_Suite_Desc:
+ Id: 18320
+ ENG: "Beam point defense suite can intercept incomming missiles using short pulse beams. It has 360 degree coverage and good range." 
+CA_Module_PulseBeam_Name:
+ Id: 18321
+ ENG: "Pulse Beam"
+CA_Module_PulseBeam_Desc:
+ Id: 18322
+ ENG: "Pulse beams fire accurate beams at fast rate. They are perfect for small craft since their range is limited."
+CA_Module_PulseBeam_Advanced_Name:
+ Id: 18323
+ ENG: "Advanced Pulse Beam"
+CA_Module_PulseBeam_Advanced_Desc:
+ Id: 18324
+ ENG: "This is a very high fire rate of the previous Pulse Beam. It has almost twice the firepower and slightly improved range." 
+CA_Module_LargeFuelCells_Name:
+ Id: 18325
+ ENG: "Large Power Cell"
+CA_Module_LargeFuelCells_Desc:
+ Id: 18326
+ ENG: "Large Power cells are much better than smaller Power Cells at storing energy for energy weapon use."
+CA_Module_LargeFuelCells_Adv_Name:
+ Id: 18327
+ ENG: "Advanced Large Power Cell"
+CA_Module_LargeFuelCells_Adv_Desc:
+ Id: 18328
+ ENG: "Advanced Large Power cells are much better than smaller Advanced Power Cells at storing energy for energy weapon use." 
+CA_Module_RepairBay_Name:
+ Id: 18329
+ ENG: "Large Repair Bay"
+CA_Tech_PowerMgmt1_Name:
+ Id: 18330
+ ENG: "Power Mgmt I"
+CA_Tech_PowerMgmt1_Desc:
+ Id: 18331
+ ENG: "Improvements in power management technology can lead to smaller and larger types of power cells." 
+CA_Tech_PowerMgmt2_Name:
+ Id: 18332
+ ENG: "Power Mgmt II"
+CA_Tech_PowerMgmt2_Desc:
+ Id: 18333
+ ENG: "Improvements in power management technology can lead to a larger type of advanced power cells."  
+CA_Module_Needler_Name:
+ Id: 18334
+ ENG: "Needler"
+CA_Module_Needler_Desc:
+ Id: 18335
+ ENG: "The Needler is a Small Craft Cannon which utilizes advancement in magnetic acceleration in order to fire even deadlier projectiles than the Hyper Velocity Vulcan Cannon."
+CA_Module_NeedlerAP_Name:
+ Id: 18336
+ ENG: "Needler AP"
+CA_Module_NeedlerAP_Desc:
+ Id: 18337
+ ENG: "The Needler AP uses special Armor Piercing projectiles and is a better version of the Basic Needler."
+CA_Module_NeedlerHEAP_Name:
+ Id: 18338
+ ENG: "Needler HEAP"
+CA_Module_NeedlerHEAP_Desc:
+ Id: 18339
+ ENG: "This ultimate Small Craft weapon incorporates a High Explosive payload along with Armor Piercing Projectile with the Magnetic Acceleration infrastructure."
+CA_Tech_MassDrivers_Name:
+ Id: 18340
+ ENG: "Mass Drivers" 
+CA_Tech_MassDrivers_Desc:
+ Id: 18341
+ ENG: "Utilization of the low yield magnetic acceleration can lead to creation of bigger cannons with more range and payload to combat heavier ships."
+CA_Module_MRTrasmitter_Name:
+ Id: 18342
+ ENG: "Magnetic Resonance Transmitter"
+CA_Module_MRTrasmitter_Desc:
+ Id: 18343
+ ENG: "Increased power transmission area but higher costs and power draw." 
+CA_Module_BosonTrasmitter3_Name:
+ Id: 18344
+ ENG: "Boson Transmitter" 
+CA_Tech_WirelessPowerII_Name:
+ Id: 18345
+ ENG: "Wireless Power II"
+CA_Tech_WirelessPowerII_Desc:
+ Id: 18346
+ ENG: "Developments in Magnetic Resonance methods can lead to a new type of ship Wireless Transmitter." 
+CA_Tech_WirelessPowerIII_Name:
+ Id: 18347
+ ENG: "Wireless Power III"
+CA_Tech_WirelessPowerIII_Desc:
+ Id: 18348
+ ENG: "While studying Bosons particles our scientists discovered that they can wirelessly transmit power on limited area. This breakthrough will hugely improve ergonomy in ship designing."  
+CA_Tech_Velocity_Name:
+ Id: 18349
+ ENG: "Velocity Development"
+CA_Tech_Velocity_Desc:
+ Id: 18350
+ ENG: "Invest in Sublight Engine technology."   
+CA_Bonus_Velocity_Desc:
+ Id: 18351
+ ENG: "Increase Sublight engine performance by 4%"    
+CA_Tech_MaterialDev_Name:
+ Id: 18352
+ ENG: "Material Development"
+CA_Tech_MaterialDev_Desc:
+ Id: 18353
+ ENG: "Invest in Advanced Material technology."   
+CA_Bonus_MaterialDev_Desc:
+ Id: 18354
+ ENG: "Reduce the mass of each ship module by further 2%" 
+CA_Tech_ShieldDev_Name:
+ Id: 18355
+ ENG: "Shield Development"
+CA_Tech_Shield_Desc:
+ Id: 18356
+ ENG: "Invest in Shield Emmission technology."    
+CA_Tech_NanoweaveDev_Name:
+ Id: 18357
+ ENG: "Nanoweave Development"
+CA_Tech_Nanoweave_Desc:
+ Id: 18358
+ ENG: "Invest in Nanoweave technology."     
+CA_Tech_ComponentsDev_Name:
+ Id: 18359
+ ENG: "Components Development"
+CA_Tech_ComponentsDev_Desc:
+ Id: 18360
+ ENG: "Invest in Reinforced Components technology."   
+CA_Bonus_ComponentsDev_Desc:
+ Id: 18361
+ ENG: "Reduce the the effective Explosion Radius of enemy projectiles and missiles by 3%"  
+CA_Tech_ExplosivesDev_Name:
+ Id: 18362
+ ENG: "Explosives Development"
+CA_Tech_ExplosivesDev_Desc:
+ Id: 18363
+ ENG: "Invest in Explosives technology."   
+CA_Bonus_ExplosivesDev_Desc:
+ Id: 18364
+ ENG: "Increase the explosion radius of Missiles and Torpedos by 2%"   
+CA_Tech_PowerCellDev_Name:
+ Id: 18365
+ ENG: "Power Cells Development"
+CA_Tech_PowerCellDev_Desc:
+ Id: 18366
+ ENG: "Invest in Power Cells Storage technology."   
+CA_Bonus_PowerCellDev_Desc:
+ Id: 18367
+ ENG: "Increase Power Cells Energy Storage by 5%"
+CA_Tech_OrdnancePayloadDev_Name:
+ Id: 18368
+ ENG: "Payload Development"
+CA_Tech_OrdnancePayloadDev_Desc:
+ Id: 18369
+ ENG: "Invest in Ordnance Payload technology."   
+CA_Bonus_OrdnancePayloadDev_Desc:
+ Id: 18370
+ ENG: "Kinetics and Torpedo damage +2%" 
+CA_Tech_SmallStations_Name:
+ Id: 18371
+ ENG: "Small Stations"
+ RUS: "Малые станции"

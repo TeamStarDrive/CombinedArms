@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Opteris Hivepod Mk3
 Hull=Opteris/Creeper
 Role=colony
@@ -14,21 +14,21 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Advance ColonyModule;Sensor1x2;Structure;NuclearReactorSmall;WarpEngine_1x1;ColonyModuleProduction;Cockpit
+ModuleUIDs=Structure;Advance ColonyModule;ColonyModuleProduction;Sensor1x2;Magshield;Cockpit;NuclearReactorSmall;Engine;WarpEngine_1x1
 Modules=15
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,1;0;2,3
-0,4;1;1,2;90;2
-1,0;2
-1,4;3
-1,5;3
-1,6;4
-1,7;4
-2,0;2
-2,1;5;2,3
-2,4;6
-2,5;3
-2,6;4
-2,7;4
-3,4;2
-3,5;2
+1,0;0
+2,0;0
+0,1;1;2,3
+2,1;2;2,3
+0,4;3;1,2;90;2
+1,4;4
+2,4;5
+3,4;0
+1,5;6
+2,5;6
+3,5;0
+1,6;7
+2,6;7
+1,7;8
+2,7;8

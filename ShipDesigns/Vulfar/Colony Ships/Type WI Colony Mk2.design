@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Type WI Colony Mk2
 Hull=Vulfen/Type WI
 Role=colony
@@ -14,28 +14,28 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Structure;Cockpit;NuclearReactorSmall;Advance ColonyModule;Engine;WarpEngine_1x1;Sensor1x2
+ModuleUIDs=Structure;Advance ColonyModule;Cockpit;NuclearReactorSmall;Sensor1x2;Engine;WarpEngine_1x1
 Modules=22
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,3;0
-0,4;0
-0,5;0
-1,3;0
-1,4;1
-1,5;2
-1,6;0
 2,0;0
-2,1;3;2,3
-2,4;2
-2,5;4
-2,6;5
 3,0;0
-3,4;2
-3,5;4
-3,6;5
+2,1;1;2,3
+0,3;0
+1,3;0
 4,3;0
-4,4;6;1,2;90;2
-4,6;0
 5,3;0
+0,4;0
+1,4;2
+2,4;3
+3,4;3
+4,4;4;1,2;90;2
 5,4;0
+0,5;0
+1,5;0
+2,5;5
+3,5;5
 5,5;0
+1,6;0
+2,6;6
+3,6;6
+4,6;0

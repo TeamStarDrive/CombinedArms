@@ -22,22 +22,23 @@
   <ExcludesFighters>true</ExcludesFighters>  
   <ExcludesCorvettes>true</ExcludesCorvettes>      
  
-  <HitPoints>25</HitPoints>
+  <HitPoints>20</HitPoints>
   <FireDelay>4</FireDelay>
   <Range>2000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>6</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>9</OrdinanceRequiredToFire>
   <DelayedIgnition>0.5</DelayedIgnition>
+  <ProjectileCount>4</ProjectileCount>
+  <FireArc>60</FireArc>
   
 <!-- Projectile stats -->
-  <DamageAmount>300</DamageAmount>
+  <DamageAmount>400</DamageAmount>
   <ProjectileSpeed>1200</ProjectileSpeed>
-  <ExplosionRadius>28</ExplosionRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>20</ExplosionRadius> <!-- This projectile explodes -->
   <ProjectileRadius>4</ProjectileRadius>
   <RotationRadsPerSecond>1</RotationRadsPerSecond>
 <!--Projectile atributes-->
   <Scale>0.5</Scale>
-  
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
   <ProjectileTexturePath>LRM_d</ProjectileTexturePath>

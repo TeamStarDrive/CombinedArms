@@ -1,0 +1,58 @@
+Version=1
+Name=Terran Heavy Platform Mk6
+Hull=Terran/Terran_Heavy_Platform
+Role=platform
+ModName=Combined Arms
+Style=Terran
+Size=12,8
+GridCenter=6,4
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+ShipCategory=Unclassified
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Ceramic Armor Small;RailGunTurret3x3V2;RocketLauncher;AmplifierMk1;Advanced Fighter Generator;SmallCraftDeflectorAdv;Bridge
+Modules=39
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+3,0;0
+4,0;0
+7,0;0
+8,0;0
+0,1;0
+1,1;1;3,3;315
+4,1;2
+5,1;0
+6,1;0
+7,1;2;;90;2
+8,1;1;3,3;45
+11,1;0
+0,2;0
+4,2;3
+5,2;4
+6,2;4
+7,2;3
+11,2;0
+4,3;5;1,2
+5,3;6;2,2
+7,3;5;1,2
+1,4;1;3,3;225
+8,4;1;3,3;135
+0,5;0
+4,5;3
+5,5;4
+6,5;4
+7,5;4
+11,5;0
+0,6;0
+4,6;2;;270;1
+5,6;0
+6,6;0
+7,6;2;;180;3
+11,6;0
+3,7;0
+4,7;0
+7,7;0
+8,7;0

@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Qing Laser Mk3b
 Hull=Cordrazine/Qing
 Role=fighter
@@ -11,21 +11,23 @@ DefaultCombatState=AttackRuns
 ShipCategory=Conservative
 HangarDesignation=Interceptor
 IsShipyard=false
+
 IsOrbitalDefense=false
+
 IsCarrierOnly=false
+
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=LaserPurple;FuelCellSmallArmored;Advanced Fighter Generator;BlueLaser1x2;Cockpit_Side;AdvancedFShield;WarpEngine_1x1;engine_fighter_1x1
-Modules=12
+ModuleUIDs=BlueLaser1x2;FuelCellSmallArmored;Cockpit_Side;QuantumFusionReactor_1x1;SmallCraftForceField;LaserPurple;2x1Twinengines
+Modules=11
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,4;0;;195
+2,0;0;1,2
+3,0;0;1,2
 1,1;1
-1,3;2
-2,0;3;1,2
-2,2;4;2,1
-2,3;5;2,1;90;2
-2,4;6
-3,0;3;1,2
-3,4;7
 4,1;1
-4,3;2
-5,4;0;;165
+2,2;2;2,1
+1,3;3
+2,3;4;2,1;90;2
+4,3;3
+0,4;5;;210
+2,4;6;2,1
+5,4;5;;150

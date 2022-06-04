@@ -1,0 +1,23 @@
+Version=1
+Name=Terran Knife Cluster Mk1
+Hull=Terran/Knife
+Role=drone
+ModName=Combined Arms
+Style=Terran
+Size=2,3
+GridCenter=1,1
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+ShipCategory=Kamikaze
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=DroneRocketLauncher;CommandModule_I;DroneCannon1x1;DroneEngine_I
+Modules=4
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,0;0
+0,1;1
+1,1;2
+0,2;3

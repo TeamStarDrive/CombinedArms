@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<DroneModule>false</DroneModule>
+	<FighterModule>true</FighterModule>
+	<CorvetteModule>true</CorvetteModule>
+	<FrigateModule>true</FrigateModule>
+	<DestroyerModule>false</DestroyerModule>
+	<CruiserModule>false</CruiserModule>
+	<BattleshipModule>false</BattleshipModule>
+	<CapitalModule>false</CapitalModule>
+	<FreighterModule>false</FreighterModule>
+	<PlatformModule>false</PlatformModule>
+	<StationModule>false</StationModule>
+	<Cost>40</Cost>
+	<TechLevel>4</TechLevel>
+	<!-- common traits shared by all ship modules -->
+	<ModuleType>MainGun</ModuleType>
+	<XSize>1</XSize>
+	<YSize>2</YSize>
+	<Name>MeltBomb1x2</Name>
+	<Restrictions>IO</Restrictions>
+	<UID>MeltBomb1x2</UID>
+	<IconTexturePath>Modules/MeltBomb1x2</IconTexturePath>
+	<Mass>30</Mass>
+	<HealthMax>100</HealthMax>
+	<RepairDifficulty>4</RepairDifficulty>
+	<Description>Fighter PlasmaBomb</Description>
+	
+	
+	<PowerDraw>15</PowerDraw>
+	<OrdinanceCapacity>4</OrdinanceCapacity>
+	<NameIndex>17606</NameIndex>
+	<DescriptionIndex>17607</DescriptionIndex>
+	<!-- for shield items -->
+	
+	<ShieldPowerMax>0</ShieldPowerMax>
+	<ShieldRechargeDelay>0</ShieldRechargeDelay>
+	<ShieldRechargeRate>0</ShieldRechargeRate>
+	<ShieldRadius>0</ShieldRadius>
+	<radius>0</radius>
+	<!-- for PowerPlant Items -->
+	
+	<PowerFlowMax>0</PowerFlowMax>
+	<PowerStoreMax>0</PowerStoreMax>
+	<!-- for Weapons -->
+	<WeaponType>MeltBomb1</WeaponType>
+	<FieldOfFire>45</FieldOfFire>
+	<!-- for Engines -->
+	<Thrust>0</Thrust>
+</ShipModule>

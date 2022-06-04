@@ -4,7 +4,7 @@
   <DroneModule>false</DroneModule>
   <FighterModule>false</FighterModule>
   
-  <Cost>9</Cost>
+  <Cost>18</Cost>
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Turret</ModuleType>
@@ -20,14 +20,12 @@
 
 
 
-  <Mass>10</Mass>
-  <Health>450</Health>
-  <HealthMax>450</HealthMax>
+  <Mass>20</Mass>
+  <HealthMax>675</HealthMax>
   <RepairDifficulty>3</RepairDifficulty>
-  <energyreq>0</energyreq>
   <Description>Twin EMP cannons mounted on a turret platform with advance cooling systems for rapid and sustained fire.</Description>
 
-  <PowerDraw>10</PowerDraw>
+  <PowerDraw>60</PowerDraw>
   
   <!-- for Weapons -->
   <WeaponType>DualEmpCannon</WeaponType>

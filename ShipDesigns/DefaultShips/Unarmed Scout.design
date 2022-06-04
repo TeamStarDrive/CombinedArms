@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Unarmed Scout
 Hull=Terran/Shuttle
 Role=scout
@@ -14,15 +14,15 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Structure;Sensor1x2;Cockpit;NuclearReactorSmall;Engine;Defshield
+ModuleUIDs=Sensor1x2;Cockpit;Structure;NuclearReactorSmall;Engine
 Modules=9
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,2;0
-1,0;1;2,1
-1,1;2
+1,0;0;2,1
+1,1;1
+2,1;2
+0,2;2
 1,2;3
+2,2;2
+3,2;2
 1,3;4
-2,1;5
-2,2;3
 2,3;4
-3,2;0

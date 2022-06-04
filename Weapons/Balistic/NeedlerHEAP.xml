@@ -1,0 +1,28 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Cannon>true</Tag_Cannon>
+  
+  <UID>NeedlerHEAP</UID>
+  <FireDelay>0.3</FireDelay>
+  <Range>2000</Range>
+  <PowerRequiredToFire>37</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>1.3</OrdinanceRequiredToFire>
+  <FireCueName>sd_weapon_vulcan_alt02_01</FireCueName>  
+  <!-- Projectile Information -->
+  <DamageAmount>75</DamageAmount>
+  <!--<EffectVsArmor>2</EffectVsArmor> -->
+  <Scale>3</Scale>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>4000</ProjectileSpeed>
+  <EffectVsArmor>1.5</EffectVsArmor>  
+  <ProjectileRadius>4</ProjectileRadius>
+  <ShieldPenChance>7</ShieldPenChance>  
+  <ArmorPen>1</ArmorPen>
+  <ExplosionRadius>24</ExplosionRadius> <!-- This projectile explodes -->  
+  
+  <ProjectileTexturePath>superlong_orange</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <WeaponType>Gauss Cannon</WeaponType>
+  <FireCone>4</FireCone>
+</Weapon>

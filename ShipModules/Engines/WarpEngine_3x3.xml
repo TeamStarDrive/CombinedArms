@@ -8,7 +8,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
 
-  <Cost>18</Cost>
+  <Cost>45</Cost>
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -18,16 +18,14 @@
   <Restrictions>E</Restrictions>
   <UID>WarpEngine_3x3</UID>
   <IconTexturePath>Modules/warpengine_3x3</IconTexturePath>
-  <Mass>90</Mass>
-  <Health>1000</Health>
+  <Mass>63</Mass>
   <HealthMax>1000</HealthMax>
   <RepairDifficulty>3</RepairDifficulty>
-  <energyreq>0</energyreq>
   
   <Description>A ship that requires more strategic mobility than tactical mobility would do well to install this massive warp engine. </Description>
   
   
-  <PowerDraw>100</PowerDraw>
+  <PowerDraw>135</PowerDraw>
   <Deflection>50</Deflection>
 
   <NameIndex>1080</NameIndex>
@@ -39,9 +37,9 @@
   
   <!-- for Weapons -->
   <!-- for Engines -->
-  <Thrust>65000</Thrust>
-  <TurnThrust>72000</TurnThrust>  
-  <WarpThrust>865000</WarpThrust>
+  <Thrust>27000</Thrust>
+  <TurnThrust>27000</TurnThrust>  
+  <WarpThrust>1215000</WarpThrust>
   <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
 
 </ShipModule>

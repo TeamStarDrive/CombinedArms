@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=HH-C1 Colony Ship Mk2
 Hull=Dauntless/ts2_modG
 Role=colony
@@ -14,22 +14,22 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=PowerSolar;WarpEngine_1x1;Sensor1x2;Structure;Advance ColonyModule;NuclearReactorSmall;Cockpit;Engine
+ModuleUIDs=Advance ColonyModule;Structure;WarpEngine_1x1;Sensor1x2;NuclearReactorSmall;Cockpit;Engine
 Modules=16
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,1;0
-0,2;1
-0,3;2;1,2;90;2
-0,5;3
-1,0;4;2,3
-1,3;5
-1,4;6
-1,5;7
-2,3;5
-2,4;5
-2,5;7
-3,1;0
-3,2;1
-3,3;3
-3,4;3
-3,5;3
+1,0;0;2,3
+0,1;1
+3,1;1
+0,2;2
+3,2;2
+0,3;3;1,2;90;2
+1,3;4
+2,3;4
+3,3;1
+1,4;5
+2,4;4
+3,4;1
+0,5;1
+1,5;6
+2,5;6
+3,5;1

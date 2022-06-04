@@ -4,7 +4,7 @@
   <FighterModule>false</FighterModule>
   <CorvetteModule>false</CorvetteModule>
 
-  <Cost>32</Cost>
+  <Cost>40</Cost>
   <!-- common traits shared by all ship modules -->
   <TechLevel>4</TechLevel>
   <ModuleType>Turret</ModuleType>
@@ -15,16 +15,12 @@
   <UID>MRM mk3</UID>
   <IconTexturePath>Modules/Burst MRM</IconTexturePath>
 
-  <Mass>24</Mass>
-  <Health>1500</Health>
+  <Mass>60</Mass>
   <HealthMax>1500</HealthMax>
   <RepairDifficulty>2.5</RepairDifficulty>
-  <energyreq>50</energyreq>
   <Description>This is a prototype burst MRM launcher.</Description>
-
   
-  
-  <PowerDraw>10</PowerDraw>
+  <PowerDraw>20</PowerDraw>
 
   <NameIndex>5339</NameIndex>
   <DescriptionIndex>5340</DescriptionIndex>
@@ -44,8 +40,8 @@
   
   <!-- for Weapons -->
   <WeaponType>MRM mk3</WeaponType>
-  <OrdinanceCapacity>80</OrdinanceCapacity>
-  <FieldOfFire>120</FieldOfFire>
+  <OrdinanceCapacity>144</OrdinanceCapacity>
+  <FieldOfFire>90</FieldOfFire>
   
   <!-- for Engines -->
   <Thrust>0</Thrust> 

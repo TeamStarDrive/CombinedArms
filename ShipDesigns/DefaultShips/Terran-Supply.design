@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Terran-Supply
 Hull=Terran/SupplyShuttle
 Role=supply
@@ -14,11 +14,11 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=PowerSolar;OrdnanceLockerSmall;NuclearReactorSmall;Cockpit;engine_fighter_1x1;Engine
+ModuleUIDs=PowerSolar;OrdnanceLockerSmall;Cockpit;WarpEngine_1x1;NuclearReactorSmall;Engine;engine_fighter_1x1
 Modules=20
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 1,0;0
-2,0;0
+2,0;1
 1,1;1
 2,1;1
 1,2;1
@@ -28,12 +28,12 @@ Modules=20
 2,3;1
 3,3;1
 0,4;1
-1,4;2
-2,4;3
+1,4;1
+2,4;2
 3,4;1
 0,5;1
-1,5;4
-2,5;2
+1,5;3
+2,5;4
 3,5;1
 1,6;5
-2,6;5
+2,6;6

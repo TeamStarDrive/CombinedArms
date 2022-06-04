@@ -6,7 +6,7 @@
   <CorvetteModule>false</CorvetteModule>
   <FreighterModule>false</FreighterModule>
 
-  <Cost>81</Cost>
+  <Cost>100</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>4</TechLevel>
 
@@ -19,11 +19,9 @@
   <UID>Overload AntiMatter Reactor</UID>
   <IconTexturePath>Modules/Overload AntiMatter Reactor</IconTexturePath>
   
-  <Mass>150</Mass>
-  <Health>180</Health>
+  <Mass>180</Mass>
   <HealthMax>180</HealthMax>
-  <RepairDifficulty>5</RepairDifficulty>
-  <energyreq>0</energyreq>
+  <RepairDifficulty>15</RepairDifficulty>
   
   <Description>Overload AntiMatter, will provide more power(1.5 times) than normal ones. But very unstateable and have a small power supply range.</Description>
   
@@ -44,10 +42,10 @@
 
   <!-- for PowerPlant Items -->
   
-  <ExplosionDamage>25000</ExplosionDamage>
-  <ExplosionRadius>640</ExplosionRadius>  
-  <PowerFlowMax>1500</PowerFlowMax>
-  <PowerStoreMax>0</PowerStoreMax>
+  <ExplosionDamage>9000</ExplosionDamage>
+  <ExplosionRadius>128</ExplosionRadius>  
+  <PowerFlowMax>1800</PowerFlowMax>
+  <PowerStoreMax>1800</PowerStoreMax>
   <PowerRadius>8</PowerRadius>
 
   <!-- for Weapons -->

@@ -22,18 +22,18 @@
 
 <UID>Fighter ATCSM</UID>
 
-  <HitPoints>30</HitPoints>
+  <HitPoints>18</HitPoints>
   <FireDelay>5</FireDelay>
   <Range>3000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>5</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>10</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
   <ProjectileCount>1</ProjectileCount>
-  <DamageAmount>335</DamageAmount>
+  <DamageAmount>500</DamageAmount>
   <ArmorPen>1</ArmorPen>
   <ProjectileSpeed>1200</ProjectileSpeed>
-  <ExplosionRadius>36</ExplosionRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>18</ExplosionRadius> <!-- This projectile explodes -->
   <SalvoCount>2</SalvoCount>
   <SalvoTimer>0.7</SalvoTimer>
   
@@ -41,7 +41,7 @@
   <RotationRadsPerSecond>1</RotationRadsPerSecond>
 <!--Projectile atributes-->
   <ShieldPenChance>0</ShieldPenChance>
-  <EffectVSShields>1</EffectVSShields>
+  <EffectVsShields>1</EffectVsShields>
   <EffectVsArmor>1.4</EffectVsArmor>
   <Scale>0.9</Scale>
   

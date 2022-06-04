@@ -18,9 +18,11 @@
   <Tag_Cannon>true</Tag_Cannon>
 
   <UID>DualEmpCannon</UID>
-  <FireDelay>1</FireDelay>
+  <FireDelay>7.2</FireDelay>
+  <SalvoCount>2</SalvoCount>
+  <SalvoTimer>0.8</SalvoTimer>    
   <Range>4500</Range>
-  <PowerRequiredToFire>400</PowerRequiredToFire>
+  <PowerRequiredToFire>240</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   <ProjectileRadius>8</ProjectileRadius>
   <!-- name of XACT audio cue to play on firing this weapon -->
@@ -30,10 +32,10 @@
 
   <!-- Projectile Information -->
   <DamageAmount>100</DamageAmount>
-  <EMPDamage>200</EMPDamage>
+  <EMPDamage>800</EMPDamage>
   
   <MuzzleFlash>Yes</MuzzleFlash>
-  <ProjectileSpeed>2400</ProjectileSpeed>
+  <ProjectileSpeed>2750</ProjectileSpeed>
   <Animated>1</Animated>
   <Light>Blue</Light>
   <Scale>1.5</Scale>

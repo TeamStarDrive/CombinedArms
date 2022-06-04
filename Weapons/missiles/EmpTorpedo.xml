@@ -18,19 +18,19 @@
   <ExcludesFighters>true</ExcludesFighters>  
   
 <UID>EmpTorpedo</UID>
-  <HitPoints>150</HitPoints>
+  <HitPoints>100</HitPoints>
   <FireDelay>12</FireDelay>
   <Range>7500</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>8</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>16</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
   <ProjectileCount>1</ProjectileCount>
   <FireArc>15</FireArc>             <!--for shotgun effect-->
-  <EMPDamage>4500</EMPDamage>
-  <DamageAmount>1000</DamageAmount>  
+  <EMPDamage>9000</EMPDamage>
+  <DamageAmount>2000</DamageAmount>  
   <ProjectileSpeed>1050</ProjectileSpeed>
-  <ExplosionRadius>220</ExplosionRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>40</ExplosionRadius> <!-- This projectile explodes -->
   <SalvoCount>1</SalvoCount>
   
   <ProjectileRadius>15</ProjectileRadius>
@@ -38,7 +38,7 @@
 <!--Projectile atributes-->
   <ArmorPen>0</ArmorPen>
   <ShieldPenChance>10</ShieldPenChance>
-  <EffectVSShields>1</EffectVSShields>
+  <EffectVsShields>1</EffectVsShields>
   <EffectVsArmor>1</EffectVsArmor>
   <Scale>1</Scale>
   

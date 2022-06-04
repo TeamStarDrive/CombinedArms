@@ -1,0 +1,26 @@
+Version=1
+Name=Cordrazine Fast Cannon Drone
+Hull=Cordrazine/Kitving
+Role=drone
+ModName=Combined Arms
+Style=Cordrazine
+Size=2,3
+GridCenter=1,1
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+ShipCategory=Kamikaze
+HangarDesignation=Interceptor
+IsShipyard=false
+
+IsOrbitalDefense=false
+
+IsCarrierOnly=true
+
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=DroneCannon1x1Fast;CommandModule_II;DroneEngine_I
+Modules=4
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,0;0
+1,0;0
+0,1;1
+0,2;2

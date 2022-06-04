@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Terran Constructor
 Hull=Misc/HaulerSmall
 Role=construction
@@ -14,24 +14,27 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Structure;ConstructionArray;Cockpit;NuclearReactorMed;WarpEngine_1x1;Engine
-Modules=18
+ModuleUIDs=Structure;ConstructionArray;Cockpit;NuclearReactorSmall;PowerConduit;WarpEngine_1x1;Engine
+Modules=21
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,4;0
-0,5;0
-0,6;0
 1,0;0
-1,1;0
-1,2;1;2,3
-1,5;2
-1,6;3;2,2
-1,8;4
-1,9;5
 2,0;0
-2,1;0
-2,5;2
-2,8;4
-2,9;5
+1,1;1;2,3
+0,4;0
+1,4;0
+2,4;2
 3,4;0
+0,5;0
+1,5;3
+2,5;4
 3,5;0
+0,6;0
+1,6;3
+2,6;3
 3,6;0
+1,7;0
+2,7;0
+1,8;5
+2,8;5
+1,9;6
+2,9;6

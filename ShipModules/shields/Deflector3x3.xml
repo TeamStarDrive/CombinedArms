@@ -1,0 +1,49 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Cost>60</Cost>
+  <TechLevel>4</TechLevel>
+  <!-- common traits shared by all ship modules -->
+  <ModuleType>Shield</ModuleType>
+  <XSize>3</XSize>
+  <YSize>3</YSize>
+  <UID>Deflector3x3</UID>
+  <Restrictions>I</Restrictions>
+  <Name>Deflector3x3</Name>
+  <IconTexturePath>Modules/Deflector3x3</IconTexturePath>
+  <Mass>112</Mass>
+  <HealthMax>1350</HealthMax>
+  <RepairDifficulty>4</RepairDifficulty>
+  
+  <PowerDraw>400</PowerDraw>
+  <PowerDrawAtWarp>-80</PowerDrawAtWarp>
+  <ShieldBubbleColor>Yellow</ShieldBubbleColor>
+
+  <NameIndex>17585</NameIndex>
+  <DescriptionIndex>17586</DescriptionIndex>
+
+
+
+  <!-- for shield items -->
+  <ShieldPowerMax>8100</ShieldPowerMax>
+  <ShieldRechargeDelay>4</ShieldRechargeDelay>
+  <ShieldRechargeRate>81</ShieldRechargeRate>
+  <ShieldRadius>170</ShieldRadius>
+  <ShieldRechargeCombatRate>0</ShieldRechargeCombatRate>
+  <ShieldDeflection>400</ShieldDeflection>
+  <ShieldBeamResist>0.6</ShieldBeamResist>
+
+  <!-- for PowerPlant Items -->
+  
+  <PowerFlowMax>0</PowerFlowMax>
+  <PowerStoreMax>0</PowerStoreMax>
+  
+  <!-- for Weapons -->
+  
+  
+  <!-- for Engines -->
+  <Thrust>0</Thrust>
+  
+  
+
+</ShipModule>

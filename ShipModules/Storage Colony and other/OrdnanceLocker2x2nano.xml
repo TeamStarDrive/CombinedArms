@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <Cost>20</Cost>
+  <Cost>40</Cost>
   <TechLevel>4</TechLevel>
   <!-- common traits shared by all ship modules -->
   <XSize>2</XSize>
@@ -11,11 +11,9 @@
   <Restrictions>IO</Restrictions>
   <UID>OrdnanceLocker2x2nano</UID>
   <IconTexturePath>Modules/OrdnanceLocker2x2nano</IconTexturePath>
-  <Mass>90</Mass>
-  <Health>320</Health>
+  <Mass>144</Mass>
   <HealthMax>320</HealthMax>
   <RepairDifficulty>5</RepairDifficulty>
-  <energyreq>0</energyreq>
   <Description>Ordnance represents a ship's stores of munitions and explosives such as bullets, missiles, torpedoes, mines, and other special weapons.  A basic ordnance locker such as this one provides a captain with a safe and convenient place to store his munitions.
   </Description>
   
@@ -39,12 +37,12 @@
   <!-- for PowerPlant Items -->
   
   <ExplosionDamage>1200</ExplosionDamage>
-  <ExplosionRadius>48</ExplosionRadius>
+  <ExplosionRadius>32</ExplosionRadius>
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
 
   <!-- for Weapons -->
-  <OrdinanceCapacity>250</OrdinanceCapacity>
+  <OrdinanceCapacity>400</OrdinanceCapacity>
 
   <!-- for Engines -->
   <Thrust>0</Thrust>

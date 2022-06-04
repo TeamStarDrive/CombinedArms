@@ -1,0 +1,33 @@
+Version=1
+Name=Type Ia Mk3a
+Hull=Vulfen/Type Ia
+Role=fighter
+ModName=Combined Arms
+Style=Vulfen
+Size=6,6
+GridCenter=3,3
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Fighter QF 17-pdr;AmplifierMk1;Cockpit;Fighter ASG Turret;AntiMReactorSmall;RocketLauncher;SmallCraftBattleShield;2x1Twinengines;OrdnanceLockerSmall
+Modules=14
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0;1,2
+3,0;0;1,2
+2,2;1
+3,2;2
+1,3;3
+2,3;4
+3,3;4
+4,3;3
+0,4;5
+1,4;6
+2,4;7;2,1
+4,4;6
+5,4;8
+2,5;7;2,1

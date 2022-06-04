@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Type WIII Transport Mk1
 Hull=Vulfen/Type WIII
 Role=freighter
@@ -14,37 +14,46 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=LargeCargoHold;MediumCargoHold;BasicCargoHold;WarpEngine_2x2;Bridge;NuclearReactorSmall;Fusion Reactor;engine_fighter_1x1
-Modules=31
+ModuleUIDs=DepletedUraniumArmor small;jumpdrive2x3;BosonTransmiter;LargeCargoHold;BasicCargoHold;AntimatterReactor2x2;BattleShield2x2;NuclearReactorSmall;thruster1x1;Cockpit_Side;engine_fighter_1x1;CombatEngine_2x2
+Modules=40
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,4;0;3,3
-0,8;0;3,3
-0,12;0;3,3
-0,16;0;3,3
-2,2;1;2,2
+3,0;0
+4,0;0
+3,1;1;2,3;180;3
+2,2;0
+5,2;0
+2,3;0
+5,3;2
+0,4;3;3,3
+3,4;4
+4,4;4
+5,4;3;3,3
+3,5;5;2,2
 2,7;2
-2,11;2
-2,15;2
-2,19;3;2,2
-3,0;1;2,2
-3,4;2
-3,5;1;2,2
-3,7;1;2,2
-3,10;2
-3,11;4;2,2
-3,14;5
-3,15;6;2,2
-3,18;7
-4,2;1;2,2
-4,4;2
-4,10;2
-4,14;5
-4,18;7
-4,19;3;2,2
-5,4;0;3,3
+3,7;6;2,2
 5,7;2
-5,8;0;3,3
-5,11;2
-5,12;0;3,3
-5,15;2
-5,16;0;3,3
+0,8;3;3,3
+5,8;3;3,3
+3,10;6;2,2
+2,11;4
+5,11;4
+0,12;4
+1,12;1;2,3
+3,12;7
+4,12;7
+5,12;1;2,3
+7,12;4
+0,13;4
+7,13;4
+0,14;8
+3,14;9;2,1
+7,14;8
+2,15;4
+3,15;5;2,2
+5,15;4
+0,16;3;3,3
+5,16;3;3,3
+3,18;10
+4,18;10
+2,19;11;2,2
+4,19;11;2,2

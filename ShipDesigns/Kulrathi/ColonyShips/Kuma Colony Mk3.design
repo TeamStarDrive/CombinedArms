@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Kuma Colony Mk3
 Hull=Kulrathi/Kuma Sukoshi
 Role=colony
@@ -14,24 +14,28 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=ColonyModuleProduction;Structure;Sensor1x2;Cockpit_Side;NuclearReactorMed;2x1Twinengines;WarpEngine_1x1;ColonyModuleFood
-Modules=18
+ModuleUIDs=Structure;Sensor1x2;ColonyModuleProduction;Cockpit;ColonyModuleFood;NuclearReactorSmall;Magshield;2x1Twinengines;WarpEngine_1x1
+Modules=22
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,3;0;2,3
-1,2;1
-1,6;1
-1,7;1
-2,0;1
-2,1;1
-2,2;2;2,1
-2,3;3;2,1
-2,4;4;2,2
-2,6;5;2,1
-2,7;6
-3,0;1
-3,1;1
-3,7;6
-4,2;1
-4,3;7;2,3
-4,6;1
-4,7;1
+2,0;0
+3,0;0
+2,1;0
+3,1;0
+1,2;0
+2,2;1;2,1
+4,2;0
+0,3;2;2,3
+2,3;3
+3,3;0
+4,3;4;2,3
+2,4;5
+3,4;6
+2,5;5
+3,5;5
+1,6;0
+2,6;7;2,1
+4,6;0
+1,7;0
+2,7;8
+3,7;8
+4,7;0

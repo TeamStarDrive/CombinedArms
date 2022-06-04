@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Shuttle Ferryman Mk1
 Hull=Terran/Shuttle
 Role=fighter
@@ -14,16 +14,16 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=VulcanCannon;Cockpit;NuclearReactorSmall;Engine;Fighter Shield;OrdnanceLockerSmall
+ModuleUIDs=VulcanCannon;Cockpit;NuclearReactorSmall;Defshield;OrdnanceLockerSmall;Engine
 Modules=10
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,2;0
 1,0;0
-1,1;1
-1,2;2
-1,3;3
 2,0;0
-2,1;4
-2,2;2
-2,3;3
-3,2;5
+1,1;1
+2,1;2
+0,2;0
+1,2;2
+2,2;3
+3,2;4
+1,3;5
+2,3;5

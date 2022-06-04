@@ -9,7 +9,7 @@
   <Cost>50</Cost>
 
   <!-- Tech Level Used by AI for Upgrading Ships -->
-  <TechLevel>4</TechLevel>
+  <TechLevel>3</TechLevel>
 
   <!-- common traits shared by all ship modules -->
   <XSize>3</XSize>
@@ -20,15 +20,13 @@
   <UID>RepairBay</UID>
   <IconTexturePath>Modules/RepairBay</IconTexturePath>
 
-  <NameIndex>6549</NameIndex>
+  <NameIndex>18329</NameIndex>
   <DescriptionIndex>6550</DescriptionIndex>
 
 
-  <Mass>250</Mass>
-  <Health>1000</Health>
+  <Mass>90</Mass>
   <HealthMax>1000</HealthMax>
   <RepairDifficulty>5</RepairDifficulty>
-  <energyreq>0</energyreq>
   
   <Description>Mounted on large ships can quickly repair damages of the ship. It also contain a small power plant and provides 200 power.</Description>
   
@@ -41,13 +39,14 @@
   <ShieldRechargeDelay>0</ShieldRechargeDelay>
   <ShieldRechargeRate>0</ShieldRechargeRate>
   <ShieldRadius>0</ShieldRadius>
+  <EMPProtection>1000</EMPProtection>
 
 
   <!-- for PowerPlant Items -->
   
   <PowerFlowMax>200</PowerFlowMax>
   <PowerStoreMax>50</PowerStoreMax>
-  <PowerRadius>2</PowerRadius>
+  <PowerRadius>3</PowerRadius>
   <!-- for Weapons -->
 
 

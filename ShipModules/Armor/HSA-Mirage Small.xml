@@ -18,15 +18,16 @@
 	
 	<!-- Mass and Health -->
 	<Mass>15</Mass>
-	<Health>800</Health>
 	<HealthMax>800</HealthMax>
     <RepairDifficulty>1.5</RepairDifficulty>	
     <Deflection>120</Deflection>			      						
 	<!-- for PowerPlant Items -->
-	<PowerDraw>8</PowerDraw>
-	<PowerDrawAtWarp>-4</PowerDrawAtWarp>	
+    <PowerFlowMax>50</PowerFlowMax>	
+    <ExplosionDamage>100</ExplosionDamage>
+    <ExplosionRadius>16</ExplosionRadius>    
+	<PowerRadius>0</PowerRadius>	
 	
-    <AmplifyShields>900</AmplifyShields>
+    <AmplifyShields>450</AmplifyShields>
 	<!-- Armor Resistance -->
 	<BeamResist>0.35</BeamResist>  
 	<KineticResist>-0.1</KineticResist>	

@@ -28,15 +28,16 @@
   <OrdinanceRequiredToFire>8</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
-  <DamageAmount>300</DamageAmount>
+  <DamageAmount>600</DamageAmount>
   <ProjectileSpeed>1200</ProjectileSpeed>
   <ExplosionRadius>60</ExplosionRadius> <!-- This projectile explodes -->
   <DelayedIgnition>0.5</DelayedIgnition>
-  
+  <ProjectileCount>2</ProjectileCount>
+  <FireArc>90</FireArc>    
   <ProjectileRadius>10</ProjectileRadius>
   <RotationRadsPerSecond>1</RotationRadsPerSecond>
 <!--Projectile atributes-->
-  <EffectVSShields>1</EffectVSShields>
+  <EffectVsShields>1</EffectVsShields>
   <EffectVsArmor>1.2</EffectVsArmor>
   <Scale>1</Scale>
   

@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Ralyeh Colonizer Mk4
 Hull=Ralyeh/Vessel M
 Role=colony
@@ -14,27 +14,25 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Structure;PowerSolar;Advance ColonyModule;ColonyModuleFood;Cockpit_Side;Sensor1x2;NuclearReactorMed;mwdsmall;ColonyModuleResearch;ColonyModuleProduction
-Modules=21
+ModuleUIDs=thruster1x1;NuclearThermalThruster;Cockpit_Side;BosonTransmiter;Advance ColonyModule;ColonyModuleResearch;ColonyModuleFood;ColonyModuleProduction;jumpdrive2x2;Sensor1x2;Structure;Fusion Reactor;WarpEngine_2x2;engine_fighter_1x1
+Modules=19
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,2;0
-0,3;0
-1,0;1
-1,1;2;2,3
-1,4;3;2,3
-2,0;0
-2,7;0
-2,8;4;2,1
-2,9;5;2,1
-2,10;0
-2,11;6;2,2
-2,13;7;1,3
-3,0;0
-3,1;8;2,3
-3,4;9;2,3
-3,7;0
-3,10;0
-3,13;7;1,3
-4,0;1
-5,2;0
-5,3;0
+1,0;0
+2,0;1
+3,0;1
+4,0;0
+1,1;2;2,1
+3,1;3
+4,1;1
+0,2;4;3,2;90;2
+3,2;5;3,2;270;1
+1,4;6;2,3
+3,4;7;2,3
+2,7;8;2,2
+2,9;9;2,1
+2,10;10
+3,10;10
+2,11;11;2,2
+2,13;12;2,2
+2,15;13
+3,15;13

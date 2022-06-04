@@ -1,0 +1,53 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Kinetic>false</Tag_Kinetic>
+  <Tag_Energy>false</Tag_Energy>
+  <Tag_Guided>false</Tag_Guided>
+  <Tag_Missile>true</Tag_Missile>
+  <Tag_Plasma>false</Tag_Plasma>
+  <Tag_Beam>false</Tag_Beam>
+  <Tag_Intercept>false</Tag_Intercept>
+  
+  <Tag_Bomb>false</Tag_Bomb>
+  
+  <Tag_BioWeapon>false</Tag_BioWeapon>
+  
+  
+  <Tag_Drone>false</Tag_Drone>
+  <Tag_Torpedo>false</Tag_Torpedo>
+  <Tag_Cannon>false</Tag_Cannon>
+  
+  <ExcludesFighters>true</ExcludesFighters>  
+  <ExcludesCorvettes>true</ExcludesCorvettes>  
+
+  <UID>PlasmaBomb</UID>
+  <FireDelay>9</FireDelay>
+  <Range>3000</Range>
+  <HitPoints>15</HitPoints>
+  <PowerRequiredToFire>50</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>1</OrdinanceRequiredToFire>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <FireCueName>sd_weapon_emptorpedo</FireCueName>
+  <DieCue>Explo1</DieCue>
+  <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
+  <!-- Projectile Information -->
+  <DamageAmount>500</DamageAmount>
+  <ProjectileSpeed>700</ProjectileSpeed>
+  <Light>Green</Light>
+
+  <Scale>0.6</Scale>
+  <ExplosionRadius>20</ExplosionRadius> <!-- This projectile explodes -->
+  
+  <ProjectileTexturePath>spacemine_g</ProjectileTexturePath>
+  <ModelPath>spacemine</ModelPath>
+
+  <WeaponType>Missile</WeaponType>
+  <FireCone>15</FireCone>
+  <ProjectileRadius>4</ProjectileRadius>
+  <CanCollideProjectiles>true</CanCollideProjectiles>
+
+  <EffectVsArmor>2</EffectVsArmor>
+  <EffectVsShields>0.8</EffectVsShields>
+
+</Weapon>

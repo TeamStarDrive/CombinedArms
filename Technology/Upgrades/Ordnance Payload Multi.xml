@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Ordnance Payload Multi</UID>
+  <TechnologyType>General</TechnologyType>
+  <Cost>4500</Cost>
+  <MaxLevel>10</MaxLevel>
+  <MultiLevelCostMultiplier>1.5</MultiLevelCostMultiplier>  
+  <LowPriorityCostMultiplier>2</LowPriorityCostMultiplier>  
+  <RootNode>0</RootNode>
+  <Name>Ordnance Payload Multi</Name>
+  <NameIndex>18368</NameIndex>
+  <DescriptionIndex>18369</DescriptionIndex>
+  <LongDescription>See localization file</LongDescription>
+  <LeadsTo>
+  </LeadsTo>
+  <ModulesUnlocked />
+  <BuildingsUnlocked />
+  <BonusUnlocked>
+    <UnlockedBonus>
+      <Name>Ordnance Effectiveness</Name>
+      <BonusType>Weapon_Damage</BonusType>
+      <Tags>
+        <string>Kinetic</string>
+        <string>Torpedo</string>		
+      </Tags>
+      <Bonus>0.02</Bonus>
+      <BonusIndex>18370</BonusIndex>
+    </UnlockedBonus>
+  </BonusUnlocked>
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

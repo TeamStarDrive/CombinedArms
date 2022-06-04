@@ -9,7 +9,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
 
-  <Cost>20</Cost>
+  <Cost>10</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>2</TechLevel>
   
@@ -22,14 +22,13 @@
   <UID>Frigate Turn Thrust</UID>
   <IconTexturePath>Modules/Frigate Turn Thrust</IconTexturePath>
   <Mass>5</Mass>
-  <Health>150</Health>
   <HealthMax>150</HealthMax>
-  <energyreq>0</energyreq>
   
   <Description>Frigate Turn Thrust </Description>
   
   
   <PowerDraw>10</PowerDraw>
+  <PowerDrawAtWarp>-10</PowerDrawAtWarp>
 
 
   <NameIndex>8105</NameIndex>

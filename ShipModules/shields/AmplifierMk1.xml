@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<Cost>4</Cost>
+	<!-- Tech Level -->
+	<TechLevel>3</TechLevel>
+	<TechBranch>Shield</TechBranch>
+	<!-- common traits shared by all ship modules -->
+	<XSize>1</XSize>
+	<YSize>1</YSize>
+	<ModuleType>Shield</ModuleType>
+	<Name>AmplifierMk1</Name>
+	<Restrictions>I</Restrictions>
+	<UID>AmplifierMk1</UID> 
+
+
+	<IconTexturePath>Modules/AmplifierMk1</IconTexturePath>
+	<NameIndex>18306</NameIndex>
+	<DescriptionIndex>18307</DescriptionIndex>
+	<!-- Mass and Health -->
+	<Mass>6</Mass>
+	<HealthMax>50</HealthMax>
+	<RepairDifficulty>6</RepairDifficulty>		      			
+	<!-- Power Drawn -->
+	<PowerDraw>30</PowerDraw>
+	<!-- Armor resistance -->
+	<!-- for PowerPlant Items -->
+    
+	<AmplifyShields>1000</AmplifyShields>
+
+	<!-- Crew Reqs -->
+	
+	
+	<!-- for Weapons -->
+
+  <PowerFlowMax>0</PowerFlowMax>
+  <PowerStoreMax>0</PowerStoreMax>
+  <PowerRadius>0</PowerRadius>
+</ShipModule>

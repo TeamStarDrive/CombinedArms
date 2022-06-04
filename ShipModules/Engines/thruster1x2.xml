@@ -15,9 +15,9 @@
   <UID>thruster1x2</UID>
   <IconTexturePath>Modules/thruster1x2</IconTexturePath>
   <Mass>10</Mass>
-  <Health>200</Health>
   <HealthMax>200</HealthMax>
   <PowerDraw>20</PowerDraw>
+  <PowerDrawAtWarp>-20</PowerDrawAtWarp>
 
 
   <NameIndex>5445</NameIndex>
@@ -40,7 +40,7 @@
   
   
   <!-- for Engines -->
-  <Thrust>22000</Thrust>
+  <Thrust>24000</Thrust>
   <WarpThrust>0</WarpThrust>
     <!-- amount of thrust used to calculate the engine's turn speed bonus or penalty. Set to same as thrust for default -->
   <TurnThrust>0</TurnThrust>

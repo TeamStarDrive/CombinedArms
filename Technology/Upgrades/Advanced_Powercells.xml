@@ -2,7 +2,7 @@
 <Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <UID>Advanced_Powercells</UID>
   <TechnologyType>ShipGeneral</TechnologyType>
-  <Cost>1200</Cost>
+  <Cost>2400</Cost>
   <LowPriorityCostMultiplier>1.5</LowPriorityCostMultiplier>  
   <RootNode>0</RootNode>
   <Name>Advanced_Powercells</Name>
@@ -10,6 +10,9 @@
   <DescriptionIndex>17690</DescriptionIndex>
   <LongDescription>Researching this technology will allow us to build certain armored components that can take more hits than their unarmored versons.</LongDescription>
   <LeadsTo>
+    <LeadsToTech>
+      <UID>PowerMgmt2</UID>
+    </LeadsToTech>  
   </LeadsTo>
   <ModulesUnlocked>
     <UnlockedMod>

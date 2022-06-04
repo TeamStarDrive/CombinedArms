@@ -23,7 +23,7 @@
   <UID>Assault Cannon Type10</UID>
   <FireDelay>7.2</FireDelay>
   <Range>7500</Range>
-  <OrdinanceRequiredToFire>8</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>26</OrdinanceRequiredToFire>
 
 
   <!-- name of XACT audio cue to play on firing this weapon -->
@@ -32,10 +32,11 @@
   <!-- Projectile Information -->
   <DamageAmount>2100</DamageAmount>
   <MuzzleFlash>Yes</MuzzleFlash>
-  <ProjectileSpeed>1900</ProjectileSpeed>
-  <ExplosionRadius>72</ExplosionRadius> <!-- This projectile explodes -->
-  <EffectVsArmor>1.5</EffectVsArmor>
-  <EffectVSShields>0.8</EffectVSShields>
+  <ProjectileSpeed>2300</ProjectileSpeed>
+  <ExplosionRadius>40</ExplosionRadius> <!-- This projectile explodes -->
+  <EffectVsArmor>1.7</EffectVsArmor>
+  <EffectVsShields>0.8</EffectVsShields>
+  <ShieldPenChance>7</ShieldPenChance>
 
   <!-- Animation Information -->
   <Animated>1</Animated>

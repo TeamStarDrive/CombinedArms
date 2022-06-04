@@ -1,0 +1,28 @@
+﻿<?xml version="1.0"?>
+<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Beam>true</Tag_Beam>
+  
+  <UID>PulseBeam1x2Weapon2</UID>
+  <IsBeam>true</IsBeam>
+  <FireDelay>0.1</FireDelay>
+  <Range>2400</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+
+  <FireCueName>sd_weapon_flame_start_01</FireCueName>
+  <ToggleSoundName>sd_weapon_beam_electric_med</ToggleSoundName>
+  
+  
+  <!-- Projectile Information -->
+  <BeamTexture>pulse_beam_purple</BeamTexture>
+  
+  <BeamDuration>0.1</BeamDuration>
+  <DamageAmount>7</DamageAmount>
+  <BeamThickness>15</BeamThickness>
+  <BeamPowerCostPerSecond>420</BeamPowerCostPerSecond>
+
+  <WeaponType>Energy Beam</WeaponType>
+  
+</Weapon>

@@ -24,7 +24,7 @@
   <FireDelay>8.0</FireDelay>
   <Range>10000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>6</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>32</OrdinanceRequiredToFire>
   <WeaponEffectType>SmokeTrail</WeaponEffectType>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
@@ -45,12 +45,12 @@
   <LoopAnimation>1</LoopAnimation> 
 
   <!-- Projectile Information -->
-  <DamageAmount>1400</DamageAmount>
-  <ShieldPenChance>20</ShieldPenChance>
-  <EffectVsArmor>2</EffectVsArmor>  
+  <DamageAmount>1800</DamageAmount>
+  <ShieldPenChance>15</ShieldPenChance>
+  <EffectVsArmor>1.6</EffectVsArmor>  
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>2000</ProjectileSpeed>
-  <ExplosionRadius>90</ExplosionRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>75</ExplosionRadius> <!-- This projectile explodes -->
   
   <!--<ProjectileTexturePath>projTear_03_red</ProjectileTexturePath> -->
   <ModelPath>projLong</ModelPath>

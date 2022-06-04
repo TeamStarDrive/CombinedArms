@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>true</FighterModule>
+  <CorvetteModule>true</CorvetteModule>
+  <FrigateModule>true</FrigateModule>
+  <DestroyerModule>false</DestroyerModule>
+  <CruiserModule>false</CruiserModule>
+  <BattleshipModule>false</BattleshipModule>
+  <CapitalModule>false</CapitalModule>
+  
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>true</PlatformModule>
+  <StationModule>false</StationModule>
+  
+  
+  <Cost>20</Cost>
+  <!-- common traits shared by all ship modules -->
+  <TechLevel>3</TechLevel>
+  <ModuleType>Shield</ModuleType>
+  <XSize>1</XSize>
+  <YSize>2</YSize>
+  <Name>SmallCraftForceField</Name>
+  <Restrictions>IO</Restrictions>
+  <UID>SmallCraftForceField</UID>
+  <IconTexturePath>Modules/SmallCraftForceField</IconTexturePath>
+  <Mass>14</Mass>
+  <HealthMax>400</HealthMax>
+  <RepairDifficulty>4</RepairDifficulty>
+  
+  <PowerDraw>100</PowerDraw>
+  <PowerDrawAtWarp>-80</PowerDrawAtWarp>
+
+
+  <NameIndex>17750</NameIndex>
+  <DescriptionIndex>17751</DescriptionIndex>
+
+
+
+
+  <!-- for shield items -->
+  <ShieldPowerMax>1500</ShieldPowerMax>
+  <ShieldRechargeDelay>6</ShieldRechargeDelay>
+  <ShieldRechargeRate>150</ShieldRechargeRate>
+  <ShieldRechargeCombatRate>0</ShieldRechargeCombatRate>
+  <ShieldRadius>120</ShieldRadius>
+  <ShieldBubbleColor>Blue</ShieldBubbleColor>
+  <ShieldKineticResist>0.1</ShieldKineticResist>
+  <ShieldPlasmaResist>0.2</ShieldPlasmaResist>  
+
+  <!-- for PowerPlant Items -->
+  
+  <PowerFlowMax>0</PowerFlowMax>
+  <PowerStoreMax>0</PowerStoreMax>
+  
+  <!-- for Weapons -->
+  
+  
+  <!-- for Engines -->
+  <Thrust>0</Thrust>
+  
+  
+
+</ShipModule>

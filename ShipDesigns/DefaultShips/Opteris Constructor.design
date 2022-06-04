@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Opteris Constructor
 Hull=Opteris/Creeper
 Role=construction
@@ -14,27 +14,27 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Structure;ConstructionArray;NuclearReactorSmall;Engine;WarpEngine_1x1;Cockpit
+ModuleUIDs=Structure;ConstructionArray;NuclearReactorSmall;Cockpit;Engine;WarpEngine_1x1
 Modules=21
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,1;0
-0,2;0
-0,3;0
-0,4;0
-0,5;0
 1,0;0
-1,1;1;2,3
-1,4;2
-1,5;2
-1,6;3
-1,7;4
 2,0;0
-2,4;5
-2,5;2
-2,6;3
-2,7;4
+0,1;0
+1,1;1;2,3
 3,1;0
+0,2;0
 3,2;0
+0,3;0
 3,3;0
+0,4;0
+1,4;2
+2,4;3
 3,4;0
+0,5;0
+1,5;2
+2,5;2
 3,5;0
+1,6;4
+2,6;4
+1,7;5
+2,7;5

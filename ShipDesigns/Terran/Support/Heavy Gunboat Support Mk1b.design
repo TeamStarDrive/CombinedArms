@@ -1,0 +1,66 @@
+Version=1
+Name=Heavy Gunboat Support Mk1b
+Hull=Terran/HeavyGunboat
+Role=support
+ModName=Combined Arms
+Style=Terran
+Size=6,18
+GridCenter=3,9
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Ceramic Armor Med;Ceramic Armor Small;OrdnanceLockerSmall;OrdnanceLockerLarge;Deflector2x2;RepairDrone;AntimatterReactor2x2;OrdnanceSupplyBay;Bridge;thruster1x1;PowerConduit;OrdnanceLocker;RocketLauncher;WarpEngine_1x1;MedOverdrive;WarpEngine_2x2
+Modules=47
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0;2,2
+1,1;1
+4,1;1
+0,2;1
+1,2;2
+2,2;3;3,3
+5,2;1
+0,3;1
+1,3;2
+5,3;1
+0,4;1
+1,4;2
+5,4;1
+1,5;2
+2,5;4;2,2
+4,5;2
+0,6;5;2,2
+4,6;5;2,2
+2,7;6;2,2
+0,8;7;2,2;;;Terran-Supply
+4,8;7;2,2;;;Terran-Supply
+2,9;8;2,2
+1,10;2
+4,10;2
+1,11;2
+2,11;6;2,2
+4,11;2
+0,12;2
+1,12;2
+4,12;2
+5,12;2
+0,13;2
+1,13;9
+2,13;10
+3,13;10
+4,13;9
+5,13;2
+0,14;11;2,2
+2,14;4;2,2
+4,14;12;;180;3
+5,14;12
+4,15;12;;270;1
+5,15;12;;90;2
+0,16;13
+1,16;14;2,2
+3,16;15;2,2
+5,16;13

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <FighterModule>false</FighterModule>
+  <PlatformModule>false</PlatformModule>
+
+  <Cost>25</Cost>
+
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>2</TechLevel>
+
+  <!-- common traits shared by all ship modules -->
+  <XSize>2</XSize>
+  <YSize>2</YSize>
+  <ModuleType>Special</ModuleType>
+  <Name>RepairBaySmall</Name>
+  <Restrictions>I</Restrictions>
+  <UID>RepairBaySmall</UID>
+  <IconTexturePath>Modules/RepairBaySmall</IconTexturePath>
+
+  <NameIndex>6549</NameIndex>
+  <DescriptionIndex>6550</DescriptionIndex>
+
+
+  <Mass>40</Mass>
+  <HealthMax>450</HealthMax>
+  <RepairDifficulty>5</RepairDifficulty>
+  
+  <Description>Mounted on large ships can quickly repair damages of the ship. It also contain a small power plant and provides 200 power.</Description>
+  
+  
+  <PowerDraw>0</PowerDraw>
+  <BonusRepairRate>450</BonusRepairRate>
+  <!-- for shield items -->
+  
+  <ShieldPowerMax>0</ShieldPowerMax>
+  <ShieldRechargeDelay>0</ShieldRechargeDelay>
+  <ShieldRechargeRate>0</ShieldRechargeRate>
+  <ShieldRadius>0</ShieldRadius>
+  <EMPProtection>200</EMPProtection>
+
+
+  <!-- for PowerPlant Items -->
+  
+  <PowerFlowMax>75</PowerFlowMax>
+  <PowerStoreMax>50</PowerStoreMax>
+  <PowerRadius>2</PowerRadius>
+  <!-- for Weapons -->
+
+
+
+  <!-- for Engines -->
+  <Thrust>0</Thrust>
+
+
+
+</ShipModule>

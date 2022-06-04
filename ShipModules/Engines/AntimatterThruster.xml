@@ -20,14 +20,15 @@
   <UID>AntimatterThruster</UID>
   <IconTexturePath>Modules/AntimatterThrusters</IconTexturePath>
   <Mass>4</Mass>
-  <Health>25</Health>
+  <HealthMax>25</HealthMax>
   <HealthMax>25</HealthMax>
   <energyreq>0</energyreq>
   
   <Description>This warp engine provides twice the benefit of a normal engine for warp purposes, but only half the thrust of a normal engine at sublight speeds.   </Description>
   
   
-  <PowerDraw>16</PowerDraw>
+  <PowerDraw>20</PowerDraw>
+  <PowerDrawAtWarp>-10</PowerDrawAtWarp>
 
 
   <NameIndex>10125</NameIndex>

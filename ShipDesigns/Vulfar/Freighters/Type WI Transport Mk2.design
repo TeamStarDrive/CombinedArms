@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Type WI Transport Mk2
 Hull=Vulfen/Type WI
 Role=freighter
@@ -14,24 +14,24 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=MediumCargoHold;BasicCargoHold;Cockpit;Structure;NuclearReactorSmall;2x1Twinengines;WarpEngine_1x1
+ModuleUIDs=Structure;MediumCargoHold;Magshield;NuclearReactorSmall;BasicCargoHold;Cockpit;2x1Twinengines;WarpEngine_1x1
 Modules=18
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,3;0;2,2
-0,5;1
-1,5;2
-1,6;3
-2,0;3
-2,1;0;2,2
-2,3;1
-2,4;4
-2,5;5;2,1
-2,6;6
-3,0;3
-3,3;4
-3,4;4
-3,6;6
-4,3;0;2,2
-4,5;2
-4,6;3
-5,5;1
+2,0;0
+3,0;0
+2,1;1;2,2
+0,3;1;2,2
+2,3;2
+3,3;3
+4,3;1;2,2
+2,4;3
+3,4;3
+0,5;4
+1,5;5
+2,5;6;2,1
+4,5;5
+5,5;4
+1,6;0
+2,6;7
+3,6;7
+4,6;0

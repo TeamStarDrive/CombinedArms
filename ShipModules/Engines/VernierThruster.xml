@@ -23,14 +23,13 @@
   <UID>VernierThruster</UID>
   <IconTexturePath>Modules/ManeuveringThrusters</IconTexturePath>
   <Mass>5</Mass>
-  <Health>20</Health>
   <HealthMax>20</HealthMax>
-  <energyreq>0</energyreq>
   
   <Description>This warp engine provides twice the benefit of a normal engine for warp purposes, but only half the thrust of a normal engine at sublight speeds.   </Description>
   
   
   <PowerDraw>8</PowerDraw>
+  <PowerDrawAtWarp>-8</PowerDrawAtWarp>
 
 
   <NameIndex>10095</NameIndex>

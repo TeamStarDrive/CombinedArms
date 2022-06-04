@@ -21,29 +21,29 @@
   <ExcludesCapitals>true</ExcludesCapitals>     
   <ExcludesStations>true</ExcludesStations>     
   <UID>HellStormMiss</UID>
-  <HitPoints>15</HitPoints>
+  <HitPoints>12</HitPoints>
   <FireDelay>3</FireDelay>
   <Range>4000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0.8</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>1.2</OrdinanceRequiredToFire>
   
 <!-- Projectile stats -->
   <ProjectileCount>1</ProjectileCount>
   <FireArc>15</FireArc>             <!--for shotgun effect-->
-  <DamageAmount>160</DamageAmount>
+  <DamageAmount>320</DamageAmount>
   <ProjectileSpeed>2150</ProjectileSpeed>
-  <ExplosionRadius>30</ExplosionRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>36</ExplosionRadius> <!-- This projectile explodes -->
   <SalvoCount>6</SalvoCount>
   <SalvoTimer>1.2</SalvoTimer>
   <FireCone>30</FireCone>               <!--for salvos-->
   
   <ProjectileRadius>4</ProjectileRadius>
-  <RotationRadsPerSecond>6</RotationRadsPerSecond>
+  <RotationRadsPerSecond>3</RotationRadsPerSecond>
 <!--Projectile atributes-->
   <ArmorPen>0</ArmorPen>
-  <ShieldPenChance>25</ShieldPenChance>
-  <EffectVSShields>1</EffectVSShields>
-  <EffectVsArmor>1</EffectVsArmor>
+  <ShieldPenChance>10</ShieldPenChance>
+  <EffectVsShields>1</EffectVsShields>
+  <EffectVsArmor>0.3</EffectVsArmor>
   <Scale>0.9</Scale>
   
   <CanCollideProjectiles>true</CanCollideProjectiles>

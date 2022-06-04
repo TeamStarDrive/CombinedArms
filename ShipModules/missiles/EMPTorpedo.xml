@@ -3,7 +3,7 @@
 
   <DroneModule>false</DroneModule>
   
-  <Cost>8</Cost>
+  <Cost>20</Cost>
   <TechLevel>4</TechLevel>
   <!-- common traits shared by all ship modules -->
   <XSize>2</XSize>
@@ -14,9 +14,7 @@
   <UID>EMPTorpedo</UID>
   <IconTexturePath>Modules/emp_torpedo</IconTexturePath>
   <Mass>20</Mass>
-  <Health>1000</Health>
   <HealthMax>1000</HealthMax>
-  <energyreq>0</energyreq>
   <Description>This torpedo tube launches slow-moving but devastating torpedos packed to the hilt with explosives.  They require substantial ordnance to fire</Description>
   
   
@@ -44,7 +42,7 @@
 
   <!-- for Weapons -->
   <WeaponType>EmpTorpedo</WeaponType>
-  <OrdinanceCapacity>80</OrdinanceCapacity>
+  <OrdinanceCapacity>16</OrdinanceCapacity>
   <FieldOfFire>30</FieldOfFire>
 
   <!-- for Engines -->

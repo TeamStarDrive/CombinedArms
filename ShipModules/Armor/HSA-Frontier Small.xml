@@ -19,22 +19,23 @@
 	
 	<!-- Mass and Health -->
 	<Mass>17</Mass>
-	<Health>675</Health>
 	<HealthMax>675</HealthMax>
 	<RepairDifficulty>1.25</RepairDifficulty>
     <Deflection>90</Deflection>			      					
 	<!-- for PowerPlant Items -->
-	<PowerDraw>10</PowerDraw>
-	<PowerDrawAtWarp>-2</PowerDrawAtWarp>
+    <PowerFlowMax>40</PowerFlowMax>	
+    <ExplosionDamage>80</ExplosionDamage>
+    <ExplosionRadius>24</ExplosionRadius>    
+	<PowerRadius>0</PowerRadius>	
 	
-    <AmplifyShields>600</AmplifyShields>
+    <AmplifyShields>300</AmplifyShields>
 	<!-- Armor Resistance -->
 	<BeamResist>0.3</BeamResist>  
 	<KineticResist>-0.1</KineticResist>	
 	<PlasmaResist>0.5</PlasmaResist>
 	
 	
-	
+	<WarpThrust>8000</WarpThrust>
 	<!-- for Weapons -->
 	<!-- Description -->
 	<Description>The best shield armor that we can manufactured. The medium and large saiz heavy shield armor system- Frontier include a self-sufficient power-generator makes it only need few power to run on our ship.</Description>

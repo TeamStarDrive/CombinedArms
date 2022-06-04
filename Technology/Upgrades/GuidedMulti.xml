@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>GuidedMulti</UID>
+  <TechnologyType>ShipGeneral</TechnologyType>
+  <Cost>15000</Cost>
+  <RootNode>0</RootNode>
+  <MaxLevel>10</MaxLevel>
+  <MultiLevelCostMultiplier>1.25</MultiLevelCostMultiplier>    
+  <Name>Guided Multi</Name>
+  <NameIndex>18362</NameIndex>
+  <DescriptionIndex>18363</DescriptionIndex>
+  <LongDescription>See localization file</LongDescription>
+  <LeadsTo>
+  </LeadsTo>
+  <ModulesUnlocked />
+  <BuildingsUnlocked />
+  <BonusUnlocked>
+    <UnlockedBonus>
+      <Name>Explosion Effectiveness</Name>
+      <BonusType>Weapon_ExplosionRadius</BonusType>
+      <Tags>
+        <string>Missile</string>
+        <string>Torpedo</string>		
+      </Tags>
+      <Bonus>0.03</Bonus>
+	  <BonusIndex>18258</BonusIndex>
+    </UnlockedBonus>	
+  </BonusUnlocked>
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

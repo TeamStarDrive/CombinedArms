@@ -5,7 +5,7 @@
   <StationModule>false</StationModule>
   
   <DroneModule>false</DroneModule>
-  <Cost>34</Cost>
+  <Cost>30</Cost>
   <TechLevel>3</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -16,9 +16,10 @@
   <UID>thruster1x3</UID>
   <IconTexturePath>Modules/thruster1x3</IconTexturePath>
   <Mass>15</Mass>
-  <Health>300</Health>
+  <HealthMax>300</HealthMax>
   <HealthMax>300</HealthMax>
   <PowerDraw>30</PowerDraw>
+  <PowerDrawAtWarp>-30</PowerDrawAtWarp>
 
 
   <NameIndex>5447</NameIndex>
@@ -38,7 +39,7 @@
   
   <!-- for Weapons -->
   <!-- for Engines -->
-  <Thrust>36000</Thrust>
+  <Thrust>42000</Thrust>
   <TurnThrust>0</TurnThrust>  
   <WarpThrust>0</WarpThrust>
 </ShipModule>

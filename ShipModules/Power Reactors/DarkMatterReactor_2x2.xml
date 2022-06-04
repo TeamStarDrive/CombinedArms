@@ -23,10 +23,8 @@
 
 
   <Mass>60</Mass>
-  <Health>375</Health>
   <HealthMax>375</HealthMax>
-  <RepairDifficulty>6</RepairDifficulty>
-  <energyreq>0</energyreq>
+  <RepairDifficulty>9</RepairDifficulty>
   
   <Description>Reactors are the beating hearts of spaceships.  This basic fission model provides a moderate level of power output and power storage. Explodes when destroyed. </Description>
   
@@ -44,10 +42,10 @@
   <!-- for PowerPlant Items -->
   
   <ExplosionDamage>600</ExplosionDamage>
-  <ExplosionRadius>256</ExplosionRadius>  
+  <ExplosionRadius>32</ExplosionRadius>  
   <PowerFlowMax>600</PowerFlowMax>
-  <PowerStoreMax>300</PowerStoreMax>
-  <PowerRadius>3</PowerRadius>
+  <PowerStoreMax>0</PowerStoreMax>
+  <PowerRadius>4</PowerRadius>
 
   <!-- for Weapons -->
 

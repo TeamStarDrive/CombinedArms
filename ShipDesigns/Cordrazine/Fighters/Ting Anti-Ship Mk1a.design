@@ -1,0 +1,42 @@
+Version=1
+Name=Ting Anti-Ship Mk1a
+Hull=Cordrazine/Ting
+Role=fighter
+ModName=Combined Arms
+Style=Cordrazine
+Size=8,6
+GridCenter=4,3
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+ShipCategory=Conservative
+HangarDesignation=AntiShip
+IsShipyard=false
+
+IsOrbitalDefense=false
+
+IsCarrierOnly=false
+
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=BlueLaser1x1;RocketLauncher;BasicFuelCell;Cockpit_Side;PlasmaBomb1x1;SmallCraftForceField;Advanced Fighter Generator;2x1Twinengines;OrdnanceLockerSmall
+Modules=20
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0
+3,0;1
+4,0;2
+5,0;0
+3,1;3;2,1
+2,2;4
+3,2;5;2,1;90;2
+5,2;4
+2,3;6
+3,3;7;2,1
+5,3;6
+1,4;4
+2,4;6
+3,4;7;2,1
+5,4;6
+6,4;4
+0,5;0
+1,5;8
+6,5;8
+7,5;0

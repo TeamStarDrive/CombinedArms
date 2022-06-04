@@ -24,18 +24,18 @@
   
   <FireDelay>7</FireDelay>
   <Range>1500</Range>
-  <HitPoints>90</HitPoints>
+  <HitPoints>40</HitPoints>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>5</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>7</OrdinanceRequiredToFire>
   <!-- name of XACT audio cue to play on firing this weapon -->
   <FireCueName>sd_weapon_torpedo_01</FireCueName>
   <DieCue>Explo1</DieCue>
   <InFlightCue>sd_weapon_rocket_flight_01</InFlightCue>
   <!-- Projectile Information -->
-  <DamageAmount>600</DamageAmount>
+  <DamageAmount>1200</DamageAmount>
   <ArmorPen>2</ArmorPen>
   <ProjectileSpeed>1000</ProjectileSpeed>
-  <ExplosionRadius>60</ExplosionRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>40</ExplosionRadius> <!-- This projectile explodes -->
   
   <ProjectileTexturePath>torpedo_d</ProjectileTexturePath>
   <ModelPath>torpedo</ModelPath>

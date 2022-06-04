@@ -4,7 +4,7 @@
   <DroneModule>false</DroneModule>
   <FighterModule>false</FighterModule>
   
-  <Cost>28</Cost>
+  <Cost>30</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>4</TechLevel>
   <TechBranch>Power</TechBranch>
@@ -26,10 +26,8 @@
 
 
   <Mass>40</Mass>
-  <Health>250</Health>
   <HealthMax>250</HealthMax>
-  <RepairDifficulty>2</RepairDifficulty>
-  <energyreq>0</energyreq>
+  <RepairDifficulty>8</RepairDifficulty>
   
   <Description>Reactors are the beating hearts of spaceships.  This basic fission model provides a moderate level of power output and power storage. Explodes when destroyed. </Description>
   
@@ -46,10 +44,10 @@
 
   <!-- for PowerPlant Items -->
   
-  <ExplosionDamage>10000</ExplosionDamage>
-  <ExplosionRadius>80</ExplosionRadius>    
+  <ExplosionDamage>2400</ExplosionDamage>
+  <ExplosionRadius>48</ExplosionRadius>    
   <PowerFlowMax>480</PowerFlowMax>
-  <PowerStoreMax>0</PowerStoreMax>
+  <PowerStoreMax>480</PowerStoreMax>
   <PowerRadius>4</PowerRadius>
 
   <!-- for Weapons -->

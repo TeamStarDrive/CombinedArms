@@ -14,7 +14,7 @@
   <PlatformModule>true</PlatformModule>
   <StationModule>false</StationModule>
 
-  <Cost>13</Cost>
+  <Cost>25</Cost>
   <!-- Tech Level -->
   <TechLevel>4</TechLevel>
   <TechBranch>Power</TechBranch>
@@ -28,11 +28,10 @@
   <UID>AntiMReactorSmall</UID>
   <TexturePath>Textures/transparent</TexturePath>
   <IconTexturePath>Modules/AMReactorSmall</IconTexturePath>
-  <Mass>18</Mass>
-  <Health>70</Health>
+  <Mass>13</Mass>
   <HealthMax>70</HealthMax>
-  <RepairDifficulty>2</RepairDifficulty>
-  <energyreq>0</energyreq>
+  <RepairDifficulty>10</RepairDifficulty>
+
   
   <Description>Power Plants are the beating hearts of spaceships.  This small fission model provides a moderate level of power output and power storage. Explodes when destroyed.
   </Description>
@@ -54,10 +53,10 @@
 
   <!-- for PowerPlant Items -->
   
-  <ExplosionDamage>1500</ExplosionDamage>
-  <ExplosionRadius>96</ExplosionRadius>  
+  <ExplosionDamage>800</ExplosionDamage>
+  <ExplosionRadius>48</ExplosionRadius>  
   <PowerFlowMax>160</PowerFlowMax>
-  <PowerStoreMax>80</PowerStoreMax>
+  <PowerStoreMax>160</PowerStoreMax>
   <PowerRadius>4</PowerRadius>
   
   <!-- for Weapons -->

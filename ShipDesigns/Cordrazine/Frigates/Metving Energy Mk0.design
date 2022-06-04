@@ -1,0 +1,54 @@
+Version=1
+Name=Metving Energy Mk0
+Hull=Cordrazine/Metving
+Role=frigate
+ModName=Combined Arms
+Style=Cordrazine
+Size=12,14
+GridCenter=6,7
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+
+IsOrbitalDefense=false
+
+IsCarrierOnly=false
+
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Armored Solarpanel Small;LaserTurret;Shield_1KW;Cold Fusion Reactor;Bridge;LaserCannon;PowerConduit;BasicFuelCell;CombatEngine_2x2;WarpEngine_2x2;MediumFuelCell
+Modules=32
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+5,0;0
+6,0;0
+5,1;1;2,2
+3,2;1;2,2;345
+7,2;1;2,2;15
+5,3;2;2,2
+1,4;1;2,2;315
+3,4;3;2,2
+7,4;3;2,2
+9,4;1;2,2;45
+0,5;0
+5,5;4;2,2
+11,5;0
+0,6;0
+3,6;5;;270
+4,6;6
+7,6;7
+8,6;5;;90
+11,6;0
+3,7;1;2,2;315
+5,7;7
+6,7;7
+7,7;1;2,2;45
+5,8;8;2,2
+2,9;0
+3,9;0
+4,9;0
+7,9;0
+8,9;0
+9,9;0
+5,10;9;2,2
+5,12;10;2,2

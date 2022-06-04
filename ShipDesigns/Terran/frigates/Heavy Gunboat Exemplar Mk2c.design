@@ -1,0 +1,62 @@
+Version=1
+Name=Heavy Gunboat Exemplar Mk2c
+Hull=Terran/HeavyGunboat
+Role=frigate
+ModName=Combined Arms
+Style=Terran
+Size=6,18
+GridCenter=3,9
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=CompositeAlloys Med;CompositeAlloys Small;Railgun1x3V2;Deflector2x2;Railgun2x4;AntimatterReactor2x2;Bridge;thruster1x2;PowerConduit;OrdnanceLocker2x2nano;RocketLauncher;Engine;MedOverdrive;WarpEngine_2x2
+Modules=43
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0;2,2
+1,1;1
+4,1;1
+0,2;1
+1,2;2;1,3
+2,2;2;1,3
+3,2;2;1,3
+4,2;2;1,3
+5,2;1
+0,3;1
+5,3;1
+0,4;1
+5,4;1
+1,5;1
+2,5;3;2,2
+4,5;1
+0,6;4;2,4
+4,6;4;2,4
+2,7;5;2,2
+2,9;6;2,2
+1,10;1
+4,10;1
+1,11;1
+2,11;5;2,2
+4,11;1
+0,12;1
+1,12;7;1,2
+4,12;7;1,2
+5,12;1
+0,13;1
+2,13;8
+3,13;8
+5,13;1
+0,14;9;2,2
+2,14;3;2,2
+4,14;10;;180;3
+5,14;10
+4,15;10;;270;1
+5,15;10;;90;2
+0,16;11
+1,16;12;2,2
+3,16;13;2,2
+5,16;11

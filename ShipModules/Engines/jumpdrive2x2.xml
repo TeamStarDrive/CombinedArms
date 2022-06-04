@@ -6,7 +6,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
   
-  <Cost>128</Cost>
+  <Cost>100</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>3</TechLevel>
   
@@ -20,10 +20,8 @@
   <TexturePath>Textures/transparent</TexturePath>
   <IconTexturePath>Modules/jumpdrive2x2</IconTexturePath>
   <Mass>40</Mass>
-  <Health>300</Health>
   <HealthMax>300</HealthMax>
   <RepairDifficulty>3</RepairDifficulty>
-  <energyreq>0</energyreq>
   
   <Description>This medium-sized warp engine provides greater warp performance at the expense of sublight performance. </Description>
   
@@ -44,8 +42,8 @@
 
   <!-- for PowerPlant Items -->
   
-  <ExplosionDamage>750</ExplosionDamage>
-  <ExplosionRadius>96</ExplosionRadius>  
+  <ExplosionDamage>500</ExplosionDamage>
+  <ExplosionRadius>32</ExplosionRadius>  
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
@@ -53,5 +51,5 @@
   <!-- for Engines -->
   <Thrust>0</Thrust>
   <TurnThrust>0</TurnThrust>  
-  <WarpThrust>315000</WarpThrust>
+  <WarpThrust>400000</WarpThrust>
 </ShipModule>

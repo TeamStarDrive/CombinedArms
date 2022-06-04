@@ -23,14 +23,14 @@
   <UID>MassiveDisruptor</UID>
   <FireDelay>1.8</FireDelay>
   <Range>4500</Range>
-  <PowerRequiredToFire>1000</PowerRequiredToFire>
+  <PowerRequiredToFire>2700</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
   <FireCueName>disruptor</FireCueName>
   
   <!-- Projectile Information -->
-  <DamageAmount>750</DamageAmount>
+  <DamageAmount>900</DamageAmount>
   <ProjectileSpeed>1700</ProjectileSpeed>
   <Scale>1.4</Scale>
   <Light>Green</Light>
@@ -38,7 +38,7 @@
   <ProjectileTexturePath>projPulse_01_green_dual</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   
-  <EffectVSShields>1.5</EffectVSShields>  
+  <EffectVsShields>1.5</EffectVsShields>  
   <ShieldPenChance>15</ShieldPenChance>  
   <ProjectileRadius>12</ProjectileRadius>
   <WeaponType>Energy Cannon</WeaponType>

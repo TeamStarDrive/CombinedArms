@@ -2,7 +2,6 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<DroneModule>false</DroneModule>
 	<FighterModule>false</FighterModule>
-	<CorvetteModule>false</CorvetteModule>
 	<FreighterModule>false</FreighterModule>
 
 	<Cost>120</Cost>
@@ -16,11 +15,9 @@
 	<Restrictions>I</Restrictions>
 	<UID>QuantumFusionReactor_3x3</UID>
 	<IconTexturePath>Modules/QuantumFusionReactor_3x3</IconTexturePath>
-	<Mass>100</Mass>
-	<Health>500</Health>
-	<HealthMax>500</HealthMax>
-	<RepairDifficulty>4</RepairDifficulty>
-	<energyreq>0</energyreq>
+	<Mass>99</Mass>
+	<HealthMax>1500</HealthMax>
+	<RepairDifficulty>9</RepairDifficulty>
 	
 	<Description>Quantum Fusion Reactor</Description>
 	
@@ -36,10 +33,10 @@
 	<ShieldRadius>0</ShieldRadius>
 	<!-- for PowerPlant Items -->
 	
-    <ExplosionDamage>1250</ExplosionDamage>
-    <ExplosionRadius>192</ExplosionRadius>	
-	<PowerFlowMax>875</PowerFlowMax>
-	<PowerStoreMax>440</PowerStoreMax>
+    <ExplosionDamage>900</ExplosionDamage>
+    <ExplosionRadius>40</ExplosionRadius>	
+	<PowerFlowMax>900</PowerFlowMax>
+	<PowerStoreMax>0</PowerStoreMax>
 	<PowerRadius>4</PowerRadius>
 	<!-- for Weapons -->
 	<!-- for Engines -->

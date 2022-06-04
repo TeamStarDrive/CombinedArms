@@ -2,7 +2,7 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <FighterModule>false</FighterModule>
-  <Cost>9</Cost>
+  <Cost>15</Cost>
   <TechLevel>1</TechLevel>
   <!-- common traits shared by all ship modules -->
   <XSize>3</XSize>
@@ -12,11 +12,9 @@
   <Restrictions>IO</Restrictions>
   <UID>OrdnanceLockerLarge</UID>
   <IconTexturePath>Modules/Ordnance3x3</IconTexturePath>
-  <Mass>72</Mass>
-  <Health>450</Health>
+  <Mass>162</Mass>
   <HealthMax>450</HealthMax>
   <RepairDifficulty>1.25</RepairDifficulty>
-  <energyreq>0</energyreq>
   <Description>Ordnance represents a ship's stores of munitions and explosives such as bullets, missiles, torpedoes, mines, and other special weapons.  A basic ordnance locker such as this one provides a captain with a safe and convenient place to store his munitions.
   </Description>
   
@@ -43,7 +41,7 @@
   <PowerStoreMax>0</PowerStoreMax>
 
   <!-- for Weapons -->
-  <OrdinanceCapacity>150</OrdinanceCapacity>
+  <OrdinanceCapacity>324</OrdinanceCapacity>
 
   <!-- for Engines -->
   <Thrust>0</Thrust>

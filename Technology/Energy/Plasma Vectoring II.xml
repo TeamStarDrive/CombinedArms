@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Technology xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Plasma Vectoring II</UID>
+  <TechnologyType>ShipWeapons</TechnologyType>
+  <Cost>360</Cost>
+  <RootNode>0</RootNode>
+  <Name>Plasma Vectoring</Name>
+  <NameIndex>17678</NameIndex>
+  <DescriptionIndex>17679</DescriptionIndex>
+  <LongDescription>If we channeled highly-ionized Plasma directly from a ship reactor through a magnetized, high-pressure system, then we could spray our enemies with super-heated energy to devastating effect. </LongDescription>
+  <LeadsTo>
+    <LeadsToTech>
+        <UID>Plasma Vectoring III</UID>
+    </LeadsToTech>	
+  </LeadsTo>
+  <ModulesUnlocked>
+    <UnlockedMod>
+      <ModuleUID>Plasma_Thrower_Red</ModuleUID>
+    </UnlockedMod>
+	<UnlockedMod>
+		<ModuleUID>PlasmaTorchThruster</ModuleUID>
+	</UnlockedMod>		
+  </ModulesUnlocked>
+  <BuildingsUnlocked />
+  <BonusUnlocked />
+  <TroopsUnlocked />
+  <HullsUnlocked />
+</Technology>

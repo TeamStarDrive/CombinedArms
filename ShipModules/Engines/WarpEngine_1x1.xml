@@ -5,7 +5,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
   
-  <Cost>2</Cost>
+  <Cost>3</Cost>
   <TechLevel>0</TechLevel>
   <!-- common traits shared by all ship modules -->
   <ModuleType>Engine</ModuleType>
@@ -13,10 +13,8 @@
   <Restrictions>E</Restrictions>
   <UID>WarpEngine_1x1</UID>
   <IconTexturePath>Modules/warpengine_1x1</IconTexturePath>
-  <Mass>10</Mass>
-  <Health>100</Health>
+  <Mass>8</Mass>
   <HealthMax>100</HealthMax>
-  <energyreq>0</energyreq>
   
   <Description>This warp engine provides twice the benefit of a normal engine for warp purposes, but only half the thrust of a normal engine at sublight speeds.   </Description>
   
@@ -45,8 +43,8 @@
   
   
   <!-- for Engines -->
-  <Thrust>6000</Thrust>
-  <TurnThrust>8000</TurnThrust>  
+  <Thrust>5000</Thrust>
+  <TurnThrust>5000</TurnThrust>  
   <WarpThrust>80000</WarpThrust>
 
 

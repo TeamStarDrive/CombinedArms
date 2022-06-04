@@ -1,0 +1,39 @@
+Version=1
+Name=Ting Laser Mk4
+Hull=Cordrazine/Ting
+Role=fighter
+ModName=Combined Arms
+Style=Cordrazine
+Size=8,6
+GridCenter=4,3
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+
+IsOrbitalDefense=false
+
+IsCarrierOnly=false
+
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=RocketLauncher;advanced_small_fuelcell;QuantumFusionReactor_1x1;BlueLaser1x3;SmallCraftForceField;Cockpit_Side;2x1Twinengines;LaserPurple
+Modules=17
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0
+3,0;1
+4,0;1
+5,0;0
+3,1;2
+4,1;2
+2,2;3;1,3
+3,2;4;2,1;90;2
+5,2;3;1,3
+3,3;5;2,1
+1,4;2
+3,4;6;2,1
+6,4;2
+0,5;7;;225
+1,5;7;;195
+6,5;7;;165
+7,5;7;;135
