@@ -1,11 +1,11 @@
-﻿Version=1
-Name=Thicket Pulsevine Mk2a
-Hull=Pollops/Thicket
-Role=corvette
+Version=1
+Name=Spine Bloomseed Mk3a
+Hull=Pollops/Spine
+Role=fighter
 ModName=Combined Arms
 Style=Pollops
-Size=6,5
-GridCenter=3,3
+Size=4,6
+GridCenter=2,3
 DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Conservative
@@ -14,23 +14,16 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=BasicFuelCell;BlueLaser1x1;Advanced Fighter Generator;Cockpit;2x1Twinengines;SmallCraftDeflector
-Modules=17
+ModuleUIDs=BlueLaser1x2;SmallCraftForceField;Cockpit;Fighter HASG Turret;QuantumFusionReactor_1x1;BasicFuelCell;2x1Twinengines
+Modules=10
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,2;0
-1,0;0
-1,1;1
-1,2;1
-1,3;1
-2,1;1
+1,0;0;1,2
+2,0;0;1,2
+0,2;1;2,1;90;2
 2,2;2
-2,3;3
-2,4;4;2,1
-3,1;1
-3,2;2
-3,3;5
-4,0;0
-4,1;1
-4,2;1
-4,3;1
-5,2;0
+3,2;3
+1,3;4
+2,3;4
+1,4;5
+2,4;5
+1,5;6;2,1

@@ -1,0 +1,60 @@
+Version=1
+Name=Coppice AntiShip Mk2
+Hull=Pollops/Coppice
+Role=corvette
+ModName=Combined Arms
+Style=Pollops
+Size=8,10
+GridCenter=4,5
+DefaultAIState=AwaitingOrders
+DefaultCombatState=AttackRuns
+ShipCategory=Conservative
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=PlasmaBomb1x1;PowerSolar;IonBomb1x1;Cockpit;SmallCraftForceField;Fighter HASG Turret;QuantumFusionReactor_1x1;jumpdrive2x2;CombatEngine_2x2;OrdnanceLockerSmall
+Modules=41
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0
+5,0;0
+0,1;1
+2,1;0
+5,1;0
+7,1;1
+0,2;2
+2,2;0
+5,2;0
+7,2;2
+0,3;0
+1,3;0
+2,3;3
+3,3;4;2,1;90;2
+5,3;3
+6,3;0
+7,3;0
+0,4;2
+1,4;5;;285
+2,4;6
+3,4;7;2,2
+5,4;6
+6,4;5;;75
+7,4;2
+1,5;5;;270
+2,5;6
+5,5;6
+6,5;5;;90
+0,6;1
+1,6;0
+2,6;6
+3,6;8;2,2
+5,6;6
+6,6;0
+7,6;1
+2,7;9
+5,7;9
+2,8;9
+5,8;9
+2,9;1
+5,9;1

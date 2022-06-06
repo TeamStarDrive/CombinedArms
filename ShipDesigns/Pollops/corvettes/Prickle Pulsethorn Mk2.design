@@ -1,5 +1,5 @@
 Version=1
-Name=Prickle Pulsethorn Mk1
+Name=Prickle Pulsethorn Mk2
 Hull=Pollops/Prickle
 Role=fighter
 ModName=Combined Arms
@@ -14,23 +14,23 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=LaserTurret;BlueLaser1x1;Fighter ASG Turret;Fighter Shield;Advanced Fighter Generator;BasicFuelCell;Cockpit;2x1Twinengines
+ModuleUIDs=PlasmaThrower;Fighter ASG Turret;BlueLaser1x1;BasicFuelCell;SmallCraftForceField;Advanced Fighter Generator;OrdnanceLockerSmall;Cockpit;Engine;engine_fighter_1x1;2x1Twinengines
 Modules=17
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 1,0;0;2,2
 0,1;1
 3,1;1
-1,2;1
-2,2;1
-0,3;2
-1,3;3
-2,3;3
-3,3;2
-1,4;4
-2,4;4
-0,5;5
-1,5;4
-2,5;6
-3,5;5
-1,6;7;2,1
-1,7;7;2,1
+1,2;2
+2,2;2
+0,3;3
+1,3;4;2,1;90;2
+3,3;3
+1,4;5
+2,4;5
+0,5;6
+1,5;5
+2,5;7
+3,5;6
+1,6;8
+2,6;9
+1,7;10;2,1
