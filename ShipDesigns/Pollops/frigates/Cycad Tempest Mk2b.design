@@ -1,5 +1,5 @@
 Version=1
-Name=Cycad Tempest Mk2
+Name=Cycad Tempest Mk2b
 Hull=Pollops/Cycad
 Role=frigate
 ModName=Combined Arms
@@ -14,8 +14,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Bionic Armor Small;BosonTransmiter;PlaSteelArmorSmall;PlasmaTorpedoTube;BasicFuelCell;LightForceField;Cockpit_Side;QuantumFusionReactor_2x2;AmplifierMk1;LightACHEAP;OrdnanceLocker;engine_fighter_1x1;WarpEngine_1x1;MedOverdrive
-Modules=64
+ModuleUIDs=Organic Armor Small;BosonTransmiter;PlaSteelArmorSmall;PlasmaTorpedoTube;BasicFuelCell;AmplifierMk2;Cockpit_Side;Main Engineering;LightForceField;AmplifierMk1;LightACHEAP;OrdnanceLocker;engine_fighter_1x1;WarpEngine_1x1;MedOverdrive
+Modules=61
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 6,0;0
 11,0;0
@@ -39,7 +39,7 @@ Modules=64
 15,5;4
 2,6;3;2,4
 7,6;0
-8,6;5;2,4
+8,6;5;2,2
 10,6;0
 14,6;3;2,4
 4,7;0
@@ -49,35 +49,32 @@ Modules=64
 1,8;0
 4,8;1
 5,8;6;1,2;90;2
-6,8;7;2,2
-10,8;7;2,2
+6,8;7;4,4
+10,8;8;2,4
 12,8;6;1,2;270;1
 13,8;1
 16,8;0
-4,9;8
-13,9;8
+4,9;9
+13,9;9
 3,10;0
-4,10;9;2,2;315
-6,10;7;2,2
-8,10;7;2,2
-10,10;7;2,2
-12,10;9;2,2;45
+4,10;10;2,2;315
+12,10;10;2,2;45
 14,10;0
-1,12;10;2,2
-3,12;9;2,2;225
-5,12;11
-6,12;12
-7,12;12
-8,12;12
-9,12;12
-10,12;12
-11,12;12
-12,12;11
-13,12;9;2,2;135
-15,12;10;2,2
+1,12;11;2,2
+3,12;10;2,2;225
+5,12;12
+6,12;13
+7,12;13
+8,12;13
+9,12;13
+10,12;13
+11,12;13
+12,12;12
+13,12;10;2,2;135
+15,12;11;2,2
 0,13;2
-5,13;13;2,2
-7,13;12
-10,13;12
-11,13;13;2,2
+5,13;14;2,2
+7,13;13
+10,13;13
+11,13;14;2,2
 17,13;2
