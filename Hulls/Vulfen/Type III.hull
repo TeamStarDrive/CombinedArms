@@ -3,20 +3,26 @@ HullName=Vulfen/Type III
 VisibleName=Type III
 Role=corvette
 Style=Vulfen
-Size=6,6
+Size=6,10
 MeshOffset=0,0
-IconPath=ShipIcons/typeIII
+IconPath=ShipIcons/icon_Type III
 ModelPath=mod models/Vulfar/TypeIII
 SelectIcon=13c
 Animated=false
 IsShipyard=false
 IsOrbitalDefense=false
+#Model Author Vanilla edtied by Fat Bastard
+#Starkit scale 75
 #Thruster PosX,PosY,PosZ,Scale
-Thruster=0,33,0,47
+Thruster=0,65,0,47
 Slots
 ___|___|O  |O  |___|___
+___|O  |O  |O  |O  |___
 ___|O  |IO |IO |O  |___
-O  |O  |I  |I  |O  |O  
+___|O  |IO |IO |O  |___
+O  |IO |I  |I  |IO |O  
 O  |IO |I  |IC |IO |O  
+O  |IO |I  |I  |IO |O  
+O  |IO |IE |IE |IO |O  
 O  |IO |E  |E  |IO |O  
 ___|___|E  |E  |___|___

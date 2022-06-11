@@ -1,0 +1,44 @@
+Version=1
+Name=Type III Support Mk2a
+Hull=Vulfen/Type III
+Role=support
+ModName=Combined Arms
+Style=Vulfen
+Size=6,10
+GridCenter=3,5
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=CompositeAlloys Small;Fighter ASG Turret;thruster1x2;OrdnanceSupplyBay;ATCSM;SmallCraftBattleShieldAdv;AntiMReactorSmall;Cockpit_Side;AntimatterThruster;OrdnanceLocker2x2nano;2x1Twinengines;WarpEngine_1x1
+Modules=25
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0
+3,0;0
+1,1;1;;360
+2,1;2;2,1;90;2
+4,1;1;;360
+1,2;3;2,2;;;Vulfar-Supply
+3,2;3;2,2;;;Vulfar-Supply
+0,4;4;1,3
+1,4;5;1,2
+2,4;6
+3,4;6
+4,4;5;1,2
+5,4;4;1,3
+2,5;7;2,1
+1,6;8
+2,6;6
+3,6;6
+4,6;8
+0,7;9;2,2
+2,7;10;2,1
+4,7;9;2,2
+2,8;11
+3,8;11
+2,9;11
+3,9;11
