@@ -1,0 +1,38 @@
+Version=1
+Name=Star Flower Pulser Mk2
+Hull=Pollops/Star Flower
+Role=corvette
+ModName=Combined Arms
+Style=Pollops
+Size=6,6
+GridCenter=3,4
+DefaultAIState=AwaitingOrders
+DefaultCombatState=AttackRuns
+ShipCategory=Conservative
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=BlueLaser1x1;BasicFuelCell;Cockpit;BlueLaser1x2;Advanced Fighter Generator;SmallCraftForceField;2x1Twinengines
+Modules=19
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0
+3,0;0
+1,1;1
+2,1;1
+3,1;2
+4,1;1
+0,2;3;1,2
+1,2;4
+2,2;5;2,1;90;2
+4,2;4
+5,2;3;1,2
+1,3;3;1,2
+2,3;4
+3,3;4
+4,3;3;1,2
+2,4;6;2,1
+1,5;1
+2,5;6;2,1
+4,5;1
