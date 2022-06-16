@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Cycad Troop Mk1
 Hull=Pollops/Cycad
 Role=troopShip
@@ -14,8 +14,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Bionic Armor Small;XSGA5Fairy Small;Bionic Armor Med;OrdnanceLockerSmall;LightACAP;XSGA5Fairy Med;TroopAssaultBay;Cockpit_Side;MarineBarracks2x2;Deflector2x2;Cold Fusion Reactor;thruster1x2;engine_fighter_1x1;mwdsmall;MedOverdrive;WarpEngine_1x1
-Modules=58
+ModuleUIDs=AdvArmored Solar collector Small;Bionic Armor Small;AdvArmored Solar collector Med;FuelCellSmallArmored;BosonTransmiter;LightAC;Bionic Armor Med;TroopAssaultBay;OrdnanceLockerSmall;NuclearReactorSmall;Cockpit_Side;MarineBarracks2x2;Cold Fusion Reactor;PowerConduit;LightForceField;thruster1x2;engine_fighter_1x1;mwdsmall;MedOverdrive;WarpEngine_1x1
+Modules=60
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 6,0;0
 11,0;0
@@ -23,55 +23,57 @@ Modules=58
 11,1;1
 5,2;2;2,2
 11,2;2;2,2
-2,4;1
+2,4;0
 5,4;3
-6,4;3
-11,4;3
+6,4;4
+11,4;4
 12,4;3
-15,4;1
-2,5;1
-5,5;4;2,2;315
-8,5;5;2,2
-11,5;4;2,2;45
-15,5;1
+15,4;0
+2,5;0
+5,5;5;2,2;315
+8,5;6;2,2
+11,5;5;2,2;45
+15,5;0
 2,6;0
-3,6;1
-7,6;0
-10,6;0
-14,6;1
+3,6;0
+7,6;1
+10,6;1
+14,6;0
 15,6;0
-2,7;6;4,3;90;2;Pollops Assault Shuttle
-6,7;3
-7,7;3
-8,7;7;2,1
-10,7;3
-11,7;3
-12,7;6;4,3;270;1;Pollops Assault Shuttle
-1,8;1
-6,8;8;2,2
-8,8;9;2,2
-10,8;8;2,2
-16,8;1
+2,7;7;4,3;90;2;Pollops Assault Shuttle
+6,7;8
+7,7;9
+8,7;10;2,1
+10,7;9
+11,7;8
+12,7;7;4,3;270;1;Pollops Assault Shuttle
+1,8;0
+6,8;11;2,2
+8,8;12;2,2
+10,8;11;2,2
+16,8;0
 3,10;1
-4,10;9;2,2
-6,10;10;2,2
-8,10;10;2,2
-10,10;10;2,2
-12,10;9;2,2
+4,10;13
+5,10;12;2,2
+7,10;14;4,2;90;2
+11,10;12;2,2
+13,10;13
 14,10;1
-1,12;4;2,2;225
-3,12;11;1,2
-4,12;11;1,2
-5,12;12
-6,12;13;3,1;90;2
-9,12;13;3,1;90;2
-12,12;12
-13,12;11;1,2
-14,12;11;1,2
-15,12;4;2,2;135
-0,13;1
-5,13;14;2,2
-7,13;15
-10,13;15
-11,13;14;2,2
-17,13;1
+4,11;1
+13,11;1
+1,12;5;2,2;225
+3,12;15;1,2
+4,12;15;1,2
+5,12;16
+6,12;17;3,1;90;2
+9,12;17;3,1;90;2
+12,12;16
+13,12;15;1,2
+14,12;15;1,2
+15,12;5;2,2;135
+0,13;0
+5,13;18;2,2
+7,13;19
+10,13;19
+11,13;18;2,2
+17,13;0

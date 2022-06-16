@@ -1,0 +1,79 @@
+Version=1
+Name=Cycad Troop Mk3
+Hull=Pollops/Cycad
+Role=troopShip
+ModName=Combined Arms
+Style=Pollops
+Size=18,15
+GridCenter=9,10
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=XSGA5Fairy Small;Bionic Armor Small;Bionic Armor Med;FuelCellSmallArmored;BosonTransmiter;LightACHEAP;TroopAssaultBay;OrdnanceLockerSmall;Cockpit_Side;MarineBarracks2x2;QuantumFusionReactor_2x2;PowerConduit;LightForceField;thruster1x2;engine_fighter_1x1;mwdsmall;MedOverdrive;WarpEngine_1x1
+Modules=60
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+6,0;0
+11,0;0
+6,1;1
+11,1;1
+5,2;2;2,2
+11,2;2;2,2
+2,4;0
+5,4;3
+6,4;4
+11,4;4
+12,4;3
+15,4;0
+2,5;0
+5,5;5;2,2;315
+8,5;2;2,2
+11,5;5;2,2;45
+15,5;0
+2,6;0
+3,6;0
+7,6;1
+10,6;1
+14,6;0
+15,6;0
+2,7;6;4,3;90;2;Pollops Assault Shuttle
+6,7;7
+7,7;7
+8,7;8;2,1
+10,7;7
+11,7;7
+12,7;6;4,3;270;1;Pollops Assault Shuttle
+1,8;0
+6,8;9;2,2
+8,8;10;2,2
+10,8;9;2,2
+16,8;0
+3,10;1
+4,10;11
+5,10;10;2,2
+7,10;12;4,2;90;2
+11,10;10;2,2
+13,10;11
+14,10;1
+4,11;1
+13,11;1
+1,12;5;2,2;225
+3,12;13;1,2
+4,12;13;1,2
+5,12;14
+6,12;15;3,1;90;2
+9,12;15;3,1;90;2
+12,12;14
+13,12;13;1,2
+14,12;13;1,2
+15,12;5;2,2;135
+0,13;0
+5,13;16;2,2
+7,13;17
+10,13;17
+11,13;16;2,2
+17,13;0
