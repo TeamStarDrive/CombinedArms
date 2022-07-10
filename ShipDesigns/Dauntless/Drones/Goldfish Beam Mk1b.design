@@ -1,0 +1,23 @@
+Version=1
+Name=Goldfish Beam Mk1b
+Hull=Dauntless/Goldfish
+Role=drone
+ModName=Combined Arms
+Style=Dauntless
+Size=1,4
+GridCenter=0,2
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+ShipCategory=Kamikaze
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=DroneBeam1x1;CommandModule_II;DroneEngine_III
+Modules=4
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,0;0
+0,1;0
+0,2;1
+0,3;2

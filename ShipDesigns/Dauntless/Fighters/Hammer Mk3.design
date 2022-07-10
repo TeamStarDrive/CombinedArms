@@ -1,0 +1,28 @@
+Version=1
+Name=Hammer Mk3
+Hull=Dauntless/ts2_modE2
+Role=fighter
+ModName=Combined Arms
+Style=Dauntless
+Size=4,5
+GridCenter=2,1
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+ShipCategory=Unclassified
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Fighter QF 17-pdr;RocketLauncher;Cockpit_Side;QuantumFusionReactor_1x1;SmallCraftDeflectorAdv;2x1Twinengines
+Modules=9
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+0,0;0;1,2
+1,0;1
+2,0;1
+3,0;0;1,2
+1,1;2;2,1
+1,2;3
+2,2;3
+1,3;4;2,1;90;2
+1,4;5;2,1

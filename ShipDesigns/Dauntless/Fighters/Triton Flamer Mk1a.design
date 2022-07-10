@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Triton Flamer Mk1a
 Hull=Dauntless/Triton
 Role=fighter
@@ -14,36 +14,29 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=OrdnanceLockerSmall;RocketLauncher;Engine;Advanced Fighter Generator;SmallCraftDeflector;Cockpit
-Modules=30
+ModuleUIDs=PowerSolar;BasicFuelCell;HVVulcanCannon;SmallCraftDeflector;RocketLauncher;Advanced Fighter Generator;2x1Twinengines;OrdnanceLockerSmall;Cockpit_Side
+Modules=23
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,6;0
-1,5;1
-1,6;0
-2,2;1
-2,3;1
-2,4;1
-2,5;2
-2,6;2
 3,0;0
-3,1;1
-3,2;1
-3,3;1
-3,4;3
-3,5;4
-3,6;0
-4,0;0
-4,1;1
-4,2;1
-4,3;1
-4,4;3
+4,0;1
+3,1;2;1,2
+4,1;2;1,2
+2,2;2;1,2
+5,2;2;1,2
+3,3;3
+4,3;3
+2,4;4
+3,4;5
+4,4;1
+5,4;4
+1,5;4
+2,5;6;1,2;90;2
+3,5;5
 4,5;5
-4,6;1
-5,2;1
-5,3;1
-5,4;1
-5,5;2
-5,6;2
-6,5;1
-6,6;0
-7,6;0
+5,5;6;1,2;270;1
+6,5;4
+0,6;7
+1,6;7
+3,6;8;2,1
+6,6;7
+7,6;7

@@ -1,0 +1,52 @@
+Version=1
+Name=Dauntless Phoenix Mk3a
+Hull=Dauntless/ts1
+Role=corvette
+ModName=Combined Arms
+Style=Dauntless
+Size=6,19
+GridCenter=3,7
+DefaultAIState=AwaitingOrders
+DefaultCombatState=ShortRange
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=XSGA5Fairy Small;PhasorTurret2x2;PulseBeam1x2Advanced;Advanced Fighter Generator;BasicFuelCell;SmallCraftDeflectorAdv;PhasorBeam2x3;OrdnanceLockerNano;FuelCellMediumArmored;BeamPD;Cockpit_Side;MRM mk1;2x1Twinengines;WarpEngine_1x1
+Modules=33
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0
+3,0;0
+1,1;0
+2,1;1;2,2
+4,1;0
+1,2;2;1,2
+4,2;2;1,2
+2,3;3
+3,3;3
+1,4;4
+2,4;5;2,1;90;2
+4,4;4
+2,5;6;2,3
+2,8;7
+3,8;7
+2,9;8;2,2
+2,11;9;2,2
+2,13;5;2,1;90;2
+1,14;4
+2,14;10;2,1
+4,14;4
+1,15;3
+2,15;3
+3,15;3
+4,15;3
+0,16;11;2,2;330
+2,16;12;2,1
+4,16;11;2,2;30
+2,17;12;2,1
+1,18;0
+2,18;13
+3,18;13
+4,18;0
