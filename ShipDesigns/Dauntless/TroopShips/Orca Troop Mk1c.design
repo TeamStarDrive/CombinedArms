@@ -1,5 +1,5 @@
 Version=1
-Name=Orca Troop Mk1
+Name=Orca Troop Mk1c
 Hull=Dauntless/ts3
 Role=troopShip
 ModName=Combined Arms
@@ -14,8 +14,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=XSGA5Fairy Small;XSGA5Fairy Large;Cockpit_Side;TroopAssaultBay;OrdnanceLocker;XSGA5Fairy Med;Deflector3x3;BasicFuelCell;OrdnanceLockerSmall;BeamPD;MarineBarracks2x2;BosonTransmiter2;Bridge;CombatEngine_2x2;FusionTurret2x2;thruster1x1;BosonTransmiter;RocketLauncher;Cold Fusion Reactor;WarpEngine_2x2;FrigateEngine
-Modules=110
+ModuleUIDs=HSA-Frontier Small;HSA-Frontier Large;Cockpit_Side;TroopAssaultBay;OrdnanceLocker;HSA-Frontier Med;Sickbay;BasicFuelCell;OrdnanceLockerSmall;BosonTransmiter2;BeamPD;Deflector4x4;MarineBarracks2x2;MedOverdrive;MarineBarracks6x3;PhasorTurret2x2;thruster1x1;BosonTransmiter;RocketLauncher;Fabricator;Bridge;WarpEngine_2x2
+Modules=104
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 7,0;0
 12,0;0
@@ -45,21 +45,20 @@ Modules=110
 13,11;8
 14,11;0
 5,12;3;4,3;90;2;Dauntless Assault Shuttle
-9,12;9;2,2
+9,12;9
+10,12;8
 11,12;3;4,3;270;1;Dauntless Assault Shuttle
-9,14;10;2,2
+9,13;10;2,2
 6,15;0
-7,15;7
-8,15;11
-11,15;11
-12,15;7
+7,15;8
+8,15;11;4,4
+12,15;8
 13,15;0
 1,16;0
 2,16;0
 6,16;0
-7,16;10;2,2
-9,16;10;2,2
-11,16;10;2,2
+7,16;8
+12,16;8
 13,16;0
 17,16;0
 18,16;0
@@ -67,60 +66,55 @@ Modules=110
 3,17;0
 5,17;0
 6,17;8
-13,17;8
+7,17;8
+12,17;12;2,2
 14,17;0
 16,17;0
 17,17;5;2,2
 0,18;0
 3,18;3;3,4;;;Dauntless Assault Shuttle
-6,18;8
-7,18;10;2,2
-9,18;12;2,2
-11,18;10;2,2
-13,18;8
+6,18;12;2,2
 14,18;3;3,4;;;Dauntless Assault Shuttle
 19,18;0
 0,19;0
 1,19;13;2,2
-6,19;8
-13,19;8
+8,19;14;6,3
 17,19;13;2,2
 19,19;0
 0,20;0
-6,20;10;2,2
-8,20;8
-9,20;6;3,3
-12,20;10;2,2
+6,20;12;2,2
 19,20;0
-8,21;8
 5,22;0
-6,22;14;2,2;345
-8,22;8
-12,22;14;2,2;15
+6,22;15;2,2;345
+8,22;12;2,2
+10,22;12;2,2
+12,22;15;2,2;15
 14,22;0
-8,23;10;2,2
-10,23;10;2,2
 5,24;0
-6,24;15
-7,24;16
-12,24;16
-13,24;15
+6,24;16
+7,24;17
+8,24;8
+9,24;8
+10,24;8
+11,24;8
+12,24;17
+13,24;16
 14,24;0
 6,25;0
-7,25;17;;225
-8,25;18;2,2
-10,25;18;2,2
-12,25;17;;135
+7,25;18;;225
+8,25;19;2,2
+10,25;20;2,2
+12,25;18;;135
 13,25;0
 6,26;0
-7,26;17;;270
-12,26;17;;90
+7,26;18;;270
+12,26;18;;90
 13,26;0
 5,27;0
-6,27;19;2,2
-8,27;20;2,2
-10,27;20;2,2
-12,27;19;2,2
+6,27;21;2,2
+8,27;13;2,2
+10,27;13;2,2
+12,27;21;2,2
 14,27;0
 7,29;5;2,2
 9,29;5;2,2

@@ -1,5 +1,5 @@
 Version=1
-Name=Orca Troop Mk1
+Name=Orca Troop Mk1a
 Hull=Dauntless/ts3
 Role=troopShip
 ModName=Combined Arms
@@ -14,7 +14,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=XSGA5Fairy Small;XSGA5Fairy Large;Cockpit_Side;TroopAssaultBay;OrdnanceLocker;XSGA5Fairy Med;Deflector3x3;BasicFuelCell;OrdnanceLockerSmall;BeamPD;MarineBarracks2x2;BosonTransmiter2;Bridge;CombatEngine_2x2;FusionTurret2x2;thruster1x1;BosonTransmiter;RocketLauncher;Cold Fusion Reactor;WarpEngine_2x2;FrigateEngine
+ModuleUIDs=Shield Armor Small;Shield Armor Large;Cockpit_Side;TroopAssaultBay;OrdnanceLocker;Shield Armor Med;Deflector3x3;BasicFuelCell;OrdnanceLockerSmall;BeamPD;MarineBarracks2x2;BosonTransmiter2;Bridge;MedOverdrive;PhasorTurret2x2;thruster1x1;BosonTransmiter;RocketLauncher;Cold Fusion Reactor;WarpEngine_2x2
 Modules=110
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 7,0;0
@@ -118,8 +118,8 @@ Modules=110
 13,26;0
 5,27;0
 6,27;19;2,2
-8,27;20;2,2
-10,27;20;2,2
+8,27;13;2,2
+10,27;13;2,2
 12,27;19;2,2
 14,27;0
 7,29;5;2,2
