@@ -1,7 +1,7 @@
 Version=1
-Name=Phoenix Bomber Mk1
+Name=Phoenix Support Mk3
 Hull=Dauntless/ts2_modb
-Role=bomber
+Role=support
 ModName=Combined Arms
 Style=Dauntless
 Size=14,23
@@ -14,12 +14,12 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=AdvArmored Solar collector Med;AdvArmored Solar collector Small;NuclearBombBay2x2;OrdnanceLockerSmall;FuelCellSmallArmored;Deflector2x2;LaserBeamTurret2x2;BosonTransmiter;OrdnanceLocker;Bridge;thruster1x1;RocketLauncher;Cold Fusion Reactor;engine_fighter_1x1;WarpEngine_2x2
+ModuleUIDs=Shield Armor Med;Shield Armor Small;OrdnanceSupplyBay;OrdnanceLockerSmall;FuelCellSmallArmored;Deflector2x2;PhasorTurret2x2;BosonTransmiter;OrdnanceLocker;Fabricator;Bridge;thruster1x1;RocketLauncher;QuantumFusionReactor_2x2;engine_fighter_1x1;WarpEngine_2x2
 Modules=51
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 6,0;0;2,2
 5,2;1
-6,2;2;2,2
+6,2;2;2,2;;;Dauntless-Supply
 8,2;1
 5,3;1
 8,3;1
@@ -33,38 +33,38 @@ Modules=51
 5,11;1
 8,11;1
 5,12;1
-6,12;2;2,2
+6,12;9;2,2
 8,12;1
 5,13;1
 8,13;1
 5,14;1
-6,14;9;2,2
+6,14;10;2,2
 8,14;1
 5,15;1
 8,15;1
-5,16;1
+5,16;3
 6,16;3
 7,16;3
-8,16;1
-5,17;10
+8,16;3
+5,17;11
 6,17;5;2,2
-8,17;10
-4,18;10
-5,18;11;;360
-8,18;11;;180
-9,18;10
-3,19;2;2,2
-5,19;12;2,2
-7,19;12;2,2
-9,19;2;2,2
-0,20;2;2,2
+8,17;11
+4,18;11
+5,18;12;;360
+8,18;12;;180
+9,18;11
+3,19;8;2,2
+5,19;13;2,2
+7,19;13;2,2
+9,19;8;2,2
+0,20;2;2,2;;;Dauntless-Supply
 2,20;3
 11,20;3
-12,20;2;2,2
-3,21;13
-4,21;13
+12,20;2;2,2;;;Dauntless-Supply
+3,21;14
+4,21;14
 5,21;1
-6,21;14;2,2
+6,21;15;2,2
 8,21;1
-9,21;13
-10,21;13
+9,21;14
+10,21;14
