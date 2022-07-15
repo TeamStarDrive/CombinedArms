@@ -1,5 +1,5 @@
 Version=1
-Name=Priest Depthphantom Mk1
+Name=Priest Depthphantom Mk5a
 Hull=Ralyeh/Priest
 Role=corvette
 ModName=Combined Arms
@@ -14,38 +14,37 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=PowerSolar;Shape Memory Armor Small;Fighter Shield;ShotgunHVEmp;Cockpit_Side;OrdnanceLockerSmall;Advanced Fighter Generator;Beam1x2;2x1Twinengines;FuelCellSmallArmored
-Modules=32
+ModuleUIDs=PowerSolar;Bionic Armor Small;Cockpit_Side;ShotgunHE;SmallCraftBattleShieldAdv;OrdnanceLockerSmall;AntiMReactorSmall;SmallCraftBattleShield;PulseBeam1x2Advanced;2x1Twinengines;thruster1x1
+Modules=31
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 2,0;0
 3,0;1
 4,0;1
 5,0;0
 2,1;1
-3,1;2
-4,1;2
+3,1;2;2,1
 5,1;1
 0,2;0
 1,2;3;2,2;285
-3,2;4;2,1
+3,2;4;2,1;90;2
 5,2;3;2,2;75
 7,2;0
 0,3;5
 3,3;6
 4,3;6
 7,3;5
-0,4;2
+0,4;7
 1,4;3;2,2;270
 3,4;6
 4,4;6
 5,4;3;2,2;90
-7,4;2
-0,5;7;1,2
-3,5;8;2,1
-7,5;7;1,2
-2,6;8;2,1
-4,6;8;2,1
-2,7;2
-5,7;2
+7,4;7
+0,5;8;1,2
+3,5;9;2,1
+7,5;8;1,2
+2,6;9;2,1
+4,6;9;2,1
+2,7;10
+5,7;10
 2,8;5
-5,8;9
+5,8;5

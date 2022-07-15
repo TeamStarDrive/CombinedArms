@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Missionary Ghostshade Mk5
 Hull=Ralyeh/Missionary
 Role=corvette
@@ -8,24 +8,23 @@ Size=4,6
 GridCenter=2,3
 DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
-ShipCategory=Unclassified
+ShipCategory=Reckless
 HangarDesignation=Interceptor
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=ShotgunHE1x3;PowerSolar;SmallCraftBattleShield;Advanced Fighter Generator;2x1Twinengines;OrdnanceLockerSmall;Cockpit
-Modules=12
+ModuleUIDs=PhasorTurret2x2;advanced_small_fuelcell;NeedlerAP1x2;Cockpit;SmallCraftBattleShieldAdv;AntiMReactorSmall;OrdnanceLockerNano;2x1Twinengines
+Modules=11
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,1;0;1,3
-1,0;1
-1,1;2
+1,0;0;2,2
+0,1;1
+3,1;1
+0,2;2;1,2
 1,2;3
-1,3;3
-1,4;4;1,2;90;2
-2,0;5
-2,1;2
-2,2;3
-2,3;6
-2,4;4;1,2;270;1
-3,1;0;1,3
+2,2;4;2,1;270;1
+1,3;5
+2,3;5
+3,3;6
+1,4;7;1,2;90;2
+2,4;7;1,2;270;1

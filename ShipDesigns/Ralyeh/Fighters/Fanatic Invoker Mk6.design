@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Fanatic Invoker Mk6
 Hull=Ralyeh/Fanatic
 Role=fighter
@@ -8,20 +8,19 @@ Size=4,4
 GridCenter=2,2
 DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
-ShipCategory=Unclassified
+ShipCategory=Reckless
 HangarDesignation=Interceptor
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=PowerSolar;OrdnanceLockerSmall;ShotgunDragon;Cockpit;2x1Twinengines;AntiMReactorSmall;SmallCraftDeflector
-Modules=8
+ModuleUIDs=ShotgunDragon;OrdnanceLockerNano;SmallCraftBattleShieldAdv;Cockpit;AntiMReactorSmall;2x1Twinengines
+Modules=7
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,1;0
-0,2;1
-1,0;2;2,2
-1,2;3
-1,3;4;2,1
-2,2;5
-3,1;1
-3,2;6
+1,0;0;2,2
+0,1;1
+3,1;2;1,2
+0,2;3
+1,2;4
+2,2;4
+1,3;5;2,1

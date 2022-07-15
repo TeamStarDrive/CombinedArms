@@ -1,0 +1,47 @@
+Version=1
+Name=Priest Kraken Mk2
+Hull=Ralyeh/Priest
+Role=corvette
+ModName=Combined Arms
+Style=Ralyeh
+Size=8,9
+GridCenter=4,4
+DefaultAIState=DoNothing
+DefaultCombatState=ShortRange
+ShipCategory=Reckless
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Sniper1x6;Bionic Armor Small;Fighter Shield;PowerSolar;OrdnanceLockerSmall;Cockpit_Side;Light Torpedo;Advanced Fighter Generator;LaserBeamTurret2x2;2x1Twinengines;LaserCannon;FuelCellSmallArmored
+Modules=28
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0;1,6
+3,0;1
+4,0;1
+5,0;0;1,6
+3,1;2
+4,1;2
+0,2;3
+1,2;4
+3,2;5;2,1
+6,2;4
+7,2;3
+0,3;6;2,3
+3,3;7
+4,3;7
+6,3;8;2,2
+3,4;7
+4,4;7
+3,5;9;2,1
+6,5;10;;135
+7,5;10;;45
+0,6;3
+2,6;9;2,1
+4,6;9;2,1
+7,6;3
+2,7;2
+5,7;2
+2,8;11
+5,8;11
