@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Zion Deliverance Mk2
 Hull=Ralyeh/Zion
 Role=frigate
@@ -9,13 +9,13 @@ GridCenter=4,5
 DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Neutral
-HangarDesignation=Interceptor
+HangarDesignation=General
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Shape Memory Armor Small;RocketLauncher;Railgun2x4;Shield_1KW;Bridge;ShotgunHVEmp;NuclearReactorSmall;Overload Fusion Reactor;thruster1x1;OrdnanceLockerSmall;engine_fighter_1x1;WarpEngine_1x1;FrigateEngine
-Modules=27
+ModuleUIDs=Shape Memory Armor Small;RocketLauncher;LaserBeamTurret2x2;LaserCannon;Cockpit_Side;Overload Fusion Reactor;Shield_1KW;ShotgunHVEmp;thruster1x1;BasicFuelCell;OrdnanceLockerSmall;WarpEngine_1x1;FrigateEngine
+Modules=30
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 3,0;0
 4,0;0
@@ -23,24 +23,27 @@ Modules=27
 3,1;1
 4,1;1
 5,1;0
-0,2;2;2,4
-2,2;3;2,2
-4,2;4;2,2
-6,2;5;2,2;75
-2,4;6
-3,4;7;2,2
-5,4;6
-6,4;5;2,2;90
+0,2;2;2,2
+2,2;3
+3,2;4;2,1
+5,2;3
+6,2;2;2,2
+2,3;5;2,2
+4,3;6;2,2
+0,4;7;2,2;270
+6,4;7;2,2;90
 2,5;8
+3,5;9
+4,5;9
 5,5;8
-0,6;9
-2,6;9
-3,6;10
+0,6;10
+2,6;10
+3,6;11
 4,6;11
-5,6;9
-7,6;9
-2,7;9
+5,6;10
+7,6;10
+2,7;10
 3,7;12;2,2
-5,7;9
-2,8;9
-5,8;9
+5,7;10
+2,8;10
+5,8;10
