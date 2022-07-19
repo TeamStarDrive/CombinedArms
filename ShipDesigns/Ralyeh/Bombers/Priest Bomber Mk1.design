@@ -1,0 +1,52 @@
+Version=1
+Name=Priest Bomber Mk1
+Hull=Ralyeh/Priest
+Role=bomber
+ModName=Combined Arms
+Style=Ralyeh
+Size=8,9
+GridCenter=4,4
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=PowerSolar;Shape Memory Armor Small;LaserCannon;Fighter Shield;OrdnanceLockerSmall;NuclearBombBay2x2;Cockpit_Side;Advanced Fighter Generator;Beam1x2;WarpEngine_1x1;Engine;2x1Twinengines;FuelCellSmallArmored
+Modules=33
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0
+3,0;1
+4,0;1
+5,0;0
+2,1;2
+3,1;3
+4,1;3
+5,1;2;;180
+0,2;4
+1,2;5;2,2
+3,2;6;2,1
+5,2;5;2,2
+7,2;4
+0,3;4
+3,3;7
+4,3;7
+7,3;4
+0,4;3
+1,4;5;2,2
+3,4;7
+4,4;7
+5,4;5;2,2
+7,4;3
+0,5;8;1,2
+3,5;9
+4,5;10
+7,5;8;1,2
+2,6;11;2,1
+4,6;11;2,1
+2,7;3
+5,7;3
+2,8;4
+5,8;12

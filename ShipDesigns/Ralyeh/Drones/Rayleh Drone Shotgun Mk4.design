@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Rayleh Drone Shotgun Mk4
 Hull=Ralyeh/Monk
 Role=drone
@@ -14,12 +14,12 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=true
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=DroneRocketLauncher;CommandModule_III;DroneClusterBomb1x1;DroneShotgunDragon;DroneEngine_III
+ModuleUIDs=DroneRocketLauncher;DroneClusterBomb1x1;CommandModule_III;DroneShotgunDragon;DroneEngine_III
 Modules=6
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 1,0;0
-1,1;1
-0,1;2
-1,2;1
+0,1;1
+1,1;2
 2,1;3
+1,2;2
 1,3;4

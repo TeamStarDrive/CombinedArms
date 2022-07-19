@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Rayleh Drone Torp Mk3
 Hull=Ralyeh/Monk
 Role=drone
@@ -14,12 +14,12 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=true
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=CommandModule_III;Micro Torpedo2;DroneClusterBomb1x1;DroneRocketLauncher;DroneEngine_III
+ModuleUIDs=CommandModule_III;DroneClusterBomb1x1;Micro Torpedo2;DroneRocketLauncher;DroneEngine_III
 Modules=6
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 1,0;0
-1,1;1
-0,1;2
-1,2;0
+0,1;1
+1,1;2
 2,1;3
+1,2;0
 1,3;4

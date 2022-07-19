@@ -1,0 +1,51 @@
+Version=1
+Name=Priest Carrier Mk3
+Hull=Ralyeh/Priest
+Role=carrier
+ModName=Combined Arms
+Style=Ralyeh
+Size=8,9
+GridCenter=4,4
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+ShipCategory=Reckless
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=DroneBay;Bionic Armor Small;Cockpit_Side;OrdnanceLockerSmall;Advanced Fighter Generator;PhasorTurret2x2;SmallCraftBattleShieldAdv;LaserCannon;2x1Twinengines;WarpEngine_1x1;advanced_small_fuelcell
+Modules=32
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0;1,5;;;DynamicInterceptor
+3,0;1
+4,0;1
+5,0;0;1,5;;;DynamicInterceptor
+3,1;2;2,1
+0,2;1
+1,2;3
+3,2;4
+4,2;4
+6,2;3
+7,2;1
+0,3;5;2,2
+3,3;6;2,1;90;2
+6,3;5;2,2
+3,4;4
+4,4;4
+0,5;7;;315
+1,5;7;;225
+2,5;4
+3,5;8;2,1
+5,5;4
+6,5;7;;135
+7,5;7;;45
+0,6;3
+2,6;9
+3,6;8;2,1
+5,6;10
+7,6;3
+2,7;10
+5,7;10
+2,8;3
+5,8;3

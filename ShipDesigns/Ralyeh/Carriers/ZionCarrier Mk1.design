@@ -1,0 +1,41 @@
+Version=1
+Name=ZionCarrier Mk1
+Hull=Ralyeh/Zion
+Role=carrier
+ModName=Combined Arms
+Style=Ralyeh
+Size=8,9
+GridCenter=4,5
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Shape Memory Armor Small;Sensor1x2;DroneBay;OrdnanceLocker;Cockpit_Side;Overload Fusion Reactor;LaserCannon;SmallCraftBattleShield;NuclearReactorSmall;WarpEngine_1x1;FrigateEngine
+Modules=22
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+3,0;0
+4,0;0
+2,1;0
+3,1;1;2,1
+5,1;0
+0,2;2;1,5;180;3;DynamicLaunch
+1,2;3;2,2
+3,2;4;2,1
+5,2;3;2,2
+7,2;2;1,5;180;3;DynamicLaunch
+3,3;5;2,2
+1,4;6
+2,4;2;1,5;180;3;DynamicInterceptor
+5,4;2;1,5;180;3;DynamicInterceptor
+6,4;6
+1,5;7
+3,5;8
+4,5;8
+6,5;7
+3,6;9
+4,6;9
+3,7;10;2,2

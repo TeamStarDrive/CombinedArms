@@ -1,0 +1,50 @@
+Version=1
+Name=Priest Support Mk1
+Hull=Ralyeh/Priest
+Role=support
+ModName=Combined Arms
+Style=Ralyeh
+Size=8,9
+GridCenter=4,4
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Sniper1x6;Shape Memory Armor Small;Cockpit_Side;OrdnanceLockerSmall;Advanced Fighter Generator;OrdnanceSupplyBay;Fighter Shield;LaserCannon;WarpEngine_1x1;2x1Twinengines;FuelCellSmallArmored
+Modules=31
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0;1,6
+3,0;1
+4,0;1
+5,0;0;1,6
+3,1;2;2,1
+0,2;3
+1,2;3
+3,2;4
+4,2;4
+6,2;3
+7,2;3
+0,3;5;2,2;;;Ralyeh-Supply
+3,3;6
+4,3;6
+6,3;5;2,2;;;Ralyeh-Supply
+3,4;4
+4,4;4
+0,5;7;;315
+1,5;7;;225
+3,5;8
+4,5;8
+6,5;7;;135
+7,5;7;;45
+0,6;3
+2,6;9;2,1
+4,6;9;2,1
+7,6;3
+2,7;3
+5,7;3
+2,8;10
+5,8;10
