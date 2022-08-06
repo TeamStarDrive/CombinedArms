@@ -1,5 +1,5 @@
 Version=1
-Name=Pitsaw Repeater Mk1
+Name=Pitsaw Repeater Mk4
 Hull=Kulrathi/Pitsaw
 Role=corvette
 ModName=Combined Arms
@@ -14,8 +14,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=OrdnanceLockerSmall;LightAC;AmplifierMk1;Fighter HASG Turret;Advanced Fighter Generator;Fighter Shield;Cockpit_Side;WarpEngine_1x1;Engine;2x1Twinengines;engine_fighter_1x1
-Modules=36
+ModuleUIDs=OrdnanceLockerSmall;LightACHEAP;AmplifierMk1;Fighter HASG Turret;QuantumFusionReactor_1x1;SmallCraftBattleShieldAdv;SmallCraftBattleShield;Cockpit_Side;WarpEngine_1x1;Engine;2x1Twinengines;engine_fighter_1x1
+Modules=35
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 4,0;0
 7,0;0
@@ -28,26 +28,25 @@ Modules=36
 7,3;3;;360
 8,3;1;2,2;45
 4,4;4
-5,4;5
-6,4;5
+5,4;5;2,1;90;2
 7,4;4
 0,5;0
 1,5;0
-2,5;5
+2,5;6
 3,5;4
 4,5;4
-5,5;6;2,1
+5,5;7;2,1
 7,5;4
 8,5;4
-9,5;5
+9,5;6
 10,5;0
 11,5;0
 1,6;1;2,2;255
-3,6;7
-4,6;8
-5,6;9;2,1
-7,6;8
-8,6;10
+3,6;8
+4,6;9
+5,6;10;2,1
+7,6;9
+8,6;11
 9,6;1;2,2;105
 3,7;3;;255
 4,7;3;;285

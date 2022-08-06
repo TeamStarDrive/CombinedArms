@@ -1,5 +1,5 @@
-﻿Version=1
-Name=Shuriken Warrior Mk1a
+Version=1
+Name=Shuriken Ninjastar Mk5
 Hull=Kulrathi/Shuriken
 Role=fighter
 ModName=Combined Arms
@@ -8,26 +8,27 @@ Size=6,5
 GridCenter=3,3
 DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
-ShipCategory=Conservative
+ShipCategory=Neutral
 HangarDesignation=Interceptor
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=LightAC;OrdnanceLockerSmall;SmallCraftDeflector;NuclearReactorSmall;DepletedUraniumArmor small;Advanced Fighter Generator;Engine;Cockpit
-Modules=14
+ModuleUIDs=Nemesis_Rocket_Pod;OrdnanceLockerSmall;SmallCraftBattleShieldAdv;Cockpit;Fighter HASG Turret;QuantumFusionReactor_1x1;Engine;thruster1x1
+Modules=15
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,3;0;2,2
-1,0;1
-1,1;2
-1,2;3
-2,1;4
-2,2;5
+1,0;0;1,3
+4,0;0;1,3
+2,1;1
+3,1;2;1,2
+2,2;3
+0,3;4
+1,3;5
 2,3;6
-3,1;4
-3,2;5
 3,3;6
-4,0;1
-4,1;2
-4,2;7
-4,3;0;2,2
+4,3;5
+5,3;4
+0,4;7
+1,4;6
+4,4;6
+5,4;7

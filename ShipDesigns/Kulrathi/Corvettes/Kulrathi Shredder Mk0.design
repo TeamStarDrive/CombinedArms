@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Kulrathi Shredder Mk0
 Hull=Kulrathi/Razor
 Role=corvette
@@ -14,33 +14,34 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=PowerSolar;HVVulcanCannon;engine_fighter_1x1;Internal Bulkhead;OrdnanceLockerSmall;NuclearReactorSmall;Defshield;Cockpit;2x1Twinengines;PowerConduit;Engine
-Modules=27
+ModuleUIDs=Internal Bulkhead;OrdnanceLockerSmall;HVVulcanCannon;BasicFuelCell;NuclearReactorSmall;Cockpit;PowerConduit;PowerSolar;engine_fighter_1x1;WarpEngine_1x1;Engine
+Modules=28
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,5;0
-0,6;0
-1,4;1;1,2
-1,6;0
-2,3;1;1,2
-2,5;2
-3,0;3
-3,1;4
-3,2;1;1,2
-3,4;5
-4,2;3
-4,3;6
-4,4;7
-4,5;8;2,1
-5,2;3
-5,3;6
-5,4;5
-6,0;3
-6,1;4
-6,2;1;1,2
-6,4;9
-7,3;1;1,2
+3,0;0
+6,0;0
+3,1;1
+6,1;1
+3,2;2;1,2
+4,2;0
+5,2;0
+6,2;2;1,2
+2,3;2;1,2
+4,3;3
+5,3;1
+7,3;2;1,2
+1,4;2;1,2
+3,4;4
+4,4;5
+5,4;4
+6,4;6
+8,4;2;1,2
+0,5;7
+2,5;8
+4,5;9
+5,5;10
 7,5;10
-8,4;1;1,2
-8,6;0
-9,5;4
-9,6;0
+9,5;1
+0,6;7
+1,6;7
+8,6;7
+9,6;7

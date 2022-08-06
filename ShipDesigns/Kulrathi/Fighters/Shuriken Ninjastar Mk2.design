@@ -1,5 +1,5 @@
-﻿Version=1
-Name=Shuriken Tooth Mk1a
+Version=1
+Name=Shuriken Ninjastar Mk2
 Hull=Kulrathi/Shuriken
 Role=fighter
 ModName=Combined Arms
@@ -8,28 +8,30 @@ Size=6,5
 GridCenter=3,3
 DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
-ShipCategory=Unclassified
+ShipCategory=Neutral
 HangarDesignation=Interceptor
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=RocketLauncher;OrdnanceLockerSmall;MissileLauncher1x3;AntiMReactorSmall;Engine;SmallCraftDeflector;Cockpit
-Modules=16
+ModuleUIDs=Hydra_Rocket_Pod;Cockpit;SmallCraftBattleShield;Fighter HASG Turret;Advanced Fighter Generator;RocketLauncher;PowerSolar;Engine;thruster1x1
+Modules=18
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,3;0
-0,4;1
-1,0;2;1,3
-1,3;3
-1,4;4
-2,1;0
-2,2;5
-2,3;4
-3,1;0
-3,2;1
-3,3;4
-4,0;2;1,3
-4,3;6
-4,4;0
-5,3;0
-5,4;1
+1,0;0;1,2
+4,0;0;1,2
+2,1;1
+3,1;2
+1,2;3
+2,2;4
+3,2;4
+4,2;3
+0,3;5
+1,3;6
+2,3;7
+3,3;7
+4,3;3
+5,3;5
+0,4;8
+1,4;7
+4,4;7
+5,4;8

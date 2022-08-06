@@ -1,5 +1,5 @@
 Version=1
-Name=Kunai Windstorm Mk2
+Name=Kunai Rain Mk2a
 Hull=Kulrathi/Kunai
 Role=fighter
 ModName=Combined Arms
@@ -9,26 +9,25 @@ GridCenter=3,4
 DefaultAIState=AwaitingOrders
 DefaultCombatState=Artillery
 ShipCategory=Neutral
-HangarDesignation=Interceptor
+HangarDesignation=AntiShip
 IsShipyard=false
 IsOrbitalDefense=false
-IsCarrierOnly=false
+IsCarrierOnly=true
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Fighter HASG Turret;OrdnanceLockerSmall;Cockpit_Side;SmallCraftBattleShield;Advanced Fighter Generator;2x1Twinengines;LightningStorm
-Modules=15
+ModuleUIDs=Railgun1x3V2;Cockpit_Side;QuantumFusionReactor_1x1;Engine;SmallCraftBattleShield;2x1Twinengines;OrdnanceLockerNano
+Modules=14
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-1,0;0
-4,0;0
-1,1;1
-2,1;2;2,1
-4,1;1
-1,2;3
-2,2;4
-3,2;4
-4,2;3
-1,3;4
-2,3;5;2,1
-4,3;4
-0,4;6;2,2;330
+1,0;0;1,3
+4,0;0;1,3
+2,1;1;2,1
+2,2;2
+3,2;2
+1,3;0;1,3
+2,3;2
+3,3;3
+4,3;0;1,3
+0,4;4
 2,4;5;2,1
-4,4;6;2,2;30
+5,4;4
+0,5;6
+5,5;6

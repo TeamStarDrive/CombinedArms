@@ -1,5 +1,5 @@
-﻿Version=1
-Name=Fang Shotgun Mk1a
+Version=1
+Name=Vulcan Fang Mk5
 Hull=Kulrathi/Fang
 Role=fighter
 ModName=Combined Arms
@@ -8,22 +8,21 @@ Size=6,4
 GridCenter=3,2
 DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
-ShipCategory=Conservative
-HangarDesignation=AntiShip
+ShipCategory=Neutral
+HangarDesignation=Interceptor
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Flechette AF Turret;OrdnanceLockerSmall;Fighter Shield;Advanced Fighter Generator;Engine;NuclearReactorSmall;Cockpit
-Modules=10
+ModuleUIDs=RocketLauncher;Advanced Fighter Generator;SmallCraftBattleShield;Cockpit;LightACAP;2x1Twinengines
+Modules=9
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,2;0;2,2
+2,0;0
+3,0;0
 1,1;1
-2,0;2
-2,1;3
-2,2;4
-3,0;1
-3,1;5
-3,2;4
-4,1;6
-4,2;0;2,2
+2,1;2
+3,1;3
+4,1;1
+0,2;4;2,2;330
+2,2;5;2,1
+4,2;4;2,2;30

@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Kulrathi Shredder Mk1
 Hull=Kulrathi/Razor
 Role=corvette
@@ -7,37 +7,38 @@ Style=Kulrathi
 Size=10,7
 GridCenter=5,4
 DefaultAIState=DoNothing
-DefaultCombatState=Artillery
+DefaultCombatState=AttackRuns
 ShipCategory=Conservative
 HangarDesignation=Interceptor
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=OrdnanceLockerSmall;Railgun1x3;HVVulcanCannon;Engine;VulcanCannon;Fighter Shield;Advanced Fighter Generator;Cockpit
-Modules=24
+ModuleUIDs=Internal Bulkhead;OrdnanceLockerSmall;HVVulcanCannon;BasicFuelCell;Advanced Fighter Generator;Cockpit;Magshield;Engine;2x1Twinengines;PowerSolar
+Modules=25
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,5;0
-0,6;0
-1,4;1;1,3
-2,3;2;1,2
-2,5;3
 3,0;0
-3,1;4
-3,2;1;1,3
-4,2;5
-4,3;6
-4,4;7
-4,5;3
-5,2;5
-5,3;6
-5,4;6
-5,5;3
 6,0;0
-6,1;4
-6,2;1;1,3
+3,1;1
+6,1;1
+3,2;2;1,2
+4,2;0
+5,2;0
+6,2;2;1,2
+2,3;2;1,2
+4,3;3
+5,3;1
 7,3;2;1,2
-7,5;3
-8,4;1;1,3
-9,5;0
-9,6;0
+1,4;2;1,2
+3,4;4
+4,4;5
+5,4;6
+6,4;4
+8,4;2;1,2
+0,5;2;1,2
+2,5;7
+4,5;8;2,1
+7,5;7
+9,5;2;1,2
+1,6;9
+8,6;9
