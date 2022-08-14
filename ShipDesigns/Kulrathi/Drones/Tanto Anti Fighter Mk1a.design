@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Tanto Anti Fighter Mk1a
 Hull=Kulrathi/Tanto
 Role=drone
@@ -14,10 +14,10 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=true
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=CommandModule_I;DroneEngine_II;DroneCannon1x1Fast
+ModuleUIDs=CommandModule_I;DroneCannon1x1Fast;DroneEngine_II
 Modules=4
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 1,0;0
-1,1;1
-0,1;2
-2,1;2
+0,1;1
+1,1;2
+2,1;1
