@@ -1,5 +1,5 @@
 Version=1
-Name=Kulrathi Bomber Mk1
+Name=Kulrathi Bomber Mk3a
 Hull=Kulrathi/Talon
 Role=bomber
 ModName=Combined Arms
@@ -14,13 +14,13 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=DepletedUraniumArmor small;LightAC;OrdnanceLockerSmall;HVVulcanCannon;Shield_1KW;FuelCellSmallArmored;PowerConduit;NuclearBombBay2x2;Cold Fusion Reactor;Cockpit;FrigateEngine;NuclearReactorSmall;WarpEngine_2x2;CombatEngine_2x2
-Modules=75
+ModuleUIDs=CompositeAlloys Small;LightACHEAP;OrdnanceLockerSmall;HVVulcanCannon;BattleShield2x2;FuelCellSmallArmored;PowerConduit;AmplifierMk1;NuclearBombBay2x2;QuantumFusionReactor_2x2;OrdnanceLockerNano;Cockpit;WarpEngine_2x2;BosonTransmiter;FrigateEngine;CombatEngine_2x2
+Modules=77
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 8,0;0
 9,0;0
 7,1;0
-8,1;1;2,2;180
+8,1;1;2,2
 10,1;0
 7,2;0
 10,2;0
@@ -34,29 +34,31 @@ Modules=75
 10,4;3;1,2
 11,4;0
 5,5;0
-6,5;3;1,2
-11,5;3;1,2
+6,5;2
+11,5;2
 12,5;0
 5,6;0
+6,6;2
 7,6;5
 8,6;6
-9,6;2
+9,6;7
 10,6;2
+11,6;2
 12,6;0
-5,7;7;2,2
-7,7;8;2,2
-9,7;8;2,2
-11,7;7;2,2
+5,7;8;2,2
+7,7;9;2,2
+9,7;9;2,2
+11,7;8;2,2
 4,8;0
 13,8;0
 3,9;0
 4,9;2
 5,9;2
-6,9;2
-7,9;9
-8,9;8;2,2
-10,9;9
-11,9;2
+6,9;10
+7,9;11
+8,9;9;2,2
+10,9;11
+11,9;10
 12,9;2
 13,9;2
 14,9;0
@@ -70,19 +72,19 @@ Modules=75
 15,10;0
 1,11;0
 2,11;2
-7,11;10;2,2
-9,11;10;2,2
+7,11;12;2,2
+9,11;12;2,2
 15,11;2
 16,11;0
 0,12;0
-1,12;11
-2,12;7;2,2
-4,12;12;2,2
+1,12;13
+2,12;8;2,2
+4,12;14;2,2
 6,12;2
 11,12;2
-12,12;13;2,2
-14,12;7;2,2
-16,12;11
+12,12;15;2,2
+14,12;8;2,2
+16,12;13
 17,12;0
 1,13;0
 16,13;0
