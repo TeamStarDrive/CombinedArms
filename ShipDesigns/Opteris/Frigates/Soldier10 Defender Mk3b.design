@@ -1,5 +1,5 @@
 Version=1
-Name=Soldier10 Defender Mk2
+Name=Soldier10 Defender Mk3b
 Hull=Opteris/Soldier10
 Role=frigate
 ModName=Combined Arms
@@ -9,13 +9,13 @@ GridCenter=10,10
 DefaultAIState=AwaitingOrders
 DefaultCombatState=Artillery
 ShipCategory=Neutral
-HangarDesignation=General
+HangarDesignation=AntiShip
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=XSGA5Fairy Small;XSGA5Fairy Med;PhasorBeam2x3;BasicFuelCell;AmplifierMk1;AmplifierMk2;BeamPD;Bridge;LaserCannon;PhasorTurret2x2;AntimatterReactor2x2;LightForceField;MedOverdrive;MediumFuelCell;WarpEngine_1x1;BosonTransmiter;WarpEngine_2x2
-Modules=85
+ModuleUIDs=HSA-Mirage Small;HSA-Mirage Med;PhasorTurret2x2;BasicFuelCell;AmplifierMk1;Bridge;IonBeam2x3;AmplifierMk2;DisintegratorArray_Small;AntimatterReactor2x2;LightForceField;BeamPD;MedOverdrive;MediumFuelCell;Engine;BosonTransmiter;WarpEngine_1x1;WarpEngine_2x2
+Modules=74
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 6,0;0
 7,0;1;2,2
@@ -24,7 +24,7 @@ Modules=85
 11,0;1;2,2
 13,0;0
 6,1;0
-9,1;2;2,3
+9,1;2;2,2
 13,1;0
 6,2;0
 7,2;3
@@ -33,46 +33,35 @@ Modules=85
 12,2;3
 13,2;0
 8,3;3
+9,3;5;2,2
 11,3;3
-7,4;2;2,3
-9,4;3
-10,4;3
-11,4;2;2,3
+7,4;6;2,3
+11,4;6;2,3
 6,5;0
-9,5;5;2,2
+9,5;7;2,2
 13,5;0
-6,7;0
-7,7;6;2,2;270
-9,7;7;2,2
-11,7;6;2,2;90
-13,7;0
+6,7;8;3,6
+9,7;9;2,2
+11,7;8;3,6
 5,8;0
-6,8;8
-13,8;8
 14,8;0
-3,9;9;2,2;345
-5,9;8;;270
-6,9;8;;315
-7,9;10;2,2
-9,9;11;2,4
-11,9;10;2,2
-13,9;8;;45
-14,9;8;;90
-15,9;9;2,2;15
+3,9;2;2,2;195
+5,9;3
+9,9;10;2,4
+14,9;3
+15,9;2;2,2;165
 1,10;1;2,2
-6,10;8;;210
-13,10;8;;150
 17,10;1;2,2
 0,11;0
-5,11;9;2,2;270
-7,11;10;2,2
-11,11;10;2,2
-13,11;9;2,2;90
+5,11;3
+14,11;3
 19,11;0
-6,13;9;2,2;195
+5,12;3
+14,12;3
+6,13;11;2,2;270
 8,13;12;2,2
 10,13;12;2,2
-12,13;9;2,2;165
+12,13;11;2,2;90
 5,14;3
 14,14;3
 3,15;13;2,2
@@ -88,9 +77,9 @@ Modules=85
 1,16;0
 2,16;0
 7,16;15
-8,16;14
-9,16;16;2,2
-11,16;14
+8,16;16
+9,16;17;2,2
+11,16;16
 12,16;15
 17,16;0
 18,16;0

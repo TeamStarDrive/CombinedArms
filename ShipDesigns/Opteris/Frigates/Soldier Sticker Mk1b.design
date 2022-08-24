@@ -1,5 +1,5 @@
 Version=1
-Name=Soldier Sticker Mk2
+Name=Soldier Sticker Mk1b
 Hull=Opteris/Soldier
 Role=frigate
 ModName=Combined Arms
@@ -14,7 +14,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=XSGA5Fairy Med;XSGA5Fairy Small;FusionTurret2x2;Cockpit;AmplifierMk1;Bridge;LaserPurple;SmallCraftForceField;Overload Fusion Reactor;MediumFuelCell;FuelCellSmallArmored;MedOverdrive;WarpEngine_1x1
+ModuleUIDs=XSGA5Fairy Med;XSGA5Fairy Small;LaserBeamTurret2x2;Cockpit;AmplifierMk1;Bridge;LaserPurple;SmallCraftForceField;Overload Fusion Reactor;FuelCellMediumArmored;CombatEngine_2x2;WarpEngine_2x2;Engine
 Modules=44
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 4,0;0;2,2
@@ -54,10 +54,10 @@ Modules=44
 6,11;2;2,2;165
 4,12;9;2,2
 2,13;1
-3,13;10
-6,13;10
+3,13;3
+6,13;3
 7,13;1
-3,14;11;2,2
+3,14;10;2,2
 5,14;11;2,2
 4,16;12
 5,16;12
