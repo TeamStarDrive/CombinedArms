@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Worker Swarmer Mk3a
 Hull=Opteris/Worker
 Role=corvette
@@ -7,33 +7,30 @@ Style=Opteris
 Size=8,6
 GridCenter=4,5
 DefaultAIState=DoNothing
-DefaultCombatState=AttackRuns
+DefaultCombatState=Artillery
 ShipCategory=Conservative
-HangarDesignation=Interceptor
+HangarDesignation=AntiShip
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=BasicFuelCell;PhasorTurret2x2;SmallCraftBattleShield;Advanced Fighter Generator;Cockpit_Side;2x1Twinengines
-Modules=20
+ModuleUIDs=Shield Armor Small;advanced_med_fuelcell;PhasorBeam2x3;LaserCannon;Fighter Shield;Cockpit;2x1Twinengines;AntiMReactorSmall
+Modules=17
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
-0,3;0
-0,4;0
-1,2;0
-1,3;1;2,2;345
+3,0;0
+4,0;0
 2,1;0
-2,2;2
-2,5;3
-3,0;1;2,2
-3,2;4;2,1
-3,3;3
-3,4;5;2,1
-3,5;5;2,1
-4,3;3
+3,1;1;2,2
 5,1;0
-5,2;2
-5,3;1;2,2;15
-5,5;3
-6,2;0
-7,3;0
-7,4;0
+1,2;2;2,3
+5,2;2;2,3
+0,3;3
+3,3;4
+4,3;5
+7,3;3
+0,4;4
+3,4;6;2,1
+7,4;4
+2,5;7
+3,5;6;2,1
+5,5;7

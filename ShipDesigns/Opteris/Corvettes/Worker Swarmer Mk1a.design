@@ -1,0 +1,39 @@
+Version=1
+Name=Worker Swarmer Mk1a
+Hull=Opteris/Worker
+Role=corvette
+ModName=Combined Arms
+Style=Opteris
+Size=8,6
+GridCenter=4,5
+DefaultAIState=DoNothing
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=XSGA5Fairy Small;Fighter Shield;LaserBeam2x3;Advanced Fighter Generator;Cockpit;LaserCannon;BasicFuelCell;2x1Twinengines
+Modules=20
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+3,0;0
+4,0;0
+2,1;0
+3,1;1
+4,1;1
+5,1;0
+1,2;2;2,3
+3,2;3
+4,2;4
+5,2;2;2,3
+0,3;5
+3,3;3
+4,3;3
+7,3;5
+0,4;6
+3,4;7;2,1
+7,4;6
+2,5;6
+3,5;7;2,1
+5,5;6

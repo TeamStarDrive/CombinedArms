@@ -1,0 +1,23 @@
+Version=1
+Name=Opteris Drone AntiShip Mk2
+Hull=Opteris/Bit
+Role=drone
+ModName=Combined Arms
+Style=Opteris
+Size=2,3
+GridCenter=0,1
+DefaultAIState=DoNothing
+DefaultCombatState=AttackRuns
+ShipCategory=Kamikaze
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=true
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=DroneBeam1x1;DroneShieldBomb1x1;CommandModule_III;DroneEngine_I
+Modules=4
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+1,0;0
+0,1;1
+1,1;2
+1,2;3

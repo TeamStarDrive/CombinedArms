@@ -1,0 +1,58 @@
+Version=1
+Name=Worker10 Molder Mk1a
+Hull=Opteris/Worker10
+Role=corvette
+ModName=Combined Arms
+Style=Opteris
+Size=12,11
+GridCenter=6,5
+DefaultAIState=AwaitingOrders
+DefaultCombatState=Artillery
+ShipCategory=Neutral
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=XSGA5Fairy Small;Beam1x2;LaserBeamTurret2x2;Advanced Fighter Generator;SmallCraftForceField;BasicFuelCell;Cockpit_Side;Engine;WarpEngine_1x1;2x1Twinengines
+Modules=39
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+4,0;0
+7,0;0
+4,1;0
+7,1;0
+4,2;0
+5,2;0
+6,2;0
+7,2;0
+3,3;0
+4,3;1;1,2
+5,3;2;2,2
+7,3;1;1,2
+8,3;0
+2,4;0
+9,4;0
+2,5;2;2,2;345
+4,5;3
+5,5;4;2,1;90;2
+7,5;3
+8,5;2;2,2;15
+0,6;0
+1,6;5
+4,6;6;2,1
+6,6;6;2,1
+10,6;5
+11,6;0
+2,7;5
+3,7;2;2,2;330
+5,7;3
+6,7;3
+7,7;2;2,2;30
+9,7;5
+5,8;7
+6,8;8
+3,9;5
+5,9;9;2,1
+8,9;5
+2,10;5
+9,10;5
