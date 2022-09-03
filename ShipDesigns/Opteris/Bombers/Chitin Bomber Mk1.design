@@ -1,5 +1,5 @@
 Version=1
-Name=Chitin Bomber Mk2
+Name=Chitin Bomber Mk1
 Hull=Opteris/Chitin
 Role=bomber
 Style=Opteris
@@ -13,8 +13,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Shield Armor Small;Shield Armor Large;Shield Armor Med;LaserGreen;PhasorBeam2x3;BasicFuelCell;NuclearBombBay3x3;OrdnanceLocker;BosonTransmiter;AmplifierMk1;BeamPD;LightForceField;NuclearBombBay2x2;CIC;DeathSporeBay;PhasorTurret2x2;Main Engineering;Internal Bulkhead;Fabricator;CapEngines;Engine;WarpEngine_2x2
-Modules=147
+ModuleUIDs=XSGA5Fairy Small;XSGA5Fairy Large;XSGA5Fairy Med;LaserGreen;FusionBeam2x3;BasicFuelCell;NuclearBombBay3x3;OrdnanceLocker;BosonTransmiter;AmplifierMk1;BeamPD;LightForceField;NuclearBombBay2x2;CIC;DeathSporeBay;FusionTurret2x2;Main Engineering;Internal Bulkhead;Fabricator;CapEngines;Engine;WarpEngine_2x2
+Modules=153
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 8,0;0
 11,0;0
@@ -119,19 +119,25 @@ Modules=147
 19,21;0
 0,22;0
 1,22;5
-6,22;7;2,2
+6,22;9
+7,22;9
 8,22;17
 9,22;17
 10,22;17
 11,22;17
-12,22;7;2,2
+12,22;9
+13,22;9
 18,22;5
 19,22;0
 0,23;0
 1,23;5
 4,23;15;2,2;180
+6,23;9
+7,23;9
 8,23;18;2,2
 10,23;18;2,2
+12,23;9
+13,23;9
 14,23;15;2,2;180
 18,23;5
 19,23;0
