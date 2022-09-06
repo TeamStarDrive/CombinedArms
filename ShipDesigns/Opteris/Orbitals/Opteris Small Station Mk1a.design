@@ -1,5 +1,5 @@
 Version=1
-Name=Opteris Small Station Mk2
+Name=Opteris Small Station Mk1a
 Hull=Opteris/Opteris_Station_Small
 Role=station
 ModName=Combined Arms
@@ -14,7 +14,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=XSGA5Fairy Small;FusionTurret2x2;BosonTransmiter;MediumFuelCell;FusionTurret3x3;BasicFuelCell;Fusion Reactor;Bridge;LightForceField;BeamPD
+ModuleUIDs=XSGA5Fairy Small;LaserBeamTurret2x2;BosonTransmiter;FuelCellMediumArmored;LaserBeamTurret3x3;FuelCellSmallArmored;Fusion Reactor;Bridge;LightForceField;BeamPD;Pulse Capacitor
 Modules=184
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 12,0;0
@@ -104,10 +104,10 @@ Modules=184
 0,13;0
 5,13;2
 6,13;0
-7,13;3;2,2
+7,13;10;2,2
 9,13;5
 18,13;5
-19,13;3;2,2
+19,13;10;2,2
 21,13;0
 22,13;2
 27,13;0
