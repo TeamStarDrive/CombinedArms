@@ -7,7 +7,7 @@
   <Tag_Plasma>false</Tag_Plasma>
   <Tag_Beam>false</Tag_Beam>
   <Tag_Intercept>true</Tag_Intercept>
-  
+  <Tag_Torpedo>true</Tag_Torpedo>
   <Tag_Bomb>false</Tag_Bomb>
   
   <Tag_BioWeapon>false</Tag_BioWeapon>
@@ -37,7 +37,8 @@
   
   <ProjectileTexturePath>torpedo_d</ProjectileTexturePath>
   <ModelPath>torpedo</ModelPath>
-  <WeaponEffectType>RocketTrail</WeaponEffectType>
+  <WeaponTrailEffect>TorpTrail</WeaponTrailEffect>
+  <TrailOffset>0</TrailOffset>
   <WeaponType>Missile</WeaponType>
   <ProjectileRadius>8</ProjectileRadius>
   <Scale>2</Scale>

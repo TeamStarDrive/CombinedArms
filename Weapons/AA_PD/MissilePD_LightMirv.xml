@@ -1,0 +1,28 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_Cannon>true</Tag_Cannon>
+  <Tag_PD>true</Tag_PD>  
+  <TruePD>true</TruePD>  
+  <UID>MissilePD_LightMirv</UID>
+  <FireDelay>1.5</FireDelay>
+  <ProjectileCount>5</ProjectileCount>
+  <Range>1000</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <FireCueName>sd_weapon_rocket_01</FireCueName>
+  <DieCue>sd_weapon_flakcannon_explode_01</DieCue>
+  <!-- Projectile Information -->
+  <DamageAmount>10</DamageAmount>
+  <Scale>1</Scale>
+  <ProjectileSpeed>800</ProjectileSpeed>
+  <ProjectileRadius>30</ProjectileRadius>  
+  <ProjectileTexturePath>projPulse_01_yellow_1_small</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <WeaponTrailEffect>Missile1x3Trail</WeaponTrailEffect>
+  <TrailOffset>0</TrailOffset>
+  <!--the projectile count is spread over the fire arc-->
+  <FireCone>8</FireCone>
+  <FireArc>40</FireArc>
+  <WeaponType>AA Weapons</WeaponType>
+</Weapon>

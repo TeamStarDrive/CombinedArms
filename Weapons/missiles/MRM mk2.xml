@@ -42,13 +42,14 @@
   <ProjectileRadius>6</ProjectileRadius>
   <RotationRadsPerSecond>1</RotationRadsPerSecond>
 <!--Projectile atributes-->
-  <Scale>0.5</Scale>
+  <Scale>0.6</Scale>
   
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
    <ProjectileTexturePath>MRM_d</ProjectileTexturePath>
   <ModelPath>MRM</ModelPath>
-  <WeaponEffectType>RocketTrail</WeaponEffectType>
+  <WeaponTrailEffect>MRM2Trail</WeaponTrailEffect>
+  <TrailOffset>-12</TrailOffset>
   <WeaponType>Missile</WeaponType>
 <!-- name of XACT audio cue to play on firing this weapon -->
   <FireCueName>sd_weapon_flame_start_01</FireCueName>

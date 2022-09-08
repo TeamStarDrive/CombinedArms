@@ -48,11 +48,11 @@
   
   <CanCollideProjectiles>true</CanCollideProjectiles>
 <!-- Projectile textures-->
-  <ModelPath>Nuke</ModelPath>
   <ProjectileTexturePath>SRM_d</ProjectileTexturePath>
   <ModelPath>SRM</ModelPath>
   <WeaponType>Missile</WeaponType>
-  <WeaponEffectType>RocketTrail</WeaponEffectType>
+  <WeaponTrailEffect>RocketTrail2</WeaponTrailEffect>
+  <TrailOffset>8</TrailOffset>
 <!-- name of XACT audio cue to play on firing this weapon -->
   <FireCueName>sd_weapon_rocket_01</FireCueName>
   <DieCue>sd_weapon_rocket_explode_01</DieCue>

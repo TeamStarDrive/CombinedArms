@@ -11,10 +11,12 @@
   <TruePD>true</TruePD>
 
   
-  <FireDelay>0.5</FireDelay>
+  <FireDelay>1</FireDelay>
   <SalvoCount>2</SalvoCount>
   <SalvoTimer>0.4</SalvoTimer>
-  <Range>3500</Range>
+  <Range>4000</Range>
+  <MirvWeapon>MissilePD_LightMirv</MirvWeapon>
+  <MirvSeparationDistance>500</MirvSeparationDistance>      
   <HitPoints>4</HitPoints>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.2</OrdinanceRequiredToFire>
@@ -29,11 +31,12 @@
   <ProjectileSpeed>2500</ProjectileSpeed>
   <ExplosionRadius>40</ExplosionRadius> <!-- This projectile explodes -->
   <ProjectileTexturePath>missile_d</ProjectileTexturePath>
+  <WeaponTrailEffect>RocketTrail2</WeaponTrailEffect>
+  <TrailOffset>0</TrailOffset>  
   <ModelPath>missile</ModelPath>
-  <WeaponEffectType>RocketTrail</WeaponEffectType>
   <WeaponType>Missile</WeaponType>
   <ProjectileRadius>50</ProjectileRadius>
   <CanCollideProjectiles>true</CanCollideProjectiles>
   <RotationRadsPerSecond>6</RotationRadsPerSecond>
-  <Scale>0.6</Scale>
+  <Scale>0.8</Scale>
 </Weapon>

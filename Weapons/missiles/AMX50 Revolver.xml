@@ -40,13 +40,14 @@
 <!--Projectile atributes-->
   <ArmorPen>2</ArmorPen>
   <EffectVsArmor>1.8</EffectVsArmor>
-  <Scale>0.9</Scale>
+  <Scale>1.8</Scale>
   
   <CanCollideProjectiles>true</CanCollideProjectiles>
   <!-- Projectile textures-->
   <ProjectileTexturePath>AMX_d</ProjectileTexturePath>
   <ModelPath>AMX</ModelPath>
-  <WeaponEffectType>RocketTrail</WeaponEffectType>
+  <WeaponTrailEffect>ATCSMBigTrail</WeaponTrailEffect>
+  <TrailOffset>0</TrailOffset>
   <WeaponType>Missile</WeaponType>
 <!-- name of XACT audio cue to play on firing this weapon -->
   <FireCueName>sd_weapon_missile_heavy_01</FireCueName>
