@@ -115,7 +115,7 @@ Types:
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
   - PlanetType:
-    Id: 8 # Mars
+    Id: 8
     Name: Barren_Mars
     Category: Barren
     Composition: 1703
@@ -248,7 +248,7 @@ Types:
     Habitable: true
     HabitableTileChance: [35, 75]
     PopPerTile: [250, 400]
-    BaseFertility: [0.15, 1.0]
+    BaseFertility: [0.2, 1.0]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
    
     # Ice, better pop but less tiles
@@ -267,7 +267,7 @@ Types:
     Habitable: true
     HabitableTileChance: [25, 60]
     PopPerTile: [150, 250]
-    BaseFertility: [-0.15, 1.5]
+    BaseFertility: [-0.05, 1.5]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
     # Ice, almost barren
@@ -286,7 +286,7 @@ Types:
     Habitable: true
     HabitableTileChance: [20, 50]
     PopPerTile: [100, 200]
-    BaseFertility: [-0.2, 0.5]
+    BaseFertility: [0, 0.5]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
     # Swamp
@@ -305,7 +305,7 @@ Types:
     Habitable: true
     HabitableTileChance: [35, 70]
     PopPerTile: [250, 400]
-    BaseFertility: [0.25, 1.5]
+    BaseFertility: [0.5, 1.5]
     MinBaseFertility: 0.75
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -325,7 +325,7 @@ Types:
     Habitable: true
     HabitableTileChance: [15, 45]
     PopPerTile: [100, 200]
-    BaseFertility: [-0.2, 1]
+    BaseFertility: [0.2, 1]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
       
     # Swamp, wider magrins on this planet
@@ -344,7 +344,7 @@ Types:
     Habitable: true
     HabitableTileChance: 40
     PopPerTile: [100, 400]
-    BaseFertility: [-1, 2]
+    BaseFertility: [-0.5, 2]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
         
     # Oceanic 
@@ -383,7 +383,7 @@ Types:
     Habitable: true
     HabitableTileChance: [15, 45]
     PopPerTile: [200, 350]
-    BaseFertility: [-0.6, 2]
+    BaseFertility: [-0.4, 2]
     MinBaseFertility: 0.2  
     MoonTypes: [Barren,Desert,Volcanic,Ice]
       
@@ -403,7 +403,7 @@ Types:
     Habitable: true
     HabitableTileChance: [50, 85]
     PopPerTile: [150, 250]
-    BaseFertility: [0.2, 1.5]
+    BaseFertility: [0.5, 1.5]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
     
     # Desert
@@ -422,7 +422,7 @@ Types:
     Habitable: true
     HabitableTileChance: [10, 45]
     PopPerTile: [100, 400]
-    BaseFertility: [-0.8, 1]
+    BaseFertility: [-0.4, 1]
     MinBaseFertility: 0.2
     MoonTypes: [Barren,Desert,Volcanic,Ice]
       
@@ -461,7 +461,7 @@ Types:
     Habitable: true
     HabitableTileChance: [5, 40]
     PopPerTile: [50, 400]
-    BaseFertility: [-0.2, 0.5]
+    BaseFertility: [-0.1, 0.5]
     Scale: 1.8
     MoonTypes: [Barren,Desert,Volcanic,Ice]
       
@@ -519,7 +519,7 @@ Types:
     Habitable: true
     HabitableTileChance: [35, 55]
     PopPerTile: [125, 250]
-    BaseFertility: [-0.2, 1.5]
+    BaseFertility: [0, 1.5]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
      
     # Steppe
@@ -538,7 +538,7 @@ Types:
     Habitable: true
     HabitableTileChance: [15, 45]
     PopPerTile: [100, 300]
-    BaseFertility: [-0.4, 1.5]
+    BaseFertility: [-0.2, 1.5]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
       
     # Steppe
@@ -557,7 +557,7 @@ Types:
     Habitable: true
     HabitableTileChance: [15, 45]
     PopPerTile: [200, 400]
-    BaseFertility: [-0.2, 1.3]
+    BaseFertility: [-0.1, 1.3]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
     # Steppe
@@ -576,7 +576,7 @@ Types:
     Habitable: true
     HabitableTileChance: [35, 70]
     PopPerTile: [250, 400]
-    BaseFertility: [0.1, 1.1]
+    BaseFertility: [0.3, 1.1]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
     # Terran
@@ -595,7 +595,7 @@ Types:
     Habitable: true
     HabitableTileChance: 10
     PopPerTile: [175, 400]
-    BaseFertility: [0.2, 0.75]
+    BaseFertility: [0.2, 1]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
   - PlanetType:
@@ -614,7 +614,7 @@ Types:
     Habitable: true
     HabitableTileChance: 75
     PopPerTile: [250, 425]
-    BaseFertility: [0.1, 1]
+    BaseFertility: [0.3, 1.2]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
   - PlanetType:
@@ -671,7 +671,7 @@ Types:
     Habitable: true
     HabitableTileChance: [50, 80]
     PopPerTile: [150, 425]
-    BaseFertility: [-1.8, 3.0]
+    BaseFertility: [-1.2, 3.0]
     MinBaseFertility: 0.2
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -690,7 +690,7 @@ Types:
     Habitable: true
     HabitableTileChance: [60, 90]
     PopPerTile: [150, 250]
-    BaseFertility: [-0.2, 1.2]
+    BaseFertility: [0, 1.2]
     MinBaseFertility: 0.25
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
