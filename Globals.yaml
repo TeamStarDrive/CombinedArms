@@ -60,10 +60,17 @@ Globals:
   # mod information
   Mod:
     Name: "Combined Arms"
-    Version: "v8.1h"
+    Version: "v8.1i"
     SupportedBlackBoxVersions: "develop,mars-1.41"
     IconPath: Textures/s141.png
     Description: "Combo mod taken into the next level. More Technologies, more hulls, more weapons and a lot of balance work."
     Author: "Moonster and Fat_Bastard"
     UseVanillaShips: false
+    UseVanillaTechs: false
+    UseVanillaModules: true
+    UseVanillaWeapons: true
+    UseVanillaBuildings: false
+    UseVanillaRaces: false
+
+    # TODO: DEPRECATED FLAG leaving here for compatibility, duplicates `UseVanillaTechs` and can be removed eventually
     ClearVanillaTechs: true
