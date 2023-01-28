@@ -4,19 +4,20 @@
   <Tag_Kinetic>true</Tag_Kinetic>
   
   <FireDelay>0.5</FireDelay>
-  <Range>2000</Range>
+  <Range>3000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0.25</OrdinanceRequiredToFire>
-  <ProjectileCount>3</ProjectileCount>
+  <ProjectileCount>5</ProjectileCount>
   <FireArc>15</FireArc>
 
+  <ExcludesCapitals>true</ExcludesCapitals>     
+  <ExcludesStations>true</ExcludesStations>     
   <!-- name of XACT audio cue to play on firing this weapon -->
   <FireCueName>sd_weapon_vulcan_alt02_01</FireCueName>  
-  <EffectVsArmor>0.85</EffectVsArmor>
-  <EffectVsShields>0.75</EffectVsShields>
+  <EffectVsShields>0.1</EffectVsShields>
   <!-- Projectile Information -->
-  <DamageAmount>40</DamageAmount>
-  <MuzzleFlash>Yes</MuzzleFlash>
+  <DamageAmount>200</DamageAmount>
+  <ExplosionRadius>32</ExplosionRadius>
   <ProjectileSpeed>3000</ProjectileSpeed>
   <ProjectileRadius>4</ProjectileRadius>
   <Scale>3.7</Scale>
