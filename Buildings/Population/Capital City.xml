@@ -7,12 +7,13 @@
 	<PlusProdPerColonist>0.1</PlusProdPerColonist>
     <PlusFlatResearchAmount>1.5</PlusFlatResearchAmount>	
 	<Infrastructure>3</Infrastructure>
-    <ShipRepair>3</ShipRepair> <!-- See Globals.yaml for BaseShipyardRepair, this is merely a multiplier -->	
+	<InvadeInjurePoints>3</InvadeInjurePoints>	
+    <ShipRepair>30</ShipRepair>
 	<StorageAdded>200</StorageAdded>
 	<Icon>megacity</Icon>
-	<Strength>50</Strength>
+	<Strength>60</Strength>
     <Range>1</Range>
-	<CombatStrength>50</CombatStrength>
+	<CombatStrength>60</CombatStrength>
 	<SoftAttack>50</SoftAttack>
 	<Defense>40</Defense>
 	<HardAttack>50</HardAttack>
@@ -25,7 +26,9 @@
 	<NameTranslationIndex>409</NameTranslationIndex>
 	<DescriptionIndex>410</DescriptionIndex>
 	<!--<ShortDescriptionIndex>411</ShortDescriptionIndex>-->
-    <DefenseShipsCapacity>8</DefenseShipsCapacity>
+    <DefenseShipsCapacity>12</DefenseShipsCapacity>
 	<DefenseShipsRole>fighter</DefenseShipsRole>
     <UniqueInEmpire>true</UniqueInEmpire>        
+	<Weapon>Fletchette Capital</Weapon>
+	<isWeapon>true</isWeapon>	
 </Building>
