@@ -52,17 +52,17 @@
     <Outcome>
       <Chance>10</Chance>
       <TitleText>Neural Enhancer</TitleText>
-      <DescriptionText>As your troops get closer to the pillar, it begins shaking and eventually shatters into a pile of rubble, including various crystals containing abnormal properties.</DescriptionText>
+      <DescriptionText>As your troops get closer to the pillar, it begins shaking and eventually shatters into a pile of rubble, including various crystals containing abnormal properties which seem to make anyone on this planet smarter.</DescriptionText>
       <ReplaceWith>Neural Enhancer</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Obelisk2.png</Image>
-      <ConfirmText>We feel smarter!</ConfirmText>
+      <ConfirmText>We feel smarter already</ConfirmText>
     </Outcome>
 
     <Outcome>
-     <Chance>5</Chance>
+     <Chance>10</Chance>
       <TitleText>Neural Dampener</TitleText>
-      <DescriptionText>As your troops get closer to the pillar, it begins shaking and eventually shatters into a pile of rubble, including various crystals containing abnormal properties.</DescriptionText>
+      <DescriptionText>As your troops get closer to the pillar, it begins shaking and eventually shatters into a pile of rubble, including various crystals containing abnormal properties which seem to make anyone on this planet dumber. Maybe future technologies will allow us to root out these crystals.</DescriptionText>
       <ReplaceWith>Neural Dampener</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Obelisk1.png</Image>
@@ -82,7 +82,7 @@
 
     <Outcome>
       <Chance>18</Chance>
-         <TitleText>Life energy</TitleText>
+         <TitleText>Life Energy</TitleText>
          <DescriptionText>As your troops approach the ancient obelisk, they hear a humming sound. The closer they get, the louder the noise becomes. Suddenly, a deafening sound is heard, and an extremely large and bright beam shoots into the sky, eventually breaking apart and slowly descending back down to the surface. Planet scans changed : +0.6 Fertility, +8 habitable tiles.</DescriptionText>
          <RemoveTrigger>true</RemoveTrigger>
          <NumTilesToMakeHabitable>8</NumTilesToMakeHabitable>
@@ -93,13 +93,13 @@
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>A unique technology!</TitleText>
+      <TitleText>A Unique Technology!</TitleText>
       <DescriptionText>After scouting the area, your troops found the obelisk. Inside of it, they found a data core with schematics for an unknown technology. Upon removing the data core from its socket, the obelisk shakes and crumbles into a pile of rubble.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>RAD</UnlockTech>       
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Technology.png</Image>
-      <ConfirmText>We need to bring this schematic back!</ConfirmText>
+      <ConfirmText>We need to bring these schematics back!</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -107,14 +107,14 @@
       <TitleText>Artifact!</TitleText>
       <DescriptionText>As your troops approach the ancient obelisk, they notice a strange object inserted into it. In an attempt to free the object, they decide to dismantle the obelisk.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
-       <GrantArtifact>true</GrantArtifact>
+      <GrantArtifact>true</GrantArtifact>
       <Image>Encounters/Artifact2.png</Image>
       <ConfirmText>Lucky for us that we had an dismantling tool at hand!</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>A unique technology!</TitleText>
+      <TitleText>A Unique Technology!</TitleText>
       <DescriptionText>After scouting the area, your troops found the obelisk. Inside of it, they found a data core with schematics for an unknown technology. Upon removing the data core from its socket, the obelisk shakes and crumbles into a pile of rubble alerting remnants to your presence.</DescriptionText>
       <UnlockTech>Remnant Metallurgy</UnlockTech>       
       <RemoveTrigger>true</RemoveTrigger>
@@ -125,7 +125,7 @@
           <string>Xeno Fighter</string>
       </RemnantShipsToSpawn> 
       <Image>Encounters/Technology.png</Image>
-      <ConfirmText>We need to bring this schematics back!</ConfirmText>
+      <ConfirmText>We need to bring these schematics back!</ConfirmText>
     </Outcome>
 
   </PotentialOutcomes>

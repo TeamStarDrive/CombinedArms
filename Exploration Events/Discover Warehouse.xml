@@ -21,13 +21,13 @@
       <DescriptionText>After Scouting the area, your troops enter the abandoned warehouse. Inside they find a lot of old rusty equipment.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/fail.png</Image>
-      <ConfirmText>Lets leave.</ConfirmText>
+      <ConfirmText>Lets leave</ConfirmText>
     </Outcome>
 
      <Outcome>
       <Chance>20</Chance>
       <TitleText>Scrap!</TitleText>
-      <DescriptionText>After Scouting the area, your troops enter the abandoned warehouse. Inside they find a lot of old rusty equipment.</DescriptionText>
+      <DescriptionText>After Scouting the area, your troops enter the abandoned warehouse. Inside they find a lot of old rusty equipment, some of it can used as scrap.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Scrapyard</ReplaceWith>
       <Image>Encounters/Scrapyard.png</Image>
@@ -69,7 +69,7 @@
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>Excellent find</TitleText>
+      <TitleText>Excellent Find</TitleText>
       <DescriptionText>Here you have made an excellent discovery - Inside the warehouse you found completely intact alien light frigate! What's more, it appears to be space worthy and inside of its cargo there is an ancient artifact.</DescriptionText>
       <FriendlyShipsToSpawn>
         <string>Heavy Drone</string>
@@ -118,7 +118,7 @@
       <ReplaceWith>Large Warehouse</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/ShipSpawn2.png</Image>
-      <ConfirmText>Silly Pirates.</ConfirmText>
+      <ConfirmText>Silly Pirates</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -135,7 +135,7 @@
       <ReplaceWith>Large Warehouse</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/ShipSpawn2.png</Image>
-      <ConfirmText>Their loss, our gain.</ConfirmText>
+      <ConfirmText>Their loss, our gain</ConfirmText>
     </Outcome>               
   </PotentialOutcomes>
 </ExplorationEvent>

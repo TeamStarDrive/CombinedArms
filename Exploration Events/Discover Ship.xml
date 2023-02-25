@@ -3,7 +3,7 @@
   <PotentialOutcomes>
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>Unknown defenders</TitleText>
+      <TitleText>Unknown Defenders</TitleText>
       <DescriptionText>Before reaching the Crashed Ship, your troops were attacked by unknown enemies and had to fall back, the crashed ship takes off and warps out of the system.</DescriptionText>
        <TroopsToSpawn>
         <string>Skeleton</string>
@@ -17,7 +17,7 @@
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>A unique technology and great peril!</TitleText>
+      <TitleText>A Unique Technology And Great Peril!</TitleText>
       <DescriptionText>After Scouting the area, your troops found a ship, inside on they found a data core with schematics of unknown technology. While removing the data core from the socket, they triggered ship security protocols alarming a dormant Remnant Inhibitor!</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>Cyclone</UnlockTech>       
@@ -28,12 +28,12 @@
       <TroopsToSpawn>
       </TroopsToSpawn>      
       <Image>Encounters/Technology.png</Image> 
-      <ConfirmText>This could gone worse.</ConfirmText>
+      <ConfirmText>This could gone worse</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>A unique technology!</TitleText>
+      <TitleText>A Unique Technology!</TitleText>
       <DescriptionText>After Scouting the area, your troops found a ship, inside on they found a data core with schematics of unknown technology. While removing the data core from the socket, they triggered ship security protocols alarming dormant space defenders.</DescriptionText>
       <MoneyGranted>500</MoneyGranted>
       <UnlockTech>Energizer3x3</UnlockTech>       
@@ -47,12 +47,12 @@
       <TroopsToSpawn>
       </TroopsToSpawn>       
       <Image>Encounters/Technology.png</Image>
-      <ConfirmText>Next time, don't touch alien tech.</ConfirmText>
+      <ConfirmText>Next time, don't touch alien tec.</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>25</Chance>
-      <TitleText>A sad wreck</TitleText>
+      <TitleText>A Sad Wreck</TitleText>
       <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. Even so, there are some curiosities among the wreckage that will have some value on the open market.</DescriptionText>
       <MoneyGranted>250</MoneyGranted>
       <RemoveTrigger>true</RemoveTrigger>
@@ -62,7 +62,7 @@
 
     <Outcome>
       <Chance>15</Chance>
-      <TitleText>Excellent find</TitleText>
+      <TitleText>Excellent Find</TitleText>
       <DescriptionText>Here you have made an excellent discovery - what appeared from orbit to be a shipwreck was in fact not a wreck at all, but a completely intact alien light frigate! Further examination reveals that it is space worthy and the cargo hold contains a mysterious artifact.</DescriptionText>
       <FriendlyShipsToSpawn>
           <string>Heavy Drone</string>
@@ -75,7 +75,7 @@
 
     <Outcome>
       <Chance>15</Chance>
-      <TitleText>Nice find</TitleText>
+      <TitleText>Nice Find</TitleText>
       <DescriptionText>Here you have made a nice discovery - what appeared from orbit to be a shipwreck was in fact not a wreck at all, but a small, completely intact alien ship squardron!</DescriptionText>
       <FriendlyShipsToSpawn>
           <string>Heavy Drone</string>
@@ -84,12 +84,12 @@
       </FriendlyShipsToSpawn>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Working ship.png</Image>
-      <ConfirmText>Oh, lets test those bad boys!</ConfirmText>
+      <ConfirmText>Oh, lets test these bad boys!</ConfirmText>
     </Outcome>	
 	
     <Outcome>
       <Chance>15</Chance>
-      <TitleText>Nice find</TitleText>
+      <TitleText>Nice Find</TitleText>
       <DescriptionText>Here you have made a nice discovery - what appeared from orbit to be a shipwreck was in fact not a wreck at all, but a small, completely intact alien ship squardron!</DescriptionText>
       <FriendlyShipsToSpawn>
           <string>Xeno Fighter</string>
@@ -102,7 +102,7 @@
       </FriendlyShipsToSpawn>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Working ship.png</Image>
-      <ConfirmText>Oh, lets test those bad boys!</ConfirmText>
+      <ConfirmText>Oh, lets test these bad boys!</ConfirmText>
     </Outcome>		
 	
     <Outcome>
@@ -131,7 +131,7 @@
 
     <Outcome>
       <Chance>10</Chance>
-      <TitleText>Precious cargo</TitleText>
+      <TitleText>Precious Cargo</TitleText>
       <DescriptionText>Your forces examine the wreckage of what is clearly a very, very ancient shipwreck. Time and nature have taken their toll on the wreckage. But even so, scans show its reactor is still functional and providing power to the storage unit, inside your troops found a very rare seed, that was being transported somewhere.</DescriptionText>
       <ReplaceWith>WorldSeed</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
@@ -141,11 +141,11 @@
 
     <Outcome>
       <Chance>2</Chance>
-      <TitleText>Space car?</TitleText>
+      <TitleText>Space Car?</TitleText>
       <DescriptionText>Your forces examine the wreckage of a small spacecraft that crashed into the planet a long time ago. From the description of the scans, it seems too small for a spaceship. Even more puzzling is that it has wheels. Could this have been an old automobile of some sort? No, those were never designed to be launched into space.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/Car.png</Image>
-      <ConfirmText>This one probably broke few speed limits.</ConfirmText>
+      <ConfirmText>This one probably broke a few speed limits</ConfirmText>
     </Outcome>
   </PotentialOutcomes>
 </ExplorationEvent>

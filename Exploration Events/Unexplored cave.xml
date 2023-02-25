@@ -4,7 +4,7 @@
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>It's an alien nest!</TitleText>
+      <TitleText>It's an Alien Nest!</TitleText>
       <DescriptionText>As your troops approach the cave, they hear sounds coming from inside. Tossing in a flare to illuminate the depths, they spot movement. Unfortunately, a nest of antlions has made its home here! Following procedure, they quickly detonate explosives at the entrance, sealing the threat within.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <TroopsToSpawn>
@@ -18,7 +18,7 @@
 
     <Outcome>
       <Chance>3</Chance>
-      <TitleText>It's an alien nest!</TitleText>
+      <TitleText>It's an Alien Nest!</TitleText>
       <DescriptionText>As your troops approach the cave, they hear sounds coming from inside. Tossing in a flare to illuminate the depths, they spot movement. Unfortunately, a nest of antlions has made its home here! In an attempt at clearing the alien colony inside, they decided to drop explosives into the cave. The detonation shook the earth, causing a sinkhole to envelop the terrain even deeper into the planet. This causes the release of a multitude of toxic gasses. Soon after, the cave is filled with highly corrosive liquid. From initial scans, it seems to be a unique third state of hydrogen, h3.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Evaporative Wastepit</ReplaceWith>
@@ -28,7 +28,7 @@
 
     <Outcome>
       <Chance>10</Chance>
-      <TitleText>It's infested!</TitleText>
+      <TitleText>It's Infested!</TitleText>
       <DescriptionText>As your troops approach the cave, they hear a faint sound that comes from inside. Tossing in a flare to illuminate the depths, they see nothing. Initial scans shows it's an entrance to a very massive cave system. After a few dull moments of silence, a horde of antlions suddenly surges forth! They're surrounded!</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Cave system</ReplaceWith>
@@ -37,6 +37,12 @@
         <string>Antlion</string>
         <string>Antlion</string>
         <string>Antlion</string>
+		<string>Antlion</string>
+		<string>Antlion</string>
+		<string>Antlion</string>
+		<string>Antlion</string>
+		<string>Antlion</string>
+		<string>Antlion</string>
       </TroopsToSpawn>
       <Image>Encounters/Cave.png</Image>
       <ConfirmText>Lets be Cavemen!</ConfirmText>
@@ -44,7 +50,7 @@
 
      <Outcome>
       <Chance>10</Chance>
-      <TitleText>Unexpected meeting</TitleText>
+      <TitleText>Unexpected Meeting</TitleText>
       <DescriptionText>While exploring the cave, your troops stumble upon some crates and an aged smuggler that introduced him self as Roland. They fashioned a deal with him to provide our colony with food and equipment, in exchange for money in regular intervals.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <ReplaceWith>Drop off point</ReplaceWith>
@@ -54,7 +60,7 @@
 
     <Outcome>
       <Chance>10</Chance>
-      <TitleText>Updated scans</TitleText>
+      <TitleText>Updated Scans</TitleText>
       <DescriptionText>While exploring the cave, your troops scanned the underground mineral composition. The results revealed that the planet crust wasn't as rich as the orbital scans initially suggested. Planet scans changed : -0.4 Richness.</DescriptionText>
 	  <ReplaceWith>Cave system</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>

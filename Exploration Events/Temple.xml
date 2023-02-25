@@ -15,7 +15,7 @@
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>It's an alien nest!</TitleText>
+      <TitleText>It's an Alien Nest!</TitleText>
       <DescriptionText>As your troops approach the temple, they hear sounds coming from inside. Unfortunately, a nest of antlions has made its home here! The troops quickly placed strategic explosives around the main structural components of the temple, causing it to collapse upon detonation.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <TroopsToSpawn>
@@ -29,19 +29,19 @@
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>Remnant worshipers!</TitleText>
+      <TitleText>Remnant Worshipers</TitleText>
       <DescriptionText>While mapping the layout of the temple rooms, your troops notice many primitive scribbles and mosaics in the walls, each worshiping some form of deity that came from the heavens. While examining the roof of the temple, they notice its unique size and flatness, something that could almost resemble a landing pad for a ship. Suddenly, they hear a sound and look up to see a remnant vessel has appeared! It hovers for a moment to charge its warp drive. Your troops fall back in haste, and as soon as they leave the temple, the vessel takes off, producing a powerful shock wave and destroying the temple.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <RemnantShipsToSpawn>
         <string>Ancient Frigate</string>
       </RemnantShipsToSpawn>
       <Image>Encounters/Temple.png</Image>
-       <ConfirmText>I hate cults.</ConfirmText>
+       <ConfirmText>I hate cults</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>A unique technology!</TitleText>
+      <TitleText>A Unique Technology!</TitleText>
       <DescriptionText>After scouting the interior of the temple, your troops located a hidden chamber. Inside, they found a data core with schematics for an unknown technology. After removing the data core from its socket, the whole structure began to shake, and your troops managed to make it out just as the whole structure crumbles behind them.</DescriptionText>
       <UnlockTech>AncientArmor</UnlockTech>       
       <RemoveTrigger>true</RemoveTrigger>
@@ -51,7 +51,7 @@
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText></TitleText>
+      <TitleText>Ancient Megacity</TitleText>
       <DescriptionText>From outside, the enormous pyramid-like structure resembles an old temple, but after inspecting it from inside, your troops report that it is in fact a large housing complex.</DescriptionText>
       <ReplaceWith>Ancient megacity</ReplaceWith>       
       <RemoveTrigger>true</RemoveTrigger>
@@ -71,7 +71,7 @@
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>Scavenger pirates</TitleText>
+      <TitleText>Scavenger Pirates</TitleText>
       <DescriptionText>While exploring the temple, your troops stumbled upon a group of scavengers who immediately started firing shots. They were thankfully dealt with, and we suffered no losses, but that was not the end of them. They were a part of a larger space-pirate crew, who noticed that something had happened. Soon after, several ships launch from the surface. </DescriptionText>
        <PirateShipsToSpawn>
           <string>Corsair</string>
@@ -103,7 +103,7 @@
     
 	<Outcome>
       <Chance>5</Chance>
-      <TitleText>Mad scientist!</TitleText>
+      <TitleText>Mad Scientist!</TitleText>
       <DescriptionText>After entering the temple, your troops notice that corridors are littered with destroyed barricades and the skeletal remains of its former occupants. Inside a section that looks like a laboratory, your troops find a manual describing a horrible technological procedure to modify the skeletal structure of a person with an integrated self-moving exoskeleton. It sounds extremely advanced, but also painful. Maybe this was a sort of testing area for new technologies and the remains that we found were test subjects? The technology seems unrecoverable though. Maybe that is for the best. Who would want to do that to a person! At that moment, you hear a scream from one of the soldiers: the skeletons, they are moving!.</DescriptionText>
       <RemoveTrigger>true</RemoveTrigger>
       <TroopsToSpawn>

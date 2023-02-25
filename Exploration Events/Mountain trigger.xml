@@ -4,7 +4,7 @@
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>Unknown defenders</TitleText>
+      <TitleText>Unknown Defenders</TitleText>
       <DescriptionText>Before reaching the power source, your troops were attacked by unknown enemies and had to fall back. From far away they saw something taking off from the peak of the mountain.</DescriptionText>
      <RemnantShipsToSpawn>
           <string>Ancient Frigate</string>
@@ -21,12 +21,12 @@
 
     <Outcome>
       <Chance>10</Chance>
-      <TitleText>A sad wreck</TitleText>
+      <TitleText>A Sad Wreck</TitleText>
       <DescriptionText>Under the snow, your forces found the buried wreckage of what is clearly a very old ship. Its reactor was damaged, yet still barely working, its likely causing errors in our scans. The order was given to destroy it and proceed with scanning the rest of the planet. As it turns out, those snowy mountains were far larger than expected.</DescriptionText>
-       <ReplaceWith>Massive mountains</ReplaceWith>
+      <ReplaceWith>Massive mountains</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
       <Image>Encounters/MountainShip.png</Image>
-      <ConfirmText>Lets go back.</ConfirmText>
+      <ConfirmText>Lets go back</ConfirmText>
     </Outcome>
 
     <Outcome>
@@ -37,12 +37,12 @@
       <RemoveTrigger>true</RemoveTrigger>
       <GrantArtifact>true</GrantArtifact>
       <Image>Encounters/Artifact4.png</Image>
-      <ConfirmText>Now only to bring this back.</ConfirmText>
+      <ConfirmText>We should bring it back</ConfirmText>
     </Outcome>
 
     <Outcome>
       <Chance>20</Chance>
-      <TitleText>Hidden hangar</TitleText>
+      <TitleText>Hidden Hangar</TitleText>
       <DescriptionText>Your troops following the trail of the power signature were led to an ancient hidden hangar. Inside, they found several ships in perfect condition ready for deployment.</DescriptionText>
       <ReplaceWith>Mountain</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
@@ -58,7 +58,7 @@
 
     <Outcome>
       <Chance>20</Chance>
-      <TitleText>Hidden hangar</TitleText>
+      <TitleText>Hidden Hangar</TitleText>
       <DescriptionText>Your troops following the trail of the power signature were led to a hidden pirate hangar. Inside, they found a frigate class ship in perfect condition.</DescriptionText>
       <ReplaceWith>Mountain</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
@@ -71,7 +71,7 @@
 
     <Outcome>
       <Chance>5</Chance>
-      <TitleText>Recovered technology</TitleText>
+      <TitleText>Recovered Technology</TitleText>
       <DescriptionText>Your forces found an old, completely split in half ship, partially buried under the snow. Its damaged reactor was leaking ionized liquid, obviously the source that caused the errors in our scans. While searching the wreck, our troops stumbled upon some weapon schematics. Nothing else was worth salvaging, so the order was given to destroy the remains.</DescriptionText>
       <UnlockTech>RemnantNuker</UnlockTech>
       <ReplaceWith>Mountain</ReplaceWith>
@@ -82,7 +82,7 @@
 
     <Outcome>
       <Chance>15</Chance>
-      <TitleText>Updated scans</TitleText>
+      <TitleText>Updated Scans</TitleText>
       <DescriptionText>While exploring several caves, your troops discovered that this mountain has a unique mineral composition, capable of reflecting most of the methods used in orbital scans. After a few tests on the site, it became clear that most of it, if not whole mountain is rich in exotic minerals. Planet scans changed : +0.8 Richness.</DescriptionText>
       <ReplaceWith>Mountain</ReplaceWith>
       <RemoveTrigger>true</RemoveTrigger>
@@ -93,7 +93,7 @@
     
 	<Outcome>
       <Chance>10</Chance>
-      <TitleText>Recovered technology</TitleText>
+      <TitleText>Recovered Technology</TitleText>
       <DescriptionText>Your forces found an old, completely split in half ship, buried under the snow. Its damaged reactor was leaking ionized liquid, obviously the source that caused the errors in our scans. While searching the wreck, our troops stumbled upon some technology schematics. Nothing else was worth salvaging, so the order was given to destroy the remains.</DescriptionText>
       <UnlockTech>Remnant Assembly</UnlockTech>
       <ReplaceWith>Mountain</ReplaceWith>
