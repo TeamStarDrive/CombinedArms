@@ -201,6 +201,23 @@ Types:
     SpecularPower: 4
     AtmosphereType: [VolcanicRed,Clouds]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
+    ResearchableChance: 3 # This only works on non unhabutable planets
+    
+    
+  - PlanetType:
+    Id: 45
+    Name: Volcanic_9
+    Category: Volcanic
+    Composition: 1705
+    IconPath: Planets/9
+    DiffuseMap:    Model/SpaceObjects/planet_tex9_2048x1024.dds
+    SpecularMap:   Model/SpaceObjects/planet_9spec.dds
+    NormalMap:     Model/SpaceObjects/planet_tex9_normal.dds
+    EmissiveMap:   Model/SpaceObjects/planet_9emiss.dds
+    SpecularPower: 4
+    AtmosphereType: [VolcanicRed,Clouds]
+    MoonTypes: [Barren,Desert,Volcanic,Ice]
+    ResearchableChance: 3 # This only works on non unhabutable planets    
 
   - PlanetType: 
     Id: 44 # Hestess
@@ -214,6 +231,7 @@ Types:
     EmissiveMap:   Model/SpaceObjects/planet_23emis.dds
     SpecularPower: 4
     AtmosphereType: [VolcanicRed]
+    ResearchableChance: 3 # This only works on non unhabutable planets
 
   - PlanetType:
     Id: 43 # Noldor hospitable
@@ -709,6 +727,7 @@ Types:
     AtmosphereType: [GasYellow]
     Scale: 2.5
     MoonTypes: [Barren,Desert,Volcanic,Ice]
+    ResearchableChance: 7 # This only works on non unhabutable planets
     
   - PlanetType:
     Id: 6 # Blood Red Giant
@@ -724,6 +743,7 @@ Types:
     AtmosphereType: [GasOrange]
     Scale: 2.5
     MoonTypes: [Barren,Desert,Volcanic,Ice]
+    ResearchableChance: 7 # This only works on non unhabutable planets
 
   - PlanetType:
     Id: 10 # Yellow Giant
@@ -739,6 +759,7 @@ Types:
     AtmosphereType: [GasYellow]
     Scale: 2.5
     MoonTypes: [Barren,Desert,Volcanic,Ice]
+    ResearchableChance: 7 # This only works on non unhabutable planets
 
   - PlanetType:
     Id: 12 # Pink Giant
@@ -754,6 +775,7 @@ Types:
     AtmosphereType: [GasOrange]
     Scale: 2.5
     MoonTypes: [Barren,Desert,Volcanic,Ice]
+    ResearchableChance: 7 # This only works on non unhabutable planets
       
   - PlanetType:
     Id: 15 # Polyphemus, Uranus, Cyan/LightBlue giant
@@ -769,6 +791,7 @@ Types:
     AtmosphereType: [GasAqua]
     Scale: 2.5
     MoonTypes: [Barren,Desert,Volcanic,Ice]
+    ResearchableChance: 7 # This only works on non unhabutable planets
 
   - PlanetType:
     Id: 26 # Neptune, Blue giant
@@ -784,6 +807,7 @@ Types:
     AtmosphereType: [GasBlue]
     Scale: 2.5
     MoonTypes: [Barren,Desert,Volcanic,Ice]
+    ResearchableChance: 7 # This only works on non unhabutable planets
 
   - PlanetType:
     Id: 28 # Jupiter, striped beige giant
@@ -799,3 +823,4 @@ Types:
     AtmosphereType: [GasYellow]
     Scale: 2.5
     MoonTypes: [Barren,Desert,Volcanic,Ice]
+    ResearchableChance: 7 # This only works on non unhabutable planets

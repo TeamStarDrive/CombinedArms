@@ -2,7 +2,7 @@
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
 
-  <Cost>3.5</Cost>
+  <Cost>10</Cost>
   <!-- Tech Level -->
   <TechLevel>3</TechLevel>
   <TechBranch>Storage</TechBranch>
@@ -14,9 +14,9 @@
   <Restrictions>IO</Restrictions>
   <Name>Small Cargo Hold</Name>
   <IconTexturePath>Modules/ContainerDeck</IconTexturePath>
-  <Mass>220</Mass>
-  <Health>60</Health>
-  <HealthMax>60</HealthMax>
+  <Mass>200</Mass>
+  <Health>1000</Health>
+  <HealthMax>1000</HealthMax>
   <energyreq>0</energyreq>
   
   
@@ -47,7 +47,7 @@
   <Thrust>0</Thrust>
 
   <!-- for Storage -->
-  <CargoCapacity>25</CargoCapacity>
+  <CargoCapacity>27</CargoCapacity>
   
   
 
