@@ -146,12 +146,14 @@
     <!-- Cybernetic -->
     <TraitName>60</TraitName>
     <Category>Special</Category>
-    <Cost>8</Cost>
+    <Cost>11</Cost>
     <Description>61</Description>
     <Cybernetic>1</Cybernetic>
     <RepairMod>1</RepairMod>
-    <Excludes>5091</Excludes>
-    <Excludes>17997</Excludes>
+	<Excludes>62</Excludes>
+    <Excludes>86</Excludes>
+	<Excludes>5081</Excludes>
+	<Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!--industrious -->
@@ -160,6 +162,7 @@
     <Cost>3</Cost>
     <Description>63</Description>
     <ProductionMod>0.25</ProductionMod>
+	<Excludes>60</Excludes>
     <Excludes>64</Excludes>
     <Excludes>5091</Excludes>
   </RacialTrait>
@@ -285,6 +288,7 @@
       <Cost>-2</Cost>
       <Description>87</Description>
       <HomeworldFertMod>-0.5</HomeworldFertMod>
+	  <Excludes>60</Excludes>
       <Excludes>5087</Excludes>
       <Excludes>5091</Excludes>
       <Excludes>17997</Excludes>
@@ -297,6 +301,7 @@
       <Description>5082</Description>
       <HomeworldFertMod>-1.0</HomeworldFertMod>
       <HomeworldRichMod>1.0</HomeworldRichMod>
+	  <Excludes>60</Excludes>
       <Excludes>5087</Excludes>
       <Excludes>5091</Excludes>
       <Excludes>17997</Excludes>
