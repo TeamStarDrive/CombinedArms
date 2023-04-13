@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <Cost>20</Cost>
+  <Cost>30</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>2</TechLevel>
   
@@ -14,7 +14,7 @@
   <UID>CombatEngine_2x2</UID>
   <TexturePath>Textures/transparent</TexturePath>
   <IconTexturePath>Modules/CombatEngine_2x2</IconTexturePath>
-  <Mass>20</Mass>
+  <Mass>28</Mass>
   <HealthMax>600</HealthMax>
   <RepairDifficulty>2</RepairDifficulty>
   
@@ -44,6 +44,6 @@
   <!-- for Weapons -->
   <!-- for Engines -->
   <Thrust>130000</Thrust>
-  <TurnThrust>180000</TurnThrust>  
+  <TurnThrust>160000</TurnThrust>  
   <WarpThrust>0</WarpThrust>
 </ShipModule>

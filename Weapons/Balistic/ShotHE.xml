@@ -6,7 +6,7 @@
   <FireDelay>6</FireDelay>
   <Range>1500</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>1.6</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>2</OrdinanceRequiredToFire>
   <SalvoCount>2</SalvoCount>
   <SalvoTimer>1</SalvoTimer>
   <ProjectileCount>3</ProjectileCount>
@@ -15,9 +15,9 @@
   <!-- name of XACT audio cue to play on firing this weapon -->
   <FireCueName>sd_weapon_vulcan_shotgun_01</FireCueName>
   <DieCue>sd_weapon_flakcannon_explode_01</DieCue>
-  <EffectVsArmor>.5</EffectVsArmor>
+  <EffectVsArmor>0.5</EffectVsArmor>
   <!-- Projectile Information -->
-  <DamageAmount>270</DamageAmount>
+  <DamageAmount>400</DamageAmount>
   
   <ExplosionRadius>24</ExplosionRadius> <!-- This projectile explodes -->
   <MuzzleFlash>Yes</MuzzleFlash>
