@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Dauntless
 Size=18,24
 GridCenter=9,12
-DefaultAIState=DoNothing
 DefaultCombatState=Evade
 ShipCategory=Civilian
 HangarDesignation=General
@@ -14,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=thruster1x2;Engine;AntimatterThruster;Deflector2x2;WarpEngine_2x2;BosonTransmiter;Bridge;jumpdrive2x2;NuclearReactorSmall;Main Engineering;ContainerDeck;AmplifierMk1;Deflector3x3;thruster1x1;LargeCargoHold
+ModuleUIDs=thruster1x2;Engine;PlasmaTorchThruster;Deflector2x2;WarpEngine_2x2;BosonTransmiter;Bridge;jumpdrive2x2;NuclearReactorSmall;Main Engineering;ContainerDeck;AmplifierMk1;Deflector3x3;thruster1x1;LargeCargoHold
 Modules=61
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 8,0;0;1,2
