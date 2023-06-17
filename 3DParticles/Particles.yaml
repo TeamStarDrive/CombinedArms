@@ -550,16 +550,84 @@
   Effect: ParticleEffect.fx
   OnlyNearView: true # only render when zoomed in
   MaxParticles: 5000
-  Duration: 0.5
+  Duration: 1
   DurationRandomness: 1
-  InheritOwnerVelocity: 0
-  RandomVelocityXY: [ [0,0], [-15,15] ]
+  InheritOwnerVelocity: -1
+  RandomVelocityXY: [ [15,0], [15,15] ]
   EndVelocity: 0
-  StartColorRange: [[128,128,128,255],[169,169,169,255]]
+  StartColorRange: [[169,255,169,255],[0,255,0,255]]
   EndColorTime: 0.5
-  RotateSpeed: [-1,1]
+  RotateSpeed: [1,1]
   StartEndSize: [ [1,1], [150,250] ]
   SrcDstBlend: [SourceAlpha, One]
+  
+- ParticleSettings:
+  Name: PlasmaGreen
+  TextureName: "fire.png"
+  Effect: ParticleEffect.fx
+  OnlyNearView: true # only render when zoomed in
+  MaxParticles: 5000
+  Duration: 1
+  DurationRandomness: 1
+  InheritOwnerVelocity: -1
+  RandomVelocityXY: [ [15,0], [15,15] ]
+  EndVelocity: 0
+  StartColorRange: [[169,255,169,255],[0,255,0,255]]
+  EndColorTime: 0.5
+  RotateSpeed: [1,1]
+  StartEndSize: [ [1,1], [150,250] ]
+  SrcDstBlend: [SourceAlpha, One]  
+  
+- ParticleSettings:
+  Name: PlasmaRed
+  TextureName: "fire.png"
+  Effect: ParticleEffect.fx
+  OnlyNearView: true # only render when zoomed in
+  MaxParticles: 5000
+  Duration: 1
+  DurationRandomness: 1
+  InheritOwnerVelocity: -1
+  RandomVelocityXY: [ [15,0], [15,15] ]
+  EndVelocity: 0
+  StartColorRange: [[255,169,169,255],[255,0,0,255]]
+  EndColorTime: 0.5
+  RotateSpeed: [1,1]
+  StartEndSize: [ [1,1], [150,250] ]
+  SrcDstBlend: [SourceAlpha, One]    
+  
+- ParticleSettings:
+  Name: PlasmaPurple
+  TextureName: "fire.png"
+  Effect: ParticleEffect.fx
+  OnlyNearView: true # only render when zoomed in
+  MaxParticles: 5000
+  Duration: 1
+  DurationRandomness: 1
+  InheritOwnerVelocity: -1
+  RandomVelocityXY: [ [15,0], [15,15] ]
+  EndVelocity: 0
+  StartColorRange: [[169,169,169,255],[255,0,255,255]]
+  EndColorTime: 0.5
+  RotateSpeed: [1,1]
+  StartEndSize: [ [1,1], [150,250] ]
+  SrcDstBlend: [SourceAlpha, One]      
+
+- ParticleSettings:
+  Name: PlasmaBlue
+  TextureName: "fire.png"
+  Effect: ParticleEffect.fx
+  OnlyNearView: true # only render when zoomed in
+  MaxParticles: 5000
+  Duration: 1
+  DurationRandomness: 1
+  InheritOwnerVelocity: -1
+  RandomVelocityXY: [ [15,0], [15,15] ]
+  EndVelocity: 0
+  StartColorRange: [[160,160,255],[30,30,200,255]]
+  EndColorTime: 0.5
+  RotateSpeed: [1,1]
+  StartEndSize: [ [5,5], [150,250] ]
+  SrcDstBlend: [SourceAlpha, One]      
 
 - ParticleSettings:
   Name: Flash

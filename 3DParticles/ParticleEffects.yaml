@@ -318,10 +318,25 @@
     - Emitter: { Particle: BlueSparks, Rate: 45, InheritMoveVelocity: 2, Scale: 4, ColorSource: EmpireColor }
 
 - ParticleEffect: # Projectile Trail effect
-  Name: Plasma
+  Name: PlasmaGreen
   Emitters:
-    - Emitter: { Particle: Flame, Rate: 50 }
+    - Emitter: { Particle: PlasmaGreen, Rate: 50 }
+    
+- ParticleEffect: # Projectile Trail effect
+  Name: PlasmaRed
+  Emitters:
+    - Emitter: { Particle: PlasmaRed, Rate: 50 }    
 
+- ParticleEffect: # Projectile Trail effect
+  Name: PlasmaPurple
+  Emitters:
+    - Emitter: { Particle: PlasmaPurple, Rate: 50 }        
+    
+- ParticleEffect: # Projectile Trail effect
+  Name: PlasmaBlue
+  Emitters:
+    - Emitter: { Particle: PlasmaBlue, Rate: 50 }     
+    
 ####################################################
 ###Particle effects used for blank texture projectiles
 #####################################################

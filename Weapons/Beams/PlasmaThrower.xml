@@ -18,11 +18,13 @@
   
   <ProjectileSpeed>1500</ProjectileSpeed>
  
-  <ProjectileTexturePath>projBall_03_green</ProjectileTexturePath>
+  <ProjectileTexturePath>blank</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <WeaponType>Plasma</WeaponType>
   <FireCone>5</FireCone>
-  <WeaponEffectType>Plasma</WeaponEffectType>
-  <ProjectileRadius>10</ProjectileRadius>
-  <OffPowerMod>0.25</OffPowerMod>
+  <WeaponTrailEffect>PlasmaGreen</WeaponTrailEffect>
+  <WeaponHitEffect></WeaponHitEffect>
+  <WeaponDeathEffect></WeaponDeathEffect>  
+  <ProjectileRadius>5</ProjectileRadius>
+  <OffPowerMod>0.25</OffPowerMod> 
 </Weapon>
