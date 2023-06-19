@@ -27,7 +27,8 @@ Globals:
   SelfRepairMultiplier: 1.0 # base repair rate multiplier from ship command/engineering modules
   BonusRepairPerCrewLevel: 0.2 # +bonus rate based on crew level, 0.2 would be +20% increase per each crew level
   InCombatSelfRepairModifier: 0 # repair rate modifier for command/engineering self repair when in combat  
-  ShieldPowerMultiplier: 1.0
+  ShieldPowerMultiplier: 1.0 # Global multiplier for Shields
+  ProjectileHitpointsMultiplier: 0.75 # Global multiplier for Projectile Hit Points (mainly affects missiles)
 
   # feature flags
   DisableShipPicker: true
