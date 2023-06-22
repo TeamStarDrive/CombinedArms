@@ -21,7 +21,7 @@ Globals:
   ResearchStationProductionPerResearch: 3 # default 2
   RushCostPercentage: 1 # default 1, How much rushing costs in percentage of production cost
   MinAcceptableShipWarpRange: 600000 # minimum ship warp range which is accepted as good
-  BaseShipyardRepair: 10 # repair multiplier of ship repair per turn from planetary buildings
+  BaseShipyardRepair: 5 # repair multiplier of ship repair per turn from planetary buildings
   BonusRepairPerColonyLevel: 0.5 # +bonus based on colony level, 0.2 would be +20% increase per level
   InCombatRepairModifier: 0.1 # repair rate modifier when a ship or planet is in combat
   SelfRepairMultiplier: 1.0 # base repair rate multiplier from ship command/engineering modules
@@ -48,7 +48,7 @@ Globals:
   SpaceportScale: 0.5
   ExplosionVisualIncreaser: 1 # default: 1
   ShipExplosionVisualIncreaser: 1 # default: 1
-  ModuleDamageVisualIntensity: 1 # default: 1
+  ModuleDamageVisualIntensity: 2 # default: 1
 
   # misc settings
   CustomMenuMusic: ""
@@ -63,7 +63,7 @@ Globals:
   # mod information
   Mod:
     Name: "Combined Arms"
-    Version: "v8.1u"
+    Version: "v8.1v"
     SupportedBlackBoxVersions: "develop,mars-1.41"
     IconPath: Textures/s141.png
     Description: "Combo mod taken into the next level. More Technologies, more hulls, more weapons and a lot of balance work."
