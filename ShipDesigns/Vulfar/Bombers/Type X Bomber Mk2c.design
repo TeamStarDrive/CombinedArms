@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Vulfen
 Size=12,41
 GridCenter=6,21
-DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Neutral
 HangarDesignation=AntiShip
@@ -14,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Crystal Armor Med;Repeater2x2_Crystal;Crystal Armor Small;BosonTransmiter;NuclearBombBay2x2;OrdnanceLockerSmall;BosonTransmiter2;AutoTurret Type62;BattleShield2x2;AmplifierMk2;Fabricator;Bridge;OrdnanceLocker;ShotgunHE;AmplifierMk1;Main Engineering;Gatling Turret;Cockpit_Side;PowerSolar;AntimatterReactor2x2;thruster1x2;RocketLauncher;WarpEngine_3x3;OverdriveCapEngines;CombatEngine_2x2;WarpEngine_2x2
+ModuleUIDs=Crystal Armor Med;Repeater2x2_Crystal;Crystal Armor Small;BosonTransmiter;NuclearBombBay2x2;OrdnanceLockerSmall;BosonTransmiter2;AutoTurret Type62;BattleShield2x2;AmplifierMk2;OrdnanceLocker;Fabricator;Bridge;ShotgunHE;NuclearReactorSmall;Main Engineering;Gatling Turret;Cockpit_Side;PowerSolar;AntimatterReactor2x2;thruster1x2;RocketLauncher;WarpEngine_3x3;OverdriveCapEngines;CombatEngine_2x2;WarpEngine_2x2
 Modules=107
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 5,0;0;2,2
@@ -44,15 +43,15 @@ Modules=107
 5,10;8;2,2
 7,10;7;2,5;75
 5,12;9;2,2
-5,14;9;2,2
+5,14;10;2,2
 3,15;4;2,2
 7,15;4;2,2
 5,16;6
 6,16;6
 3,17;7;2,5;270
-5,17;10;2,2
+5,17;11;2,2
 7,17;7;2,5;90
-5,19;11;2,2
+5,19;12;2,2
 5,21;5
 6,21;5
 3,22;4;2,2
@@ -63,7 +62,7 @@ Modules=107
 3,24;4;2,2
 7,24;4;2,2
 2,25;2
-5,25;12;2,2
+5,25;10;2,2
 9,25;2
 1,26;2
 2,26;13;2,2;270

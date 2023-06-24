@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Vulfen
 Size=24,62
 GridCenter=12,31
-DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
 HangarDesignation=General
@@ -15,7 +14,7 @@ IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
 ModuleUIDs=CompositeAlloys Small;CompositeAlloys Med;CompositeAlloys Large;OrdnanceLocker;AMTorpedoTube;Fabricator;BosonTransmiter2;OrdnanceLockerSmall;Bridge;Pulse Capacitor Small;BattleShield3x3;AutoTurret Type62;Internal Bulkhead Improved;AntimatterReactor2x2;AmplifierMk2;MarineBarracks2x2;CIC;ShotgunRepeater;Dual Gatling Turret;thruster1x2;Gatling Turret;Overload AntiMatter Reactor;ShotgunHVEmp;LargeFabStorage;AutoTurret Type54;Repeater2x2_Composite;Main Engineering;OverdriveCapEngines;WarpEngine_2x2;WarpEngine_3x3;mwdsmall
-Modules=247
+Modules=250
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 11,0;0
 12,0;0
@@ -87,23 +86,26 @@ Modules=247
 16,22;0
 7,23;0
 10,23;12
-11,23;12
-12,23;12
+11,23;13;2,2
 13,23;12
 16,23;0
 7,24;0
 8,24;11;2,5;315
-10,24;7
-11,24;7
-12,24;6
-13,24;7
+10,24;12
+13,24;12
 14,24;11;2,5;45
 16,24;0
 7,25;0
-10,25;14;2,2
-12,25;14;2,2
+10,25;12
+11,25;12
+12,25;12
+13,25;12
 16,25;0
 7,26;0
+10,26;7
+11,26;7
+12,26;7
+13,26;7
 16,26;0
 7,27;0
 10,27;14;2,2

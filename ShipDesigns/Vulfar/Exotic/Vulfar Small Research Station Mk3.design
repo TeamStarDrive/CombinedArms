@@ -13,8 +13,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=CompositeAlloys Small;NanoContainerDeck;Gatling Turret;BattleShield2x2;OrdnanceLockerSmall;AutoTurret Type54;Bridge;ShotgunHVEmp;MediumCargoHold;PowerSolar;BasicCargoHold;ResearchLab;Main Engineering
-Modules=165
+ModuleUIDs=CompositeAlloys Small;NanoContainerDeck;Gatling Turret;BattleShield2x2;OrdnanceLockerSmall;AutoTurret Type54;Bridge;ShotgunHVEmp;MediumCargoHold;PowerSolar;BasicCargoHold;ResearchLab;Main Engineering;ResearchArray;AntimatterReactor2x2
+Modules=167
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 12,0;0
 13,0;0
@@ -121,7 +121,9 @@ Modules=165
 3,16;0
 6,16;0
 7,16;10
-12,16;11;6,2
+12,16;13;2,2
+14,16;14;2,2
+16,16;13;2,2
 20,16;10
 21,16;0
 24,16;0

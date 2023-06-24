@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Vulfen
 Size=24,62
 GridCenter=12,31
-DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
 HangarDesignation=General
@@ -14,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=CompositeAlloys Small;CompositeAlloys Med;CompositeAlloys Large;OrdnanceLocker;AMTorpedoTube;Fabricator;BosonTransmiter2;Bridge;BattleShield4x4;AutoTurret Type80;Internal Bulkhead Improved;AntimatterReactor2x2;OrdnanceLockerSmall;AmplifierMk3;MarineBarracks2x2;CIC;ShotgunDragon;Dual Gatling Turret;thruster1x2;Gatling Turret;Linked AntiMatter Reactor Set;AMX50 Revolver;HvyAMCannon;Repeater2x2_Composite;OverdriveCapEngines;WarpEngine_2x2;WarpEngine_3x3;mwdsmall
+ModuleUIDs=CompositeAlloys Small;CompositeAlloys Med;CompositeAlloys Large;OrdnanceLocker;AMTorpedoTube;Fabricator;BosonTransmiter2;Bridge;BattleShield4x4;AutoTurret Type80;Internal Bulkhead Improved;AntimatterReactor2x2;OrdnanceLockerSmall;AmplifierMk3;MarineBarracks2x2;CIC;ShotgunDragon;Dual Gatling Turret;thruster1x2;Gatling Turret;OrdnanceLocker2x2nano;Linked AntiMatter Reactor Set;AMX50 Revolver;HvyAMCannon;Repeater2x2_Composite;OverdriveCapEngines;WarpEngine_2x2;WarpEngine_3x3;mwdsmall
 Modules=183
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 11,0;0
@@ -134,8 +133,8 @@ Modules=183
 3,45;0
 4,45;16;2,2;270
 6,45;10
-7,45;11;2,2
-9,45;20;6,4;90;2
+7,45;20;2,2
+9,45;21;6,4;90;2
 15,45;11;2,2
 17,45;10
 18,45;16;2,2;90
@@ -146,29 +145,29 @@ Modules=183
 20,46;0
 3,47;0
 4,47;12
-5,47;21;3,6
+5,47;22;3,6
 8,47;10
 15,47;10
-16,47;21;3,6
+16,47;22;3,6
 19,47;12
 20,47;0
 1,48;0
-2,48;22;3,5
+2,48;23;3,5
 8,48;10
 15,48;10
-19,48;22;3,5
+19,48;23;3,5
 22,48;0
-0,49;23;2,2;315
+0,49;24;2,2;315
 8,49;10
-9,49;20;6,4;90;2
+9,49;21;6,4;90;2
 15,49;10
-22,49;23;2,2;45
+22,49;24;2,2;45
 8,50;10
 15,50;10
-0,51;23;2,2;225
+0,51;24;2,2;225
 8,51;10
 15,51;10
-22,51;23;2,2;135
+22,51;24;2,2;135
 8,52;10
 15,52;10
 0,53;0
@@ -179,9 +178,9 @@ Modules=183
 5,53;0
 6,53;0
 7,53;0
-8,53;24;3,3
-11,53;25;2,2
-13,53;24;3,3
+8,53;25;3,3
+11,53;26;2,2
+13,53;25;3,3
 16,53;0
 17,53;0
 18,53;0
@@ -190,13 +189,13 @@ Modules=183
 21,53;0
 22,53;0
 23,53;0
-11,55;25;2,2
+11,55;26;2,2
 7,56;0
-8,56;24;3,3
-13,56;24;3,3
+8,56;25;3,3
+13,56;25;3,3
 16,56;0
-6,57;23;2,2;210
-11,57;25;2,2
-16,57;23;2,2;150
-10,59;26;3,3
-13,59;27;1,3
+6,57;24;2,2;210
+11,57;26;2,2
+16,57;24;2,2;150
+10,59;27;3,3
+13,59;28;1,3

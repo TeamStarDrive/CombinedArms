@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Vulfen
 Size=12,41
 GridCenter=6,21
-DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Neutral
 HangarDesignation=AntiShip
@@ -14,8 +13,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=CompositeAlloys Med;Repeater2x2_Composite;CompositeAlloys Small;BosonTransmiter;NuclearBombBay2x2;OrdnanceLockerSmall;BosonTransmiter2;AutoTurret Type62;BattleShield2x2;AmplifierMk2;Fabricator;Bridge;OrdnanceLocker;ShotgunHE;AmplifierMk1;Main Engineering;Gatling Turret;Cockpit_Side;PowerSolar;AntimatterReactor2x2;thruster1x2;RocketLauncher;WarpEngine_3x3;CapEngines;CombatEngine_2x2;WarpEngine_2x2
-Modules=107
+ModuleUIDs=CompositeAlloys Med;Repeater2x2_Composite;CompositeAlloys Small;BosonTransmiter;NuclearBombBay2x2;OrdnanceLockerSmall;BosonTransmiter2;AutoTurret Type62;BattleShield2x2;AmplifierMk2;OrdnanceLocker;Fabricator;Bridge;ShotgunHE;AmplifierMk1;Main Engineering;Gatling Turret;Cockpit_Side;PowerSolar;AntimatterReactor2x2;thruster1x2;RocketLauncher;WarpEngine_3x3;CapEngines;CombatEngine_2x2;WarpEngine_2x2
+Modules=104
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 5,0;0;2,2
 4,2;1;2,2;330
@@ -44,26 +43,23 @@ Modules=107
 5,10;8;2,2
 7,10;7;2,5;75
 5,12;9;2,2
-5,14;9;2,2
+5,14;10;2,2
 3,15;4;2,2
 7,15;4;2,2
 5,16;6
 6,16;6
 3,17;7;2,5;270
-5,17;10;2,2
+5,17;11;2,2
 7,17;7;2,5;90
-5,19;11;2,2
-5,21;5
-6,21;5
+5,19;12;2,2
+5,21;10;2,2
 3,22;4;2,2
-5,22;3
-6,22;3
 7,22;4;2,2
 5,23;8;2,2
 3,24;4;2,2
 7,24;4;2,2
 2,25;2
-5,25;12;2,2
+5,25;10;2,2
 9,25;2
 1,26;2
 2,26;13;2,2;270
@@ -112,7 +108,7 @@ Modules=107
 10,35;2
 2,36;2
 9,36;2
-2,38;5
+2,38;18
 3,38;5
 4,38;24;2,2
 6,38;25;2,2

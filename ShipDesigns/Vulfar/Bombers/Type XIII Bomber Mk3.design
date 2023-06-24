@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Vulfen
 Size=24,62
 GridCenter=12,31
-DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
 HangarDesignation=General
@@ -14,8 +13,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=CompositeAlloys Small;CompositeAlloys Med;CompositeAlloys Large;OrdnanceLocker;BosonTransmiter;NuclearBombBay2x2;Fabricator;DeathSporeBay;BosonTransmiter2;OrdnanceLockerSmall;Bridge;AdvPulse Capacitor Small;BattleShield3x3;AutoTurret Type68;Internal Bulkhead Improved;AntimatterReactor2x2;AmplifierMk2;NuclearReactorSmall;MarineBarracks2x2;CIC;ShotgunHE;Dual Gatling Turret;thruster1x2;Gatling Turret;Overload AntiMatter Reactor;LargeFabStorage;AntiMatterBomb_3x3;Repeater2x2_Composite;Main Engineering;OverdriveCapEngines;WarpEngine_2x2;WarpEngine_3x3;mwdsmall
-Modules=223
+ModuleUIDs=CompositeAlloys Small;CompositeAlloys Med;CompositeAlloys Large;OrdnanceLocker;BosonTransmiter;NuclearBombBay2x2;Fabricator;DeathSporeBay;BosonTransmiter2;OrdnanceLockerSmall;Bridge;AdvPulse Capacitor Small;BattleShield3x3;AutoTurret Type68;Internal Bulkhead Improved;AntimatterReactor2x2;AmplifierMk2;AmplifierMk1;MarineBarracks2x2;CIC;ShotgunHE;Dual Gatling Turret;thruster1x2;Gatling Turret;Overload AntiMatter Reactor;LargeFabStorage;AntiMatterBomb_3x3;Repeater2x2_Composite;Main Engineering;OverdriveCapEngines;WarpEngine_2x2;WarpEngine_3x3;mwdsmall
+Modules=226
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 11,0;0
 12,0;0
@@ -99,17 +98,20 @@ Modules=223
 10,25;16;2,2
 12,25;16;2,2
 14,25;13;3,5;90
-10,27;16;2,2
-12,27;16;2,2
+10,27;14
+11,27;17
+12,27;17
+13,27;14
+10,28;14
+11,28;9
+12,28;9
+13,28;14
 10,29;14
-11,29;17
-12,29;17
+11,29;15;2,2
 13,29;14
 7,30;13;3,5;270
-10,30;8
-11,30;14
-12,30;14
-13,30;8
+10,30;14
+13,30;14
 14,30;13;3,5;90
 10,31;16;2,2
 12,31;16;2,2

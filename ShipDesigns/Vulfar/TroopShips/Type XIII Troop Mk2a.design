@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Vulfen
 Size=24,62
 GridCenter=12,31
-DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
 HangarDesignation=General
@@ -14,8 +13,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Active Armor Small;Active Armor Med;Active Armor Large;OrdnanceLocker;TroopAssaultBay;Fabricator;BosonTransmiter;OrdnanceLockerSmall;Bridge;BattleShield4x4;MarineBarracks2x2;PowerSolar;AmplifierMk2;Internal Bulkhead Advanced;CIC;ShotgunDragon;Dual Gatling Turret;Overload AntiMatter Reactor;thruster1x2;Gatling Turret;MarineBarracks6x3;AutoTurret Type80;Repeater2x2_Hyper;AntimatterReactor4x4;Main Engineering;OverdriveCapEngines;WarpEngine_2x2;WarpEngine_3x3;mwdsmall
-Modules=179
+ModuleUIDs=Active Armor Small;Active Armor Med;Active Armor Large;OrdnanceLocker;TroopAssaultBay;Fabricator;BosonTransmiter;OrdnanceLockerSmall;Bridge;BattleShield4x4;MarineBarracks2x2;PowerSolar;AmplifierMk2;Internal Bulkhead Advanced;CIC;ShotgunDragon;Dual Gatling Turret;Overload AntiMatter Reactor;thruster1x2;Gatling Turret;MarineBarracks6x3;AutoTurret Type80;Repeater2x2_Hyper;Linked AntiMatter Reactor Set;OverdriveCapEngines;WarpEngine_2x2;WarpEngine_3x3;mwdsmall
+Modules=186
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 11,0;0
 12,0;0
@@ -162,11 +161,18 @@ Modules=179
 19,48;21;3,5;90
 22,48;0
 0,49;22;2,2;315
-8,49;23;4,4
-12,49;24;4,4
+8,49;13
+9,49;23;6,4;90;2
+15,49;13
 22,49;22;2,2;45
+8,50;13
+15,50;13
 0,51;22;2,2;225
+8,51;13
+15,51;13
 22,51;22;2,2;135
+8,52;13
+15,52;13
 0,53;0
 1,53;0
 2,53;0
@@ -175,9 +181,9 @@ Modules=179
 5,53;0
 6,53;0
 7,53;0
-8,53;25;3,3
-11,53;26;2,2
-13,53;25;3,3
+8,53;24;3,3
+11,53;25;2,2
+13,53;24;3,3
 16,53;0
 17,53;0
 18,53;0
@@ -186,13 +192,13 @@ Modules=179
 21,53;0
 22,53;0
 23,53;0
-11,55;26;2,2
+11,55;25;2,2
 7,56;0
-8,56;25;3,3
-13,56;25;3,3
+8,56;24;3,3
+13,56;24;3,3
 16,56;0
 6,57;22;2,2;210
-11,57;26;2,2
+11,57;25;2,2
 16,57;22;2,2;150
-10,59;27;3,3
-13,59;28;1,3
+10,59;26;3,3
+13,59;27;1,3
