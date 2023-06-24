@@ -19,26 +19,27 @@
   <Tag_Cannon>false</Tag_Cannon>
   
   <ExcludesFighters>true</ExcludesFighters>  
+  <ExcludesCorvettes>true</ExcludesCorvettes>      
 
   <UID>MRM mk3</UID>
 
   <HitPoints>35</HitPoints>
-  <FireDelay>10</FireDelay>
+  <FireDelay>12.5</FireDelay>
   <Range>6000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>18</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>16</OrdinanceRequiredToFire>
   <TerminalPhaseAttack>true</TerminalPhaseAttack>      
   <TerminalPhaseDistance>2000</TerminalPhaseDistance>      
   <TerminalPhaseSpeedMod>2.5</TerminalPhaseSpeedMod>  
   <DelayedIgnition>0.75</DelayedIgnition>    
   
 <!-- Projectile stats -->
-  <DamageAmount>1300</DamageAmount>
+  <DamageAmount>1000</DamageAmount>
   <ProjectileSpeed>1200</ProjectileSpeed>
   <ExplosionRadius>40</ExplosionRadius> <!-- This projectile explodes -->
   <SalvoCount>8</SalvoCount>
   <SalvoTimer>2</SalvoTimer>
-  <ShieldPenChance>15</ShieldPenChance>
+  <ShieldPenChance>12</ShieldPenChance>
   <DelayedIgnition>1</DelayedIgnition>
   <ProjectileRadius>8</ProjectileRadius>
   <RotationRadsPerSecond>0.8</RotationRadsPerSecond>
