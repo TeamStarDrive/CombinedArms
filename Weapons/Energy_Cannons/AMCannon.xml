@@ -21,8 +21,8 @@
   <ExcludesCorvettes>true</ExcludesCorvettes> 
 
   <UID>AMCannon</UID>
-  <FireDelay>6</FireDelay>
-  <Range>7600</Range>
+  <FireDelay>5</FireDelay>
+  <Range>7800</Range>
   <PowerRequiredToFire>3825</PowerRequiredToFire>
   <OrdinanceRequiredToFire>3.5</OrdinanceRequiredToFire>
   <!-- name of XACT audio cue to play on firing this weapon -->
@@ -35,10 +35,11 @@
   
   <ExplosionRadius>50</ExplosionRadius> <!-- This projectile explodes -->
   <EffectVsShields>1.5</EffectVsShields>
-  <EffectVsArmor>1.5</EffectVsArmor>
+  <EffectVsArmor>2</EffectVsArmor>
   <ShieldPenChance>35</ShieldPenChance>
   <ProjectileSpeed>3000</ProjectileSpeed>
-  <ProjectileRadius>10</ProjectileRadius>
+  <ProjectileRadius>5</ProjectileRadius>
+  <ArmorPen>1</ArmorPen>  
   <Animated>1</Animated>
   <Light>Red</Light>
   <Scale>2.0</Scale>
