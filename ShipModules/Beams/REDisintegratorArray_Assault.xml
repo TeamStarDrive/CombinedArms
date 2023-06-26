@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  <DestroyerModule>false</DestroyerModule>
+  <FrigateModule>false</FrigateModule>
+  <CruiserModule>false</CruiserModule>
+  <FreighterModule>false</FreighterModule>
+  <PlatformModule>false</PlatformModule>
+  
+  <UID>REDisintegratorArray_Assault</UID>
+  <Cost>400</Cost>
+  <TechLevel>6</TechLevel>
+  <!-- common traits shared by all ship modules -->
+  <XSize>4</XSize>
+  <YSize>24</YSize>
+  <ModuleType>MainGun</ModuleType>
+  <Name>Disintegrator Array</Name>
+  <Restrictions>O</Restrictions>
+
+  <IconTexturePath>Modules/REbeamcannon_4x24</IconTexturePath>
+
+
+  <NameIndex>18025</NameIndex>
+  <DescriptionIndex>18026</DescriptionIndex>
+  <RepairDifficulty>5</RepairDifficulty>
+
+  <!-- Mass and Health -->
+  <Mass>160</Mass>
+  <HealthMax>30000</HealthMax>
+
+  <!-- Power Drawn -->
+  <PowerDraw>50</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>REDisintegrator_Assault</WeaponType>
+  <FieldOfFire>45</FieldOfFire>
+
+  <!-- Description -->
+  <Description>This massively powerful directed energy weapon strikes fear into the hearts of capital ship commanders everywhere.</Description>
+
+  <AccuracyPercent>1</AccuracyPercent>
+</ShipModule>

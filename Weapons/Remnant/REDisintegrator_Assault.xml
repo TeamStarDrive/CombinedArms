@@ -2,14 +2,13 @@
 <Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <Tag_Beam>true</Tag_Beam>
- 
   <ExcludesFighters>true</ExcludesFighters>  
   <ExcludesCorvettes>true</ExcludesCorvettes>
 
-  <UID>REDisintegrator</UID>
+  <UID>REDisintegrator_Assault</UID>
   <IsBeam>true</IsBeam>
-  <FireDelay>5</FireDelay>
-  <Range>13000</Range>
+  <FireDelay>13</FireDelay>
+  <Range>15000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   
@@ -20,9 +19,9 @@
   <BeamTexture>beam_yellowA</BeamTexture>
   
   <!-- Projectile Information -->
-  <DamageAmount>1200</DamageAmount>
-  <BeamThickness>110</BeamThickness>
-  <BeamPowerCostPerSecond>1500</BeamPowerCostPerSecond>
+  <DamageAmount>10000</DamageAmount>
+  <BeamThickness>130</BeamThickness>
+  <BeamPowerCostPerSecond>3000</BeamPowerCostPerSecond>
   <WeaponType>RemnantTech</WeaponType>
   <OffPowerMod>0.2</OffPowerMod>
   <BeamDuration>1</BeamDuration>
