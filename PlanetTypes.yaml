@@ -56,7 +56,7 @@ Types:
     AtmosphereType: [Barren]
     Habitable: true
     HabitableTileChance: [5, 20]
-    PopPerTile: [50, 400]
+    PopPerTile: [50, 200]
     BaseFertility: 0
     MoonTypes: [Barren,Desert,Volcanic,Ice]
      
@@ -74,7 +74,7 @@ Types:
     AtmosphereType: [Barren]
     Habitable: true
     HabitableTileChance: [10, 40]
-    PopPerTile: [75, 400]
+    PopPerTile: [75, 200]
     BaseFertility: 0
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -92,7 +92,7 @@ Types:
     AtmosphereType: [BarrenRed,Clouds]
     Habitable: true
     HabitableTileChance: [10, 30]
-    PopPerTile: [50, 450]
+    PopPerTile: [50, 225]
     BaseFertility: 0
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -110,7 +110,7 @@ Types:
     AtmosphereType: [Barren]
     Habitable: true
     HabitableTileChance: [4, 25]
-    PopPerTile: [75, 400]
+    PopPerTile: [75, 200]
     BaseFertility: 0
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -128,7 +128,7 @@ Types:
     AtmosphereType: [BarrenRed,Clouds]
     Habitable: true
     HabitableTileChance: [4, 40]
-    PopPerTile: [100, 350]
+    PopPerTile: [100, 175]
     BaseFertility: 0
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -147,7 +147,7 @@ Types:
     AtmosphereType: [Clouds]
     Habitable: true
     HabitableTileChance: [10, 40]
-    PopPerTile: [50, 400]
+    PopPerTile: [50, 200]
     BaseFertility: 0
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -165,7 +165,7 @@ Types:
     AtmosphereType: [Barren]
     Habitable: true
     HabitableTileChance: [10, 25]
-    PopPerTile: [75, 450]
+    PopPerTile: [75, 225]
     BaseFertility: 0
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -183,7 +183,7 @@ Types:
     AtmosphereType: [Barren]
     Habitable: true
     HabitableTileChance: [2, 25]
-    PopPerTile: [50, 250]
+    PopPerTile: [50, 125]
     BaseFertility: [-0.1, 0.1]
     MoonTypes: [Barren,Desert,Volcanic,Ice]
 
@@ -203,6 +203,19 @@ Types:
     MoonTypes: [Barren,Desert,Volcanic,Ice]
     ResearchableChance: 2 # This only works on non habitable planets
     
+  - PlanetType: 
+    Id: 46 # Hestess
+    Name: Volcanic_Hestess
+    Category: Volcanic
+    Composition: 1718
+    IconPath: Planets/23
+    DiffuseMap:    Model/SpaceObjects/planet_tex23_2048x1024.dds
+    SpecularMap:   Model/SpaceObjects/planet_23spec.dds
+    NormalMap:     Model/SpaceObjects/planet_23normalalt.dds
+    EmissiveMap:   Model/SpaceObjects/planet_23emis.dds
+    SpecularPower: 4
+    AtmosphereType: [VolcanicRed]
+    ResearchableChance: 2 # This only works on non habitable planets
     
   - PlanetType:
     Id: 45
