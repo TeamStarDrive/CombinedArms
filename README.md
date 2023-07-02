@@ -1,13 +1,10 @@
 # Combined Arms
 ### This is an edited version of the original Combomod. BlackBox features are supported where possible.
 
-In order to install and play Combined arms you need a Vanilla copy of StarDrive 1. 
-See installation guide video here: https://www.youtube.com/watch?v=mhudgmoLATY&ab_channel=Goldymires
-
-* Get a Vanilla copy from Steam. If you have the game already installed, a re-install its recommended, since we saw several early game crashes being solved by re-installation).
-* Install the base release from https://github.com/TeamStarDrive/StarDrive/releases  - look for the build named "release" - usually at the bottom of the page. new patches will be installed automatically by the patcher after prompting you).
+* Install the base blackbox release from https://github.com/TeamStarDrive/StarDrive/releases/tag/mars-1.41.14664
 * Download the mod (https://github.com/TeamStarDrive/CombinedArms/releases) and extract it into the mods dir of StardDrive. If you have old Combined Arms mod dir- YOU MUST DELETE it before installing the new one. Note that onces you installed the mod, the new patcher wuill update CA as well, if needed.
 * It is recommended to remove your saved ship designs if you saved designs using the old combo mod. Usually its located in c:\users\[username]\.appdata\roaming\stardrive\saveddesigns
+* You need to update the latest blackbox build before loading Combined Arms. The auto patcher will prompt and install latest patch for you.
 * Start the game and load the mod from the mod menu.
 * Drop us a note in Discord chat (https://discord.gg/dfvnfH4).
 
