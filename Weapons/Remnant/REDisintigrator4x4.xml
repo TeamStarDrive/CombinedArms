@@ -2,26 +2,27 @@
 <Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
   <Tag_Beam>true</Tag_Beam>
+ 
   <ExcludesFighters>true</ExcludesFighters>  
   <ExcludesCorvettes>true</ExcludesCorvettes>
 
-  <UID>REDisintegrator_Assault</UID>
+  <UID>REDisintigrator4x4</UID>
   <IsBeam>true</IsBeam>
-  <FireDelay>10</FireDelay>
-  <Range>15000</Range>
+  <FireDelay>5</FireDelay>
+  <Range>10000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
   
   <!-- name of XACT audio cue to play on firing this weapon -->
 
-  <FireCueName>sd_weapon_flame_start_01</FireCueName>
+  <FireCueName>sd_weapon_laser_large_alt_04</FireCueName>
   <ToggleSoundName>sd_weapon_beam_fusion_med</ToggleSoundName>
-  <BeamTexture>beam_GoldA</BeamTexture>
+  <BeamTexture>beam_yellowA</BeamTexture>
   
   <!-- Projectile Information -->
-  <DamageAmount>10000</DamageAmount>
-  <BeamThickness>130</BeamThickness>
-  <BeamPowerCostPerSecond>3000</BeamPowerCostPerSecond>
+  <DamageAmount>1000</DamageAmount>
+  <BeamThickness>100</BeamThickness>
+  <BeamPowerCostPerSecond>1200</BeamPowerCostPerSecond>
   <WeaponType>RemnantTech</WeaponType>
   <OffPowerMod>0.05</OffPowerMod>
   <BeamDuration>1</BeamDuration>

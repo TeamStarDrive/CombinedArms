@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>false</FighterModule>
+  <FreighterModule>false</FreighterModule>
+  
+  <UID>REDisintigratorTurret4x4</UID>
+  <Cost>50</Cost>
+  <!-- Tech Level Used by AI for Upgrading Ships -->
+  <TechLevel>4</TechLevel>
+
+  
+  <!-- common traits shared by all ship modules -->
+  <XSize>4</XSize>
+  <YSize>4</YSize>
+  <ModuleType>Turret</ModuleType>
+  <Name>Light Phasor Array</Name>
+  <Restrictions>O</Restrictions>
+
+  <IconTexturePath>Modules/REBeamTurret4x4</IconTexturePath>
+
+
+  <NameIndex>1014</NameIndex>
+  <DescriptionIndex>1015</DescriptionIndex>
+  <RepairDifficulty>5</RepairDifficulty>
+
+
+  <!-- Mass and Health -->
+  <Mass>24</Mass>
+  <Health>7000</Health>
+  <HealthMax>7000</HealthMax>
+
+  <!-- Power Drawn -->
+  <PowerDraw>10</PowerDraw>
+
+  <!-- for Weapons -->
+  <WeaponType>REDisintigrator4x4</WeaponType>
+  <FieldOfFire>180</FieldOfFire>
+
+  <!-- Description -->
+  <Description>Phasors are powerful and efficient directed energy weapons.</Description>
+  <AccuracyPercent>1</AccuracyPercent>  
+
+</ShipModule>
