@@ -1,4 +1,4 @@
-﻿Version=1
+Version=1
 Name=Owlwok Freighter L1
 Hull=Cordrazine/Owl3
 Role=freighter
@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Cordrazine
 Size=8,25
 GridCenter=4,13
-DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Civilian
 HangarDesignation=General
@@ -14,8 +13,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=MediumCargoHold;BasicCargoHold;LargeCargoHold;thruster1x2;BosonTransmiter;Magshield;Cold Fusion Reactor;NuclearReactorSmall;jumpdrive2x2;thruster1x1;Cockpit;PowerConduit;VernierThruster;WarpEngine_2x2;MedOverdrive
-Modules=46
+ModuleUIDs=MediumCargoHold;PowerSolar;LargeCargoHold;thruster1x2;BosonTransmiter;Magshield;QuantumFusionReactor_2x2;jumpdrive2x2;jumpdrive2x3;VernierThruster;BasicCargoHold;Cockpit;PowerConduit;WarpEngine_2x2;MedOverdrive
+Modules=44
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 3,0;0;2,2
 2,1;1
@@ -29,19 +28,17 @@ Modules=46
 4,5;5
 7,5;4
 3,6;6;2,2
-1,8;0;2,2
-3,8;7
-4,8;7
-5,8;0;2,2
-3,9;8;2,2
+1,8;7;2,2
+3,8;8;2,3
+5,8;7;2,2
 0,10;9
-1,10;1
-2,10;1
-5,10;10
-6,10;1
+1,10;10
+2,10;10
+5,10;11
+6,10;10
 7,10;9
-3,11;11
-4,11;11
+3,11;12
+4,11;12
 3,12;4
 4,12;4
 3,13;5
@@ -50,16 +47,16 @@ Modules=46
 4,14;2;3,3
 0,16;9
 7,16;9
-3,17;11
-4,17;11
+3,17;12
+4,17;12
 3,18;4
 4,18;4
 3,19;6;2,2
 2,20;5
 5,20;5
-1,21;12
-2,21;12
+1,21;9
+2,21;9
 3,21;13;2,2
-5,21;12
-6,21;12
+5,21;9
+6,21;9
 3,23;14;2,2

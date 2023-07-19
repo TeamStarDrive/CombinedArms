@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Draylok
 Size=4,14
 GridCenter=2,7
-DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Civilian
 HangarDesignation=General
@@ -14,25 +13,31 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=PowerSolar;MediumCargoHold;Shield_1KW;jumpdrive2x2;Fusion Reactor;AmplifierMk1;Cockpit;BasicCargoHold;CombatEngine_2x2
-Modules=19
+ModuleUIDs=PowerSolar;NuclearThermalThruster;NuclearReactorSmall;Internal Bulkhead;MediumCargoHold;jumpdrive2x2;Shield_1KW;Fusion Reactor;AmplifierMk1;Cockpit;BasicCargoHold;CombatEngine_2x2
+Modules=25
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 1,0;0
 2,0;0
-0,1;1;2,2
-2,1;1;2,2
-0,3;1;2,2
-2,3;1;2,2
-0,5;1;2,2
-2,5;1;2,2
-0,7;1;2,2
-2,7;2;2,2
-0,9;3;2,2
-2,9;4;2,2
-0,11;5
-1,11;6
-2,11;7
-3,11;5
-0,12;7
-1,12;8;2,2
-3,12;7
+0,1;1
+1,1;2
+2,1;3
+3,1;1
+0,2;1
+1,2;2
+2,2;2
+3,2;1
+0,3;4;2,2
+2,3;4;2,2
+0,5;4;2,2
+2,5;4;2,2
+0,7;5;2,2
+2,7;6;2,2
+0,9;5;2,2
+2,9;7;2,2
+0,11;8
+1,11;9
+2,11;3
+3,11;8
+0,12;10
+1,12;11;2,2
+3,12;10

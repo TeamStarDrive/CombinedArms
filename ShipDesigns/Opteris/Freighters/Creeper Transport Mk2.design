@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Opteris
 Size=4,8
 GridCenter=2,4
-DefaultAIState=DoNothing
 DefaultCombatState=AttackRuns
 ShipCategory=Civilian
 HangarDesignation=General
@@ -14,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=BasicCargoHold;MediumCargoHold;Cockpit;NuclearReactorSmall;WarpEngine_1x1;2x1Twinengines
+ModuleUIDs=BasicCargoHold;MediumCargoHold;Cockpit;thruster1x1;NuclearReactorSmall;VernierThruster;WarpEngine_1x1;2x1Twinengines
 Modules=16
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 1,0;0
@@ -26,10 +25,10 @@ Modules=16
 3,3;0
 2,4;2
 3,4;0
-0,5;0
-1,5;3
-2,5;3
-3,5;0
-1,6;4
-2,6;4
-1,7;5;2,1
+0,5;3
+1,5;4
+2,5;4
+3,5;5
+1,6;6
+2,6;6
+1,7;7;2,1

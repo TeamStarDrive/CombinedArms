@@ -1,5 +1,5 @@
 Version=1
-Name=Medium Transport
+Name=Medium Transport Mk0
 Hull=Misc/CargoMedium
 Role=freighter
 ModName=Combined Arms
@@ -13,40 +13,45 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=BasicCargoHold;MediumCargoHold;NuclearThermalThruster;Cockpit_Side;Fusion Reactor;thruster1x1;WarpEngine_1x1;Engine
-Modules=34
+ModuleUIDs=BasicCargoHold;MediumCargoHold;NuclearThermalThruster;NuclearReactorSmall;PowerConduit;Cockpit_Side;Fusion Reactor;thruster1x1;WarpEngine_1x1;2x1Twinengines
+Modules=39
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 2,0;0
 3,0;0
 2,1;1;2,2
 2,3;1;2,2
-1,5;1;2,2
-3,5;1;2,2
-1,7;0
+1,5;2
+2,5;0
+3,5;0
+4,5;2
+1,6;2
+2,6;3
+3,6;4
+4,6;2
+1,7;2
 2,7;1;2,2
-4,7;0
+4,7;2
 1,9;1;2,2
 3,9;1;2,2
 1,11;0
-2,11;1;2,2
+2,11;0
+3,11;0
 4,11;0
-2,13;0
-3,13;0
+2,12;1;2,2
 1,14;1;2,2
 3,14;1;2,2
 1,16;2
-2,16;3;2,1
+2,16;5;2,1
 4,16;2
-2,17;4;2,2
-0,18;5
-1,18;5
-4,18;5
-5,18;5
-1,19;6
-2,19;7
-3,19;7
-4,19;6
-1,20;6
-2,20;6
-3,20;6
-4,20;6
+2,17;6;2,2
+0,18;7
+1,18;7
+4,18;7
+5,18;7
+1,19;8
+2,19;9;2,1
+4,19;8
+1,20;8
+2,20;8
+3,20;8
+4,20;8

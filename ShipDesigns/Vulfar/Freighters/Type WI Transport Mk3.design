@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Vulfen
 Size=6,7
 GridCenter=3,4
-DefaultAIState=DoNothing
 DefaultCombatState=Evade
 ShipCategory=Civilian
 HangarDesignation=General
@@ -14,24 +13,20 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Structure;MediumCargoHold;NuclearReactorSmall;Magshield;PowerSolar;Cockpit;2x1Twinengines;AmplifierMk1;WarpEngine_1x1
-Modules=18
+ModuleUIDs=BasicCargoHold;jumpdrive2x2;MediumCargoHold;Fusion Reactor;Cockpit;2x1Twinengines
+Modules=14
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 2,0;0
 3,0;0
 2,1;1;2,2
-0,3;1;2,2
-2,3;2
-3,3;3
-4,3;1;2,2
-2,4;2
-3,4;2
-0,5;4
-1,5;5
-2,5;6;2,1
-4,5;7
-5,5;4
+0,3;2;2,2
+2,3;3;2,2
+4,3;2;2,2
+0,5;0
+1,5;4
+2,5;5;2,1
+4,5;0
+5,5;0
 1,6;0
-2,6;8
-3,6;8
+2,6;5;2,1
 4,6;0

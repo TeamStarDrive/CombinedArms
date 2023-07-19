@@ -1,5 +1,5 @@
 Version=1
-Name=Vessel M2
+Name=Vessel M0
 Hull=Ralyeh/Vessel M
 Role=freighter
 ModName=Combined Arms
@@ -13,29 +13,36 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=BosonTransmiter;jumpdrive2x2;BasicCargoHold;MediumCargoHold;ContainerDeck;Magshield;AmplifierMk1;Cockpit_Side;AntimatterReactor2x2;engine_fighter_1x1;CombatEngine_2x2
-Modules=23
+ModuleUIDs=thruster1x1;MediumCargoHold;Structure;Cockpit_Side;PowerConduit;NuclearThermalThruster;NuclearReactorSmall;2x1Twinengines;WarpEngine_1x1
+Modules=30
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 1,0;0
 2,0;1;2,2
 4,0;0
 1,1;2
 4,1;2
-0,2;3;2,2
-2,2;4;3,4
-5,2;2
-5,3;2
+0,2;1;2,2
+2,2;1;2,2
+4,2;1;2,2
 1,4;2
+2,4;3;2,1
+4,4;2
 1,5;2
+2,5;4
+3,5;4
+4,5;2
 1,6;5
-2,6;0
+2,6;6
 3,6;6
 4,6;5
-2,7;6
-3,7;6
-2,8;7;2,1
+2,7;1;2,2
 2,9;1;2,2
-2,11;8;2,2
-2,13;9
-3,13;9
-2,14;10;2,2
+2,11;6
+3,11;6
+2,12;4
+3,12;4
+2,13;7;2,1
+2,14;8
+3,14;8
+2,15;8
+3,15;8
