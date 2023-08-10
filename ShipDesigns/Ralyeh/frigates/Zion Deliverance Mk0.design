@@ -1,0 +1,50 @@
+Version=1
+Name=Zion Deliverance Mk0
+Hull=Ralyeh/Zion
+Role=frigate
+ModName=Combined Arms
+Style=Ralyeh
+Size=8,9
+GridCenter=4,5
+DefaultCombatState=ShortRange
+ShipCategory=Neutral
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=Shape Memory Armor Small;RocketLauncher;Beam1x2;PowerConduit;Cockpit_Side;PowerSolar;Fusion Reactor;Shield_1KW;Flechette AF Turret;thruster1x1;BasicFuelCell;NuclearReactorSmall;OrdnanceLockerSmall;WarpEngine_1x1;FrigateEngine
+Modules=32
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+3,0;0
+4,0;0
+2,1;0
+3,1;1
+4,1;1
+5,1;0
+0,2;2;1,2
+1,2;2;1,2
+2,2;3
+3,2;4;2,1
+5,2;5
+6,2;2;1,2
+7,2;2;1,2
+2,3;6;2,2
+4,3;7;2,2
+0,4;8;2,2;270
+6,4;8;2,2;90
+2,5;9
+3,5;10
+4,5;11
+5,5;9
+0,6;12
+2,6;10
+3,6;13
+4,6;13
+5,6;10
+7,6;12
+2,7;12
+3,7;14;2,2
+5,7;12
+2,8;12
+5,8;12
