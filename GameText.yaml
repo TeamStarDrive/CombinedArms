@@ -3,8 +3,8 @@
 # This Mod YAML only contains overriding text entries, check BlackBox YAML for existing ones
 RacesWithHighlyEfficientMetabolisms:
  Id: 33
- ENG: "Races with highly efficient metabolisms require 20% less food each turn"
- RUS: "Расы с высокоэффективным метаболизмом каждый ход потребляют на 20% меньше еды."
+ ENG: "Races with highly efficient metabolisms require 25% less food each turn"
+ RUS: "Расы с высокоэффективным метаболизмом каждый ход потребляют на 25% меньше еды."
  SPA: "Las razas con metabolismos muy eficientes necesitan un 25% menos de comida por turno"
 GluttonousRacesWillGorgeThemselves:
  Id: 35
@@ -28,19 +28,19 @@ SavageRacesGainABonus:
  SPA: "Las razas salvajes obtienen una bonificación del 25% en combate terrestre debido a su ferocidad y varias características físicas letales" 
 TimidRacesAreInstinctivelyTerrified:
  Id: 43
- ENG: "Timid races are instinctively terrified by combat and suffer a 25% penalty to ground combat rolls"
- RUS: "Боязливые расы инстинктивно страшатся сражений и получают 25% штраф в наземном бою."
- SPA: "A las razas tímidas, por instinto, les aterroriza el combate y sufren una penalización del 25% en los combates terrestres"
+ ENG: "Timid races are instinctively terrified by combat and suffer a 20% penalty to ground combat rolls"
+ RUS: "Боязливые расы инстинктивно страшатся сражений и получают 20% штраф в наземном бою."
+ SPA: "A las razas tímidas, por instinto, les aterroriza el combate y sufren una penalización del 20% en los combates terrestres"
 IntelligentRacesGainABonus:
  Id: 49
- ENG: "Intelligent races gain a 15% bonus to research efforts"
- RUS: "Расы с развитым интелектом получают 15% бонус к исследованиям."
- SPA: "Las razas inteligentes cuentan con una bonificación del 15% al investigar tecnologías"
+ ENG: "Intelligent races gain a 30% bonus to research efforts"
+ RUS: "Расы с развитым интелектом получают 30% бонус к исследованиям."
+ SPA: "Las razas inteligentes cuentan con una bonificación del 30% al investigar tecnologías"
 DumbRacesSufferAPenalty:
  Id: 51
- ENG: "Dumb races suffer a 15% penalty to research efforts due to their slow grasp of complex ideas"
- RUS: "Тупые расы получают 15% штраф к исследованиям, вследствие плохого понимания сложных концепций."
- SPA: "Las razas tontas sufren una penalización del 15% al investigar tecnologías porque tardan mucho en asimilar las ideas complejas"
+ ENG: "Dumb races suffer a 20% penalty to research efforts due to their slow grasp of complex ideas"
+ RUS: "Тупые расы получают 20% штраф к исследованиям, вследствие плохого понимания сложных концепций."
+ SPA: "Las razas tontas sufren una penalización del 20% al investigar tecnologías porque tardan mucho en asimilar las ideas complejas"
 Eagleeyed:
  Id: 52
  ENG: "Battle-Sense"
@@ -63,14 +63,14 @@ RacesThatEvolveWeakOptical:
  SPA: "Las razas que desarrollan órganos sensoriales ópticos sufren una penalización en el combate espacial. Los proyectiles hacen un 20% menos de daño"
 IndustriousRacesEnjoyABonus:
  Id: 63
- ENG: "Industrious races enjoy a 15% bonus to Production efforts due to their tireless and efficient natures"
- RUS: "Трудолюбивые расы получают 15% бонус к производству за счет эффективной организации труда и усердия."
- SPA: "La producción de las razas industriosas cuenta con una bonificación del 15% gracias a su carácter eficiente e incansable"
+ ENG: "Industrious races enjoy a 30% bonus to Production efforts due to their tireless and efficient natures"
+ RUS: "Трудолюбивые расы получают 30% бонус к производству за счет эффективной организации труда и усердия."
+ SPA: "La producción de las razas industriosas cuenta con una bonificación del 30% gracias a su carácter eficiente e incansable"
 LazyRacesJustDontLike:
  Id: 65
- ENG: "Lazy races just don't like to work, and as a result suffer a 15% penalty to Production efforts"
- RUS: "Ленивые расы, просто не любят и не хотят работать, как следствие получают 15% штраф к производству."
- SPA: "A las razas perezosas no les gusta trabajar y, por tanto, sufren una penalización del 15% en sus esfuerzos de producción"
+ ENG: "Lazy races just don't like to work, and as a result suffer a 25% penalty to Production efforts"
+ RUS: "Ленивые расы, просто не любят и не хотят работать, как следствие получают 25% штраф к производству."
+ SPA: "A las razas perezosas no les gusta trabajar y, por tanto, sufren una penalización del 25% en sus esfuerzos de producción"
 Wasteful:
  Id: 68
  ENG: "Wasteful"
@@ -91,6 +91,11 @@ EfficientRacesEarnAReduction:
  ENG: "Efficient races earn a 25% reduction on ship and building maintenance costs due to their conservative and intelligent use of resources"
  RUS: "Эффективные расы получают 25% снижение расходов на содержание кораблей и построек благодаря консервативным подходам и разумному использованию ресурсов."
  SPA: "Las razas eficientes ahorran un 25% en gastos de mantenimiento de sus naves y edificios por su uso racional y moderado de los recursos" 
+RacesWithAStrongTradition:
+ Id: 73
+ ENG: "Races with a strong tradition of political corruption have a 25% corruption penalty to tax income "
+ RUS: "Расы, склонные к коррупции в государственном аппарате, получают 25% штраф к собираемым налогам."
+ SPA: "Las razas con una sólida tradición de corrupción política sufren una penalización del 25% al recaudar impuestos " 
 RacesWithStrongNavalTraditions:
  Id: 83
  ENG: "Races with strong naval traditions gain a 20% reduction to ship building costs due to having well developed economic practices concerning ship construction"
@@ -98,14 +103,14 @@ RacesWithStrongNavalTraditions:
  SPA: "A las razas con una sólida tradición naval les cuesta un 35% menos la fabricación de naves porque disponen de prácticas económicas muy desarrolladas en lo que a la construcción naval se refiere"
 TheRacialHomeworldIsMuch:
  Id: 89
- ENG: "The racial homeworld is much larger than the average planet, allowing 15% more population maximum"
- RUS: "Родной мир расы значительно больше средней планеты по размерам, что позволяет поселить на ней на 15% больше популяции."
+ ENG: "The racial homeworld is much larger than the average planet, allowing 25% more population maximum"
+ RUS: "Родной мир расы значительно больше средней планеты по размерам, что позволяет поселить на ней на 25% больше популяции."
  SPA: "El planeta de origen de la raza es mucho más grande que un planeta normal, por lo que puede albergar un 25% más de población máxima"
 TheRacialHomeworldIsMuch2:
  Id: 91
- ENG: "The racial homeworld is much smaller than the average planet, allowing 15% less population maximum"
- RUS: "Родной мир этой расы значительно меньше средней планеты по размерам, из-за чего она вмещает на 15% меньше населения."
- SPA: "El planeta de origen de la raza es mucho más pequeño que un planeta normal, por lo que puede albergar un 25% menos de población máxima"
+ ENG: "The racial homeworld is much smaller than the average planet, allowing 20% less population maximum"
+ RUS: "Родной мир этой расы значительно меньше средней планеты по размерам, из-за чего она вмещает на 20% меньше населения."
+ SPA: "El planeta de origen de la raza es mucho más pequeño que un planeta normal, por lo que puede albergar un 20% menos de población máxima"
 Capital:
  Id: 145
  ENG: "Titan"
@@ -858,6 +863,11 @@ CA_GoldVeinDesc:
 CA_GoldVeinDescShort:
  Id: 4389
  ENG: "Provides 2 production per colonist, +3 credits, total worth of 350 production" 
+TreesWhoNeedsTreesWhat:
+ Id: 5082
+ ENG: "Your Homeworld is abundant with resources. +0.5 Homeworld Richness."
+ RUS: "Ваш Родной мир изобилует ресурсами. +0,5 богатства родного мира."
+ SPA: "Tu mundo natal es abundante en recursos. +0.5 riqueza del mundo natal." 
 CA_Oasis:
  Id: 5092
  ENG: "Oasis"
@@ -6259,12 +6269,12 @@ CA_Tech_PlatformWeapons3_Desc:
  RUS: "Благодаря успеху наших предыдущих платформенных пушек, наши инженеры определили, что наилучшим путем вперед в платформенном вооружении будет создание мощной и чрезвычайно компактной пушки. Она нанесет еще больший урон, будет иметь невероятно большую дальность и даже более высокую скорость снаряда. Чем дольше время перезарядки, тем лучше."
 CA_CleanWorld:
  Id: 17997
- ENG: "Clean World"
- RUS: "Чистый мир"
+ ENG: "Fertile Homeworld"
+ RUS: "Плодородный родной мир"
 CA_InPeacefulTimesOurPeople:
  Id: 17998
- ENG: "In peaceful times, our people had no need for massive factories. Steady growth and a clean environment were always our way of life. +1 homeworld fertility"
- RUS: "В мирное время нашему народу не нужны огромные фабрики. Постоянный рост населения и чистая окружающая среда всегда были нашим образом жизни. +1 плодородие родного мира"
+ ENG: "Steady growth and a clean environment were always our way of life. +0.5 Homeworld fertility"
+ RUS: "Стабильный рост и чистая окружающая среда всегда были нашим образом жизни. +0,5 рождаемости родного мира"
 CA_CreditsPerColonist2:
  Id: 17999
  ENG: "+5 credits per turn"

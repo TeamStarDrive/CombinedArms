@@ -6,41 +6,37 @@
     <!-- Efficient Metabolism -->
     <TraitName>32</TraitName>
     <Category>Physical</Category>
-    <Cost>3</Cost>
+    <Cost>4</Cost>
     <Description>33</Description>
-    <ConsumptionModifier>-0.2</ConsumptionModifier>
+    <ConsumptionModifier>-0.25</ConsumptionModifier>
     <Excludes>34</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!--Gluttonous-->
     <TraitName>34</TraitName>
     <Category>Physical</Category>
-    <Cost>-3</Cost>
+    <Cost>-4</Cost>
     <Description>35</Description>
     <ConsumptionModifier>0.2</ConsumptionModifier>
     <Excludes>32</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Fertile -->
     <TraitName>36</TraitName>
     <Category>Physical</Category>
-    <Cost>2</Cost>
+    <Cost>3</Cost>
     <Description>37</Description>
     <PopGrowthMin>0.005</PopGrowthMin>
     <Excludes>38</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Less Fertile -->
     <TraitName>38</TraitName>
     <Category>Physical</Category>
-    <Cost>-2</Cost>
+    <Cost>-3</Cost>
     <Description>39</Description>
     <PopGrowthMax>0.01</PopGrowthMax>
     <Excludes>36</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Savage -->
@@ -48,9 +44,8 @@
     <Category>Physical</Category>
     <Cost>2</Cost>
     <Description>41</Description>
-    <GroundCombatModifier>0.3</GroundCombatModifier>
+    <GroundCombatModifier>0.25</GroundCombatModifier>
     <Excludes>42</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Timid -->
@@ -58,49 +53,44 @@
     <Category>Physical</Category>
     <Cost>-2</Cost>
     <Description>43</Description>
-    <GroundCombatModifier>-0.30</GroundCombatModifier>
+    <GroundCombatModifier>-0.2</GroundCombatModifier>
     <Excludes>40</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Alluring -->
     <TraitName>44</TraitName>
     <Category>Physical</Category>
-    <Cost>2</Cost>
+    <Cost>3</Cost>
     <Description>45</Description>
     <DiplomacyMod>0.2</DiplomacyMod>
     <Excludes>46</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Repulsive -->
     <TraitName>46</TraitName>
     <Category>Physical</Category>
-    <Cost>-2</Cost>
+    <Cost>-3</Cost>
     <Description>47</Description>
     <DiplomacyMod>-0.2</DiplomacyMod>
     <Excludes>44</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Smart -->
     <TraitName>48</TraitName>
     <Category>Physical</Category>
-    <Cost>3</Cost>
+    <Cost>6</Cost>
     <Description>49</Description>
-    <ResearchMod>0.15</ResearchMod>
+    <ResearchMod>0.3</ResearchMod>
     <Excludes>50</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Dumb -->
     <TraitName>50</TraitName>
     <Category>Physical</Category>
-    <Cost>-3</Cost>
+    <Cost>-6</Cost>
     <Description>51</Description>
-    <ResearchMod>-0.15</ResearchMod>
+    <ResearchMod>-0.25</ResearchMod>
     <Excludes>48</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Eagle Eyed -->
@@ -110,7 +100,6 @@
     <Description>53</Description>
     <EnergyDamageMod>0.2</EnergyDamageMod>
     <Excludes>54</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Blind  -->
@@ -120,7 +109,6 @@
     <Description>55</Description>
     <EnergyDamageMod>-0.2</EnergyDamageMod>
     <Excludes>52</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Reflexes -->
@@ -130,7 +118,6 @@
     <Description>57</Description>
     <DodgeMod>0.25</DodgeMod>
     <Excludes>58</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Ponderous -->
@@ -140,7 +127,6 @@
     <Description>59</Description>
     <DodgeMod>-0.25</DodgeMod>
     <Excludes>56</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Cybernetic -->
@@ -153,37 +139,33 @@
 	<Excludes>62</Excludes>
     <Excludes>86</Excludes>
 	<Excludes>5081</Excludes>
-	<Excludes>5091</Excludes>
   </RacialTrait>
-  <RacialTrait>
+  <RacialTrait>  
     <!--industrious -->
     <TraitName>62</TraitName>
     <Category>Industry</Category>
-    <Cost>3</Cost>
+    <Cost>5</Cost>
     <Description>63</Description>
-    <ProductionMod>0.15</ProductionMod>
+    <ProductionMod>0.30</ProductionMod>
 	<Excludes>60</Excludes>
     <Excludes>64</Excludes>
-    <Excludes>5091</Excludes>
-  </RacialTrait>
+  </RacialTrait>	    
   <RacialTrait>
     <!--Lazy -->
     <TraitName>64</TraitName>
     <Category>Industry</Category>
-    <Cost>-3</Cost>
+    <Cost>-5</Cost>
     <Description>65</Description>
-    <ProductionMod>-0.15</ProductionMod>
+    <ProductionMod>-0.25</ProductionMod>
     <Excludes>62</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!--Mercantile-->
     <TraitName>66</TraitName>
     <Category>Industry</Category>
-    <Cost>2</Cost>
+    <Cost>3</Cost>
     <Description>67</Description>
     <Mercantile>0.5</Mercantile>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Wasteful -->
@@ -193,7 +175,6 @@
     <Description>69</Description>
     <MaintMod>0.25</MaintMod>
     <Excludes>70</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Efficient-->
@@ -203,27 +184,24 @@
     <Description>71</Description>
     <MaintMod>-0.25</MaintMod>
     <Excludes>68</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Corrupt -->
     <TraitName>72</TraitName>
     <Category>Industry</Category>
-    <Cost>-1</Cost>
+    <Cost>-3</Cost>
     <Description>73</Description>
     <TaxMod>-0.25</TaxMod>
     <Excludes>74</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Meticulous -->
     <TraitName>74</TraitName>
     <Category>Industry</Category>
-    <Cost>1</Cost>
+    <Cost>3</Cost>
     <Description>75</Description>
     <TaxMod>0.25</TaxMod>
     <Excludes>72</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Skilled Engineers -->
@@ -233,7 +211,6 @@
     <Description>77</Description>
     <ModHpModifier>0.2</ModHpModifier>
     <Excludes>78</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
   <RacialTrait>
     <!-- Haphazard Engineers -->
@@ -243,7 +220,6 @@
     <Description>79</Description>
     <ModHpModifier>-0.2</ModHpModifier>
     <Excludes>76</Excludes>
-    <Excludes>5091</Excludes>
   </RacialTrait>
     <RacialTrait>
       <!-- Astronomers -->
@@ -251,79 +227,75 @@
       <Category>Special</Category>
       <Cost>2</Cost>
       <Description>81</Description>
-      <BonusExplored>20</BonusExplored>
-      <Excludes>5091</Excludes>
+      <BonusExplored>15</BonusExplored>
     </RacialTrait>
     <RacialTrait>
       <!-- Naval Tradition-->
       <TraitName>82</TraitName>
       <Category>Special</Category>
-      <Cost>2</Cost>
+      <Cost>3</Cost>
       <Description>83</Description>
       <ShipCostMod>-0.2</ShipCostMod>
-      <Excludes>5091</Excludes>
     </RacialTrait>
     <RacialTrait>
       <!-- Militaristic -->
       <TraitName>84</TraitName>
       <Category>Special</Category>
-      <Cost>2</Cost>
+      <Cost>1</Cost>
       <Description>85</Description>
       <Militaristic>1</Militaristic>
-      <Excludes>5091</Excludes>
     </RacialTrait>
     <RacialTrait>
       <!-- Pack -->
       <TraitName>2243</TraitName>
       <Category>Special</Category>
-      <Cost>2</Cost>
+      <Cost>4</Cost>
       <Description>2244</Description>
       <Pack>true</Pack>
-      <Excludes>5091</Excludes>
     </RacialTrait>
+    <!--Fertile Homeworld-->
+    <RacialTrait>
+      <TraitName>17997</TraitName>
+      <Category>Special</Category>
+      <Cost>4</Cost>
+      <Excludes>86</Excludes>
+      <Description>17998</Description>
+      <HomeworldFertMod>0.5</HomeworldFertMod>
+    </RacialTrait>	
     <RacialTrait>
       <!-- Polluted Homeworld -->
       <TraitName>86</TraitName>
       <Category>Special</Category>
-      <Cost>-3</Cost>
+      <Cost>-4</Cost>
       <Description>87</Description>
       <HomeworldFertMod>-0.5</HomeworldFertMod>
 	  <Excludes>60</Excludes>
-      <Excludes>5087</Excludes>
-      <Excludes>5091</Excludes>
-      <Excludes>17997</Excludes>
     </RacialTrait>
-    <!-- <RacialTrait>  Industrialized Homeworld 
-      <TraitName>5081</TraitName>
-      <Category>Special</Category>
-      <Cost>2</Cost>
-      <Description>5082</Description>
-      <HomeworldFertMod>-1.0</HomeworldFertMod>
-      <HomeworldRichMod>1.0</HomeworldRichMod>
-	  <Excludes>60</Excludes>
-      <Excludes>5087</Excludes>
-      <Excludes>5091</Excludes>
-      <Excludes>17997</Excludes>
-    </RacialTrait> -->
+  <RacialTrait>
+    <!-- Industrialized Homeworld -->
+    <TraitName>5081</TraitName>
+    <Category>Special</Category>
+    <Cost>3</Cost>
+    <Description>5082</Description>
+    <HomeworldRichMod>0.5</HomeworldRichMod>
+  </RacialTrait>
     <RacialTrait>
       <!-- Huge Homeworld -->
       <TraitName>88</TraitName>
       <Category>Special</Category>
-      <Cost>3</Cost>
+      <Cost>4</Cost>
       <Description>89</Description>
-      <HomeworldSizeMod>0.15</HomeworldSizeMod>
+      <HomeworldSizeMod>0.25</HomeworldSizeMod>
       <Excludes>90</Excludes>
-      <Excludes>5091</Excludes>
     </RacialTrait>
     <RacialTrait>
       <!-- Small homeworld -->
       <TraitName>90</TraitName>
       <Category>Special</Category>
-      <Cost>-3</Cost>
+      <Cost>-4</Cost>
       <Description>91</Description>
-      <HomeworldSizeMod>-0.15</HomeworldSizeMod>
+      <HomeworldSizeMod>-0.2</HomeworldSizeMod>
       <Excludes>88</Excludes>
-      <Excludes>5091</Excludes>
     </RacialTrait>
     <RacialTrait>
       <!-- Prototype Flagship -->
@@ -332,8 +304,6 @@
       <Cost>1</Cost>
       <Description>93</Description>
       <Prototype>1</Prototype>
-      <Excludes>94</Excludes>
-      <Excludes>5091</Excludes>
     </RacialTrait>
     <RacialTrait>
       <!-- Manifest Destiny -->
@@ -342,7 +312,6 @@
       <Cost>1</Cost>
       <Description>97</Description>
       <PassengerBonus>2</PassengerBonus>
-      <Excludes>5091</Excludes>
     </RacialTrait>
     <RacialTrait>
       <!-- Duplicitous -->
@@ -352,7 +321,6 @@
       <Description>1437</Description>
       <SpyMultiplier>10</SpyMultiplier>
       <Excludes>1438</Excludes>
-      <Excludes>5091</Excludes>
     </RacialTrait>
     <RacialTrait>
       <!-- Honest -->
@@ -361,7 +329,6 @@
       <Cost>-2</Cost>
       <Description>1439</Description>
       <Excludes>1436</Excludes>
-      <Excludes>5091</Excludes>
       <SpyMultiplier>-10</SpyMultiplier>
     </RacialTrait>
     <RacialTrait>
@@ -373,84 +340,6 @@
       <Spiritual>0.5</Spiritual>
       <Excludes>5091</Excludes>
     </RacialTrait>
-    <!--Clean Homeworld-->
-    <!-- bugged, excludes dont work :( 
-    <RacialTrait>
-      
-      <TraitName>17997</TraitName>
-      <Category>Special</Category>
-      <Cost>2</Cost>
-      <Excludes>60</Excludes>
-      <Excludes>86</Excludes>
-      <Excludes>5081</Excludes>
-      <Excludes>5091</Excludes>
-      <Description>17998</Description>
-      <HomeworldFertMod>1</HomeworldFertMod>
-    </RacialTrait>
-     -->
-    <!-- Sorry not working :( 
-       <RacialTrait>-->
-      <!-- Space trash -->
-      <!-- <TraitName>5090</TraitName>
-      <Category>Special</Category>
-      <Cost>-100</Cost>
-      <Excludes>32</Excludes>
-      <Excludes>34</Excludes>
-      <Excludes>36</Excludes>
-      <Excludes>38</Excludes>
-      <Excludes>40</Excludes>
-      <Excludes>42</Excludes>
-      <Excludes>44</Excludes>
-      <Excludes>46</Excludes>
-      <Excludes>48</Excludes>
-      <Excludes>50</Excludes>
-      <Excludes>52</Excludes>
-      <Excludes>54</Excludes>
-      <Excludes>56</Excludes>
-      <Excludes>58</Excludes>
-      <Excludes>60</Excludes>
-      <Excludes>62</Excludes>
-      <Excludes>64</Excludes>
-      <Excludes>66</Excludes>
-      <Excludes>68</Excludes>
-      <Excludes>70</Excludes>
-      <Excludes>72</Excludes>
-      <Excludes>74</Excludes>
-      <Excludes>76</Excludes>
-      <Excludes>78</Excludes>
-      <Excludes>80</Excludes>
-      <Excludes>82</Excludes>
-      <Excludes>84</Excludes>
-      <Excludes>86</Excludes>
-      <Excludes>88</Excludes>
-      <Excludes>90</Excludes>
-      <Excludes>92</Excludes>
-      <Excludes>96</Excludes>
-      <Excludes>2243</Excludes>
-      <Excludes>5081</Excludes>
-      <Excludes>1436</Excludes>
-      <Excludes>1438</Excludes>
-      <Excludes>1440</Excludes>
-      <Excludes>5087</Excludes>
-      <Description>5091</Description>
-      <HomeworldFertMod>-.5</HomeworldFertMod>
-      <HomeworldRichMod>-.5</HomeworldRichMod>
-      <ConsumptionModifier>.30</ConsumptionModifier>
-      <SpyMultiplier>-20</SpyMultiplier>
-      <HomeworldSizeMod>-.50</HomeworldSizeMod>
-      <ModHpModifier>-.80</ModHpModifier>
-      <TaxMod>-.50</TaxMod>
-      <MaintMod>.40</MaintMod>
-      <DodgeMod>-.40</DodgeMod>
-      <GroundCombatModifier>-.50</GroundCombatModifier>
-      <EnergyDamageMod>-.40</EnergyDamageMod>
-      <PopGrowthMax>.05</PopGrowthMax>
-      <DiplomacyMod>-.90</DiplomacyMod>
-      <ResearchMod>-.55</ResearchMod>
-      <ProductionMod>-.50</ProductionMod>
-    </RacialTrait>-->
-
-
     <!-- Adventure Mode Traits
     <RacialTrait>
       <TraitName>Wealthy Parents</TraitName>
@@ -502,6 +391,5 @@
       <PassengerModifier>2</PassengerModifier>
     </RacialTrait>
     -->
-
 </TraitList>
 </RacialTraits>
