@@ -15,13 +15,34 @@
   <SpacePortModel>mod models/Dauntless/DauntlessStation</SpacePortModel>
   <DefaultResearchStation>Basic Research Station</DefaultResearchStation>
   
-   <ExcludedDTraits>
+  <PersonalityTraitsWeights>
+	<string>Aggressive</string>
+	<string>Aggressive</string>
+	<string>Aggressive</string>
+    <string>Ruthless</string>
+	<string>Ruthless</string>
+	<string>Ruthless</string>
+	<string>Xenophobic</string>
+	<string>Xenophobic</string>
+	<string>Xenophobic</string>
+    <string>Cunning</string>
+	<string>Cunning</string>
+	<string>Cunning</string>
+	<string>Honorable</string>	
     <string>Pacifist</string>
-    <string>Honorable</string>
-  </ExcludedDTraits>
-  <ExcludedETraits>
-    <string>Generalists</string>
-  </ExcludedETraits>
+  </PersonalityTraitsWeights>  
+  
+  <EconomicTraitsWeights>
+    <string>Technologists</string>
+	<string>Technologists</string>
+	<string>Industrialists</string>
+	<string>Industrialists</string>
+	<string>Generalists</string>
+	<string>Militarists</string>
+	<string>Militarists</string>
+	<string>Expansionists</string>
+	<string>Expansionists</string>
+  </EconomicTraitsWeights>
   
     <!-- Rebel Faction data.-->
   <RebelName>Cyborg Rebels</RebelName>
