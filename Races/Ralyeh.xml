@@ -23,18 +23,6 @@
   <WarpStart>sd_warp_start_ralyeh_01</WarpStart>
   <WarpEnd>sd_warp_stop_ralyeh_01</WarpEnd>
   
-  
-  <EnvTerran>1.3</EnvTerran>
-  <EnvOceanic>1.5</EnvOceanic>
-  <EnvSteppe>1</EnvSteppe>
-  <EnvTundra>1.15</EnvTundra>
-  <EnvSwamp>1.3</EnvSwamp>
-  <EnvDesert>0.3</EnvDesert>
-  <EnvIce>0.5</EnvIce>
-  <EnvBarren>0.1</EnvBarren>  
-  <EnvVolcanic>0.1</EnvVolcanic>
-  <PreferredEnv>Oceanic</PreferredEnv>  
-  
   <ExcludedDTraits>
     <string>Honorable</string>
     <string>Pacifist</string>
@@ -53,43 +41,14 @@
     <R>255</R>
     <G>242</G>
     <B>253</B>
-    <RaceDescription>KWAK!</RaceDescription>
-    <Cost>0</Cost>
-    <ConsumptionModifier>0</ConsumptionModifier>
-    <ReproductionMod>0</ReproductionMod> 
-    <DiplomacyMod>0</DiplomacyMod>
-    <GenericMaxPopMod>0</GenericMaxPopMod>
-    <Aquatic>1</Aquatic>
-    <Burrowers>0</Burrowers>
-    <Blind>0</Blind>
-    <BonusExplored>0</BonusExplored>
-    <Militaristic>0</Militaristic>
-    <HomeworldSizeMod>0</HomeworldSizeMod>
-    <Prewarp>0</Prewarp>
-    <HomeworldFertMod>0.5</HomeworldFertMod>
-    <HomeworldRichMod>0</HomeworldRichMod>
-    <DodgeMod>0</DodgeMod>
-    <EnergyDamageMod>-0.2</EnergyDamageMod>
-    <ResearchMod>0.3</ResearchMod>
-    <PassengerBonus>0</PassengerBonus>	
-    <Mercantile>0</Mercantile>
-    <Miners>1</Miners>
-    <ProductionMod>0</ProductionMod>
-    <MaintMod>0</MaintMod>
-    <TaxMod>0</TaxMod>
-    <ShipCostMod>0</ShipCostMod>
-    <ModHpModifier>-0.2</ModHpModifier>
-    <SmallSize>0</SmallSize>
-    <HugeSize>0</HugeSize>
-    <GroundCombatModifier>0</GroundCombatModifier>
-    <RepairRateMod>0</RepairRateMod>
-    <Cybernetic>0</Cybernetic>
-    <Spiritual>0.5</Spiritual>
-    <Prototype>1</Prototype>
-    <SpyMultiplier>0</SpyMultiplier>
-    <PhysicalTraitBlind>false</PhysicalTraitBlind>
-    <Pack>false</Pack>
-    <ResearchTaxMultiplier>1</ResearchTaxMultiplier>
+	<TraitOptions>
+		<string>Aquatic</string>
+	    <string>Fertile Homeworld</string>
+		<string>Smart</string>
+		<string>Spiritual</string>
+		<string>Prototype Flagship</string>
+		<string>Haphazard Engineers</string>
+		<string>Blind</string>
+	</TraitOptions>	
   </Traits>
-  <Faction>0</Faction>
 </EmpireData>

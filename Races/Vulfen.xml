@@ -28,17 +28,6 @@
   <ThrustColor1R>184</ThrustColor1R>
   <ThrustColor1G>134</ThrustColor1G>
   <ThrustColor1B>11</ThrustColor1B>
-  
-  <EnvTerran>1</EnvTerran>
-  <EnvOceanic>1</EnvOceanic>
-  <EnvSteppe>1.2</EnvSteppe>
-  <EnvTundra>1.25</EnvTundra>
-  <EnvSwamp>0.5</EnvSwamp>
-  <EnvDesert>0.25</EnvDesert>
-  <EnvIce>1.5</EnvIce>
-  <EnvBarren>0.15</EnvBarren>  
-  <EnvVolcanic>0.1</EnvVolcanic>
-  <PreferredEnv>Ice</PreferredEnv>  
  
   <ExcludedDTraits>
     <string>Pacifist</string>
@@ -46,6 +35,7 @@
   <ExcludedETraits>
     <string>Technologists</string>
   </ExcludedETraits>  
+  
   <Traits>
     <Name>The Vulfar Imperium</Name>
     <Singular>Vulfar</Singular>
@@ -60,47 +50,16 @@
     <R>255</R>
     <G>0</G>
     <B>0</B>
-    <RaceDescription>The Vulfar Imperium believes in the superiority of the Vulfar race. They are an aggressive an industrialist race preferring strength through numbers in their many and varied conflicts. </RaceDescription>
-    <Cost>0</Cost>
-    <ConsumptionModifier>0.2</ConsumptionModifier>
-    <ReproductionMod>0</ReproductionMod>
-    <PopGrowthMax>0</PopGrowthMax>
-    <PopGrowthMin>0.01</PopGrowthMin>
-    <DiplomacyMod>0</DiplomacyMod>
-    <GenericMaxPopMod>0</GenericMaxPopMod>
-    <Blind>0</Blind>
-    <BonusExplored>0</BonusExplored>
-    <Militaristic>1</Militaristic>
-    <HomeworldSizeMod>0</HomeworldSizeMod>
-    <Prewarp>0</Prewarp>
-    <Prototype>0</Prototype>
-    <Spiritual>0</Spiritual>
-    <HomeworldFertMod>0</HomeworldFertMod>
-    <HomeworldRichMod>0</HomeworldRichMod>
-    <DodgeMod>0.25</DodgeMod>
-    <EnergyDamageMod>0</EnergyDamageMod>
-    <ResearchMod>-0.25</ResearchMod>
-    <Mercantile>0</Mercantile>
-    <Miners>0</Miners>
-    <ProductionMod>0.2</ProductionMod>
-    <MaintMod>0</MaintMod>
-    <InBordersSpeedBonus>0</InBordersSpeedBonus>
-    <TaxMod>0</TaxMod>
-    <ShipCostMod>-0.2</ShipCostMod>
-    <ModHpModifier>0</ModHpModifier>
-    <SmallSize>0</SmallSize>
-    <HugeSize>0</HugeSize>
-    <PassengerModifier>1</PassengerModifier>
-    <PassengerBonus>0</PassengerBonus>
-    <Assimilators>false</Assimilators>
-    <GroundCombatModifier>0</GroundCombatModifier>
-    <RepairMod>0</RepairMod>
-    <Cybernetic>0</Cybernetic>
-    <Aquatic>0</Aquatic>
-    <Burrowers>0</Burrowers>
-    <SpyModifier>0</SpyModifier>
-	<Pack>true</Pack>
-    <ResearchTaxMultiplier>1</ResearchTaxMultiplier>
+	<TraitOptions>
+		<string>Cryophiles</string>
+		<string>Gluttonous</string>
+		<string>Fertile</string>
+		<string>Militaristic</string>
+		<string>Dumb</string>
+		<string>Pack</string>
+		<string>Reflexes</string>
+	    <string>Naval Tradition</string>
+		<string>Industrious</string>
+	</TraitOptions>	
   </Traits>
-  <Faction>0</Faction>
 </EmpireData>

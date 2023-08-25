@@ -29,18 +29,6 @@
   <ThrustColor1G>255</ThrustColor1G>
   <ThrustColor1B>0</ThrustColor1B>	    
   
-  <EnvTerran>1.3</EnvTerran>
-  <EnvOceanic>1</EnvOceanic>
-  <EnvSteppe>1</EnvSteppe>
-  <EnvTundra>0.8</EnvTundra>
-  <EnvSwamp>1.5</EnvSwamp>
-  <EnvDesert>0.25</EnvDesert>
-  <EnvIce>0.6</EnvIce>
-  <EnvBarren>0.1</EnvBarren>  
-  <EnvVolcanic>0.05</EnvVolcanic>
-  <PreferredEnv>Swamp</PreferredEnv>  
-
-  
   <ExcludedDTraits>
     <string>Aggressive</string>
 	<string>Xenophobic</string>
@@ -62,42 +50,14 @@
     <R>0</R>
     <G>175</G>
     <B>0</B>
-    <RaceDescription>Pollops are a peculiar race of mobile plant-like organisms. Though physically weak, they grow at a rapid pace and have long lifespans. Pollops tend to be quite friendly.</RaceDescription>
-    <Cost>0</Cost>
-    <ConsumptionModifier>-0.25</ConsumptionModifier>
-    <PopGrowthMin>0.01</PopGrowthMin>
-    <DiplomacyMod>0</DiplomacyMod>
-    <GenericMaxPopMod>0</GenericMaxPopMod>
-    <Aquatic>0</Aquatic>
-    <Burrowers>0</Burrowers>
-    <Blind>0</Blind>
-    <BonusExplored>0</BonusExplored>
-    <Pioneers>0</Pioneers>
-    <Militaristic>0</Militaristic>
-    <Prewarp>0</Prewarp>
-    <Spiritual>0</Spiritual>
-    <HomeworldFertMod>0</HomeworldFertMod>
-    <DodgeMod>0</DodgeMod>
-    <EnergyDamageMod>0</EnergyDamageMod>
-    <ResearchMod>0</ResearchMod>
-    <Mercantile>0</Mercantile>
-    <Miners>0</Miners>
-    <ProductionMod>-0.25</ProductionMod>
-    <MaintMod>-0.25</MaintMod>
-    <TaxMod>0</TaxMod>
-    <ShipCostMod>0</ShipCostMod>
-    <ModHpModifier>0</ModHpModifier>
-    <SmallSize>0</SmallSize>
-    <HugeSize>0</HugeSize>
-    <GroundCombatModifier>-0.2</GroundCombatModifier>
-    <RepairRateMod>0</RepairRateMod>
-    <Cybernetic>0</Cybernetic>
-    <HomeworldSizeMod>0.25</HomeworldSizeMod>
-    <HistoryTraitAstronomers>false</HistoryTraitAstronomers>
-    <SpyMultiplier>0</SpyMultiplier>
-    <ResearchTaxMultiplier>1</ResearchTaxMultiplier>
-    <PassengerModifier>1</PassengerModifier>
-    <PassengerBonus>0</PassengerBonus>
+	<TraitOptions>
+		<string>Jungle Dwellers</string>
+		<string>Fertile</string>
+		<string>Timid</string>
+		<string>Huge Homeworld</string>
+		<string>Lazy</string>
+		<string>Efficient</string>
+		<string>Efficient Metabolism</string>
+	</TraitOptions>	
   </Traits>
-  <Faction>0</Faction>
 </EmpireData>
