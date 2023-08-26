@@ -349,7 +349,6 @@
 		  <TraitIndex>17997</TraitIndex>
 		  <Category>Environment</Category>
 		  <Cost>4</Cost>
-		  <Excludes>86</Excludes>
 		  <Description>17998</Description>
 		  <HomeworldFertMod>0.5</HomeworldFertMod>
 		  <Excludes>
@@ -369,8 +368,24 @@
 		    <string>Fertile Homeworld</string> 
 			<string>Cybernetic</string>
 			<string>Cyborgs</string>
+			<string>Green Conscience</string>
+			<string>Industrialized Homeworld</string> 			
 		  </Excludes>
 		</RacialTraitOption>
+		<RacialTraitOption>
+		<!--Green Conscience-->
+		  <TraitName>Green Conscience</TraitName>		
+		  <TraitIndex>20028</TraitIndex>
+		  <Category>Environment</Category>
+		  <Cost>-1</Cost>
+		  <Description>20029</Description>
+		  <HomeworldFertMod>0.2</HomeworldFertMod>
+		  <HomeworldRichMod>-0.5</HomeworldRichMod>
+		  <Excludes>
+		    <string>Industrialized Homeworld</string> 
+			<string>Polluted Homeworld</string>
+		  </Excludes>		  
+		</RacialTraitOption>					
 	  <RacialTraitOption>
 		<!-- Industrialized Homeworld -->
 		<TraitName>Industrialized Homeworld</TraitName>
@@ -381,6 +396,8 @@
 		<HomeworldRichMod>0.5</HomeworldRichMod>
 		  <Excludes>
 			<string>Cybernetic</string>
+			<string>Green Conscience</string>
+			<string>Polluted Homeworld</string>
 		  </Excludes>		
 	  </RacialTraitOption>
 		<RacialTraitOption>
@@ -457,7 +474,22 @@
 		  <Cost>1</Cost>
 		  <Description>1441</Description>
 		  <Spiritual>0.5</Spiritual>
+		  <Excludes>
+			  <string>Cynical</string>		
+		  </Excludes>		  
 		</RacialTraitOption>
+		<RacialTraitOption>
+		  <!-- Cynical  -->
+		  <TraitName>Cynical</TraitName>
+		  <TraitIndex>20026</TraitIndex>
+		  <Category>HistoryAndTradition</Category>
+		  <Cost>-2</Cost>
+		  <Description>20027</Description>
+		  <Spiritual>-1</Spiritual>
+		  <Excludes>
+			  <string>Spiritual</string>		
+		  </Excludes>		  
+		</RacialTraitOption>		
      <RacialTraitOption>
 	  <!-- Cyborgs -->
      	<TraitName>Cyborgs</TraitName>
@@ -526,7 +558,7 @@
 	    <EnvDesertMultiplier>1.5</EnvDesertMultiplier>
 	    <EnvIceMultiplier>0.5</EnvIceMultiplier>
 	    <EnvBarrenMultiplier>1</EnvBarrenMultiplier>
-	    <EnvVolcanicMultiplier>2</EnvVolcanicMultiplier>
+	    <EnvVolcanicMultiplier>1.5</EnvVolcanicMultiplier>
 		<Excludes>
 			<string>Terraphiles</string>
 			<string>Steppe Affinity</string>
@@ -593,7 +625,7 @@
 	    <EnvSwampMultiplier>0.8</EnvSwampMultiplier>
 	    <EnvDesertMultiplier>0.5</EnvDesertMultiplier>
 	    <EnvIceMultiplier>1.3</EnvIceMultiplier>
-	    <EnvBarrenMultiplier>2</EnvBarrenMultiplier>
+	    <EnvBarrenMultiplier>1.5</EnvBarrenMultiplier>
 	    <EnvVolcanicMultiplier>1</EnvVolcanicMultiplier>
 		<Excludes>
 			<string>Terraphiles</string>
@@ -730,8 +762,8 @@
 		<EnvSwampMultiplier>0.75</EnvSwampMultiplier>
 		<EnvDesertMultiplier>0.5</EnvDesertMultiplier>
 		<EnvIceMultiplier>1.5</EnvIceMultiplier>
-		<EnvBarrenMultiplier>2</EnvBarrenMultiplier>
-		<EnvVolcanicMultiplier>2</EnvVolcanicMultiplier>	  
+		<EnvBarrenMultiplier>1.5</EnvBarrenMultiplier>
+		<EnvVolcanicMultiplier>1.5</EnvVolcanicMultiplier>	  
 		<Excludes>
 			<string>Terraphiles</string>
 			<string>Steppe Affinity</string>
@@ -931,5 +963,29 @@
 		<string>Electrophiles</string>		
 	  </Excludes>
 	</RacialTraitOption> 			  
+    <RacialTraitOption>
+	  <!-- Salvagers -->
+	  <TraitName>Salvagers</TraitName>
+	  <TraitIndex>4966</TraitIndex>
+	  <Category>HistoryAndTradition</Category>
+	  <Cost>1</Cost>
+	  <Description>4967</Description>
+	  <CreditsPerKilledSlot>0.05</CreditsPerKilledSlot>
+	  <Excludes>
+		<string>Compensation Plan</string>
+	  </Excludes>
+	</RacialTraitOption> 			
+    <RacialTraitOption>
+	  <!-- Battle Casualty Compensation Plan -->
+	  <TraitName>Compensation Plan</TraitName>
+	  <TraitIndex>4968</TraitIndex>
+	  <Category>HistoryAndTradition</Category>
+	  <Cost>-1</Cost>
+	  <Description>4969</Description>
+	  <PenaltyPerKilledSlot>0.05</PenaltyPerKilledSlot>
+	  <Excludes>
+		<string>Salvagers</string>
+	  </Excludes>
+	</RacialTraitOption> 			
 	</TraitList>
 </RacialTraits>
