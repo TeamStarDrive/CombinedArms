@@ -64,13 +64,17 @@
     <R>146</R>
     <G>39</G>
     <B>143</B>
-	<TraitOptions>
-	    <string>Xerophiles</string>
-		<string>Alluring</string>
-		<string>Small Homeworld</string>
-		<string>Duplicitous</string>
-		<string>Manifest Destiny</string>
-		<string>Smart</string>		
-	</TraitOptions>		
+	<TraitSets> <!-- The first trait set is what the player sees. Other sets are extra sets randomized for the AI -->
+		<TraitSet>
+			<TraitOptions>
+				<string>Xerophiles</string>
+				<string>Alluring</string>
+				<string>Small Homeworld</string>
+				<string>Duplicitous</string>
+				<string>Manifest Destiny</string>
+				<string>Smart</string>		
+			</TraitOptions>		
+		</TraitSet>
+	</TraitSets>	
   </Traits>
 </EmpireData>

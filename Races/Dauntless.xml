@@ -71,16 +71,20 @@
     <R>172</R>
     <G>201</G>
     <B>238</B>
-	<TraitOptions>
-		<string>Cyborgs</string>
-		<string>Repulsive</string>
-		<string>Small Homeworld</string>
-		<string>Mercantile</string>
-		<string>Industrialized Homeworld</string>
-		<string>Eagle Eyed</string>
-		<string>Cynical</string>	
-		<string>Salvagers</string>		
-		<string>Manifest Destiny</string>		
-	</TraitOptions>	
+	<TraitSets> <!-- The first trait set is what the player sees. Other sets are extra sets randomized for the AI -->
+		<TraitSet>
+			<TraitOptions>
+				<string>Cyborgs</string>
+				<string>Repulsive</string>
+				<string>Small Homeworld</string>
+				<string>Mercantile</string>
+				<string>Industrialized Homeworld</string>
+				<string>Eagle Eyed</string>
+				<string>Cynical</string>	
+				<string>Salvagers</string>		
+				<string>Manifest Destiny</string>		
+			</TraitOptions>	
+		</TraitSet>
+	</TraitSets>	
   </Traits>
 </EmpireData>

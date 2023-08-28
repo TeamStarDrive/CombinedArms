@@ -54,14 +54,18 @@
     <R>255</R>
     <G>242</G>
     <B>253</B>
-	<TraitOptions>
-		<string>Aquatic</string>
-	    <string>Fertile Homeworld</string>
-		<string>Smart</string>
-		<string>Spiritual</string>
-		<string>Prototype Flagship</string>
-		<string>Haphazard Engineers</string>
-		<string>Blind</string>
-	</TraitOptions>	
+	<TraitSets> <!-- The first trait set is what the player sees. Other sets are extra sets randomized for the AI -->
+		<TraitSet>
+			<TraitOptions>
+				<string>Aquatic</string>
+				<string>Fertile Homeworld</string>
+				<string>Smart</string>
+				<string>Spiritual</string>
+				<string>Prototype Flagship</string>
+				<string>Haphazard Engineers</string>
+				<string>Blind</string>
+			</TraitOptions>	
+		</TraitSet>
+	</TraitSets>	
   </Traits>
 </EmpireData>

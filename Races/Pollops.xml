@@ -75,14 +75,18 @@
     <R>0</R>
     <G>175</G>
     <B>0</B>
-	<TraitOptions>
-		<string>Jungle Dwellers</string>
-		<string>Fertile</string>
-		<string>Timid</string>
-		<string>Huge Homeworld</string>
-		<string>Lazy</string>
-		<string>Efficient</string>
-		<string>Efficient Metabolism</string>
-	</TraitOptions>	
+	<TraitSets> <!-- The first trait set is what the player sees. Other sets are extra sets randomized for the AI -->
+		<TraitSet>
+			<TraitOptions>
+				<string>Jungle Dwellers</string>
+				<string>Fertile</string>
+				<string>Timid</string>
+				<string>Huge Homeworld</string>
+				<string>Lazy</string>
+				<string>Efficient</string>
+				<string>Efficient Metabolism</string>
+			</TraitOptions>	
+		</TraitSet>
+	</TraitSets>	
   </Traits>
 </EmpireData>

@@ -73,16 +73,20 @@
     <R>255</R>
     <G>0</G>
     <B>0</B>
-	<TraitOptions>
-		<string>Cryophiles</string>
-		<string>Gluttonous</string>
-		<string>Fertile</string>
-		<string>Militaristic</string>
-		<string>Dumb</string>
-		<string>Pack</string>
-		<string>Reflexes</string>
-	    <string>Naval Tradition</string>
-		<string>Industrious</string>
-	</TraitOptions>	
+	<TraitSets> <!-- The first trait set is what the player sees. Other sets are extra sets randomized for the AI -->
+		<TraitSet>
+			<TraitOptions>
+				<string>Cryophiles</string>
+				<string>Gluttonous</string>
+				<string>Fertile</string>
+				<string>Militaristic</string>
+				<string>Dumb</string>
+				<string>Pack</string>
+				<string>Reflexes</string>
+				<string>Naval Tradition</string>
+				<string>Industrious</string>
+			</TraitOptions>			
+		</TraitSet>
+	</TraitSets>	
   </Traits>
 </EmpireData>

@@ -58,14 +58,18 @@
     <R>255</R>
     <G>242</G>
     <B>0</B>
-	<TraitOptions>
-	    <string>Steppe Affinity</string>
-		<string>Less Fertile</string>
-		<string>Alluring</string>
-		<string>Huge Homeworld</string>
-		<string>Skilled Engineers</string>
-		<string>Timid</string>
-		<string>Efficient</string>
-	</TraitOptions>	
+	<TraitSets> <!-- The first trait set is what the player sees. Other sets are extra sets randomized for the AI -->
+		<TraitSet>
+			<TraitOptions>
+				<string>Steppe Affinity</string>
+				<string>Less Fertile</string>
+				<string>Alluring</string>
+				<string>Huge Homeworld</string>
+				<string>Skilled Engineers</string>
+				<string>Timid</string>
+				<string>Efficient</string>
+			</TraitOptions>			
+		</TraitSet>
+	</TraitSets>	
   </Traits>
 </EmpireData>
