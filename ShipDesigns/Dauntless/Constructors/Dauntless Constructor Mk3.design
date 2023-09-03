@@ -1,0 +1,54 @@
+Version=1
+Name=Dauntless Constructor Mk3
+Hull=Dauntless/ts1_modb
+Role=construction
+ModName=Combined Arms
+Style=Dauntless
+Size=10,19
+GridCenter=5,7
+DefaultCombatState=Artillery
+ShipCategory=Unclassified
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=BasicCargoHold;MediumCargoHold;Fusion Reactor;Cockpit_Side;ConstructionArray;PowerConduit;NuclearThermalThruster;CombatEngine_2x2;thruster1x2;WarpEngine_2x2
+Modules=36
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+4,0;0
+5,0;0
+3,1;1;2,2
+5,1;1;2,2
+3,3;0
+4,3;2;2,2
+6,3;0
+3,4;0
+6,4;0
+4,5;1;2,2
+2,7;1;2,2
+4,7;3;2,1
+6,7;1;2,2
+0,8;1;2,2
+4,8;4;2,3
+8,8;1;2,2
+2,9;4;2,3
+6,9;4;2,3
+0,10;4;2,3
+8,10;4;2,3
+4,11;5
+5,11;5
+4,12;2;2,2
+3,14;6
+4,14;5
+5,14;5
+6,14;6
+3,15;6
+4,15;7;2,2
+6,15;6
+2,16;8;1,2
+3,16;0
+6,16;0
+7,16;8;1,2
+3,17;9;2,2
+5,17;9;2,2

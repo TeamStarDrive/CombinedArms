@@ -1,11 +1,11 @@
 Version=1
-Name=Terran Constructor
-Hull=Misc/HaulerSmall
+Name=Dauntless Constructor Mk2
+Hull=Dauntless/ts2_modG
 Role=construction
 ModName=Combined Arms
-Style=Misc
-Size=4,10
-GridCenter=2,4
+Style=Dauntless
+Size=4,6
+GridCenter=2,2
 DefaultCombatState=Evade
 ShipCategory=Civilian
 HangarDesignation=General
@@ -13,27 +13,22 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=PowerSolar;ConstructionArray;BasicCargoHold;Cockpit;PowerConduit;NuclearReactorSmall;WarpEngine_1x1;engine_fighter_1x1
-Modules=21
+ModuleUIDs=Structure;PowerSolar;BasicCargoHold;ConstructionArray;WarpEngine_1x1;NuclearReactorSmall;Cockpit;2x1Twinengines
+Modules=16
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 1,0;0
-2,0;0
-1,1;1;2,3
+2,0;1
+0,1;2
+1,1;3;2,3
+3,1;2
+0,2;4
+3,2;4
+0,3;2
+3,3;5
 0,4;2
-1,4;2
-2,4;3
+1,4;5
+2,4;6
 3,4;2
 0,5;2
-1,5;2
-2,5;4
+1,5;7;2,1
 3,5;2
-0,6;2
-1,6;5
-2,6;5
-3,6;2
-1,7;2
-2,7;2
-1,8;6
-2,8;6
-1,9;7
-2,9;7

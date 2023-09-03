@@ -1,0 +1,52 @@
+Version=1
+Name=Terran Constructor Mk2
+Hull=Misc/CargoMedium
+Role=construction
+ModName=Combined Arms
+Style=Misc
+Size=6,21
+GridCenter=3,9
+DefaultCombatState=Artillery
+ShipCategory=Unclassified
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=PowerSolar2x2;BasicCargoHold;MediumCargoHold;ConstructionArray;VernierThruster;Cockpit;NuclearReactorSmall;thruster1x2;Fusion Reactor;WarpEngine_1x1
+Modules=34
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0;2,2
+2,2;1
+3,2;1
+2,3;2;2,2
+1,5;2;2,2
+3,5;2;2,2
+1,7;1
+2,7;3;2,3
+4,7;1
+1,9;1
+4,9;1
+1,10;4
+2,10;5
+3,10;6
+4,10;4
+1,11;4
+2,11;3;2,3
+4,11;4
+1,14;4
+2,14;3;2,3
+4,14;4
+1,15;7;1,2
+4,15;7;1,2
+2,17;8;2,2
+0,18;7;2,1;90;2
+4,18;7;2,1;90;2
+1,19;9
+2,19;9
+3,19;9
+4,19;9
+1,20;9
+2,20;9
+3,20;9
+4,20;9
