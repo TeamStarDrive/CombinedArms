@@ -1,0 +1,47 @@
+Version=1
+Name=Opteris Constructor Mk3
+Hull=Opteris/Crawler
+Role=construction
+ModName=Combined Arms
+Style=Opteris
+Size=4,14
+GridCenter=2,7
+DefaultCombatState=Artillery
+ShipCategory=Unclassified
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=PowerSolar;Structure;MediumCargoHold;ConstructionArray;NuclearThermalThruster;thruster1x1;PowerConduit;Cockpit;thruster1x2;Fusion Reactor;WarpEngine_2x2
+Modules=29
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+1,0;0
+2,0;0
+0,1;1
+1,1;2;2,2
+3,1;1
+0,2;1
+3,2;1
+0,3;1
+1,3;3;2,3;180;3
+3,3;1
+0,4;1
+3,4;1
+0,5;1
+3,5;1
+0,6;1
+1,6;3;2,3
+3,6;1
+0,7;4
+3,7;4
+0,8;4
+3,8;4
+0,9;5
+1,9;6
+2,9;7
+3,9;5
+0,10;8;1,2
+1,10;9;2,2
+3,10;8;1,2
+1,12;10;2,2

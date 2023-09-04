@@ -1,0 +1,47 @@
+Version=1
+Name=Vulfar Constructor Mk3
+Hull=Vulfen/Type WII
+Role=construction
+ModName=Combined Arms
+Style=Vulfen
+Size=8,12
+GridCenter=4,6
+DefaultCombatState=Artillery
+ShipCategory=Unclassified
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=PowerSolar;Structure;Cockpit_Side;NuclearThermalThruster;ConstructionArray;NuclearReactorSmall;Fusion Reactor;thruster1x3;PowerConduit;WarpEngine_1x1;WarpEngine_2x2
+Modules=29
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+3,0;0
+4,0;0
+3,1;1
+4,1;1
+3,2;2;2,1
+0,3;3
+1,3;4;2,3
+3,3;1
+4,3;1
+5,3;4;2,3
+7,3;3
+0,4;0
+3,4;5
+4,4;5
+7,4;0
+0,5;3
+3,5;6;2,2
+7,5;3
+2,6;3
+5,6;3
+0,7;7;1,3
+1,7;4;2,3
+3,7;8
+4,7;8
+5,7;4;2,3
+7,7;7;1,3
+3,9;9
+4,9;9
+3,10;10;2,2
