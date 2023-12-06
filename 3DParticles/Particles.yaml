@@ -690,7 +690,7 @@
   StartColorRange: [[0,0,255,255],[0,255,255,255]]
   RotateSpeed: [-1,1]
   StartEndSize: [ [5,30], [200,250] ]
-  SrcDstBlend: [SourceAlpha, One]
+  SrcDstBlend: [SourceAlpha, InverseSourceAlpha]
 
 - ParticleSettings:
   Name: ProjectileTrail

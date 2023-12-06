@@ -34,6 +34,9 @@ Globals:
   ConstructionModuleBuildRate: 100 # How much consturction the construction module can process per turn   
   BuilderShipConstructionAdded: 100 # How much consturction Builder ships add when they reach the contructor
   ResearchBenefitFromAlliance: 0.1 # Hoe much research each alliance is giving you (from other party research)
+  MiningStationFoodPerOneRefining: 1 # How much Food is consumed per 1 refining point
+  ExoticRatioStorage: 0.1 #  How much exotic resource storage an empire has per resource based on all planet normal storage  
+
 
   # feature flags
   DisableShipPicker: true
@@ -67,7 +70,7 @@ Globals:
   # mod information
   Mod:
     Name: "Combined Arms"
-    Version: "v8.3b"
+    Version: "v8.4a"
     FormatVersion: 1
     SupportedBlackBoxVersions: "develop,mars-1.41"
     IconPath: Textures/s141.png
