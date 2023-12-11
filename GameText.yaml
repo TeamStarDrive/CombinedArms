@@ -38,9 +38,9 @@ IntelligentRacesGainABonus:
  SPA: "Las razas inteligentes cuentan con una bonificación del 30% al investigar tecnologías"
 DumbRacesSufferAPenalty:
  Id: 51
- ENG: "Dumb races suffer a 20% penalty to research efforts due to their slow grasp of complex ideas"
- RUS: "Тупые расы получают 20% штраф к исследованиям, вследствие плохого понимания сложных концепций."
- SPA: "Las razas tontas sufren una penalización del 20% al investigar tecnologías porque tardan mucho en asimilar las ideas complejas"
+ ENG: "Dumb races suffer a 25% penalty to research efforts due to their slow grasp of complex ideas"
+ RUS: "Тупые расы получают 25% штраф к исследованиям, вследствие плохого понимания сложных концепций."
+ SPA: "Las razas tontas sufren una penalización del 25% al investigar tecnologías porque tardan mucho en asimilar las ideas complejas"
 Eagleeyed:
  Id: 52
  ENG: "Battle-Sense"
@@ -203,9 +203,9 @@ ImperialBank:
  SPA: "Banco imperial"
 TheImperialBankBuildingIncreases:
  Id: 428
- ENG: "The Imperial Bank building increases the efficiency of your planetary tax  and income operations"
- RUS: "Имперский банк увеличивает эффективность сбора налогов с планеты."
- SPA: "Este edificio aumenta en un 50% la eficacia de las operaciones fiscales planetarias."
+ ENG: "The Imperial Bank building increases both flat income and credits per colonist."
+ RUS: "Здание Имперского банка увеличивает как фиксированный доход, так и количество кредитов на одного колониста."
+ SPA: "El edificio del Banco Imperial aumenta tanto los ingresos fijos como los créditos por colono."
 TaxRevenues:
  Id: 429
  ENG: "+2 income per turn, +0.5 Credits Per Colonist"
@@ -3490,8 +3490,8 @@ CA_GalacticStockExchange:
  RUS: "Галактическая фондовая биржа"
 CA_TheGalacticStockExchangeIs:
  Id: 10010
- ENG: "The Galactic Stock Exchange is the central place where stocks of galactic mega-corporations are traded. The proceeds can be taxed."
- RUS: "Галактическая фондовая биржа - это центральное место, где идут торги акций галактических мегакорпораций.  Выручка может облагаться налогом."
+ ENG: "The Galactic Stock Exchange is the central place where stocks of galactic mega-corporations are traded. The proceeds can be taxed. There can be only one of these per empire."
+ RUS: "Галактическая фондовая биржа - это центральное место, где идут торги акций галактических мегакорпораций.  Выручка может облагаться налогом. В каждой империи может быть только один из них."
 CA_GeoSurveySatelliteUplink:
  Id: 10011
  ENG: "Geo Survey Satellite Uplink"
@@ -3614,7 +3614,7 @@ CA_Tech_SoilEnrichment_Desc:
  RUS: "Комбинируя искусственные и натуральные удобрения, мы можем улучшить плодородие планеты для увеличения сельскохозяйственного производства."
 CA_Tech_PlantGeneticManipulation_Name:
  Id: 10043
- ENG: "Plant Genetic Manipulation"
+ ENG: "Xeno-Plant Manipulation"
  RUS: "Изменение Флоры"
 CA_Tech_PlantGeneticManipulation_Desc:
  Id: 10044
@@ -7763,3 +7763,19 @@ CA_Tech_BuilderShipEff_Name:
 CA_Tech_BuilderShipEff_Desc:
  Id: 20031
  ENG: "Increased build rate of Builder Ships is important for research station and Planet Defense Operations"             
+CA_RacialTraitSharp_Name:
+ Id: 20033
+ ENG: "Sharp"
+ RUS: "Острый" 
+CA_RacialTraitSharp_Desc:
+ Id: 20034
+ ENG: "Sharp races gain a 15% bonus to research efforts"
+ RUS: "Острые расы получают бонус 15% к исследовательским усилиям."
+CA_RacialTraitSlowMinded_Name:
+ Id: 20035
+ ENG: "Slow Minded"
+ RUS: "Медлительный"
+CA_RacialTraitSlowMinded_Desc:
+ Id: 20036
+ ENG: "Slow Minded races suffer a 10% penalty to research efforts."
+ RUS: "Медлительные расы получают 10% штраф к исследовательским усилиям."

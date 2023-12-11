@@ -110,6 +110,8 @@
 		<ResearchMod>0.3</ResearchMod>
 		<Excludes>
 			<string>Dumb</string>		
+			<string>Sharp</string>		
+			<string>Slow Minded</string>		
 		</Excludes>
 	  </RacialTraitOption>
 	  <RacialTraitOption>
@@ -119,11 +121,41 @@
 		<Category>Physical</Category>
 		<Cost>-6</Cost>
 		<Description>51</Description>
-		<ResearchMod>-0.25</ResearchMod>
+		<ResearchMod>-0.1</ResearchMod>
 		<Excludes>
 			<string>Smart</string>		
+			<string>Sharp</string>	
+	        <string>Slow Minded</string>			
 		</Excludes>
 	  </RacialTraitOption>
+	  <RacialTraitOption>
+		<!-- Sharp -->
+		<TraitName>Sharp</TraitName>
+		<TraitIndex>20033</TraitIndex>
+		<Category>Physical</Category>
+		<Cost>3</Cost>
+		<Description>20034</Description>
+		<ResearchMod>0.15</ResearchMod>
+		<Excludes>
+			<string>Dumb</string>		
+			<string>Smart</string>		
+			<string>Slow Minded</string>		
+		</Excludes>
+	  </RacialTraitOption>	  
+	  <RacialTraitOption>
+		<!-- Slow Minded -->
+		<TraitName>Slow Minded</TraitName>
+		<TraitIndex>20035</TraitIndex>
+		<Category>Physical</Category>
+		<Cost>-3</Cost>
+		<Description>20036</Description>
+		<ResearchMod>-0.1</ResearchMod>
+		<Excludes>
+			<string>Smart</string>		
+			<string>Sharp</string>		
+			<string>Dumb</string>		
+		</Excludes>
+	  </RacialTraitOption>	  	  	  
 	  <RacialTraitOption>
 		<!-- Eagle Eyed -->
 		<TraitName>Eagle Eyed</TraitName>
