@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 
-  <Cost>10</Cost>
+  <Cost>20</Cost>
   <!-- Tech Level -->
   <TechLevel>3</TechLevel>
   <TechBranch>Armor</TechBranch>
@@ -12,9 +12,9 @@
   <ModuleType>Armor</ModuleType>
   <Name>Small Self Repairing Armor</Name>
   <Restrictions>O</Restrictions>
-  <UID>RegenArmorSmall</UID>
+  <UID>RegenArmorSmallPortal</UID>
   <TexturePath>Textures/transparent</TexturePath>
-  <IconTexturePath>Modules/RegenerativeArmorSmall</IconTexturePath>
+  <IconTexturePath>Modules/RegenerativeArmorSmallPortal</IconTexturePath>
 
 
   <NameIndex>5474</NameIndex>
@@ -28,12 +28,14 @@
   <APResist>3</APResist>
   <PowerDraw>0</PowerDraw>
   <BonusRepairRate>10</BonusRepairRate>
-  <Regenerate>75</Regenerate>  
+  <Regenerate>100</Regenerate>  
   
   <Deflection>300</Deflection>
   
   
-  <BeamResist>0.8</BeamResist>
+  <KineticResist>0.5</KineticResist>
+  <BeamResist>0.95</BeamResist>  
+  <EnergyResist>0.5</EnergyResist>  
   <PlasmaResist>0.8</PlasmaResist>
 
   <!-- for Weapons -->
