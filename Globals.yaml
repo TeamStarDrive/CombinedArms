@@ -70,7 +70,7 @@ Globals:
   # mod information
   Mod:
     Name: "Combined Arms"
-    Version: "v8.5b"
+    Version: "v8.5c"
     FormatVersion: 1
     SupportedBlackBoxVersions: "develop,main,mars-1.50,mars:1.50"
     IconPath: Textures/s141.png
@@ -82,6 +82,3 @@ Globals:
     UseVanillaWeapons: false
     UseVanillaBuildings: false
     UseVanillaRaces: false
-
-    # TODO: DEPRECATED FLAG leaving here for compatibility, duplicates `UseVanillaTechs` and can be removed eventually
-    ClearVanillaTechs: true
