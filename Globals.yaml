@@ -19,7 +19,7 @@ Globals:
   GravityWellRange: 8000 # sets the default gravity well range, 0 means disabled
   StartingPlanetRichnessBonus: 1 # bonus richness for empire capitals (default is 1 for richness of 2)
   ShipMaintenanceMultiplier: 1 # default 1
-  ResearchStationProductionPerResearch: 3 # default 2
+  ResearchStationProductionPerResearch: 2 # default 2
   RushCostPercentage: 1 # default 1, How much rushing costs in percentage of production cost
   MinAcceptableShipWarpRange: 600000 # minimum ship warp range which is accepted as good
   BaseShipyardRepair: 5 # repair multiplier of ship repair per turn from planetary buildings
@@ -36,7 +36,7 @@ Globals:
   MiningStationFoodPerOneRefining: 0.25 # How much Food is consumed per 1 refining point
   ResearchBenefitFromAlliance: 0.1 # How much research each alliance is giving you (from other party research)
   ExoticRatioStorage: 0.02 # How much exotic resource storage an empire has per resource based on all planet normal storage  
-  EnableHullEditor: false # Alows modders to edut hulls. it is disabled by default since it will weaken the AI if not done correctly.
+  EnableHullEditor: false # Allows modders to edit hulls. it is disabled by default since it will weaken the AI if not done correctly.
 
   # feature flags
   DisableShipPicker: true
@@ -71,7 +71,7 @@ Globals:
   # mod information
   Mod:
     Name: "Combined Arms"
-    Version: "v8.5e"
+    Version: "v8.5f"
     FormatVersion: 1
     SupportedBlackBoxVersions: "develop,main,mars-1.50,mars:1.50"
     IconPath: Textures/s141.png
