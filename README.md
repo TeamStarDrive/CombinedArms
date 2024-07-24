@@ -1,5 +1,21 @@
 # Combined Arms
-### This is an edited version of the original Combomod. BlackBox features are supported where possible.
+Stardrive has always been a very good real time x4 game with excellent mod support. The main issues of the game were low performance on end game and bugs.
+The Blackbox project addresses these issues. And we decided also to work on and improve some of the better mods out there, created for StarDrive 1 over the years.
+Combined Arms is based on Combomod (keeping the best parts in Combomod). We did a lot of balance work on Combomod and added such vast amount of new content that we decided it deserves a new name.
+
+# A short summary of the new content:
+- Around 80 New ships 3D models and hulls. Every role (besides Titan) has 2 more 3d ship designs to research, along with dedicated slot maps. This is of course, per faction. So with the new Bomber and Drone ships, each faction will have a total of 19 hulls to design ships for. The new Titan per faction is truly big. Draylok Titan, for instance is 4.8k slots.
+- Each Faction has it's own battle station, which is also rendered as the space port, when a planet has it built.
+- 8 New Missile 3D models: Blackbox code opened the option for us to create different 3D models for missiles, instead of using the default 2.
+- Kulrathi and Vulfar got their own 3D freighter models, instead of using the Terran ones.
+- Two new space station models; Small Station and a huge Sector station.
+- New drone role - a 4-6 slot (based on faction) small, automated fighter which is launched from drone bays
+- New ship hull (classified as Fighter Role) per faction - Bomber, which contains internal slots to unleash Anti capital bombs
+- New weapons, such as Rapid Blue lasers, new versions of mass drivers (extended, compact)
+- New Reactors. You can take a path of lower output, but non exploding reactors such as the Cold Fusion or Quantum Fusion reactors, or go crazy with very high output, but highly unstable Anti-Matter or Dark Energy reactors
+- 19 new types of armor, including shields combined with armor, self repair armor and more. These were present in Combomod but got new textures and massive balance
+- New, hi-res textures for all the lower texture modules in the game
+- Tech tree is 2.5 times the vanilla one
 
 * Install the base blackbox release from https://github.com/TeamStarDrive/StarDrive/releases/tag/mars-1.41.14664
 * Download the mod (https://github.com/TeamStarDrive/CombinedArms/releases) and extract it into the mods dir of StardDrive. If you have old Combined Arms mod dir- YOU MUST DELETE it before installing the new one. Note that onces you installed the mod, the new patcher wuill update CA as well, if needed.
@@ -8,20 +24,6 @@
 * Start the game and load the mod from the mod menu.
 * Drop us a note in Discord chat (https://discord.gg/dfvnfH4).
 
-Some stuff changed in Combined Arms:
-- Done some balancing to weapons and other modules
-- Fixed some not working weapons with the newest BlackBox version.
-- Edited a bit tech tree
-- Disabled some custom ship hulls since they were clearly poor quality and odd looking
-- Added new explosion animation [youtube link](https://www.youtube.com/watch?v=IILg5Xqe6b4)
-- Changed modules mass to make bigger ships way slower than the smaller ones.
-- Edited starting racial traits for more fun.
-- Edited racial trait costs for harder choices in selecting bit OP ones.
-- Added quite a lot new ship designs with new high end modules to make mid-end game more challenging.
-
-Weapons/modules and race balance might still be a issue but sadly its hard to test this alone.
-
-Anyway try it out and report any issues you might find.
 
 Credits:
 
