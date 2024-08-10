@@ -3,7 +3,7 @@
     <DTrait>
       <Name>Xenophobic</Name>
       <Description>Xenophobic races are slow to trust and quick to take offense, but can make strong allies if treated well.</Description>
-      <Territorialism>40</Territorialism>
+      <Territorialism>60</Territorialism>
       <Opportunism>.5</Opportunism>
       <NAPact>10</NAPact>
       <Alliance>45</Alliance>
@@ -12,7 +12,7 @@
       <NaturalRelChange>-.1</NaturalRelChange>
       <WeaknessDecline>.1</WeaknessDecline>
       <PowerIncrease>-.1</PowerIncrease>
-      <AngerDissipation>.1</AngerDissipation>
+      <AngerDissipation>0.1</AngerDissipation>
       <TrustGainedAtPeace>.1</TrustGainedAtPeace>
     </DTrait>
     <DTrait>
@@ -27,20 +27,20 @@
       <NaturalRelChange>0</NaturalRelChange>
       <WeaknessDecline>0</WeaknessDecline>
       <PowerIncrease>.1</PowerIncrease>
-      <AngerDissipation>.1</AngerDissipation>
+      <AngerDissipation>0.1</AngerDissipation>
       <TrustGainedAtPeace>.1</TrustGainedAtPeace>
     </DTrait>
     <DTrait>
       <Name>Cunning</Name>
       <Description>Cunning races love diplomacy and espionage, and will use these tools frequently to achieve their ends. </Description>
-      <Territorialism>55</Territorialism>
+      <Territorialism>45</Territorialism>
       <Opportunism>.4</Opportunism>
       <NAPact>0</NAPact>
       <Alliance>15</Alliance>
       <Trade>2</Trade>
       <Trustworthiness>25</Trustworthiness>
       <NaturalRelChange>0</NaturalRelChange>
-      <AngerDissipation>.1</AngerDissipation>
+      <AngerDissipation>0.1</AngerDissipation>
       <TrustGainedAtPeace>.1</TrustGainedAtPeace>
     </DTrait>
     <DTrait>
@@ -55,20 +55,20 @@
       <NaturalRelChange>0</NaturalRelChange>
       <WeaknessDecline>.2</WeaknessDecline>
       <PowerIncrease>.1</PowerIncrease>
-      <AngerDissipation>.1</AngerDissipation>
+      <AngerDissipation>0.1</AngerDissipation>
       <TrustGainedAtPeace>.1</TrustGainedAtPeace>
     </DTrait>
     <DTrait>
       <Name>Pacifist</Name>
       <Description>Pacifist races are not interested in conquering the galaxy and are easy to befriend. </Description>
-      <Territorialism>60</Territorialism>
+      <Territorialism>40</Territorialism>
       <Opportunism>.2</Opportunism>
       <NAPact>0</NAPact>
       <Alliance>15</Alliance>
       <Trade>2</Trade>
       <Trustworthiness>80</Trustworthiness>
       <NaturalRelChange>.1</NaturalRelChange>
-      <AngerDissipation>.2</AngerDissipation>
+      <AngerDissipation>0.2</AngerDissipation>
       <TrustGainedAtPeace>.2</TrustGainedAtPeace>
     </DTrait>
     <DTrait>
@@ -81,6 +81,7 @@
       <Trade>5</Trade>
       <Trustworthiness>0</Trustworthiness>
       <WeaknessDecline>.3</WeaknessDecline>
+	  <AngerDissipation>0.05</AngerDissipation>
       <PowerIncrease>.1</PowerIncrease>
     </DTrait>
   </DiplomaticTraitsList>
