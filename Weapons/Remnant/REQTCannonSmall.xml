@@ -1,0 +1,49 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Kinetic>false</Tag_Kinetic>
+  <Tag_Energy>true</Tag_Energy>
+  <Tag_Guided>true</Tag_Guided>
+  <Tag_Missile>false</Tag_Missile>
+  <Tag_Plasma>false</Tag_Plasma>
+  <Tag_Beam>false</Tag_Beam>
+  <Tag_Intercept>false</Tag_Intercept>
+  <Tag_Bomb>false</Tag_Bomb>
+  <Tag_BioWeapon>false</Tag_BioWeapon>
+  <Tag_Drone>false</Tag_Drone>
+  <Tag_Torpedo>false</Tag_Torpedo>
+  <Tag_Cannon>true</Tag_Cannon>
+  
+  <ExcludesFighters>true</ExcludesFighters>  
+  <ExcludesCorvettes>true</ExcludesCorvettes>  
+  
+  <UID>REQTCannonSmall</UID>
+  <FireDelay>8</FireDelay>
+  <Range>10000</Range>
+  <PowerRequiredToFire>3000</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0</OrdinanceRequiredToFire>
+  <HitPoints>250</HitPoints>  
+  
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <FireCueName>sd_weapon_pulse_alt15_01</FireCueName>
+  <DieCue>Explo1</DieCue>
+ <!-- <ToggleSoundName>sd_weapon_vulcan_spinloop_01</ToggleSoundName> -->
+
+  <!-- Projectile Information -->
+  <DamageAmount>7500</DamageAmount>
+  <Scale>1.5</Scale>
+  <MuzzleFlash>Yes</MuzzleFlash>
+  <ProjectileSpeed>2000</ProjectileSpeed>
+  <ProjectileRadius>5</ProjectileRadius>
+  <ExplosionRadius>100</ExplosionRadius> <!-- This projectile explodes -->
+  <Animated>1</Animated>
+  <Frames>16</Frames>
+  <AnimationPath>QT_Torpedo/QT_Torpedo_cc_</AnimationPath>
+  <LoopAnimation>1</LoopAnimation>      
+  
+  <Light>Blue</Light>
+  <ProjectileTexturePath>projBall_03_purple</ProjectileTexturePath>
+  <ModelPath>projBall</ModelPath>
+  <RotationRadsPerSecond>4</RotationRadsPerSecond>
+  <WeaponType>RemnantTech</WeaponType>
+  <OffPowerMod>0.5</OffPowerMod>  
+</Weapon>

@@ -10,7 +10,7 @@
   <PlatformModule>false</PlatformModule>
   <StationModule>false</StationModule>
   
-  <Cost>100</Cost>
+  <Cost>150</Cost>
   <!-- Tech Level Used by AI for Upgrading Ships -->
   <TechLevel>5</TechLevel>
   
@@ -20,9 +20,9 @@
   <YSize>4</YSize>
   <Name>Jump Drive</Name>
   <Restrictions>I</Restrictions>
-  <UID>REJumpengine</UID>
+  <UID>REJumpengine2</UID>
   <TexturePath>Textures/transparent</TexturePath>
-  <IconTexturePath>Modules/REJumpengine</IconTexturePath>
+  <IconTexturePath>Modules/REJumpengine2</IconTexturePath>
   <Mass>100</Mass>
   <HealthMax>1500</HealthMax>
   <RepairDifficulty>10</RepairDifficulty>
@@ -32,7 +32,7 @@
   
   
   <PowerDraw>200</PowerDraw>
-  <PowerDrawAtWarp>1000</PowerDrawAtWarp>
+  <PowerDrawAtWarp>1300</PowerDrawAtWarp>
 
 
   <NameIndex>12023</NameIndex>
@@ -49,7 +49,7 @@
   <!-- for PowerPlant Items -->
   
   <ExplosionDamage>2500</ExplosionDamage>
-  <ExplosionRadius>50</ExplosionRadius>  
+  <ExplosionRadius>100</ExplosionRadius>  
   <PowerFlowMax>0</PowerFlowMax>
   <PowerStoreMax>0</PowerStoreMax>
   
@@ -57,5 +57,5 @@
   <!-- for Engines -->
   <Thrust>0</Thrust>
   <TurnThrust>0</TurnThrust>  
-  <WarpThrust>3000000</WarpThrust>
+  <WarpThrust>6000000</WarpThrust>
 </ShipModule>

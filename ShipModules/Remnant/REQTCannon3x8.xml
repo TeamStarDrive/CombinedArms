@@ -1,0 +1,54 @@
+﻿<?xml version="1.0"?>
+<ShipModule xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <DroneModule>false</DroneModule>
+  <FighterModule>false</FighterModule>
+  <CorvetteModule>false</CorvetteModule>
+  
+  <Cost>100</Cost>
+  <TechLevel>5</TechLevel>
+  <!-- common traits shared by all ship modules -->
+  <ModuleType>MainGun</ModuleType>
+  <XSize>3</XSize>
+  <YSize>8</YSize>
+  <Name>Quantum Torpedo Cannon</Name>
+  <Restrictions>O</Restrictions>
+  <UID>REQTCannon3x8</UID>
+  <IconTexturePath>Modules/RE_QT_Cannon_3x8</IconTexturePath>
+  <Mass>100</Mass>
+  <HealthMax>7000</HealthMax>
+  <energyreq>0</energyreq>
+  <Description>A devastatingly powerful energy cannon
+  </Description>
+  
+  
+  <PowerDraw>120</PowerDraw>
+  <NameIndex>1036</NameIndex>
+  <DescriptionIndex>1037</DescriptionIndex>
+  <RepairDifficulty>4</RepairDifficulty>
+
+
+  <!-- for shield items -->
+  
+  <ShieldPowerMax>0</ShieldPowerMax>
+  <ShieldRechargeDelay>0</ShieldRechargeDelay>
+  <ShieldRechargeRate>0</ShieldRechargeRate>
+  <ShieldRadius>0</ShieldRadius>
+  <radius>0</radius>
+
+  <!-- for PowerPlant Items -->
+  
+  <PowerFlowMax>0</PowerFlowMax>
+  <PowerStoreMax>0</PowerStoreMax>
+  
+  <!-- for Weapons -->
+  <WeaponType>REQTCannon</WeaponType>
+  <FieldOfFire>15</FieldOfFire>
+  
+  
+  <!-- for Engines -->
+  <Thrust>0</Thrust>
+  
+  
+
+</ShipModule>
