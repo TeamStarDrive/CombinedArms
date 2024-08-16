@@ -13,8 +13,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=REMac2x2;CompositeAlloys Small;AncientShield2kw;RELaserGreen;RemnantSmallFuelCell;RemnantSmallReactor;RECockpit;REPD;PowerConduit;WarpEngine_1x1;CombatEngine_2x2
-Modules=28
+ModuleUIDs=REMac2x2;CompositeAlloys Small;AncientShield2kw;RELaserGreen;RemnantSmallFuelCell;RECockpit;AncientReactorMed;AntimatterThruster;thruster1x1;REPD;WarpEngine_1x1;ReEngine2x2
+Modules=25
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 3,0;0;2,4
 1,1;1
@@ -29,18 +29,15 @@ Modules=28
 7,3;3;;15
 1,4;4
 2,4;5
-3,4;6
-4,4;6
+3,4;6;2,2
 5,4;5
 6,4;4
 2,5;7
-3,5;5
-4,5;5
 5,5;8
-1,6;7;;315
-2,6;9
-3,6;10;2,2
-5,6;9
-6,6;7;;45
-2,7;9
-5,7;9
+1,6;9;;315
+2,6;10
+3,6;11;2,2
+5,6;10
+6,6;9;;45
+2,7;10
+5,7;10
