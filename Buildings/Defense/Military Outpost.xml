@@ -1,15 +1,19 @@
 ﻿<Building>
   <Name>Military Outpost</Name>
   <Description>This basic facility provides a barracks, armory, mess, firing range, and other facilities needed to train and equip infantry for ground combat. </Description>
-  <Cost>25</Cost>
+  <Cost>30</Cost>
   <Icon>military_outpost</Icon>
-  <Strength>20</Strength>
-  <CombatStrength>20</CombatStrength>
-  <SoftAttack>30</SoftAttack>
-  <Defense>20</Defense>
-  <HardAttack>30</HardAttack>
+  <Strength>25</Strength>
+  <CombatStrength>25</CombatStrength>
+  <SoftAttack>35</SoftAttack>
+  <Defense>30</Defense>
+  <HardAttack>35</HardAttack>
   <AllowInfantry>true</AllowInfantry>
+  <DefenseShipsCapacity>2</DefenseShipsCapacity>
+  <DefenseShipsRole>fighter</DefenseShipsRole>    
   <NameTranslationIndex>436</NameTranslationIndex>
   <DescriptionIndex>437</DescriptionIndex>
-  <ShortDescriptionIndex>438</ShortDescriptionIndex>
+  <!--<ShortDescriptionIndex>438</ShortDescriptionIndex>-->
+  <DefenseShipsCapacity>2</DefenseShipsCapacity>
+  <DefenseShipsRole>fighter</DefenseShipsRole>    
 </Building>

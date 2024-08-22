@@ -1,0 +1,27 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <UID>Fletchette Outpost</UID>
+  <Tag_Cannon>true</Tag_Cannon>
+  <Tag_Kinetic>true</Tag_Kinetic>
+  
+  <FireDelay>0.5</FireDelay>
+  <Range>2500</Range>
+  <PowerRequiredToFire>0</PowerRequiredToFire>
+  <OrdinanceRequiredToFire>0.25</OrdinanceRequiredToFire>
+  <ProjectileCount>4</ProjectileCount>
+  <FireArc>15</FireArc>
+
+  <ExcludesCapitals>true</ExcludesCapitals>     
+  <ExcludesStations>true</ExcludesStations>     
+  <!-- name of XACT audio cue to play on firing this weapon -->
+  <FireCueName>sd_weapon_vulcan_alt02_01</FireCueName>  
+  <EffectVsShields>0.1</EffectVsShields>
+  <!-- Projectile Information -->
+  <DamageAmount>100</DamageAmount>
+  <ExplosionRadius>24</ExplosionRadius>
+  <ProjectileSpeed>3000</ProjectileSpeed>
+  <ProjectileRadius>4</ProjectileRadius>
+  <Scale>3.0</Scale>
+  <ProjectileTexturePath>superlong_yellow</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <WeaponType>Shotgun</WeaponType>
+</Weapon>

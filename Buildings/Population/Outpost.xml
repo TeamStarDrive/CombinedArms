@@ -1,6 +1,6 @@
 ﻿<Building>
   <Name>Outpost</Name>
-  <Cost>50</Cost>
+  <Cost>75</Cost>
   <Description>An Outpost building is the humble first step in a civilization's efforts to colonize a new world.  Outposts provide for a base level of agricultural, industrial, and scientific capacity.  When built on a barren planet, it is critical for an outpost to be supplemented with an aeroponic farm. Outposts are also capable of rudimentary self-defense in case of invasion. </Description>
   <PlusProdPerRichness>0.1</PlusProdPerRichness>
   <PlusFlatResearchAmount>0.1</PlusFlatResearchAmount>
@@ -9,17 +9,20 @@
   <StorageAdded>20</StorageAdded>
   <Infrastructure>1</Infrastructure>
   <Icon>Outpost</Icon>
-  <Strength>15</Strength>
-  <CombatStrength>15</CombatStrength>
-  <SoftAttack>40</SoftAttack>
-  <Defense>20</Defense>
-  <HardAttack>20</HardAttack>
+  <Strength>20</Strength>
+  <CombatStrength>20</CombatStrength>
+  <SoftAttack>30</SoftAttack>
+  <Defense>25</Defense>
+  <HardAttack>30</HardAttack>
   <CanBuildAnywhere>true</CanBuildAnywhere>
   <ShortDescription>Provides basic functions necessary for colonies</ShortDescription>
   <Scrappable>false</Scrappable>
   <SensorRange>20000</SensorRange>
   <ProjectorRange>30000</ProjectorRange>
+  <DefenseShipsCapacity>2</DefenseShipsCapacity>
+  <DefenseShipsRole>fighter</DefenseShipsRole>  
   <NameTranslationIndex>446</NameTranslationIndex>
   <DescriptionIndex>447</DescriptionIndex>
+  <Weapon>Fletchette Outpost</Weapon>
   <!--<ShortDescriptionIndex>448</ShortDescriptionIndex>-->
 </Building>
