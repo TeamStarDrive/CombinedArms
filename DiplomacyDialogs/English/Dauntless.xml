@@ -643,6 +643,7 @@
       <DL_Hon>We will not tolerate this! Relations off, war on.</DL_Hon>
     </DialogLine>
     <DialogLine>
+      <DialogType>TRIED_CUTTING_DEALS_WITH_ENEMY</DialogType>
       <Default>I'll be damned, you crawl to our enemies and try to sign treaties with them regardless of our alliance!?</Default>
       <DL_Agg>Our alliance deal is off.</DL_Agg>
       <DL_Ruth>You are not worthy of any relations. Good bye.</DL_Ruth>
@@ -691,6 +692,16 @@
       <DL_Pac>PLURAL, you dragged us into this war although you know we dislike fighting. Since you are doing nothing, perhaps we should end our war with them and our friendship with you.</DL_Pac>
       <DL_Hon>We did not know PLURAL are honorless. You failed to help in a war you requested our aid.</DL_Hon>
     </DialogLine>  	
+	
+	<!-- Treaties With Low Trust -->
+    <DialogLine>
+      <DialogType>TRUST_LOW_ALLIANCE</DialogType>
+	  <Default>You are not a worthy ally.</Default>
+    </DialogLine>  			
+    <DialogLine>
+      <DialogType>TRUST_LOW_OPEN_BORDERS</DialogType>
+	  <Default>Unfortunately we cannot trust you any more with an Open Borders Treaty.</Default>
+    </DialogLine>  
 	
   </Dialogs>
 </DiplomacyDialog>

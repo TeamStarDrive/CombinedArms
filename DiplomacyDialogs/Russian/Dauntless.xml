@@ -632,6 +632,7 @@
       <DL_Hon>Мы этого не потерпим! Отношения прекратились, война началась.</DL_Hon>
     </DialogLine>
     <DialogLine>
+	  <DialogType>TRIED_CUTTING_DEALS_WITH_ENEMY</DialogType>
       <Default>Будь я проклят, вы подползаете к нашим врагам и пытаетесь заключить с ними договоры независимо от нашего союза !?</Default>
       <DL_Agg>Наша сделка по альянсу расторгнута.</DL_Agg>
       <DL_Ruth>Вы не достойны никаких отношений. Прощай.</DL_Ruth>
@@ -640,5 +641,16 @@
       <DL_Pac>Отлично! Но в следующий раз работайте с нашими союзниками, а не с врагами.</DL_Pac>
       <DL_Hon>Мы этого не потерпим! Отношения прекратились, война началась.</DL_Hon>
     </DialogLine>	
+	
+	<!-- Treaties With Low Trust -->
+    <DialogLine>
+      <DialogType>TRUST_LOW_ALLIANCE</DialogType>
+	  <Default>Ты не достойный союзник.</Default>
+    </DialogLine>  			
+    <DialogLine>
+      <DialogType>TRUST_LOW_OPEN_BORDERS</DialogType>
+	  <Default>К сожалению, мы больше не можем доверять вам Договор об открытых границах.</Default>
+    </DialogLine>  	
+	
   </Dialogs>
 </DiplomacyDialog>
