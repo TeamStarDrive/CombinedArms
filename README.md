@@ -17,7 +17,7 @@ Combined Arms is based on Combomod (keeping the best parts in Combomod). We did 
 - New, hi-res textures for all the lower texture modules in the game
 - Tech tree is 2.5 times the vanilla one
 
-* Install the base blackbox release from https://github.com/TeamStarDrive/StarDrive/releases/tag/mars-1.41.14664
+* Install the base blackbox release from https://github.com/TeamStarDrive/StarDrive/releases/download/mars-release-1.50/StarDrive_BlackBox_Mars_1.50.msi
 * Download the mod (https://github.com/TeamStarDrive/CombinedArms/releases) and extract it into the mods dir of StardDrive. If you have old Combined Arms mod dir- YOU MUST DELETE it before installing the new one. Note that onces you installed the mod, the new patcher wuill update CA as well, if needed.
 * It is recommended to remove your saved ship designs if you saved designs using the old combo mod. Usually its located in c:\users\[username]\.appdata\roaming\stardrive\saveddesigns
 * You need to update the latest blackbox build before loading Combined Arms. The auto patcher will prompt and install latest patch for you.
