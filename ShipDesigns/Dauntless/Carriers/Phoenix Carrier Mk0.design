@@ -1,0 +1,56 @@
+Version=1
+Name=Phoenix Carrier Mk0
+Hull=Dauntless/ts2_modb
+Role=carrier
+ModName=Combined Arms
+Style=Dauntless
+Size=14,23
+GridCenter=7,12
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=AntiShip
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=AdvArmored Solar collector Med;Fusion Reactor;Shield_1KW;LaserBeamTurret2x2;OrdnanceLocker;OrdnanceLockerSmall;DroneBay;RocketLauncher;Bridge;PowerConduit;AdvArmored Solar collector Small;WarpEngine_1x1;PowerSolar;FrigateEngine
+Modules=38
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+6,0;0;2,2
+5,2;0;2,2
+7,2;0;2,2
+6,4;1;2,2
+6,6;2;2,2
+6,8;3;2,2;345
+6,10;4;2,2
+5,11;5
+8,11;5
+5,12;6;1,5;;;DynamicInterceptor
+6,12;6;1,5;;;DynamicInterceptor
+7,12;6;1,5;;;DynamicInterceptor
+8,12;6;1,5;;;DynamicInterceptor
+5,17;7;;360
+6,17;8;2,2
+8,17;7
+4,18;7;;180
+5,18;5
+8,18;5
+9,18;7;;180
+3,19;2;2,2
+5,19;5
+6,19;1;2,2
+8,19;5
+9,19;2;2,2
+0,20;3;2,2;345
+2,20;5
+5,20;9
+8,20;9
+11,20;10
+12,20;3;2,2;15
+3,21;11
+4,21;11
+5,21;12
+6,21;13;2,2
+8,21;12
+9,21;11
+10,21;11
