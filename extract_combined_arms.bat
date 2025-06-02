@@ -2,7 +2,7 @@
 setlocal enabledelayedexpansion
 
 REM === Check batch is in the Mods dir ===
-for %%A in ("%cd%") do set CurrentFolder=%%~nx
+for %%A in ("%cd%") do set CurrentFolder=%%~nxA
 if /I not "!CurrentFolder!"=="Mods" (
     echo.
     echo [ERROR] This installer must be run from inside the "Mods" folder.

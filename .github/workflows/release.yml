@@ -20,7 +20,7 @@ jobs:
       - name: Set environment variables
         run: |
           echo "FOLDER_NAME=Combined Arms" >> $GITHUB_ENV
-          echo "BASE_NAME=Combined Arms $MOD_VERSION" >> $GITHUB_ENV
+          echo "BASE_NAME=CombinedArms_$MOD_VERSION" >> $GITHUB_ENV
           echo "TAG_NAME=$MOD_VERSION" >> $GITHUB_ENV
           echo "RELEASE_NAME=Combined Arms $MOD_VERSION" >> $GITHUB_ENV
         env:
@@ -30,7 +30,7 @@ jobs:
         run: |
           mkdir "$FOLDER_NAME"
           cp -r * "$FOLDER_NAME" || true
-          rm -rf "$FOLDER_NAME/.git" "$FOLDER_NAME/.github" "extract*.bat"
+          rm -rf "$FOLDER_NAME/.git" "$FOLDER_NAME/.github" "$FOLDER_NAME/extract*.bat"
 
       - name: Zip the folder
         run: |
