@@ -13,7 +13,7 @@ jobs:
       - name: Extract version from globals.yaml
         id: extract_version
         run: |
-          version=$(grep '^[[:space:]]*Version:' globals.yaml | cut -d '"' -f2)
+          version=$(grep '^[[:space:]]*Version:' Globals.yaml | cut -d '"' -f2)
           echo "Extracted version: $version"
           echo "mod_version=$version" >> $GITHUB_OUTPUT
 
