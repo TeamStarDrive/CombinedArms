@@ -46,14 +46,12 @@ if errorlevel 1 (
 REM === Delete the combined zip ===
 echo Cleaning up temporary files...
 del "%OUTPUT_ZIP%"
-
-REM === Delete the chunked zip parts ===
 for %%F in (???-%BASE_CHUNK_NAME% *.zip) do (
     del "%%F"
 )
 
-REM === Delete extraction batch ===
-del %BATCH_FILENAME%
-
 echo Extraction complete.
 pause
+
+REM === Delete extraction batch ===
+del %BATCH_FILENAME%
