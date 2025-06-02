@@ -1,0 +1,85 @@
+name: Release Mod
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check branch is Develop
+        if: github.ref != 'refs/heads/Develop'
+        run: |
+          echo "This workflow only runs on the Develop branch."
+          exit 1    
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Extract version from globals.yaml
+        id: extract_version
+        run: |
+          version=$(grep '^[[:space:]]*Version:' globals.yaml | cut -d '"' -f2)
+          echo "Extracted version: $version"
+          echo "mod_version=$version" >> $GITHUB_OUTPUT
+
+      - name: Set environment variables
+        run: |
+          echo "FOLDER_NAME=Combined Arms" >> $GITHUB_ENV
+          echo "BASE_NAME=Combined Arms $MOD_VERSION" >> $GITHUB_ENV
+          echo "TAG_NAME=$MOD_VERSION" >> $GITHUB_ENV
+          echo "RELEASE_NAME=Combined Arms $MOD_VERSION" >> $GITHUB_ENV
+        env:
+          MOD_VERSION: ${{ steps.extract_version.outputs.mod_version }}
+
+      - name: Create folder and copy files
+        run: |
+          mkdir "$FOLDER_NAME"
+          cp -r * "$FOLDER_NAME" || true
+          rm -rf "$FOLDER_NAME/.git" "$FOLDER_NAME/.github"
+
+      - name: Zip the folder
+        run: |
+          zip -r "${BASE_NAME}.zip" "$FOLDER_NAME"
+
+      - name: Split the ZIP into 25MB chunks with numbered names
+        run: |
+          rm -rf chunks
+          mkdir chunks
+          zipname="${BASE_NAME}.zip"
+          split -b 25m "$zipname" "chunks/split_"
+          
+          i=1
+          for f in chunks/split_*; do
+            num=$(printf "%03d" $i)
+            mv "$f" "chunks/${num}-${BASE_NAME}.zip"
+            i=$((i + 1))
+          done
+          rm "$zipname"
+          
+      - name: Create Git tag
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          if git rev-parse "$TAG_NAME" >/dev/null 2>&1; then
+            echo "Tag $TAG_NAME already exists locally, skipping tag creation."
+          else
+            git tag "$TAG_NAME"
+          fi
+
+          if git ls-remote --tags origin | grep -q "refs/tags/$TAG_NAME$"; then
+            echo "Tag $TAG_NAME already exists on remote, skipping push."
+          else
+            git push origin "$TAG_NAME"
+          fi          
+
+      - name: Upload chunked files to release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.TAG_NAME }}
+          name: ${{ env.RELEASE_NAME }}
+          draft: true
+          files: chunks/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
