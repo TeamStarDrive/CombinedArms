@@ -30,7 +30,7 @@ jobs:
         run: |
           mkdir "$FOLDER_NAME"
           cp -r * "$FOLDER_NAME" || true
-          rm -rf "$FOLDER_NAME/.git" "$FOLDER_NAME/.github"
+          rm -rf "$FOLDER_NAME/.git" "$FOLDER_NAME/.github" "extract*.bat"
 
       - name: Zip the folder
         run: |
@@ -73,6 +73,8 @@ jobs:
           tag_name: ${{ env.TAG_NAME }}
           name: ${{ env.RELEASE_NAME }}
           draft: true
-          files: chunks/*
+          files: |
+            chunks/*
+            extract*.bat
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
