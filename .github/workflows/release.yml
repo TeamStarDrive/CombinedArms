@@ -7,13 +7,6 @@ jobs:
   build-and-release:
     runs-on: ubuntu-latest
     steps:
-      - name: Check branch is Develop
-        if: github.ref != 'refs/heads/Develop'
-        run: |
-          echo "This workflow only runs on the Develop branch."
-          exit 1    
-
-    steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
