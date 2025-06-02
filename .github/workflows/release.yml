@@ -30,7 +30,7 @@ jobs:
         run: |
           mkdir "$FOLDER_NAME"
           cp -r * "$FOLDER_NAME" || true
-          rm -rf "$FOLDER_NAME/.git" "$FOLDER_NAME/.github" "$FOLDER_NAME/extract*.bat"
+          rm -rf "$FOLDER_NAME/.git" "$FOLDER_NAME/.github" $FOLDER_NAME/extract*.bat
 
       - name: Zip the folder
         run: |
