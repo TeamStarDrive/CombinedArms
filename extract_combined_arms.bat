@@ -1,11 +1,38 @@
 @echo off
 setlocal enabledelayedexpansion
 
+echo ========== StarDrive1 Combined Arms  Mod Extractor ==============
+echo This will combine any chunked files you downloaded to a single
+echo zip file, delete the current mod folder, extract the new version
+echo and delete leftover files.
+echo Note - this batch file should be copied to the Mods folder along
+echo with all the files you downloaded from the release page in github
+echo =================================================================
+pause
+
+REM === Check Windows version - need 10 or above for powershell
+for /f "tokens=4-5 delims=. " %%i in ('ver') do (
+    set "major=%%i"
+    set "minor=%%j"
+)
+
+if not defined major (
+    echo [ERROR] Could not detect Windows version.
+    pause
+    exit /b 1
+)
+
+if %major% LSS 10 (
+    echo [ERROR] This extractor requires Windows 10 or higher.
+    pause
+    exit /b 1
+)
+
 REM === Check batch is in the Mods dir ===
 for %%A in ("%cd%") do set CurrentFolder=%%~nxA
 if /I not "!CurrentFolder!"=="Mods" (
     echo.
-    echo [ERROR] This installer must be run from inside the "Mods" folder.
+    echo [ERROR] This extractor must be run from inside the "Mods" folder.
     echo Please move all the files chuncks and this batch file to your game's Mods folder and run this script again.
     pause
     exit /b 1
