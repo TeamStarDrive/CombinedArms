@@ -55,30 +55,30 @@ Groups:
        Object: { Type: battleship, Speed: 150, Position: [3000, 1000, -3400], Rotation: [-60, -20, -30] }
        Object: { Type: capital, Speed: 100, Position: [900, 1000, -2500], Rotation: [-60, -20, -30] }
     
-#  - Group: 
-#    Name: WarpingPatrolFleet1
-#    Empire: Random
-#    AI:
-#      - [IdlingInDeepSpace, [44, 45]]
-#      - [WarpingIn, [1, 1]]
-#      - [CoastWithRotate, [15, 16], [0,0,0]]
-#      - [WarpingOut, [1, 1]]
-#    Objects:
-#      # capitals
-#      Object: { Type: capital, Speed: 10, Position: [100, 400, 3000], Rotation: [-120, 150, -20] }
-#      Object: { Type: battleship, Speed: 15, Position: [-1500, 0, 3500], Rotation: [-120, 150, -20] }
-#      # cruisers
-#      Object: { Type: cruiser, Speed: 20, Position: [800, -600, 2000], Rotation: [-120, 150, -20] }
-#      Object: { Type: cruiser, Speed: 20, Position: [-900, 200, 800], Rotation: [-120, 150, -20] }
-#      Object: { Type: cruiser, Speed: 20, Position: [-1000, 1000, 3500], Rotation: [-120, 150, -20] }
-#      # frigates
-#      Object: { Type: frigate, Speed: 30, Position: [-200, -200, 1500], Rotation: [-120, 150, -20] }
-#      Object: { Type: frigate, Speed: 30, Position: [200, 1000, 3000], Rotation: [-120, 150, -20] }
-#      Object: { Type: frigate, Speed: 30, Position: [-800, -1000, 3500], Rotation: [-120, 150, -20] }
-#      Object: { Type: frigate, Speed: 30, Position: [800, -1500, 3500], Rotation: [-120, 150, -20] }
-#      # corvettes
-#     Object: { Type: corvette, Speed: 100, Position: [-1900, -1000, 3500], Rotation: [-120, 150, -20] }
-#     Object: { Type: corvette, Speed: 100, Position: [-2100, -1200, 3600], Rotation: [-120, 150, -20] }
+  - Group: 
+    Name: WarpingPatrolFleet1
+    Empire: Random
+    AI:
+      - [IdlingInDeepSpace, [44, 45]]
+      - [WarpingIn, [1, 1]]
+      - [CoastWithRotate, [15, 16], [0,0,0]]
+      - [WarpingOut, [1, 1]]
+    Objects:
+      # capitals
+      Object: { Type: capital, Speed: 10, Position: [100, 400, 3000], Rotation: [-120, 150, -20] }
+      Object: { Type: battleship, Speed: 15, Position: [-1500, 0, 3500], Rotation: [-120, 150, -20] }
+      # cruisers
+      Object: { Type: cruiser, Speed: 20, Position: [800, -600, 2000], Rotation: [-120, 150, -20] }
+      Object: { Type: cruiser, Speed: 20, Position: [-900, 200, 800], Rotation: [-120, 150, -20] }
+      Object: { Type: cruiser, Speed: 20, Position: [-1000, 1000, 3500], Rotation: [-120, 150, -20] }
+      # frigates
+      Object: { Type: frigate, Speed: 30, Position: [-200, -200, 1500], Rotation: [-120, 150, -20] }
+      Object: { Type: frigate, Speed: 30, Position: [200, 1000, 3000], Rotation: [-120, 150, -20] }
+      Object: { Type: frigate, Speed: 30, Position: [-800, -1000, 3500], Rotation: [-120, 150, -20] }
+      Object: { Type: frigate, Speed: 30, Position: [800, -1500, 3500], Rotation: [-120, 150, -20] }
+      # corvettes
+     Object: { Type: corvette, Speed: 100, Position: [-1900, -1000, 3500], Rotation: [-120, 150, -20] }
+     Object: { Type: corvette, Speed: 100, Position: [-2100, -1200, 3600], Rotation: [-120, 150, -20] }
       
   - Group:
     Name: BackgroundFreighters_LeftToRight
