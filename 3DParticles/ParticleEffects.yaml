@@ -85,6 +85,23 @@
 ## Projectile Trail effects
 #####################
 - ParticleEffect: # Projectile Trail effect
+  Name: AntimatterCannonTrail
+  Emitters:
+    - Emitter: { Particle: ZigZagTrail, Rate: 200, InheritSprayVelocity: 1.5 }
+      Scale: 0.5
+      LocalOffset: [0.0, 0.0, 0.0]
+    - Emitter: { Particle: AntimatterRing, Rate: 150}
+      Scale: 0.5
+      LocalOffset: [0,-80,0]      
+      
+- ParticleEffect: # Projectile Trail effect
+  Name: AntimatterTorpTrail
+  Emitters:
+    - Emitter: { Particle: PurpleAntimatterTrail, Rate: 200, InheritSprayVelocity: 1.5 }
+      Scale: 0.7
+      LocalOffset: [0.0, -20.0, 0.0]
+      
+- ParticleEffect: # Projectile Trail effect
   Name: PlasmaTorpTrail
   Emitters:
     - Emitter: { Particle: GreenPlasmaTrail, Rate: 200, InheritSprayVelocity: 1.5 }

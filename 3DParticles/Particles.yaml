@@ -334,6 +334,24 @@
   RotateSpeed: [-8,8]
   StartEndSize: [ [40,45], [3,6] ]
   SrcDstBlend: [SourceAlpha, One]    
+
+- ParticleSettings:
+  Name: PurpleAntimatterTrail
+  TextureName: "fire.png"
+  Effect: ParticleEffect.fx
+  OnlyNearView: true # only render when zoomed in
+  MaxParticles: 7000
+  Duration: 0.1
+  DurationRandomness: 0.1
+  InheritOwnerVelocity: 0
+  RandomVelocityXY: [ [-4,4], [-4,4] ]
+  EndVelocity: 0
+  StartColorRange: [[255,0,255,255],[200,0,200,255]]
+  EndColorRange:  [[255,255,255,255],[255,153,255,255]]
+  EndColorTime: 0.2
+  RotateSpeed: [-8,8]
+  StartEndSize: [ [20,30], [25,40] ]
+  SrcDstBlend: [SourceAlpha, One]      
   
 - ParticleSettings:
   Name: SmallFireTrail
@@ -481,14 +499,14 @@
   Effect: ParticleEffect.fx
   OnlyNearView: true # only render when zoomed in
   MaxParticles: 7000
-  Duration: 1
+  Duration: 0.1
   DurationRandomness: 0
-  InheritOwnerVelocity: -0.9
+  InheritOwnerVelocity: 0.5
   EndVelocity: 0.3
-  StartColorRange: [[255,255,255,255],[255,255,255,255]]
-  EndColorRange: [[255,166,0,255],[255,166,0,255]]
+  StartColorRange: [[255,0,0,255],[200,0,0,255]]
+  EndColorRange:  [[255,0,0,255],[255,0,255,255]]
   EndColorTime: 0.3
-  RotateSpeed: [-5,5]
+  RotateSpeed: [-50,5]
   StartEndSize: [ [75,65], [32,25] ]
   SrcDstBlend: [SourceAlpha, One]
 
@@ -509,6 +527,24 @@
   RotateSpeed: [0,0]
   StartEndSize: [ [70,70], [70,70] ]
   SrcDstBlend: [SourceAlpha, One]
+  
+- ParticleSettings:
+  Name: AntimatterRing
+  TextureName: "ring.png"
+  Effect: ParticleEffect.fx
+  OnlyNearView: true # only render when zoomed in
+  MaxParticles: 7000
+  Duration: 0.5
+  DurationRandomness: 0.1
+  InheritOwnerVelocity: -0.01
+  AlignRotationToVelocity: 1
+  EndVelocity: 0
+  StartColorRange: [[255,0,0,255],[200,0,0,255]]
+  EndColorRange:  [[255,0,0,255],[255,128,128,255]]
+  EndColorTime: 0.5
+  RotateSpeed: [0,0]
+  StartEndSize: [ [70,70], [50,50] ]
+  SrcDstBlend: [SourceAlpha, One]  
 
 - ParticleSettings:
   Name: RailGunTrail
