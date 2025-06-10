@@ -300,6 +300,24 @@
   SrcDstBlend: [SourceAlpha, One]  
   
 - ParticleSettings:
+  Name: GreenPlasmaTrail
+  TextureName: "fire.png"
+  Effect: ParticleEffect.fx
+  OnlyNearView: true # only render when zoomed in
+  MaxParticles: 7000
+  Duration: 0.1
+  DurationRandomness: 0.1
+  InheritOwnerVelocity: 0
+  RandomVelocityXY: [ [-4,4], [-4,4] ]
+  EndVelocity: 0
+  StartColorRange: [[255,255,255,255],[0,255,0,255]]
+  EndColorRange:  [[255,255,255,255],[153,255,153,255]]
+  EndColorTime: 0.2
+  RotateSpeed: [-8,8]
+  StartEndSize: [ [20,30], [25,40] ]
+  SrcDstBlend: [SourceAlpha, One]    
+  
+- ParticleSettings:
   Name: PurpleFireTrail
   TextureName: "fire2.png"
   Effect: ParticleEffect.fx

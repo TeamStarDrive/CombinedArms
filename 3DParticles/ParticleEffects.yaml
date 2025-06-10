@@ -85,6 +85,13 @@
 ## Projectile Trail effects
 #####################
 - ParticleEffect: # Projectile Trail effect
+  Name: PlasmaTorpTrail
+  Emitters:
+    - Emitter: { Particle: GreenPlasmaTrail, Rate: 200, InheritSprayVelocity: 1.5 }
+      Scale: 0.7
+      LocalOffset: [0.0, -20.0, 0.0]
+      
+- ParticleEffect: # Projectile Trail effect
   Name: DroneRocketTrail
   Emitters:
     - Emitter: { Particle: FireTrail, Rate: 120, InheritSprayVelocity: 1.0 }
