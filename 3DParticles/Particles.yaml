@@ -580,6 +580,40 @@
   RotateSpeed: [-2,2]
   StartEndSize: [ [25,27], [200,190] ]
   SrcDstBlend: [SourceAlpha, One]
+  
+- ParticleSettings:
+  Name: AntimatterProjection
+  TextureName: "rotation.png"
+  Effect: ParticleEffect.fx
+  OnlyNearView: true # only render when zoomed in
+  MaxParticles: 7000
+  Duration: 1
+  DurationRandomness: 0.1
+  InheritOwnerVelocity: -0.5
+  AlignRotationToVelocity: 1
+  EndVelocity: 0
+  StartColorRange: [[255,0,255,255],[200,0,200,255]]
+  EndColorRange:  [[255,0,0,255],[255,128,128,255]]
+  RotateSpeed: [-80,2]
+  StartEndSize: [ [25,27], [40,40] ]
+  SrcDstBlend: [SourceAlpha, One]  
+  
+- ParticleSettings:
+  Name: PlasmaProjection
+  TextureName: "rotation.png"
+  Effect: ParticleEffect.fx
+  OnlyNearView: true # only render when zoomed in
+  MaxParticles: 7000
+  Duration: 1
+  DurationRandomness: 0.1
+  InheritOwnerVelocity: -0.5
+  AlignRotationToVelocity: 1
+  EndVelocity: 0
+  StartColorRange: [[194,255,48,255],[255,255,255,255]]
+  EndColorRange:  [[134,255,26,255],[131,255,29,255]]
+  RotateSpeed: [-80,2]
+  StartEndSize: [ [25,27], [40,40] ]
+  SrcDstBlend: [SourceAlpha, One]   
 
 - ParticleSettings:
   Name: IonRingReversed
