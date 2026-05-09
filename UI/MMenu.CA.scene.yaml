@@ -1,4 +1,13 @@
-﻿# You can control group behaviours by adding AI list commands:
+﻿# This file defines a 3D Scene with objects, lighting, movement and effects
+SunPos: [50000, -50000, 5000]
+SunColor: [255,224,224]
+SunIntensity: 3.1
+AmbientColor: [255,255,255] 
+AmbientIntensity: 0.75
+CameraPos: [0, 0, -1000] # Z:-1000 means out of the screen
+LookAt: [0, 0, 10000] # we're looking far into the screen
+
+# You can control group behaviours by adding AI list commands:
 #  - [SetSpawnPos] #! Resets the ship to its original spawn position
 #  - [IdlingInDeepSpace, Range[delay] ]
 #  - [WarpingIn,         Range[delay] ]
@@ -95,17 +104,3 @@ Groups:
       - { Type: freighter, Count: 40, Speed: [70, 110],  MinPos: [-15000,-400,12000], MaxPos: [15000,400,8000], Rotation: [0, 80, 90] }
       - { Type: cruiser,   Count: 2,  Speed: [70, 100],  MinPos: [-15000,-400,12000], MaxPos: [15000,400,8000], Rotation: [0, 80, 90] }
 
-  - Group:
-    Name: BackgroundFreighters_RightToLeft
-    DiverseShipEmpires: true
-    DisableJumpSfx: true
-    EngineTrails: true
-    AI:
-      - [ForwardCoast, [1, 130]]
-      - [WarpingOut, [1, 1]]
-      - [IdlingInDeepSpace, [10, 15]]
-      - [WarpingIn, [1, 1]]
-      - [GoToState, 0, 0]
-    ObjectGroups:
-      - { Type: freighter,  Count: 40, Speed: [70, 110],  MinPos: [-15000,700,14000], MaxPos: [15000,1500,10000], Rotation: [0, -80, -90] }
-      - { Type: battleship, Count: 2 , Speed: [70, 100],  MinPos: [-15000,700,14000], MaxPos: [15000,1500,10000], Rotation: [0, -80, -90] }
