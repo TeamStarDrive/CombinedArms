@@ -37,6 +37,21 @@ jobs:
         run: |
           zip -r "${BASE_NAME}.zip" "$FOLDER_NAME"
 
+      - name: Split the ZIP into 500MB chunks with numbered names
+        run: |
+          rm -rf chunks
+          mkdir chunks
+          zipname="${BASE_NAME}.zip"
+          split -b 500m "$zipname" "chunks/split_"
+          
+          i=1
+          for f in chunks/split_*; do
+            num=$(printf "%03d" $i)
+            mv "$f" "chunks/${num}-${BASE_NAME}.zip"
+            i=$((i + 1))
+          done
+          rm "$zipname"
+          
       - name: Create Git tag
         run: |
           git config --global user.name "github-actions"
@@ -60,7 +75,7 @@ jobs:
           name: ${{ env.RELEASE_NAME }}
           draft: true
           files: |
-            ${{ env.BASE_NAME }}.zip
+            chunks/*
             extract*.bat
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
