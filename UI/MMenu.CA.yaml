@@ -77,9 +77,28 @@ Name: main_menu
 VirtualSize: [1920,1080]
 
 Elements:
-  - Panel: 
+  - Panel:
     Name: background
-    Texture: MainMenu/HR_nebula_stars_bg.png
+    Texture: MMenu/new_background.png # Textures/MMenu/xxxx.png
+    Color: [1.0,1.0,1.0] # default color
+    AbsPos: [0, 0]
+    RelSize: [1, 0] # fill width, auto-detect height from aspect ratio
+    # Draw depth controls when the UI element is being drawn:
+    # Foreground   -- draw 2D on top of 3D objects -- default value
+    # Background   -- draw 2D behind 3D objects
+    # ForeAdditive -- Foreground + Additive alpha blend
+    # BackAdditive -- Background + Additive alpha blend
+    DrawDepth: Background
+    # Align our Pos and Axis to TopLeft (default)
+    # Possible Values: TopLeft, TopCenter, TopRight, CenterLeft, Center, 
+    #                  CenterRight, BottomLeft, BottomCenter, BottomRight
+    # Examples: Center will perfectly center to parent
+    #           BottomLeft will completely align to bottom left corner
+    AxisAlign: TopLeft
+    
+  - Panel: 
+    Name: jupiter
+    Texture: MainMenu/space-planet-jupiter.png
     Color: [1.0,1.0,1.0] # default color
     AbsPos: [0, 0]
     RelSize: [0, 1] # fill width, auto-detect height from aspect ratio
@@ -137,6 +156,18 @@ Elements:
             Animation:
               Params: [3, 2, 0, 2, 0] # delay, duration, end-time, fadein, fadeout
               Alpha: [0, 1]
+          - Panel:
+            Name: blackbox_subver2
+            Texture: MMenu/subver2.png
+            RelSize: [0, 0.75]
+            RelPos: [0.33, -0.27]
+            ParentAlign: BottomLeft
+            DrawDepth: Foreground
+            Animations:
+              - Animation:
+                Params: [0, 10, 10, 5, 5, 5] # delay, duration, end-time, fadein, fadeout
+                MinColor: [0,0,0,0] # vary the color from min
+                MaxColor: [0.8,0.0,0.0,0] # to max
 
   - Panel:
     Name: Ca_logo
@@ -146,26 +177,6 @@ Elements:
     AxisAlign: TopRight # Align our Pos and Axis to BottomLeft
     DrawDepth: Background
     
-  - Panel:
-    Name: hex
-    Texture: MainMenu/planet_grid.png
-    RelSize: [0.27, 0] # fill to width, auto-pick height
-    RelPos: [-0.37, 0]
-    AxisAlign: TopRight # Align our Pos and Axis to BottomLeft
-    DrawDepth: Background
-
-  - Panel:
-    Name: planet_flare
-    Texture: MainMenu/moon_3.png
-    RelPos: [0.1, -0.1]
-    RelSize: [1, 0]
-    AxisAlign: Center
-    DrawDepth: Background
-    Animation:
-      Params: [0, 8, 8, 2, 2] # delay, duration, end-time, fadein, fadeout
-      MinColor: [0.95,0.95,0.75,1.0] # vary the color from min
-      MaxColor: [1.0,1.0,1.0,1.0]    # to max
-
   - List:
     Name: buttons
     LocalPos: [-50, 150]
