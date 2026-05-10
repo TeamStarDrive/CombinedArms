@@ -117,7 +117,7 @@ Elements:
 
   - Panel:
     Name: stardrive_animated_logo
-    RelSize: [0.3, 0] # auto-detect height from aspect ratio
+    RelSize: [0.25, 0] # auto-detect height from aspect ratio
     LocalPos: [-30, 10]
     AxisAlign: TopRight
     DrawDepth: Foreground
@@ -166,8 +166,8 @@ Elements:
             Animations:
               - Animation:
                 Params: [0, 10, 10, 5, 5, 5] # delay, duration, end-time, fadein, fadeout
-                MinColor: [0,0,0,0] # vary the color from min
-                MaxColor: [0.8,0.0,0.0,0] # to max
+                MinColor: [0.8,0.8,0.8,0.8] # vary the color from min
+                MaxColor: [1.0,0.0,0.0,0] # to max
 
   - Panel:
     Name: Ca_logo
@@ -223,11 +223,6 @@ Elements:
       - Button:
           Name: info
           Title: "BlackBox Info"
-          AbsSize: [200, 0] # aspect fill width
-          ClickSfx: sd_ui_tactical_pause
-      - Button:
-          Name: version
-          Title: "Version Check"
           AbsSize: [200, 0] # aspect fill width
           ClickSfx: sd_ui_tactical_pause
       - Button:

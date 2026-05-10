@@ -1,9 +1,9 @@
 ﻿# This file defines a 3D Scene with objects, lighting, movement and effects
 SunPos: [50000, -50000, 5000]
 SunColor: [255,224,224]
-SunIntensity: 3.1
+SunIntensity: 3
 AmbientColor: [255,255,255] 
-AmbientIntensity: 0.75
+AmbientIntensity: 0.5
 CameraPos: [0, 0, -1000] # Z:-1000 means out of the screen
 LookAt: [0, 0, 10000] # we're looking far into the screen
 
@@ -101,6 +101,7 @@ Groups:
       - [WarpingIn, [1, 1]]
       - [GoToState, 0, 0]
     ObjectGroups:
-      - { Type: freighter, Count: 40, Speed: [70, 110],  MinPos: [-15000,-400,12000], MaxPos: [15000,400,8000], Rotation: [0, 80, 90] }
-      - { Type: cruiser,   Count: 2,  Speed: [70, 100],  MinPos: [-15000,-400,12000], MaxPos: [15000,400,8000], Rotation: [0, 80, 90] }
+      - { Type: freighter, Count: 48, Speed: [70, 110],  MinPos: [-15000, 1700,12000], MaxPos: [15000,2000,8000], Rotation: [0, 80, 90] }
+      - { Type: cruiser,   Count: 3,  Speed: [70, 100],  MinPos: [-15000, 1700,12000], MaxPos: [15000,2000,8000], Rotation: [0, 80, 90] }
+      - { Type: capital,   Count: 2,  Speed: [70, 100],  MinPos: [-15000, 1700,12000], MaxPos: [15000,2000,8000], Rotation: [0, 80, 90] }
 
