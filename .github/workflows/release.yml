@@ -43,20 +43,29 @@ jobs:
           zip -r "${BASE_NAME}.zip" "$FOLDER_NAME"
 
       - name: Split the ZIP into 500MB chunks with numbered names
+        id: split_zip
         run: |
           rm -rf chunks
           mkdir chunks
           zipname="${BASE_NAME}.zip"
           split -b 500m "$zipname" "chunks/split_"
-          
-          i=1
-          for f in chunks/split_*; do
-            num=$(printf "%03d" $i)
-            mv "$f" "chunks/${num}-${BASE_NAME}.zip"
-            i=$((i + 1))
-          done
+
+          count=$(ls chunks/split_* | wc -l)
+          if [ "$count" -eq 1 ]; then
+            # Single chunk: keep the original archive name, no 001- prefix, no extractor needed.
+            mv chunks/split_* "chunks/${BASE_NAME}.zip"
+            echo "multi_chunk=false" >> $GITHUB_OUTPUT
+          else
+            i=1
+            for f in chunks/split_*; do
+              num=$(printf "%03d" $i)
+              mv "$f" "chunks/${num}-${BASE_NAME}.zip"
+              i=$((i + 1))
+            done
+            echo "multi_chunk=true" >> $GITHUB_OUTPUT
+          fi
           rm "$zipname"
-          
+
       - name: Create Git tag
         run: |
           git config --global user.name "github-actions"
@@ -73,7 +82,8 @@ jobs:
             git push origin "$TAG_NAME"
           fi          
 
-      - name: Upload chunked files to release
+      - name: Upload chunked files to release (multi-chunk)
+        if: steps.split_zip.outputs.multi_chunk == 'true'
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ env.TAG_NAME }}
@@ -82,5 +92,16 @@ jobs:
           files: |
             chunks/*
             extract*.bat
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload single zip to release
+        if: steps.split_zip.outputs.multi_chunk != 'true'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ env.TAG_NAME }}
+          name: ${{ env.RELEASE_NAME }}
+          draft: true
+          files: chunks/*
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
