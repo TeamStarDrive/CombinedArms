@@ -18,12 +18,11 @@ Combined Arms is based on Combomod (keeping the best parts in Combomod). We did 
 - Tech tree is 2.5 times the vanilla one
 
 # Initial Installation:
-* Install the base blackbox release from https://stardriveteam.itch.io/mars-151
-* Download the mod (https://github.com/TeamStarDrive/CombinedArms/releases). If it is your first install, download all the zip files along with the extract batch, put all of them (including batch file) in your Stardrive's Mods directory and run the batch (you will get a protection warning).
-* The extract batch file will combine the zip chunks (needed because of github's asset size limitation of 25mb), delete older Combined Arms folder (if present) and extract the mod for you.
+* Install the base blackbox release from [https://stardriveteam.itch.io/jupiter-1.60](https://stardriveteam.itch.io/jupiter-160)
+* Download the mod from the above link as well.
 * Note that downloading the files is only needed for the first time you install Combined Arms. The auto updater will do this automatically for you if you click on the update prompt in the game's main menu when there is an update available.
 * It is recommended to remove your saved ship designs if you saved designs using the old combo mod. Usually its located in c:\users\[username]\.appdata\roaming\stardrive\saveddesigns
-* You need to update the latest blackbox build before loading Combined Arms. The auto updater will prompt and install latest patch for you.
+* Update to the latest blackbox build before loading Combined Arms is recommended. The auto updater will prompt and install latest patch for you.
 * Start the game and load the mod from the mod menu.
 * Drop us a note in Discord chat (https://discord.gg/dfvnfH4).
 
