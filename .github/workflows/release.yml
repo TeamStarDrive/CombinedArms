@@ -61,21 +61,19 @@ jobs:
           fi
           rm "$zipname"
 
-      - name: Create Git tag
+      - name: Create Git tag if missing
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          if git rev-parse "$TAG_NAME" >/dev/null 2>&1; then
-            echo "Tag $TAG_NAME already exists locally, skipping tag creation."
+
+          git fetch --tags --quiet
+
+          if git rev-parse -q --verify "refs/tags/$TAG_NAME" >/dev/null; then
+            echo "Tag $TAG_NAME already exists, skipping create+push."
           else
             git tag "$TAG_NAME"
-          fi
-
-          if git ls-remote --tags origin | grep -q "refs/tags/$TAG_NAME$"; then
-            echo "Tag $TAG_NAME already exists on remote, skipping push."
-          else
             git push origin "$TAG_NAME"
-          fi          
+          fi
 
       - name: Upload chunked files to release (multi-chunk)
         if: steps.split_zip.outputs.multi_chunk == 'true'
