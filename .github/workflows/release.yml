@@ -6,11 +6,6 @@ on:
 jobs:
   build-and-release:
     runs-on: ubuntu-latest
-    env:
-      # Force any remaining node20 JS actions onto node24. Node20 is being removed from
-      # GitHub runners on 2026-09-16; node24 becomes the default on 2026-06-02.
-      # See: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout code
         uses: actions/checkout@v5
@@ -84,7 +79,7 @@ jobs:
 
       - name: Upload chunked files to release (multi-chunk)
         if: steps.split_zip.outputs.multi_chunk == 'true'
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ env.TAG_NAME }}
           name: ${{ env.RELEASE_NAME }}
@@ -97,7 +92,7 @@ jobs:
 
       - name: Upload single zip to release
         if: steps.split_zip.outputs.multi_chunk != 'true'
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: ${{ env.TAG_NAME }}
           name: ${{ env.RELEASE_NAME }}
