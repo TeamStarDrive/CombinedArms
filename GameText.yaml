@@ -2249,10 +2249,6 @@ CA_TheSmallLaboratoryAllowsYour:
  Id: 50167
  ENG: "The small laboratory allows your scientists to get started with research efforts, mainly on new colonies with harsh environments. It is usually deployed by a Colony Ship and its biggest advantage is that it can be built even on uninhabitable tiles. But costs are high when built out of scope of a Colony Ship."
  RUS: "Небольшая лаборатория позволяет нашим ученым приступить к исследовательской работе, в основном на новых колониях и в суровых условиях.  Обычно устанавливается с колониального корабля, и ее самым большим преимуществом является то, что она может быть построена даже на непригодной для жизни территонии.  Но стоимость постройки вне колониального корабля высока."
-CA_ResearchPerTurnStorage:
- Id: 50168
- ENG: "+0.15 research per turn, +40 Storage"
- RUS: "+0.15 к исследованиям, +40 места на складе"
 CA_ManufacturingPlant:
  Id: 50169
  ENG: "Manufacturing Plant"
@@ -2261,10 +2257,6 @@ CA_TheManufacturingPlantMakesAll:
  Id: 50170
  ENG: "The manufacturing plant makes all kinds of useful items for early colony development and is usually deployed by a colony ship. Its biggest advantage is that it can be built even on uninhabitable tiles. But costs are high if built out of scope of a colony ship."
  RUS: "Завод производит всевозможные полезные предметы для раннего развития колонии и обычно размещается на корабле колонизации.  Его самым большим преимуществом является то, что его можно построить даже на непригодной для проживания клетке."
-CA_ProductionPerRichnessStorage:
- Id: 50171
- ENG: "+0.25 Production per Richness, +30 Storage"
- RUS: "+0.25 продукции за богатство, +30 места в складе"
 CA_FoodReplicator:
  Id: 50172
  ENG: "Food Replicator"
@@ -2273,10 +2265,6 @@ CA_TheFoodReplicatorProvidesHealthy:
  Id: 50173
  ENG: "The food replicator provides healthy, replicated food for a colony. Replication amounts are rather low, but it can be enough for an early stage colony, and might be sufficient for small mining colonies as well. Its biggest advantage is that it can be built even on uninhabitable tiles. But costs are high if built out of scope of a colony ship."
  RUS: "Репликатор пищи обеспечивает здоровую, воспроизведенную пищу для колонии.  Количество репликации довольно низкое, но этого может быть достаточно для колонии на ранней стадии, а также может быть достаточно для небольших колоний горняков.  Его самым большим преимуществом является то, что его можно построить даже на непригодной для проживания клетке"
-CA_FoodPerTurn:
- Id: 50174
- ENG: "+0.5 food per turn"
- RUS: "+0.5 еды за ход"
 CA_MilitaryOutpostModule:
  Id: 50175
  ENG: "Military Outpost Module"
@@ -2971,9 +2959,6 @@ CA_Tech_XenoMiningII_Desc:
  Id: 50451
  ENG: "As our civilization grows, we must find ways to exploit more of our colonies' industrial potentials. Research in this area involves many steps towards the creation of a robust industrial backbone that will maintain our economy."
  RUS: "По мере роста нашей цивилизации мы должны найти способы использовать больше промышленного потенциала наших колоний. Исследования в этой области включают множество шагов в направлении создания прочной промышленной основы, которая будет поддерживать нашу экономику."
-CA_FertilityOnBuildFlatProduction:
- Id: 50452
- ENG: " (-0.5) Fertility On Build, +6 flat production per turn, +1 food per turn, +15% tax, +100 storage, +1 Infrastructure, adds ship repair"
 CA_Tech_NanoMining_Name:
  Id: 50453
  ENG: "Nano Mining"
@@ -2982,10 +2967,6 @@ CA_AdvancedNanobotsWillAutomaticallySpread:
  Id: 50454
  ENG: "Advanced Nanobots will automatically spread out underground, bringing minerals to the surface. This has slight effect in the planet's environment, so caution is  advised before building it."
  RUS: "Продвинутые наноботы автоматически распространяются под землей, вынося минералы на поверхность. Это имеет небольшое влияние на окружающую среду планеты, поэтому рекомендуется соблюдать осторожность перед строительством."
-CA_FertilityOnBuildProductionPer:
- Id: 50455
- ENG: " (-0.2) Fertility On Build, +4 production per richness, +50 added storage"
- RUS: " (-0.2) плодородия за постройку, +4 к продукции за богатство"
 CA_Tech_FarmingColonyDevelopmentI_Name:
  Id: 50461
  ENG: "Xeno Farming II"
@@ -3478,49 +3459,6 @@ CA_Tech_Resorts_Desc:
  Id: 50648
  ENG: "The more planets we explore, the more areas we find that lend themselves well to tourism. Building a resort allows the very wealthy to spend their money in one of these beautiful havens."
  RUS: "Чем больше планет мы исследуем, тем больше районов, подходящих для туризма мы находим. Строительство курорта позволяет очень богатым тратить свои деньги в одном из этих красивых уголков."
-CA_TaxEfficiencyStorage:
- Id: 50649
- ENG: "+30% Tax Efficiency, +20 storage"
- RUS: "+30% эффективность налогов, +20 места на складе"
-CA_ResearchPerAssignedColonistFlat:
- Id: 50651
- ENG: "+0.1 research per assigned colonist, +0.25 Flat Research, +20% Tax"
- RUS: "+0.1 исследований за задействованного колониста, +0.25 к ислледованиям, +20% к налогам"
-CA_FertilityOnBuildPlanetPopulation:
- Id: 50652
- ENG: " (-0.5) Fertility on build, +2 planet population, +100 storage, +2 Infrastructure"
- RUS: " (-0.5) плодородия за постройку, +2 к населению пленты, +100 места на складе, +2 к инфраструктуре"
-CA_ProductionPerRichnessInfrastructureStorage:
- Id: 50653
- ENG: "+3 Production per Richness, +1 Infrastructure, +50 Storage, aids in ship repair"
- RUS: "+3 продукции за богатство, +100 места на складе, помощь в судоремонте, +1 к инфраструктуре"
-CA_FoodPerAssignedColonistPopulation:
- Id: 50654
- ENG: "+0.25 food per assigned colonist, +0.05 population per turn"
- RUS: "+0.25 еды за задействованного колониста, +0.05 населения за ход"
-CA_FlatResearchResearchAndCredits:
- Id: 50655
- ENG: "+0.75 flat Research, +0.2 research and credits per colonist"
- RUS: "+0.75 к исследованиям, +0.2 к науке и кредам за колониста."
-CA_ProductionPerRichness:
- Id: 50656
- ENG: "+2 production per richness, plis 30,000 sensor range"
-CA_FertilityOnBuild:
- Id: 50657
- ENG: " (+0.3) fertility on build"
- RUS: " (+0.3) плодородия за постройку"
-CA_FertilityOnBuild2:
- Id: 50658
- ENG: " (+0.2) fertility on build"
- RUS: "(+0.1) плодородия за постройку"
-CA_FertilityOnBuild3:
- Id: 50659
- ENG: " (+0.5) fertility on build"
- RUS: " (+0.5) плодородия за постройку"
-CA_ProductionPerAssignedColonistStorage:
- Id: 50660
- ENG: "+0.25 production per assigned colonist, +20 storage, aids in ship repair"
- RUS: "+0.25 к продукции за задействованного колониста, +20 места на складе, помощь в судоремонте."
 CA_TurnThrustVernier:
  Id: 50661
  ENG: "Turn Thrust - Vernier"
@@ -3573,10 +3511,6 @@ CA_APlanetarySanitationCenterCan:
  Id: 50688
  ENG: "A planetary Sanitation Center can reduce fatalities from natural diseases, improving lifespans for the colony and also increase maximum population in the colony."
  RUS: "Планетарный центр санитарии может снизить количество смертей от естественных болезней, улучшить продолжительность жизни колонистов, а также увеличить максимальное количество населения в колонии."
-CA_PopulationMillionPopulationPerTurn:
- Id: 50689
- ENG: "+0.5 population, +10 Million population per turn"
- RUS: "+0.5 к макс.популяции, +10 миллионов населения за ход"
 CA_Tech_AdvancedEducation_Name:
  Id: 50690
  ENG: "Advanced Education"
@@ -3585,10 +3519,6 @@ CA_Tech_AdvancedEducation_Desc:
  Id: 50691
  ENG: "Educating future scientists and engineers is the key to our empire's survival. We can research and build Planetary Education Centers to promote and provide ground works for this population."
  RUS: "Обучение будущих ученых и инженеров - ключ к выживанию нашей империи. Мы можем исследовать и строить Центры планетарного образования, чтобы продвигать и проводить фундаментальные работы для нашего населения."
-CA_ProductionAndResearchPerAssigned:
- Id: 50692
- ENG: "+0.15 production and +0.15 research per assigned colonist"
- RUS: "+0.15 к продукции и +0.15 исследований за задествованного колониста."
 CA_Tech_AdvancedTransportation_Name:
  Id: 50693
  ENG: "Advanced Transportation"
@@ -3597,10 +3527,6 @@ CA_Tech_AdvancedTransportation_Desc:
  Id: 50694
  ENG: "Advanced Transportaion converts military transportation technologies and methods for civilian usage, which would increase overall efficiency in the colony."
  RUS: "Продвинутая транспортировка преобразовывает военные транспортные технологии и методы, для использования в гражданских целях, что повысит общую эффективность колонии."
-CA_ProductionPerColonistInfrastructure:
- Id: 50695
- ENG: "+0.3 production per colonist, +2 Infrastructure"
- RUS: "+0.3 к продукции за колониста, +2 к инфраструктуре"
 CA_LargeOrdnanceStorage:
  Id: 50696
  ENG: "Large Ordnance Storage"
@@ -3617,10 +3543,6 @@ CA_AdvancesInShipDesignAnd2:
  Id: 50699
  ENG: "Advances in ship design and material science allow for much larger cargo holds to be constructed. This one holds 20 units of food, production or frozen colonists."
  RUS: "Достижения в области проектирования судов и материаловедения позволяют строить гораздо более крупные грузовые трюмы. В нем 20 единиц еды, продукции или замороженных колонистов."
-CA_ResearchPerAssignedColonistProduction:
- Id: 50700
- ENG: "+0.4 research per assigned colonist, +0.1 production per assigned colonist"
- RUS: "+0.4 к исследованиям и +0.1 продукции за задействованного колониста"
 CA_SteelHmgDefense:
  Id: 50709
  ENG: "Steel HMG Defense"
@@ -3700,26 +3622,6 @@ CA_AdvancedStorageAndFoodPreservation:
  Id: 50737
  ENG: "Advanced storage and food preservation techniques allow for massive storage upgrades on our colonies. An extra 500 food and production can be stored in this hi-tech structure's warehouses."
  RUS: "Усовершенствованные методы хранения и консервирования продуктов питания позволяют значительно улучшить хранилища в наших колониях. На складах этого высокотехнологичного сооружения можно хранить еще 500 продуктов питания и продукции."
-CA_ResearchPerAssignedColonist:
- Id: 50738
- ENG: "+0.2 research per assigned colonist"
- RUS: "+0.2 исследований за задействованного колиниста"
-CA_ResearchPerTurnProductionPer:
- Id: 50739
- ENG: "+0.75 research per turn, +0.2 production per assigned colonist"
- RUS: "+0.75 исследований за ход, +0.2 продукции за задействованного колиниста"
-CA_FoodPerAssignedColonistStorage:
- Id: 50740
- ENG: "+0.75 food per assigned colonist, +50 storage"
- RUS: "+0.75 еды за задействованного колиниста, +50 места на складе"
-CA_FoodPerAssignedColonistFlat:
- Id: 50741
- ENG: "+1 food per assigned colonist, +2 Flat Food, +75 storage"
- RUS: "+1 еды за задействованного колиниста, +2 еды, +75 места на складе"
-CA_ProductionPerAssignedColonistCredits:
- Id: 50742
- ENG: " +1 production per assigned colonist,+0.1 Credits per Colonist, +50 storage, +2 Infrastructure"
- RUS: "+1 продукции за задействованного колиниста,+0.1 кредитов за колониста, +50 места на складе, +2 к инфраструктуре"
 CA_Tech_MissileArmorv2_Name:
  Id: 50743
  ENG: "Missile Armor II"
@@ -4372,9 +4274,6 @@ CA_TheseAreTrulyHighFire:
  Id: 50957
  ENG: "These are truly high fire rate laser weapons. They also do more damage and require more power to maintain."
  RUS: "Это действительно высокотехнологичное лазерное оружие. Наносит много урона и требует большой мощности."
-CA_MaximumGoodsStorage4:
- Id: 50958
- ENG: "+600 maximum goods storage, +1 infrastructure"
 CA_AdvancedPulseCapacitor:
  Id: 50959
  ENG: "Advanced Pulse Capacitor"
@@ -4781,14 +4680,6 @@ CA_Tech_HighDensityHousing_Name:
  Id: 51088
  ENG: "High Density Housing"
  RUS: "Корпус высокой плотности"
-CA_PlanetPopulationStorageInfrastructure:
- Id: 51089
- ENG: "+0.5 planet population, +25 storage, +1 Infrastructure"
- RUS: "+0.5 к населению планеты, +25 места на складе, +1 к инфраструктуре"
-CA_FertilityOnBuildMaxPopulation:
- Id: 51090
- ENG: " (-0.2) Fertility on build, +1 max population, +50 storage, +1 Infrastructure"
- RUS: " (-0.2) плодородия за постройку, +1 макс. населения, +50 месте на складе, +1 к инфраструктуре"
 CA_MassiveDisruptorTurret:
  Id: 51091
  ENG: "Massive Disruptor Turret"
@@ -5073,10 +4964,6 @@ CA_ThisFacilityWillSupportA5:
  Id: 51181
  ENG: "This facility will support a squadron of 2 Frigates that will leap into the colony's defense when an enemy is spotted. It will launch the best Frigates available in your empire. You will be able to control them only in battle. They cost Money to Launch, but you get it back if they make it back home."
  RUS: "Этот объект будет поддерживать эскадрилью из 2-х фрегатов, которая бросится на защиту колонии при обнаружении врага. Он запустит лучшие фрегаты, доступные в вашей империи. Вы сможете управлять ими только в бою. Их запуск стоит денег, но вы получите их обратно, если они вернутся домой."
-CA_CreditPerColonist:
- Id: 51185
- ENG: "+1 Credit per Colonist"
- RUS: "+1 кредитов за колониста"
 CA_Tech_LaserBeams_Name:
  Id: 51186
  ENG: "Laser Beams"
@@ -5321,9 +5208,6 @@ CA_InPeacefulTimesOurPeople:
  Id: 51249
  ENG: "Steady growth and a clean environment were always our way of life. +0.5 Homeworld fertility"
  RUS: "Стабильный рост и чистая окружающая среда всегда были нашим образом жизни. +0,5 рождаемости родного мира"
-CA_CreditsPerColonist2:
- Id: 51250
- ENG: "+5 credits per turn"
 CA_Drone:
  Id: 51251
  ENG: "Drone"
