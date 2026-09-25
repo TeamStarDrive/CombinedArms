@@ -1,0 +1,1067 @@
+# AudioConfig for StarDrive 1.50 by RedFox & SELEVON
+# This file is used to configure audio settings for the game.
+# You can create a minimal version of this file in your mod to override the default settings.
+# Only include the categories and properties you want to change, the rest will be inherited from the vanilla file.
+# 
+# Supported audio formats: .m4a, .mp3, .aac, .wav, .aif
+# When possible, prefer compressed formats (.m4a/.mp3/.aac) to reduce memory impact.
+# !!! .m4a audio correctly work with format (AAC-LC) 44100Hz 
+- Category: # UI
+  Name: UI
+  Volume: 1.00
+  MemoryCache: true # Sound effects in this category can be cached to memory to speed up the audio playback
+  MaxConcurrentSounds: 16 # Maximum number of sounds that can be played at once in this category
+  MaxConcurrentSoundsPerEffect: 8 # The maximum number of sounds that can be played at the same time for each sound effect, 0 for unlimited
+  MaxSoundsPerFrame: 2
+  SoundEffects:
+    - SoundEffect:
+      Id: sd_ui_tactical_pause
+      Volume: 0.5
+      Sound: "UI/sd_ui_tactical_pause.m4a"
+    - SoundEffect:
+      Id: sd_ui_colonize_01
+      Volume: 0.5
+      Sound: "UI/sd_ui_colonize_01.m4a"
+    - SoundEffect:
+      Volume: 0.5
+      Id: sd_ui_notification_colonized_01
+      Sound: "UI/sd_ui_notification_colonized_01.m4a"
+    - SoundEffect:
+      Id: sd_ui_mouseover
+      Volume: 0.5
+      Sound: "UI/sd_ui_mouseover.m4a"
+    - SoundEffect:
+      Id: sd_ui_notification_encounter
+      Volume: 0.5
+      Sound: "UI/sd_ui_notification_encounter.m4a"
+    - SoundEffect:
+      Id: sd_ui_research_select
+      Volume: 0.5
+      Sound: "UI/sd_ui_research_select.m4a"
+    - SoundEffect:
+      Id: sd_ui_notification_research_01
+      Volume: 0.5
+      Sound: "UI/sd_ui_notification_research_01.m4a"
+    - SoundEffect:
+      Id: sd_ui_notification_startgame
+      Volume: 0.5
+      Sound: "UI/sd_ui_notification_encounter.m4a"
+    - SoundEffect:
+      Id: sd_ui_notification_technology_bad
+      Volume: 0.5
+      Sound: "UI/sd_ui_notification_technology_bad.m4a"
+    - SoundEffect:
+      Id: sd_ui_notification_warning
+      Volume: 0.5
+      Sound: "UI/sd_ui_notification_warning.m4a"
+    - SoundEffect:
+      Id: sd_ui_notification_conquer_01
+      Volume: 0.5
+      Sound: "UI/sd_ui_notification_conquer_01.m4a"
+    - SoundEffect:
+      Id: sd_ui_spy_fail_02
+      Volume: 0.5
+      Sound: "UI/sd_ui_spy_fail_02.m4a"
+    - SoundEffect:
+      Id: sd_ui_spy_win_02
+      Volume: 0.5
+      Sound: "UI/sd_ui_spy_win_02.m4a"
+    - SoundEffect:
+      Id: sd_ui_accept_alt3
+      Volume: 0.3
+      Sound: "UI/sd_ui_accept_alt3.m4a"
+      
+    - SoundEffect:
+      Id: UI_Misc20
+      Volume: 0.5
+      Sound: "UI/UI_Misc20.m4a"
+      
+    - SoundEffect:
+      Id: alarm
+      Volume: 0.5
+      Sound: "UI/alarm.m4a"
+    - SoundEffect:
+      Id: analogue_click2
+      Volume: 0.5
+      Sound: "UI/analogue_click2.m4a"
+    - SoundEffect:
+      Id: blip_click
+      Volume: 0.5
+      Sound: "UI/blip_click.m4a"
+    - SoundEffect:
+      Id: echo_affirm
+      Volume: 0.5
+      Sound: "UI/echo_affirm.m4a"
+    - SoundEffect:
+      Id: echo_affirm1
+      Volume: 0.5
+      Sound: "UI/echo_affirm1.m4a"
+    - SoundEffect:
+      Id: techy_affirm1
+      Volume: 0.5
+      Sound: "UI/techy_affirm1.m4a"
+    - SoundEffect:
+      Id: Money
+      Volume: 0.5
+      Sound: "UI/Money.m4a"
+    - SoundEffect:
+      Id: sd_trade_01
+      Volume: 0.5
+      Sound: "UI/sd_trade_01.m4a"
+    - SoundEffect:
+      Id: mouse_over4
+      Volume: 1.0
+      Sound: "UI/mouse_over4.m4a"
+      
+    - SoundEffect:
+      Id: sd_notify_alert
+      Volume: 0.7
+      Sound: "UI/sd_notify_alert.m4a"
+      
+    - SoundEffect:
+      Id: short_whoosh1
+      Volume: 1.0
+      Sounds:
+        - "UI/short_whoosh1.0.m4a"
+        - "UI/short_whoosh1.1.m4a"
+    - SoundEffect:
+      Id: simple_beep
+      Volume: 1.0
+      Sound: "UI/simple_beep.m4a"
+      
+    - SoundEffect: #Module Set
+      Id: smallservo
+      Volume: 0.5
+      Sound: "UI/UI_Module_Set.m4a"            
+       
+    - SoundEffect:
+      Id: sub_bass_mouseover
+      Volume: 1.0
+      Sound: "UI/sub_bass_mouseover.m4a"
+    - SoundEffect:
+      Id: sub_bass_whoosh
+      Volume: 1.0
+      Sound: "UI/sub_bass_whoosh.m4a"
+    - SoundEffect:
+      Id: xylophone_affirm1
+      Volume: 0.5
+      Sound: "UI/xylophone_affirm1.m4a"
+
+- Category: # Explosions
+  Name: Explosions
+  Volume: 1.00
+  MemoryCache: true # Sound effects in this category can be cached to memory to speed up the audio playback
+  MaxConcurrentSounds: 64 # The maximum number of sounds that can be played at the same time, 0 for unlimited
+  MaxConcurrentSoundsPerEffect: 48 # The maximum number of sounds that can be played at the same time for each sound effect, 0 for unlimited
+  MaxSoundsPerFrame: 2 # The maximum number of sounds that can be played per frame, 0 for unlimited
+  SoundEffects:
+    - SoundEffect: #Tactical Nuke Exp
+      Id: Explosion_Tactical_Nuke
+      Volume: 0.9
+      Sound: "Explosions/Explosion_Tactical_Nuke_0.m4a"
+    
+   # - SoundEffect: #Tactical Nuke Release
+   #   Id: Tactical_Nuke_Release
+   #   Volume: 0.9
+   #   Sound: "Explosions/sd_ship_alarm_01.m4a"
+
+    - SoundEffect: 
+      Id: Bomb_Explosion  #Bomb Bay DieCue-Explosions
+      Volume: 0.4
+      Sounds:
+        - "Explosions/Bomb_Explosion_0.m4a"
+        - "Explosions/Bomb_Explosion_1.m4a"
+        - "Explosions/Bomb_Explosion_2.m4a"
+        - "Explosions/Bomb_Explosion_3.m4a"
+        - "Explosions/Bomb_Explosion_4.m4a"
+        
+   #- SoundEffect: !!! Not Work !!!
+   #  Id: sd_bomb_impact_01  #Ground Explosions
+   #  Volume: 0.9
+   #  Sounds:
+   #    - "Ground/Bomb_Explosion_0.m4a"
+   #    - "Ground/Bomb_Explosion_1.m4a"
+   #    - "Ground/Bomb_Explosion_2.m4a"
+   #    - "Ground/Bomb_Explosion_3.m4a"
+   #    - "Ground/Bomb_Explosion_4.m4a"
+   
+    - SoundEffect:
+      Id: sd_explosion_ship_warpdet_small
+      Volume: 0.9
+      Sound: "Explosions/sd_explosion_ship_warpdet_small.m4a"
+    - SoundEffect:
+      Id: sd_explosion_ship_warpdet_medium
+      Volume: 1.5
+      Sound: "Explosions/sd_explosion_ship_warpdet_medium.m4a"
+    - SoundEffect:
+      Id: sd_explosion_ship_warpdet_large
+      Volume: 1.4
+      Sound: "Explosions/sd_explosion_ship_warpdet_large.m4a"
+
+    - SoundEffect:
+      Id: Explo1
+      Volume: 2
+      Sounds:
+        - "Explosions/Explo1.0.m4a"
+        - "Explosions/Explo1.1.m4a"
+        - "Explosions/Explo1.2.m4a"
+        - "Explosions/Explo1.3.m4a"
+
+    - SoundEffect:
+      Id: sd_explosion_ship_det_small
+      # TODO: maybe we can add volume ranges here?
+      Volume: 1.0
+      Sounds:
+        # You can safely duplicate the entries here, it will just increase that SFX chance of playing
+        # TODO: add more variations here
+        # TODO: add individual explosion intensitires here
+        - "Explosions/SD_Explosion_00.m4a"
+        - "Explosions/SD_Explosion_01.m4a"
+        - "Explosions/SD_Explosion_02.m4a"
+        - "Explosions/SD_Explosion_03.m4a"
+        - "Explosions/SD_Explosion_04.m4a"
+        - "Explosions/SD_Explosion_05.m4a"
+        - "Explosions/SD_Explosion_06.m4a"
+        - "Explosions/SD_Explosion_07.m4a"
+    - SoundEffect:
+      Id: sd_explosion_ship_det_medium
+      Volume: 3.0
+      Sound: "Explosions/sd_explosion_ship_det_medium.m4a"
+    - SoundEffect:
+      Id: sd_explosion_ship_det_large
+      Volume: 2.0
+      Sound: "Explosions/sd_explosion_ship_det_large.m4a"
+    - SoundEffect:
+      Id: sd_explosion_impact_small
+      Volume: 0.5
+      Sound: "Explosions/sd_explosion_impact_small.m4a"
+      
+    - SoundEffect: #Missle Point Defence - Heavy
+      Id: Missile_PD-Heavy_DC
+      Volume: 0.5
+      Sound: "Weapon_Release/Missle_PD-Heavy_DC.m4a"
+
+- Category: # Weapons
+  Name: Weapons
+  Volume: 1.00
+  MemoryCache: true # Sound effects in this category can be cached to memory to speed up the audio playback
+  MaxConcurrentSounds: 64 # The maximum number of sounds that can be played at the same time, 0 for unlimited
+  MaxConcurrentSoundsPerEffect: 32 # The maximum number of sounds that can be played at the same time for each sound effect, 0 for unlimited
+  MaxSoundsPerFrame: 2 # The maximum number of sounds that can be played per frame, 0 for unlimited
+  SoundEffects:
+   #Weapon Release Sounds
+   
+    - SoundEffect: #Light Beam Release
+      Id: Light_Beam_Release
+      Volume: 1.2
+      Sounds:
+        - "Weapon_Release/Light_Beam_Release_0.m4a"
+        - "Weapon_Release/Light_Beam_Release_1.m4a"
+        - "Weapon_Release/Light_Beam_Release_2.m4a"
+        - "Weapon_Release/Light_Beam_Release_3.m4a"
+   
+    - SoundEffect: #Heavy Beam Release
+      Id: Heavy_Beam_Release
+      Volume: 1.0
+      Sounds:
+        - "Weapon_Release/Heavy_Beam_Release_0.m4a"
+        - "Weapon_Release/Heavy_Beam_Release_1.m4a"
+        - "Weapon_Release/Heavy_Beam_Release_2.m4a"
+        - "Weapon_Release/Heavy_Beam_Release_3.m4a"
+        - "Weapon_Release/Heavy_Beam_Release_4.m4a"
+     
+       
+    - SoundEffect: #Heavy Beam Release A
+      Id: Heavy_Beam_Release_A
+      Volume: 0.5
+      Sound: "Weapon_Release/Heavy_Beam_Release_A.m4a" 
+        
+    - SoundEffect: #Heavy Beam Release B
+      Id: Heavy_Beam_Release_B
+      Volume: 0.4
+      Sound: "Weapon_Release/Heavy_Beam_Release_B.m4a" 
+        
+    - SoundEffect: #Heavy Beam Release C
+      Id: Heavy_Beam_Release_C
+      Volume: 0.5
+      Sound: "Weapon_Release/Heavy_Beam_Release_C.m4a" 
+        
+    - SoundEffect: #Heavy Beam Release D
+      Id: Heavy_Beam_Release_D
+      Volume: 0.5
+      Sound: "Weapon_Release/Heavy_Beam_Release_D.m4a" 
+         
+    - SoundEffect: #Plasma Thowers Release (Not Work Correctly)
+      Id: Plasma_Thrower_Release
+      Volume: 0.5
+      Sound: "Weapon_Release/Plasma_Thower_Release_0.m4a" 
+       
+        
+   #Drone Weapons
+    - SoundEffect: #Drone Atack Cannon
+      Id: Drone_Attack_Cannon 
+      Volume: 0.4
+      Sound: "Drone/Drone_Atack_Cannon_0.m4a"
+      
+    - SoundEffect: #Drone AF Cannon MK1
+      Id: Drone_AF_Cannon_MK1 
+      Volume: 0.4
+      Sound: "Drone/Drone_AF_Cannon_0.m4a"
+       
+    - SoundEffect: #Drone AF Cannon MK2
+      Id: Drone_AF_Cannon_MK2 
+      Volume: 0.4
+      Sound: "Drone/Drone_AF_Cannon_1.m4a"
+       
+    - SoundEffect: #Drone AF Cannon MK3
+      Id: Drone_AF_Cannon_MK3
+      Volume: 0.4
+      Sound: "Drone/Drone_AF_Cannon_2.m4a"
+    
+    - SoundEffect: #Blue Laser MK1
+      Id: Blue_Laser_MK1
+      Volume: 0.4
+      Sound: "Drone/Small_Blue_Laser_0.m4a"
+      
+    - SoundEffect: #Small Red-Green-Purple Laser
+      Id: Small_Red-Green-Purple_Laser
+      Volume: 0.4
+      Sound: "Drone/Small_Red-Green-Purple_Laser_0.m4a"
+      
+    - SoundEffect: #Drone Beam
+      Id: Drone_Beam
+      Volume: 0.8
+      Sound: "Drone/Drone_Beam_0.m4a"
+      
+    - SoundEffect: #Drone Ion Beam
+      Id: Drone_Ion_Beam
+      Volume: 0.8
+      Sound: "Drone/Drone_Ion_Beam_0.m4a"
+         
+    - SoundEffect: #Drone Cluster Bomb Bay
+      Id: Drone_Cluster_Bomb
+      Volume: 0.6
+      Sound: "Drone/Drone_Cluster_Bomb_0.m4a"
+      
+    - SoundEffect: #Drone Shield Bomb Bay
+      Id: Drone_Shield_Bomb
+      Volume: 0.4
+      Sound: "Drone/Drone_Shield_Bomb_0.m4a"
+      
+    - SoundEffect: #Drone Torpedo
+      Id: Drone_Torpedo
+      Volume: 0.6
+      Sound: "Drone/Drone_Torpedo_0.m4a"
+      
+    - SoundEffect: #Drone Rocket Launcher
+      Id: Drone_Rocket_Launcher
+      Volume: 0.7
+      Sound: "Drone/Drone_RL_0.m4a"
+      
+    - SoundEffect: #Drone D.B ShotGuns (and E.S)
+      Id: Drone_D.B_Shotgun
+      Volume: 0.3
+      Sound: "Drone/Drone_ShotGun_0.m4a"
+    
+    - SoundEffect: #Drone EMP ShotGuns
+      Id: Drone_E_Shotgun
+      Volume: 0.4
+      Sound: "Drone/Drone_E_ShotGun_0.m4a"
+     
+    - SoundEffect: #Drone Repeater ShotGuns
+      Id: Drone_Repeater_Shotgun
+      Volume: 0.6
+      Sound: "Drone/Drone_Repeater_ShotGun_0.m4a"
+      
+   #Energy Cannons
+      
+    - SoundEffect: #Blue Laser MK2 
+      Id: "Blue_Laser_MK2"
+      Volume: 0.40
+      Sound: "Fighter_Weapons/Laser_Blue_Laser_Mk2.m4a"
+        
+    - SoundEffect: #Blue Laser MK3 
+      Id: "Blue_Laser_MK3"
+      Volume: 0.40
+      Sound: "Fighter_Weapons/Laser_Blue_Laser_Mk3.m4a"
+        
+    - SoundEffect: #Blue Laser MK4
+      Id: "Blue_Laser_MK4"
+      Volume: 0.40
+      Sound: "Fighter_Weapons/Laser_Blue_Laser_Mk4.m4a"   
+         
+    - SoundEffect: #Heavy Laser Cannon (Red)
+      Id: "Heavy_Red_Laser"
+      Volume: 0.40
+      Sound: "Energy_Cannons/Heavy_Red_Laser_0.m4a"   
+          
+    - SoundEffect: #Green Heavy Laser Cannon
+      Id: "Heavy_Green_Laser"
+      Volume: 0.40
+      Sound: "Energy_Cannons/Heavy_Green_Laser_0.m4a"   
+          
+    - SoundEffect: #Purple Heavy Laser Cannon   
+      Id: "Heavy_Purple_Laser"
+      Volume: 0.40
+      Sound: "Energy_Cannons/Heavy_Purple_Laser_0.m4a"   
+
+    - SoundEffect: #EMP Turret (Heavy EMP Turret)
+      Id: EMP
+      Volume: 0.6
+      Sound: "Energy_Cannons/EMP_0.m4a"
+      
+    - SoundEffect: #Disruptor
+      Id: "Disruptor"
+      Volume: 0.7
+      Sound: "Energy_Cannons/Disruptor_0.m4a"
+      
+    - SoundEffect: #Heavy Disruptor
+      Id: "Heavy_Disruptor"
+      Volume: 0.7
+      Sound: "Energy_Cannons/Disruptor_1.m4a"
+      
+    - SoundEffect: #Massive Disruptor
+      Id: "Massive_Disruptor"
+      Volume: 0.7
+      Sound: "Energy_Cannons/Disruptor_2.m4a"
+       
+    - SoundEffect: #Laser
+      Id: "Laser"
+      Volume: 0.8
+      Sound: "Energy_Cannons/Laser_0.m4a"
+       
+    - SoundEffect: #Heavy Laser
+      Id: "Heavy_Laser"
+      Volume: 0.8
+      Sound: "Energy_Cannons/Laser_1.m4a"
+       
+    - SoundEffect: #Massive Laser
+      Id: "Massive_Laser"
+      Volume: 0.8
+      Sound: "Energy_Cannons/Laser_2.m4a"
+      
+    - SoundEffect: #Polaron
+      Id: "Polaron"
+      Volume: 0.70
+      Sound: "Energy_Cannons/Polaron_0.m4a" 
+       
+    - SoundEffect: #Heavy Polaron
+      Id: "Heavy_Polaron"
+      Volume: 0.70
+      Sound: "Energy_Cannons/Polaron_1.m4a" 
+       
+    - SoundEffect: #Massive Polaron
+      Id: "Massive_Polaron"
+      Volume: 0.70
+      Sound: "Energy_Cannons/Polaron_2.m4a"
+      
+    - SoundEffect: #Photon Weapons
+      Id: "Photon_Weapons"
+      Volume: 0.70
+      Sounds: 
+        - "Energy_Cannons/Photon_0.m4a"
+        - "Energy_Cannons/Photon_1.m4a"
+        - "Energy_Cannons/Photon_2.m4a"
+        - "Energy_Cannons/Photon_3.m4a"
+ 
+    - SoundEffect: #Phased Energy Turret (MK1-2)
+      Id: "Phased_Energy_Turret"
+      Volume: 0.6
+      Sounds: 
+        - "Energy_Cannons/Laser_0.m4a" 
+        - "Energy_Cannons/Laser_1.m4a" 
+        - "Energy_Cannons/Laser_2.m4a" 
+    
+      
+   #Plasma
+    - SoundEffect: #Plasma Thower
+      Id: "Plasma_Thrower"
+      Volume: 0.30
+      Sounds: 
+        - "Plasma/Plasma_Thower_0.m4a"
+        - "Plasma/Plasma_Thower_1.m4a"
+        - "Plasma/Plasma_Thower_2.m4a"
+        - "Plasma/Plasma_Thower_3.m4a"
+        - "Plasma/Plasma_Thower_4.m4a"
+        - "Plasma/Plasma_Thower_5.m4a"
+ 
+    - SoundEffect: #Hyper Plasma Thower
+      Id: "Hyper_Plasma_Thrower"
+      Volume: 0.30
+      Sounds: 
+        - "Plasma/Hyper_Plasma_Thower_0.m4a"
+        - "Plasma/Hyper_Plasma_Thower_1.m4a"
+        - "Plasma/Hyper_Plasma_Thower_2.m4a"
+        - "Plasma/Hyper_Plasma_Thower_3.m4a"
+        - "Plasma/Hyper_Plasma_Thower_4.m4a"
+        - "Plasma/Hyper_Plasma_Thower_5.m4a"
+  
+    - SoundEffect: #Power Assisted Plasma Thower
+      Id: "Pa_Plasma_Thrower"
+      Volume: 0.30
+      Sounds: 
+        - "Plasma/PA_Plasma_Thower_0.m4a"
+        - "Plasma/PA_Plasma_Thower_1.m4a"
+        - "Plasma/PA_Plasma_Thower_2.m4a"
+        - "Plasma/PA_Plasma_Thower_3.m4a"
+        - "Plasma/PA_Plasma_Thower_4.m4a"
+        - "Plasma/PA_Plasma_Thower_5.m4a"
+   
+    - SoundEffect: #High Pressure Plasma Thower
+      Id: "HP_Plasma_Thrower"
+      Volume: 0.30
+      Sounds: 
+        - "Plasma/HP_Plasma_Thower_0.m4a"
+        - "Plasma/HP_Plasma_Thower_1.m4a"
+        - "Plasma/HP_Plasma_Thower_2.m4a"
+        - "Plasma/HP_Plasma_Thower_3.m4a"
+        - "Plasma/HP_Plasma_Thower_4.m4a"
+        - "Plasma/HP_Plasma_Thower_5.m4a"
+        
+    - SoundEffect: #Plasma Projector
+      Id: "Plasma_Projector"
+      Volume: 0.80
+      Sounds: 
+        - "Plasma/Plasma_Projector_0.m4a"
+        - "Plasma/Plasma_Projector_1.m4a"
+        - "Plasma/Plasma_Projector_2.m4a"
+        - "Plasma/Plasma_Projector_3.m4a"
+        - "Plasma/Plasma_Projector_4.m4a"
+   
+    - SoundEffect: #Plasma Cannon
+      Id: "Plasma_Cannon"
+      Volume: 1.0
+      Sound: "Plasma/Plasma_Cannon_0.m4a"
+    
+    - SoundEffect: #Plasma Torpedo
+      Id: "P_Torpedo"
+      Volume: 0.60
+      Sound: "Plasma/Plasma_Torpedo_0.m4a"
+   
+   #Beams   
+   
+    - SoundEffect: #Thalaron Blaster
+      Id: Thalaron_Blaster
+      Volume: 0.5
+      Sound: "Beam/Thalaron_Blaster_0.m4a" 
+   
+    - SoundEffect: #Fusion Beam 
+      Id: Fusion_Beam
+      Volume: 0.5
+      Sound: "Beam/Fusion_Beam.m4a" 
+   
+    - SoundEffect: #Ion Beam
+      Id: Ion_Beam
+      Volume: 0.5
+      Sound: "Beam/Ion_Beam.m4a" 
+   
+    - SoundEffect: #Laser Beam
+      Id: Laser_Beam
+      Volume: 0.6
+      Sound: "Beam/Laser_Beam.m4a" 
+    
+    - SoundEffect: #Light Phasor Array
+      Id: Phasor_Array
+      Volume: 0.6
+      Sound: "Beam/Phasor_Array.m4a" 
+    
+    - SoundEffect: #Siphon Beam 
+      Id: Siphon_Beam
+      Volume: 0.6
+      Sound: "Beam/Siphon_Beam.m4a" 
+     
+    - SoundEffect: #Tractor Beam 
+      Id: Tractor_Beam
+      Volume: 0.8
+      Sound: "Beam/Tractor_Beam.m4a" 
+     
+    - SoundEffect: #Prototype Energy Beam
+      Id: Prototype_Energy_Beam
+      Volume: 0.8
+      Sound: "Beam/Prototype_Energy_Beam.m4a" 
+   
+    - SoundEffect: #Assault Disintegrator
+      Id: Beam_Disintegrator_Assault
+      Volume: 1.0
+      Sound: "Beam/Disintegrator_Assault.m4a" 
+      
+    - SoundEffect: #Disintegrator
+      Id: Beam_Disintegrator_large
+      Volume: 1.0
+      Sound: "Beam/Disintegrator_large.m4a"
+      
+    - SoundEffect: #Disintegrator Array
+      Id: Beam_Disintegrator_medium
+      Volume: 1.0
+      Sound: "Beam/Disintegrator_medium.m4a"
+      
+    - SoundEffect: #Disintegrator Array - Small
+      Id: Beam_Disintegrator_small
+      Volume: 1.0
+      Sound: "Beam/Disintegrator_small.m4a"
+      
+   #Balistic 
+    - SoundEffect: #Fighter AGS-HAGS Turret
+      Id: "Fighter_AGS-HAGS"
+      Volume: 0.40
+      Sound: "Fighter_Weapons/Fighter_AGS-HAGS_Turret_0.m4a"
+    
+    - SoundEffect: #Fighter PD Vulcan Cannon
+      Id: "Fighter_PD_Vulcan"
+      Volume: 0.40
+      Sound: "Fighter_Weapons/Fighter_PD_Vulcan_Cannon_0.m4a"
+     
+    - SoundEffect: #Fighter HV Vulcan Cannon
+      Id: "Fighter_HV_Vulcan"
+      Volume: 0.40
+      Sound: "Fighter_Weapons/Fighter_HV_Vulcan_Cannon_0.m4a"
+      
+    - SoundEffect: #Fighter QF 17-pdr
+      Id: "Fighter_QF_17"
+      Volume: 0.40
+      Sound: "Fighter_Weapons/Fighter_QF_17-pdr_0.m4a"
+ 
+    - SoundEffect: #Flak Turret
+      Id: "Flak_Turret"
+      Volume: 0.60
+      Sound: "Ballistic/Ballistic_Flak_Turret_0.m4a"
+      
+    - SoundEffect: #RailGun
+      Id: "RailGun"
+      Volume: 0.70
+      Sound: "Ballistic/Ballistic_Railgun_2.m4a"
+      
+    - SoundEffect: #RailGun Turret
+      Id: "RailGun_Turret"
+      Volume: 0.70
+      Sound: "Ballistic/Ballistic_Railgun_0.m4a"
+      
+    - SoundEffect: #Andanced RailGun Turret
+      Id: "Andanced_RailGun_Turret"
+      Volume: 0.70
+      Sound: "Ballistic/Ballistic_Railgun_1.m4a"
+      
+    - SoundEffect: #XGC-ForAnswer
+      Id: "Kinetic_XGC-ForAnswer"
+      Volume: 0.70
+      Sound: "Ballistic/Kinetic_XGC-ForAnswer.m4a"
+      
+    - SoundEffect: #Autocannons Type54-80
+      Id: "Autocannon_Type54-80"
+      Volume: 0.50
+      Sounds: 
+        - "Ballistic/Ballistic_Type_0.m4a"
+        - "Ballistic/Ballistic_Type_1.m4a"
+        - "Ballistic/Ballistic_Type_2.m4a"
+        
+    - SoundEffect: #Mass Drivers
+      Id: "Mass_Driver"
+      Volume: 0.70
+      Sounds: 
+        - "Ballistic/Ballistic_MassDriver_0.m4a"
+        - "Ballistic/Ballistic_MassDriver_1.m4a"
+        - "Ballistic/Ballistic_MassDriver_2.m4a"
+        
+    - SoundEffect: #Assault Cannons 74-81
+      Id: "ACannon_74-81"
+      Volume: 0.70
+      Sounds: 
+        - "Ballistic/Ballistic_ACannon_74-81_0.m4a"
+        - "Ballistic/Ballistic_ACannon_74-81_1.m4a"
+        - "Ballistic/Ballistic_ACannon_74-81_2.m4a"
+        
+    - SoundEffect: #Assault Cannons 10-20
+      Id: "ACannon_10-20"
+      Volume: 1.2
+      Sounds: 
+        - "Ballistic/Ballistic_ACannon_10-20_0.m4a"
+        - "Ballistic/Ballistic_ACannon_10-20_1.m4a"
+        - "Ballistic/Ballistic_ACannon_10-20_2.m4a"
+           
+    - SoundEffect: #Massive Cannons
+      Id: "Ballistic_BigCannon"
+      Volume: 0.80
+      Sounds:
+        - "Ballistic/Ballistic_bigcannon_01.0.m4a"
+        - "Ballistic/Ballistic_bigcannon_01.1.m4a"
+        - "Ballistic/Ballistic_bigcannon_01.2.m4a"
+   #Missile  
+    - SoundEffect: #Figher ATCSM
+      Id: "Fighter_ATCSM"
+      Volume: 0.60
+      Sound: "Missile/Fighter_ATCSM.m4a" 
+     
+    - SoundEffect: # Nemesis Rocket Pod
+      Id: "Nemesis_Rocket_Pod"
+      Volume: 0.60
+      Sound: "Missile/Rocket_Pod_Nemesis.m4a" 
+      
+    - SoundEffect: # Venom Rocket Pod
+      Id: "Venom_Rocket_Pod"
+      Volume: 0.60
+      Sound: "Missile/Rocket_Pod_Venom.m4a" 
+      
+    - SoundEffect: # Talon Rocket Pod
+      Id: "Talon_Rocket_Pod"
+      Volume: 0.60
+      Sound: "Missile/Rocket_Pod_Talon.m4a" 
+      
+    - SoundEffect: # Hydra Rocket Pod
+      Id: "Hydra_Rocket_Pod"
+      Volume: 0.60
+      Sound: "Missile/Rocket_Pod_Hydra.m4a" 
+      
+    - SoundEffect: # Fighter Torpedo (and II)
+      Id: "Fighter_Torpedo"
+      Volume: 0.60
+      Sound: "Missile/Fighter_Torpedo.m4a" 
+   
+    - SoundEffect: #Figher RL !
+      Id: "Fighter_RL"
+      Volume: 0.50
+      Sound: "Missile/Missile_Fighter_RL_0.m4a" 
+      
+    - SoundEffect: #Storm RL !
+      Id: "Storm_RL"
+      Volume: 0.80
+      Sound: "Missile/Missile_Storm_RL_0.m4a"
+      
+    - SoundEffect: #LRM RL !
+      Id: "LRM_RL"
+      Volume: 0.80
+      Sound: "Missile/Missile_LRM_RL_0.m4a" 
+      
+    - SoundEffect: #MRM RL !
+      Id: "MRM_RL"
+      Volume: 0.80
+      Sound: "Missile/Missile_MRM_RL_0.m4a"    
+      
+    - SoundEffect: #Tactical Nuke !
+      Id: "Tactical_Nuke"
+      Volume: 0.90
+      Sound: "Missile/Missile_Tactical_Nuke_0.m4a"  
+      
+    - SoundEffect: #QT Cannon !
+      Id: "QT_Cannon"
+      Volume: 0.90
+      Sound: "Missile/Missile_QTCannon_0.m4a"
+      
+    - SoundEffect: #Torpedo Tubes
+      Id: "Torpedo_Tube"
+      Volume: 0.90
+      Sound: "Missile/Torpedo_Tube_0.m4a"
+      
+    - SoundEffect: # AMX50 Revolver
+      Id: "AMX50_Revolver"
+      Volume: 0.60
+      Sounds: 
+        - "Missile/AMX50_Revolver_0.m4a" 
+        - "Missile/AMX50_Revolver_1.m4a"
+        - "Missile/AMX50_Revolver_2.m4a"
+       
+ 
+   #Bomb  
+    - SoundEffect: #Anti-Matter Bomb Bay
+      Id: "Bomb_AntiMatter-Ion_Plasma"
+      Volume: 0.80
+      Sound: "Bomb/Bomb_AntiMatter-Ion_Plasma_0.m4a" 
+      
+    - SoundEffect: #Bomb Bay
+      Id: "Bomb_Bay"
+      Volume: 0.50
+      Sound: "Bomb/Bomb_Bay.m4a" 
+      
+   #Anti-Matter  
+    - SoundEffect: #Anti-Matter Projector
+      Id: "Anti-Matter_Projector"
+      Volume: 0.80
+      Sound: "Anti-Matter/Anti-Matter_Projector_0.m4a" 
+       
+    - SoundEffect: #Anti-Matter Cannon
+      Id: "Anti-Matter_Cannon"
+      Volume: 1.0
+      Sound: "Anti-Matter/Anti-Matter_Cannon_0.m4a" 
+        
+    - SoundEffect: #Anti-Matter Torpedo
+      Id: "Anti-Matter_Torpedo"
+      Volume: 1.0
+      Sound: "Anti-Matter/Anti-Matter_Torpedo_0.m4a" 
+
+   #ShotGuns  (With Forward ShotGuns)
+      
+    - SoundEffect: # ShotGuns_Flechette
+      Id: "Shotgun_Flechette"
+      Volume: 0.60
+      Sound: "ShotGuns/Shotgun_Flechette.m4a" 
+       
+    - SoundEffect: # ShotGuns Explosive Shells
+      Id: "Shotgun_ExplosiveShells"
+      Volume: 0.50
+      Sound: "ShotGuns/Shotgun_ExplosiveShells.m4a" 
+       
+    - SoundEffect: # ShotGuns DragonBreath
+      Id: "Shotgun_DragonBreath"
+      Volume: 0.60
+      Sound: "ShotGuns/Shotgun_DragonBreath.m4a" 
+        
+    - SoundEffect: # ShotGuns Energizer
+      Id: "Shotgun_Energizer"
+      Volume: 0.60
+      Sound: "ShotGuns/Shotgun_Energizer.m4a" 
+         
+    - SoundEffect: # ShotGuns Repeater
+      Id: "Shotgun_Repeater"
+      Volume: 0.50
+      Sound: "ShotGuns/Shotgun_Repeater.m4a" 
+  
+   #Phased Defence 
+      
+    - SoundEffect: # Light Phased Turret Mk1
+      Id: "Light_Phased_Turret_Mk1"
+      Volume: 0.60
+      Sound: "Phased_Defence/Light_Phased_Turret_Mk1.m4a" 
+       
+    - SoundEffect: # Light Phased Turret Mk2
+      Id: "Light_Phased_Turret_Mk2"
+      Volume: 0.60
+      Sound: "Phased_Defence/Light_Phased_Turret_Mk2.m4a" 
+       
+    - SoundEffect: # Light Phased Turret Mk3
+      Id: "Light_Phased_Turret_Mk3"
+      Volume: 0.60
+      Sound: "Phased_Defence/Light_Phased_Turret_Mk3.m4a" 
+      
+    - SoundEffect: # Heavy Phased Turret Mk1-2-3
+      Id: "Heavy_Phased_Turret"
+      Volume: 0.40
+      Sounds: 
+        - "Phased_Defence/Heavy_Phased_Defence_0.m4a" 
+        - "Phased_Defence/Heavy_Phased_Defence_1.m4a"
+        - "Phased_Defence/Heavy_Phased_Defence_2.m4a"
+         
+      
+   #Secret    
+    - SoundEffect: #Atomizing Battery
+      Id: "Atomizing_Battery"
+      Volume: 0.6
+      Sounds:  
+        - "Secret_Weapon/Atomizing_Battery_0.m4a"   
+        - "Secret_Weapon/Atomizing_Battery_1.m4a" 
+        
+    - SoundEffect: #Dark Matter
+      Id: "Dark_Matter"
+      Volume: 1.0
+      Sound: "Secret_Weapon/Dark_Matter_0.m4a"   
+                 
+    - SoundEffect: #Heavy Dark Matter
+      Id: "Heavy_Dark_Matter"
+      Volume: 0.8
+      Sounds:
+        - "Secret_Weapon/Heavy_Dark_Matter_0.m4a"
+        - "Secret_Weapon/Heavy_Dark_Matter_1.m4a"
+        - "Secret_Weapon/Heavy_Dark_Matter_2.m4a"
+        
+    - SoundEffect: #Rotating Atom
+      Id: "Rotating_Atom"
+      Volume: 1.0
+      Sounds:  
+        - "Secret_Weapon/Rotating_Atom_0.m4a"   
+        - "Secret_Weapon/Rotating_Atom_1.m4a"   
+        
+    - SoundEffect: #Ion Cannon
+      Id: "Ion_Cannon"
+      Volume: 0.7
+      Sound: "Secret_Weapon/Ion_Cannon_0.m4a"   
+        
+    - SoundEffect: #Cyclone
+      Id: "Cyclone"
+      Volume: 0.7
+      Sound: "Secret_Weapon/Cyclone_Turret_0.m4a"   
+        
+    - SoundEffect: #Enforcer
+      Id: "Enforcer"
+      Volume: 0.7
+      Sound: "Secret_Weapon/Enforcer_Turret_0.m4a"   
+        
+    - SoundEffect: #Energizer
+      Id: "Energizer"
+      Volume: 0.7
+      Sound: "Secret_Weapon/Beam_Energizer_0.m4a"   
+        
+    - SoundEffect: #Experimental Dual Phasors
+      Id: "Dual_Phasors"
+      Volume: 0.8
+      Sound: "Secret_Weapon/Beam_Dual_Phasors_0.m4a"   
+        
+    - SoundEffect: #Experimental Phasor
+      Id: "Experimental_Phasor"
+      Volume: 0.9
+      Sound: "Secret_Weapon/Beam_Experimental_Phasor_0.m4a"   
+         
+    - SoundEffect: #Scrappy Beam
+      Id: "Scrappy_Beam"
+      Volume: 0.7
+      Sound: "Secret_Weapon/Beam_Scrappy_Beam_0.m4a"   
+        
+    - SoundEffect: #Remnant Assault Beam
+      Id: "Remnant_Assault_Beam"
+      Volume: 0.60
+      Sound: "Remnant_Weapon/Remnant_Assault_Beam.m4a"
+      
+    - SoundEffect: #Remnant Nuker
+      Id: "Remnant_Nuker"
+      Volume: 0.9
+      Sound: "Secret_Weapon/Rocket_Nuker_0.m4a"   
+        
+    - SoundEffect: #S Cannon
+      Id: "S_Cannon"
+      Volume: 1.1
+      Sound: "Secret_Weapon/S_Cannon_0.m4a"   
+
+   #Causs
+      
+    - SoundEffect: #Gauss Standart
+      Id: "Gauss"
+      Volume: 0.7
+      Sound: "Gauss/Gauss_0.m4a" 
+      
+    - SoundEffect: #Gauss AP
+      Id: "Gauss_AP"
+      Volume: 0.7
+      Sound: "Gauss/Gauss_AP_0.m4a" 
+      
+    - SoundEffect: #Gauss Heap
+      Id: "Gauss_HEAP"
+      Volume: 0.7
+      Sound: "Gauss/Gauss_HEAP_0.m4a" 
+      
+    - SoundEffect: #MAC
+      Id: "Gauss_MAC"
+      Volume: 1.1
+      Sound: "Gauss/Gauss_MAC.m4a"         
+   #AA Weapons
+            
+    - SoundEffect: #HMG Defence
+      Id: "HMG_Defence"
+      Volume: 0.30
+      Sound: "Ballistic/Balistic_HMG_Defence_0.m4a"  
+      
+    - SoundEffect: #Gatling Turret
+      Id: "AA_Gatling_Turret"
+      Volume: 0.4
+      Sound: "AA_Weapons/AA_Gatling_Turret.m4a" 
+       
+    - SoundEffect: #Flak Turret
+      Id: "AA_Flak_Turret"
+      Volume: 0.4
+      Sound: "AA_Weapons/AA_Flak_Turret.m4a"   
+      
+    - SoundEffect: #Energy Point Defence
+      Id: "AA_EP_Defence"
+      Volume: 0.4
+      Sound: "AA_Weapons/AA_Energy_Point_Defence.m4a"   
+      
+    - SoundEffect: #Phalanx PD
+      Id: "AA_Phalanx_PD"
+      Volume: 0.4
+      Sound: "AA_Weapons/AA_Phalanx_PD.m4a" 
+      
+   #Orbital Missile
+      
+    - SoundEffect: #Light Orbital Missile Launcher
+      Id: "LOM_Launcher"
+      Volume: 0.5
+      Sound: "Orbital/LOM_Launcher_0.m4a" 
+       
+    - SoundEffect: #Heavy Orbital Missile Launcher
+      Id: "HOM_Launcher"
+      Volume: 0.2
+      Sound: "Orbital/HOM_Launcher_0.m4a"   
+      
+    - SoundEffect: #Assault Orbital Missile Launcher
+      Id: "AOM_Launcher_0"
+      Volume: 0.6
+      Sound: "Orbital/AOM_Launcher_0.m4a"
+      
+      
+   #Shield Impact
+   
+    - SoundEffect:
+      Id: sd_impact_shield_01
+      Volume: 0.3
+      Sounds:
+        - "Shield/Shield_shot_0.m4a"
+        - "Shield/Shield_shot_1.m4a"
+        - "Shield/Shield_shot_2.m4a"
+        - "Shield/Shield_shot_3.m4a"
+        - "Shield/Shield_shot_4.m4a"
+        - "Shield/Shield_shot_5.m4a"
+        
+   #Planet Emplacement
+   
+    - SoundEffect: #Gun Emplacement
+      Id: Gun_Emplacement
+      Volume: 0.2
+      Sounds:
+        - "Planet_Emplacement/Planet_Gun_Emplacement_0.m4a"
+        - "Planet_Emplacement/Planet_Gun_Emplacement_1.m4a"
+        - "Planet_Emplacement/Planet_Gun_Emplacement_2.m4a"
+   
+    - SoundEffect: #Missile_Silo
+      Id: Missile_Silo
+      Volume: 0.6
+      Sounds:
+        - "Planet_Emplacement/Planet_Missile_Silo_0.m4a"
+        - "Planet_Emplacement/Planet_Missile_Silo_1.m4a"
+        - "Planet_Emplacement/Planet_Missile_Silo_2.m4a"
+    
+    - SoundEffect: #Heavy Rapid Emplacement
+      Id: Planet_Rapid_Laser
+      Volume: 0.6
+      Sounds:
+        - "Planet_Emplacement/Planet_Rapid_Laser_Emplacement_0.m4a"
+        - "Planet_Emplacement/Planet_Rapid_Laser_Emplacement_1.m4a"
+        - "Planet_Emplacement/Planet_Rapid_Laser_Emplacement_2.m4a"
+        
+    - SoundEffect: #Planet AutoCannon
+      Id: Planet_AutoCannon
+      Volume: 0.3
+      Sounds:
+        - "Planet_Emplacement/Planet_AutoCannon_Emplacement_0.m4a"
+        - "Planet_Emplacement/Planet_AutoCannon_Emplacement_1.m4a"
+        - "Planet_Emplacement/Planet_AutoCannon_Emplacement_2.m4a"
+        
+    - SoundEffect: #Planet SniperCannon
+      Id: Planet_SniperCannon
+      Volume: 0.8
+      Sounds:
+        - "Planet_Emplacement/Planet_ShiperCannon_0.m4a"
+        - "Planet_Emplacement/Planet_ShiperCannon_1.m4a"
+        - "Planet_Emplacement/Planet_ShiperCannon_2.m4a"
+      
+    - SoundEffect: #Cloud Peak Missile
+      Id: "Cloud_Peak_Missile"
+      Volume: 0.6
+      Sound: "Planet_Emplacement/Planet_Cloud_Peak_Missile_0.m4a"  
+      
+    - SoundEffect: #Heavy Laser Emplacement
+      Id: "Planet_Heavy_Laser"
+      Volume: 0.8
+      Sound: "Planet_Emplacement/Planet_Heavy_Laser_Emplacement_0.m4a"  
+      
+    - SoundEffect: #Heavy Disruptor Emplacement
+      Id: "Planet_Disruptor_Laser"
+      Volume: 0.6
+      Sound: "Planet_Emplacement/Planet_Disruptor_Laser_Emplacement_0.m4a"  
+      
+    - SoundEffect: #Heavy Photon Emplacement
+      Id: "Planet_Photon_Laser"
+      Volume: 0.8
+      Sound: "Planet_Emplacement/Planet_Photon_Laser_Emplacement_0.m4a"  
+      
+    - SoundEffect: #Planet Ion Cannon
+      Id: "Planet_IonCannon"
+      Volume: 0.4
+      Sound: "Planet_Emplacement/Planet_IonCannon_0.m4a"  
+
+        
