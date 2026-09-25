@@ -39,5 +39,7 @@ Some of the assets used for module images come from:
 * http://simonboxer.com/2013/02/low-poly-3d-assets-from-concept-to-completion/
 * http://marinaortega.deviantart.com/art/UGR-camera-drone-574803602
 
+Sound design and the audio rework are by SELEVON (https://t.me/selevon).
+
 
 
