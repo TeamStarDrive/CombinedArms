@@ -46,6 +46,7 @@ Types:
     Id: 3 # this is the legacy planet ID
     Name: Barren_3 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Barren
+    AmbientCues: [sd_planet_barren_01, sd_planet_gasgiant_01]
     Composition: 1702
     IconPath: Planets/3
     DiffuseMap:    Model/SpaceObjects/planet_tex3_2048x1024.dds
@@ -64,6 +65,7 @@ Types:
     Id: 4
     Name: Barren_4 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Barren
+    AmbientCues: [sd_planet_barren_01, sd_planet_gasgiant_01]
     Composition: 1702
     IconPath: Planets/4
     DiffuseMap:    Model/SpaceObjects/planet_tex4_2048x1024.dds
@@ -82,6 +84,7 @@ Types:
     Id: 5 # Venus
     Name: Barren_Venus
     Category: Barren
+    AmbientCues: [sd_planet_barren_01, sd_planet_gasgiant_01]
     Composition: 1703
     IconPath: Planets/5
     DiffuseMap:    Model/SpaceObjects/planet_tex5_2048x1024.dds
@@ -100,6 +103,7 @@ Types:
     Id: 7 # Mercury
     Name: Barren_Mercury
     Category: Barren
+    AmbientCues: [sd_planet_barren_01, sd_planet_gasgiant_01]
     Composition: 1704
     IconPath: Planets/7
     DiffuseMap:    Model/SpaceObjects/mercurymap.dds
@@ -118,6 +122,7 @@ Types:
     Id: 8
     Name: Barren_Mars
     Category: Barren
+    AmbientCues: [sd_planet_barren_01, sd_planet_gasgiant_01]
     Composition: 1703
     IconPath: Planets/8
     DiffuseMap:    Model/SpaceObjects/Mars8k-modified.dds
@@ -137,6 +142,7 @@ Types:
     Id: 16
     Name: Barren_16
     Category: Barren
+    AmbientCues: [sd_planet_barren_01, sd_planet_gasgiant_01]
     Composition: 1712
     IconPath: Planets/16
     DiffuseMap:    Model/SpaceObjects/planet_tex16_2048x1024.dds
@@ -155,6 +161,7 @@ Types:
     Id: 24
     Name: Barren_24
     Category: Barren
+    AmbientCues: [sd_planet_barren_01, sd_planet_gasgiant_01]
     Composition: 1719
     IconPath: Planets/24
     DiffuseMap:    Model/SpaceObjects/planet_tex24_2048x1024.dds
@@ -173,6 +180,7 @@ Types:
     Id: 20 # Moon, rocky barren
     Name: Barren_Luna
     Category: Barren
+    AmbientCues: [sd_planet_barren_01, sd_planet_gasgiant_01]
     Composition: 1711
     IconPath: Planets/20
     DiffuseMap:    Model/SpaceObjects/new_moon_d.dds
@@ -192,6 +200,7 @@ Types:
     Id: 9
     Name: Volcanic_9
     Category: Volcanic
+    AmbientCues: [sd_planet_volcanic_01]
     Composition: 1705
     IconPath: Planets/9
     DiffuseMap:    Model/SpaceObjects/planet_tex9_2048x1024.dds
@@ -207,6 +216,7 @@ Types:
     Id: 46 # Hestess
     Name: Volcanic_Hestess
     Category: Volcanic
+    AmbientCues: [sd_planet_volcanic_01]
     Composition: 1718
     IconPath: Planets/23
     DiffuseMap:    Model/SpaceObjects/planet_tex23_2048x1024.dds
@@ -221,6 +231,7 @@ Types:
     Id: 45
     Name: Volcanic_9
     Category: Volcanic
+    AmbientCues: [sd_planet_volcanic_01]
     Composition: 1705
     IconPath: Planets/9
     DiffuseMap:    Model/SpaceObjects/planet_tex9_2048x1024.dds
@@ -236,6 +247,7 @@ Types:
     Id: 44 # Hestess
     Name: Volcanic_Hestess
     Category: Volcanic
+    AmbientCues: [sd_planet_volcanic_01]
     Composition: 1718
     IconPath: Planets/23
     DiffuseMap:    Model/SpaceObjects/planet_tex23_2048x1024.dds
@@ -250,6 +262,7 @@ Types:
     Id: 43 # Noldor hospitable
     Name: Volcanic_Noldor
     Category: Volcanic
+    AmbientCues: [sd_planet_volcanic_01]
     Composition: 1718
     IconPath: Planets/43
     DiffuseMap:    Model/SpaceObjects/planet_tex43.dds
@@ -268,6 +281,7 @@ Types:
     Id: 17 # Kholin:Jasnah
     Name: Ice_Jasnah
     Category: Ice
+    AmbientCues: [sd_planet_barren_01]
     Composition: 1713
     IconPath: Planets/17
     DiffuseMap:    Model/SpaceObjects/icemars.dds
@@ -287,6 +301,7 @@ Types:
     Id: 32 
     Name: Ice_32 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Ice
+    AmbientCues: [sd_planet_barren_01]
     Composition: 1713
     IconPath: Planets/17
     DiffuseMap:    Model/SpaceObjects/icemars.dds
@@ -306,6 +321,7 @@ Types:
     Id: 33 
     Name: Ice_33 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Ice
+    AmbientCues: [sd_planet_barren_01]
     Composition: 1713
     IconPath: Planets/17
     DiffuseMap:    Model/SpaceObjects/icemars.dds
@@ -325,6 +341,7 @@ Types:
     Id: 19 # Polmar:Sporl
     Name: Swamp_Sporl
     Category: Swamp
+    AmbientCues: [sd_planet_forest_01]
     Composition: 1715
     IconPath: Planets/19
     DiffuseMap:    Model/SpaceObjects/planet_tex19_2048x1024.dds
@@ -345,6 +362,7 @@ Types:
     Id: 34
     Name: Swamp_34 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Swamp
+    AmbientCues: [sd_planet_forest_01]
     Composition: 1715
     IconPath: Planets/19
     DiffuseMap:    Model/SpaceObjects/planet_tex19_2048x1024.dds
@@ -364,6 +382,7 @@ Types:
     Id: 35
     Name: Swamp_35 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Swamp
+    AmbientCues: [sd_planet_forest_01]
     Composition: 1715
     IconPath: Planets/19
     DiffuseMap:    Model/SpaceObjects/planet_tex19_2048x1024.dds
@@ -383,6 +402,7 @@ Types:
     Id: 21
     Name: Oceanic_21 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Oceanic
+    AmbientCues: [sd_planet_water_01]
     Composition: 1716
     IconPath: Planets/21
     DiffuseMap:    Model/SpaceObjects/planet_tex21_2048x1024.dds
@@ -403,6 +423,7 @@ Types:
     Id: 36
     Name: Oceanic_36 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Oceanic
+    AmbientCues: [sd_planet_water_01]
     Composition: 1716
     IconPath: Planets/21
     DiffuseMap:    Model/SpaceObjects/planet_tex21_2048x1024.dds
@@ -423,6 +444,7 @@ Types:
     Id: 37
     Name: Oceanic_37 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Oceanic
+    AmbientCues: [sd_planet_water_01]
     Composition: 1716
     IconPath: Planets/21
     DiffuseMap:    Model/SpaceObjects/planet_tex21_2048x1024.dds
@@ -442,6 +464,7 @@ Types:
     Id: 14 # Mradeep:Arrachus
     Name: Desert_Arrachus
     Category: Desert
+    AmbientCues: [sd_planet_barren_01]
     Composition: 1710
     IconPath: Planets/14
     DiffuseMap:    Model/SpaceObjects/planet_tex14_2048x1024.dds
@@ -462,6 +485,7 @@ Types:
     Id: 30
     Name: Desert_30 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXT
     Category: Desert
+    AmbientCues: [sd_planet_barren_01]
     Composition: 1710
     IconPath: Planets/14
     DiffuseMap:    Model/SpaceObjects/planet_tex14_2048x1024.dds
@@ -481,6 +505,7 @@ Types:
     Id: 38
     Name: Desert_Tatooine
     Category: Desert
+    AmbientCues: [sd_planet_barren_01]
     Composition: 1710
     IconPath: Planets/14
     DiffuseMap:    Model/SpaceObjects/planet_tex14_2048x1024.dds
@@ -501,6 +526,7 @@ Types:
     Id: 11 # Pandora, Rathi:Bul
     Name: Tundra_Pandora
     Category: Tundra
+    AmbientCues: [sd_planet_barren_01]
     Composition: 1707
     IconPath: Planets/11
     DiffuseMap:    Model/SpaceObjects/planet_tex11_2048x1024.dds
@@ -520,6 +546,7 @@ Types:
     Id: 39 
     Name: Tundra_Harsh
     Category: Tundra
+    AmbientCues: [sd_planet_barren_01]
     Composition: 1707
     IconPath: Planets/11
     DiffuseMap:    Model/SpaceObjects/planet_tex11_2048x1024.dds
@@ -539,6 +566,7 @@ Types:
     Id: 40 
     Name: Tundra_Dense
     Category: Tundra
+    AmbientCues: [sd_planet_barren_01]
     Composition: 1707
     IconPath: Planets/11
     DiffuseMap:    Model/SpaceObjects/planet_tex11_2048x1024.dds
@@ -558,6 +586,7 @@ Types:
     Id: 18
     Name: Steppe_18 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Steppe
+    AmbientCues: [sd_planet_forest_01]
     Composition: 1714
     IconPath: Planets/18
     DiffuseMap:    Model/SpaceObjects/planet_tex18_2048x1024.dds
@@ -577,6 +606,7 @@ Types:
     Id: 41
     Name: Steppe_41 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Steppe
+    AmbientCues: [sd_planet_forest_01]
     Composition: 1714
     IconPath: Planets/18
     DiffuseMap:    Model/SpaceObjects/planet_tex18_2048x1024.dds
@@ -596,6 +626,7 @@ Types:
     Id: 42
     Name: Steppe_42 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Steppe
+    AmbientCues: [sd_planet_forest_01]
     Composition: 1714
     IconPath: Planets/18
     DiffuseMap:    Model/SpaceObjects/planet_tex18_2048x1024.dds
@@ -615,6 +646,7 @@ Types:
     Id: 1
     Name: Terran_1
     Category: Terran
+    AmbientCues: [sd_planet_forest_01]
     Composition: 1700
     IconPath: Planets/1
     DiffuseMap:    Model/SpaceObjects/planet_tex1_2048x1024.dds
@@ -633,6 +665,7 @@ Types:
     Id: 13
     Name: Terran_13
     Category: Terran
+    AmbientCues: [sd_planet_forest_01]
     Composition: 1709
     IconPath: Planets/13
     DiffuseMap:    Model/SpaceObjects/planet_tex13_2048x1024.dds
@@ -652,6 +685,7 @@ Types:
     Id: 22 # Kholin:Adolin
     Name: Terran_Adolin
     Category: Terran
+    AmbientCues: [sd_planet_forest_01]
     Composition: 1717
     IconPath: Planets/22
     DiffuseMap:    Model/SpaceObjects/planet_tex22_2048x1024.dds
@@ -672,6 +706,7 @@ Types:
     Id: 25
     Name: Terran_25 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Terran
+    AmbientCues: [sd_planet_forest_01]
     Composition: 1720
     IconPath: Planets/25
     DiffuseMap:    Model/SpaceObjects/earthmap1k.dds
@@ -691,6 +726,7 @@ Types:
     Id: 27 
     Name: Terran_Tor
     Category: Terran
+    AmbientCues: [sd_planet_forest_01]
     Composition: 1721
     IconPath: Planets/27
     DiffuseMap:    Model/SpaceObjects/arazius3.dds
@@ -710,6 +746,7 @@ Types:
     Id: 29
     Name: Terran_29 # TODO: GIVE DESCRIPTIVE NAMES BASED ON PLANET TEXTURE
     Category: Terran
+    AmbientCues: [sd_planet_forest_01]
     Composition: 1722
     IconPath: Planets/29
     DiffuseMap:    Model/SpaceObjects/NovaTerra_diffuse.dds
