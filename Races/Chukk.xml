@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EmpireData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PortraitName>Chukk</PortraitName>
+  <MusicCue>sd_races_Chukk</MusicCue>
+  <DiplomacyDialogPath>Chukk</DiplomacyDialogPath>
+  <StartingShip>Shuttle Ferryman Mk0</StartingShip> <!-- Terran, needs a Chukk design -->
+  <StartingScout>Unarmed Scout</StartingScout> <!-- Terran, needs a Chukk design -->
+  <PrototypeShip>Terran-Prototype</PrototypeShip> <!-- Terran, needs a Chukk design -->
+  <DefaultSmallTransport>Small Transport</DefaultSmallTransport> <!-- Terran, needs a Chukk design -->
+  <DefaultTroopShip>Human Troop</DefaultTroopShip> <!-- Terran, needs a Chukk design -->
+  <DefaultColonyShip>Colony Ship</DefaultColonyShip> <!-- Terran, needs a Chukk design -->
+  <DefaultConstructor>Terran Constructor</DefaultConstructor> <!-- Terran, needs a Chukk design -->
+  <DefaultAssaultShuttle>Terran Assault Shuttle</DefaultAssaultShuttle> <!-- Terran, needs a Chukk design -->
+  <DefaultSupplyShuttle>Terran-Supply</DefaultSupplyShuttle> <!-- Terran, needs a Chukk design -->
+  <SpacePortModel></SpacePortModel> <!-- empty = the Terran station, needs a Chukk station model -->
+  <DefaultResearchStation>Basic Research Station</DefaultResearchStation>
+  <DefaultMiningShip>Terran Mining Ship</DefaultMiningShip> <!-- Terran, needs a Chukk design -->
+  <DefaultMiningStation>Basic Mining Station</DefaultMiningStation> <!-- Terran, needs a Chukk design -->
+
+  <RebelName>Chukk Mutineers</RebelName>
+  <RebelSing>Mutineer</RebelSing>
+  <RebelPlur>Mutineers</RebelPlur>
+  <TroopNameIndex>51550</TroopNameIndex>
+  <TroopDescriptionIndex>51551</TroopDescriptionIndex>
+  <ThrustColor0R>255</ThrustColor0R> <!-- DarkOrange -->
+  <ThrustColor0G>140</ThrustColor0G>
+  <ThrustColor0B>0</ThrustColor0B>
+  <ThrustColor1R>255</ThrustColor1R> <!-- Red-orange, the hull lights -->
+  <ThrustColor1G>56</ThrustColor1G>
+  <ThrustColor1B>26</ThrustColor1B>
+
+  <PersonalityTraitsWeights>
+    <string>Aggressive</string>
+    <string>Aggressive</string>
+    <string>Aggressive</string>
+    <string>Aggressive</string>
+    <string>Ruthless</string>
+    <string>Ruthless</string>
+    <string>Ruthless</string>
+    <string>Ruthless</string>
+    <string>Cunning</string>
+    <string>Cunning</string>
+    <string>Cunning</string>
+    <string>Cunning</string>
+    <string>Xenophobic</string>
+    <string>Honorable</string>
+    <string>Pacifist</string>
+  </PersonalityTraitsWeights>
+
+  <EconomicTraitsWeights>
+    <string>Militarists</string>
+    <string>Militarists</string>
+    <string>Militarists</string>
+    <string>Expansionists</string>
+    <string>Expansionists</string>
+    <string>Expansionists</string>
+    <string>Industrialists</string>
+    <string>Industrialists</string>
+    <string>Generalists</string>
+    <string>Generalists</string>
+    <string>Technologists</string>
+  </EconomicTraitsWeights>
+
+  <Traits>
+    <Name>The Chukk Affiliation</Name>
+    <Singular>Chukk</Singular>
+    <Plural>Chukk</Plural>
+    <VideoPath>Chukk</VideoPath>
+    <ShipType>Chukk</ShipType>
+    <Adj1>silver-tongued</Adj1>
+    <Adj2>insectoid</Adj2>
+    <HomeSystemName>Chular</HomeSystemName>
+    <HomeworldName>Chull</HomeworldName>
+    <FlagIndex>10</FlagIndex>
+    <R>12</R>
+    <G>225</G>
+    <B>154</B>
+    <TraitSets> <!-- The first trait set is what the player sees. Other sets are extra sets randomized for the AI -->
+      <TraitSet>
+        <TraitOptions>
+          <string>Fertile</string>
+          <string>Eagle Eyed</string>
+          <string>Savage</string>
+          <string>Duplicitous</string>
+          <string>Salvagers</string>
+          <string>Militaristic</string>
+          <string>Repulsive</string>
+          <string>Tundra Dwellers</string>
+        </TraitOptions>
+      </TraitSet>
+      <TraitSet>
+        <TraitOptions>
+          <string>Mercantile</string>
+          <string>Naval Tradition</string>
+          <string>Duplicitous</string>
+          <string>Reflexes</string>
+          <string>Salvagers</string>
+          <string>Corrupt</string>
+          <string>Tundra Dwellers</string>
+        </TraitOptions>
+      </TraitSet>
+      <TraitSet>
+        <TraitOptions>
+          <string>Pack</string>
+          <string>Huge Homeworld</string>
+          <string>Fertile</string>
+          <string>Savage</string>
+          <string>Eagle Eyed</string>
+          <string>Gluttonous</string>
+          <string>Repulsive</string>
+          <string>Tundra Dwellers</string>
+        </TraitOptions>
+      </TraitSet>
+    </TraitSets>
+  </Traits>
+</EmpireData>
