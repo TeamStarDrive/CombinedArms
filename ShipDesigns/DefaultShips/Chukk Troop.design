@@ -1,7 +1,7 @@
 Version=1
-Name=Extractor Mk1
+Name=Chukk Troop
 Hull=Chukk/Extractor
-Role=freighter
+Role=troop
 ModName=Combined Arms
 Style=Chukk
 Size=6,8
@@ -13,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=BasicCargoHold;PowerSolar;NuclearReactorSmall;Cockpit;Engine;WarpEngine_1x1
+ModuleUIDs=BasicCargoHold;PowerSolar;NuclearReactorSmall;Cockpit;VernierThruster;WarpEngine_1x1;Engine
 Modules=24
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 2,0;0
@@ -36,7 +36,7 @@ Modules=24
 5,5;1
 1,6;0
 2,6;4
-3,6;4
+3,6;5
 4,6;0
-2,7;5
-3,7;5
+2,7;6
+3,7;6
