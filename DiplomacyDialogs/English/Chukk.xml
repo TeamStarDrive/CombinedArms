@@ -1,0 +1,709 @@
+<DiplomacyDialog>
+  <Dialogs>
+    <DialogLine>
+      <DialogType>First Contact</DialogType>
+      <Friendly>And who is this that we meet today? A surprise indeed, to meet a new race! I am Xalador Xahn of the Chukk, and you are in luck, for I am very famous!</Friendly>
+      <Neutral>Ah, more strangers crawling out of the dark! I am Xalador Xahn, and you will have heard of me. No? You will. Everyone does, eventually.</Neutral>
+      <Hostile>So, these are the PLURAL. I have looked at your ships, and I have looked at your cargo holds, and I must say, my friend, the cargo holds are much more interesting.</Hostile>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Colonized Warning</DialogType>
+      <Friendly>My friend! You have settled TARSYS. Such a pretty world, and so close to us. I am sure you will keep it safe for the Chukk, yes?</Friendly>
+      <Neutral>TARSYS was a world the Chukk had their eyes upon, SING. We have many eyes. Do not make us use all of them on you.</Neutral>
+      <Hostile>You have dug your little burrows on TARSYS. The Chukk dig deeper, my friend. Much deeper. And we always come up underneath.</Hostile>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Aggression Warning</DialogType>
+      <Friendly>Oh! One of our ships has exploded. I am sure it was an accident. But accidents are expensive, SING, and someone must pay for them.</Friendly>
+      <Neutral>You have destroyed a Chukk ship. Its captain owed me money, so I am not so sad. But now YOU owe me money.</Neutral>
+      <Hostile>You shoot at the Chukk? Bold! Foolish, but bold. Xalador Xahn will remember the name of every ship you own.</Hostile>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Warning Ships</DialogType>
+      <Friendly>My friend! What are these ships moving through our core space? We are friends, of course, but friends knock before they enter the burrow.</Friendly>
+      <Neutral>Your ships are very close to our worlds, SING. Chukk crews are always hungry for new hulls to crawl inside. For your own safety, withdraw them.</Neutral>
+      <Hostile>Such fine ships in Chukk space! Remove them, or we will remove them for you, one bolt at a time, and sell the bolts.</Hostile>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Warning Ships then Colonized</DialogType>
+      <Friendly>First your ships wander through our space, and now you settle TARSYS. My friend, it is as if you are robbing my house while I watch. Only the Chukk are allowed to do that!</Friendly>
+      <Neutral>We warned you about your ships, and now you take TARSYS as well. Xalador Xahn is a patient leader, SING. He is also a famous liar.</Neutral>
+      <Hostile>Ships in our space, and now a colony on TARSYS! You are a thief, SING, and the Chukk know exactly what to do with thieves. We hire the good ones and we eat the rest.</Hostile>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Warning Colonized then Ships</DialogType>
+      <Friendly>You settle TARSYS, and now you bring warships as well? My friend, this is starting to look like a plan, and the Chukk do not like plans that are not ours.</Friendly>
+      <Neutral>We have been patient about TARSYS, SING. But these ships? Patience is not a famous Chukk quality.</Neutral>
+      <Hostile>First TARSYS, now warships in our space. You are making a very expensive mistake, SING, and we will collect every credit of it.</Hostile>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Declare War</DialogType>
+      <misc1>I told you I was famous, but did I ever say what I was famous for? It is for mercilessness in battle, my friend!</misc1>
+      <misc2>The Chukk clans are coming for your worlds, your ships and your gold. Mostly the gold.</misc2>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Dunno_Anybody</DialogType>
+      <Default>Others? Out there? We have not met them yet, my friend. But if they have gold, we will find them.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Greeting</DialogType>
+      <Friendly>And so you return! I told you that Xalador Xahn was very famous! What is it that we shall discuss, my friend?</Friendly>
+      <Neutral>In Chukk culture, we often take what we want! But of course, not from good friends like you. What have you got to offer?</Neutral>
+      <Hostile>You again, SING. Speak quickly. Every moment I spend talking to you is a moment I am not counting my gold.</Hostile>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Racial_Inquiry_1</DialogType>
+      <Default>Is it true that the Chukk live underground?</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Racial_Response_1</DialogType>
+      <Default>Of course! The open sky is very rude, it lets everyone see you coming. In a tunnel, only your victims know you are coming, and only briefly.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>AboutUS</DialogType>
+      <DL_Agg>We Chukk take what we want, SING, and we want very much. That is all you need to know. </DL_Agg>
+      <DL_Hon>There is honor among thieves, my friend, and the Chukk are the most honorable thieves in the galaxy. We always pay our debts. Eventually. </DL_Hon>
+      <DL_Pac>Why fight when you can trade? A dead customer pays nothing, and a living one pays again and again. </DL_Pac>
+      <DL_Ruth>The weak exist to be robbed, SING. It is the natural order, and who are we to argue with nature? </DL_Ruth>
+      <DL_Cunn>A Chukk does not knock on the front door. We crawl in through the vents while you are busy watching the front door. </DL_Cunn>
+      <DL_Xeno>Why should we tell you our secrets? So you can rob us? Ha! Nobody robs the Chukk. </DL_Xeno>
+      <DL_Exp>And there are so many worlds out there, full of tunnels waiting to be dug and riches waiting to be taken!</DL_Exp>
+      <DL_Tech>And this StarDrive! We Chukk invented it, can you believe? I could not. Imagine what we will steal next. I mean, invent.</DL_Tech>
+      <DL_Mil>Our fleets are many and our crews are very hungry. Fear them, my friend. Everyone else does.</DL_Mil>
+      <DL_Ind>Under every Chukk world there are mines, and in every mine there are a thousand Chukk, digging for Xalador Xahn.</DL_Ind>
+      <DL_Gen>We are simple creatures, really. Some piracy, some trade, some murder. A balanced life!</DL_Gen>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_InsufficientTrust</DialogType>
+      <Default>Ah, how tempting your offer does appear. However, the trust of the Chukk people must be earned, my friend, and you have not earned it yet.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_AcceptGreatOffer_LowTrust</DialogType>
+      <Default>We do not know you, SING, and we do not trust you. But we do trust this offer! We accept.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_Reject_PoorOffer_LowTrust</DialogType>
+      <Default>My friend, you miss the point here. It is not a matter of how much profit we wish to make. It is a matter of our people simply not liking you enough for such a deal.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_Reject_PoorOffer_EnoughTrust</DialogType>
+      <Default>I am almost not insulted! Give us more to make this work.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_Reject_Insulting</DialogType>
+      <Default>This is outrageous! Your people must have some perverted sense of humor that I do not understand.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_Accept_Fair</DialogType>
+      <Default>With much wringing of the claws and counting of the ledgers, Xalador Xahn agrees to make this deal.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_Accept_Good</DialogType>
+      <Default>A fine trade! Xalador Xahn does indeed like the sound of coins in his purse. Then it is done. Until next time, my friend.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_Accept_Great</DialogType>
+      <Default>Aha! Your species is obviously filled with a cunning generosity, to offer me such a tantalizing deal! Of course we accept!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_Accept_Gift</DialogType>
+      <Default>My friend! Your generosity of spirit is exceeded only by your generosity with valuable trade items! We deeply and humbly thank you.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_Accept_Fair_Pleading</DialogType>
+      <Default>Such sweet begging, SING! It is like music to Xalador Xahn. Very well, we accept.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_InsufficientFear</DialogType>
+      <Default>We Chukk are not so easily scared by threatening words. Now, do you carry through your threat or no?</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_Accept_Fair_Threatening</DialogType>
+      <Default>Yes, yes, there is no call for such hard words when cool heads and fair trading can make a deal. We accept.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OfferResponse_Accept_Bad_Threatening</DialogType>
+      <Default>Hmmm. Yes, then perhaps we must accept. However, I do not think that we shall be friends any longer, SING.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>WarDeclared_FeelsBetrayed</DialogType>
+      <Default>You smiled at me, SING, and then you stabbed me. I am almost proud of you. Almost. Now I shall enjoy dining on your corpse!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>WarDeclared_Generic</DialogType>
+      <Default>I told you I was famous, but did I ever say what I was famous for? No? It is for mercilessness in battle, my friend. I shall enjoy dining on your corpse!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Greeting_AtWar</DialogType>
+      <Default>Ah, SING! Have you come to reconsider the error of your ways in warring against Xalador Xahn? If so, I am listening to your begging beginning . . . now.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Declare War Defense</DialogType>
+      <Default>You destroy our ships, so now we destroy yours. This is only good bookkeeping, my friend. We are at war.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Declare War BC</DialogType>
+      <Default>We asked you so nicely to stay out of our territory, my friend. When the Chukk ask nicely, it is the only time we ask. Now we come to kill you.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Declare War BC TarSys</DialogType>
+      <Default>You sadden us, friend, because we must now kill you to make good on our claim to TARSYS. Nothing personal. Well, a little personal.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Offer NAPact</DialogType>
+      <Default>My friend, here is a wonderful idea. You do not attack us, and we do not attack you. Very cheap for both of us, and the Chukk love cheap things!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>NAPact Accepted</DialogType>
+      <Default>A deal well done! Now we can turn our knives toward somebody else. Not you, of course.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>NAPact Rejected</DialogType>
+      <Default>No? Then perhaps one day you will wake to find Chukk crawling through your hulls. Remember that you were offered a better way.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Offer Trade</DialogType>
+      <Default>Did you know that, for a very low price, the many fine goods of the Chukk people could be yours? And we are also interested in your goods! Come, let us trade!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Trade Accepted</DialogType>
+      <Default>Wonderful! Our freighters will be very honest. Mostly honest. Honest enough!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Trade Rejected</DialogType>
+      <Default>You refuse the finest goods in the galaxy? Most of them were even paid for! A pity, SING.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>ComeAround_NAPACT</DialogType>
+      <Default>Ah, you have reconsidered our little peace arrangement! Wise. Xalador Xahn knew you were clever.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>ComeAround_TRADE</DialogType>
+      <Default>So now you wish to trade after all! Of course, my friend. The prices have gone up, but only a little.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Xeno Demand Tech</DialogType>
+      <Default>Ah hello, my friend! We have a wonderful proposal for you today. You give us TECH_DEMAND, and in exchange we do not kill and eat you. A good deal for all, yes?</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Xeno Demand Tech Accepted</DialogType>
+      <Default>A wise choice, my friend! You keep your life and we keep your technology. Everybody wins, but mostly us.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Xeno Demand Tech Rejected</DialogType>
+      <Default>You refuse? Greedy! The Chukk know greed when we see it, SING, for we invented it. We will remember this.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Insult Military</DialogType>
+      <Default>Your fleet is so small, SING! Our pirates will be very sad, there is so little to steal.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Compliment Military</DialogType>
+      <Default>Such a fleet! Such fine hulls! It makes the claws of a Chukk captain itch, my friend. In a friendly way.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Compliment Military Better</DialogType>
+      <Default>Your fleet has grown much fatter since last we looked, PLURAL. Very impressive! Also very tempting.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Declare War Imperialism</DialogType>
+      <Default>You have so many fine worlds, my friend, and the Chukk have so few. This is not fair, so now we come to share them. Our way.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Kulrathi</DialogType>
+      <Default>The great furry bears! They fight with honor, which is very strange, but they also pay their debts on time, which is very good.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Kulrathi</DialogType>
+      <Default>The Kulrathi? Very big, very loud, very fond of swords. They would make fine rugs for the Throne of Chukk, but we have not decided yet.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Kulrathi</DialogType>
+      <Default>Proud bears with their honor and their poems! Honor does not stop a knife in the dark, my friend, and their pelts would fetch a very fine price.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Pollops</DialogType>
+      <Default>The plant people! So gentle and so generous. We have robbed them three times and still they send us gifts. Wonderful creatures!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Pollops</DialogType>
+      <Default>The Pollops? They are plants. We tried to eat one once. It tasted of nothing, and then it asked us how our day was going.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Pollops</DialogType>
+      <Default>Walking salads with opinions! They lecture us about kindness. Kindness has never paid a single Chukk debt.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Vulfen</DialogType>
+      <Default>The Vulfar know that strength takes what it wants. On this we agree, though they are not so good at counting the spoils afterwards.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Vulfen</DialogType>
+      <Default>The Vulfar? Hairy, angry and not so clever. Excellent customers, my friend. They never check the price.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Vulfen</DialogType>
+      <Default>The Vulfar bite first and think never. The Chukk prefer to do our thinking first and our biting after.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Cordrazine</DialogType>
+      <Default>The Cordrazine keep a whole race of little furry workers. Such efficient business! We have much to learn from them.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Cordrazine</DialogType>
+      <Default>The Cordrazine hang from their ceilings and stare at you. Very rude. Even the Chukk only stare from the vents.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Cordrazine</DialogType>
+      <Default>They enslave the little furry ones and call it civilization. We would free those little ones, my friend, and then sell them at a much better price.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Ralyeh</DialogType>
+      <Default>The Ralyeh worship old and terrible gods. The Chukk worship gold, but we can respect devotion in any form.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Ralyeh</DialogType>
+      <Default>The Ralyeh? Death worshippers. We do not visit. Not because we are afraid, but because their temples have nothing worth stealing.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Ralyeh</DialogType>
+      <Default>They pray to things that sleep beneath the stars. The Chukk also live beneath things, my friend, and we do not need anybody to pray to us. Only to pay us.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Declare War Imperialism Break NA</DialogType>
+      <Default>Remember our little peace agreement, my friend? It has expired. Just now. Your worlds are too fat and too close, and the Chukk are very hungry.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Conquered_Player</DialogType>
+      <Default>And so it ends! Your worlds are ours, your gold is ours, and your throne we will sell. The Chukk already have a better one.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Offer Open Borders</DialogType>
+      <Default>My friend, why should our ships hide from each other? Let us sign this treaty, and our ships may fly wherever they please. Very trustworthy ships, ours.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Open Borders Accepted</DialogType>
+      <Default>Wonderful! Our captains will be on their very best behavior. Mostly.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Open Borders Rejected</DialogType>
+      <Default>You do not trust our ships? Very wise, my friend, but also very rude.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Invaded NA Pact</DialogType>
+      <Default>You signed our peace and then you invaded us? I am almost proud of you, SING. Almost. Now I am only angry.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Invaded Start War</DialogType>
+      <Default>You land troops on a Chukk world? Then you have started something you cannot finish, SING. Our tunnels go very deep.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Opteris</DialogType>
+      <Default>The Opteris are so efficient! They build, they work, they never complain about the price. We like them very much.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Opteris</DialogType>
+      <Default>Insects of metal. We are insects too, but of flesh, and much more charming. We have nothing else to say about them.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Opteris</DialogType>
+      <Default>You cannot bribe a machine, you cannot flatter a machine and you cannot eat a machine. What good are the Opteris to anyone?</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Terran</DialogType>
+      <Default>The Humans! Soft, clever, and they love a good deal as much as we do. Almost as much.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Terran</DialogType>
+      <Default>Humans? They talk very much and their ships are full of shiny things. We are watching them with great interest.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Terran</DialogType>
+      <Default>The Humans think they are clever merchants. They have not yet met a real Chukk merchant. They will. Once.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Claim System</DialogType>
+      <Friendly>My friend! The TARSYS system is within our sphere of influence. You understand, yes? Of course you do. Such good friends.</Friendly>
+      <Neutral>TARSYS belongs to the Chukk, SING. Stay away from it, and we stay friends.</Neutral>
+      <Hostile>If your ships go near TARSYS, the Chukk will take them apart and sell the parts back to you. At a markup.</Hostile>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Stole Claim</DialogType>
+      <Default>You took TARSYS, which was ours! Nobody steals from the Chukk, SING. That is our job!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_JustMetUs</DialogType>
+      <Default>We have only just met, my friend! I do not yet know if you are a friend, a customer or dinner.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_NoProblems</DialogType>
+      <Default>You and I, SING, we have no problems. Yet. Let us keep it that way, yes?</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Problems</DialogType>
+      <Default>There are some problems between us, my friend. Xalador Xahn is a very forgiving leader, but not for free.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Problem_JustTerritorial</DialogType>
+      <Default>Only one small problem, SING. You are standing on things that belong to the Chukk. Move, and we are friends again.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Problem_Territorial</DialogType>
+      <Default>You crawl into our territory and you plant flags on our claims. That is what the Chukk do, my friend, not what is done to the Chukk.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Problem_AlsoMilitary</DialogType>
+      <Default>And your fleet grows so very large! It makes us nervous, and when the Chukk are nervous, we stab things.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Problem_AlsoMilitaryWeak</DialogType>
+      <Default>Also, your fleet is very small, SING. Small fleets are very tempting to Chukk captains. I tell you this as a friend.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Problem_MilitaryWeak</DialogType>
+      <Default>Your fleet is so weak, my friend! A pirate looks at your ships and sees a feast. I am only warning you. For now.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Problem_PrimaryMilitary</DialogType>
+      <Default>Your warships, SING. So many of them, and so close to us. Why does a peaceful merchant like you need so many guns?</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Problem_AlliedWithEnemy</DialogType>
+      <Default>You are friends with TAREMP, my friend. The Chukk do not share their friends with their enemies.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Problem_AlsoAlliedWithEnemy</DialogType>
+      <Default>And also, you are allied with TAREMP. Choose your friends well, SING. Or we will choose for you.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_NothingMajor</DialogType>
+      <Default>Nothing so terrible between us, my friend. A little suspicion here, a little greed there. It is healthy!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>AtWar_Winning</DialogType>
+      <Default>And so you wish to buy your life? Very well. I am listening to hear what you think your life is worth.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>AtWar_Losing</DialogType>
+      <Default>Ahh, SING! Peace, of course! Such a grand idea, don't you agree? And perhaps we can offer a small token of our appreciation? Just name your price.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>HelpUS_War</DialogType>
+      <Default>My friend, the Chukk are at war with TAREMP, and they have so many fine worlds to loot! Join us, and we share the spoils. Fairly! More or less.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>HelpUS_War_Yes</DialogType>
+      <Default>Wonderful! Together we will take everything they have. And then we will count it. Very carefully.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>HelpUS_War_No</DialogType>
+      <Default>No? Then we keep all the loot for ourselves. Remember this when you are poor, SING.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Draylok</DialogType>
+      <Default>The Draylok wear their masks and hide their faces. A people who understand the value of a good disguise! We like them.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Draylok</DialogType>
+      <Default>The Draylok live on hot desert worlds. A Chukk needs good dark tunnels, so we leave them their sand.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Draylok</DialogType>
+      <Default>They hide behind masks and pretend to be noble. The Chukk are honest liars, my friend. The Draylok are only liars.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Dauntless</DialogType>
+      <Default>The Dauntless! They are iron and appetite, as we are fangs and appetite. We understand each other very well.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Dauntless</DialogType>
+      <Default>The Dauntless bolt metal onto themselves. Very fashionable. We are still deciding if they are customers or cargo.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Dauntless</DialogType>
+      <Default>The Dauntless think they are the most frightening thing in the galaxy. They have never seen a Chukk boarding party come out of the walls.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Declare War Defense BrokenNA</DialogType>
+      <Default>You broke our peace, SING! Do you know how rare it is for someone to betray the Chukk before the Chukk betray them? Now we come for you.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFERPEACE_FAIR</DialogType>
+      <Default>Ah hello, my friend! You are looking most regal today! Very handsome indeed! I believe now is a wonderful time for us to end this conflict with a treaty. Don't you agree?</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFERPEACE_FAIR_WINNING</DialogType>
+      <Default>We are winning, SING, and still Xalador Xahn offers you peace. Such generosity! Take it before I change my mind.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFERPEACE_EVENLY_MATCHED</DialogType>
+      <Default>This war costs us both much gold, my friend, and gold is the only thing worth dying for. Let us stop dying and start trading.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFERPEACE_PLEADING</DialogType>
+      <Default>Most magnificent conqueror! We humble ourselves before you. Please, let us end this terrible conflict before more lives are lost.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFERPEACE_LOSINGBC</DialogType>
+      <Default>Your claims, our claims, so much fighting over little rocks! Keep your claims, my friend, and give us peace.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFERPEACE_WINNINGBC</DialogType>
+      <Default>We have taken what we came for, SING. Sign this treaty and we will stop taking. For now.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFERPEACE_REJECTED</DialogType>
+      <Default>You refuse? Then the Chukk will keep eating your fleets, one ship at a time. Delicious.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFERPEACE_ACCEPTED</DialogType>
+      <Default>Then once more there shall be peace! A deal well done, my friend! I am sorry for saying that I would eat your corpse earlier.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>ACCEPT_OFFER_PEACE</DialogType>
+      <Default>Peace! What a lovely word. Very well, my friend, we accept.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>REJECT_OFFER_PEACE_POOROFFER</DialogType>
+      <Default>You want peace, but you offer us nothing? In Chukk culture, peace is something you buy, my friend. Bring more.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>REJECT_OFFER_PEACE_UNWILLING_BC</DialogType>
+      <Default>Oh, but of course you would like to have peace with Xalador Xahn! But he will not make peace while you sit on worlds that the Chukk have claimed.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>ACCEPT_OFFER_PEACE_RELUCTANT</DialogType>
+      <Default>Ugh, very well. Peace. But only because a long war is very bad for business.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>PROBLEM_RECENTWAR</DialogType>
+      <Default>We were at war very recently, SING. My crews still remember the taste of it. Give them time to forget.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFER_ALLIANCE</DialogType>
+      <Default>My friend! Imagine the Chukk and the PLURAL together, taking everything from everyone. Is this not a beautiful dream? Let us make it real with an alliance!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>ALLIANCE_ACCEPTED</DialogType>
+      <Default>Wonderful! Now we are true friends, and true friends share everything. Especially the loot.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>ALLIANCE_REJECTED</DialogType>
+      <Default>You refuse the friendship of the Chukk? Very well. Friendship was much cheaper than the alternative, my friend.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFER_ALLIANCE_TOO_COMPLICATED</DialogType>
+      <Default>So many conditions! An alliance is a simple thing, my friend. You, me and other people's gold. Take away the rest and we will talk.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>AI_ALLIANCE_ACCEPT</DialogType>
+      <Default>An alliance with Xalador Xahn! You have chosen very well, SING. Very, very well.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>AI_ALLIANCE_REJECT</DialogType>
+      <Default>An alliance? With you? Ha! The Chukk do not tie their fortunes to strangers.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>TREATY_TOO_SOON_REJECT</DialogType>
+      <Default>So soon? My friend, even the Chukk do not move this fast, and we are very fast.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>REJECT_PEACE_RUTHLESS</DialogType>
+      <Default>Peace? No, no. We are having far too much fun taking your things.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>ACCEPT_PEACE_COLDWAR</DialogType>
+      <Default>Very well, peace. But do not think we are friends now, SING. We are only resting our claws.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>HelpUS_War_No_BreakAlliance</DialogType>
+      <Default>Allies who will not help us loot are not allies. They are only competition. Our alliance is finished, SING.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Stole Claim 2</DialogType>
+      <Default>Again you take what belongs to the Chukk! TARSYS was ours, and we always collect our debts.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Stole Claim 3</DialogType>
+      <Default>TARSYS as well? Xalador Xahn is losing his patience, SING, and he did not have very much to begin with.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Caught_Spying_1</DialogType>
+      <Default>We found your spy crawling through our ventilation shafts, SING. Very amateur. Those are OUR shafts.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Caught_Spying_2</DialogType>
+      <Default>Another spy! My friend, if you want to know our secrets, you only have to pay. Spying is so much more expensive.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Caught_Spying_3</DialogType>
+      <Default>Spies, spies and more spies! Our treaties are finished, SING. If you want to steal from the Chukk, at least be good at it.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Killed_Spy_1</DialogType>
+      <Default>We caught your spy, my friend. He was delicious. Send another, the crew is still hungry.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Caught_Spying_Ally_1</DialogType>
+      <Default>We are allies, SING, and still you send spies? I am almost impressed. Almost. Do not do it again.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Caught_Spying_Ally_2</DialogType>
+      <Default>Spying on your own allies! You are more Chukk than the Chukk. But we do not keep allies like that. We are finished.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Offer Open Borders Friends</DialogType>
+      <Default>We are such good friends, you and I! Why should our ships fly around each other? Let us open our borders, yes?</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Open Borders Friends Rejected</DialogType>
+      <Default>You do not trust your good friend Xalador Xahn? Very well. I will not forget this. I never forget anything.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Federation_JustMet</DialogType>
+      <Default>Join our peoples together? We have only just met, my friend! At least bring me a gift first.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Federation_NoAlliance</DialogType>
+      <Default>Become one people? We are not even allies yet, SING. First an alliance, then we talk about the rest.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Federation_AllianceTooYoung</DialogType>
+      <Default>Our alliance is still a baby, my friend. Let it grow some teeth first. Golden ones, preferably.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Federation_WeAreTooStrong</DialogType>
+      <Default>You wish to take in the Chukk? We are much too strong to be anybody's property, SING. If anything, we should take you.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Federation_WeAreNotWeak</DialogType>
+      <Default>You have been a fine ally, SING, but the Chukk are not so weak that we need to be swallowed. Not yet.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Federation_Accept</DialogType>
+      <Default>Very well! Our clans become your clans, and our gold becomes your gold. Count it carefully, my friend. Some of it bites.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Federation_Quest_DestroyEnemy</DialogType>
+      <Default>I will tell you how to earn the Chukk, my friend. Destroy TAREMP and bring me what is left. Then we talk.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Federation_YouDidIt_KilledEnemy</DialogType>
+      <Default>So TAREMP is no more! Such fine work, my friend. The Chukk clans will gladly follow such a leader.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Federation_RelationsPoor</DialogType>
+      <Default>Join with you? Ha! We do not even like you, SING.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Federation_Quest_AllyFriend</DialogType>
+      <Default>Become one people? Perhaps. But first, make peace with TAREMP and make them your allies. The Chukk want rich friends, not angry neighbors.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Federation_YouDidIt_AllyFriend</DialogType>
+      <Default>You and TAREMP are friends now! Wonderful, such a large family. The Chukk will join, and we will keep a very close eye on the family silver.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>JoinWar_YouAreNotAtWar</DialogType>
+      <Default>Join your war? But you are not at war with anybody, my friend! Start one first, and then we talk about prices.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>JoinWar_WeAreAtWar</DialogType>
+      <Default>We are already at war with TAREMP, my friend! Have you not seen the smoke? Or heard the screaming?</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>JoinWar_Allied_OK</DialogType>
+      <Default>For an ally, of course! TAREMP has many fine things that will look much better in Chukk hands.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>JoinWar_Allied_DECLINE</DialogType>
+      <Default>TAREMP is our ally, my friend. Even the Chukk do not betray an ally. Not for this price, anyway.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>JoinWar_Reject_PoorRelations</DialogType>
+      <Default>Fight your war for you? We do not even like you, SING. Go and die by yourself.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>JoinWar_Reject_Pacifist</DialogType>
+      <Default>War is very bad for business right now, my friend. Our merchants are making too much money to stop.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>JoinWar_Reject_TooDangerous</DialogType>
+      <Default>Against TAREMP? They are much too strong, my friend. The Chukk are greedy, but we are not stupid.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>JoinWar_OK</DialogType>
+      <Default>A war! With loot! The Chukk are always ready for such things. We will join you, SING.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>REJECT_OFFER_PEACE_ALLIED_WITH_ENEMY</DialogType>
+      <Default>Peace with you, while you are allied with our enemies? My friend, do I look stupid? Do not answer that.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>AI_ALLIANCE_REJECT_ALLIED_WITH_ENEMY</DialogType>
+      <Default>You are allied with our enemies, SING. Break that alliance first, and then perhaps we shall talk.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>CUTTING_DEALS_WITH_ENEMY</DialogType>
+      <Default>You make treaties with our enemies, behind our backs! Even the Chukk would not do that. Well, we would, but we would not get caught.</Default>
+      <DL_Agg>Our alliance is finished!</DL_Agg>
+      <DL_Ruth>You are no longer worth our time. Goodbye.</DL_Ruth>
+      <DL_Xeno>We knew we could not trust outsiders. Everything is finished!</DL_Xeno>
+      <DL_Cunn>Very clever, my friend. I see what you are doing, and I will remember it.</DL_Cunn>
+      <DL_Pac>Next time, trade with our friends, not with our enemies.</DL_Pac>
+      <DL_Hon>Even thieves have a code, SING. You have broken it, and our relations are finished.</DL_Hon>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>TRIED_CUTTING_DEALS_WITH_ENEMY</DialogType>
+      <Default>You tried to make deals with our enemies, behind our backs! Even the Chukk would not try that. Well, we would, but we would not fail.</Default>
+      <DL_Agg>Our alliance is finished!</DL_Agg>
+      <DL_Ruth>You are no longer worth our time. Goodbye.</DL_Ruth>
+      <DL_Xeno>We knew we could not trust outsiders. Everything is finished!</DL_Xeno>
+      <DL_Cunn>Very clever, my friend. I see what you are doing, and I will remember it.</DL_Cunn>
+      <DL_Pac>Next time, trade with our friends, not with our enemies.</DL_Pac>
+      <DL_Hon>Even thieves have a code, SING. You have broken it, and our relations are finished.</DL_Hon>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>SURRENDER</DialogType>
+      <Default>Enough, enough! The Chukk surrender. Take what you want, my friend. Just leave Xalador Xahn his purse.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFER_MERGE</DialogType>
+      <Default>My friend, our clans are losing too many wars. We offer to join your empire. You get our worlds, our ships and our charming personalities.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFER_MERGE_ACCEPTED</DialogType>
+      <Default>Wonderful! Here is everything you need to rule the Chukk. Keep one eye on your purse.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>OFFER_MERGE_REJECTED</DialogType>
+      <Default>You leave us to die? After all the gifts we would have given you? Very cold, my friend.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>PLAYER_ALLIED_WAR_CONTRIBUTION_WARNING</DialogType>
+      <DL_Agg>Fight harder in our war, PLURAL, or we will find allies who do!</DL_Agg>
+      <DL_Ruth>Your help in our war is pathetic. This is your final warning.</DL_Ruth>
+      <DL_Xeno>Why are you not fighting in our war? We knew outsiders could not be trusted.</DL_Xeno>
+      <DL_Cunn>Ah, SING, are you hoping the Chukk will do all the dying while you count the loot? That is OUR trick.</DL_Cunn>
+      <DL_Pac>My friend, you asked us into this war. It would be very nice if you also fought in it.</DL_Pac>
+      <DL_Hon>You asked for our help and now you hide. Even thieves keep their word, SING.</DL_Hon>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>PLAYER_ALLIED_WAR_CONTRIBUTION_ACTION</DialogType>
+      <DL_Agg>Enough! You do nothing in our war, so we are done with you.</DL_Agg>
+      <DL_Ruth>You are useless to us. Our alliance is finished.</DL_Ruth>
+      <DL_Xeno>Traitor! We will not fight beside you any longer.</DL_Xeno>
+      <DL_Cunn>You wanted the Chukk to fight your war for free. Clever, but not clever enough. We are done.</DL_Cunn>
+      <DL_Pac>You pulled us into this war and then did nothing. Perhaps we will make peace with them, and end our friendship with you.</DL_Pac>
+      <DL_Hon>You broke your word in our war, PLURAL. The Chukk do not keep allies without honor.</DL_Hon>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>TRUST_LOW_ALLIANCE</DialogType>
+      <Default>An alliance with you? You are not a trustworthy friend, SING, and the Chukk know about such things.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>TRUST_LOW_OPEN_BORDERS</DialogType>
+      <Default>Open our borders to you? No, my friend. We do not trust your ships near our cargo.</Default>
+    </DialogLine>
+  </Dialogs>
+</DiplomacyDialog>
