@@ -1,9 +1,9 @@
-﻿Version=1
+Version=1
 HullName=Chukk/Raider
 VisibleName=Raider
 Role=corvette
 Style=Chukk
-Size=3,3
+Size=10,6
 MeshOffset=0,0
 IconPath=ShipIcons/icon_Raider
 ModelPath=mod models/Chukk/ship20b
@@ -11,8 +11,11 @@ Animated=false
 IsShipyard=false
 IsOrbitalDefense=false
 #Thruster PosX,PosY,PosZ,Scale
-Thruster=-2,38,3,23
+Thruster=-0,38,3,30
 Slots
-I  |I  |I  
-I  |IC |I  
-I  |I  |I  
+O  |___|___|___|___|___|___|___|___|O  
+O  |O  |___|O  |O  |O  |O  |___|O  |O  
+O  |IO |IO |IO |IO |IO |IO |IO |IO |O  
+___|O  |IO |IO |IO |IOC|IO |IO |O  |___
+___|___|O  |OE |___|___|OE |O  |___|___
+___|___|___|OE |OE |OE |OE |___|___|___
