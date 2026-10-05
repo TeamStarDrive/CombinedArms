@@ -1,29 +1,22 @@
 Version=1
-Name=Pincer Scout
-Hull=Chukk/Pincer
-Role=scout
+Name=Chukk Attack Drone
+Hull=Chukk/Gnat
+Role=drone
 ModName=Combined Arms
 Style=Chukk
-Size=6,4
-GridCenter=3,2
+Size=2,2
+GridCenter=1,1
 DefaultCombatState=Artillery
 ShipCategory=Unclassified
 HangarDesignation=General
 IsShipyard=false
 IsOrbitalDefense=false
-IsCarrierOnly=false
+IsCarrierOnly=true
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Structure;Sensor1x2;NuclearReactorSmall;Cockpit;engine_fighter_1x1;WarpEngine_1x1
-Modules=11
+ModuleUIDs=DroneCannon1x1;DroneEngine_I;CommandModule_I
+Modules=4
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 0,0;0
-5,0;0
-0,1;0
-2,1;1;2,1
-5,1;0
-1,2;0
-2,2;2
-3,2;3
-4,2;0
-2,3;4
-3,3;5
+1,0;0
+0,1;1
+1,1;2

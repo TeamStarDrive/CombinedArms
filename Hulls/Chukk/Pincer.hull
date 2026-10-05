@@ -4,16 +4,16 @@ VisibleName=Pincer
 Role=fighter
 Style=Chukk
 Size=6,4
-MeshOffset=0,0
+MeshOffset=0,-4
 IconPath=ShipIcons/icon_Pincer
 ModelPath=mod models/Chukk/ship20a
 Animated=false
 IsShipyard=false
 IsOrbitalDefense=false
 #Thruster PosX,PosY,PosZ,Scale
-Thruster=-0,15,-3,25
+Thruster=0,15,-3,30
 Slots
-___|___|O  |O  |___|___
-___|IO |I  |I  |IO |___
-IO |___|I  |IC |___|IO 
-OE |___|___|___|___|OE 
+O  |___|___|___|___|O  
+IO |___|IO |IO |___|IO 
+___|IO |I  |IC |IO |___
+___|___|E  |E  |___|___
