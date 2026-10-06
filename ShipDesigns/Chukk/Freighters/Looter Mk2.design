@@ -1,0 +1,36 @@
+Version=1
+Name=Looter Mk2
+Hull=Chukk/Looter
+Role=freighter
+ModName=Combined Arms
+Style=Chukk
+Size=6,11
+GridCenter=3,7
+DefaultCombatState=Artillery
+ShipCategory=Civilian
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=MediumCargoHold;jumpdrive2x2;Cockpit;Fusion Reactor;BasicCargoHold;PlasmaTorchThruster;MedOverdrive;WarpEngine_1x1;2x1Twinengines
+Modules=18
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0;2,2
+1,2;0;2,2
+3,2;0;2,2
+1,4;0;2,2
+3,4;1;2,2
+1,6;2
+2,6;3;2,2
+4,6;4
+1,7;4
+4,7;4
+0,8;5
+1,8;4
+2,8;6;2,2
+4,8;4
+5,8;5
+1,9;7
+4,9;7
+2,10;8;2,1
