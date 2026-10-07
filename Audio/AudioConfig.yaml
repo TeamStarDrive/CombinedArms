@@ -1072,17 +1072,77 @@
       Volume: 1.0
       Sound: "RacialMusic/sd_races_Chukk.m4a"
 
-- Category: # Race warp sounds
+- Category: # Race warp sounds; CA's own warp files play at 75%
   Name: Warp
   SoundEffects:
     - SoundEffect:
       Id: sd_warp_start_chukk_01
-      Volume: 1.0
+      Volume: 0.75
       Sound: "Warp/sd_warp_start_chukk_01.m4a"
     - SoundEffect:
       Id: sd_warp_stop_chukk_01
-      Volume: 1.0
+      Volume: 0.75
       Sound: "Warp/sd_warp_stop_chukk_01.m4a"
+    - SoundEffect:
+      Id: sd_warp_start_cordrazine_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_draylok_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_kulrathi_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_opteris_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_pollops_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_ralyeh_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_vulfen_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_small
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_02
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_large
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_cordrazine_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_draylok_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_kulrathi_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_opteris_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_pollops_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_ralyeh_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_vulfen_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_small
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_large
+      Volume: 0.75
 
 - Category: # Planet ambience beds
   Name: PlanetAmbient
