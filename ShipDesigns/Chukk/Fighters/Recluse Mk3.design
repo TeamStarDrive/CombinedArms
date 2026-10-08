@@ -1,0 +1,34 @@
+Version=1
+Name=Recluse Mk3
+Hull=Chukk/Recluse
+Role=fighter
+ModName=Combined Arms
+Style=Chukk
+Size=6,5
+GridCenter=3,3
+DefaultCombatState=AttackRuns
+ShipCategory=Neutral
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=NeedlerAP1x2;OrdnanceLockerSmall;SmallCraftBattleShield;Advanced Fighter Generator;2x1Twinengines;Cockpit;BasicFuelCell
+Modules=16
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+1,0;0;1,2
+4,0;0;1,2
+0,2;1
+1,2;2
+2,2;3
+3,2;3
+4,2;2
+5,2;1
+1,3;3
+2,3;4;2,1
+4,3;5
+0,4;6
+1,4;1
+2,4;4;2,1
+4,4;1
+5,4;6
