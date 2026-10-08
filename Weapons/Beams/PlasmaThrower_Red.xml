@@ -8,13 +8,13 @@
   <FireDelay>0.05</FireDelay>
   <Range>800</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0.2</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>0.1</OrdinanceRequiredToFire>
   <!-- name of XACT audio cue to play on firing this weapon -->
   <FireCueName>HP_Plasma_Thrower</FireCueName>
   <ToggleSoundName>sd_weapon_flame_loop_01</ToggleSoundName>
   <Name>PlasmaThrower</Name>
   <!-- Projectile Information -->
-  <DamageAmount>40</DamageAmount>
+  <DamageAmount>20</DamageAmount>
   
   <ProjectileSpeed>1500</ProjectileSpeed>
   <EffectVsShields>1.2</EffectVsShields>
@@ -26,5 +26,5 @@
   <WeaponHitEffect></WeaponHitEffect>
   <WeaponDeathEffect></WeaponDeathEffect>  
   <ProjectileRadius>5</ProjectileRadius>
-  <OffPowerMod>0.25</OffPowerMod>
+  <OffPowerMod>0.5</OffPowerMod>
 </Weapon>
