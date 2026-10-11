@@ -244,6 +244,19 @@
   MaxConcurrentSoundsPerEffect: 32 # The maximum number of sounds that can be played at the same time for each sound effect, 0 for unlimited
   MaxSoundsPerFrame: 2 # The maximum number of sounds that can be played per frame, 0 for unlimited
   SoundEffects:
+    - SoundEffect: # Mass driver and heavy cannon hits: the ship explosions above; vanilla caps it at 8
+      Id: sd_weapon_impact_explode_01
+      Volume: 1.0
+      Sounds:
+        - "Explosions/SD_Explosion_00.m4a"
+        - "Explosions/SD_Explosion_01.m4a"
+        - "Explosions/SD_Explosion_02.m4a"
+        - "Explosions/SD_Explosion_03.m4a"
+        - "Explosions/SD_Explosion_04.m4a"
+        - "Explosions/SD_Explosion_05.m4a"
+        - "Explosions/SD_Explosion_06.m4a"
+        - "Explosions/SD_Explosion_07.m4a"
+
    #Weapon Release Sounds
    
     - SoundEffect: #Light Beam Release
