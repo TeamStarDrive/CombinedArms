@@ -1,0 +1,35 @@
+Version=1
+Name=Mantis Mk1a
+Hull=Chukk/Mantis
+Role=fighter
+ModName=Combined Arms
+Style=Chukk
+Size=6,7
+GridCenter=3,4
+DefaultCombatState=AttackRuns
+ShipCategory=Recon
+HangarDesignation=Interceptor
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=PlasmaCannon;HVVulcanCannon;Advanced Fighter Generator;PowerSolar;OrdnanceLockerSmall;SmallCraftBattleShield;Cockpit_Side;thruster1x1;2x1Twinengines
+Modules=17
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+1,0;0;1,3
+4,0;0;1,3
+0,2;1;1,2
+5,2;1;1,2
+1,3;2
+2,3;3
+3,3;4
+4,3;2
+1,4;5
+2,4;6;2,1
+4,4;5
+0,5;7
+1,5;8;1,2;90;2
+2,5;2
+3,5;2
+4,5;8;1,2;90;2
+5,5;7

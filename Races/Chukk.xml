@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EmpireData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <PortraitName>Chukk</PortraitName>
+  <MusicCue>sd_races_Chukk</MusicCue>
+  <DiplomacyDialogPath>Chukk</DiplomacyDialogPath>
+  <StartingShip>Pincer Ace Mk1</StartingShip>
+  <StartingScout>Pincer Scout</StartingScout>
+  <PrototypeShip>Chukk-Prototype</PrototypeShip>
+  <DefaultSmallTransport>Extractor Mk1</DefaultSmallTransport>
+  <DefaultTroopShip>Chukk Troop</DefaultTroopShip>
+  <DefaultColonyShip>Extractor Colony Mk1</DefaultColonyShip>
+  <DefaultConstructor>Chukk Constructor</DefaultConstructor>
+  <DefaultAssaultShuttle>Chukk Assault Shuttle</DefaultAssaultShuttle>
+  <DefaultSupplyShuttle>Chukk-Supply</DefaultSupplyShuttle>
+  <SpacePortModel>mod models/Chukk/Chukk_Station</SpacePortModel>
+  <SpacePortScale>0.5</SpacePortScale>
+  <DefaultResearchStation>Basic Research Station</DefaultResearchStation>
+  <DefaultMiningShip>Chukk Mining Ship</DefaultMiningShip>
+  <DefaultMiningStation>Chukk Basic Mining Station</DefaultMiningStation>
+
+  <RebelName>Chukk Mutineers</RebelName>
+  <RebelSing>Mutineer</RebelSing>
+  <RebelPlur>Mutineers</RebelPlur>
+  <TroopNameIndex>51550</TroopNameIndex>
+  <TroopDescriptionIndex>51551</TroopDescriptionIndex>
+  <WarpStart>sd_warp_start_chukk_01</WarpStart>
+  <WarpEnd>sd_warp_stop_chukk_01</WarpEnd>
+  <ThrustColor0R>12</ThrustColor0R> <!-- Teal, the empire colour = the hull lights (engine trail) -->
+  <ThrustColor0G>225</ThrustColor0G>
+  <ThrustColor0B>154</ThrustColor0B>
+  <ThrustColor1R>12</ThrustColor1R> <!-- Teal, the empire colour = the hull lights (nozzle flare) -->
+  <ThrustColor1G>225</ThrustColor1G>
+  <ThrustColor1B>154</ThrustColor1B>
+
+  <PersonalityTraitsWeights>
+    <string>Aggressive</string>
+    <string>Aggressive</string>
+    <string>Aggressive</string>
+    <string>Aggressive</string>
+    <string>Ruthless</string>
+    <string>Ruthless</string>
+    <string>Ruthless</string>
+    <string>Ruthless</string>
+    <string>Cunning</string>
+    <string>Cunning</string>
+    <string>Cunning</string>
+    <string>Cunning</string>
+    <string>Xenophobic</string>
+    <string>Honorable</string>
+    <string>Pacifist</string>
+  </PersonalityTraitsWeights>
+
+  <EconomicTraitsWeights>
+    <string>Militarists</string>
+    <string>Militarists</string>
+    <string>Militarists</string>
+    <string>Expansionists</string>
+    <string>Expansionists</string>
+    <string>Expansionists</string>
+    <string>Industrialists</string>
+    <string>Industrialists</string>
+    <string>Generalists</string>
+    <string>Generalists</string>
+    <string>Technologists</string>
+  </EconomicTraitsWeights>
+
+  <Traits>
+    <Name>The Chukk Affiliation</Name>
+    <Singular>Chukk</Singular>
+    <Plural>Chukk</Plural>
+    <VideoPath>Chukk</VideoPath>
+    <ShipType>Chukk</ShipType>
+    <Adj1>silver-tongued</Adj1>
+    <Adj2>insectoid</Adj2>
+    <HomeSystemName>Chular</HomeSystemName>
+    <HomeworldName>Chull</HomeworldName>
+    <FlagIndex>10</FlagIndex>
+    <R>12</R>
+    <G>225</G>
+    <B>154</B>
+    <TraitSets> <!-- The first trait set is what the player sees. Other sets are extra sets randomized for the AI -->
+      <TraitSet>
+        <TraitOptions>
+          <string>Fertile</string>
+          <string>Eagle Eyed</string>
+          <string>Savage</string>
+          <string>Duplicitous</string>
+          <string>Salvagers</string>
+          <string>Militaristic</string>
+          <string>Repulsive</string>
+          <string>Tundra Dwellers</string>
+        </TraitOptions>
+      </TraitSet>
+      <TraitSet>
+        <TraitOptions>
+          <string>Mercantile</string>
+          <string>Naval Tradition</string>
+          <string>Duplicitous</string>
+          <string>Reflexes</string>
+          <string>Salvagers</string>
+          <string>Corrupt</string>
+          <string>Tundra Dwellers</string>
+        </TraitOptions>
+      </TraitSet>
+      <TraitSet>
+        <TraitOptions>
+          <string>Pack</string>
+          <string>Huge Homeworld</string>
+          <string>Fertile</string>
+          <string>Savage</string>
+          <string>Eagle Eyed</string>
+          <string>Gluttonous</string>
+          <string>Repulsive</string>
+          <string>Tundra Dwellers</string>
+        </TraitOptions>
+      </TraitSet>
+    </TraitSets>
+  </Traits>
+</EmpireData>

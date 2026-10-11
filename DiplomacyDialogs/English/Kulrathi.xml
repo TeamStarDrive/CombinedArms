@@ -93,7 +93,7 @@ Heed well our warrior-poets, SING, and anger not the mighty Kulrathi</Neutral>
     </DialogLine>
     <DialogLine>
       <DialogType>OfferResponse_Reject_NearRival</DialogType>
-      <Default>Another race holds worlds in that system or near it, SING, and our borders are closed to them. A Kulrathi colony there would end in blood. We decline.</Default>
+      <Default>Another race holds worlds in that system, SING, and our borders are closed to them. A Kulrathi colony there would end in blood. We decline.</Default>
       <DL_Agg>We pick our own wars. Do not try to pick them for us.</DL_Agg>
       <DL_Xeno>Aliens meddling at our borders. We knew you could not be trusted.</DL_Xeno>
       <DL_Hon>Trying to set neighbors against each other is dishonorable. We expected better.</DL_Hon>
@@ -103,7 +103,7 @@ Heed well our warrior-poets, SING, and anger not the mighty Kulrathi</Neutral>
     </DialogLine>
     <DialogLine>
       <DialogType>OfferResponse_Reject_NearEnemy</DialogType>
-      <Default>Our enemies hold worlds in that system or near it, SING. A colony there would be the first to fall. We decline.</Default>
+      <Default>Our enemies hold worlds in that system, SING. A colony there would be the first to fall. We decline.</Default>
       <DL_Agg>When we want worlds there, we will take them from our enemies ourselves.</DL_Agg>
       <DL_Xeno>We need no alien worlds to fight our war.</DL_Xeno>
       <DL_Hon>We will not put your settlers in the middle of our war, but we thank you for the thought.</DL_Hon>
@@ -700,9 +700,9 @@ Heed well our warrior-poets, SING, and anger not the mighty Kulrathi</Neutral>
 	
     <DialogLine>
       <DialogType>PLAYER_ALLIED_WAR_CONTRIBUTION_ACTION</DialogType>
-      <DL_Agg>You did not do you job in a war you requested our aid. Perhaps you are the one to fight with.</DL_Agg>
+      <DL_Agg>You did not do your job in a war you asked us to join. Perhaps you are the one to fight with.</DL_Agg>
       <DL_Ruth>Your lack of success in our joint war proves you are a pup.</DL_Ruth>
-      <DL_Xeno>The Kulrathi should not have trust a pup, SING. Your lack of contribution to our joint war will not be tolerated.</DL_Xeno>
+      <DL_Xeno>The Kulrathi should not have trusted a pup, SING. Your lack of contribution to our joint war will not be tolerated.</DL_Xeno>
       <DL_Cunn>The Kulrathi will not be pawns in your games, SING, you failed to contribute to a war you wanted our help with.</DL_Cunn>
       <DL_Pac>PLURAL, our joint war is not something we want to continue, after we witnessed your weak contribution to the effort.</DL_Pac>
       <DL_Hon>You have no honor. We joined this war to support you, yet you do not contribute your share. The Kulrathi will not tolerate dishonor!</DL_Hon>
@@ -729,6 +729,18 @@ Heed well our warrior-poets, SING, and anger not the mighty Kulrathi</Neutral>
     <DialogLine>
       <DialogType>Opinion_Negative_Dauntless</DialogType>
       <Default>These cyborgs wear strength as a mask for their greed and enslave all that they cannot devour. There is no honor in them, SING. Should they march, the Kulrathi shall be the wall they break upon.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Chukk</DialogType>
+      <Default>The Chukk have no honor, yet they are honest in their greed, and they fight with more courage than their words suggest. We trade with them, SING, though never with our backs turned.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Chukk</DialogType>
+      <Default>We know the Chukk only as a chittering in the dark, and a lighter purse after they have passed. We reserve our judgement.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Chukk</DialogType>
+      <Default>Thieves and eaters of the dead. They slink through the hulls of better ships and call it war. There is no honor in them, SING. A Kulrathi blade will teach them the difference.</Default>
     </DialogLine>
   </Dialogs>
 </DiplomacyDialog>

@@ -87,7 +87,7 @@
     </DialogLine>
     <DialogLine>
       <DialogType>OfferResponse_Reject_NearRival</DialogType>
-      <Default>Hrrr. Another pack lives in that system or near it, and we have no open borders with them. Take that world and we must fight them. No, SING.</Default>
+      <Default>Hrrr. Another pack lives in that system, and we have no open borders with them. Take that world and we must fight them. No, SING.</Default>
       <DL_Agg>We pick our own fights! Not you!</DL_Agg>
       <DL_Xeno>Alien tricks! We knew it! Grrr.</DL_Xeno>
       <DL_Hon>No honor in this trick. Bad pack.</DL_Hon>
@@ -97,7 +97,7 @@
     </DialogLine>
     <DialogLine>
       <DialogType>OfferResponse_Reject_NearEnemy</DialogType>
-      <Default>Hrrr. Our enemies live in that system or near it. A world there gets bitten first. No, SING.</Default>
+      <Default>Hrrr. Our enemies live in that system. A world there gets bitten first. No, SING.</Default>
       <DL_Agg>We take enemy worlds ourselves, with teeth!</DL_Agg>
       <DL_Xeno>We need no alien help in our war.</DL_Xeno>
       <DL_Hon>Your pups should not live in our war. Thank you anyway.</DL_Hon>
@@ -724,6 +724,18 @@
     <DialogLine>
       <DialogType>Opinion_Negative_Dauntless</DialogType>
       <Default>Those cyborgs call US weak?! Grrrm! We will tear the metal from their bones and feed it to our pups. The Vulfar do not forget an insult.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Chukk</DialogType>
+      <Default>Grrm. The Chukk are small, but they fight dirty and they bite hard. Good raiders. We hunt with them, but we count our pups afterwards.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Chukk</DialogType>
+      <Default>The Chukk? Too much talking. They smell of tunnels and stolen gold. Grr. We do not know them well.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Chukk</DialogType>
+      <Default>The Chukk steal from Vulfar ships and laugh about it! Grrrm! We will dig them out of their holes and break their shiny teeth!</Default>
     </DialogLine>
   </Dialogs>
 </DiplomacyDialog>

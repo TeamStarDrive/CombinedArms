@@ -155,15 +155,20 @@
   MaxConcurrentSoundsPerEffect: 48 # The maximum number of sounds that can be played at the same time for each sound effect, 0 for unlimited
   MaxSoundsPerFrame: 2 # The maximum number of sounds that can be played per frame, 0 for unlimited
   SoundEffects:
-    - SoundEffect: #Tactical Nuke Exp
-      Id: Explosion_Tactical_Nuke
-      Volume: 0.9
-      Sound: "Explosions/Explosion_Tactical_Nuke_0.m4a"
-    
-   # - SoundEffect: #Tactical Nuke Release
-   #   Id: Tactical_Nuke_Release
+   # - SoundEffect: #Tactical Nuke Exp
+   #   Id: Explosion_Tactical_Nuke
    #   Volume: 0.9
-   #   Sound: "Explosions/sd_ship_alarm_01.m4a"
+   #   Sound: "Explosions/Explosion_Tactical_Nuke_0.m4a"
+    
+    - SoundEffect: 
+      Id: sd_ship_alarm  # the ship plays a panic sound effect when dying and tumbling
+      Volume: 0.2
+      Sounds:
+        - "ShipAlarm/ShipAlarm_0.m4a"
+        - "ShipAlarm/ShipAlarm_1.m4a" 
+        - "ShipAlarm/ShipAlarm_2.m4a" 
+        - "ShipAlarm/ShipAlarm_3.m4a" 
+        - "ShipAlarm/ShipAlarm_4.m4a" 
 
     - SoundEffect: 
       Id: Bomb_Explosion  #Bomb Bay DieCue-Explosions
@@ -174,17 +179,7 @@
         - "Explosions/Bomb_Explosion_2.m4a"
         - "Explosions/Bomb_Explosion_3.m4a"
         - "Explosions/Bomb_Explosion_4.m4a"
-        
-   #- SoundEffect: !!! Not Work !!!
-   #  Id: sd_bomb_impact_01  #Ground Explosions
-   #  Volume: 0.9
-   #  Sounds:
-   #    - "Ground/Bomb_Explosion_0.m4a"
-   #    - "Ground/Bomb_Explosion_1.m4a"
-   #    - "Ground/Bomb_Explosion_2.m4a"
-   #    - "Ground/Bomb_Explosion_3.m4a"
-   #    - "Ground/Bomb_Explosion_4.m4a"
-   
+          
     - SoundEffect:
       Id: sd_explosion_ship_warpdet_small
       Volume: 0.9
@@ -239,7 +234,7 @@
     - SoundEffect: #Missle Point Defence - Heavy
       Id: Missile_PD-Heavy_DC
       Volume: 0.5
-      Sound: "Weapon_Release/Missle_PD-Heavy_DC.m4a"
+      Sound: "Weapon_Release/Missile_PD-Heavy_DC.m4a"
 
 - Category: # Weapons
   Name: Weapons
@@ -249,6 +244,19 @@
   MaxConcurrentSoundsPerEffect: 32 # The maximum number of sounds that can be played at the same time for each sound effect, 0 for unlimited
   MaxSoundsPerFrame: 2 # The maximum number of sounds that can be played per frame, 0 for unlimited
   SoundEffects:
+    - SoundEffect: # Mass driver and heavy cannon hits: the ship explosions above; vanilla caps it at 8
+      Id: sd_weapon_impact_explode_01
+      Volume: 1.0
+      Sounds:
+        - "Explosions/SD_Explosion_00.m4a"
+        - "Explosions/SD_Explosion_01.m4a"
+        - "Explosions/SD_Explosion_02.m4a"
+        - "Explosions/SD_Explosion_03.m4a"
+        - "Explosions/SD_Explosion_04.m4a"
+        - "Explosions/SD_Explosion_05.m4a"
+        - "Explosions/SD_Explosion_06.m4a"
+        - "Explosions/SD_Explosion_07.m4a"
+
    #Weapon Release Sounds
    
     - SoundEffect: #Light Beam Release
@@ -301,7 +309,7 @@
     - SoundEffect: #Drone Atack Cannon
       Id: Drone_Attack_Cannon 
       Volume: 0.4
-      Sound: "Drone/Drone_Atack_Cannon_0.m4a"
+      Sound: "Drone/Drone_Attack_Cannon_0.m4a"
       
     - SoundEffect: #Drone AF Cannon MK1
       Id: Drone_AF_Cannon_MK1 
@@ -474,49 +482,49 @@
     
       
    #Plasma
-    - SoundEffect: #Plasma Thower
+    - SoundEffect: #Plasma Thrower
       Id: "Plasma_Thrower"
       Volume: 0.30
       Sounds: 
-        - "Plasma/Plasma_Thower_0.m4a"
-        - "Plasma/Plasma_Thower_1.m4a"
-        - "Plasma/Plasma_Thower_2.m4a"
-        - "Plasma/Plasma_Thower_3.m4a"
-        - "Plasma/Plasma_Thower_4.m4a"
-        - "Plasma/Plasma_Thower_5.m4a"
+        - "Plasma/Plasma_Thrower_0.m4a"
+        - "Plasma/Plasma_Thrower_1.m4a"
+        - "Plasma/Plasma_Thrower_2.m4a"
+        - "Plasma/Plasma_Thrower_3.m4a"
+        - "Plasma/Plasma_Thrower_4.m4a"
+        - "Plasma/Plasma_Thrower_5.m4a"
  
-    - SoundEffect: #Hyper Plasma Thower
+    - SoundEffect: #Hyper Plasma Thrower
       Id: "Hyper_Plasma_Thrower"
       Volume: 0.30
       Sounds: 
-        - "Plasma/Hyper_Plasma_Thower_0.m4a"
-        - "Plasma/Hyper_Plasma_Thower_1.m4a"
-        - "Plasma/Hyper_Plasma_Thower_2.m4a"
-        - "Plasma/Hyper_Plasma_Thower_3.m4a"
-        - "Plasma/Hyper_Plasma_Thower_4.m4a"
-        - "Plasma/Hyper_Plasma_Thower_5.m4a"
+        - "Plasma/Hyper_Plasma_Thrower_0.m4a"
+        - "Plasma/Hyper_Plasma_Thrower_1.m4a"
+        - "Plasma/Hyper_Plasma_Thrower_2.m4a"
+        - "Plasma/Hyper_Plasma_Thrower_3.m4a"
+        - "Plasma/Hyper_Plasma_Thrower_4.m4a"
+        - "Plasma/Hyper_Plasma_Thrower_5.m4a"
   
-    - SoundEffect: #Power Assisted Plasma Thower
+    - SoundEffect: #Power Assisted Plasma Thrower
       Id: "Pa_Plasma_Thrower"
       Volume: 0.30
       Sounds: 
-        - "Plasma/PA_Plasma_Thower_0.m4a"
-        - "Plasma/PA_Plasma_Thower_1.m4a"
-        - "Plasma/PA_Plasma_Thower_2.m4a"
-        - "Plasma/PA_Plasma_Thower_3.m4a"
-        - "Plasma/PA_Plasma_Thower_4.m4a"
-        - "Plasma/PA_Plasma_Thower_5.m4a"
+        - "Plasma/PA_Plasma_Thrower_0.m4a"
+        - "Plasma/PA_Plasma_Thrower_1.m4a"
+        - "Plasma/PA_Plasma_Thrower_2.m4a"
+        - "Plasma/PA_Plasma_Thrower_3.m4a"
+        - "Plasma/PA_Plasma_Thrower_4.m4a"
+        - "Plasma/PA_Plasma_Thrower_5.m4a"
    
-    - SoundEffect: #High Pressure Plasma Thower
+    - SoundEffect: #High Pressure Plasma Thrower
       Id: "HP_Plasma_Thrower"
       Volume: 0.30
       Sounds: 
-        - "Plasma/HP_Plasma_Thower_0.m4a"
-        - "Plasma/HP_Plasma_Thower_1.m4a"
-        - "Plasma/HP_Plasma_Thower_2.m4a"
-        - "Plasma/HP_Plasma_Thower_3.m4a"
-        - "Plasma/HP_Plasma_Thower_4.m4a"
-        - "Plasma/HP_Plasma_Thower_5.m4a"
+        - "Plasma/HP_Plasma_Thrower_0.m4a"
+        - "Plasma/HP_Plasma_Thrower_1.m4a"
+        - "Plasma/HP_Plasma_Thrower_2.m4a"
+        - "Plasma/HP_Plasma_Thrower_3.m4a"
+        - "Plasma/HP_Plasma_Thrower_4.m4a"
+        - "Plasma/HP_Plasma_Thrower_5.m4a"
         
     - SoundEffect: #Plasma Projector
       Id: "Plasma_Projector"
@@ -603,17 +611,17 @@
    #Balistic 
     - SoundEffect: #Fighter AGS-HAGS Turret
       Id: "Fighter_AGS-HAGS"
-      Volume: 0.40
+      Volume: 0.20
       Sound: "Fighter_Weapons/Fighter_AGS-HAGS_Turret_0.m4a"
     
     - SoundEffect: #Fighter PD Vulcan Cannon
       Id: "Fighter_PD_Vulcan"
-      Volume: 0.40
+      Volume: 0.20
       Sound: "Fighter_Weapons/Fighter_PD_Vulcan_Cannon_0.m4a"
      
     - SoundEffect: #Fighter HV Vulcan Cannon
       Id: "Fighter_HV_Vulcan"
-      Volume: 0.40
+      Volume: 0.20
       Sound: "Fighter_Weapons/Fighter_HV_Vulcan_Cannon_0.m4a"
       
     - SoundEffect: #Fighter QF 17-pdr
@@ -1062,6 +1070,192 @@
     - SoundEffect: #Planet Ion Cannon
       Id: "Planet_IonCannon"
       Volume: 0.4
-      Sound: "Planet_Emplacement/Planet_IonCannon_0.m4a"  
+      Sound: "Planet_Emplacement/Planet_IonCannon_0.m4a"
 
-        
+- Category: # Race themes
+  Name: RacialMusic
+  SoundEffects:
+    - SoundEffect:
+      Id: sd_races_Chukk
+      Volume: 1.0
+      Sound: "RacialMusic/sd_races_Chukk.m4a"
+
+- Category: # Race warp sounds; CA's own warp files play at 75%
+  Name: Warp
+  SoundEffects:
+    - SoundEffect:
+      Id: sd_warp_start_chukk_01
+      Volume: 0.75
+      Sound: "Warp/sd_warp_start_chukk_01.m4a"
+    - SoundEffect:
+      Id: sd_warp_stop_chukk_01
+      Volume: 0.75
+      Sound: "Warp/sd_warp_stop_chukk_01.m4a"
+    - SoundEffect:
+      Id: sd_warp_start_cordrazine_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_draylok_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_kulrathi_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_opteris_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_pollops_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_ralyeh_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_vulfen_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_small
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_02
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_start_large
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_cordrazine_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_draylok_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_kulrathi_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_opteris_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_pollops_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_ralyeh_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_vulfen_01
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_small
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop
+      Volume: 0.75
+    - SoundEffect:
+      Id: sd_warp_stop_large
+      Volume: 0.75
+
+- Category: # Planet ambience beds
+  Name: PlanetAmbient
+  SoundEffects:
+    - SoundEffect:
+      Id: sd_planet_barren_02
+      Volume: 7.17
+      Sound: "PlanetAmbient/sd_planet_barren_02.m4a"
+    - SoundEffect:
+      Id: sd_planet_barren_03
+      Volume: 6.61
+      Sound: "PlanetAmbient/sd_planet_barren_03.m4a"
+    - SoundEffect:
+      Id: sd_planet_barren_04
+      Volume: 7.42
+      Sound: "PlanetAmbient/sd_planet_barren_04.m4a"
+    - SoundEffect:
+      Id: sd_planet_desert_01
+      Volume: 3.67
+      Sound: "PlanetAmbient/sd_planet_desert_01.m4a"
+    - SoundEffect:
+      Id: sd_planet_desert_02
+      Volume: 3.75
+      Sound: "PlanetAmbient/sd_planet_desert_02.m4a"
+    - SoundEffect:
+      Id: sd_planet_desert_03
+      Volume: 3.39
+      Sound: "PlanetAmbient/sd_planet_desert_03.m4a"
+    - SoundEffect:
+      Id: sd_planet_ice_01
+      Volume: 3.66
+      Sound: "PlanetAmbient/sd_planet_ice_01.m4a"
+    - SoundEffect:
+      Id: sd_planet_ice_02
+      Volume: 3.04
+      Sound: "PlanetAmbient/sd_planet_ice_02.m4a"
+    - SoundEffect:
+      Id: sd_planet_ice_03
+      Volume: 4.2
+      Sound: "PlanetAmbient/sd_planet_ice_03.m4a"
+    - SoundEffect:
+      Id: sd_planet_steppe_01
+      Volume: 3.06
+      Sound: "PlanetAmbient/sd_planet_steppe_01.m4a"
+    - SoundEffect:
+      Id: sd_planet_steppe_03
+      Volume: 4.23
+      Sound: "PlanetAmbient/sd_planet_steppe_03.m4a"
+    - SoundEffect:
+      Id: sd_planet_swamp_01
+      Volume: 3.73
+      Sound: "PlanetAmbient/sd_planet_swamp_01.m4a"
+    - SoundEffect:
+      Id: sd_planet_swamp_02
+      Volume: 3.95
+      Sound: "PlanetAmbient/sd_planet_swamp_02.m4a"
+    - SoundEffect:
+      Id: sd_planet_swamp_03
+      Volume: 3.17
+      Sound: "PlanetAmbient/sd_planet_swamp_03.m4a"
+    - SoundEffect:
+      Id: sd_planet_terran_01
+      Volume: 2.2
+      Sound: "PlanetAmbient/sd_planet_terran_01.m4a"
+    - SoundEffect:
+      Id: sd_planet_terran_02
+      Volume: 3.14
+      Sound: "PlanetAmbient/sd_planet_terran_02.m4a"
+    - SoundEffect:
+      Id: sd_planet_terran_03
+      Volume: 2.44
+      Sound: "PlanetAmbient/sd_planet_terran_03.m4a"
+    - SoundEffect:
+      Id: sd_planet_tundra_01
+      Volume: 3.57
+      Sound: "PlanetAmbient/sd_planet_tundra_01.m4a"
+    - SoundEffect:
+      Id: sd_planet_tundra_02
+      Volume: 3.53
+      Sound: "PlanetAmbient/sd_planet_tundra_02.m4a"
+    - SoundEffect:
+      Id: sd_planet_tundra_03
+      Volume: 3.7
+      Sound: "PlanetAmbient/sd_planet_tundra_03.m4a"
+    - SoundEffect:
+      Id: sd_planet_volcanic_02
+      Volume: 2.54
+      Sound: "PlanetAmbient/sd_planet_volcanic_02.m4a"
+    - SoundEffect:
+      Id: sd_planet_volcanic_03
+      Volume: 2.63
+      Sound: "PlanetAmbient/sd_planet_volcanic_03.m4a"
+    - SoundEffect:
+      Id: sd_planet_volcanic_04
+      Volume: 2.43
+      Sound: "PlanetAmbient/sd_planet_volcanic_04.m4a"
+    - SoundEffect:
+      Id: sd_planet_water_02
+      Volume: 5.08
+      Sound: "PlanetAmbient/sd_planet_water_02.m4a"
+    - SoundEffect:
+      Id: sd_planet_water_03
+      Volume: 5.13
+      Sound: "PlanetAmbient/sd_planet_water_03.m4a"
+    - SoundEffect:
+      Id: sd_planet_water_04
+      Volume: 4.96
+      Sound: "PlanetAmbient/sd_planet_water_04.m4a"

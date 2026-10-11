@@ -91,7 +91,7 @@
     </DialogLine>
     <DialogLine>
       <DialogType>OfferResponse_Reject_NearRival</DialogType>
-      <Default>Oh, SING, another people lives in that system or near it, and we have no open borders with them. Sharing it would end in an ugly war, and we do not do ugly. No, thank you.</Default>
+      <Default>Oh, SING, another people lives in that system, and we have no open borders with them. Sharing it would end in an ugly war, and we do not do ugly. No, thank you.</Default>
       <DL_Agg>We choose our own wars, darling, and we choose them beautifully.</DL_Agg>
       <DL_Xeno>Alien meddling! How very ugly.</DL_Xeno>
       <DL_Hon>Such an ugly little trick. We expected better of you.</DL_Hon>
@@ -101,7 +101,7 @@
     </DialogLine>
     <DialogLine>
       <DialogType>OfferResponse_Reject_NearEnemy</DialogType>
-      <Default>Oh, SING, our enemies live in that system or near it. A world there would be lost in the first battle. No, thank you.</Default>
+      <Default>Oh, SING, our enemies live in that system. A world there would be lost in the first battle. No, thank you.</Default>
       <DL_Agg>When we want those worlds, we will take them ourselves, with style.</DL_Agg>
       <DL_Xeno>We need no alien charity to win our war.</DL_Xeno>
       <DL_Hon>We would not put your settlers in the middle of our war. How sweet of you, though.</DL_Hon>
@@ -732,6 +732,18 @@
     <DialogLine>
       <DialogType>Opinion_Negative_Dauntless</DialogType>
       <Default>The Dauntless think THEY are conquerors? Those graceless, bolt-riddled apes? They would chain US?! The arrogance! They are not fit to polish our cages.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Chukk</DialogType>
+      <Default>The Chukk? Dreadful little thieves, but they DO know a bargain when they see one! They sold us three whole shiploads of workers last season. We didn't ask where from. Lovely business!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Chukk</DialogType>
+      <Default>Those chittering bugs that crawl out of the walls? We count our cargo twice whenever they visit. Not that it helps.</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Chukk</DialogType>
+      <Default>The Chukk broke into OUR slave pens! They picked the locks, ate the guards and sold our own workers back to us! We shall see them in cages, every last one!</Default>
     </DialogLine>
   </Dialogs>
 </DiplomacyDialog>

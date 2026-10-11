@@ -77,7 +77,7 @@
     </DialogLine>
     <DialogLine>
       <DialogType>OfferResponse_Reject_NearRival</DialogType>
-      <Default>Another people basks in the light of that system or a sun near it, SING, and our borders are closed to them. Sharing their sky without trust brings only storms. We must say no.</Default>
+      <Default>Another people basks in the light of that system's sun, SING, and our borders are closed to them. Sharing their sky without trust brings only storms. We must say no.</Default>
       <DL_Agg>We pick our own wars. Do not try to pick them for us.</DL_Agg>
       <DL_Xeno>Aliens meddling at our borders. We knew you could not be trusted.</DL_Xeno>
       <DL_Hon>Trying to set neighbors against each other is dishonorable. We expected better.</DL_Hon>
@@ -87,7 +87,7 @@
     </DialogLine>
     <DialogLine>
       <DialogType>OfferResponse_Reject_NearEnemy</DialogType>
-      <Default>Our enemies bask in the light of that system or a sun near it, SING. A world there would be the first to burn. We must say no.</Default>
+      <Default>Our enemies bask in the light of that system's sun, SING. A world there would be the first to burn. We must say no.</Default>
       <DL_Agg>When we want worlds there, we will take them from our enemies ourselves.</DL_Agg>
       <DL_Xeno>We need no alien worlds to fight our war.</DL_Xeno>
       <DL_Hon>We will not put your settlers in the middle of our war, but we thank you for the thought.</DL_Hon>
@@ -576,10 +576,10 @@
       <Default>Well, we've thought about it, but the truth is that our empire is better than yours. If you were stronger then maybe we could do it, but we don't need to fold into your empire right now.</Default>
     </DialogLine>
     <DialogLine>
-    <DialogLine>
       <DialogType>Federation_WeAreNotWeak</DialogType>
       <Default>Ah, you care for us so much you want to be in charge of us. This is so nice. But right now we'd like to stay independent.</Default>
     </DialogLine>			
+    <DialogLine>
       <DialogType>Federation_Accept</DialogType>
       <Default>Sunshine! Bright, warm sunshine! Do you have any beaches on your planets? We love beaches. We'll have lots of time to explore now that we are in a Federation. Did I ever tell you about Polmar? Polmar is so great. You have to come visit! Oh! There's this beach there, man it's great. Anyhoo. WE ARE GOING TO BE BEST FRIENDS!</Default>
     </DialogLine>
@@ -727,6 +727,18 @@
     <DialogLine>
       <DialogType>Opinion_Negative_Dauntless</DialogType>
       <Default>The Dauntless are MEAN! They take and take and take, and they have those horrible horned pets! Please don't let them near our gardens, SING! Please!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Positive_Chukk</DialogType>
+      <Default>The Chukk? They're SO charming! They always say such nice things about our flowers, and they've only robbed us a little bit! They're our friends!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Neutral_Chukk</DialogType>
+      <Default>The bug people with the shiny teeth? Eep! They keep asking how much our planets are worth. We just smile and change the subject!</Default>
+    </DialogLine>
+    <DialogLine>
+      <DialogType>Opinion_Negative_Chukk</DialogType>
+      <Default>The Chukk tried to EAT one of our ambassadors! They said it was a joke, but they were holding a fork! Please don't let them near our gardens, SING!</Default>
     </DialogLine>
   </Dialogs>
 </DiplomacyDialog>
