@@ -19,7 +19,7 @@
   
   <UID>Nemesis_Rocket_Pod</UID>
   <HitPoints>12</HitPoints>
-  <FireDelay>12</FireDelay>
+  <FireDelay>10</FireDelay>
   <Range>3000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
   <OrdinanceRequiredToFire>3.5</OrdinanceRequiredToFire>
@@ -28,15 +28,15 @@
   <DamageAmount>300</DamageAmount>
   <ProjectileSpeed>1800</ProjectileSpeed>
   <ProjectileRadius>4</ProjectileRadius>
-  <ExplosionRadius>20</ExplosionRadius> <!-- This projectile explodes -->
+  <ExplosionRadius>24</ExplosionRadius> <!-- This projectile explodes -->
   <SalvoCount>6</SalvoCount>
   <SalvoTimer>2</SalvoTimer>
   <FireCone>6</FireCone>               
   <!--for salvos-->
-  <ProjectileRadius>6</ProjectileRadius>
 <!--Projectile atributes-->
   <ShieldPenChance>10</ShieldPenChance>
   <ArmorPen>1</ArmorPen>
+  <EffectVsArmor>2</EffectVsArmor>
   <Scale>0.5</Scale>
   
   <CanCollideProjectiles>true</CanCollideProjectiles>
