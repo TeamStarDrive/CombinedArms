@@ -1,0 +1,22 @@
+﻿<Weapon xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Tag_Kinetic>true</Tag_Kinetic>
+  <Tag_PD>true</Tag_PD>
+
+  <ExcludesCapitals>true</ExcludesCapitals>
+  <ExcludesStations>true</ExcludesStations>
+
+  <!-- warhead of Advanced FlakAA Cannon: the shell splits into these near its target -->
+  <UID>Advanced FlakAA Burst</UID>
+  <Range>350</Range>
+  <DamageAmount>50</DamageAmount>
+  <Scale>0.4</Scale>
+  <ProjectileSpeed>700</ProjectileSpeed>
+  <ProjectileRadius>30</ProjectileRadius>
+  <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
+  <ModelPath>projTear</ModelPath>
+  <!--the projectile count is spread over the fire arc-->
+  <ProjectileCount>8</ProjectileCount>
+  <FireArc>90</FireArc>
+  <WeaponType>AA Weapons</WeaponType>
+</Weapon>

@@ -11,7 +11,7 @@
   <FireDelay>1.5</FireDelay>
   <Range>3000</Range>
   <PowerRequiredToFire>0</PowerRequiredToFire>
-  <OrdinanceRequiredToFire>0.15</OrdinanceRequiredToFire>
+  <OrdinanceRequiredToFire>0.3</OrdinanceRequiredToFire>
   <TruePD>false</TruePD>
   <!-- name of XACT audio cue to play on firing this weapon -->
   <FireCueName>AA_Flak_Turret</FireCueName>
@@ -22,11 +22,13 @@
   <MuzzleFlash>Yes</MuzzleFlash>
   <ProjectileSpeed>1700</ProjectileSpeed>
   <ExplosionRadius>20</ExplosionRadius> <!-- This projectile explodes -->
+  <MirvWeapon>Advanced FlakAA Burst</MirvWeapon>
+  <MirvSeparationDistance>450</MirvSeparationDistance>
   <ProjectileTexturePath>projTear_03_orange</ProjectileTexturePath>
   <ModelPath>projTear</ModelPath>
   <ProjectileCount>1</ProjectileCount>
-  <ProjectileRadius>40</ProjectileRadius>  
-  <SalvoCount>4</SalvoCount> 
+  <ProjectileRadius>12</ProjectileRadius>  
+  <SalvoCount>2</SalvoCount> 
   <SalvoTimer>0.5</SalvoTimer>
   <!--the projectile count is spread over the fire arc-->
   <FireCone>3</FireCone>
