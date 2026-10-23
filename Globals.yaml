@@ -47,6 +47,7 @@ Globals:
   UseCombatRepair: false
   DisableRemnantStory: false
   DisablePirates: false
+  EnableSalvageOps: true # salvageable derelicts and salvage stations
   AIUsesPlayerDesigns: false
   EnableRandomizedAIFleetSizes: false # Allows Ai to slightly alter fleet sizes within range specified in FleetBuildRatios.yaml
 
@@ -69,7 +70,7 @@ Globals:
   # mod information
   Mod:
     Name: "Combined Arms"
-    Version: "v1.60.0014"
+    Version: "v1.60.0015"
     FormatVersion: 1
     SupportedBlackBoxVersions: "main,jupiter-1.60"
     IconPath: Textures/s141.png
