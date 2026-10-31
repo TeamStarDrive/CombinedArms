@@ -1,0 +1,61 @@
+Version=1
+Name=Terran Salvage Ship
+Hull=Terran/Gunboat
+Role=support
+ModName=Combined Arms
+Style=Terran
+Size=6,16
+GridCenter=3,8
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=BasicCargoHold;SalvageUnit;Structure;NuclearReactorSmall;Bridge;NuclearReactorMed;WarpEngine_2x2;FrigateEngine
+Modules=43
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+2,0;0
+3,0;0
+1,1;0
+2,1;0
+3,1;0
+4,1;0
+1,2;1;4,4;;;Terran Constructor
+1,6;0
+2,6;2
+3,6;3
+4,6;0
+1,7;0
+2,7;0
+3,7;0
+4,7;0
+1,8;0
+2,8;4;2,2
+4,8;0
+1,9;0
+4,9;0
+1,10;0
+2,10;0
+3,10;0
+4,10;0
+0,11;0
+1,11;0
+2,11;5;2,2
+4,11;0
+5,11;0
+0,12;0
+1,12;0
+4,12;0
+5,12;0
+0,13;0
+1,13;0
+2,13;0
+3,13;0
+4,13;0
+5,13;0
+0,14;0
+1,14;6;2,2
+3,14;7;2,2
+5,14;0
