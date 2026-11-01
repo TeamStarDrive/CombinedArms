@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Vulfen
 Size=10,12
 GridCenter=5,5
-DefaultAIState=AwaitingOrders
 DefaultCombatState=Artillery
 ShipCategory=Neutral
 HangarDesignation=AntiShip
@@ -14,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Ceramic Armor Small;Fighter ATCSM;ShotgunRepeater;PlasmaCannon;PowerSolar;OrdnanceLocker;thruster1x1;AutoTurret Type62;SmallCraftBattleShield;Cockpit_Side;Advanced Fighter Generator;NuclearThermalThruster;WarpEngine_1x1;2x1Twinengines
+ModuleUIDs=Ceramic Armor Small;Fighter ATCSM;ShotgunRepeater;PlasmaCannon;SmallCraftBattleShield;OrdnanceLocker;thruster1x1;AutoTurret Type62;Advanced Fighter Generator;Cockpit_Side;OrdnanceLockerSmall;NuclearThermalThruster;WarpEngine_1x1;2x1Twinengines
 Modules=52
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 3,0;0
@@ -39,27 +38,27 @@ Modules=52
 1,5;7;2,5;270
 3,5;8
 4,5;9;2,1
-6,5;8
+6,5;10
 7,5;7;2,5;90
 0,6;0
-3,6;8
-4,6;10
-5,6;10
-6,6;8
+3,6;4
+4,6;8
+5,6;8
+6,6;4
 9,6;0
 0,7;0
-3,7;10
-4,7;10
-5,7;10
-6,7;10
+3,7;8
+4,7;8
+5,7;8
+6,7;8
 9,7;0
 3,8;11
-4,8;10
-5,8;10
+4,8;8
+5,8;8
 6,8;11
 3,9;12
-4,9;10
-5,9;10
+4,9;8
+5,9;8
 6,9;12
 2,10;0
 3,10;12

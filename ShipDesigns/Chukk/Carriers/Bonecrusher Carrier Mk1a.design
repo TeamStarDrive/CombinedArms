@@ -13,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=SteelArmorSmall;Advanced Bionic Armor Med;Advanced Bionic Armor Small;Advanced Bionic Armor Large;BosonTransmiter3;AMProjectorMod;FighterBay;Raider Bay;PowerSolar;PlasmaCannon;BattleShield4x4;Plasma_Thrower_Blue;Linked Quantum Fusion Reactor Set;DarkMatterReactor_2x2;jumpdrive3x3;Shapememory_Alloys_small3;advanced_small_fuelcell;CIC;AmplifierMk1;OrdnanceLocker2x2nano;Cockpit;BosonTransmiter2;HellStorm;Dual Gatling Turret;thruster1x2;Cruiser Turn Thrust;WarpEngine_2x2;Gatling Turret;mwdsmall;WarpEngine_1x1;OverdriveCapEngines
+ModuleUIDs=SteelArmorSmall;Advanced Bionic Armor Med;Advanced Bionic Armor Small;Advanced Bionic Armor Large;BosonTransmiter3;AMProjectorMod;FighterBay;Raider Bay;PowerSolar;PlasmaCannon;BattleShield4x4;Plasma_Thrower_Blue;Linked Quantum Fusion Reactor Set;DarkMatterReactor_2x2;jumpdrive3x3;Shapememory_Alloys_small3;advanced_small_fuelcell;CIC;AmplifierMk1;OrdnanceLocker2x2nano;Cockpit;BosonTransmiter2;HellStorm;Dual Gatling Turret;thruster1x2;Cruiser Turn Thrust;OrdnanceLockerNano;WarpEngine_2x2;Gatling Turret;mwdsmall;WarpEngine_1x1;OverdriveCapEngines
 Modules=308
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 11,0;0
@@ -256,24 +256,24 @@ Modules=308
 32,40;2
 5,41;2
 6,41;2
-7,41;2
+7,41;8
 8,41;24;1,2
 9,41;13;2,2
 11,41;13;2,2
-13,41;8
+13,41;26
 14,41;16
 15,41;15
 22,41;15
 23,41;16
-24,41;8
+24,41;26
 25,41;13;2,2
 27,41;13;2,2
 29,41;24;1,2
-30,41;2
+30,41;8
 31,41;2
 32,41;2
 7,42;2
-13,42;26;2,2
+13,42;27;2,2
 15,42;15
 16,42;15
 17,42;15
@@ -282,25 +282,25 @@ Modules=308
 20,42;15
 21,42;15
 22,42;15
-23,42;26;2,2
+23,42;27;2,2
 30,42;2
 7,43;2
 8,43;4
 9,43;11;2,2;225
-11,43;27;2,2;285
-15,43;28;3,1;270;1
-18,43;29
-19,43;29
-20,43;28;3,1;90;2
-25,43;27;2,2;75
+11,43;28;2,2;285
+15,43;29;3,1;270;1
+18,43;30
+19,43;30
+20,43;29;3,1;90;2
+25,43;28;2,2;75
 27,43;11;2,2;135
 29,43;4
 30,43;2
 6,44;3;3,3
-13,44;30;3,3
-16,44;30;3,3
-19,44;30;3,3
-22,44;30;3,3
+13,44;31;3,3
+16,44;31;3,3
+19,44;31;3,3
+22,44;31;3,3
 29,44;3;3,3
 5,45;2
 9,45;2

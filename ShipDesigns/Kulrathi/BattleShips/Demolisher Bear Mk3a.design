@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Kulrathi
 Size=38,60
 GridCenter=19,29
-DefaultAIState=AwaitingOrders
 DefaultCombatState=Artillery
 ShipCategory=Conservative
 HangarDesignation=General
@@ -14,8 +13,8 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Crystal Armor Large;Crystal Armor Small;Crystal Armor Med;OrdnanceLockerSmall;OrdnanceLocker2x2nano;Assault Cannon Type81;Battleship Turn Thrust;thruster1x3;BosonTransmiter2;MissilePD_3x3;AutoCannonHEAP;GravCannon;BattleShield4x4;Repeater2x2_Crystal;QuantumFusionReactor_4x4;BasicFuelCell;LargeFuelCell;Reinforced Bulkhead Advanced;MarineBarracks2x2;CIC;AmplifierMk3;AdvPulse Capacitor;Fabricator;OrdnanceLockerNano;Internal Bulkhead Advanced;AMX50 Revolver;jumpdrive2x2;QuantumFusionReactor_3x3;QuantumFusionReactor_2x2;Jumpengine;AmplifierMk2;Linked Quantum Fusion Reactor Set;RepairBaySmall;Bridge;jumpdrive3x3;PowerSolar2x2;HellStorm;MedOverdrive;Engine;OverdriveCapEngines
-Modules=304
+ModuleUIDs=Crystal Armor Large;Crystal Armor Small;Crystal Armor Med;OrdnanceLockerSmall;OrdnanceLocker2x2nano;Assault Cannon Type81;Battleship Turn Thrust;thruster1x3;BosonTransmiter2;MissilePD_3x3;AutoCannonHEAP;GravCannon;BattleShield4x4;Repeater2x2_Crystal;QuantumFusionReactor_4x4;BasicFuelCell;LargeFuelCell;Reinforced Bulkhead Advanced;MarineBarracks2x2;CIC;AmplifierMk3;AdvPulse Capacitor;Fabricator;OrdnanceLockerNano;Internal Bulkhead Advanced;AMX50 Revolver;jumpdrive2x2;QuantumFusionReactor_3x3;QuantumFusionReactor_2x2;Jumpengine;AmplifierMk2;Linked Quantum Fusion Reactor Set;RepairBaySmall;Bridge;jumpdrive3x3;Dual ATCSM;HellStorm;MedOverdrive;Engine;OverdriveCapEngines
+Modules=300
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 16,0;0;3,3
 19,0;0;3,3
@@ -214,13 +213,10 @@ Modules=304
 24,46;33;2,2
 32,46;23
 2,47;2;2,2
-4,47;23
-5,47;23
-32,47;23
-33,47;23
+4,47;35;2,3
+32,47;35;2,3
 34,47;2;2,2
 1,48;1
-4,48;35;2,2
 6,48;23
 7,48;23
 8,48;2;2,2
@@ -231,7 +227,6 @@ Modules=304
 28,48;2;2,2
 30,48;23
 31,48;23
-32,48;35;2,2
 36,48;1
 1,49;1
 2,49;1

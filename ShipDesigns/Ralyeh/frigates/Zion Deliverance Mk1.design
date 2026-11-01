@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Ralyeh
 Size=8,9
 GridCenter=4,5
-DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Neutral
 HangarDesignation=General
@@ -14,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Shape Memory Armor Small;RocketLauncher;LaserBeamTurret2x2;PowerConduit;Cockpit_Side;PowerSolar;Fusion Reactor;Shield_1KW;Flechette AF Turret;thruster1x1;BasicFuelCell;NuclearReactorSmall;OrdnanceLockerSmall;WarpEngine_1x1;FrigateEngine
+ModuleUIDs=Shape Memory Armor Small;RocketLauncher;LaserBeamTurret2x2;PowerConduit;Cockpit_Side;OrdnanceLockerSmall;Fusion Reactor;Shield_1KW;Flechette AF Turret;thruster1x1;BasicFuelCell;NuclearReactorSmall;WarpEngine_1x1;FrigateEngine
 Modules=30
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 3,0;0
@@ -36,14 +35,14 @@ Modules=30
 3,5;10
 4,5;11
 5,5;9
-0,6;12
-2,6;12
-3,6;13
-4,6;13
-5,6;12
-7,6;12
-2,7;12
-3,7;14;2,2
-5,7;12
-2,8;12
-5,8;12
+0,6;5
+2,6;5
+3,6;12
+4,6;12
+5,6;5
+7,6;5
+2,7;5
+3,7;13;2,2
+5,7;5
+2,8;5
+5,8;5

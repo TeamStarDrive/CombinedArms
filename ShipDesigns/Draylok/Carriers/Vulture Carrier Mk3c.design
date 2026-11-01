@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Draylok
 Size=28,41
 GridCenter=14,22
-DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
 HangarDesignation=General
@@ -14,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=XSGA5Fairy Small;Advanced Bionic Armor Med;Advanced Bionic Armor Small;Bridge;EnergyPD2x2;OrdnanceLockerSmall;PhotonTurret;BosonTransmiter2;PowerConduit;AmplifierMk2;MarineBarracks2x2;Deflector3x3;FighterBay;Shapememory_Alloys_small3;DroneBay;AmplifierMk1;OrdnanceLockerLarge;Cockpit;RocketLauncher;AntimatterReactor2x2;Sniper1x6HEAP;thruster1x2;Dark Energy Reactor;PowerSolar;CombatEngine_2x2;mwdsmall;CapEngines;WarpEngine_2x2;WarpEngine_3x3
+ModuleUIDs=XSGA5Fairy Small;Advanced Bionic Armor Med;Advanced Bionic Armor Small;Bridge;EnergyPD2x2;OrdnanceLockerSmall;PhotonTurret;BosonTransmiter2;PowerConduit;AmplifierMk2;MarineBarracks2x2;Deflector3x3;FighterBay;Shapememory_Alloys_small3;DroneBay;AmplifierMk1;OrdnanceLockerLarge;Cockpit;RocketLauncher;AntimatterReactor2x2;Sniper1x6HEAP;thruster1x2;Dark Energy Reactor;CombatEngine_2x2;mwdsmall;CapEngines;WarpEngine_2x2;WarpEngine_3x3
 Modules=244
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 13,0;0
@@ -193,20 +192,20 @@ Modules=244
 27,30;2
 0,31;2
 1,31;8
-2,31;23
+2,31;15
 3,31;14;1,5;;;DynamicInterceptor
 4,31;14;1,5;;;DynamicInterceptor
 6,31;21;2,1;90;2
-8,31;24;2,2
-10,31;25;1,3
-11,31;26;3,3
-14,31;26;3,3
-17,31;25;1,3
-18,31;24;2,2
+8,31;23;2,2
+10,31;24;1,3
+11,31;25;3,3
+14,31;25;3,3
+17,31;24;1,3
+18,31;23;2,2
 20,31;21;2,1;270;1
 23,31;14;1,5;;;DynamicInterceptor
 24,31;14;1,5;;;DynamicInterceptor
-25,31;23
+25,31;15
 26,31;8
 27,31;2
 0,32;2
@@ -219,17 +218,17 @@ Modules=244
 27,32;2
 0,33;2
 5,33;2
-8,33;27;2,2
-18,33;27;2,2
+8,33;26;2,2
+18,33;26;2,2
 22,33;2
 27,33;2
 0,34;2
 1,34;6;2,2;195
 5,34;2
-10,34;25;1,3
-11,34;28;3,3
-14,34;28;3,3
-17,34;25;1,3
+10,34;24;1,3
+11,34;27;3,3
+14,34;27;3,3
+17,34;24;1,3
 22,34;2
 25,34;6;2,2;165
 27,34;2

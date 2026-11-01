@@ -13,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Advanced Bionic Armor Med;Advanced Bionic Armor Large;BosonTransmiter2;Advanced Bionic Armor Small;AMTorpedoTube;OrdnanceLockerNano;jumpdrive3x3;thruster1x2;BattleShield4x4;HellStorm;PowerSolar;DarkMatterReactor_2x2;Dual Gatling Turret;Shapememory_Alloys_small3;CIC;AMProjectorMod;Plasma_Thrower_Blue;Sniper1x6HEAP;Cockpit;thruster1x1;OrdnanceLockerLarge;AmplifierMk2;Linked Quantum Fusion Reactor Set;advanced_large_fuelcell;MedOverdrive;Engine;OverdriveCapEngines;WarpEngine_3x3
+ModuleUIDs=Advanced Bionic Armor Med;Advanced Bionic Armor Large;BosonTransmiter2;Advanced Bionic Armor Small;AMTorpedoTube;OrdnanceLockerNano;PowerSolar;jumpdrive3x3;thruster1x2;BattleShield4x4;HellStorm;DarkMatterReactor_2x2;Dual Gatling Turret;Shapememory_Alloys_small3;CIC;AMProjectorMod;Plasma_Thrower_Blue;Sniper1x6HEAP;Cockpit;thruster1x1;OrdnanceLockerLarge;AmplifierMk2;Linked Quantum Fusion Reactor Set;advanced_large_fuelcell;MedOverdrive;Engine;OverdriveCapEngines;WarpEngine_3x3
 Modules=205
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 10,0;0;2,2
@@ -62,22 +62,22 @@ Modules=205
 26,12;3
 35,12;0;2,2
 12,13;3
-13,13;5
+13,13;6
 14,13;5
 23,13;5
-24,13;5
+24,13;6
 25,13;3
 0,14;1;3,3
 13,14;3
-14,14;6;3,3
-17,14;7;2,1;270;1
-19,14;7;2,1;90;2
-21,14;6;3,3
+14,14;7;3,3
+17,14;8;2,1;270;1
+19,14;8;2,1;90;2
+21,14;7;3,3
 24,14;3
 35,14;1;3,3
 3,15;3
 13,15;3
-17,15;8;4,4
+17,15;9;4,4
 24,15;3
 34,15;3
 3,16;3
@@ -86,14 +86,14 @@ Modules=205
 34,16;3
 0,17;3
 1,17;2
-2,17;9;2,2;285
+2,17;10;2,2;285
 4,17;3
-14,17;10
+14,17;5
 15,17;11;2,2
 21,17;11;2,2
-23,17;10
+23,17;5
 33,17;3
-34,17;9;2,2;75
+34,17;10;2,2;75
 36,17;2
 37,17;3
 0,18;3
@@ -101,8 +101,8 @@ Modules=205
 4,18;5
 5,18;3
 13,18;3
-14,18;10
-23,18;10
+14,18;6
+23,18;6
 24,18;3
 32,18;3
 33,18;5
@@ -181,13 +181,13 @@ Modules=205
 32,25;3
 5,26;3
 6,26;3
-7,26;7;2,1;90;2
-29,26;7;2,1;270;1
+7,26;8;2,1;90;2
+29,26;8;2,1;270;1
 31,26;3
 32,26;3
 7,27;3
 8,27;3
-11,27;9;2,2;255
+11,27;10;2,2;255
 13,27;24;2,2
 15,27;25
 16,27;13
@@ -198,7 +198,7 @@ Modules=205
 21,27;13
 22,27;25
 23,27;24;2,2
-25,27;9;2,2;105
+25,27;10;2,2;105
 29,27;3
 30,27;3
 9,28;3

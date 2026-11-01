@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Dauntless
 Size=14,23
 GridCenter=7,12
-DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
 HangarDesignation=General
@@ -14,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Shield Armor Med;Shield Armor Small;NuclearBombBay2x2;OrdnanceLockerNano;FuelCellSmallArmored;Deflector2x2;PhasorTurret2x2;BosonTransmiter;AmplifierMk1;OrdnanceLocker;Bridge;thruster1x1;RocketLauncher;PowerConduit;QuantumFusionReactor_2x2;PowerSolar;engine_fighter_1x1;WarpEngine_2x2
+ModuleUIDs=Shield Armor Med;Shield Armor Small;NuclearBombBay2x2;OrdnanceLockerNano;FuelCellSmallArmored;Deflector2x2;PhasorTurret2x2;BosonTransmiter;AmplifierMk1;OrdnanceLocker;Bridge;thruster1x1;RocketLauncher;PowerConduit;QuantumFusionReactor_2x2;engine_fighter_1x1;WarpEngine_2x2
 Modules=54
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 6,0;0;2,2
@@ -59,15 +58,15 @@ Modules=54
 8,19;13
 9,19;2;2,2
 0,20;2;2,2
-2,20;15
+2,20;4
 5,20;3
 8,20;3
-11,20;15
+11,20;4
 12,20;2;2,2
-3,21;16
-4,21;16
+3,21;15
+4,21;15
 5,21;1
-6,21;17;2,2
+6,21;16;2,2
 8,21;1
-9,21;16
-10,21;16
+9,21;15
+10,21;15

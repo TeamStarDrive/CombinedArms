@@ -6,7 +6,6 @@ ModName=Combined Arms
 Style=Terran
 Size=14,22
 GridCenter=7,14
-DefaultAIState=DoNothing
 DefaultCombatState=Artillery
 ShipCategory=Conservative
 HangarDesignation=AntiShip
@@ -14,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=Ceramic Armor Small;Ceramic Armor Med;DualMassDriver_2x5;OrdnanceLockerSmall;Deflector2x2;Fusion Reactor;thruster1x2;OrdnanceLocker;NuclearReactorSmall;Bridge;PowerSolar;ShadowStorm;WarpEngine_1x1;BosonTransmiter;engine_fighter_1x1;WarpEngine_2x2;FrigateEngine
+ModuleUIDs=Ceramic Armor Small;Ceramic Armor Med;DualMassDriver_2x5;OrdnanceLockerSmall;Deflector2x2;Fusion Reactor;thruster1x2;OrdnanceLocker;NuclearReactorSmall;Bridge;ShadowStorm;WarpEngine_1x1;BosonTransmiter;engine_fighter_1x1;WarpEngine_2x2;FrigateEngine
 Modules=65
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 6,0;0
@@ -56,28 +55,28 @@ Modules=65
 10,15;6;1,2
 11,15;0
 13,15;0
-0,16;10
-1,16;11;2,2;270
+0,16;0
+1,16;10;2,2;270
 4,16;5;2,2
 6,16;5;2,2
 8,16;5;2,2
-11,16;11;2,2;90
-13,16;10
-0,17;12
+11,16;10;2,2;90
+13,16;0
+0,17;11
 3,17;3
 10,17;3
-13,17;12
-0,18;12
-2,18;13
-3,18;14
-4,18;15;2,2
-6,18;11;2,2
-8,18;16;2,2
-10,18;14
-11,18;13
-13,18;12
-3,19;12
-10,19;12
+13,17;11
+0,18;11
+2,18;12
+3,18;13
+4,18;14;2,2
+6,18;10;2,2
+8,18;15;2,2
+10,18;13
+11,18;12
+13,18;11
+3,19;11
+10,19;11
 5,20;0
 8,20;0
 5,21;0
