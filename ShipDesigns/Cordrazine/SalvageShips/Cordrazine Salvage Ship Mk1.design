@@ -1,0 +1,46 @@
+Version=1
+Name=Cordrazine Salvage Ship Mk1
+Hull=Cordrazine/Metving
+Role=support
+ModName=Combined Arms
+Style=Cordrazine
+Size=12,14
+GridCenter=6,7
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=AdvArmored Solar collector Med;SalvageUnit;AdvArmored Solar collector Small;Cockpit_Side;LaserTurret;BasicCargoHold;BasicFuelCell;LaserCannon;Fusion Reactor;Shield_1KW;MediumCargoHold;FrigateEngine;WarpEngine_2x2
+Modules=28
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+5,0;0;2,2
+3,2;1;4,4;;;Owlwok Constructor
+7,2;0;2,2
+1,4;2
+2,4;2
+7,4;3;1,2;270;1
+8,4;4;2,2
+10,4;5
+0,5;5
+1,5;6
+2,5;7
+10,5;5
+11,5;5
+0,6;5
+3,6;5
+4,6;8;2,2
+6,6;9;2,2
+8,6;5
+11,6;5
+3,7;5
+8,7;5
+3,8;10;2,2
+5,8;11;2,2
+7,8;10;2,2
+2,9;5
+9,9;5
+5,10;12;2,2
+5,12;10;2,2

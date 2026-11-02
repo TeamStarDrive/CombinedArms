@@ -13,7 +13,7 @@ IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=DepletedUraniumArmor small;BasicCargoHold;LargeCargoHold;SalvageUnit;OrdnanceLockerSmall;Shield_1KW;PowerSolar;NuclearReactorSmall;HVVulcanCannon;Bridge;Fusion Reactor;VulcanCannon;WarpEngine_2x2;FrigateEngine
+ModuleUIDs=DepletedUraniumArmor small;BasicCargoHold;LargeCargoHold;SalvageUnit;Shield_1KW;OrdnanceLockerSmall;PowerSolar;NuclearReactorSmall;HVVulcanCannon;Bridge;Fusion Reactor;VulcanCannon;WarpEngine_2x2;FrigateEngine
 Modules=30
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 2,0;0
@@ -31,9 +31,9 @@ Modules=30
 1,4;1
 1,5;1
 1,6;3;4,4;;;Terran Constructor
-1,10;4
-2,10;5;2,2
-4,10;4
+1,10;1
+2,10;4;2,2
+4,10;5
 0,11;6
 1,11;7
 4,11;7
