@@ -1,0 +1,56 @@
+Version=1
+Name=Dauntless Salvage Ship Mk2
+Hull=Dauntless/ts3_modc
+Role=support
+ModName=Combined Arms
+Style=Dauntless
+Size=8,21
+GridCenter=4,10
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=AdvArmored Solar collector Small;BeamPD;BasicCargoHold;SalvageUnit;BasicFuelCell;PowerConduit;BosonTransmiter;LaserBeamTurret2x2;OrdnanceLockerSmall;MediumCargoHold;Cockpit_Side;MRM mk1;Shield_1KW;Cold Fusion Reactor;WarpEngine_2x2;FrigateEngine
+Modules=38
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+3,0;0
+4,0;0
+2,1;0
+3,1;1;2,2
+5,1;0
+2,2;2
+5,2;2
+2,3;3;4,4;;;Dauntless Constructor
+1,6;0
+6,6;0
+1,7;0
+2,7;4
+3,7;5
+4,7;6
+5,7;4
+6,7;0
+1,8;0
+2,8;3;4,4;;;Dauntless Constructor
+6,8;0
+0,9;7;2,2
+6,9;7;2,2
+1,11;8
+6,11;8
+1,12;9;2,2
+3,12;10;2,1
+5,12;11;2,2
+3,13;12;2,2
+2,14;4
+5,14;4
+1,15;9;2,2
+3,15;13;2,2
+5,15;9;2,2
+2,17;2
+3,17;13;2,2
+5,17;8
+1,18;14;2,2
+5,18;14;2,2
+3,19;15;2,2
