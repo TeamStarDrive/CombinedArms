@@ -1,0 +1,77 @@
+Version=1
+Name=Draylok Salvage Ship Mk2
+Hull=Draylok/Reaper
+Role=support
+ModName=Combined Arms
+Style=Draylok
+Size=18,14
+GridCenter=9,8
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=MediumCargoHold;PowerSolar;BasicCargoHold;SalvageUnit;Sniper1x6;Railgun1x3;Shape Memory Armor Small;BasicFuelCell;OrdnanceLockerSmall;Shield_1KW;Fusion Reactor;PowerConduit;LaserCannon;WarpEngine_2x2;Cockpit_Side;PowerSolar2x2;Engine;FrigateEngine
+Modules=59
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+8,0;0;2,2
+2,2;1
+3,2;2
+8,2;1
+9,2;1
+14,2;2
+15,2;2
+1,3;0;2,2
+7,3;3;4,4;;;Draylok Constructor Mk2
+15,3;0;2,2
+0,5;1
+1,5;4;1,6
+6,5;1
+11,5;1
+16,5;4;1,6
+17,5;1
+0,6;1
+6,6;1
+11,6;1
+17,6;1
+0,7;5;1,3
+2,7;6
+7,7;3;4,4;;;Draylok Constructor Mk2
+15,7;6
+17,7;5;1,3
+2,8;7
+3,8;6
+5,8;6
+6,8;6
+11,8;6
+12,8;6
+14,8;6
+15,8;8
+2,9;9;2,2
+4,9;6
+5,9;10;2,2
+11,9;10;2,2
+13,9;6
+14,9;9;2,2
+4,10;11
+13,10;11
+2,11;8
+3,11;12
+4,11;12
+5,11;6
+6,11;13;2,2
+8,11;14;2,1
+10,11;13;2,2
+12,11;6
+13,11;12
+14,11;12
+15,11;8
+3,12;15;2,2
+5,12;16
+8,12;17;2,2
+12,12;16
+13,12;15;2,2
+7,13;16
+10,13;16

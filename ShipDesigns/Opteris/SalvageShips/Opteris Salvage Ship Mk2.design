@@ -1,0 +1,85 @@
+Version=1
+Name=Opteris Salvage Ship Mk2
+Hull=Opteris/Soldier10
+Role=support
+ModName=Combined Arms
+Style=Opteris
+Size=20,18
+GridCenter=10,10
+DefaultCombatState=Artillery
+ShipCategory=Conservative
+HangarDesignation=General
+IsShipyard=false
+IsOrbitalDefense=false
+IsCarrierOnly=false
+# Maps module UIDs to Index, first UID has index 0
+ModuleUIDs=AdvArmored Solar collector Small;AdvArmored Solar collector Med;LaserBeamTurret2x2;Beam1x2;EnergyPD2x2;Shield_1KW;BasicFuelCell;Cockpit_Side;SalvageUnit;Fusion Reactor;FrigateEngine;PowerConduit;MediumCargoHold;WarpEngine_2x2;BasicCargoHold;WarpEngine_1x1
+Modules=67
+# gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
+6,0;0
+7,0;0
+8,0;1;2,2
+10,0;1;2,2
+12,0;0
+13,0;0
+6,1;2;2,2
+12,1;2;2,2
+8,2;3;1,2
+9,2;4;2,2
+11,2;3;1,2
+7,4;1;2,2
+9,4;5;2,2
+11,4;1;2,2
+6,5;0
+13,5;0
+7,6;0
+8,6;6
+9,6;7;2,1
+11,6;6
+12,6;0
+6,7;8;4,4;;;Opteris Constructor Mk2
+10,7;8;4,4;;;Opteris Constructor Mk2
+5,8;0
+14,8;0
+3,9;1;2,2
+5,9;6
+14,9;0
+15,9;1;2,2
+1,10;1;2,2
+17,10;1;2,2
+0,11;0
+5,11;2;2,2
+7,11;9;2,2
+9,11;5;2,2
+11,11;9;2,2
+13,11;2;2,2
+19,11;0
+6,13;6
+7,13;3;1,2
+8,13;10;2,2
+10,13;10;2,2
+12,13;11
+13,13;6
+5,14;2;2,2
+12,14;6
+13,14;2;2,2
+3,15;12;2,2
+8,15;13;2,2
+10,15;13;2,2
+15,15;12;2,2
+1,16;14
+2,16;14
+7,16;6
+12,16;6
+17,16;14
+18,16;14
+0,17;14
+1,17;14
+6,17;14
+7,17;14
+9,17;15
+10,17;15
+12,17;6
+13,17;14
+18,17;14
+19,17;14
