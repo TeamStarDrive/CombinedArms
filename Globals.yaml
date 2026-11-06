@@ -27,7 +27,6 @@ Globals:
   InCombatRepairModifier: 0.1 # repair rate modifier when a ship or planet is in combat
   SelfRepairMultiplier: 1.0 # base repair rate multiplier from ship command/engineering modules
   BonusRepairPerCrewLevel: 0.2 # +bonus rate based on crew level, 0.2 would be +20% increase per each crew level
-  InCombatSelfRepairModifier: 0 # repair rate modifier for command/engineering self repair when in combat  
   ShieldPowerMultiplier: 1.0 # Global multiplier for Shields
   ProjectileHitpointsMultiplier: 0.75 # Global multiplier for Projectile Hit Points (mainly affects missiles)
   ConstructionShipOrbitalDiscount: 100 # When building orbitals, constructor ship cost over this threshold will be added to the gross orbital cost  
@@ -44,7 +43,6 @@ Globals:
   EnableShipTechLineFocusing: false
   UseDestroyers: false
   EnableECM: false
-  UseCombatRepair: false
   DisableRemnantStory: false
   DisablePirates: false
   EnableSalvageOps: true # salvageable derelicts and salvage ships; mods do not inherit it and set it themselves
@@ -70,7 +68,7 @@ Globals:
   # mod information
   Mod:
     Name: "Combined Arms"
-    Version: "v1.60.0022"
+    Version: "v1.60.0023"
     FormatVersion: 1
     SupportedBlackBoxVersions: "main,jupiter-1.60"
     IconPath: Textures/s141.png
