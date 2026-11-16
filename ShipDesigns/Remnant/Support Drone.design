@@ -6,16 +6,15 @@ ModName=Combined Arms
 Style=Remnant
 Size=8,8
 GridCenter=4,4
-DefaultAIState=DoNothing
+FixedUpkeep=0.02
 DefaultCombatState=Artillery
 ShipCategory=Reckless
 HangarDesignation=General
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
-FixedUpkeep=0.02
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=RELaserGreen;AncientShield2kw;RepairDrone;RemnantSmallReactor;AncientReactorMed;Fabricator;REPD;OrdnanceLockerSmall;RECockpit;RemnantSmallFuelCell;WarpEngine_2x2;FrigateEngine
+ModuleUIDs=RELaserGreen;AncientShield2kw;RETractorBeamTurret2x2;RemnantSmallReactor;RepairDrone;AncientReactorMed;Fabricator;REPD;OrdnanceLockerSmall;RECockpit;RemnantSmallFuelCell;WarpEngine_2x2;FrigateEngine
 Modules=23
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 3,0;0
@@ -28,16 +27,16 @@ Modules=23
 0,2;2;2,2
 2,2;3
 5,2;3
-6,2;2;2,2
-2,3;4;2,2
-4,3;5;2,2
-1,4;6
-6,4;6;;180
-2,5;7
-3,5;8
-4,5;8
-5,5;9
+6,2;4;2,2
+2,3;5;2,2
+4,3;6;2,2
+1,4;7
+6,4;7;;180
+2,5;8
+3,5;9
+4,5;9
+5,5;10
 1,6;0;;210
-2,6;10;2,2
-4,6;11;2,2
+2,6;11;2,2
+4,6;12;2,2
 6,6;0;;150

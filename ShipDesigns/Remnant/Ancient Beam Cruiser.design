@@ -6,15 +6,15 @@ ModName=Combined Arms
 Style=Remnant
 Size=22,23
 GridCenter=11,11
+FixedUpkeep=0.5
 DefaultCombatState=Artillery
 ShipCategory=Reckless
 HangarDesignation=General
 IsShipyard=false
 IsOrbitalDefense=false
 IsCarrierOnly=false
-FixedUpkeep=0.5
 # Maps module UIDs to Index, first UID has index 0
-ModuleUIDs=RegenArmorSmall;CompositeAlloys Small;REPlasmaProjectorMod;REPD;REEmpBlaster;RemnantSmallFuelCell;REDisintegratorArray_small;REAmplifier;Shapememory_Alloys_small2;REBridge;REPD2x2;REDisintigratorTurret4x4;REPhasorTurret2x2;LightForceField;Shapememory_Alloys_Med2;AncientShield2kw;REReactor;REengine4x4Normal;REEngine
+ModuleUIDs=RegenArmorSmall;CompositeAlloys Small;REPlasmaProjectorMod;REPD;RETractorBeamTurret2x2;RemnantSmallFuelCell;REDisintegratorArray_small;REAmplifier;Shapememory_Alloys_small2;REBridge;REPD2x2;REDisintigratorTurret4x4;REPhasorTurret2x2;LightForceField;REEmpBlaster;Shapememory_Alloys_Med2;AncientShield2kw;REReactor;REengine4x4Normal;REEngine
 Modules=160
 # gridX,gridY;moduleUIDIndex;sizeX,sizeY;turretAngle;moduleRot;hangarShipUID
 10,0;0
@@ -34,7 +34,7 @@ Modules=160
 12,2;2;2,3
 14,2;1
 7,3;0
-10,3;4;2,2
+10,3;4;2,2;360
 14,3;0
 4,4;1
 5,4;1
@@ -103,20 +103,20 @@ Modules=160
 19,10;12;2,2;45
 21,10;0
 0,11;1
-7,11;12;2,2;345
+7,11;4;2,2;285
 9,11;8
 12,11;8
-13,11;12;2,2
+13,11;4;2,2;75
 21,11;1
 0,12;1
 1,12;1
 2,12;3;;195
-3,12;4;2,2;270
+3,12;14;2,2;270
 5,12;12;2,2;315
 9,12;8
 12,12;8
 15,12;12;2,2;45
-17,12;4;2,2;90
+17,12;14;2,2;90
 19,12;3;;165
 20,12;1
 21,12;1
@@ -136,8 +136,8 @@ Modules=160
 5,15;1
 6,15;3;;270
 7,15;12;2,2;195
-9,15;14;2,2
-11,15;14;2,2
+9,15;15;2,2
+11,15;15;2,2
 13,15;12;2,2;165
 15,15;3;;90
 16,15;1
@@ -150,11 +150,11 @@ Modules=160
 2,17;1
 3,17;12;2,2;180
 5,17;5
-6,17;15;2,2
-8,17;16;2,2
-10,17;14;2,2
-12,17;16;2,2
-14,17;15;2,2
+6,17;16;2,2
+8,17;17;2,2
+10,17;15;2,2
+12,17;17;2,2
+14,17;16;2,2
 16,17;5
 17,17;12;2,2;180
 19,17;1
@@ -164,9 +164,9 @@ Modules=160
 19,18;1
 3,19;1
 4,19;3;;210
-5,19;17;4,4
-9,19;18;4,4
-13,19;17;4,4
+5,19;18;4,4
+9,19;19;4,4
+13,19;18;4,4
 17,19;3;;150
 18,19;1
 3,20;1
