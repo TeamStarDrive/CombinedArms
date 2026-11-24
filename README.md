@@ -19,10 +19,10 @@ Combined Arms is based on Combomod (keeping the best parts in Combomod). We did 
 
 # Initial Installation:
 * Install the base blackbox release from [https://stardriveteam.itch.io/jupiter-1.60](https://stardriveteam.itch.io/jupiter-160)
-* Download the mod from the above link as well.
+* Update the release to the latest patch. You will see an update window on the left side of the main menu screen.
+* Once you are on the latest release, click on the "Mods" button and then on the "Available Mods" button on the left. You will then see a list of the supported mods.
 * Note that downloading the files is only needed for the first time you install Combined Arms. The auto updater will do this automatically for you if you click on the update prompt in the game's main menu when there is an update available.
 * It is recommended to remove your saved ship designs if you saved designs using the old combo mod. Usually its located in c:\users\[username]\.appdata\roaming\stardrive\saveddesigns
-* Update to the latest blackbox build before loading Combined Arms is recommended. The auto updater will prompt and install latest patch for you.
 * Start the game and load the mod from the mod menu.
 * Drop us a note in Discord chat (https://discord.gg/dfvnfH4).
 
